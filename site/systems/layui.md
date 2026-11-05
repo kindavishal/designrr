@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 3.1k KB |
 | License | MIT |
-| GitHub stars | 30.6k |
-| npm weekly downloads | 0 (`layui` 2.13.9) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://layui.dev |
 | Source | https://github.com/layui/layui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 30.6k | GitHub API (layui/layui) |
+| GitHub forks | 7.3k | GitHub API |
+| Contributors (incl. anonymous) | 76 | GitHub API |
+| Issues closed / open | 1.5k / 38 (97% closed) | GitHub API |
+| npm weekly downloads | 7.2k | npm (`layui` 2.13.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -70,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://l
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 10 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 10 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/layui.md_

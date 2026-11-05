@@ -1,6 +1,6 @@
 # Naive UI
 
-> TypeScript-first Vue 3 admin apps and dashboards with a big, themeable component set.
+> TypeScript-first Vue 3 admin apps and dashboards with a themeable component set.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 50.7k KB |
 | License | MIT |
-| GitHub stars | 18.6k |
-| npm weekly downloads | 194.8k (`naive-ui` 2.45.3) |
 | Last activity | 2026-10-05 |
 | Docs | https://www.naiveui.com |
 | Source | https://github.com/tusen-ai/naive-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 18.6k | GitHub API (tusen-ai/naive-ui) |
+| GitHub forks | 1.9k | GitHub API |
+| Contributors (incl. anonymous) | 368 | GitHub API |
+| Issues closed / open | 3.3k / 419 (89% closed) | GitHub API |
+| npm weekly downloads | 195.1k | npm (`naive-ui` 2.45.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.naiveui.com/llms.txt

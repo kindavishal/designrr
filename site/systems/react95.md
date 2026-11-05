@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 711 KB |
 | License | NOASSERTION |
-| GitHub stars | 3.8k |
-| npm weekly downloads | 1.9k (`react95` 4.0.0) |
 | Last activity | 2026-10-20 |
 | Docs | https://react95.github.io/React95/ |
 | Source | https://github.com/React95/React95 |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.8k | GitHub API (React95/React95) |
+| GitHub forks | 161 | GitHub API |
+| Contributors (incl. anonymous) | 56 | GitHub API |
+| Issues closed / open | 134 / 10 (93% closed) | GitHub API |
+| npm weekly downloads | 1.8k | npm (`react95` 4.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

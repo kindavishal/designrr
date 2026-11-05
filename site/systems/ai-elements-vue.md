@@ -5,22 +5,31 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **30/100** |
+| AI-readiness | **20/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | vue |
 | Styling | tailwind |
-| Install | CLI copies component source into your repo (requires: tailwind, bundler) |
+| Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | ai-app, chat; shapes: chat-ai |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10 KB |
 | License | NOASSERTION |
-| GitHub stars | 1.2k |
-| npm weekly downloads | 0 (`ai-elements-vue` 1.5.2) |
 | Last activity | 2026-10-11 |
 | Docs | https://www.ai-elements-vue.com |
 | Source | https://github.com/vuepont/ai-elements-vue |
 | Same family | [AI Elements](ai-elements.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.2k | GitHub API (vuepont/ai-elements-vue) |
+| GitHub forks | 99 | GitHub API |
+| Contributors (incl. anonymous) | 28 | GitHub API |
+| Issues closed / open | 27 / 8 (77% closed) | GitHub API |
+| npm weekly downloads | 481 | npm (`ai-elements-vue` 1.5.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -30,6 +39,7 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
+- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -60,13 +70,13 @@ Then follow the framework setup in the official getting-started guide: https://w
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 30 < 45.
+Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements-vue.md_

@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 10.4k KB |
 | License | MIT |
-| GitHub stars | 61 |
-| npm weekly downloads | 0 (`@ag.ds-next/react` 1.36.0) |
 | Last activity | 2026-10-23 |
 | Docs | https://design-system.agriculture.gov.au |
 | Source | https://github.com/agriculturegovau/agds-next |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 61 | GitHub API (agriculturegovau/agds-next) |
+| GitHub forks | 33 | GitHub API |
+| Contributors (incl. anonymous) | 22 | GitHub API |
+| Issues closed / open | 3 / 5 (38% closed) | GitHub API |
+| npm weekly downloads | 357 | npm (`@ag.ds-next/react` 1.36.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

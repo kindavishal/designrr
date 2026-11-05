@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **35/100** |
+| AI-readiness | **25/100** |
 | Maintainer | Forus Labs |
 | Platforms | ios, android, web, desktop |
 | Frameworks | flutter |
@@ -14,17 +14,29 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / yes |
 | License | NOASSERTION |
-| GitHub stars | 2.4k |
-| pub.dev likes | 448 (`forui`) |
 | Last activity | 2026-11-03 |
 | Docs | https://forui.dev |
 | Source | https://github.com/duobaseio/forui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.4k | GitHub API (duobaseio/forui) |
+| GitHub forks | 142 | GitHub API |
+| Contributors (incl. anonymous) | 31 | GitHub API |
+| Issues closed / open | 368 / 41 (90% closed) | GitHub API |
+| pub.dev likes | 448 | pub.dev (`forui`) |
+| pub.dev downloads (30 days) | 7.2k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
 - **Agent/contributor docs in repo:** https://github.com/duobaseio/forui/blob/HEAD/AGENTS.md
 
+## Consider an alternative if
+- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -54,13 +66,13 @@ flutter pub add forui
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 25 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/forui.md_

@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 24.2k KB |
 | License | NOASSERTION |
-| GitHub stars | 29.8k |
-| npm weekly downloads | 124.4k (`foundation-sites` 6.9.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://get.foundation |
 | Source | https://github.com/foundation/yeti |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 29.8k | GitHub API (foundation/yeti) |
+| GitHub forks | 5.4k | GitHub API |
+| Contributors (incl. anonymous) | 1.3k | GitHub API |
+| Issues closed / open | 8.2k / 64 (99% closed) | GitHub API |
+| npm weekly downloads | 124.1k | npm (`foundation-sites` 6.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

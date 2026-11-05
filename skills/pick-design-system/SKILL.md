@@ -23,9 +23,11 @@ Ask at most 3 short questions, and only if the answer would change the recommend
 1. Fetch `catalog.json` and filter by platform and framework (`vanilla` = no framework).
 2. Match the build setup: no bundler → `install.noBuild: true`; no Tailwind → drop `install.requires` containing `tailwind`.
 3. Drop `brandLocked` systems (unless the user is that brand), `government` ones (unless public sector) and `*-ecosystem` ones (unless building in that ecosystem).
-4. Rank by fit (`productShapes`, `tags`, `bestFor`, styling), then `tier`, `aiReadiness`, `popularity`. Keep one system per `family`.
+4. Rank by fit (`productShapes`, `tags`, `bestFor`, styling), then `tier`, `aiReadiness`, `popularity`. Keep one system per `family`. If the user wants proven or popular options, filter on `usage` (`githubStars`, `npmWeeklyDownloads`, `pubLikes`, `contributors`, `issuesClosedPct`, `lastRelease`).
 5. Fetch the `page` of the top 4–5 and check "Consider an alternative if". If `buildGuide.outdated` is true, plan to confirm setup in the system's own llms.txt or MCP server.
-4. Reply with the **top 3**: why each fits, its main trade-off, its AI-readiness score and its page link. Name your pick. Mention combinations where they apply (for example chat UI from AI Elements or assistant-ui on top of shadcn/ui).
+6. Reply with the **top 3**: why each fits, its main trade-off, its AI-readiness score and its page link. Name your pick. Mention combinations where they apply (for example chat UI from AI Elements or assistant-ui on top of shadcn/ui).
+
+Only state facts the catalog or the system's own docs give you. Quote usage numbers with their date rather than calling something "popular", and never invent ratings or reviews: the catalog has none.
 
 ## 3. Build (after the user picks, or right away if asked)
 1. Follow the system page's **Install** and **Setup** for the detected framework.

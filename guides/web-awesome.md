@@ -1,6 +1,7 @@
 ---
 writtenFor: "3"
 written: 2026-11-05
+verifiedAgainst: https://webawesome.com/llms.txt
 ---
 ## Install
 No build step needed. In `<head>` (pinned to v{{version}}, the latest release when this page was built):

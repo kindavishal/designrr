@@ -14,11 +14,20 @@
 | Good for | mobile, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / not detected |
 | License | Apache-2.0 |
-| GitHub stars | 17.4k |
 | Last activity | 2026-10-16 |
 | Docs | https://m3.material.io |
 | Source | https://github.com/material-components/material-components-android |
 | Same family | [Flutter Material 3](flutter-material.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 17.4k | GitHub API (material-components/material-components-android) |
+| GitHub forks | 3.2k | GitHub API |
+| Contributors (incl. anonymous) | 244 | GitHub API |
+| Issues closed / open | 2.9k / 683 (81% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -27,23 +36,36 @@
 ## Consider an alternative if
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide for Compose Material 3 (1.x), written 2026-11-05._
+_Hand-written guide for Compose Material 3, checked against https://developer.android.com/develop/ui/compose/designsystems/material3 on 2026-11-05._
 
 ## Install
 ```kotlin
-// build.gradle.kts
-implementation(platform("androidx.compose:compose-bom:<latest>"))
+// app/build.gradle.kts
+val composeBom = platform("androidx.compose:compose-bom:<latest>")
+implementation(composeBom)
 implementation("androidx.compose.material3:material3")
 ```
+The BOM keeps all Compose library versions aligned; check the Compose BOM page for the latest version.
 
 ## Setup
 ```kotlin
-MaterialTheme(colorScheme = if (isSystemInDarkTheme()) darkScheme else lightScheme, typography = AppTypography) { App() }
+MaterialTheme(
+  colorScheme = when {
+    dynamicColor && darkTheme -> dynamicDarkColorScheme(LocalContext.current)
+    dynamicColor && !darkTheme -> dynamicLightColorScheme(LocalContext.current)
+    darkTheme -> DarkColorScheme
+    else -> LightColorScheme
+  },
+  typography = AppTypography,
+) { App() }
 ```
-Generate `lightScheme`/`darkScheme` and typography from a brand colour with Material Theme Builder (exports Compose code). Support dynamic colour on Android 12+ with `dynamicLightColorScheme(context)`.
+Dynamic colour is available on Android 12+.
+
+## Theme it to a brand
+Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours with Material Theme Builder, which exports Compose theme code (`Color.kt`, `Theme.kt`, `Type.kt`).
 
 ## Agent tips
-- Use `Scaffold`, `TopAppBar`, `NavigationBar`/`NavigationSuiteScaffold` for adaptive layouts.
+- Use `Scaffold`, `TopAppBar` and the navigation components (`NavigationBar`, `NavigationSuiteScaffold`) for adaptive layouts.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

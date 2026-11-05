@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 16.4k KB |
 | License | Apache-2.0 |
-| GitHub stars | 280 |
-| npm weekly downloads | 31.7k (`fundamental-styles` 0.42.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://sap.github.io/fundamental-styles/ |
 | Source | https://github.com/SAP/fundamental-styles |
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP UI5 Web Components](ui5.md), [UI5 Web Components for React](ui5-react.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 280 | GitHub API (SAP/fundamental-styles) |
+| GitHub forks | 75 | GitHub API |
+| Contributors (incl. anonymous) | 94 | GitHub API |
+| Issues closed / open | 1.6k / 18 (99% closed) | GitHub API |
+| npm weekly downloads | 30.6k | npm (`fundamental-styles` 0.42.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

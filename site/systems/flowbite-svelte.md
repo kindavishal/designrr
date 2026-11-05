@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.3k KB |
 | License | MIT |
-| GitHub stars | 2.8k |
-| npm weekly downloads | 84.4k (`flowbite-svelte` 1.33.1) |
 | Last activity | 2026-06-27 |
 | Docs | https://flowbite-svelte.com |
 | Source | https://github.com/themesberg/flowbite-svelte |
 | Same family | [Flowbite](flowbite.md), [Flowbite React](flowbite-react.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.8k | GitHub API (themesberg/flowbite-svelte) |
+| GitHub forks | 327 | GitHub API |
+| Contributors (incl. anonymous) | 168 | GitHub API |
+| Issues closed / open | 895 / 42 (96% closed) | GitHub API |
+| npm weekly downloads | 84.6k | npm (`flowbite-svelte` 1.33.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

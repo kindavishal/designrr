@@ -5,21 +5,30 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **25/100** |
+| AI-readiness | **15/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | any |
 | Styling | tailwind |
-| Install | CLI copies component source into your repo (requires: tailwind, bundler) |
+| Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | framework-agnostic, marketing; shapes: marketing-site, content-site |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.7k KB |
 | License | MIT |
-| GitHub stars | 2.6k |
-| npm weekly downloads | 676 (`franken-ui` 2.1.2) |
 | Last activity | 2026-06-11 |
 | Docs | https://franken-ui.dev |
 | Source | https://github.com/franken-ui/ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.6k | GitHub API (franken-ui/ui) |
+| GitHub forks | 43 | GitHub API |
+| Contributors (incl. anonymous) | 4 | GitHub API |
+| Issues closed / open | 73 / 5 (94% closed) | GitHub API |
+| npm weekly downloads | 739 | npm (`franken-ui` 2.1.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -59,13 +68,13 @@ Then follow the framework setup in the official getting-started guide: https://f
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 0/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/franken-ui.md_

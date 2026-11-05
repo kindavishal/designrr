@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 80 KB |
 | License | MIT |
-| GitHub stars | 2.5k |
-| npm weekly downloads | 3.2k (`@webtui/css` 0.1.10) |
 | Last activity | 2026-10-12 |
 | Docs | https://webtui.ironclad.sh |
 | Source | https://github.com/webtui/webtui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.5k | GitHub API (webtui/webtui) |
+| GitHub forks | 51 | GitHub API |
+| Contributors (incl. anonymous) | 17 | GitHub API |
+| Issues closed / open | 91 / 2 (98% closed) | GitHub API |
+| npm weekly downloads | 2.8k | npm (`@webtui/css` 0.1.10) |
 
 ## AI resources (use these first)
 - llms.txt: not published

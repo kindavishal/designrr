@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.0k KB |
 | License | MPL-2.0 |
-| GitHub stars | 520 |
-| npm weekly downloads | 0 (`@hashicorp/design-system-components` 7.0.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://helios.hashicorp.design |
 | Source | https://github.com/hashicorp/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 520 | GitHub API (hashicorp/design-system) |
+| GitHub forks | 56 | GitHub API |
+| Contributors (incl. anonymous) | 52 | GitHub API |
+| Issues closed / open | 117 / 2 (98% closed) | GitHub API |
+| npm weekly downloads | 40.7k | npm (`@hashicorp/design-system-components` 7.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -71,6 +80,6 @@ Then follow the framework setup in the official getting-started guide: https://h
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/helios.md_

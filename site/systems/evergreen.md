@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 6.6k KB |
 | License | MIT |
-| GitHub stars | 12.4k |
-| npm weekly downloads | 14.5k (`evergreen-ui` 7.1.9) |
 | Last activity | 2025-06-11 |
 | Docs | https://evergreen.segment.com |
 | Source | https://github.com/segmentio/evergreen |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 12.4k | GitHub API (segmentio/evergreen) |
+| GitHub forks | 802 | GitHub API |
+| Contributors (incl. anonymous) | 163 | GitHub API |
+| Issues closed / open | 458 / 43 (91% closed) | GitHub API |
+| npm weekly downloads | 14.6k | npm (`evergreen-ui` 7.1.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published

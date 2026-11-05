@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.3k KB |
 | License | MIT |
-| GitHub stars | 5.6k |
-| npm weekly downloads | 53.7k (`open-props` 1.7.23) |
 | Last activity | 2026-10-11 |
 | Docs | https://open-props.style |
 | Source | https://github.com/argyleink/open-props |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.6k | GitHub API (argyleink/open-props) |
+| GitHub forks | 220 | GitHub API |
+| Contributors (incl. anonymous) | 67 | GitHub API |
+| Issues closed / open | 214 / 76 (74% closed) | GitHub API |
+| npm weekly downloads | 54.4k | npm (`open-props` 1.7.23) |
 
 ## AI resources (use these first)
 - llms.txt: not published

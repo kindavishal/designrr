@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 31 KB |
 | License | MIT |
-| GitHub stars | 361 |
-| npm weekly downloads | 0 (`@contentful/f36-components` 6.30.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://f36.contentful.com |
 | Source | https://github.com/contentful/forma-36 |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 361 | GitHub API (contentful/forma-36) |
+| GitHub forks | 82 | GitHub API |
+| Contributors (incl. anonymous) | 165 | GitHub API |
+| Issues closed / open | 247 / 11 (96% closed) | GitHub API |
+| npm weekly downloads | 304.8k | npm (`@contentful/f36-components` 6.30.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://f
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/forma-36.md_

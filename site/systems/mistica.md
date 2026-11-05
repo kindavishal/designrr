@@ -16,11 +16,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 43.1k KB |
 | License | MIT |
-| GitHub stars | 35 |
-| npm weekly downloads | 3.5k (`@telefonica/mistica` 17.11.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://mistica-web.vercel.app |
 | Source | https://github.com/Telefonica/mistica |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 35 | GitHub API (Telefonica/mistica) |
+| GitHub forks | 3 | GitHub API |
+| Contributors (incl. anonymous) | 8 | GitHub API |
+| Issues closed / open | 0 / 2 (0% closed) | GitHub API |
+| npm weekly downloads | 4.3k | npm (`@telefonica/mistica` 17.11.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

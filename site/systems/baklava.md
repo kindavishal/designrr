@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.3k KB |
 | License | MIT |
-| GitHub stars | 1.4k |
-| npm weekly downloads | 2.2k (`@trendyol/baklava` 3.5.0) |
 | Last activity | 2026-10-26 |
 | Docs | https://baklava.design |
 | Source | https://github.com/Trendyol/baklava |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.4k | GitHub API (Trendyol/baklava) |
+| GitHub forks | 136 | GitHub API |
+| Contributors (incl. anonymous) | 89 | GitHub API |
+| Issues closed / open | 340 / 125 (73% closed) | GitHub API |
+| npm weekly downloads | 2.8k | npm (`@trendyol/baklava` 3.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -1,6 +1,6 @@
 # PrimeNG
 
-> Angular apps needing a very large component set (data tables, charts, editors) with themes.
+> Angular apps that need a large component set (data tables, charts, editors) with themes.
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 6.6k KB |
 | License | NOASSERTION |
-| GitHub stars | 12.5k |
-| npm weekly downloads | 911.9k (`primeng` 22.1.4) |
 | Last activity | 2026-10-22 |
 | Docs | https://primeng.org |
 | Source | https://github.com/primefaces/primeng |
 | Same family | [PrimeVue](primevue.md), [PrimeReact](primereact.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 12.5k | GitHub API (primefaces/primeng) |
+| GitHub forks | 5.1k | GitHub API |
+| Contributors (incl. anonymous) | 979 | GitHub API |
+| Issues closed / open | 14.3k / 993 (93% closed) | GitHub API |
+| npm weekly downloads | 908.6k | npm (`primeng` 22.1.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primeng.org/llms/llms.txt

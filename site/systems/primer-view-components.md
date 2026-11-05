@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.7k KB |
 | License | MIT |
-| GitHub stars | 583 |
-| npm weekly downloads | 29.7k (`@primer/view-components` 0.53.5) |
 | Last activity | 2026-11-02 |
 | Docs | https://primer.style/view-components |
 | Source | https://github.com/primer/view_components |
 | Same family | [Primer](primer.md), [Primer Primitives (tokens)](primer-primitives.md), [Primer CSS](primer-css.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 583 | GitHub API (primer/view_components) |
+| GitHub forks | 145 | GitHub API |
+| Contributors (incl. anonymous) | 129 | GitHub API |
+| Issues closed / open | 338 / 1 (100% closed) | GitHub API |
+| npm weekly downloads | 29.5k | npm (`@primer/view-components` 0.53.5) |
 
 ## AI resources (use these first)
 - llms.txt: not published

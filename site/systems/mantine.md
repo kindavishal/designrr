@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.8k KB |
 | License | MIT |
-| GitHub stars | 31.9k |
-| npm weekly downloads | 3.5M (`@mantine/core` 9.7.5) |
 | Last activity | 2026-11-04 |
 | Docs | https://mantine.dev |
 | Source | https://github.com/mantinedev/mantine |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 31.9k | GitHub API (mantinedev/mantine) |
+| GitHub forks | 2.4k | GitHub API |
+| Contributors (incl. anonymous) | 840 | GitHub API |
+| Issues closed / open | 3.7k / 11 (100% closed) | GitHub API |
+| npm weekly downloads | 3.6M | npm (`@mantine/core` 9.7.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://mantine.dev/llms.txt

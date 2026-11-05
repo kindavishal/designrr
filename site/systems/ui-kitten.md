@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 10.7k |
-| npm weekly downloads | 11.8k (`@ui-kitten/components` 6.2.1) |
 | Last activity | 2026-10-06 |
 | Docs | https://akveo.github.io/react-native-ui-kitten/ |
 | Source | https://github.com/akveo/react-native-ui-kitten |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 10.7k | GitHub API (akveo/react-native-ui-kitten) |
+| GitHub forks | 961 | GitHub API |
+| Contributors (incl. anonymous) | 65 | GitHub API |
+| Issues closed / open | 1.2k / 15 (99% closed) | GitHub API |
+| npm weekly downloads | 11.0k | npm (`@ui-kitten/components` 6.2.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

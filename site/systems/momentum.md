@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.1k KB |
 | License | MIT |
-| GitHub stars | 44 |
-| npm weekly downloads | 6.8k (`@momentum-design/components` 0.142.7) |
 | Last activity | 2026-11-04 |
 | Docs | https://momentum.design |
 | Source | https://github.com/momentum-design/momentum-design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 44 | GitHub API (momentum-design/momentum-design) |
+| GitHub forks | 68 | GitHub API |
+| Contributors (incl. anonymous) | 50 | GitHub API |
+| Issues closed / open | 47 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 7.4k | npm (`@momentum-design/components` 0.142.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published

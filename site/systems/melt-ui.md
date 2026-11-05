@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.1k KB |
 | License | MIT |
-| GitHub stars | 4.2k |
-| npm weekly downloads | 0 (`@melt-ui/svelte` 0.86.6) |
 | Last activity | 2025-09-30 |
 | Docs | https://melt-ui.com |
 | Source | https://github.com/melt-ui/melt-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.2k | GitHub API (melt-ui/melt-ui) |
+| GitHub forks | 228 | GitHub API |
+| Contributors (incl. anonymous) | 125 | GitHub API |
+| Issues closed / open | 401 / 113 (78% closed) | GitHub API |
+| npm weekly downloads | 184.4k | npm (`@melt-ui/svelte` 0.86.6) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -28,7 +37,7 @@
 ## Consider an alternative if
 - you want a finished visual style out of the box. This is headless; you supply all styling.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 400 days ago).
+- maintenance has slowed (last activity 401 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://m
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars. Notes: Last activity 400 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 401 days ago (12-24 months).
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/melt-ui.md_

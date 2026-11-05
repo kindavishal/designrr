@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 3.3k KB |
 | License | — |
-| GitHub stars | 31 |
-| npm weekly downloads | 2.5k (`@vtex/shoreline` 1.12.21) |
 | Last activity | 2026-10-14 |
 | Docs | https://shoreline.vtex.com |
 | Source | https://github.com/vtex/shoreline |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 31 | GitHub API (vtex/shoreline) |
+| GitHub forks | 9 | GitHub API |
+| Contributors (incl. anonymous) | 68 | GitHub API |
+| Issues closed / open | 599 / 96 (86% closed) | GitHub API |
+| npm weekly downloads | 2.8k | npm (`@vtex/shoreline` 1.12.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published

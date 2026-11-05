@@ -4,7 +4,11 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 const fmt = (n) => (n == null ? '—' : n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? (n / 1e3).toFixed(1) + 'k' : String(n));
 const TIER_ORDER = { recommended: 0, solid: 1, watch: 2 };
 const TIER_VARIANT = { recommended: 'success', solid: 'brand', watch: 'warning' };
-const SELECTS = { platform: 'f-platform', framework: 'f-framework', shape: 'f-shape', tier: 'f-tier', sort: 'sort' };
+const SELECTS = { platform: 'f-platform', framework: 'f-framework', shape: 'f-shape', tier: 'f-tier', stars: 'f-stars', downloads: 'f-downloads', active: 'f-active', issues: 'f-issues', sort: 'sort' };
+const DAY = 86400000;
+const daysAgo = (iso) => (iso ? (Date.now() - new Date(iso).getTime()) / DAY : Infinity);
+// A system with no number for a usage filter is excluded by that filter (unknown is not "enough").
+const atLeast = (value, min) => !min || (value != null && value >= Number(min));
 const SWITCHES = { nobuild: ['f-nobuild', false], notailwind: ['f-notailwind', false], mcp: ['f-mcp', false], brand: ['f-brand', true], family: ['f-family', true] };
 
 function addOptions(select, values, labels = {}) {
@@ -47,8 +51,11 @@ function card(s) {
     </div>
     <div slot="footer" class="wa-cluster wa-gap-m card-stats wa-caption-m">
       <span>AI <strong>${s.aiReadiness}</strong>/100</span>
-      <span><wa-icon name="star" label="GitHub stars"></wa-icon> <strong>${fmt(s.stars)}</strong></span>
-      ${s.npmWeeklyDownloads != null ? `<span>npm/wk <strong>${fmt(s.npmWeeklyDownloads)}</strong></span>` : ''}
+      ${s.usage.githubStars != null ? `<span><wa-icon name="star" label="GitHub stars"></wa-icon> <strong>${fmt(s.usage.githubStars)}</strong></span>` : ''}
+      ${s.usage.npmWeeklyDownloads != null ? `<span>npm/wk <strong>${fmt(s.usage.npmWeeklyDownloads)}</strong></span>` : ''}
+      ${s.usage.pubLikes != null ? `<span>pub likes <strong>${fmt(s.usage.pubLikes)}</strong></span>` : ''}
+      ${s.usage.contributors != null ? `<span><wa-icon name="users" label="Contributors"></wa-icon> <strong>${fmt(s.usage.contributors)}</strong></span>` : ''}
+      ${s.usage.issuesClosedPct != null ? `<span>issues closed <strong>${s.usage.issuesClosedPct}%</strong></span>` : ''}
     </div>
   </wa-card>`;
 }
@@ -78,16 +85,25 @@ function render() {
     (!st.notailwind || !s.install.requires.includes('tailwind')) &&
     (!st.mcp || s.mcp) &&
     (!st.brand || !s.brandLocked) &&
+    atLeast(s.usage.githubStars, st.stars) &&
+    atLeast(s.usage.npmWeeklyDownloads, st.downloads) &&
+    atLeast(s.usage.issuesClosedPct, st.issues) &&
+    (!st.active || Math.min(daysAgo(s.usage.lastCommit), daysAgo(s.usage.lastRelease), daysAgo(s.lastActivity)) <= Number(st.active)) &&
     words.every((w) => [s.name, s.org, s.bestFor, ...s.tags, ...s.frameworks, ...s.productShapes].join(' ').toLowerCase().includes(w)));
   const sorters = {
     best: (a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier] || (b.aiReadiness + b.popularity) - (a.aiReadiness + a.popularity),
     ai: (a, b) => b.aiReadiness - a.aiReadiness || b.popularity - a.popularity,
     popular: (a, b) => b.popularity - a.popularity,
+    // Usage sorts put systems without the number last.
+    stars: (a, b) => (b.usage.githubStars ?? -1) - (a.usage.githubStars ?? -1),
+    downloads: (a, b) => (b.usage.npmWeeklyDownloads ?? -1) - (a.usage.npmWeeklyDownloads ?? -1),
+    contributors: (a, b) => (b.usage.contributors ?? -1) - (a.usage.contributors ?? -1),
+    issues: (a, b) => (b.usage.issuesClosedPct ?? -1) - (a.usage.issuesClosedPct ?? -1),
     name: (a, b) => a.name.localeCompare(b.name),
   };
   rows.sort(sorters[st.sort] || sorters.best);
   if (st.family) { const seen = new Set(); rows = rows.filter((s) => !seen.has(s.family) && seen.add(s.family)); }
-  $('count').textContent = `${rows.length} of ${cat.systems.length} systems`;
+  $('count').textContent = `${rows.length} of ${cat.systems.length} systems · usage numbers as of ${cat.updated}`;
   $('grid').innerHTML = rows.map(card).join('');
   $('empty').hidden = rows.length > 0;
 }

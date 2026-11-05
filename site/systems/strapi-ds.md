@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 587 KB |
 | License | MIT |
-| GitHub stars | 540 |
-| npm weekly downloads | 0 (`@strapi/design-system` 2.2.4) |
 | Last activity | 2026-10-30 |
 | Docs | https://design-system.strapi.io |
 | Source | https://github.com/strapi/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 540 | GitHub API (strapi/design-system) |
+| GitHub forks | 206 | GitHub API |
+| Contributors (incl. anonymous) | 84 | GitHub API |
+| Issues closed / open | 236 / 10 (96% closed) | GitHub API |
+| npm weekly downloads | 385.9k | npm (`@strapi/design-system` 2.2.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -66,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/strapi-ds.md_

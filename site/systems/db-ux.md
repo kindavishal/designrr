@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10.1k KB |
 | License | NOASSERTION |
-| GitHub stars | 137 |
-| npm weekly downloads | 0 (`@db-ux/core-components` 6.2.1) |
 | Last activity | 2026-11-05 |
 | Docs | https://design-system.deutschebahn.com |
 | Source | https://github.com/db-ux-design-system/core-web |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 137 | GitHub API (db-ux-design-system/core-web) |
+| GitHub forks | 27 | GitHub API |
+| Contributors (incl. anonymous) | 23 | GitHub API |
+| Issues closed / open | 1.1k / 135 (89% closed) | GitHub API |
+| npm weekly downloads | 2.8k | npm (`@db-ux/core-components` 6.2.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

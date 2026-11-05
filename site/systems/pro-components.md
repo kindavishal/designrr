@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 4.9k |
-| npm weekly downloads | 0 (`@ant-design/pro-components` 2.8.10) |
 | Last activity | 2026-11-01 |
 | Docs | https://procomponents.ant.design |
 | Source | https://github.com/ant-design/pro-components |
 | Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Mobile](ant-design-mobile.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.9k | GitHub API (ant-design/pro-components) |
+| GitHub forks | 1.4k | GitHub API |
+| Contributors (incl. anonymous) | 752 | GitHub API |
+| Issues closed / open | 6.9k / 3 (100% closed) | GitHub API |
+| npm weekly downloads | 180.3k | npm (`@ant-design/pro-components` 2.8.10) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://p
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/pro-components.md_

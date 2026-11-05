@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| GitHub stars | 154 |
-| npm weekly downloads | 17.3k (`@rhds/elements` 5.0.0) |
 | Last activity | 2026-10-28 |
 | Docs | https://ux.redhat.com |
 | Source | https://github.com/RedHat-UX/red-hat-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 154 | GitHub API (RedHat-UX/red-hat-design-system) |
+| GitHub forks | 38 | GitHub API |
+| Contributors (incl. anonymous) | 37 | GitHub API |
+| Issues closed / open | 1.2k / 101 (92% closed) | GitHub API |
+| npm weekly downloads | 17.4k | npm (`@rhds/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

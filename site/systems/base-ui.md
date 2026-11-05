@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 10.1k KB |
 | License | MIT |
-| GitHub stars | 11.3k |
-| npm weekly downloads | 27.1M (`@base-ui/react` 1.9.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://base-ui.com |
 | Source | https://github.com/mui/base-ui |
 | Same family | [Material UI (MUI)](mui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 11.3k | GitHub API (mui/base-ui) |
+| GitHub forks | 598 | GitHub API |
+| Contributors (incl. anonymous) | 334 | GitHub API |
+| Issues closed / open | 1.3k / 312 (81% closed) | GitHub API |
+| npm weekly downloads | 27.4M | npm (`@base-ui/react` 1.9.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://base-ui.com/llms.txt

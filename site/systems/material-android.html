@@ -71,23 +71,47 @@
     
     
     <article class="wa-prose">
-<table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>20/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Google (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>android</td></tr><tr><th scope="row">Frameworks</th><td>jetpack-compose, android-views</td></tr><tr><th scope="row">Styling</th><td>native</td></tr><tr><th scope="row">Install</th><td>Ships with the platform SDK (requires: native-toolchain)</td></tr><tr><th scope="row">Good for</th><td>mobile, consumer; shapes: mobile-app</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / not detected</td></tr><tr><th scope="row">License</th><td>Apache-2.0</td></tr><tr><th scope="row">GitHub stars</th><td>17.4k</td></tr><tr><th scope="row">Last activity</th><td>2026-10-16</td></tr><tr><th scope="row">Docs</th><td><a href="https://m3.material.io">https://m3.material.io</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/material-components/material-components-android">https://github.com/material-components/material-components-android</a></td></tr><tr><th scope="row">Same family</th><td><a href="flutter-material.md">Flutter Material 3</a>, <a href="angular-material.md">Angular Material</a>, <a href="material-web.md">Material Web</a></td></tr></tbody></table>
+<table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>20/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Google (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>android</td></tr><tr><th scope="row">Frameworks</th><td>jetpack-compose, android-views</td></tr><tr><th scope="row">Styling</th><td>native</td></tr><tr><th scope="row">Install</th><td>Ships with the platform SDK (requires: native-toolchain)</td></tr><tr><th scope="row">Good for</th><td>mobile, consumer; shapes: mobile-app</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / not detected</td></tr><tr><th scope="row">License</th><td>Apache-2.0</td></tr><tr><th scope="row">Last activity</th><td>2026-10-16</td></tr><tr><th scope="row">Docs</th><td><a href="https://m3.material.io">https://m3.material.io</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/material-components/material-components-android">https://github.com/material-components/material-components-android</a></td></tr><tr><th scope="row">Same family</th><td><a href="flutter-material.md">Flutter Material 3</a>, <a href="angular-material.md">Angular Material</a>, <a href="material-web.md">Material Web</a></td></tr></tbody></table>
+<h2 id="public-usage-feedback">Public usage &amp; feedback</h2>
+<p>Numbers as reported by each source on 2026-11-05; nothing is estimated.</p>
+<table><thead><tr><th>Signal</th><th>Value</th><th>Source</th></tr></thead><tbody><tr><td>GitHub stars</td><td>17.4k</td><td>GitHub API (material-components/material-components-android)</td></tr><tr><td>GitHub forks</td><td>3.2k</td><td>GitHub API</td></tr><tr><td>Contributors (incl. anonymous)</td><td>244</td><td>GitHub API</td></tr><tr><td>Issues closed / open</td><td>2.9k / 683 (81% closed)</td><td>GitHub API</td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li>llms.txt: not published</li><li>MCP server: none found</li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
 <ul><li>you rely on agent tooling. This system has few machine-readable resources.</li></ul>
-<p><em>Hand-written guide for Compose Material 3 (1.x), written 2026-11-05.</em></p>
+<p><em>Hand-written guide for Compose Material 3, checked against <a href="https://developer.android.com/develop/ui/compose/designsystems/material3">https://developer.android.com/develop/ui/compose/designsystems/material3</a> on 2026-11-05.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="kotlin">// build.gradle.kts
-implementation(platform(&quot;androidx.compose:compose-bom:&lt;latest&gt;&quot;))
-implementation(&quot;androidx.compose.material3:material3&quot;)</code></pre><wa-copy-button value="// build.gradle.kts
-implementation(platform(&quot;androidx.compose:compose-bom:&lt;latest&gt;&quot;))
+<div class="code-block"><pre><code data-lang="kotlin">// app/build.gradle.kts
+val composeBom = platform(&quot;androidx.compose:compose-bom:&lt;latest&gt;&quot;)
+implementation(composeBom)
+implementation(&quot;androidx.compose.material3:material3&quot;)</code></pre><wa-copy-button value="// app/build.gradle.kts
+val composeBom = platform(&quot;androidx.compose:compose-bom:&lt;latest&gt;&quot;)
+implementation(composeBom)
 implementation(&quot;androidx.compose.material3:material3&quot;)" class="code-copy"></wa-copy-button></div>
+<p>The BOM keeps all Compose library versions aligned; check the Compose BOM page for the latest version.</p>
 <h2 id="setup">Setup</h2>
-<div class="code-block"><pre><code data-lang="kotlin">MaterialTheme(colorScheme = if (isSystemInDarkTheme()) darkScheme else lightScheme, typography = AppTypography) { App() }</code></pre><wa-copy-button value="MaterialTheme(colorScheme = if (isSystemInDarkTheme()) darkScheme else lightScheme, typography = AppTypography) { App() }" class="code-copy"></wa-copy-button></div>
-<p>Generate <code>lightScheme</code>/<code>darkScheme</code> and typography from a brand colour with Material Theme Builder (exports Compose code). Support dynamic colour on Android 12+ with <code>dynamicLightColorScheme(context)</code>.</p>
+<div class="code-block"><pre><code data-lang="kotlin">MaterialTheme(
+  colorScheme = when {
+    dynamicColor &amp;&amp; darkTheme -&gt; dynamicDarkColorScheme(LocalContext.current)
+    dynamicColor &amp;&amp; !darkTheme -&gt; dynamicLightColorScheme(LocalContext.current)
+    darkTheme -&gt; DarkColorScheme
+    else -&gt; LightColorScheme
+  },
+  typography = AppTypography,
+) { App() }</code></pre><wa-copy-button value="MaterialTheme(
+  colorScheme = when {
+    dynamicColor &amp;&amp; darkTheme -&gt; dynamicDarkColorScheme(LocalContext.current)
+    dynamicColor &amp;&amp; !darkTheme -&gt; dynamicLightColorScheme(LocalContext.current)
+    darkTheme -&gt; DarkColorScheme
+    else -&gt; LightColorScheme
+  },
+  typography = AppTypography,
+) { App() }" class="code-copy"></wa-copy-button></div>
+<p>Dynamic colour is available on Android 12+.</p>
+<h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
+<p>Generate <code>LightColorScheme</code>, <code>DarkColorScheme</code> and typography from brand colours with Material Theme Builder, which exports Compose theme code (<code>Color.kt</code>, <code>Theme.kt</code>, <code>Type.kt</code>).</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Use <code>Scaffold</code>, <code>TopAppBar</code>, <code>NavigationBar</code>/<code>NavigationSuiteScaffold</code> for adaptive layouts.</li></ul>
+<ul><li>Use <code>Scaffold</code>, <code>TopAppBar</code> and the navigation components (<code>NavigationBar</code>, <code>NavigationSuiteScaffold</code>) for adaptive layouts.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
@@ -98,7 +122,7 @@ implementation(&quot;androidx.compose.material3:material3&quot;)" class="code-co
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#public-usage-feedback">Public usage &amp; feedback</a></li><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="material-android.md" class="wa-caption-m">Markdown version</a>

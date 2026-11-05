@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| GitHub stars | 693 |
-| npm weekly downloads | 198.7k (`@vibe/core` 4.5.38) |
 | Last activity | 2026-10-19 |
 | Docs | https://vibe.monday.com |
 | Source | https://github.com/mondaycom/vibe |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 693 | GitHub API (mondaycom/vibe) |
+| GitHub forks | 367 | GitHub API |
+| Contributors (incl. anonymous) | 201 | GitHub API |
+| Issues closed / open | 231 / 11 (95% closed) | GitHub API |
+| npm weekly downloads | 210.0k | npm (`@vibe/core` 4.5.38) |
 
 ## AI resources (use these first)
 - llms.txt: not published

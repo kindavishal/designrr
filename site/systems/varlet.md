@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.1k KB |
 | License | MIT |
-| GitHub stars | 5.3k |
-| npm weekly downloads | 2.1k (`@varlet/ui` 3.20.9) |
 | Last activity | 2026-10-29 |
 | Docs | https://varletjs.org |
 | Source | https://github.com/varletjs/varlet |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.3k | GitHub API (varletjs/varlet) |
+| GitHub forks | 618 | GitHub API |
+| Contributors (incl. anonymous) | 126 | GitHub API |
+| Issues closed / open | 730 / 10 (99% closed) | GitHub API |
+| npm weekly downloads | 1.8k | npm (`@varlet/ui` 3.20.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published

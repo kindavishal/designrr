@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 7.3k KB |
 | License | MIT |
-| GitHub stars | 2.0k |
-| npm weekly downloads | 0 (`@lion/ui` 0.26.0) |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-05 |
 | Docs | https://lion.js.org |
 | Source | https://github.com/ing-bank/lion |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.0k | GitHub API (ing-bank/lion) |
+| GitHub forks | 355 | GitHub API |
+| Contributors (incl. anonymous) | 194 | GitHub API |
+| Issues closed / open | 536 / 77 (87% closed) | GitHub API |
+| npm weekly downloads | 8.3k | npm (`@lion/ui` 0.26.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://l
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lion.md_

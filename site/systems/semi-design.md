@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 59.6k KB |
 | License | NOASSERTION |
-| GitHub stars | 10.5k |
-| npm weekly downloads | 26.7k (`@douyinfe/semi-ui` 2.104.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://semi.design |
 | Source | https://github.com/DouyinFE/semi-design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 10.5k | GitHub API (DouyinFE/semi-design) |
+| GitHub forks | 853 | GitHub API |
+| Contributors (incl. anonymous) | 170 | GitHub API |
+| Issues closed / open | 1.8k / 62 (97% closed) | GitHub API |
+| npm weekly downloads | 26.7k | npm (`@douyinfe/semi-ui` 2.104.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

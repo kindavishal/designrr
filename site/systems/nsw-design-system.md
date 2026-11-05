@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.1k KB |
 | License | MIT |
-| GitHub stars | 90 |
-| npm weekly downloads | 2.6k (`nsw-design-system` 3.28.1) |
 | Last activity | 2026-10-26 |
 | Docs | https://designsystem.nsw.gov.au |
 | Source | https://github.com/NSWGTP/nsw-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 90 | GitHub API (NSWGTP/nsw-design-system) |
+| GitHub forks | 41 | GitHub API |
+| Contributors (incl. anonymous) | 57 | GitHub API |
+| Issues closed / open | 68 / 4 (94% closed) | GitHub API |
+| npm weekly downloads | 2.6k | npm (`nsw-design-system` 3.28.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 65 KB |
 | License | MIT |
-| GitHub stars | 163 |
-| npm weekly downloads | 13.9k (`@khanacademy/wonder-blocks-core` 12.5.0) |
 | Last activity | 2026-10-30 |
 | Docs | https://khan.github.io/wonder-blocks/ |
 | Source | https://github.com/Khan/wonder-blocks |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 163 | GitHub API (Khan/wonder-blocks) |
+| GitHub forks | 12 | GitHub API |
+| Contributors (incl. anonymous) | 74 | GitHub API |
+| Issues closed / open | 0 / 0 | GitHub API |
+| npm weekly downloads | 10.1k | npm (`@khanacademy/wonder-blocks-core` 12.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

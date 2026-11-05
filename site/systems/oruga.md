@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.0k KB |
 | License | MIT |
-| GitHub stars | 1.2k |
-| npm weekly downloads | 8.7k (`@oruga-ui/oruga-next` 0.14.5) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://oruga-ui.com |
 | Source | https://github.com/oruga-ui/oruga |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.2k | GitHub API (oruga-ui/oruga) |
+| GitHub forks | 166 | GitHub API |
+| Contributors (incl. anonymous) | 89 | GitHub API |
+| Issues closed / open | 489 / 15 (97% closed) | GitHub API |
+| npm weekly downloads | 9.2k | npm (`@oruga-ui/oruga-next` 0.14.5) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -15,11 +15,20 @@
 | Good for | travel, booking, consumer |
 | Dark mode / RTL | yes / yes |
 | License | Apache-2.0 |
-| GitHub stars | 162 |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://www.skyscanner.design |
 | Source | https://github.com/Skyscanner/backpack-android |
 | Same family | [Skyscanner Backpack iOS](backpack-ios.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 162 | GitHub API (Skyscanner/backpack-android) |
+| GitHub forks | 37 | GitHub API |
+| Contributors (incl. anonymous) | 86 | GitHub API |
+| Issues closed / open | 26 / 3 (90% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published

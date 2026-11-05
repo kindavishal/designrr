@@ -14,10 +14,19 @@
 | Good for | government, public-service |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| GitHub stars | 684 |
 | Last activity | 2026-10-21 |
 | Docs | https://design.digital.go.jp |
 | Source | https://github.com/digital-go-jp/design-system-example-components-react |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 683 | GitHub API (digital-go-jp/design-system-example-components-react) |
+| GitHub forks | 44 | GitHub API |
+| Contributors (incl. anonymous) | 3 | GitHub API |
+| Issues closed / open | 14 / 0 (100% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published

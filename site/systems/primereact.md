@@ -1,6 +1,6 @@
 # PrimeReact
 
-> React apps needing a very large component set (data tables, charts, editors) with themes.
+> React apps that need a large component set (data tables, charts, editors) with themes.
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.4k KB |
 | License | MIT |
-| GitHub stars | 8.3k |
-| npm weekly downloads | 435.0k (`primereact` 11.2.2) |
 | Last activity | 2026-10-22 |
 | Docs | https://primereact.org |
 | Source | https://github.com/primefaces/primereact |
 | Same family | [PrimeVue](primevue.md), [PrimeNG](primeng.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.3k | GitHub API (primefaces/primereact) |
+| GitHub forks | 1.2k | GitHub API |
+| Contributors (incl. anonymous) | 374 | GitHub API |
+| Issues closed / open | 5.4k / 282 (95% closed) | GitHub API |
+| npm weekly downloads | 426.7k | npm (`primereact` 11.2.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primereact.org/llms.txt

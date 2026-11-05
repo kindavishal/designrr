@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 50.7k KB |
 | License | MIT |
-| GitHub stars | 664 |
-| npm weekly downloads | 0 (`@razorpay/blade` 12.130.2) |
 | Last activity | 2026-10-29 |
 | Docs | https://blade.razorpay.com |
 | Source | https://github.com/razorpay/blade |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 664 | GitHub API (razorpay/blade) |
+| GitHub forks | 205 | GitHub API |
+| Contributors (incl. anonymous) | 125 | GitHub API |
+| Issues closed / open | 330 / 102 (76% closed) | GitHub API |
+| npm weekly downloads | 5.3k | npm (`@razorpay/blade` 12.130.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -72,6 +81,6 @@ Then follow the framework setup in the official getting-started guide: https://b
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/blade.md_

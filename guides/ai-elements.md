@@ -1,16 +1,20 @@
 ---
 writtenFor: "1"
 written: 2026-11-05
+verifiedAgainst: https://ai-sdk.dev/elements/llms.txt
 ---
 ## Install
+Prerequisites: React 19, Tailwind CSS 4, shadcn/ui (set up automatically if missing) and the AI SDK (`npm i ai @ai-sdk/react zod`).
 ```bash
-npx ai-elements@latest            # or: npx shadcn@latest add https://registry.ai-sdk.dev/all.json
+npx ai-elements@latest                      # pick components interactively
+npx ai-elements@latest add message
+# or via the shadcn CLI: npx shadcn@latest add @ai-elements/message
 ```
-Requires a shadcn/ui setup (Tailwind + CSS variables) and the Vercel AI SDK (`npm install ai @ai-sdk/react`).
 
 ## What you get
-`Conversation`, `Message`, `PromptInput`, `Response` (streaming markdown), `Reasoning`, `Tool`, `Sources`, `CodeBlock`, `Suggestion`, … as owned source in your repo.
+Composable chat and agent UI as source in your repo: `Message` / `MessageContent` / `MessageResponse` (streaming Markdown), prompt input, reasoning, tool calls, sources, code blocks and more, aware of AI SDK streaming states.
 
 ## Agent tips
-- Pair with `useChat` from `@ai-sdk/react`; components accept the AI SDK's message parts directly.
-- Pick this *with* a base system (usually shadcn/ui), not instead of one.
+- Pair with `useChat` from `@ai-sdk/react`; components take AI SDK message types (`UIMessage`).
+- Choose it alongside a base system (usually shadcn/ui), not instead of one.
+- Unstyled components usually mean the shadcn/ui Tailwind 4 setup (globals.css) is missing.

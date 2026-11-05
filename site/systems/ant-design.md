@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 48.3k KB |
 | License | MIT |
-| GitHub stars | 100.1k |
-| npm weekly downloads | 5.0M (`antd` 6.7.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://ant.design |
 | Source | https://github.com/ant-design/ant-design |
-| Same family | [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Mobile](ant-design-mobile.md), [Ant Design Pro Components](pro-components.md) |
+| Same family | [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Pro Components](pro-components.md), [Ant Design Mobile](ant-design-mobile.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 100.1k | GitHub API (ant-design/ant-design) |
+| GitHub forks | 54.6k | GitHub API |
+| Contributors (incl. anonymous) | 2.8k | GitHub API |
+| Issues closed / open | 31.9k / 971 (97% closed) | GitHub API |
+| npm weekly downloads | 5.1M | npm (`antd` 6.7.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ant.design/llms.txt

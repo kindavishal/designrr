@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 429 KB |
 | License | MIT |
-| GitHub stars | 6.1k |
-| npm weekly downloads | 94.2k (`@skeletonlabs/skeleton` 5.0.1) |
 | Last activity | 2026-08-28 |
 | Docs | https://www.skeleton.dev |
 | Source | https://github.com/skeletonlabs/skeleton |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 6.1k | GitHub API (skeletonlabs/skeleton) |
+| GitHub forks | 393 | GitHub API |
+| Contributors (incl. anonymous) | 168 | GitHub API |
+| Issues closed / open | 1.9k / 33 (98% closed) | GitHub API |
+| npm weekly downloads | 93.7k | npm (`@skeletonlabs/skeleton` 5.0.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.skeleton.dev/llms.txt

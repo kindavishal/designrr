@@ -1,25 +1,34 @@
 # Untitled UI React
 
-> Polished SaaS and marketing UI in React + Tailwind, built on React Aria.
+> SaaS and marketing UI in React + Tailwind, built on React Aria.
 
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **55/100** |
+| AI-readiness | **45/100** |
 | Maintainer | Untitled UI |
 | Platforms | web |
 | Frameworks | react |
 | Styling | tailwind |
-| Install | CLI copies component source into your repo (requires: tailwind, bundler) |
+| Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | saas, marketing, dashboard; shapes: saas-app, marketing-site |
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 272 KB |
 | License | MIT |
-| GitHub stars | 2.0k |
-| npm weekly downloads | 0 (`untitledui` 0.1.69) |
 | Last activity | 2026-10-09 |
 | Docs | https://www.untitledui.com/react |
 | Source | https://github.com/untitleduico/react |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.0k | GitHub API (untitleduico/react) |
+| GitHub forks | 189 | GitHub API |
+| Contributors (incl. anonymous) | 15 | GitHub API |
+| Issues closed / open | 87 / 9 (91% closed) | GitHub API |
+| npm weekly downloads | 5.7k | npm (`untitledui` 0.1.69) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.untitledui.com/llms.txt
@@ -60,13 +69,13 @@ Then follow the framework setup in the official getting-started guide: https://w
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/untitled-ui.md_

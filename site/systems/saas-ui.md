@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 103 KB |
 | License | MIT |
-| GitHub stars | 1.7k |
-| npm weekly downloads | 0 (`@saas-ui/react` 2.11.4) |
 | Last activity | 2026-11-04 |
 | Docs | https://saas-ui.dev |
 | Source | https://github.com/saas-js/saas-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.7k | GitHub API (saas-js/saas-ui) |
+| GitHub forks | 171 | GitHub API |
+| Contributors (incl. anonymous) | 39 | GitHub API |
+| Issues closed / open | 153 / 20 (88% closed) | GitHub API |
+| npm weekly downloads | 6.5k | npm (`@saas-ui/react` 2.11.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://s
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/saas-ui.md_

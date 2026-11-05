@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.7k KB |
 | License | MIT |
-| GitHub stars | 198 |
-| npm weekly downloads | 0 (`hds-react` 6.0.7) |
-| Last activity | 2026-10-30 |
+| Last activity | 2026-11-05 |
 | Docs | https://hds.hel.fi |
 | Source | https://github.com/City-of-Helsinki/helsinki-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 198 | GitHub API (City-of-Helsinki/helsinki-design-system) |
+| GitHub forks | 48 | GitHub API |
+| Contributors (incl. anonymous) | 61 | GitHub API |
+| Issues closed / open | 89 / 7 (93% closed) | GitHub API |
+| npm weekly downloads | 4.4k | npm (`hds-react` 6.0.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published

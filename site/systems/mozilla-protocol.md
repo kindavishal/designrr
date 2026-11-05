@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 4.0k KB |
 | License | MPL-2.0 |
-| GitHub stars | 299 |
-| npm weekly downloads | 2.3k (`@mozilla-protocol/core` 22.0.0) |
 | Last activity | 2026-10-29 |
 | Docs | https://protocol.mozilla.org |
 | Source | https://github.com/mozilla/protocol |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 299 | GitHub API (mozilla/protocol) |
+| GitHub forks | 85 | GitHub API |
+| Contributors (incl. anonymous) | 34 | GitHub API |
+| Issues closed / open | 489 / 64 (88% closed) | GitHub API |
+| npm weekly downloads | 2.2k | npm (`@mozilla-protocol/core` 22.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

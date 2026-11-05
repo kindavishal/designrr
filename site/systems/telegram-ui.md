@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.6k KB |
 | License | MIT |
-| GitHub stars | 871 |
-| npm weekly downloads | 12.2k (`@telegram-apps/telegram-ui` 2.1.13) |
 | Last activity | 2025-10-14 |
 | Docs | https://tgui.xelene.me |
 | Source | https://github.com/telegram-mini-apps-dev/TelegramUI |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 871 | GitHub API (telegram-mini-apps-dev/TelegramUI) |
+| GitHub forks | 92 | GitHub API |
+| Contributors (incl. anonymous) | 18 | GitHub API |
+| Issues closed / open | 35 / 39 (47% closed) | GitHub API |
+| npm weekly downloads | 12.9k | npm (`@telegram-apps/telegram-ui` 2.1.13) |
 
 ## AI resources (use these first)
 - llms.txt: not published

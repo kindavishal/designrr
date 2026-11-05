@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 15.8k KB |
 | License | MIT |
-| GitHub stars | 3.8k |
-| npm weekly downloads | 0 (`vuestic-ui` 1.10.3) |
 | Last activity | 2026-04-16 |
 | Docs | https://ui.vuestic.dev |
 | Source | https://github.com/epicmaxco/vuestic-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.8k | GitHub API (epicmaxco/vuestic-ui) |
+| GitHub forks | 353 | GitHub API |
+| Contributors (incl. anonymous) | 143 | GitHub API |
+| Issues closed / open | 2.1k / 465 (82% closed) | GitHub API |
+| npm weekly downloads | 6.2k | npm (`vuestic-ui` 1.10.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -65,6 +74,6 @@ Then follow the framework setup in the official getting-started guide: https://u
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuestic-ui.md_

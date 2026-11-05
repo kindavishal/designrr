@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.2k KB |
 | License | NOASSERTION |
-| GitHub stars | 20.4k |
-| npm weekly downloads | 647.5k (`@fluentui/react-components` 9.75.1) |
 | Last activity | 2026-11-04 |
 | Docs | https://react.fluentui.dev |
 | Source | https://github.com/microsoft/fluentui |
 | Same family | [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Apple](fluentui-apple.md), [Fluent UI Android](fluentui-android.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 20.4k | GitHub API (microsoft/fluentui) |
+| GitHub forks | 3.0k | GitHub API |
+| Contributors (incl. anonymous) | 975 | GitHub API |
+| Issues closed / open | 13.3k / 467 (97% closed) | GitHub API |
+| npm weekly downloads | 664.3k | npm (`@fluentui/react-components` 9.75.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://react.fluentui.dev/llms.txt
@@ -33,23 +42,27 @@
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide for v9, written 2026-11-05; latest release 9.75.1._
+_Hand-written guide for v9, checked against https://storybooks.fluentui.dev/react//llms/concepts-developer-quick-start.txt on 2026-11-05; latest release 9.75.1._
 
 ## Install
 ```bash
-npm install @fluentui/react-components @fluentui/react-icons
+npm install @fluentui/react-components
 ```
 
 ## Setup
 ```tsx
-import { FluentProvider, webLightTheme, createLightTheme } from '@fluentui/react-components';
+import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 <FluentProvider theme={webLightTheme}>{/* app */}</FluentProvider>
 ```
-Brand: build a 16-step `BrandVariants` ramp and call `createLightTheme(brand)` / `createDarkTheme(brand)`. Use `makeStyles` + `tokens` for custom styling.
+Fluent v9 styles with CSS-in-JS, so `FluentProvider` must sit at the root. Built-in themes include `webLightTheme`, `webDarkTheme`, `teamsLightTheme` and `teamsDarkTheme`.
+
+## Theme it to a brand
+Build a 16-step `BrandVariants` ramp (the Theme Designer in the docs generates one) and call `createLightTheme(brand)` / `createDarkTheme(brand)`. Style custom parts with `makeStyles` and `tokens`.
 
 ## Agent tips
-- Use v9 (`@fluentui/react-components`), not v8 (`@fluentui/react`) — they are different libraries.
-- Teams apps: use `teamsLightTheme` / `teamsDarkTheme`.
+- Use v9 (`@fluentui/react-components`), not v8 (`@fluentui/react`); they are different libraries.
+- LLM docs: `https://react.fluentui.dev/llms.txt` (links to plain-text pages per topic).
+- Known React strict-mode issues in development are tracked on GitHub; they don't affect production builds.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

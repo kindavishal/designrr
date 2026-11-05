@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 994 KB |
 | License | MIT |
-| GitHub stars | 28.8k |
-| npm weekly downloads | 9.8M (`@headlessui/react` 2.2.10) |
 | Last activity | 2026-04-13 |
 | Docs | https://headlessui.com |
 | Source | https://github.com/tailwindlabs/headlessui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 28.8k | GitHub API (tailwindlabs/headlessui) |
+| GitHub forks | 1.2k | GitHub API |
+| Contributors (incl. anonymous) | 75 | GitHub API |
+| Issues closed / open | 1.4k / 92 (94% closed) | GitHub API |
+| npm weekly downloads | 9.9M | npm (`@headlessui/react` 2.2.10) |
 
 ## AI resources (use these first)
 - llms.txt: not published

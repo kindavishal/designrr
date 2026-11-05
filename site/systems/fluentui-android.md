@@ -14,11 +14,20 @@
 | Good for | productivity, enterprise, microsoft-ecosystem |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| GitHub stars | 684 |
 | Last activity | 2026-10-16 |
 | Docs | https://github.com/microsoft/fluentui-android |
 | Source | https://github.com/microsoft/fluentui-android |
 | Same family | [Fluent UI](fluent-ui.md), [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Apple](fluentui-apple.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 684 | GitHub API (microsoft/fluentui-android) |
+| GitHub forks | 127 | GitHub API |
+| Contributors (incl. anonymous) | 60 | GitHub API |
+| Issues closed / open | 68 / 3 (96% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://github.com/llms.txt

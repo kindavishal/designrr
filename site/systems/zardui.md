@@ -14,11 +14,20 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| GitHub stars | 1.2k |
 | Last activity | 2026-11-05 |
 | Docs | https://zardui.com |
 | Source | https://github.com/zard-ui/zardui |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [shadcn-svelte](shadcn-svelte.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.2k | GitHub API (zard-ui/zardui) |
+| GitHub forks | 98 | GitHub API |
+| Contributors (incl. anonymous) | 36 | GitHub API |
+| Issues closed / open | 292 / 9 (97% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://zardui.com/llms.txt

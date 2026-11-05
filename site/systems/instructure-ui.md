@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 445 KB |
 | License | NOASSERTION |
-| GitHub stars | 486 |
-| npm weekly downloads | 0 (`@instructure/ui` 11.7.10) |
 | Last activity | 2026-11-04 |
 | Docs | https://instructure.design |
 | Source | https://github.com/instructure/instructure-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 486 | GitHub API (instructure/instructure-ui) |
+| GitHub forks | 111 | GitHub API |
+| Contributors (incl. anonymous) | 130 | GitHub API |
+| Issues closed / open | 284 / 7 (98% closed) | GitHub API |
+| npm weekly downloads | 7.7k | npm (`@instructure/ui` 11.7.10) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://instructure.design/llms.txt
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://i
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/instructure-ui.md_

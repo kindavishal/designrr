@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 61.9k KB |
 | License | BSD-3-Clause |
-| GitHub stars | 988 |
-| npm weekly downloads | 11.5k (`@salesforce/design-system-react` 0.10.65) |
 | Last activity | 2026-11-04 |
 | Docs | https://react.lightningdesignsystem.com |
 | Source | https://github.com/salesforce/design-system-react |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 988 | GitHub API (salesforce/design-system-react) |
+| GitHub forks | 445 | GitHub API |
+| Contributors (incl. anonymous) | 211 | GitHub API |
+| Issues closed / open | 1.3k / 72 (95% closed) | GitHub API |
+| npm weekly downloads | 12.8k | npm (`@salesforce/design-system-react` 0.10.65) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 19.6k KB |
 | License | MIT |
-| GitHub stars | 1.8k |
-| npm weekly downloads | 515 (`ng-devui` 18.0.0) |
 | Last activity | 2025-04-02 |
 | Docs | https://devui.design |
 | Source | https://github.com/DevCloudFE/ng-devui |
 | Same family | [Vue DevUI](vue-devui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.8k | GitHub API (DevCloudFE/ng-devui) |
+| GitHub forks | 212 | GitHub API |
+| Contributors (incl. anonymous) | 31 | GitHub API |
+| Issues closed / open | 130 / 107 (55% closed) | GitHub API |
+| npm weekly downloads | 459 | npm (`ng-devui` 18.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

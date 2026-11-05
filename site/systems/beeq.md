@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 37.5k KB |
 | License | Apache-2.0 |
-| GitHub stars | 162 |
-| npm weekly downloads | 1.2k (`@beeq/core` 1.17.1) |
 | Last activity | 2026-11-03 |
 | Docs | https://www.beeq.design |
 | Source | https://github.com/Endava/BEEQ |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 162 | GitHub API (Endava/BEEQ) |
+| GitHub forks | 25 | GitHub API |
+| Contributors (incl. anonymous) | 17 | GitHub API |
+| Issues closed / open | 73 / 7 (91% closed) | GitHub API |
+| npm weekly downloads | 1.0k | npm (`@beeq/core` 1.17.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.beeq.design/llms.txt

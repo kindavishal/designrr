@@ -1,6 +1,6 @@
 # Microsoft FAST
 
-> Building your own web-component design system (Microsoft's foundation for Fluent web components).
+> Building your own web-component design system; Fluent UI's web components are built on it.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.3k KB |
 | License | NOASSERTION |
-| GitHub stars | 9.7k |
-| npm weekly downloads | 0 (`@microsoft/fast-element` 3.1.2) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://fast.design |
 | Source | https://github.com/microsoft/fast |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 9.7k | GitHub API (microsoft/fast) |
+| GitHub forks | 640 | GitHub API |
+| Contributors (incl. anonymous) | 160 | GitHub API |
+| Issues closed / open | 2.8k / 76 (97% closed) | GitHub API |
+| npm weekly downloads | 308.8k | npm (`@microsoft/fast-element` 3.1.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://f
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md_

@@ -42,6 +42,16 @@ const known = (s, where) => { if (!slugs.has(s)) err(`editorial ${where}: unknow
 Object.keys(ed.bestFor).forEach((s) => known(s, 'bestFor'));
 Object.keys(ed.brandLocked).forEach((s) => known(s, 'brandLocked'));
 Object.keys(ed.productShapes).forEach((s) => known(s, 'productShapes'));
+// Evidence maps: every entry must name a known system and cite a URL.
+for (const map of ['cliCopySource', 'mcpNotes', 'installOverrides']) {
+  for (const [slug, v] of Object.entries(ed[map] || {})) {
+    if (slug === '$comment') continue;
+    known(slug, map);
+    const text = typeof v === 'string' ? v : v?.source || '';
+    if (!/https?:\/\//.test(text) && map !== 'installOverrides') err(`editorial ${map}.${slug}: must cite a source URL`);
+    if (map === 'installOverrides' && !text) err(`editorial installOverrides.${slug}: needs a "source"`);
+  }
+}
 const inFamily = new Map();
 for (const [fam, members] of Object.entries(ed.families)) for (const s of members) {
   known(s, `families.${fam}`);

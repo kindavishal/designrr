@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.5k KB |
 | License | NOASSERTION |
-| GitHub stars | 55 |
-| npm weekly downloads | 0 (`@nysds/components` 1.23.1) |
 | Last activity | 2026-11-02 |
 | Docs | https://designsystem.ny.gov |
 | Source | https://github.com/ITS-HCD/nysds |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 55 | GitHub API (ITS-HCD/nysds) |
+| GitHub forks | 6 | GitHub API |
+| Contributors (incl. anonymous) | 10 | GitHub API |
+| Issues closed / open | 899 / 110 (89% closed) | GitHub API |
+| npm weekly downloads | 960 | npm (`@nysds/components` 1.23.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

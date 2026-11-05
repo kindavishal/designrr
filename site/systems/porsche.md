@@ -1,13 +1,13 @@
 # Porsche Design System
 
-> Porsche digital products only.
+> Porsche digital products.
 
 | | |
 |---|---|
 | Tier | **recommended** |
 | AI-readiness | **45/100** |
 | Maintainer | Porsche (org-backed) |
-| Brand-locked | **yes**: Porsche brand identity; licence restricts use to Porsche products. |
+| Brand-locked | **yes**: Code is Apache-2.0, but Porsche fonts, icons and marque are licensed only for building Porsche applications (LICENSE.md). |
 | Platforms | web |
 | Frameworks | web-components, react, angular, vue, vanilla |
 | Styling | web-components |
@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | NOASSERTION |
-| GitHub stars | 674 |
-| npm weekly downloads | 0 (`@porsche-design-system/components-js` 4.10.1) |
 | Last activity | 2026-11-03 |
 | Docs | https://designsystem.porsche.com |
 | Source | https://github.com/porsche-design-system/porsche-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 674 | GitHub API (porsche-design-system/porsche-design-system) |
+| GitHub forks | 64 | GitHub API |
+| Contributors (incl. anonymous) | 45 | GitHub API |
+| Issues closed / open | 2.0k / 202 (91% closed) | GitHub API |
+| npm weekly downloads | 42.0k | npm (`@porsche-design-system/components-js` 4.10.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -31,7 +40,7 @@
 - **Figma Code Connect:** yes, so Figma components map to code.
 
 ## Consider an alternative if
-- you are not that brand. Porsche brand identity; licence restricts use to Porsche products.
+- you are not that brand. Code is Apache-2.0, but Porsche fonts, icons and marque are licensed only for building Porsche applications (LICENSE.md).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -77,6 +86,6 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md_

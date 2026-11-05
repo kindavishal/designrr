@@ -5,22 +5,31 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **30/100** |
+| AI-readiness | **20/100** |
 | Maintainer | Community |
 | Platforms | ios, android, web |
 | Frameworks | react-native |
 | Styling | tailwind |
-| Install | CLI copies component source into your repo (requires: tailwind, bundler) |
+| Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | mobile, startup-mvp, cross-platform |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.0k KB |
 | License | MIT |
-| GitHub stars | 8.7k |
-| npm weekly downloads | 12.5k (`@react-native-reusables/cli` 0.7.1) |
 | Last activity | 2026-09-27 |
 | Docs | https://reactnativereusables.com |
 | Source | https://github.com/founded-labs/react-native-reusables |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [shadcn-svelte](shadcn-svelte.md), [Spartan (shadcn for Angular)](spartan.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.7k | GitHub API (founded-labs/react-native-reusables) |
+| GitHub forks | 317 | GitHub API |
+| Contributors (incl. anonymous) | 50 | GitHub API |
+| Issues closed / open | 328 / 16 (95% closed) | GitHub API |
+| npm weekly downloads | 14.9k | npm (`@react-native-reusables/cli` 0.7.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -30,6 +39,7 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
+- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -60,13 +70,13 @@ Then follow the framework setup in the official getting-started guide: https://r
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/rn-reusables.md_

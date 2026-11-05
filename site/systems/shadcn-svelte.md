@@ -15,16 +15,26 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 918 KB |
 | License | MIT |
-| GitHub stars | 9.2k |
-| npm weekly downloads | 0 (`shadcn-svelte` 1.8.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://www.shadcn-svelte.com |
 | Source | https://github.com/huntabyte/shadcn-svelte |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 9.2k | GitHub API (huntabyte/shadcn-svelte) |
+| GitHub forks | 580 | GitHub API |
+| Contributors (incl. anonymous) | 201 | GitHub API |
+| Issues closed / open | 1.1k / 51 (95% closed) | GitHub API |
+| npm weekly downloads | 269.1k | npm (`shadcn-svelte` 1.8.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.shadcn-svelte.com/llms.txt
 - MCP server: none found
+- **Copy-the-source CLI:** documented at https://shadcn-svelte.com/docs/installation/sveltekit.md
 - **Theming tokens:** CSS variables theming, same model as shadcn/ui
 - **Agent/contributor docs in repo:** https://github.com/huntabyte/shadcn-svelte/blob/HEAD/skills/shadcn-svelte/SKILL.md
 
@@ -32,19 +42,24 @@
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, written 2026-11-05; latest release 1.8.0._
+_Hand-written guide for v1, checked against https://shadcn-svelte.com/docs/installation/sveltekit.md on 2026-11-05; latest release 1.8.0._
 
 ## Install
 ```bash
+npx sv create my-app --add tailwindcss     # new SvelteKit app with Tailwind
 npx shadcn-svelte@latest init
 npx shadcn-svelte@latest add button card dialog
 ```
+Vite, Astro and manual setups have their own guides.
 
 ## How it works
-Same model as shadcn/ui: source copied into `$lib/components/ui`, built on Bits UI + Tailwind, themed with CSS variables in `app.css`.
+Same model as shadcn/ui: source is copied into your project (`$lib/components/ui`), built on Bits UI and Tailwind CSS, and themed with CSS variables. It also supports publishing your own registry.
+
+## Theme it to a brand
+Edit the CSS variables in your global stylesheet (`--primary`, `--background`, `--radius`, …) for light and dark.
 
 ## Agent tips
-- `https://www.shadcn-svelte.com/llms.txt`. Use Svelte 5 runes syntax — older examples use Svelte 4.
+- `https://shadcn-svelte.com/llms.txt` indexes every page as Markdown. Use Svelte 5 syntax (runes); older examples use Svelte 4.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -71,6 +86,6 @@ Same model as shadcn/ui: source copied into `$lib/components/ui`, built on Bits 
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-svelte.md_

@@ -14,11 +14,21 @@
 | Good for | desktop |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| GitHub stars | 2.1k |
-| pub.dev likes | 1.1k (`macos_ui`) |
 | Last activity | 2026-08-22 |
 | Docs | https://macosui.github.io/macos_ui/ |
 | Source | https://github.com/macosui/macos_ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.1k | GitHub API (macosui/macos_ui) |
+| GitHub forks | 204 | GitHub API |
+| Contributors (incl. anonymous) | 40 | GitHub API |
+| Issues closed / open | 219 / 69 (76% closed) | GitHub API |
+| pub.dev likes | 1.1k | pub.dev (`macos_ui`) |
+| pub.dev downloads (30 days) | 6.6k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published

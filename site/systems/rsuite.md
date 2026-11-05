@@ -1,25 +1,34 @@
 # React Suite
 
-> React admin and enterprise apps with rich pickers, tables and form controls.
+> React admin and enterprise apps with pickers, tables and form controls.
 
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **80/100** |
+| AI-readiness | **70/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | react |
 | Styling | css |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | admin, enterprise, dashboard; shapes: app-dashboard |
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 17.6k KB |
 | License | MIT |
-| GitHub stars | 8.7k |
-| npm weekly downloads | 224.3k (`rsuite` 6.2.5) |
 | Last activity | 2026-10-25 |
 | Docs | https://rsuitejs.com |
 | Source | https://github.com/rsuite/rsuite |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.7k | GitHub API (rsuite/rsuite) |
+| GitHub forks | 956 | GitHub API |
+| Contributors (incl. anonymous) | 140 | GitHub API |
+| Issues closed / open | 1.0k / 226 (82% closed) | GitHub API |
+| npm weekly downloads | 222.0k | npm (`rsuite` 6.2.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://rsuitejs.com/llms.txt
@@ -62,7 +71,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |

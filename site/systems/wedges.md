@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 954 KB |
 | License | MIT |
-| GitHub stars | 1.5k |
-| npm weekly downloads | 471 (`@lemonsqueezy/wedges` 1.4.0) |
 | Last activity | 2025-12-12 |
 | Docs | https://www.lemonsqueezy.com/wedges |
 | Source | https://github.com/lmsqueezy/wedges |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.5k | GitHub API (lmsqueezy/wedges) |
+| GitHub forks | 68 | GitHub API |
+| Contributors (incl. anonymous) | 11 | GitHub API |
+| Issues closed / open | 6 / 1 (86% closed) | GitHub API |
+| npm weekly downloads | 491 | npm (`@lemonsqueezy/wedges` 1.4.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

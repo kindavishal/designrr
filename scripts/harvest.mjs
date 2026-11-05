@@ -23,6 +23,8 @@ for (const s of seed) {
   if (editorial.brandLocked[s.slug]) s.brandLocked = editorial.brandLocked[s.slug];
   s.productShapes = editorial.productShapes[s.slug] ?? [];
   if (editorial.installOverrides?.[s.slug]) s.installOverrides = editorial.installOverrides[s.slug];
+  if (editorial.cliCopySource?.[s.slug]) s.cliCopySource = editorial.cliCopySource[s.slug];
+  if (editorial.mcpNotes?.[s.slug]) s.mcpNote = editorial.mcpNotes[s.slug];
 }
 
 // Topic queries: [query, minStars]

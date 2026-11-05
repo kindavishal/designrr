@@ -14,11 +14,21 @@
 | Good for | mobile, startup-mvp |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| GitHub stars | 4.8k |
-| pub.dev likes | 2.6k (`getwidget`) |
 | Last activity | 2026-05-24 |
 | Docs | https://docs.getwidget.dev |
 | Source | https://github.com/ionicfirebaseapp/getwidget |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.8k | GitHub API (ionicfirebaseapp/getwidget) |
+| GitHub forks | 648 | GitHub API |
+| Contributors (incl. anonymous) | 52 | GitHub API |
+| Issues closed / open | 123 / 20 (86% closed) | GitHub API |
+| pub.dev likes | 2.6k | pub.dev (`getwidget`) |
+| pub.dev downloads (30 days) | 7.0k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published

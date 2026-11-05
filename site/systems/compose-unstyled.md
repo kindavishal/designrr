@@ -14,10 +14,19 @@
 | Good for | custom-brand, cross-platform |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| GitHub stars | 1.3k |
 | Last activity | 2026-11-02 |
 | Docs | https://composeunstyled.com |
 | Source | https://github.com/composablehorizons/compose-unstyled |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.3k | GitHub API (composablehorizons/compose-unstyled) |
+| GitHub forks | 60 | GitHub API |
+| Contributors (incl. anonymous) | 12 | GitHub API |
+| Issues closed / open | 231 / 8 (97% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://composeunstyled.com/llms.txt

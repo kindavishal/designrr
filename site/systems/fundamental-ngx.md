@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 13.8k KB |
 | License | Apache-2.0 |
-| GitHub stars | 296 |
-| npm weekly downloads | 25.3k (`@fundamental-ngx/core` 0.66.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://sap.github.io/fundamental-ngx/ |
 | Source | https://github.com/SAP/fundamental-ngx |
-| Same family | [SAP Fundamental Styles](fundamental-styles.md), [SAP UI5 Web Components](ui5.md), [UI5 Web Components for React](ui5-react.md) |
+| Same family | [SAP UI5 Web Components](ui5.md), [SAP Fundamental Styles](fundamental-styles.md), [UI5 Web Components for React](ui5-react.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 296 | GitHub API (SAP/fundamental-ngx) |
+| GitHub forks | 151 | GitHub API |
+| Contributors (incl. anonymous) | 115 | GitHub API |
+| Issues closed / open | 5.7k / 115 (98% closed) | GitHub API |
+| npm weekly downloads | 24.6k | npm (`@fundamental-ngx/core` 0.66.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://sap.github.io/fundamental-ngx/llms.txt

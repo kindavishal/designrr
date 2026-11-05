@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.6k KB |
 | License | Apache-2.0 |
-| GitHub stars | 543 |
-| npm weekly downloads | 0 (`@ui5/webcomponents-react` 2.28.2) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://sap.github.io/ui5-webcomponents-react/ |
 | Source | https://github.com/UI5/webcomponents-react |
-| Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP Fundamental Styles](fundamental-styles.md), [SAP UI5 Web Components](ui5.md) |
+| Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP UI5 Web Components](ui5.md), [SAP Fundamental Styles](fundamental-styles.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 542 | GitHub API (UI5/webcomponents-react) |
+| GitHub forks | 114 | GitHub API |
+| Contributors (incl. anonymous) | 53 | GitHub API |
+| Issues closed / open | 1.6k / 10 (99% closed) | GitHub API |
+| npm weekly downloads | 60.7k | npm (`@ui5/webcomponents-react` 2.28.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://s
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui5-react.md_

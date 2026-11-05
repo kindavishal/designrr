@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 45.3k KB |
 | License | NOASSERTION |
-| GitHub stars | 6.4k |
-| npm weekly downloads | 273.2k (`@elastic/eui` 123.3.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://eui.elastic.co |
 | Source | https://github.com/elastic/eui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 6.4k | GitHub API (elastic/eui) |
+| GitHub forks | 926 | GitHub API |
+| Contributors (incl. anonymous) | 327 | GitHub API |
+| Issues closed / open | 3.8k / 223 (94% closed) | GitHub API |
+| npm weekly downloads | 267.0k | npm (`@elastic/eui` 123.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **40/100** |
+| AI-readiness | **60/100** |
 | Maintainer | Google (org-backed) |
 | Platforms | ios, android, web, desktop |
 | Frameworks | flutter |
@@ -14,36 +14,53 @@
 | Good for | mobile, cross-platform, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / yes |
 | License | BSD-3-Clause |
-| GitHub stars | 181.1k |
 | Last activity | 2026-11-05 |
 | Docs | https://docs.flutter.dev/ui/design/material |
 | Source | https://github.com/flutter/flutter |
 | Same family | [Material Design 3 for Android (Compose)](material-android.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
 
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 181.1k | GitHub API (flutter/flutter) |
+| GitHub forks | 32.8k | GitHub API |
+| Contributors (incl. anonymous) | 2.5k | GitHub API |
+| Issues closed / open | 104.0k / 12.8k (89% closed) | GitHub API |
+
 ## AI resources (use these first)
 - **llms.txt:** https://docs.flutter.dev/llms.txt
-- MCP server: none found
+- **MCP server:**
+  - `dart mcp-server`
+    ```json
+    {"mcpServers":{"flutter-material":{"command":"dart","args":["mcp-server"]}}}
+    ```
 - **Agent/contributor docs in repo:** https://github.com/flutter/flutter/blob/HEAD/.agents/agents/reidbaker-agent/skills/code-review/SKILL.md
 
 
-_Hand-written guide for Flutter 3 (Material 3), written 2026-11-05._
+_Hand-written guide for Flutter 3 (Material 3), checked against https://docs.flutter.dev/cookbook/design/themes on 2026-11-05._
 
 ## Install
-Ships with the Flutter SDK — no package needed. `flutter create my_app`.
+Material widgets ship with the Flutter SDK: `flutter create my_app`.
 
 ## Setup
 ```dart
 MaterialApp(
-  theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF4F46E5)), useMaterial3: true),
-  darkTheme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF4F46E5), brightness: Brightness.dark)),
+  theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo)),
+  darkTheme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo, brightness: Brightness.dark)),
   home: const HomePage(),
 );
 ```
+Material 3 is the default in current Flutter, so no flag is needed.
+
+## Theme it to a brand
+One seed colour generates the full Material 3 scheme; customise `textTheme` and component themes in `ThemeData`. Use `Cupertino*` widgets or `.adaptive` constructors where iOS fidelity matters.
 
 ## Agent tips
-- One seed colour generates the full M3 palette; customise `textTheme` with `google_fonts`.
-- Use `Cupertino*` widgets or `.adaptive` constructors where iOS fidelity matters.
-- The Dart & Flutter MCP server (`dart mcp-server`, Dart SDK 3.9+) lets agents analyse, run and hot-reload the app.
+- Dart and Flutter MCP server (ships with the Dart SDK): `{"mcpServers": {"dart": {"command": "dart", "args": ["mcp-server"]}}}`. It lets agents analyse, run and hot-reload the app.
+- Official agent skills: `npx skills add flutter/agent-plugins --skill '*'` and `npx skills add dart-lang/skills --skill '*'`.
+- Docs index: `https://docs.flutter.dev/llms.txt`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -58,7 +75,7 @@ MaterialApp(
 ## Score breakdown
 | Capability | Points |
 |---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
+| Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |

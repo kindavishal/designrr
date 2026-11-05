@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 15.4k KB |
 | License | MIT |
-| GitHub stars | 12.1k |
-| npm weekly downloads | 83.7k (`antd-mobile` 5.43.0) |
 | Last activity | 2026-09-14 |
 | Docs | https://mobile.ant.design |
 | Source | https://github.com/ant-design/ant-design-mobile |
 | Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Pro Components](pro-components.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 12.1k | GitHub API (ant-design/ant-design-mobile) |
+| GitHub forks | 2.5k | GitHub API |
+| Contributors (incl. anonymous) | 323 | GitHub API |
+| Issues closed / open | 4.4k / 163 (96% closed) | GitHub API |
+| npm weekly downloads | 74.8k | npm (`antd-mobile` 5.43.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

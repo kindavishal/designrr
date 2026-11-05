@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 4.4k KB |
 | License | NOASSERTION |
-| GitHub stars | 2.5k |
-| npm weekly downloads | 12.0k (`flyonui` 2.4.1) |
 | Last activity | 2026-03-20 |
 | Docs | https://flyonui.com |
 | Source | https://github.com/themeselection/flyonui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.5k | GitHub API (themeselection/flyonui) |
+| GitHub forks | 98 | GitHub API |
+| Contributors (incl. anonymous) | 10 | GitHub API |
+| Issues closed / open | 58 / 12 (83% closed) | GitHub API |
+| npm weekly downloads | 12.7k | npm (`flyonui` 2.4.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://flyonui.com/llms.txt

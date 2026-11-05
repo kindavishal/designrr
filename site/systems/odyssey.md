@@ -16,11 +16,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 12.0k KB |
 | License | NOASSERTION |
-| GitHub stars | 114 |
-| npm weekly downloads | 1.3k (`@okta/odyssey-react-mui` 1.72.0) |
 | Last activity | 2026-10-28 |
 | Docs | https://odyssey.okta.design |
 | Source | https://github.com/okta/odyssey |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 114 | GitHub API (okta/odyssey) |
+| GitHub forks | 33 | GitHub API |
+| Contributors (incl. anonymous) | 73 | GitHub API |
+| Issues closed / open | 716 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 1.1k | npm (`@okta/odyssey-react-mui` 1.72.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

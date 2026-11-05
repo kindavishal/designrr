@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 20.4k KB |
 | License | MIT |
-| GitHub stars | 52.7k |
-| npm weekly downloads | 0 (`@ionic/core` 9.0.10) |
 | Last activity | 2026-11-04 |
 | Docs | https://ionicframework.com/docs |
 | Source | https://github.com/ionic-team/ionic-framework |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 52.7k | GitHub API (ionic-team/ionic-framework) |
+| GitHub forks | 13.3k | GitHub API |
+| Contributors (incl. anonymous) | 547 | GitHub API |
+| Issues closed / open | 21.8k / 441 (98% closed) | GitHub API |
+| npm weekly downloads | 582.7k | npm (`@ionic/core` 9.0.10) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ionicframework.com/docs/llms.txt
@@ -73,6 +82,6 @@ Set the colour variables (`--ion-color-primary`, its `-rgb`, `-contrast`, `-shad
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md_

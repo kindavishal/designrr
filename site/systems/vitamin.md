@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 37.1k KB |
 | License | Apache-2.0 |
-| GitHub stars | 289 |
-| npm weekly downloads | 3.1k (`@vtmn/css` 3.0.2) |
 | Last activity | 2025-06-06 |
 | Docs | https://www.decathlon.design |
 | Source | https://github.com/Decathlon/vitamin-web |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 289 | GitHub API (Decathlon/vitamin-web) |
+| GitHub forks | 76 | GitHub API |
+| Contributors (incl. anonymous) | 65 | GitHub API |
+| Issues closed / open | 242 / 7 (97% closed) | GitHub API |
+| npm weekly downloads | 2.8k | npm (`@vtmn/css` 3.0.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published

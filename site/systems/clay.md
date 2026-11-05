@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 688 KB |
 | License | NOASSERTION |
-| GitHub stars | 246 |
-| npm weekly downloads | 0 (`@clayui/core` 3.166.0) |
 | Last activity | 2026-10-30 |
 | Docs | https://clayui.com |
 | Source | https://github.com/liferay/clay |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 246 | GitHub API (liferay/clay) |
+| GitHub forks | 533 | GitHub API |
+| Contributors (incl. anonymous) | 94 | GitHub API |
+| Issues closed / open | 2.2k / 63 (97% closed) | GitHub API |
+| npm weekly downloads | 6.4k | npm (`@clayui/core` 3.166.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -65,6 +74,6 @@ Then follow the framework setup in the official getting-started guide: https://c
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/clay.md_

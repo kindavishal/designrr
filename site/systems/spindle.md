@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.4k KB |
 | License | MIT |
-| GitHub stars | 200 |
-| npm weekly downloads | 9.0k (`@openameba/spindle-ui` 3.4.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://spindle.ameba.design |
 | Source | https://github.com/openameba/spindle |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 200 | GitHub API (openameba/spindle) |
+| GitHub forks | 24 | GitHub API |
+| Contributors (incl. anonymous) | 36 | GitHub API |
+| Issues closed / open | 45 / 10 (82% closed) | GitHub API |
+| npm weekly downloads | 10.5k | npm (`@openameba/spindle-ui` 3.4.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

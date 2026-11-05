@@ -1,6 +1,6 @@
 # Element Plus
 
-> Vue 3 admin and back-office apps (very widely used in China).
+> Vue 3 admin and back-office apps.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 42.9k KB |
 | License | MIT |
-| GitHub stars | 27.8k |
-| npm weekly downloads | 0 (`element-plus` 2.14.7) |
 | Last activity | 2026-11-03 |
 | Docs | https://element-plus.org |
 | Source | https://github.com/element-plus/element-plus |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 27.8k | GitHub API (element-plus/element-plus) |
+| GitHub forks | 19.8k | GitHub API |
+| Contributors (incl. anonymous) | 883 | GitHub API |
+| Issues closed / open | 7.7k / 890 (90% closed) | GitHub API |
+| npm weekly downloads | 765.6k | npm (`element-plus` 2.14.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://e
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus.md_

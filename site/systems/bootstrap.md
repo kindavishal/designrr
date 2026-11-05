@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.4k KB |
 | License | MIT |
-| GitHub stars | 175.0k |
-| npm weekly downloads | 8.3M (`bootstrap` 5.3.8) |
 | Last activity | 2026-11-05 |
 | Docs | https://getbootstrap.com |
 | Source | https://github.com/twbs/bootstrap |
 | Same family | [BootstrapVueNext](bootstrap-vue-next.md), [React Bootstrap](react-bootstrap.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 175.0k | GitHub API (twbs/bootstrap) |
+| GitHub forks | 78.6k | GitHub API |
+| Contributors (incl. anonymous) | 1.7k | GitHub API |
+| Issues closed / open | 22.9k / 139 (99% closed) | GitHub API |
+| npm weekly downloads | 8.2M | npm (`bootstrap` 5.3.8) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://getbootstrap.com/llms.txt

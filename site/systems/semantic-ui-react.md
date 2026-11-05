@@ -1,6 +1,6 @@
 # Semantic UI React
 
-> Semantic UI look in React (legacy projects).
+> Semantic UI look in React.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 13.2k |
-| npm weekly downloads | 328.3k (`semantic-ui-react` 2.1.5) |
 | Last activity | 2024-11-22 |
 | Docs | https://react.semantic-ui.com |
 | Source | https://github.com/Semantic-Org/Semantic-UI-React |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 13.2k | GitHub API (Semantic-Org/Semantic-UI-React) |
+| GitHub forks | 4.0k | GitHub API |
+| Contributors (incl. anonymous) | 340 | GitHub API |
+| Issues closed / open | 2.4k / 210 (92% closed) | GitHub API |
+| npm weekly downloads | 313.3k | npm (`semantic-ui-react` 2.1.5) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -27,7 +36,7 @@
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 712 days ago).
+- maintenance has slowed (last activity 713 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -66,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://r
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 712 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 713 days ago (12-24 months).
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/semantic-ui-react.md_

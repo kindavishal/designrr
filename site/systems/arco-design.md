@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 16.8k KB |
 | License | MIT |
-| GitHub stars | 5.8k |
-| npm weekly downloads | 101.5k (`@arco-design/web-react` 2.66.18) |
 | Last activity | 2026-10-12 |
 | Docs | https://arco.design |
 | Source | https://github.com/arco-design/arco-design |
 | Same family | [Arco Design Vue](arco-design-vue.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.8k | GitHub API (arco-design/arco-design) |
+| GitHub forks | 725 | GitHub API |
+| Contributors (incl. anonymous) | 146 | GitHub API |
+| Issues closed / open | 1.4k / 291 (82% closed) | GitHub API |
+| npm weekly downloads | 100.2k | npm (`@arco-design/web-react` 2.66.18) |
 
 ## AI resources (use these first)
 - llms.txt: not published

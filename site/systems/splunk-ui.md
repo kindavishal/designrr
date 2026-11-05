@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 4.1k KB |
 | License | Apache-2.0 |
-| GitHub stars | — |
-| npm weekly downloads | 4.5k (`@splunk/react-ui` 5.17.0) |
 | Last activity | 2026-10-07 |
 | Docs | https://splunkui.splunk.com |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 4.0k | npm (`@splunk/react-ui` 5.17.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://splunkui.splunk.com/llms.txt

@@ -16,11 +16,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.2k KB |
 | License | MIT |
-| GitHub stars | 54 |
-| npm weekly downloads | 0 (`@rei/cedar` 17.1.0) |
 | Last activity | 2026-09-29 |
 | Docs | https://cedar.rei.com |
 | Source | https://github.com/rei/rei-cedar |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 54 | GitHub API (rei/rei-cedar) |
+| GitHub forks | 11 | GitHub API |
+| Contributors (incl. anonymous) | 57 | GitHub API |
+| Issues closed / open | 3 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 1.3k | npm (`@rei/cedar` 17.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -51,7 +51,8 @@ const scored = candidates.map((c) => {
     llmsFull: !!s.llms?.llmsFull,
     tokens: !!t.tokens,
     typed: (t.typed || 0) > 20 || !!s.npm?.types || (c.frameworks || []).some((f) => NATIVE_TYPED.has(f)),
-    registry: !!t.registry || /shadcn|registry/i.test(`${c.name} ${c.bestFor || ''}`) || ['shadcn-ui', 'shadcn-vue', 'shadcn-svelte', 'spartan', 'zardui', 'rn-reusables', 'park-ui', 'ai-elements', 'untitled-ui', 'diceui', 'intentui'].includes(c.slug),
+    // Tree evidence, or a copy-the-source CLI confirmed in the system's own docs (curation: cliCopySource).
+    registry: !!t.registry || !!c.cliCopySource,
     agentDocs: !!t.agentDocs || (s.cdn?.shippedSkills?.length > 0),
     storybook: !!t.storybook,
     codeConnect: !!t.codeConnect,
@@ -90,7 +91,7 @@ const scored = candidates.map((c) => {
   // pulled in transitively (huge npm downloads, modest stars) from outranking systems people choose directly.
   const parts = [];
   if (g.stars != null) parts.push(Math.log10(Math.max(g.stars, 1)) / Math.log10(120000));
-  if (s.npm?.exists) parts.push(Math.log10(Math.max(s.npm.weeklyDownloads || 1, 1)) / Math.log10(8_000_000));
+  if (s.npm?.exists && s.npm.weeklyDownloads != null) parts.push(Math.log10(Math.max(s.npm.weeklyDownloads || 1, 1)) / Math.log10(8_000_000));
   if (s.pub?.exists) parts.push(Math.log10(Math.max(s.pub.likes || 1, 1)) / Math.log10(10000));
   if (s.nuget?.exists) parts.push(Math.log10(Math.max(s.nuget.totalDownloads || 1, 1)) / Math.log10(500_000_000));
   const pop = parts.length ? Math.min(100, Math.round((parts.reduce((a, b) => a + b, 0) / parts.length) * 100)) : 0;
@@ -98,7 +99,7 @@ const scored = candidates.map((c) => {
   // ---------- Install profile: how an agent actually gets this into a project ----------
   const fw = new Set(c.frameworks || []);
   const agnostic = fw.has('any') || fw.has('web-components') || fw.has('vanilla');
-  const copySource = has.registry || c.family === 'shadcn';
+  const copySource = has.registry;
   const cdnReady = !!(s.cdn?.css || s.cdn?.js || c.installOverrides?.cdn);
   const noBuild = c.installOverrides?.noBuild ?? (c.styling !== 'tailwind' && agnostic && cdnReady);
   let mode;
@@ -140,6 +141,24 @@ const scored = candidates.map((c) => {
       npmWeeklyDownloads: s.npm?.weeklyDownloads ?? null, npmLatest: s.npm?.latest ?? null,
       pubLikes: s.pub?.likes ?? null, nugetTotalDownloads: s.nuget?.totalDownloads ?? null,
       repo: g.repo || c.repo || null, homepage: g.homepage || null,
+    },
+    // Public usage and community-feedback numbers, exactly as reported by each API on the enrich date.
+    // Nothing here is estimated: a missing number stays null.
+    usage: {
+      githubStars: g.stars ?? null,
+      githubForks: g.forks ?? null,
+      githubWatchers: g.watchers ?? null,
+      contributors: g.contributors ?? null,
+      openIssues: g.openIssues ?? null,
+      closedIssues: g.closedIssues ?? null,
+      issuesClosedPct: g.openIssues != null && g.closedIssues != null && g.openIssues + g.closedIssues > 0
+        ? Math.round((g.closedIssues / (g.openIssues + g.closedIssues)) * 100) : null,
+      npmWeeklyDownloads: s.npm?.exists ? s.npm.weeklyDownloads ?? null : null,
+      pubLikes: s.pub?.exists ? s.pub.likes ?? null : null,
+      pubDownloads30d: s.pub?.exists ? s.pub.downloads30d ?? null : null,
+      nugetTotalDownloads: s.nuget?.exists ? s.nuget.totalDownloads ?? null : null,
+      lastRelease: g.latestRelease || null,
+      lastCommit: g.lastCommit || null,
     },
     ai: {
       llmsTxt: s.llms?.llmsTxt || null, llmsFull: s.llms?.llmsFull || null,

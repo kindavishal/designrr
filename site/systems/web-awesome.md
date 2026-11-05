@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 17.1k KB |
 | License | MIT |
-| GitHub stars | 1.4k |
-| npm weekly downloads | 0 (`@awesome.me/webawesome` 3.14.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://webawesome.com |
 | Source | https://github.com/shoelace-style/webawesome |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.4k | GitHub API (shoelace-style/webawesome) |
+| GitHub forks | 215 | GitHub API |
+| Contributors (incl. anonymous) | 165 | GitHub API |
+| Issues closed / open | 993 / 52 (95% closed) | GitHub API |
+| npm weekly downloads | 275.5k | npm (`@awesome.me/webawesome` 3.14.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://webawesome.com/llms.txt
@@ -29,7 +38,7 @@
 - **Agent/contributor docs in repo:** https://github.com/shoelace-style/webawesome/blob/HEAD/packages/webawesome/CLAUDE.md
 
 
-_Hand-written guide for v3, written 2026-11-05; latest release 3.14.0._
+_Hand-written guide for v3, checked against https://webawesome.com/llms.txt on 2026-11-05; latest release 3.14.0._
 
 ## Install
 No build step needed. In `<head>` (pinned to v3.14.0, the latest release when this page was built):
@@ -77,6 +86,6 @@ One class re-brands everything: `wa-brand-<hue>` on `<html>`. Finer control: ove
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/web-awesome.md_

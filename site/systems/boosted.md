@@ -7,7 +7,7 @@
 | Tier | **recommended** |
 | AI-readiness | **45/100** |
 | Maintainer | Orange (org-backed) |
-| Brand-locked | **yes**: Orange brand identity; Orange trademarks may not be used by others. |
+| Brand-locked | **yes**: Built to create websites for the Orange brands (README). |
 | Platforms | web |
 | Frameworks | any, vanilla |
 | Styling | css |
@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 12.3k KB |
 | License | MIT |
-| GitHub stars | 224 |
-| npm weekly downloads | 9.5k (`boosted` 5.3.8) |
 | Last activity | 2026-11-04 |
 | Docs | https://boosted.orange.com |
 | Source | https://github.com/Orange-OpenSource/Orange-Boosted-Bootstrap |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 224 | GitHub API (Orange-OpenSource/Orange-Boosted-Bootstrap) |
+| GitHub forks | 61 | GitHub API |
+| Contributors (incl. anonymous) | 40 | GitHub API |
+| Issues closed / open | 1.1k / 123 (90% closed) | GitHub API |
+| npm weekly downloads | 9.5k | npm (`boosted` 5.3.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -29,7 +38,7 @@
 - **Agent/contributor docs in repo:** https://github.com/Orange-OpenSource/Orange-Boosted-Bootstrap/blob/HEAD/.github/copilot-instructions.md
 
 ## Consider an alternative if
-- you are not that brand. Orange brand identity; Orange trademarks may not be used by others.
+- you are not that brand. Built to create websites for the Orange brands (README).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 

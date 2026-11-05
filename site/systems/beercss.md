@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 3.9k KB |
 | License | MIT |
-| GitHub stars | 2.6k |
-| npm weekly downloads | 0 (`beercss` 5.0.3) |
 | Last activity | 2026-08-29 |
 | Docs | https://www.beercss.com |
 | Source | https://github.com/beercss/beercss |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.6k | GitHub API (beercss/beercss) |
+| GitHub forks | 101 | GitHub API |
+| Contributors (incl. anonymous) | 31 | GitHub API |
+| Issues closed / open | 378 / 26 (94% closed) | GitHub API |
+| npm weekly downloads | 53.1k | npm (`beercss` 5.0.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.beercss.com/llms.txt
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/beercss.md_

@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 18.6k KB |
 | License | NOASSERTION |
-| GitHub stars | 158 |
-| npm weekly downloads | 0 (`@astrouxds/astro-web-components` 8.0.1) |
 | Last activity | 2026-10-29 |
 | Docs | https://www.astrouxds.com |
 | Source | https://github.com/RocketCommunicationsInc/astro |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 158 | GitHub API (RocketCommunicationsInc/astro) |
+| GitHub forks | 35 | GitHub API |
+| Contributors (incl. anonymous) | 34 | GitHub API |
+| Issues closed / open | 133 / 2 (99% closed) | GitHub API |
+| npm weekly downloads | 10.7k | npm (`@astrouxds/astro-web-components` 8.0.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -72,6 +81,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md_

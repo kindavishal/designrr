@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 29.8k KB |
 | License | MIT |
-| GitHub stars | 1.9k |
-| npm weekly downloads | 1.1k (`vexip-ui` 2.3.40) |
 | Last activity | 2026-05-06 |
 | Docs | https://www.vexipui.com |
 | Source | https://github.com/vexip-ui/vexip-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.9k | GitHub API (vexip-ui/vexip-ui) |
+| GitHub forks | 181 | GitHub API |
+| Contributors (incl. anonymous) | 38 | GitHub API |
+| Issues closed / open | 304 / 31 (91% closed) | GitHub API |
+| npm weekly downloads | 1.3k | npm (`vexip-ui` 2.3.40) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.7k KB |
 | License | MIT |
-| GitHub stars | 682 |
-| npm weekly downloads | 8.6k (`@stackoverflow/stacks` 3.0.2) |
 | Last activity | 2026-11-05 |
 | Docs | https://stackoverflow.design |
 | Source | https://github.com/StackExchange/Stacks |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 682 | GitHub API (StackExchange/Stacks) |
+| GitHub forks | 106 | GitHub API |
+| Contributors (incl. anonymous) | 61 | GitHub API |
+| Issues closed / open | 292 / 4 (99% closed) | GitHub API |
+| npm weekly downloads | 8.6k | npm (`@stackoverflow/stacks` 3.0.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://stackoverflow.design/llms.txt

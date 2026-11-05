@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 4.5k KB |
 | License | Apache-2.0 |
-| GitHub stars | 612 |
-| npm weekly downloads | 47.5k (`ng-primitives` 0.131.4) |
 | Last activity | 2026-11-04 |
 | Docs | https://angularprimitives.com |
 | Source | https://github.com/ng-primitives/ng-primitives |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 612 | GitHub API (ng-primitives/ng-primitives) |
+| GitHub forks | 83 | GitHub API |
+| Contributors (incl. anonymous) | 57 | GitHub API |
+| Issues closed / open | 296 / 43 (87% closed) | GitHub API |
+| npm weekly downloads | 50.1k | npm (`ng-primitives` 0.131.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published

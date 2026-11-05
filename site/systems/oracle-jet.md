@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 85.0k KB |
 | License | NOASSERTION |
-| GitHub stars | 539 |
-| npm weekly downloads | 0 (`@oracle/oraclejet` 21.0.3) |
 | Last activity | 2026-11-04 |
 | Docs | https://www.oracle.com/webfolder/technetwork/jet/index.html |
 | Source | https://github.com/oracle/oraclejet |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 539 | GitHub API (oracle/oraclejet) |
+| GitHub forks | 114 | GitHub API |
+| Contributors (incl. anonymous) | 9 | GitHub API |
+| Issues closed / open | 40 / 50 (44% closed) | GitHub API |
+| npm weekly downloads | 5.2k | npm (`@oracle/oraclejet` 21.0.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -66,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/oracle-jet.md_

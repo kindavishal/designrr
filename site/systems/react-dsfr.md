@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 89.0k KB |
 | License | MIT |
-| GitHub stars | 497 |
-| npm weekly downloads | 15.3k (`@codegouvfr/react-dsfr` 1.36.0) |
 | Last activity | 2026-10-15 |
 | Docs | https://components.react-dsfr.codegouv.studio |
 | Source | https://github.com/codegouvfr/react-dsfr |
 | Same family | [Système de Design de l'État (France)](dsfr.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 497 | GitHub API (codegouvfr/react-dsfr) |
+| GitHub forks | 100 | GitHub API |
+| Contributors (incl. anonymous) | 82 | GitHub API |
+| Issues closed / open | 195 / 33 (86% closed) | GitHub API |
+| npm weekly downloads | 15.8k | npm (`@codegouvfr/react-dsfr` 1.36.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -5,21 +5,30 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **60/100** |
+| AI-readiness | **50/100** |
 | Maintainer | Infragistics (org-backed) |
 | Platforms | web |
 | Frameworks | web-components |
 | Styling | web-components |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, data-dense |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 12.5k KB |
 | License | MIT |
-| GitHub stars | 170 |
-| npm weekly downloads | 0 (`igniteui-webcomponents` 7.4.1) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://www.infragistics.com/products/ignite-ui-web-components |
 | Source | https://github.com/IgniteUI/igniteui-webcomponents |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 170 | GitHub API (IgniteUI/igniteui-webcomponents) |
+| GitHub forks | 12 | GitHub API |
+| Contributors (incl. anonymous) | 52 | GitHub API |
+| Issues closed / open | 767 / 47 (94% closed) | GitHub API |
+| npm weekly downloads | 11.6k | npm (`igniteui-webcomponents` 7.4.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.infragistics.com/llms.txt
@@ -63,13 +72,13 @@ Then follow the framework setup in the official getting-started guide: https://w
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/igniteui-webcomponents.md_

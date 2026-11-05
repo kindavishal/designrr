@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.7k KB |
 | License | MIT |
-| GitHub stars | 14.5k |
-| npm weekly downloads | 0 (`react-native-paper` 5.15.4) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://callstack.github.io/react-native-paper/ |
 | Source | https://github.com/callstack/react-native-paper |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 14.5k | GitHub API (callstack/react-native-paper) |
+| GitHub forks | 2.3k | GitHub API |
+| Contributors (incl. anonymous) | 379 | GitHub API |
+| Issues closed / open | 2.4k / 324 (88% closed) | GitHub API |
+| npm weekly downloads | 634.8k | npm (`react-native-paper` 5.15.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://callstack.github.io/react-native-paper/llms.txt
@@ -29,13 +38,15 @@
 - **Agent/contributor docs in repo:** https://github.com/callstack/react-native-paper/blob/HEAD/.github/copilot-instructions.md
 
 
-_Hand-written guide for v5, written 2026-11-05; latest release 5.15.4._
+_Hand-written guide for v5, checked against https://callstack.github.io/react-native-paper/docs/guides/getting-started.md on 2026-11-05; latest release 5.15.4._
 
 ## Install
 ```bash
 npm install react-native-paper react-native-safe-area-context
-# Expo: npx expo install react-native-paper react-native-safe-area-context
+npm install @react-native-vector-icons/material-design-icons
+npx pod-install      # iOS, bare React Native only
 ```
+Optional, smaller production bundles: add `react-native-paper/babel` to the production `plugins` in your Babel config.
 
 ## Setup
 ```tsx
@@ -44,9 +55,12 @@ const theme = { ...MD3LightTheme, colors: { ...MD3LightTheme.colors, primary: '#
 <PaperProvider theme={theme}>{/* app */}</PaperProvider>
 ```
 
+## Theme it to a brand
+Generate a full Material 3 colour scheme from one brand colour (the theming guide links a generator) and paste it into `colors`; use `MD3DarkTheme` as the base for dark mode.
+
 ## Agent tips
-- Generate full MD3 colour schemes from one brand colour with Material Theme Builder and paste into `colors`.
-- Pair with React Navigation; Paper provides themed navigation adapters.
+- Pair with React Navigation; the docs cover theming navigation together with Paper.
+- LLM index: `https://callstack.github.io/react-native-paper/llms.txt`; every page has a `.md` version.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -73,6 +87,6 @@ const theme = { ...MD3LightTheme, colors: { ...MD3LightTheme.colors, primary: '#
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-native-paper.md_

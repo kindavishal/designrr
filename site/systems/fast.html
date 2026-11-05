@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Microsoft FAST · AI-Ready Design Systems</title>
-<meta name="description" content="Building your own web-component design system (Microsoft's foundation for Fluent web components).">
+<meta name="description" content="Building your own web-component design system; Fluent UI's web components are built on it.">
 <link rel="alternate" type="text/plain" href="../llms.txt" title="llms.txt">
 <link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/themes/default.css">
 <link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/utilities.css">
@@ -60,7 +60,7 @@
     </wa-breadcrumb>
     <div class="wa-stack wa-gap-s">
       <h1 class="card-title">Microsoft FAST</h1>
-      <p class="lede wa-body-l">Building your own web-component design system (Microsoft's foundation for Fluent web components).</p>
+      <p class="lede wa-body-l">Building your own web-component design system; Fluent UI's web components are built on it.</p>
       <div class="wa-cluster wa-gap-xs">
         <wa-badge variant="brand">solid</wa-badge>
         <wa-badge variant="neutral" appearance="outlined">AI-readiness 35/100</wa-badge>
@@ -71,7 +71,10 @@
     
     
     <article class="wa-prose">
-<table><tbody><tr><th scope="row">Tier</th><td><strong>solid</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>35/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Microsoft (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>web-components</td></tr><tr><th scope="row">Styling</th><td>web-components</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>framework-agnostic, custom-brand; shapes: content-site</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>3.3k KB</td></tr><tr><th scope="row">License</th><td>NOASSERTION</td></tr><tr><th scope="row">GitHub stars</th><td>9.7k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>@microsoft/fast-element</code> 3.1.2)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://fast.design">https://fast.design</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/microsoft/fast">https://github.com/microsoft/fast</a></td></tr></tbody></table>
+<table><tbody><tr><th scope="row">Tier</th><td><strong>solid</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>35/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Microsoft (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>web-components</td></tr><tr><th scope="row">Styling</th><td>web-components</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>framework-agnostic, custom-brand; shapes: content-site</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>3.3k KB</td></tr><tr><th scope="row">License</th><td>NOASSERTION</td></tr><tr><th scope="row">Last activity</th><td>2026-11-05</td></tr><tr><th scope="row">Docs</th><td><a href="https://fast.design">https://fast.design</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/microsoft/fast">https://github.com/microsoft/fast</a></td></tr></tbody></table>
+<h2 id="public-usage-feedback">Public usage &amp; feedback</h2>
+<p>Numbers as reported by each source on 2026-11-05; nothing is estimated.</p>
+<table><thead><tr><th>Signal</th><th>Value</th><th>Source</th></tr></thead><tbody><tr><td>GitHub stars</td><td>9.7k</td><td>GitHub API (microsoft/fast)</td></tr><tr><td>GitHub forks</td><td>640</td><td>GitHub API</td></tr><tr><td>Contributors (incl. anonymous)</td><td>160</td><td>GitHub API</td></tr><tr><td>Issues closed / open</td><td>2.8k / 76 (97% closed)</td><td>GitHub API</td></tr><tr><td>npm weekly downloads</td><td>308.8k</td><td>npm (<code>@microsoft/fast-element</code> 3.1.2)</td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li>llms.txt: not published</li><li>MCP server: none found</li><li><strong>Design tokens:</strong> <a href="https://github.com/microsoft/fast/blob/HEAD/sites/website/src/css/variables.css">https://github.com/microsoft/fast/blob/HEAD/sites/website/src/css/variables.css</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/microsoft/fast/blob/HEAD/.github/copilot-instructions.md">https://github.com/microsoft/fast/blob/HEAD/.github/copilot-instructions.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
@@ -86,13 +89,13 @@
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
 <table><thead><tr><th>Capability</th><th>Points</th></tr></thead><tbody><tr><td>Official MCP server (agent can query components/docs live)</td><td>0/20</td></tr><tr><td>llms.txt on the docs site</td><td>0/15</td></tr><tr><td>llms-full.txt (whole docs as one markdown file)</td><td>0/5</td></tr><tr><td>Machine-readable design tokens in the repo</td><td>15/15</td></tr><tr><td>Typed component API (TypeScript / Swift / Kotlin / Dart / C#)</td><td>10/10</td></tr><tr><td>Registry / CLI install of component source (e.g. shadcn registry)</td><td>0/10</td></tr><tr><td>Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo</td><td>5/5</td></tr><tr><td>Storybook / live, inspectable examples</td><td>0/5</td></tr><tr><td>Figma Code Connect (design ↔ code mapping)</td><td>0/5</td></tr><tr><td>Accessibility guidance shipped with the source</td><td>0/5</td></tr><tr><td>Dedicated documentation site</td><td>5/5</td></tr></tbody></table>
-<p>Quality gate: activity <strong>active</strong>; traction via stars, orgBacked. Notes: AI-readiness 35 &lt; 45.</p>
+<p>Quality gate: activity <strong>active</strong>; traction via stars, npm, orgBacked. Notes: AI-readiness 35 &lt; 45.</p>
 <p>_Data refreshed 2026-11-05. Agent-readable source: <a href="https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md_">https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md_</a></p>
     </article>
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#public-usage-feedback">Public usage &amp; feedback</a></li><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="fast.md" class="wa-caption-m">Markdown version</a>

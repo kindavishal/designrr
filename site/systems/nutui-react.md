@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 12.1k KB |
 | License | MIT |
-| GitHub stars | 1.2k |
-| npm weekly downloads | 0 (`@nutui/nutui-react` 4.0.0-beta.9) |
 | Last activity | 2026-11-04 |
 | Docs | https://nutui.jd.com/react |
 | Source | https://github.com/jdf2e/nutui-react |
 | Same family | [NutUI](nutui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.2k | GitHub API (jdf2e/nutui-react) |
+| GitHub forks | 299 | GitHub API |
+| Contributors (incl. anonymous) | 144 | GitHub API |
+| Issues closed / open | 933 / 1 (100% closed) | GitHub API |
+| npm weekly downloads | 1.5k | npm (`@nutui/nutui-react` 4.0.0-beta.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published

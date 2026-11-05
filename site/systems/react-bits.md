@@ -14,10 +14,19 @@
 | Good for | marketing, motion, creative; shapes: marketing-site |
 | Dark mode / RTL | yes / not detected |
 | License | NOASSERTION |
-| GitHub stars | 51.3k |
 | Last activity | 2026-10-31 |
 | Docs | https://reactbits.dev |
 | Source | https://github.com/DavidHDev/react-bits |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 51.3k | GitHub API (DavidHDev/react-bits) |
+| GitHub forks | 2.6k | GitHub API |
+| Contributors (incl. anonymous) | 140 | GitHub API |
+| Issues closed / open | 548 / 2 (100% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://reactbits.dev/llms.txt

@@ -5,22 +5,31 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **75/100** |
+| AI-readiness | **65/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | vue |
 | Styling | css |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | admin |
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 5.7k KB |
 | License | MIT |
-| GitHub stars | 1.3k |
-| npm weekly downloads | 0 (`bootstrap-vue-next` 1.2.2) |
 | Last activity | 2026-09-27 |
 | Docs | https://bootstrap-vue-next.github.io/bootstrap-vue-next/ |
 | Source | https://github.com/bootstrap-vue-next/bootstrap-vue-next |
 | Same family | [Bootstrap](bootstrap.md), [React Bootstrap](react-bootstrap.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.3k | GitHub API (bootstrap-vue-next/bootstrap-vue-next) |
+| GitHub forks | 184 | GitHub API |
+| Contributors (incl. anonymous) | 165 | GitHub API |
+| Issues closed / open | 1.2k / 20 (98% closed) | GitHub API |
+| npm weekly downloads | 77.2k | npm (`bootstrap-vue-next` 1.2.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://bootstrap-vue-next.github.io/bootstrap-vue-next/llms.txt
@@ -63,13 +72,13 @@ Then follow the framework setup in the official getting-started guide: https://b
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap-vue-next.md_

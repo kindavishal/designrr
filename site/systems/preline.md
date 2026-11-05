@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 6.8k KB |
 | License | NOASSERTION |
-| GitHub stars | 6.5k |
-| npm weekly downloads | 76.9k (`preline` 5.0.0) |
 | Last activity | 2026-08-31 |
 | Docs | https://preline.co |
 | Source | https://github.com/htmlstreamofficial/preline |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 6.5k | GitHub API (htmlstreamofficial/preline) |
+| GitHub forks | 417 | GitHub API |
+| Contributors (incl. anonymous) | 34 | GitHub API |
+| Issues closed / open | 572 / 9 (98% closed) | GitHub API |
+| npm weekly downloads | 76.6k | npm (`preline` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

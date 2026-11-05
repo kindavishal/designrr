@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.4k KB |
 | License | Apache-2.0 |
-| GitHub stars | 981 |
-| npm weekly downloads | 3.7k (`@sumup-oss/circuit-ui` 12.6.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://circuit.sumup.com |
 | Source | https://github.com/sumup-oss/circuit-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 981 | GitHub API (sumup-oss/circuit-ui) |
+| GitHub forks | 131 | GitHub API |
+| Contributors (incl. anonymous) | 98 | GitHub API |
+| Issues closed / open | 228 / 3 (99% closed) | GitHub API |
+| npm weekly downloads | 4.0k | npm (`@sumup-oss/circuit-ui` 12.6.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

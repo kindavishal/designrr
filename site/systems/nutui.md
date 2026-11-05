@@ -15,12 +15,21 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 4.1k KB |
 | License | MIT |
-| GitHub stars | 6.5k |
-| npm weekly downloads | 5.3k (`@nutui/nutui` 4.3.15-beta.1) |
 | Last activity | 2026-03-31 |
 | Docs | https://nutui.jd.com |
 | Source | https://github.com/jd-opensource/nutui |
 | Same family | [NutUI React](nutui-react.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 6.5k | GitHub API (jd-opensource/nutui) |
+| GitHub forks | 833 | GitHub API |
+| Contributors (incl. anonymous) | 144 | GitHub API |
+| Issues closed / open | 1.7k / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 4.2k | npm (`@nutui/nutui` 4.3.15-beta.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -66,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://n
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
+Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nutui.md_

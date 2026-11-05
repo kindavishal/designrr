@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 396 KB |
 | License | MIT |
-| GitHub stars | 11.6k |
-| npm weekly downloads | 10.5k (`98.css` 0.1.21) |
 | Last activity | 2025-09-07 |
 | Docs | https://jdan.github.io/98.css |
 | Source | https://github.com/jdan/98.css |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 11.6k | GitHub API (jdan/98.css) |
+| GitHub forks | 381 | GitHub API |
+| Contributors (incl. anonymous) | 38 | GitHub API |
+| Issues closed / open | 81 / 30 (73% closed) | GitHub API |
+| npm weekly downloads | 9.9k | npm (`98.css` 0.1.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published

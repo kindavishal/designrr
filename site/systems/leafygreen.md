@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 802 KB |
 | License | Apache-2.0 |
-| GitHub stars | 274 |
-| npm weekly downloads | 68.6k (`@leafygreen-ui/button` 25.2.2) |
 | Last activity | 2026-10-15 |
 | Docs | https://www.mongodb.design |
 | Source | https://github.com/mongodb/leafygreen-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 274 | GitHub API (mongodb/leafygreen-ui) |
+| GitHub forks | 84 | GitHub API |
+| Contributors (incl. anonymous) | 56 | GitHub API |
+| Issues closed / open | 0 / 0 | GitHub API |
+| npm weekly downloads | 65.9k | npm (`@leafygreen-ui/button` 25.2.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published

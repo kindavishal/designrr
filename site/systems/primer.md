@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 3.9k KB |
 | License | MIT |
-| GitHub stars | 3.9k |
-| npm weekly downloads | 61.1k (`@primer/react` 38.44.0) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://primer.style |
 | Source | https://github.com/primer/react |
 | Same family | [Primer Primitives (tokens)](primer-primitives.md), [Primer ViewComponents](primer-view-components.md), [Primer CSS](primer-css.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.9k | GitHub API (primer/react) |
+| GitHub forks | 723 | GitHub API |
+| Contributors (incl. anonymous) | 255 | GitHub API |
+| Issues closed / open | 1.3k / 30 (98% closed) | GitHub API |
+| npm weekly downloads | 64.0k | npm (`@primer/react` 38.44.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

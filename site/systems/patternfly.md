@@ -15,12 +15,21 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 25.1k KB |
 | License | MIT |
-| GitHub stars | 858 |
-| npm weekly downloads | 0 (`@patternfly/react-core` 6.7.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://www.patternfly.org |
 | Source | https://github.com/patternfly/patternfly-react |
 | Same family | [PatternFly Elements](patternfly-elements.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 858 | GitHub API (patternfly/patternfly-react) |
+| GitHub forks | 392 | GitHub API |
+| Contributors (incl. anonymous) | 200 | GitHub API |
+| Issues closed / open | 5.5k / 216 (96% closed) | GitHub API |
+| npm weekly downloads | 176.4k | npm (`@patternfly/react-core` 6.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly.md_

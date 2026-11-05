@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 1.6k KB |
 | License | MIT |
-| GitHub stars | 13.2k |
-| npm weekly downloads | 30.5k (`tw-elements` 2.0.0) |
 | Last activity | 2026-03-27 |
 | Docs | https://tw-elements.com |
 | Source | https://github.com/mdbootstrap/TW-Elements |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 13.2k | GitHub API (mdbootstrap/TW-Elements) |
+| GitHub forks | 1.6k | GitHub API |
+| Contributors (incl. anonymous) | 145 | GitHub API |
+| Issues closed / open | 526 / 105 (83% closed) | GitHub API |
+| npm weekly downloads | 30.6k | npm (`tw-elements` 2.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

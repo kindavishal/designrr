@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 35.2k KB |
 | License | MIT |
-| GitHub stars | 18 |
-| npm weekly downloads | 0 (`@govtechsg/sgds-web-component` 3.31.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://www.designsystem.tech.gov.sg |
 | Source | https://github.com/GovTechSG/sgds-web-component |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 18 | GitHub API (GovTechSG/sgds-web-component) |
+| GitHub forks | 12 | GitHub API |
+| Contributors (incl. anonymous) | 23 | GitHub API |
+| Issues closed / open | 165 / 59 (74% closed) | GitHub API |
+| npm weekly downloads | 18.4k | npm (`@govtechsg/sgds-web-component` 3.31.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 30 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/sgds.md_

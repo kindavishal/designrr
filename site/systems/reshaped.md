@@ -1,6 +1,6 @@
 # Reshaped
 
-> Professionally designed, themeable React + Figma system for product teams.
+> Themeable React components with a matching Figma library, for product teams.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 2.3k KB |
 | License | MIT |
-| GitHub stars | 2.3k |
-| npm weekly downloads | 42.1k (`reshaped` 4.2.0) |
 | Last activity | 2026-10-30 |
 | Docs | https://reshaped.so |
 | Source | https://github.com/reshaped-ui/reshaped |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.3k | GitHub API (reshaped-ui/reshaped) |
+| GitHub forks | 160 | GitHub API |
+| Contributors (incl. anonymous) | 13 | GitHub API |
+| Issues closed / open | 136 / 6 (96% closed) | GitHub API |
+| npm weekly downloads | 40.6k | npm (`reshaped` 4.2.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

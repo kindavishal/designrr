@@ -14,11 +14,20 @@
 | Good for | admin, dotnet-ecosystem |
 | Dark mode / RTL | yes / not detected |
 | License | NOASSERTION |
-| GitHub stars | 3.5k |
-| NuGet downloads | 7.4M (`Blazorise`) |
 | Last activity | 2026-10-28 |
 | Docs | https://blazorise.com |
 | Source | https://github.com/Megabit/Blazorise |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.5k | GitHub API (Megabit/Blazorise) |
+| GitHub forks | 534 | GitHub API |
+| Contributors (incl. anonymous) | 135 | GitHub API |
+| Issues closed / open | 3.8k / 14 (100% closed) | GitHub API |
+| NuGet downloads (all time) | 7.4M | NuGet (`Blazorise`) |
 
 ## AI resources (use these first)
 - llms.txt: not published

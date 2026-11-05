@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 10.9k KB |
 | License | Apache-2.0 |
-| GitHub stars | 4.4k |
-| npm weekly downloads | 0 (`gestalt` 177.0.12) |
 | Last activity | 2026-10-05 |
 | Docs | https://gestalt.pinterest.systems |
 | Source | https://github.com/pinterest/gestalt |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.4k | GitHub API (pinterest/gestalt) |
+| GitHub forks | 387 | GitHub API |
+| Contributors (incl. anonymous) | 152 | GitHub API |
+| Issues closed / open | 0 / 0 | GitHub API |
+| npm weekly downloads | 6.9k | npm (`gestalt` 177.0.12) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://g
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gestalt.md_

@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10.3k KB |
 | License | MIT |
-| GitHub stars | 69 |
-| npm weekly downloads | 0 (`@sbb-esta/lyne-elements` 5.13.1) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://lyne-storybook.app.sbb.ch |
 | Source | https://github.com/sbb-design-systems/lyne-components |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 69 | GitHub API (sbb-design-systems/lyne-components) |
+| GitHub forks | 20 | GitHub API |
+| Contributors (incl. anonymous) | 50 | GitHub API |
+| Issues closed / open | 839 / 56 (94% closed) | GitHub API |
+| npm weekly downloads | 2.1k | npm (`@sbb-esta/lyne-elements` 5.13.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

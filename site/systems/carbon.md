@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **65/100** |
+| AI-readiness | **85/100** |
 | Maintainer | IBM (org-backed) |
 | Platforms | web |
 | Frameworks | react, web-components |
@@ -15,16 +15,30 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | Apache-2.0 |
-| GitHub stars | 9.6k |
-| npm weekly downloads | 186.2k (`@carbon/react` 1.120.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://carbondesignsystem.com |
 | Source | https://github.com/carbon-design-system/carbon |
 | Same family | [Carbon Components Svelte](carbon-svelte.md), [Carbon for IBM Products](carbon-ibm-products.md) |
 
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 9.6k | GitHub API (carbon-design-system/carbon) |
+| GitHub forks | 2.3k | GitHub API |
+| Contributors (incl. anonymous) | 706 | GitHub API |
+| Issues closed / open | 10.4k / 984 (91% closed) | GitHub API |
+| npm weekly downloads | 192.5k | npm (`@carbon/react` 1.120.0) |
+
 ## AI resources (use these first)
 - **llms.txt:** https://carbondesignsystem.com/llms.txt
-- MCP server: none found
+- **MCP server:**
+  - remote server https://mcp.carbondesignsystem.com/mcp
+    ```json
+    {"mcpServers":{"carbon":{"type":"http","url":"https://mcp.carbondesignsystem.com/mcp"}}}
+    ```
+  - **Access:** Hosted by IBM; connecting requires signing in with an IBMid [https://github.com/carbon-design-system/carbon-mcp].
 - **Design tokens:** https://github.com/carbon-design-system/carbon/blob/HEAD/packages/type/src/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/carbon-design-system/carbon/blob/HEAD/AGENTS.md
 - **Figma Code Connect:** yes, so Figma components map to code.
@@ -32,30 +46,36 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, written 2026-11-05; latest release 1.120.0._
+_Hand-written guide for v1, checked against https://github.com/carbon-design-system/carbon/blob/main/packages/react/README.md on 2026-11-05; latest release 1.120.0._
 
 ## Install
 ```bash
-npm install @carbon/react sass
+npm install @carbon/react
+npm install sass
 ```
 
 ## Setup
 ```scss
-// index.scss
+// index.scss: all component styles (or @use '@carbon/react/scss/components/button' for one)
 @use '@carbon/react';
 ```
 ```tsx
 import { Theme, Button } from '@carbon/react';
-<Theme theme="white">{/* white | g10 | g90 | g100 */}</Theme>
+import { Add } from '@carbon/react/icons';
+
+<Theme theme="white">{/* 'white' | 'g10' | 'g90' | 'g100' */}
+  <Button renderIcon={Add}>Create</Button>
+</Theme>
 ```
+`Theme` can wrap the whole app or a single region (for example a dark `g100` header on a `white` page).
 
 ## Theme it to a brand
-Carbon is intentionally opinionated; customise via Sass theme tokens (`@use '@carbon/react/scss/themes' with (...)`) and `@carbon/styles` token overrides, not ad-hoc CSS.
+Carbon is intentionally opinionated: pick one of the four themes and customise through its Sass theme tokens rather than ad-hoc CSS.
 
 ## Agent tips
-- Tokens are published as `@carbon/themes` / `@carbon/colors` packages (JSON + Sass).
-- Use the UI Shell components (`Header`, `SideNav`) for app chrome and `DataTable` for tables.
-- Web Components version: `@carbon/web-components`.
+- Carbon MCP (hosted): `https://mcp.carbondesignsystem.com/mcp` (streamable HTTP). It requires signing in with an IBMid. A "Carbon Builder" agent skill is published in the carbon-mcp repository.
+- Docs index for LLMs: `https://carbondesignsystem.com/llms.txt`.
+- Use the UI Shell components (`Header`, `SideNav`) for app chrome and `DataTable` for tables. Web Components version: `@carbon/web-components`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -70,7 +90,7 @@ Carbon is intentionally opinionated; customise via Sass theme tokens (`@use '@ca
 ## Score breakdown
 | Capability | Points |
 |---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
+| Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |

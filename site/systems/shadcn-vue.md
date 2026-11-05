@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.5k KB |
 | License | MIT |
-| GitHub stars | 10.8k |
-| npm weekly downloads | 129.1k (`shadcn-vue` 2.9.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://www.shadcn-vue.com |
 | Source | https://github.com/unovue/shadcn-vue |
-| Same family | [shadcn/ui](shadcn-ui.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [shadcn-svelte](shadcn-svelte.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 10.8k | GitHub API (unovue/shadcn-vue) |
+| GitHub forks | 687 | GitHub API |
+| Contributors (incl. anonymous) | 239 | GitHub API |
+| Issues closed / open | 885 / 122 (88% closed) | GitHub API |
+| npm weekly downloads | 132.0k | npm (`shadcn-vue` 2.9.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.shadcn-vue.com/llms.txt

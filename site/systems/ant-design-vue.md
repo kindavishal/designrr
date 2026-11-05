@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 76.1k KB |
 | License | NOASSERTION |
-| GitHub stars | 21.7k |
-| npm weekly downloads | 195.3k (`ant-design-vue` 4.2.6) |
 | Last activity | 2026-07-24 |
 | Docs | https://antdv.com |
 | Source | https://github.com/vueComponent/ant-design-vue |
-| Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Mobile](ant-design-mobile.md), [Ant Design Pro Components](pro-components.md) |
+| Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Pro Components](pro-components.md), [Ant Design Mobile](ant-design-mobile.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 21.7k | GitHub API (vueComponent/ant-design-vue) |
+| GitHub forks | 3.9k | GitHub API |
+| Contributors (incl. anonymous) | 300 | GitHub API |
+| Issues closed / open | 6.1k / 109 (98% closed) | GitHub API |
+| npm weekly downloads | 235.6k | npm (`ant-design-vue` 4.2.6) |
 
 ## AI resources (use these first)
 - llms.txt: not published

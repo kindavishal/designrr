@@ -14,11 +14,20 @@
 | Good for | admin, enterprise, data-dense, dotnet-ecosystem |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| GitHub stars | 4.4k |
-| NuGet downloads | 23.1M (`Radzen.Blazor`) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://blazor.radzen.com |
 | Source | https://github.com/radzenhq/radzen-blazor |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.4k | GitHub API (radzenhq/radzen-blazor) |
+| GitHub forks | 961 | GitHub API |
+| Contributors (incl. anonymous) | 279 | GitHub API |
+| Issues closed / open | 1.8k / 14 (99% closed) | GitHub API |
+| NuGet downloads (all time) | 23.1M | NuGet (`Radzen.Blazor`) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://blazor.radzen.com/llms.txt

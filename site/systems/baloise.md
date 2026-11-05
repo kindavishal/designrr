@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 17.3k KB |
 | License | Apache-2.0 |
-| GitHub stars | 114 |
-| npm weekly downloads | 1.3k (`@baloise/ds-core` 19.11.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://design.baloise.dev |
 | Source | https://github.com/baloise/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 114 | GitHub API (baloise/design-system) |
+| GitHub forks | 31 | GitHub API |
+| Contributors (incl. anonymous) | 51 | GitHub API |
+| Issues closed / open | 884 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 1.2k | npm (`@baloise/ds-core` 19.11.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

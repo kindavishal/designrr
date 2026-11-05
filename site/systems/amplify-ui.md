@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.1k KB |
 | License | Apache-2.0 |
-| GitHub stars | 1.1k |
-| npm weekly downloads | 0 (`@aws-amplify/ui-react` 6.15.7) |
-| Last activity | 2026-10-30 |
+| Last activity | 2026-11-05 |
 | Docs | https://ui.docs.amplify.aws |
 | Source | https://github.com/aws-amplify/amplify-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.1k | GitHub API (aws-amplify/amplify-ui) |
+| GitHub forks | 348 | GitHub API |
+| Contributors (incl. anonymous) | 166 | GitHub API |
+| Issues closed / open | 1.1k / 191 (86% closed) | GitHub API |
+| npm weekly downloads | 494.5k | npm (`@aws-amplify/ui-react` 6.15.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://u
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md_

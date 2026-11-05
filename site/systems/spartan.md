@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.1k KB |
 | License | MIT |
-| GitHub stars | 3.0k |
-| npm weekly downloads | 0 (`@spartan-ng/brain` 1.9.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://www.spartan.ng |
 | Source | https://github.com/spartan-ng/spartan |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [shadcn-svelte](shadcn-svelte.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.0k | GitHub API (spartan-ng/spartan) |
+| GitHub forks | 339 | GitHub API |
+| Contributors (incl. anonymous) | 158 | GitHub API |
+| Issues closed / open | 598 / 70 (90% closed) | GitHub API |
+| npm weekly downloads | 108.8k | npm (`@spartan-ng/brain` 1.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -30,6 +39,7 @@
     {"mcpServers":{"spartan":{"command":"npx","args":["-y","@spartan-ng/mcp"]}}}
     ```
   - in-repo package: https://github.com/spartan-ng/spartan/tree/HEAD/libs/mcp (see its README for setup)
+- **Copy-the-source CLI:** documented at https://github.com/spartan-ng/spartan/blob/main/skills/spartan/cli.md
 - **Agent/contributor docs in repo:** https://github.com/spartan-ng/spartan/blob/HEAD/CLAUDE.md
 
 ## Consider an alternative if
@@ -82,6 +92,6 @@ Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primar
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md_

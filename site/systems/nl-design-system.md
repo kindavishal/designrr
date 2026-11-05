@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 59 KB |
 | License | EUPL-1.2 |
-| GitHub stars | 2 |
-| npm weekly downloads | 0 (`@nl-design-system-candidate/button-react` 1.1.0) |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-05 |
 | Docs | https://nldesignsystem.nl |
 | Source | https://github.com/nl-design-system/candidate |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2 | GitHub API (nl-design-system/candidate) |
+| GitHub forks | 3 | GitHub API |
+| Contributors (incl. anonymous) | 20 | GitHub API |
+| Issues closed / open | 389 / 357 (52% closed) | GitHub API |
+| npm weekly downloads | 1.9k | npm (`@nl-design-system-candidate/button-react` 1.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

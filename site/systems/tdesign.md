@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 52.8k KB |
 | License | MIT |
-| GitHub stars | 4.1k |
-| npm weekly downloads | 45.4k (`tdesign-react` 1.18.6) |
 | Last activity | 2026-11-04 |
 | Docs | https://tdesign.tencent.com |
 | Source | https://github.com/Tencent/tdesign |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.1k | GitHub API (Tencent/tdesign) |
+| GitHub forks | 351 | GitHub API |
+| Contributors (incl. anonymous) | 31 | GitHub API |
+| Issues closed / open | 265 / 31 (90% closed) | GitHub API |
+| npm weekly downloads | 17.5k | npm (`tdesign-react` 1.18.6) |
 
 ## AI resources (use these first)
 - llms.txt: not published

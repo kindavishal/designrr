@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.3k KB |
 | License | MIT |
-| GitHub stars | 5.5k |
-| npm weekly downloads | 1.4M (`@ark-ui/react` 5.40.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://ark-ui.com |
 | Source | https://github.com/chakra-ui/ark |
 | Same family | [Chakra UI](chakra-ui.md), [Park UI](park-ui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.5k | GitHub API (chakra-ui/ark) |
+| GitHub forks | 225 | GitHub API |
+| Contributors (incl. anonymous) | 102 | GitHub API |
+| Issues closed / open | 671 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 1.4M | npm (`@ark-ui/react` 5.40.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ark-ui.com/llms.txt

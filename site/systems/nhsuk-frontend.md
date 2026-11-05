@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 17.4k KB |
 | License | MIT |
-| GitHub stars | 689 |
-| npm weekly downloads | 40.0k (`nhsuk-frontend` 10.7.1) |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-05 |
 | Docs | https://service-manual.nhs.uk/design-system |
 | Source | https://github.com/nhsuk/nhsuk-frontend |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 689 | GitHub API (nhsuk/nhsuk-frontend) |
+| GitHub forks | 142 | GitHub API |
+| Contributors (incl. anonymous) | 75 | GitHub API |
+| Issues closed / open | 401 / 36 (92% closed) | GitHub API |
+| npm weekly downloads | 40.5k | npm (`nhsuk-frontend` 10.7.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

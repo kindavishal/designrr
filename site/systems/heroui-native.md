@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | Apache-2.0 |
-| GitHub stars | 3.7k |
-| npm weekly downloads | 0 (`heroui-native` 1.0.11) |
 | Last activity | 2026-10-30 |
 | Docs | https://www.heroui.com/docs/native |
 | Source | https://github.com/heroui-inc/heroui-native |
 | Same family | [HeroUI (formerly NextUI)](heroui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.7k | GitHub API (heroui-inc/heroui-native) |
+| GitHub forks | 155 | GitHub API |
+| Contributors (incl. anonymous) | 34 | GitHub API |
+| Issues closed / open | 135 / 6 (96% closed) | GitHub API |
+| npm weekly downloads | 426.9k | npm (`heroui-native` 1.0.11) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.heroui.com/llms.txt
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/heroui-native.md_

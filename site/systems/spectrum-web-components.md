@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 514 KB |
 | License | Apache-2.0 |
-| GitHub stars | 1.6k |
-| npm weekly downloads | 0 (`@spectrum-web-components/button` 1.12.5) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://opensource.adobe.com/spectrum-web-components/ |
 | Source | https://github.com/adobe/spectrum-web-components |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.6k | GitHub API (adobe/spectrum-web-components) |
+| GitHub forks | 274 | GitHub API |
+| Contributors (incl. anonymous) | 145 | GitHub API |
+| Issues closed / open | 1.5k / 175 (90% closed) | GitHub API |
+| npm weekly downloads | 69.5k | npm (`@spectrum-web-components/button` 1.12.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://opensource.adobe.com/spectrum-web-components/llms.txt
@@ -70,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://o
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spectrum-web-components.md_

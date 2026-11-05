@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 21.3k KB |
 | License | Apache-2.0 |
-| GitHub stars | 2.7k |
-| npm weekly downloads | 168.9k (`@cloudscape-design/components` 3.0.1409) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://cloudscape.design |
 | Source | https://github.com/cloudscape-design/components |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.7k | GitHub API (cloudscape-design/components) |
+| GitHub forks | 254 | GitHub API |
+| Contributors (incl. anonymous) | 92 | GitHub API |
+| Issues closed / open | 318 / 51 (86% closed) | GitHub API |
+| npm weekly downloads | 165.6k | npm (`@cloudscape-design/components` 3.0.1410) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://cloudscape.design/llms.txt
@@ -30,26 +39,32 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v3, written 2026-11-05; latest release 3.0.1409._
+_Hand-written guide for v3, checked against https://cloudscape.design/get-started/for-developers/using-cloudscape-components/index.html.md on 2026-11-05; latest release 3.0.1410._
 
 ## Install
 ```bash
-npm install @cloudscape-design/components @cloudscape-design/global-styles
+npm install @cloudscape-design/global-styles @cloudscape-design/components
 ```
 
 ## Setup
 ```tsx
 import '@cloudscape-design/global-styles/index.css';
-import { AppLayout, ContentLayout, Header, Table } from '@cloudscape-design/components';
+import Button from '@cloudscape-design/components/button';   // per-component imports
+import AppLayout from '@cloudscape-design/components/app-layout';
 ```
-Dark mode / density: `applyMode(Mode.Dark)`, `applyDensity(Density.Compact)` from `@cloudscape-design/global-styles`.
+Colour mode and density:
+```ts
+import { applyMode, applyDensity, Mode, Density } from '@cloudscape-design/global-styles';
+applyMode(Mode.Dark);
+applyDensity(Density.Compact);
+```
 
 ## Theme it to a brand
-Limited by design: `applyTheme({ theme: { tokens: { colorBackgroundButtonPrimaryDefault: '#…' } } })` from `@cloudscape-design/components/theming`.
+Limited by design: `applyTheme({ theme, selector: 'body' })` from `@cloudscape-design/components/theming` (needs a CSP that allows inline styles), or `generateThemeStylesheet` for build-time CSS.
 
 ## Agent tips
-- Use the documented **patterns** (Create resource, Table view, Dashboard) — they map one-to-one to components.
-- `@cloudscape-design/board-components` for drag-and-drop dashboards; `@cloudscape-design/chart-components` for charts.
+- Cloudscape's docs are built for agents: `https://cloudscape.design/llms.txt`, a Markdown version of every page (`…/index.html.md`) and machine-readable component APIs (`https://cloudscape.design/components/index.html.json`, or per component).
+- Use the documented patterns (create resource, table view, dashboards), which map one-to-one to components.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

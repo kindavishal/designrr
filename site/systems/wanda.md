@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 936 KB |
 | License | Apache-2.0 |
-| GitHub stars | 238 |
-| npm weekly downloads | 831 (`@wonderflow/react-components` 16.1.0) |
 | Last activity | 2026-10-29 |
 | Docs | https://design.wonderflow.ai |
 | Source | https://github.com/wonderflow-bv/wanda |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 238 | GitHub API (wonderflow-bv/wanda) |
+| GitHub forks | 27 | GitHub API |
+| Contributors (incl. anonymous) | 14 | GitHub API |
+| Issues closed / open | 165 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 899 | npm (`@wonderflow/react-components` 16.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

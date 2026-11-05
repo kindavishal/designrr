@@ -4,8 +4,9 @@ A curated, scored catalog of **237 production-grade design systems** (web, iOS, 
 
 - **Large, but no noise.** Every entry is actively maintained (last 12 months) and has real adoption (≥1k stars, ≥5k weekly npm downloads, ≥300 pub.dev likes, or a known company/government maintainer). Archived and deprecated systems are dropped automatically.
 - **AI-ready.** Each system is scored 0–100 on what agents can actually use: an official MCP server, `llms.txt`, machine-readable tokens, typed APIs, registry/CLI install, agent docs, Storybook and Figma Code Connect.
-- **Built to be built with.** Every system has a page with install steps (including whether it works without a build step), theming, its AI resources (a copy-paste MCP config and any agent skills shipped in its package) and a build checklist. The 35 most-used systems have hand-written, version-pinned guides.
+- **Built to be built with.** Every system has a page with install steps (including whether it works without a build step), theming, its AI resources (a copy-paste MCP config and any agent skills shipped in its package) and a build checklist. 35 systems have hand-written guides, each checked against the system's own current docs (the source URL is on the page).
 - **Honest about fit.** Brand-locked systems are flagged, ports of the same system are grouped into families, and each system is tagged with the product shapes it suits.
+- **No invented facts.** Every number comes straight from a public API on the refresh date: GitHub stars, forks, contributors, issues closed vs open, npm weekly downloads, pub.dev likes, NuGet downloads. People and agents can filter and sort by any of them. Claims such as licence limits or "built on X" cite their source, and there are no made-up ratings.
 - **Free to run.** Uses only the GitHub API, npm, pub.dev, NuGet and HTTP probes. No paid APIs.
 
 ## Use it from any agent
@@ -29,14 +30,14 @@ The agent follows the selection protocol in `llms.txt`:
 
 | | Count |
 |---|---|
-| Recommended (passes the gate and AI-readiness ≥ 45, or platform-native) | 105 |
-| Solid (passes the gate) | 123 |
+| Recommended (passes the gate and AI-readiness ≥ 45, or platform-native) | 102 |
+| Solid (passes the gate) | 126 |
 | Watch (maintenance slowing: 12–24 months) | 9 |
 | Reference only (closed source, e.g. Airbnb, Stripe, Linear) | 11 |
-| With an official MCP server | 42 |
+| With an official MCP server | 46 |
 | Usable with no build step (plain HTML + CDN) | 22 |
 | Brand-locked (flagged, excluded by default) | 45 |
-| With `llms.txt` | 75 |
+| With `llms.txt` | 77 |
 
 Browse it at `site/index.html` (run `npm run serve`). It's built with Web Awesome, has filters for platform, framework, product shape, tier, no-build, Tailwind, MCP and brand-locked, and every system has an HTML page as well as a Markdown one.
 

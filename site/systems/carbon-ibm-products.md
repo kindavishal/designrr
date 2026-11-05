@@ -15,12 +15,21 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 21.5k KB |
 | License | Apache-2.0 |
-| GitHub stars | 132 |
-| npm weekly downloads | 0 (`@carbon/ibm-products` 2.102.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://ibm-products.carbondesignsystem.com |
 | Source | https://github.com/carbon-design-system/ibm-products |
 | Same family | [Carbon Design System](carbon.md), [Carbon Components Svelte](carbon-svelte.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 132 | GitHub API (carbon-design-system/ibm-products) |
+| GitHub forks | 170 | GitHub API |
+| Contributors (incl. anonymous) | 117 | GitHub API |
+| Issues closed / open | 4.2k / 314 (93% closed) | GitHub API |
+| npm weekly downloads | 44.2k | npm (`@carbon/ibm-products` 2.102.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://i
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-ibm-products.md_

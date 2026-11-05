@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| GitHub stars | 9.0k |
-| npm weekly downloads | 112.5k (`baseui` 18.2.0) |
 | Last activity | 2026-09-25 |
 | Docs | https://baseweb.design |
 | Source | https://github.com/uber/baseweb |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 9.0k | GitHub API (uber/baseweb) |
+| GitHub forks | 882 | GitHub API |
+| Contributors (incl. anonymous) | 262 | GitHub API |
+| Issues closed / open | 0 / 0 | GitHub API |
+| npm weekly downloads | 108.6k | npm (`baseui` 18.2.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

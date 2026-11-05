@@ -1,29 +1,43 @@
 # React Spectrum / React Aria
 
-> Best-in-class accessibility and internationalisation; React Aria for custom-branded systems, Spectrum for Adobe-style tools.
+> Accessibility- and i18n-focused React: React Aria for custom-branded systems, React Spectrum S2 for Adobe-style tools.
 
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **60/100** |
+| AI-readiness | **90/100** |
 | Maintainer | Adobe (org-backed) |
 | Platforms | web |
 | Frameworks | react |
 | Styling | headless (headless) |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CLI copies component source into your repo (requires: bundler) |
 | Good for | enterprise, accessibility-critical, creative-tools, custom-brand |
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 6.8k KB |
 | License | Apache-2.0 |
-| GitHub stars | 16.0k |
-| npm weekly downloads | 8.3M (`react-aria-components` 1.22.1) |
 | Last activity | 2026-11-05 |
 | Docs | https://react-spectrum.adobe.com |
 | Source | https://github.com/adobe/react-spectrum |
 
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 16.0k | GitHub API (adobe/react-spectrum) |
+| GitHub forks | 1.6k | GitHub API |
+| Contributors (incl. anonymous) | 551 | GitHub API |
+| Issues closed / open | 3.2k / 541 (85% closed) | GitHub API |
+| npm weekly downloads | 8.5M | npm (`react-aria-components` 1.22.1) |
+
 ## AI resources (use these first)
 - **llms.txt:** https://react-spectrum.adobe.com/llms.txt
-- MCP server: none found
+- **MCP server:**
+  - npm package `@react-aria/mcp`
+    ```json
+    {"mcpServers":{"react-spectrum":{"command":"npx","args":["-y","@react-aria/mcp"]}}}
+    ```
+- **Copy-the-source CLI:** documented at https://react-aria.adobe.com/getting-started.md
 - **Design tokens:** https://github.com/adobe/react-spectrum/blob/HEAD/packages/@react-spectrum/s2/style/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/adobe/react-spectrum/blob/HEAD/AGENTS.md
 
@@ -31,23 +45,26 @@
 - you want a finished visual style out of the box. This is headless; you supply all styling.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, written 2026-11-05; latest release 1.22.1._
+_Hand-written guide for v1, checked against https://react-aria.adobe.com/getting-started.md on 2026-11-05; latest release 1.22.1._
 
 ## Install
 ```bash
-npm install react-aria-components          # unstyled, accessible — bring your own styles (Tailwind works well)
-# Adobe-styled: npm install @adobe/react-spectrum   (Spectrum 2: @react-spectrum/s2)
+npm install react-aria-components     # React Aria: unstyled, accessible; bring your own styles
+npm install @react-spectrum/s2        # React Spectrum S2: Adobe's styled components
 ```
 
 ## Setup
-React Aria Components need no provider; style via `className` (render props expose states: `isHovered`, `isFocusVisible`, `isSelected`). Use the Tailwind plugin `tailwindcss-react-aria-components` for state variants.
+- **React Aria Components:** no provider. Start from the official vanilla-CSS or Tailwind examples (copy, download as ZIP, or install with the shadcn CLI from each example), or download a Storybook starter kit.
+- **React Spectrum S2:** styling uses build-time style macros, so follow the bundler setup for your tool (Parcel, Vite, webpack, Next.js, React Router, Rollup, ESBuild) in the S2 getting-started guide.
 
 ## When to choose which
-- **React Aria**: you need a custom brand with best-in-class a11y + i18n (date pickers, comboboxes, drag & drop, tables).
-- **React Spectrum**: Adobe-style creative/pro tools.
+- **React Aria:** a custom brand that needs best-in-class accessibility and internationalisation (date pickers, comboboxes, drag and drop, tables).
+- **React Spectrum S2:** Adobe-style creative and pro tools.
 
 ## Agent tips
-- The docs have copy-paste Tailwind and vanilla CSS starter kits — start from those rather than styling from zero.
+- MCP servers: `npx @react-aria/mcp@latest` (React Aria) and `npx @react-spectrum/mcp@latest` (S2).
+- Agent skills: `npx skills add https://react-aria.adobe.com` or `npx skills add https://react-spectrum.adobe.com`.
+- LLM docs: `https://react-aria.adobe.com/llms.txt` and `https://react-spectrum.adobe.com/llms.txt` (every page has a `.md` version).
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -62,12 +79,12 @@ React Aria Components need no provider; style via `className` (render props expo
 ## Score breakdown
 | Capability | Points |
 |---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
+| Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |

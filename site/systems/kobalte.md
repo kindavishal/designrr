@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| GitHub stars | 1.9k |
-| npm weekly downloads | 0 (`@kobalte/core` 0.13.14) |
 | Last activity | 2026-09-07 |
 | Docs | https://kobalte.dev |
 | Source | https://github.com/kobaltedev/kobalte |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.9k | GitHub API (kobaltedev/kobalte) |
+| GitHub forks | 127 | GitHub API |
+| Contributors (incl. anonymous) | 51 | GitHub API |
+| Issues closed / open | 237 / 94 (72% closed) | GitHub API |
+| npm weekly downloads | 5.5M | npm (`@kobalte/core` 0.13.14) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://kobalte.dev/llms.txt
@@ -66,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://k
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 30 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/kobalte.md_

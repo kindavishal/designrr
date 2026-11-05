@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 917 KB |
 | License | MIT |
-| GitHub stars | — |
-| npm weekly downloads | 277 (`@sproutsocial/racine` 33.0.7) |
 | Last activity | 2026-10-27 |
 | Docs | https://seeds.sproutsocial.com |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 251 | npm (`@sproutsocial/racine` 33.0.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published

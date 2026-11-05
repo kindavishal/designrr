@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 14.4k KB |
 | License | MIT |
-| GitHub stars | 726 |
-| npm weekly downloads | 18.3k (`pcln-design-system` 6.29.0) |
 | Last activity | 2026-05-06 |
 | Docs | https://priceline.github.io/design-system/ |
 | Source | https://github.com/priceline/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 726 | GitHub API (priceline/design-system) |
+| GitHub forks | 121 | GitHub API |
+| Contributors (incl. anonymous) | 139 | GitHub API |
+| Issues closed / open | 335 / 28 (92% closed) | GitHub API |
+| npm weekly downloads | 18.7k | npm (`pcln-design-system` 6.29.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

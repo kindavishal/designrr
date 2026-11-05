@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.4k KB |
 | License | ISC |
-| GitHub stars | — |
-| npm weekly downloads | 16.1k (`@loomhq/lens` 13.0.2) |
 | Last activity | 2026-10-14 |
 | Docs | https://lens.loom.dev |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 14.1k | npm (`@loomhq/lens` 13.0.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published

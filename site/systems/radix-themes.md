@@ -1,6 +1,6 @@
 # Radix Themes
 
-> Polished, accessible React UI with a clean default look and minimal setup.
+> Accessible React UI with a ready-made default look and minimal setup.
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 4.8k KB |
 | License | MIT |
-| GitHub stars | 8.8k |
-| npm weekly downloads | 1.5M (`@radix-ui/themes` 3.3.0) |
 | Last activity | 2026-04-11 |
 | Docs | https://www.radix-ui.com/themes/docs |
 | Source | https://github.com/radix-ui/themes |
 | Same family | [Radix Primitives](radix-primitives.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.8k | GitHub API (radix-ui/themes) |
+| GitHub forks | 345 | GitHub API |
+| Contributors (incl. anonymous) | 28 | GitHub API |
+| Issues closed / open | 282 / 155 (65% closed) | GitHub API |
+| npm weekly downloads | 1.4M | npm (`@radix-ui/themes` 3.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -31,7 +40,7 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v3, written 2026-11-05; latest release 3.3.0._
+_Hand-written guide for v3, checked against https://www.radix-ui.com/themes/docs/overview/getting-started.md on 2026-11-05; latest release 3.3.0._
 
 ## Install
 ```bash
@@ -42,12 +51,18 @@ npm install @radix-ui/themes
 ```tsx
 import '@radix-ui/themes/styles.css';
 import { Theme } from '@radix-ui/themes';
-<Theme accentColor="indigo" grayColor="slate" radius="medium" scaling="100%">{/* app */}</Theme>
+
+export default function Root() {
+  return <html><body><Theme><MyApp /></Theme></body></html>;
+}
 ```
 
+## Theme it to a brand
+Configure the `Theme`: `<Theme accentColor="crimson" grayColor="sand" radius="large" scaling="95%">`. During development, drop `<ThemePanel />` inside `Theme` to preview settings live (remove it before shipping).
+
 ## Agent tips
-- Layout with `Flex`, `Grid`, `Box`, `Container`, `Section` and their responsive props; no Tailwind needed.
-- Theme panel (`<ThemePanel />`) helps pick settings during development; remove before shipping.
+- Layout with `Flex`, `Grid`, `Box`, `Container` and `Section` and their responsive props; no Tailwind needed.
+- Docs pages have Markdown versions (append `.md`, for example `…/themes/docs/overview/getting-started.md`). There is no llms.txt index.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

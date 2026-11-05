@@ -1,6 +1,6 @@
 # MudBlazor
 
-> Material-style Blazor apps; the most popular Blazor component library.
+> Material-style Blazor apps.
 
 | | |
 |---|---|
@@ -14,11 +14,20 @@
 | Good for | admin, enterprise, dotnet-ecosystem |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| GitHub stars | 10.7k |
-| NuGet downloads | 41.4M (`MudBlazor`) |
 | Last activity | 2026-11-04 |
 | Docs | https://mudblazor.com |
 | Source | https://github.com/MudBlazor/MudBlazor |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 10.7k | GitHub API (MudBlazor/MudBlazor) |
+| GitHub forks | 1.7k | GitHub API |
+| Contributors (incl. anonymous) | 573 | GitHub API |
+| Issues closed / open | 5.0k / 608 (89% closed) | GitHub API |
+| NuGet downloads (all time) | 41.4M | NuGet (`MudBlazor`) |
 
 ## AI resources (use these first)
 - llms.txt: not published

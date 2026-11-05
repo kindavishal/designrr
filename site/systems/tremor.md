@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 483 KB |
 | License | Apache-2.0 |
-| GitHub stars | 3.7k |
-| npm weekly downloads | 523.2k (`@tremor/react` 3.18.7) |
 | Last activity | 2025-10-10 |
 | Docs | https://tremor.so |
 | Source | https://github.com/tremorlabs/tremor |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.7k | GitHub API (tremorlabs/tremor) |
+| GitHub forks | 200 | GitHub API |
+| Contributors (incl. anonymous) | 4 | GitHub API |
+| Issues closed / open | 41 / 18 (69% closed) | GitHub API |
+| npm weekly downloads | 530.1k | npm (`@tremor/react` 3.18.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published

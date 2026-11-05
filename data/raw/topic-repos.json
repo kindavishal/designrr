@@ -6,7 +6,7 @@
       "repo": "donnemartin/system-design-primer",
       "name": "system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "stars": 376853,
+      "stars": 376889,
       "topics": [
         "design",
         "design-patterns",
@@ -28,7 +28,7 @@
       "repo": "VoltAgent/awesome-design-md",
       "name": "awesome-design-md",
       "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "stars": 125672,
+      "stars": 125709,
       "topics": [
         "awesome-list",
         "design-md",
@@ -46,7 +46,7 @@
       "repo": "Leonxlnx/taste-skill",
       "name": "taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "stars": 110196,
+      "stars": 110343,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -80,7 +80,7 @@
       "repo": "saadeghi/daisyui",
       "name": "daisyui",
       "description": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
-      "stars": 42741,
+      "stars": 42747,
       "topics": [
         "component",
         "component-library",
@@ -109,7 +109,7 @@
       "repo": "chakra-ui/chakra-ui",
       "name": "chakra-ui",
       "description": "Chakra UI is a component system for building SaaS products with speed ⚡️",
-      "stars": 40712,
+      "stars": 40713,
       "topics": [
         "a11y",
         "accessible",
@@ -134,7 +134,7 @@
       "repo": "onlook-dev/onlook",
       "name": "onlook",
       "description": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
-      "stars": 27118,
+      "stars": 27120,
       "topics": [
         "ai",
         "claude-code",
@@ -186,7 +186,7 @@
       "repo": "stenciljs/core",
       "name": "core",
       "description": "A toolchain for building scalable, enterprise-ready component systems on top of TypeScript and Web Component standards. Stencil components can be distributed natively to React, Angular, Vue, (+ more) and traditional web applications from a single, framework-agnostic codebase.",
-      "stars": 13150,
+      "stars": 13151,
       "topics": [
         "custom-element",
         "design-system",
@@ -277,7 +277,7 @@
       "repo": "mui/base-ui",
       "name": "base-ui",
       "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
-      "stars": 11301,
+      "stars": 11303,
       "topics": [
         "accessibility",
         "base-ui",
@@ -311,7 +311,7 @@
       "repo": "DouyinFE/semi-design",
       "name": "semi-design",
       "description": "🚀A modern, comprehensive, flexible design system and React UI library, AI-friendly built-in.🎨Provide 3000+ Design Tokens, easy to build your design system. Make Semi Design to Any Design.🧑🏻‍💻 Design to Code in one click",
-      "stars": 10466,
+      "stars": 10470,
       "topics": [
         "ai-friendly",
         "code2design",
@@ -331,7 +331,7 @@
       "repo": "carbon-design-system/carbon",
       "name": "carbon",
       "description": "A design system built by IBM",
-      "stars": 9603,
+      "stars": 9605,
       "topics": [
         "design-system",
         "hacktoberfest",
@@ -345,7 +345,7 @@
       "repo": "themesberg/flowbite",
       "name": "flowbite",
       "description": "Open-source UI component library and front-end development framework based on Tailwind CSS",
-      "stars": 9378,
+      "stars": 9379,
       "topics": [
         "components",
         "css",
@@ -446,7 +446,7 @@
       "repo": "unovue/reka-ui",
       "name": "reka-ui",
       "description": "An open-source UI component library for building high-quality, accessible design systems and web apps for Vue. Previously Radix Vue",
-      "stars": 6927,
+      "stars": 6929,
       "topics": [
         "accessibility",
         "accessible",
@@ -509,7 +509,7 @@
       "repo": "skeletonlabs/skeleton",
       "name": "skeleton",
       "description": "Skeleton is an adaptive design system powered by Tailwind CSS.",
-      "stars": 6087,
+      "stars": 6086,
       "topics": [
         "a11y",
         "accessibility",
@@ -532,7 +532,7 @@
       "repo": "basscss/basscss",
       "name": "basscss",
       "description": "Low-level CSS Toolkit – the original Functional/Utility/Atomic CSS library",
-      "stars": 5897,
+      "stars": 5898,
       "topics": [
         "atomic-css",
         "basscss",
@@ -624,7 +624,7 @@
       "repo": "Appllama/appllama-skills",
       "name": "appllama-skills",
       "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-      "stars": 4875,
+      "stars": 4892,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -649,26 +649,10 @@
       "query": "topic:design-system"
     },
     {
-      "repo": "alibaba-fusion/next",
-      "name": "next",
-      "description": "🦍 A configurable component library for web built on React. ",
-      "stars": 4683,
-      "topics": [
-        "component",
-        "design-system",
-        "fusion",
-        "fusion-design",
-        "next",
-        "react",
-        "ui"
-      ],
-      "query": "topic:design-system"
-    },
-    {
       "repo": "Manavarya09/design-extract",
       "name": "design-extract",
       "description": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
-      "stars": 4680,
+      "stars": 4729,
       "topics": [
         "accessibility",
         "agent-skill",
@@ -694,10 +678,26 @@
       "query": "topic:design-system"
     },
     {
+      "repo": "alibaba-fusion/next",
+      "name": "next",
+      "description": "🦍 A configurable component library for web built on React. ",
+      "stars": 4683,
+      "topics": [
+        "component",
+        "design-system",
+        "fusion",
+        "fusion-design",
+        "next",
+        "react",
+        "ui"
+      ],
+      "query": "topic:design-system"
+    },
+    {
       "repo": "nateherkai/scroll-craft",
       "name": "scroll-craft",
       "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
-      "stars": 4547,
+      "stars": 4560,
       "topics": [
         "accessibility",
         "agent-skills",
@@ -733,7 +733,7 @@
       "repo": "VoltAgent/awesome-claude-design",
       "name": "awesome-claude-design",
       "description": "Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.",
-      "stars": 4332,
+      "stars": 4334,
       "topics": [
         "claude-code",
         "claude-design",
@@ -747,7 +747,7 @@
       "repo": "primer/react",
       "name": "react",
       "description": "An implementation of GitHub's Primer Design System using React",
-      "stars": 3932,
+      "stars": 3933,
       "topics": [
         "component-library",
         "design-system",
@@ -853,7 +853,7 @@
       "repo": "bergside/awesome-design-skills",
       "name": "awesome-design-skills",
       "description": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools",
-      "stars": 3509,
+      "stars": 3514,
       "topics": [
         "agent-skills",
         "agentic-ai",
@@ -880,7 +880,7 @@
       "repo": "shadcn-ui/lint",
       "name": "lint",
       "description": "An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
-      "stars": 3313,
+      "stars": 3314,
       "topics": [
         "agents",
         "ai",
@@ -921,7 +921,7 @@
       "repo": "Owl-Listener/designer-skills",
       "name": "designer-skills",
       "description": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
-      "stars": 3251,
+      "stars": 3252,
       "topics": [
         "agentic",
         "agentic-ai",
@@ -957,7 +957,7 @@
       "repo": "plugin87/ux-ui-agent-skills",
       "name": "ux-ui-agent-skills",
       "description": "Turn Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective gates that fail the build instead of faking success.",
-      "stars": 3103,
+      "stars": 3104,
       "topics": [
         "accessibility",
         "ai-agents",
@@ -982,7 +982,7 @@
       "repo": "carbon-design-system/carbon-components-svelte",
       "name": "carbon-components-svelte",
       "description": "Svelte implementation of the Carbon Design System",
-      "stars": 2919,
+      "stars": 2920,
       "topics": [
         "carbon",
         "carbon-design-system",
@@ -1029,7 +1029,7 @@
       "repo": "dickwu/apple-design-skill",
       "name": "apple-design-skill",
       "description": "Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex.",
-      "stars": 2809,
+      "stars": 2827,
       "topics": [
         "apple-hig",
         "claude-code",
@@ -1165,7 +1165,7 @@
       "repo": "lobehub/lobe-ui",
       "name": "lobe-ui",
       "description": "🍭  Lobe UI - an open-source UI component library for building AIGC web apps",
-      "stars": 2254,
+      "stars": 2255,
       "topics": [
         "aigc",
         "antd",
@@ -1185,7 +1185,7 @@
       "repo": "reshaped-ui/reshaped",
       "name": "reshaped",
       "description": "Reshaped provides accessible React and Figma components for building beautiful products or starting your own design system",
-      "stars": 2252,
+      "stars": 2253,
       "topics": [
         "design-system",
         "figma",
@@ -1199,7 +1199,7 @@
       "repo": "bergside/typeui",
       "name": "typeui",
       "description": "Build better UI with AI",
-      "stars": 2203,
+      "stars": 2204,
       "topics": [
         "agent-skills",
         "ai",
@@ -1307,7 +1307,7 @@
       "repo": "kobaltedev/kobalte",
       "name": "kobalte",
       "description": "A UI toolkit for building accessible web apps and design systems with SolidJS.",
-      "stars": 1883,
+      "stars": 1884,
       "topics": [
         "component-library",
         "design-system",
@@ -1320,7 +1320,7 @@
       "repo": "axadrn/shadcn-templ",
       "name": "shadcn-templ",
       "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with Go and templ. Open Source. Open Code.",
-      "stars": 1791,
+      "stars": 1792,
       "topics": [
         "design-system",
         "go",
@@ -1396,7 +1396,7 @@
       "repo": "Caho1/open-claude-ui",
       "name": "open-claude-ui",
       "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
-      "stars": 1679,
+      "stars": 1688,
       "topics": [
         "anthropic",
         "audioworklet",
@@ -1609,7 +1609,7 @@
       "repo": "codewithMUHILAN/Lightswind-UI-Library",
       "name": "Lightswind-UI-Library",
       "description": "The AI-native CLI-first React component library. 160+ animated, accessible, production-ready components with MCP Server support for Cursor, Claude & GitHub Copilot. Copy-paste architecture — you own the code.",
-      "stars": 1264,
+      "stars": 1265,
       "topics": [
         "ai-native",
         "animated-components",
@@ -1787,7 +1787,7 @@
       "repo": "kuratlielia/arc-library",
       "name": "arc-library",
       "description": "Arc Library: free, open source React components with calm motion. Copy the code or install with the shadcn CLI.",
-      "stars": 1120,
+      "stars": 1122,
       "topics": [
         "components",
         "design-system",
@@ -1876,7 +1876,7 @@
       "repo": "bitjaru/styleseed",
       "name": "styleseed",
       "description": "Open-source design-method engine for Claude Code, Codex & Cursor. One agent skill with 22 internal workflows for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.",
-      "stars": 1002,
+      "stars": 1001,
       "topics": [
         "agent-skills",
         "ai-coding",
@@ -1905,7 +1905,7 @@
       "repo": "BoardUI/boardui",
       "name": "boardui",
       "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
-      "stars": 985,
+      "stars": 995,
       "topics": [
         "agentic-ai",
         "ai-agent",
@@ -2042,7 +2042,7 @@
       "repo": "dominikmartn/hue",
       "name": "hue",
       "description": "open-source skill that learns any brand and turns it into a complete design system. works on claude code and codex. install once, every UI your assistant builds matches your brand.",
-      "stars": 879,
+      "stars": 880,
       "topics": [
         "ai-tools",
         "anthropic",
@@ -2204,7 +2204,7 @@
       "repo": "AnxForever/stylekit",
       "name": "stylekit",
       "description": "149 curated web & UI design styles, each with copy-ready AI prompts, design tokens and component recipes. | StyleKit（stylekit.top）：149 种网页与 UI 设计风格，每种附可直接复制的 AI 提示词、设计 tokens 与组件配方。",
-      "stars": 764,
+      "stars": 765,
       "topics": [
         "ai-frontend",
         "ai-prompts",
@@ -2280,7 +2280,7 @@
       "repo": "AThevon/genjutsu",
       "name": "genjutsu",
       "description": "Creative coding skills for Claude Code, claude.ai and Cowork. Motion, micro-interactions and design systems across Web (GSAP, Motion, Three.js, CSS), Android (Jetpack Compose) and Apple (SwiftUI). Proposes an interaction thesis you approve before it writes any code. Anti-AI-slop.",
-      "stars": 747,
+      "stars": 748,
       "topics": [
         "agent-skills",
         "android",
@@ -2385,7 +2385,7 @@
       "repo": "UX-and-I/storybook-design-token",
       "name": "storybook-design-token",
       "description": "Display design token documentation generated from your stylesheets and icon files. Preview design token changes in the browser. Add your design tokens to your Storybook Docs pages using the custom Doc Blocks.",
-      "stars": 682,
+      "stars": 683,
       "topics": [
         "addon",
         "angular",
@@ -2461,7 +2461,7 @@
       "repo": "joeseesun/qiaomu-design",
       "name": "qiaomu-design",
       "description": "偏执型设计顾问：反 AI 味设计 + 风格试衣间 + 58 站设计系统库的 Claude Code Skill | Opinionated design advisor for Claude Code: anti-generic UI, style fitting room, 58 real-site design systems.",
-      "stars": 673,
+      "stars": 674,
       "topics": [
         "agent-skill",
         "chinese-typography",
@@ -2544,7 +2544,7 @@
       "repo": "pulkitxm/claude-directory",
       "name": "claude-directory",
       "description": "Open-source AI interfaces built with Claude (Fable 5) including hero sections, GLSL shaders, design systems, animations, 3D components  and and landing pages,  in React, Tailwind, and Three.js. Plug them into your AI agent and ship faster.",
-      "stars": 623,
+      "stars": 622,
       "topics": [
         "ai-generated",
         "anthropic",
@@ -3004,7 +3004,7 @@
       "repo": "op7418/dsh-guizang-design",
       "name": "dsh-guizang-design",
       "description": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
-      "stars": 445,
+      "stars": 457,
       "topics": [
         "deepseek-harness",
         "design-system",
@@ -3184,7 +3184,7 @@
       "repo": "guiguiyan930-source/game-ui-design-workflow",
       "name": "game-ui-design-workflow",
       "description": "一套面向游戏 UI 设计的 Cursor Agent Skills 工作流，覆盖原型视觉生成、风格切换、页面延展与组件拆解，并通过 Spec-Kit 文档、视觉契约和资源清单保证多页面一致性与可交付性。",
-      "stars": 394,
+      "stars": 396,
       "topics": [
         "ai-workflow",
         "cursor-skills",
@@ -3243,7 +3243,7 @@
       "repo": "Esri/calcite-design-system",
       "name": "calcite-design-system",
       "description": "A monorepo containing the packages for Esri's Calcite Design System",
-      "stars": 381,
+      "stars": 384,
       "topics": [
         "accessibility",
         "arcgis-online",
@@ -3287,7 +3287,7 @@
       "repo": "vmc-inner-circle/k-style-ui-ux",
       "name": "k-style-ui-ux",
       "description": "PRD 한 장으로 한국 앱 스타일 모바일 화면 초안을 15분 안팎에 만드는 Claude Code·Codex 플러그인",
-      "stars": 368,
+      "stars": 369,
       "topics": [
         "claude-code",
         "claude-code-plugin",
@@ -3301,21 +3301,10 @@
       "query": "topic:design-system"
     },
     {
-      "repo": "Workday/canvas-kit",
-      "name": "canvas-kit",
-      "description": "Development kits to implement UI following the Workday Sana Canvas Design System (https://design.workday.com/design-system). See our Component Storybook -",
-      "stars": 367,
-      "topics": [
-        "design-system",
-        "workday"
-      ],
-      "query": "topic:design-system"
-    },
-    {
       "repo": "edisonmbli/refactoring-ui-skill",
       "name": "refactoring-ui-skill",
       "description": "Unofficial Claude Skill derived from the book Refactoring UI — a design rulebook and diagnostic layer for web UI. 151 tracked rules, design token generation, and Tailwind mappings.",
-      "stars": 367,
+      "stars": 368,
       "topics": [
         "ai-agent",
         "claude-code",
@@ -3326,6 +3315,17 @@
         "refactoring-ui",
         "tailwindcss",
         "ui-design"
+      ],
+      "query": "topic:design-system"
+    },
+    {
+      "repo": "Workday/canvas-kit",
+      "name": "canvas-kit",
+      "description": "Development kits to implement UI following the Workday Sana Canvas Design System (https://design.workday.com/design-system). See our Component Storybook -",
+      "stars": 367,
+      "topics": [
+        "design-system",
+        "workday"
       ],
       "query": "topic:design-system"
     },
@@ -3382,6 +3382,24 @@
       "query": "topic:design-system"
     },
     {
+      "repo": "illacloud/illa-design",
+      "name": "illa-design",
+      "description": "A fully responsive UI Library for React.",
+      "stars": 353,
+      "topics": [
+        "components",
+        "design-system",
+        "react",
+        "responsive-web-design",
+        "storybook",
+        "typescript",
+        "ui-components",
+        "ui-design",
+        "uikit"
+      ],
+      "query": "topic:design-system"
+    },
+    {
       "repo": "Adityaraj0421/naksha-studio",
       "name": "naksha-studio",
       "description": "A virtual design team for Claude Code, Cursor, Windsurf, Gemini CLI, and Copilot — 30 roles, 70 commands, 16,000+ lines of expert design knowledge. Your agency's design brain, inside your terminal.",
@@ -3402,24 +3420,6 @@
         "social-media",
         "ui",
         "ux"
-      ],
-      "query": "topic:design-system"
-    },
-    {
-      "repo": "illacloud/illa-design",
-      "name": "illa-design",
-      "description": "A fully responsive UI Library for React.",
-      "stars": 353,
-      "topics": [
-        "components",
-        "design-system",
-        "react",
-        "responsive-web-design",
-        "storybook",
-        "typescript",
-        "ui-components",
-        "ui-design",
-        "uikit"
       ],
       "query": "topic:design-system"
     },
@@ -3585,7 +3585,7 @@
       "repo": "nexu-io/open-design",
       "name": "open-design",
       "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-      "stars": 105996,
+      "stars": 106046,
       "topics": [
         "agent-skills",
         "ai-design",
@@ -3614,7 +3614,7 @@
       "repo": "ant-design/ant-design",
       "name": "ant-design",
       "description": "An enterprise-class UI design language and React UI library",
-      "stars": 100082,
+      "stars": 100086,
       "topics": [
         "ant-design",
         "antd",
@@ -3630,7 +3630,7 @@
       "repo": "storybookjs/storybook",
       "name": "storybook",
       "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-      "stars": 91461,
+      "stars": 91463,
       "topics": [
         "angular",
         "components",
@@ -3659,7 +3659,7 @@
       "repo": "goabstract/Awesome-Design-Tools",
       "name": "Awesome-Design-Tools",
       "description": "The best design tools and plugins for everything 👉",
-      "stars": 41754,
+      "stars": 41759,
       "topics": [
         "animations",
         "awesome",
@@ -3676,7 +3676,7 @@
       "repo": "alexpate/awesome-design-systems",
       "name": "awesome-design-systems",
       "description": "💅🏻 ⚒ A collection of awesome design systems",
-      "stars": 26289,
+      "stars": 26292,
       "topics": [
         "awesome",
         "awesome-list",
@@ -3725,7 +3725,7 @@
       "repo": "radix-ui/primitives",
       "name": "primitives",
       "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
-      "stars": 19470,
+      "stars": 19471,
       "topics": [
         "accessibility",
         "colors",
@@ -3743,7 +3743,7 @@
       "repo": "adobe/react-spectrum",
       "name": "react-spectrum",
       "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
-      "stars": 16011,
+      "stars": 16012,
       "topics": [
         "accessibility",
         "design-systems",
@@ -3758,7 +3758,7 @@
       "repo": "kgrzybek/modular-monolith-with-ddd",
       "name": "modular-monolith-with-ddd",
       "description": "Full Modular Monolith application with Domain-Driven Design approach.",
-      "stars": 14116,
+      "stars": 14118,
       "topics": [
         "architecture",
         "clean-architecture",
@@ -3787,7 +3787,7 @@
       "repo": "mdbootstrap/TW-Elements",
       "name": "TW-Elements",
       "description": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
-      "stars": 13191,
+      "stars": 13192,
       "topics": [
         "css",
         "dashboard-templates",
@@ -3917,7 +3917,7 @@
       "repo": "radix-ui/themes",
       "name": "themes",
       "description": "Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.",
-      "stars": 8815,
+      "stars": 8818,
       "topics": [
         "accessibility",
         "colors",
@@ -3960,7 +3960,7 @@
       "repo": "uswds/uswds",
       "name": "uswds",
       "description": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.",
-      "stars": 7237,
+      "stars": 7238,
       "topics": [
         "design",
         "design-systems",
@@ -3973,7 +3973,7 @@
       "repo": "plasmicapp/plasmic",
       "name": "plasmic",
       "description": "Visual builder for React. Build apps, websites, and content. Integrate with your codebase.",
-      "stars": 7148,
+      "stars": 7149,
       "topics": [
         "builder",
         "cms",
@@ -4029,7 +4029,7 @@
       "repo": "style-dictionary/style-dictionary",
       "name": "style-dictionary",
       "description": "A build system for creating cross-platform styles.",
-      "stars": 4876,
+      "stars": 4877,
       "topics": [
         "build-system",
         "build-tool",
@@ -4084,7 +4084,7 @@
       "repo": "dembrandt/dembrandt",
       "name": "dembrandt",
       "description": "Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.",
-      "stars": 3945,
+      "stars": 3948,
       "topics": [
         "brand-audits",
         "claude-code",
@@ -4157,7 +4157,7 @@
       "repo": "Inkloom-art/inkloom",
       "name": "inkloom",
       "description": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-      "stars": 3216,
+      "stars": 3219,
       "topics": [
         "brand-identity",
         "cloudflare-workers",
@@ -4172,7 +4172,7 @@
       "repo": "southleft/figma-console-mcp",
       "name": "figma-console-mcp",
       "description": "Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.",
-      "stars": 3079,
+      "stars": 3114,
       "topics": [
         "ai",
         "design-systems",
@@ -4251,7 +4251,7 @@
       "repo": "arcsin1/oh-my-ppt",
       "name": "oh-my-ppt",
       "description": "Describe what you need — a presentation, lesson, or story — and let the AI build clean, beautiful HTML slides for you. Local-first. Works offline. Works for you.",
-      "stars": 2268,
+      "stars": 2269,
       "topics": [
         "ai-agents",
         "ai-ppt",
@@ -4447,7 +4447,7 @@
       "repo": "feimacode/open-design-agent-kit",
       "name": "open-design-agent-kit",
       "description": "Pro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+ design skills, 150+ brand design systems, 160+ remixable examples. No desktop app, no daemon, no API keys — just files in your repo.",
-      "stars": 999,
+      "stars": 1001,
       "topics": [
         "ai-agent",
         "claude-code",
@@ -4729,7 +4729,7 @@
       "repo": "Ebony-Vinyl/EAC-design-world",
       "name": "EAC-design-world",
       "description": "DeepSeek Harness 本地视频制作与设计插件：多轨剪辑、模板与设计体系、原生预览画布和真实文件导出",
-      "stars": 448,
+      "stars": 451,
       "topics": [
         "ai-design",
         "ai-video",
@@ -4909,7 +4909,7 @@
       "repo": "DavidHDev/react-bits",
       "name": "react-bits",
       "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
-      "stars": 51271,
+      "stars": 51295,
       "topics": [
         "3d",
         "animations",
@@ -4934,7 +4934,7 @@
       "repo": "heroui-inc/heroui",
       "name": "heroui",
       "description": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)",
-      "stars": 31099,
+      "stars": 31105,
       "topics": [
         "component-library",
         "components",
@@ -4947,7 +4947,7 @@
       "repo": "layui/layui",
       "name": "layui",
       "description": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
-      "stars": 30583,
+      "stars": 30584,
       "topics": [
         "component-library",
         "css",
@@ -4963,7 +4963,7 @@
       "repo": "element-plus/element-plus",
       "name": "element-plus",
       "description": "🎉 A Vue.js 3 UI Library made by Element team",
-      "stars": 27839,
+      "stars": 27840,
       "topics": [
         "component-library",
         "element-plus",
@@ -5033,7 +5033,7 @@
       "repo": "unovue/shadcn-vue",
       "name": "shadcn-vue",
       "description": "Vue port of shadcn-ui",
-      "stars": 10779,
+      "stars": 10782,
       "topics": [
         "accessible",
         "component-library",
@@ -5133,7 +5133,7 @@
       "repo": "DavidHDev/canvas-ui",
       "name": "canvas-ui",
       "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-      "stars": 5334,
+      "stars": 5336,
       "topics": [
         "animation",
         "canvas",
@@ -5161,7 +5161,7 @@
       "repo": "guokaigdg/animal-island-ui",
       "name": "animal-island-ui",
       "description": "A Kawaii React UI component library  一个可爱的 React UI  组件库",
-      "stars": 5109,
+      "stars": 5110,
       "topics": [
         "component-library",
         "react",
@@ -5242,7 +5242,7 @@
       "repo": "keenthemes/reui",
       "name": "reui",
       "description": "Design-forward shadcn kit for interfaces that stand out. 1000+ free patterns!",
-      "stars": 3883,
+      "stars": 3901,
       "topics": [
         "base-ui",
         "component-library",
@@ -5863,7 +5863,7 @@
       "repo": "vuetifyjs/vuetify",
       "name": "vuetify",
       "description": "🐉 Vue Component Framework",
-      "stars": 41033,
+      "stars": 41032,
       "topics": [
         "javascript",
         "material",
@@ -5891,7 +5891,7 @@
       "repo": "youzan/vant",
       "name": "vant",
       "description": "A lightweight, customizable Vue UI library for mobile web apps.",
-      "stars": 24411,
+      "stars": 24410,
       "topics": [
         "components",
         "mobile",
@@ -5907,7 +5907,7 @@
       "repo": "didi/cube-ui",
       "name": "cube-ui",
       "description": ":large_orange_diamond: A fantastic mobile ui lib implement by Vue",
-      "stars": 9092,
+      "stars": 9091,
       "topics": [
         "cube-ui",
         "javascript",
@@ -5939,7 +5939,7 @@
       "repo": "ekmas/neobrutalism-components",
       "name": "neobrutalism-components",
       "description": "A collection of neobrutalism-styled Tailwind components.",
-      "stars": 5637,
+      "stars": 5638,
       "topics": [
         "neobrutalism",
         "neobrutalism-components",
@@ -5962,7 +5962,7 @@
       "repo": "serafimcloud/21st",
       "name": "21st",
       "description": "npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks",
-      "stars": 5552,
+      "stars": 5551,
       "topics": [
         "nextjs",
         "react",
@@ -6004,7 +6004,7 @@
       "repo": "raysan5/raygui",
       "name": "raygui",
       "description": "A simple and easy-to-use immediate-mode gui library",
-      "stars": 5262,
+      "stars": 5261,
       "topics": [
         "buttons",
         "c",
@@ -6108,7 +6108,7 @@
       "repo": "Taiizor/ReaLTaiizor",
       "name": "ReaLTaiizor",
       "description": "ReaLTaiizor is a .NET WinForms control library that offers a wide range of components and is user-friendly and design-focused.",
-      "stars": 2415,
+      "stars": 2417,
       "topics": [
         "component",
         "design",
@@ -6365,7 +6365,7 @@
       "repo": "ionic-team/ionic-framework",
       "name": "ionic-framework",
       "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.",
-      "stars": 52741,
+      "stars": 52744,
       "topics": [
         "angular",
         "capacitor",
@@ -6392,7 +6392,7 @@
       "repo": "Semantic-Org/Semantic-UI",
       "name": "Semantic-UI",
       "description": "Semantic is a UI component framework based around useful principles from natural language.",
-      "stars": 51000,
+      "stars": 50999,
       "topics": [
         "button",
         "css-framework",
@@ -6411,7 +6411,7 @@
       "repo": "gradio-app/gradio",
       "name": "gradio",
       "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
-      "stars": 44000,
+      "stars": 43999,
       "topics": [
         "data-analysis",
         "data-science",
@@ -6452,7 +6452,7 @@
       "repo": "lucide-icons/lucide",
       "name": "lucide",
       "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
-      "stars": 25579,
+      "stars": 25583,
       "topics": [
         "feather-icons",
         "figma",
@@ -6519,7 +6519,7 @@
       "repo": "tamagui/tamagui",
       "name": "tamagui",
       "description": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
-      "stars": 14298,
+      "stars": 14299,
       "topics": [
         "atomic-css",
         "css-in-js",
@@ -6540,7 +6540,7 @@
       "repo": "assistant-ui/assistant-ui",
       "name": "assistant-ui",
       "description": "Typescript/React Library for AI Chat 💬🚀",
-      "stars": 12959,
+      "stars": 12965,
       "topics": [
         "ai-chatbot",
         "base-ui",
@@ -6559,7 +6559,7 @@
       "repo": "tambo-ai/tambo",
       "name": "tambo",
       "description": "Generative UI SDK for React",
-      "stars": 11222,
+      "stars": 11226,
       "topics": [
         "agent",
         "agents",
@@ -6579,7 +6579,7 @@
       "repo": "epicmaxco/vuestic-admin",
       "name": "vuestic-admin",
       "description": "Vuestic Admin is an open-source, ready-to-use admin template suite designed for rapid development, easy maintenance, and high accessibility. Built on Vuestic UI, Vue 3, Vite, Pinia, and Tailwind CSS. Maintained by Epicmax (@epicmaxco).",
-      "stars": 10956,
+      "stars": 10957,
       "topics": [
         "admin-dashboard",
         "admin-dashboard-ui",
@@ -6675,7 +6675,7 @@
       "repo": "primefaces/primereact",
       "name": "primereact",
       "description": "The Most Complete React UI Component Library",
-      "stars": 8310,
+      "stars": 8311,
       "topics": [
         "bootstrap",
         "bootstrap-table",
@@ -6754,7 +6754,7 @@
       "repo": "MengTo/threeui",
       "name": "threeui",
       "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
-      "stars": 7110,
+      "stars": 7114,
       "topics": [
         "react",
         "shaders",
@@ -6801,7 +6801,7 @@
       "repo": "htmlstreamofficial/preline",
       "name": "preline",
       "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
-      "stars": 6521,
+      "stars": 6522,
       "topics": [
         "agent-skills",
         "css",
@@ -6818,7 +6818,7 @@
       "repo": "21st-dev/magic-mcp",
       "name": "magic-mcp",
       "description": "It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp",
-      "stars": 6381,
+      "stars": 6385,
       "topics": [
         "21st",
         "claude",
@@ -6866,7 +6866,7 @@
       "repo": "appbaseio/reactivesearch",
       "name": "reactivesearch",
       "description": "Search UI components for React and Vue",
-      "stars": 4923,
+      "stars": 4924,
       "topics": [
         "data-components",
         "developer-tools",
@@ -7050,7 +7050,7 @@
       "repo": "danielpetho/fancy",
       "name": "fancy",
       "description": "",
-      "stars": 3297,
+      "stars": 3298,
       "topics": [
         "animation",
         "design",
@@ -7065,7 +7065,7 @@
       "repo": "spartan-ng/spartan",
       "name": "spartan",
       "description": "Cutting-edge tools powering Angular full-stack development.",
-      "stars": 2981,
+      "stars": 2982,
       "topics": [
         "accessibility",
         "analogjs",
@@ -7079,7 +7079,7 @@
       "repo": "rcaferati/react-awesome-slider",
       "name": "react-awesome-slider",
       "description": "A performant, lightweight React slider/carousel for media and content transitions, featuring 60fps animations, modular styling, optional HOCs, and fullpage navigation utilities. 🖥️📱",
-      "stars": 2973,
+      "stars": 2974,
       "topics": [
         "carousel",
         "carousel-component",
@@ -7901,7 +7901,7 @@
       "repo": "frappe/frappe-ui",
       "name": "frappe-ui",
       "description": "The all-in-one toolkit for modern frontends. High-quality components, app recipes and AI-ready docs.",
-      "stars": 1103,
+      "stars": 1104,
       "topics": [
         "frappe",
         "ui-components",
@@ -8082,7 +8082,7 @@
       "repo": "bvaughn/react-virtualized",
       "name": "react-virtualized",
       "description": "React components for efficiently rendering large lists and tabular data",
-      "stars": 27068,
+      "stars": 27069,
       "topics": [
         "grid",
         "list",
@@ -8133,7 +8133,7 @@
       "repo": "microsoft/fluentui",
       "name": "fluentui",
       "description": "Fluent UI web represents a collection of utilities, React components, and web components for building web applications.",
-      "stars": 20390,
+      "stars": 20392,
       "topics": [
         "components",
         "fluent",
@@ -8505,7 +8505,7 @@
       "repo": "ant-design/ant-design-charts",
       "name": "ant-design-charts",
       "description": "📈 A React Chart Library based on @antvis, include plot, graph, and map.",
-      "stars": 2243,
+      "stars": 2242,
       "topics": [
         "ant-design",
         "antv",
@@ -8564,7 +8564,7 @@
       "repo": "quasarframework/quasar",
       "name": "quasar",
       "description": "Quasar Framework - Build high-performance VueJS user interfaces in record time",
-      "stars": 27206,
+      "stars": 27207,
       "topics": [
         "android",
         "browser-extension",
@@ -8626,7 +8626,7 @@
       "repo": "primefaces/primevue",
       "name": "primevue",
       "description": "Next Generation Vue UI Component Library",
-      "stars": 14449,
+      "stars": 14450,
       "topics": [
         "nuxt",
         "nuxtjs",
@@ -8651,7 +8651,7 @@
       "repo": "surmon-china/vue-quill-editor",
       "name": "vue-quill-editor",
       "description": "@quilljs editor component for @vuejs(2)",
-      "stars": 7382,
+      "stars": 7381,
       "topics": [
         "editor",
         "editor-plugin",
@@ -9528,7 +9528,7 @@
       "repo": "sdegenaar/liquid_glass_widgets",
       "name": "liquid_glass_widgets",
       "description": "Flutter UI kit implementing Apple's iOS 26/27 Liquid Glass design language - a comprehensive glass widget library with real shader-based blur, physics-driven jelly animations, and dynamic lighting. Works on every platform out of the box.",
-      "stars": 814,
+      "stars": 815,
       "topics": [
         "apple-design",
         "dart",
@@ -9603,6 +9603,27 @@
       "query": "topic:react-native topic:ui-kit"
     },
     {
+      "repo": "enmerasoftware/ai-design-check",
+      "name": "ai-design-check",
+      "description": "Design rules and a zero-dependency checker for interfaces built with AI coding agents, on the web and in SwiftUI and Jetpack Compose apps. English and Turkish.",
+      "stars": 228,
+      "topics": [
+        "agent-skill",
+        "ai",
+        "android",
+        "claude-code",
+        "design-rules",
+        "design-system",
+        "ios",
+        "jetpack-compose",
+        "lint",
+        "swiftui",
+        "tailwindcss",
+        "ui"
+      ],
+      "query": "topic:swiftui topic:design-system"
+    },
+    {
       "repo": "metasidd/ColorTokensKit-Swift",
       "name": "ColorTokensKit-Swift",
       "description": "The most complete color system for SwiftUI: 740 colors, 20 semantic tokens, dark mode and WCAG contrast built in, and a theme from any brand hex. Docs: colortokenskit.com",
@@ -9628,27 +9649,6 @@
         "visionos",
         "watchos",
         "wcag"
-      ],
-      "query": "topic:swiftui topic:design-system"
-    },
-    {
-      "repo": "enmerasoftware/ai-design-check",
-      "name": "ai-design-check",
-      "description": "Design rules and a zero-dependency checker for interfaces built with AI coding agents, on the web and in SwiftUI and Jetpack Compose apps. English and Turkish.",
-      "stars": 225,
-      "topics": [
-        "agent-skill",
-        "ai",
-        "android",
-        "claude-code",
-        "design-rules",
-        "design-system",
-        "ios",
-        "jetpack-compose",
-        "lint",
-        "swiftui",
-        "tailwindcss",
-        "ui"
       ],
       "query": "topic:swiftui topic:design-system"
     },

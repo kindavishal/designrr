@@ -15,36 +15,49 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 9 KB |
 | License | NOASSERTION |
-| GitHub stars | 2.5k |
-| npm weekly downloads | 152.3k (`ai-elements` 1.9.1) |
 | Last activity | 2026-10-14 |
 | Docs | https://ai-sdk.dev/elements |
 | Source | https://github.com/vercel/ai-elements |
 | Same family | [AI Elements Vue](ai-elements-vue.md) |
 
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.5k | GitHub API (vercel/ai-elements) |
+| GitHub forks | 291 | GitHub API |
+| Contributors (incl. anonymous) | 62 | GitHub API |
+| Issues closed / open | 164 / 50 (77% closed) | GitHub API |
+| npm weekly downloads | 143.9k | npm (`ai-elements` 1.9.1) |
+
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
+- **Copy-the-source CLI:** documented at https://ai-sdk.dev/elements/llms.txt
 - **Agent/contributor docs in repo:** https://github.com/vercel/ai-elements/blob/HEAD/.claude/CLAUDE.md
 
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, written 2026-11-05; latest release 1.9.1._
+_Hand-written guide for v1, checked against https://ai-sdk.dev/elements/llms.txt on 2026-11-05; latest release 1.9.1._
 
 ## Install
+Prerequisites: React 19, Tailwind CSS 4, shadcn/ui (set up automatically if missing) and the AI SDK (`npm i ai @ai-sdk/react zod`).
 ```bash
-npx ai-elements@latest            # or: npx shadcn@latest add https://registry.ai-sdk.dev/all.json
+npx ai-elements@latest                      # pick components interactively
+npx ai-elements@latest add message
+# or via the shadcn CLI: npx shadcn@latest add @ai-elements/message
 ```
-Requires a shadcn/ui setup (Tailwind + CSS variables) and the Vercel AI SDK (`npm install ai @ai-sdk/react`).
 
 ## What you get
-`Conversation`, `Message`, `PromptInput`, `Response` (streaming markdown), `Reasoning`, `Tool`, `Sources`, `CodeBlock`, `Suggestion`, … as owned source in your repo.
+Composable chat and agent UI as source in your repo: `Message` / `MessageContent` / `MessageResponse` (streaming Markdown), prompt input, reasoning, tool calls, sources, code blocks and more, aware of AI SDK streaming states.
 
 ## Agent tips
-- Pair with `useChat` from `@ai-sdk/react`; components accept the AI SDK's message parts directly.
-- Pick this *with* a base system (usually shadcn/ui), not instead of one.
+- Pair with `useChat` from `@ai-sdk/react`; components take AI SDK message types (`UIMessage`).
+- Choose it alongside a base system (usually shadcn/ui), not instead of one.
+- Unstyled components usually mean the shadcn/ui Tailwind 4 setup (globals.css) is missing.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

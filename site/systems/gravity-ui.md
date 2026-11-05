@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 8.4k KB |
 | License | MIT |
-| GitHub stars | 1.1k |
-| npm weekly downloads | 31.1k (`@gravity-ui/uikit` 8.0.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://gravity-ui.com |
 | Source | https://github.com/gravity-ui/uikit |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.1k | GitHub API (gravity-ui/uikit) |
+| GitHub forks | 163 | GitHub API |
+| Contributors (incl. anonymous) | 232 | GitHub API |
+| Issues closed / open | 537 / 53 (91% closed) | GitHub API |
+| npm weekly downloads | 29.6k | npm (`@gravity-ui/uikit` 8.0.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://gravity-ui.com/llms.txt

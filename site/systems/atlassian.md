@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 612 KB |
 | License | Apache-2.0 |
-| GitHub stars | — |
-| npm weekly downloads | 254.2k (`@atlaskit/button` 25.7.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://atlassian.design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 255.5k | npm (`@atlaskit/button` 25.7.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://atlassian.design/llms.txt

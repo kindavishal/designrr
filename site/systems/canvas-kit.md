@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 12.6k KB |
 | License | Apache-2.0 |
-| GitHub stars | 367 |
-| npm weekly downloads | 0 (`@workday/canvas-kit-react` 16.2.17) |
 | Last activity | 2026-11-04 |
 | Docs | https://workday.github.io/canvas-kit/ |
 | Source | https://github.com/Workday/canvas-kit |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 367 | GitHub API (Workday/canvas-kit) |
+| GitHub forks | 272 | GitHub API |
+| Contributors (incl. anonymous) | 144 | GitHub API |
+| Issues closed / open | 1.4k / 149 (90% closed) | GitHub API |
+| npm weekly downloads | 6.9k | npm (`@workday/canvas-kit-react` 16.2.17) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/canvas-kit.md_

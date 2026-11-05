@@ -14,11 +14,21 @@
 | Good for | desktop, productivity |
 | Dark mode / RTL | yes / not detected |
 | License | BSD-3-Clause |
-| GitHub stars | 3.5k |
-| pub.dev likes | 3.2k (`fluent_ui`) |
 | Last activity | 2026-11-04 |
 | Docs | https://bdlukaa.github.io/fluent_ui/ |
 | Source | https://github.com/bdlukaa/fluent_ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 3.5k | GitHub API (bdlukaa/fluent_ui) |
+| GitHub forks | 512 | GitHub API |
+| Contributors (incl. anonymous) | 124 | GitHub API |
+| Issues closed / open | 815 / 22 (97% closed) | GitHub API |
+| pub.dev likes | 3.2k | pub.dev (`fluent_ui`) |
+| pub.dev downloads (30 days) | 3.6k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published

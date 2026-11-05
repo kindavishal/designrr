@@ -1,6 +1,6 @@
 # PrimeVue
 
-> Vue apps needing a very large component set (data tables, charts, editors) with themes.
+> Vue apps that need a large component set (data tables, charts, editors) with themes.
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.2k KB |
 | License | MIT |
-| GitHub stars | 14.4k |
-| npm weekly downloads | 1.0M (`primevue` 5.0.4) |
 | Last activity | 2026-10-22 |
 | Docs | https://primevue.dev |
 | Source | https://github.com/primefaces/primevue |
 | Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 14.4k | GitHub API (primefaces/primevue) |
+| GitHub forks | 1.8k | GitHub API |
+| Contributors (incl. anonymous) | 457 | GitHub API |
+| Issues closed / open | 5.9k / 688 (90% closed) | GitHub API |
+| npm weekly downloads | 1.0M | npm (`primevue` 5.0.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primevue.dev/llms/llms.txt

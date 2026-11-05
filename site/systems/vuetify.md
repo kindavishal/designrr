@@ -1,6 +1,6 @@
 # Vuetify
 
-> Material-style Vue apps with a very complete component set.
+> Material-style Vue apps with a large component set.
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 76.4k KB |
 | License | NOASSERTION |
-| GitHub stars | 41.0k |
-| npm weekly downloads | 1.3M (`vuetify` 4.3.2) |
 | Last activity | 2026-11-03 |
 | Docs | https://vuetifyjs.com |
 | Source | https://github.com/vuetifyjs/vuetify |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 41.0k | GitHub API (vuetifyjs/vuetify) |
+| GitHub forks | 7.1k | GitHub API |
+| Contributors (incl. anonymous) | 1.2k | GitHub API |
+| Issues closed / open | 15.3k / 229 (99% closed) | GitHub API |
+| npm weekly downloads | 1.3M | npm (`vuetify` 4.3.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://vuetifyjs.com/llms.txt

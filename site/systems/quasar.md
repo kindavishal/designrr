@@ -15,15 +15,28 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 13.7k KB |
 | License | MIT |
-| GitHub stars | 27.2k |
-| npm weekly downloads | 0 (`quasar` 2.35.2) |
-| Last activity | 2026-10-19 |
+| Last activity | 2026-11-05 |
 | Docs | https://quasar.dev |
 | Source | https://github.com/quasarframework/quasar |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 27.2k | GitHub API (quasarframework/quasar) |
+| GitHub forks | 3.7k | GitHub API |
+| Contributors (incl. anonymous) | 809 | GitHub API |
+| Issues closed / open | 8.1k / 54 (99% closed) | GitHub API |
+| npm weekly downloads | 478.3k | npm (`quasar` 2.35.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://quasar.dev/llms.txt
 - **MCP server:**
+  - npm package `@quasar/mcp`
+    ```json
+    {"mcpServers":{"quasar":{"command":"npx","args":["-y","@quasar/mcp"]}}}
+    ```
   - in-repo package: https://github.com/quasarframework/quasar/tree/HEAD/mcp/README.md (see its README for setup)
 - **Design tokens:** https://github.com/quasarframework/quasar/blob/HEAD/docs/build/mcp/output/tokens.js
 - **Agent/contributor docs in repo:** https://github.com/quasarframework/quasar/blob/HEAD/AGENTS.md
@@ -31,19 +44,21 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v2, written 2026-11-05; latest release 2.35.2._
+_Hand-written guide for v2, checked against https://quasar.dev/start/quick-start.md on 2026-11-05; latest release 2.35.2._
 
 ## Install
 ```bash
-npm init quasar
+pnpm create quasar@latest        # the quick start lists the npm/yarn/bun equivalents
+pnpm add -g @quasar/cli@latest   # optional global CLI, then `quasar dev`
 ```
-One Vue codebase → SPA, SSR, PWA, mobile (Capacitor/Cordova) and desktop (Electron).
+One Vue codebase → SPA, SSR, PWA, mobile (Capacitor/Cordova) and desktop (Electron). Other flavours: Vite plugin or UMD.
 
 ## Theme it to a brand
-`quasar.config` → `framework.config.brand` or Sass variables (`$primary`, `$secondary`) in `src/css/quasar.variables.scss`.
+Sass variables (`$primary`, `$secondary`, …) in `src/css/quasar.variables.scss` (or `.sass`), plus the colour utilities for changing brand colours at runtime.
 
 ## Agent tips
-- The repo ships an MCP server (see `mcp/` in the repo) for component lookup.
+- MCP server: `npx -y @quasar/mcp@latest`, run from the project folder. It serves the docs and component API of the exact Quasar versions installed, and works offline.
+- LLM index: `https://quasar.dev/llms.txt`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -70,6 +85,6 @@ One Vue codebase → SPA, SSR, PWA, mobile (Capacitor/Cordova) and desktop (Elec
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/quasar.md_

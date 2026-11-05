@@ -14,10 +14,19 @@
 | Good for | marketing, copy-paste; shapes: marketing-site |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| GitHub stars | 12.3k |
 | Last activity | 2026-10-25 |
 | Docs | https://www.hyperui.dev |
 | Source | https://github.com/markmead/hyperui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 12.3k | GitHub API (markmead/hyperui) |
+| GitHub forks | 524 | GitHub API |
+| Contributors (incl. anonymous) | 47 | GitHub API |
+| Issues closed / open | 131 / 1 (99% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published

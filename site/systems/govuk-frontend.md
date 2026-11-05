@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.9k KB |
 | License | MIT |
-| GitHub stars | 1.5k |
-| npm weekly downloads | 272.6k (`govuk-frontend` 6.6.0) |
 | Last activity | 2026-11-02 |
 | Docs | https://design-system.service.gov.uk |
 | Source | https://github.com/alphagov/govuk-frontend |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.5k | GitHub API (alphagov/govuk-frontend) |
+| GitHub forks | 380 | GitHub API |
+| Contributors (incl. anonymous) | 109 | GitHub API |
+| Issues closed / open | 1.8k / 434 (80% closed) | GitHub API |
+| npm weekly downloads | 247.9k | npm (`govuk-frontend` 6.6.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

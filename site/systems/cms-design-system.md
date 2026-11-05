@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 16.0k KB |
 | License | NOASSERTION |
-| GitHub stars | 373 |
-| npm weekly downloads | 9.3k (`@cmsgov/design-system` 18.2.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://design.cms.gov |
 | Source | https://github.com/CMSgov/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 373 | GitHub API (CMSgov/design-system) |
+| GitHub forks | 110 | GitHub API |
+| Contributors (incl. anonymous) | 57 | GitHub API |
+| Issues closed / open | 272 / 9 (97% closed) | GitHub API |
+| npm weekly downloads | 8.8k | npm (`@cmsgov/design-system` 18.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://design.cms.gov/llms.txt

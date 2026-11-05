@@ -27,7 +27,7 @@
       ],
       "orgBacked": true,
       "mcp": "npx shadcn@latest mcp",
-      "bestFor": "Modern SaaS and AI apps on React/Next.js + Tailwind where you want to own and restyle component source.",
+      "bestFor": "SaaS and AI apps on React/Next.js + Tailwind where you want to own and restyle the component source.",
       "aiOverrides": {
         "tokens": "Theme is CSS variables (globals.css) generated per registry theme; see ui.shadcn.com/docs/theming"
       },
@@ -36,7 +36,8 @@
         "saas-app",
         "app-dashboard",
         "marketing-site"
-      ]
+      ],
+      "cliCopySource": "https://ui.shadcn.com/docs/cli.md"
     },
     {
       "slug": "mui",
@@ -61,7 +62,7 @@
       ],
       "orgBacked": true,
       "mcpPackage": "@mui/mcp",
-      "bestFor": "Feature-rich React apps and admin tools that benefit from Material Design and a huge component set (incl. MUI X data grid).",
+      "bestFor": "React apps and admin tools built on Material Design, with a large component set (including the MUI X data grid).",
       "family": "mui",
       "productShapes": [
         "saas-app",
@@ -122,7 +123,7 @@
       ],
       "orgBacked": false,
       "mcpPackage": "@chakra-ui/react-mcp",
-      "bestFor": "Accessible, themeable React apps with style props; fast to brand.",
+      "bestFor": "Accessible, themeable React apps with style props.",
       "family": "chakra",
       "productShapes": [
         "saas-app",
@@ -180,7 +181,7 @@
         "startup-mvp"
       ],
       "orgBacked": true,
-      "bestFor": "Polished, accessible React UI with a clean default look and minimal setup.",
+      "bestFor": "Accessible React UI with a ready-made default look and minimal setup.",
       "family": "radix",
       "productShapes": [
         "saas-app",
@@ -235,7 +236,7 @@
       ],
       "orgBacked": false,
       "mcpPackage": "@heroui/react-mcp",
-      "bestFor": "Good-looking consumer and SaaS React apps on Tailwind with animations built in.",
+      "bestFor": "Consumer and SaaS React apps on Tailwind, with animations built in.",
       "family": "heroui",
       "productShapes": [
         "saas-app",
@@ -265,9 +266,11 @@
       ],
       "orgBacked": true,
       "headless": true,
-      "bestFor": "Best-in-class accessibility and internationalisation; React Aria for custom-branded systems, Spectrum for Adobe-style tools.",
+      "bestFor": "Accessibility- and i18n-focused React: React Aria for custom-branded systems, React Spectrum S2 for Adobe-style tools.",
+      "mcpPackage": "@react-aria/mcp",
       "family": "react-spectrum",
-      "productShapes": []
+      "productShapes": [],
+      "cliCopySource": "https://react-aria.adobe.com/getting-started.md"
     },
     {
       "slug": "fluent-ui",
@@ -324,11 +327,13 @@
       ],
       "orgBacked": true,
       "bestFor": "Serious enterprise and data products with strict accessibility and a rigorous token system.",
+      "mcpUrl": "https://mcp.carbondesignsystem.com/mcp",
       "family": "carbon",
       "productShapes": [
         "app-dashboard",
         "forms-flows"
-      ]
+      ],
+      "mcpNote": "Hosted by IBM; connecting requires signing in with an IBMid [https://github.com/carbon-design-system/carbon-mcp]."
     },
     {
       "slug": "primer",
@@ -646,7 +651,7 @@
         "custom-brand"
       ],
       "orgBacked": false,
-      "bestFor": "Beautifully styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.",
+      "bestFor": "Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.",
       "family": "chakra",
       "productShapes": []
     },
@@ -699,13 +704,14 @@
         "framework-agnostic"
       ],
       "orgBacked": false,
-      "bestFor": "Framework-agnostic Tailwind component classes with many themes; great for quick MVPs in any stack.",
+      "bestFor": "Framework-agnostic Tailwind component classes with many themes; suits quick MVPs in any stack.",
       "family": "daisyui",
       "productShapes": [
         "marketing-site",
         "saas-app",
         "content-site"
-      ]
+      ],
+      "mcpNote": "The official MCP server (Blueprint) is a paid subscription with a free trial [https://daisyui.com/blueprint/]."
     },
     {
       "slug": "flowbite",
@@ -815,7 +821,7 @@
         "data-dense"
       ],
       "orgBacked": true,
-      "bestFor": "React apps needing a very large component set (data tables, charts, editors) with themes.",
+      "bestFor": "React apps that need a large component set (data tables, charts, editors) with themes.",
       "family": "prime",
       "productShapes": []
     },
@@ -841,7 +847,7 @@
       ],
       "orgBacked": true,
       "mcpPackage": "@primevue/mcp",
-      "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
+      "bestFor": "Vue apps that need a large component set (data tables, charts, editors) with themes.",
       "family": "prime",
       "productShapes": [
         "app-dashboard"
@@ -869,7 +875,7 @@
       ],
       "orgBacked": true,
       "mcpPackage": "@primeng/mcp",
-      "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
+      "bestFor": "Angular apps that need a large component set (data tables, charts, editors) with themes.",
       "family": "prime",
       "productShapes": []
     },
@@ -1122,7 +1128,7 @@
         "salesforce-ecosystem"
       ],
       "orgBacked": true,
-      "bestFor": "Salesforce Lightning CSS (archived; see Lightning Design System React).",
+      "bestFor": "Salesforce Lightning CSS.",
       "family": "salesforce",
       "productShapes": []
     },
@@ -1250,7 +1256,7 @@
         "marketing"
       ],
       "orgBacked": true,
-      "bestFor": "Web components for any framework (archived; use Web Awesome).",
+      "bestFor": "Web components for any framework (Web Awesome is its successor from the same team).",
       "family": "shoelace",
       "productShapes": [
         "content-site"
@@ -1371,7 +1377,7 @@
         "custom-brand"
       ],
       "orgBacked": true,
-      "bestFor": "Building your own web-component design system (Microsoft's foundation for Fluent web components).",
+      "bestFor": "Building your own web-component design system; Fluent UI's web components are built on it.",
       "family": "fast",
       "productShapes": [
         "content-site"
@@ -1397,7 +1403,7 @@
         "framework-agnostic"
       ],
       "orgBacked": true,
-      "bestFor": "Material 3 as web components (Google; maintenance mode).",
+      "bestFor": "Material 3 as web components (README: in maintenance mode pending new maintainers).",
       "family": "material",
       "productShapes": [
         "saas-app",
@@ -1458,9 +1464,9 @@
         "consumer"
       ],
       "orgBacked": true,
-      "bestFor": "Porsche digital products only.",
+      "bestFor": "Porsche digital products.",
       "family": "porsche",
-      "brandLocked": "Porsche brand identity; licence restricts use to Porsche products.",
+      "brandLocked": "Code is Apache-2.0, but Porsche fonts, icons and marque are licensed only for building Porsche applications (LICENSE.md).",
       "productShapes": []
     },
     {
@@ -2320,7 +2326,7 @@
       "orgBacked": true,
       "bestFor": "SEEK's job-marketplace products (brand-locked).",
       "family": "braid",
-      "brandLocked": "SEEK brand identity (themeable to SEEK sub-brands only).",
+      "brandLocked": "Themeable design system for the SEEK Group (README).",
       "productShapes": []
     },
     {
@@ -2946,7 +2952,7 @@
       "orgBacked": true,
       "bestFor": "Orange-branded sites (Bootstrap-based).",
       "family": "boosted",
-      "brandLocked": "Orange brand identity; Orange trademarks may not be used by others.",
+      "brandLocked": "Built to create websites for the Orange brands (README).",
       "productShapes": []
     },
     {
@@ -3024,7 +3030,7 @@
         "consumer"
       ],
       "orgBacked": true,
-      "bestFor": "Thumbtack marketplace UIs (archived).",
+      "bestFor": "Thumbtack marketplace UIs.",
       "family": "thumbprint",
       "brandLocked": "Thumbtack brand identity.",
       "productShapes": []
@@ -3158,7 +3164,7 @@
         "accessibility-critical"
       ],
       "orgBacked": true,
-      "bestFor": "eBay-style accessible e-commerce markup (archived).",
+      "bestFor": "eBay-style accessible e-commerce markup.",
       "family": "ebay-skin",
       "productShapes": []
     },
@@ -3287,7 +3293,7 @@
         "dashboard"
       ],
       "orgBacked": false,
-      "bestFor": "Material-style Vue apps with a very complete component set.",
+      "bestFor": "Material-style Vue apps with a large component set.",
       "mcpUrl": "https://mcp.vuetifyjs.com/mcp",
       "family": "vuetify",
       "productShapes": [
@@ -3316,7 +3322,7 @@
         "dashboard"
       ],
       "orgBacked": false,
-      "bestFor": "Vue 3 admin and back-office apps (very widely used in China).",
+      "bestFor": "Vue 3 admin and back-office apps.",
       "family": "element-plus",
       "productShapes": [
         "app-dashboard"
@@ -3342,7 +3348,7 @@
         "dashboard"
       ],
       "orgBacked": false,
-      "bestFor": "TypeScript-first Vue 3 admin apps and dashboards with a big, themeable component set.",
+      "bestFor": "TypeScript-first Vue 3 admin apps and dashboards with a themeable component set.",
       "family": "naive-ui",
       "productShapes": [
         "app-dashboard"
@@ -3372,6 +3378,7 @@
         "mobile"
       ],
       "orgBacked": false,
+      "mcpPackage": "@quasar/mcp",
       "bestFor": "One Vue codebase for SPA, SSR, PWA, mobile (Capacitor) and desktop (Electron) apps.",
       "family": "quasar",
       "productShapes": [
@@ -3483,7 +3490,7 @@
       ],
       "orgBacked": false,
       "headless": true,
-      "bestFor": "Headless, accessible Vue primitives (Radix for Vue) for custom systems; powers shadcn-vue and Nuxt UI.",
+      "bestFor": "Headless, accessible Vue primitives for custom systems; shadcn-vue and Nuxt UI are built on it.",
       "family": "reka-ui",
       "productShapes": []
     },
@@ -3589,7 +3596,8 @@
       "mcpPackage": "@spartan-ng/mcp",
       "bestFor": "shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.",
       "family": "shadcn",
-      "productShapes": []
+      "productShapes": [],
+      "cliCopySource": "https://github.com/spartan-ng/spartan/blob/main/skills/spartan/cli.md"
     },
     {
       "slug": "taiga-ui",
@@ -3642,7 +3650,8 @@
       },
       "bestFor": "shadcn/ui's own-the-source model for SvelteKit apps on Tailwind.",
       "family": "shadcn",
-      "productShapes": []
+      "productShapes": [],
+      "cliCopySource": "https://shadcn-svelte.com/docs/installation/sveltekit.md"
     },
     {
       "slug": "bits-ui",
@@ -3664,7 +3673,7 @@
       ],
       "orgBacked": false,
       "headless": true,
-      "bestFor": "Headless, accessible Svelte primitives (powers shadcn-svelte).",
+      "bestFor": "Headless, accessible Svelte primitives; shadcn-svelte is built on it.",
       "family": "bits-ui",
       "productShapes": []
     },
@@ -3954,6 +3963,7 @@
       ],
       "orgBacked": true,
       "bestFor": "Default choice for Flutter apps: Material 3 widgets ship with the SDK.",
+      "mcp": "dart mcp-server",
       "family": "material",
       "productShapes": [
         "mobile-app"
@@ -4220,7 +4230,7 @@
         "consumer"
       ],
       "orgBacked": true,
-      "bestFor": "Skyscanner web products (brand-locked; archived).",
+      "bestFor": "Skyscanner web products.",
       "family": "backpack",
       "brandLocked": "Skyscanner brand identity.",
       "productShapes": []
@@ -4299,7 +4309,7 @@
         "consumer"
       ],
       "orgBacked": true,
-      "bestFor": "Kiwi.com iOS app (archived).",
+      "bestFor": "Kiwi.com iOS app.",
       "family": "orbit-swiftui",
       "brandLocked": "Kiwi.com brand identity.",
       "productShapes": []
@@ -4412,7 +4422,7 @@
         "saas"
       ],
       "orgBacked": true,
-      "notes": "Docs and fonts public; component code not published.",
+      "notes": "Documentation is public; no installable component package was found on npm.",
       "bestFor": null,
       "family": "vercel-geist",
       "productShapes": []
@@ -4574,7 +4584,8 @@
       "family": "ai-elements",
       "productShapes": [
         "chat-ai"
-      ]
+      ],
+      "cliCopySource": "https://ai-sdk.dev/elements/llms.txt"
     },
     {
       "slug": "assistant-ui",
@@ -4597,10 +4608,12 @@
       ],
       "orgBacked": false,
       "bestFor": "Production AI chat UIs in React with streaming, attachments and tool UIs.",
+      "mcpUrl": "https://www.assistant-ui.com/mcp",
       "family": "assistant-ui",
       "productShapes": [
         "chat-ai"
-      ]
+      ],
+      "cliCopySource": "https://www.assistant-ui.com/docs/installation.md"
     },
     {
       "slug": "lobe-ui",
@@ -4778,7 +4791,7 @@
         "dashboard"
       ],
       "orgBacked": false,
-      "bestFor": "React admin and enterprise apps with rich pickers, tables and form controls.",
+      "bestFor": "React admin and enterprise apps with pickers, tables and form controls.",
       "family": "rsuite",
       "productShapes": [
         "app-dashboard"
@@ -4803,7 +4816,7 @@
         "admin"
       ],
       "orgBacked": false,
-      "bestFor": "Semantic UI look in React (legacy projects).",
+      "bestFor": "Semantic UI look in React.",
       "family": "semantic-ui-react",
       "productShapes": []
     },
@@ -4828,7 +4841,7 @@
         "custom-brand"
       ],
       "orgBacked": false,
-      "bestFor": "Professionally designed, themeable React + Figma system for product teams.",
+      "bestFor": "Themeable React components with a matching Figma library, for product teams.",
       "family": "reshaped",
       "productShapes": []
     },
@@ -4853,7 +4866,7 @@
         "dashboard"
       ],
       "orgBacked": false,
-      "bestFor": "Polished SaaS and marketing UI in React + Tailwind, built on React Aria.",
+      "bestFor": "SaaS and marketing UI in React + Tailwind, built on React Aria.",
       "family": "untitled-ui",
       "productShapes": [
         "saas-app",
@@ -5003,7 +5016,7 @@
         "saas"
       ],
       "orgBacked": false,
-      "bestFor": "Feature-rich, themeable React apps with style props (Chakra-like).",
+      "bestFor": "Themeable React apps with style props (Chakra-like).",
       "family": "yamada-ui",
       "productShapes": []
     },
@@ -5898,7 +5911,7 @@
         "bold-brand"
       ],
       "orgBacked": true,
-      "bestFor": "CRED-style bold fintech UIs (stale).",
+      "bestFor": "CRED-style bold fintech UIs.",
       "family": "neopop",
       "brandLocked": "CRED brand identity.",
       "productShapes": []
@@ -6288,7 +6301,7 @@
         "dotnet-ecosystem"
       ],
       "orgBacked": false,
-      "bestFor": "Material-style Blazor apps; the most popular Blazor component library.",
+      "bestFor": "Material-style Blazor apps.",
       "family": "mudblazor",
       "productShapes": []
     },
@@ -6389,7 +6402,7 @@
       ],
       "orgBacked": true,
       "notes": "Superseded by gluestack UI.",
-      "bestFor": "Legacy React Native apps (superseded by gluestack UI).",
+      "bestFor": "Legacy React Native apps (npm marks it deprecated in favour of gluestack-ui).",
       "family": "nativebase",
       "productShapes": []
     },
@@ -6441,7 +6454,7 @@
         "mobile"
       ],
       "orgBacked": false,
-      "bestFor": "Eva Design System tokens for React Native (stale).",
+      "bestFor": "Eva Design System tokens for React Native.",
       "family": "eva-ui-kitten",
       "productShapes": []
     },
@@ -6591,7 +6604,7 @@
         "saas"
       ],
       "orgBacked": true,
-      "notes": "Published on npm with a commercial-friendly license; source not public.",
+      "notes": "Source not public; licence terms are in the npm package (LICENSE.md).",
       "bestFor": "Healthcare SaaS (veterinary/clinical) as web components.",
       "family": "nordhealth",
       "brandLocked": "Nordhealth brand identity.",

@@ -5,22 +5,31 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **55/100** |
+| AI-readiness | **45/100** |
 | Maintainer | Esri (org-backed) |
 | Brand-locked | **yes**: Esri / ArcGIS identity; best inside the ArcGIS ecosystem. |
 | Platforms | web |
 | Frameworks | web-components, react, vanilla |
 | Styling | web-components |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | maps, gis, enterprise |
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 11.6k KB |
 | License | NOASSERTION |
-| GitHub stars | 380 |
-| npm weekly downloads | 0 (`@esri/calcite-components` 5.2.1) |
 | Last activity | 2026-11-05 |
 | Docs | https://developers.arcgis.com/calcite-design-system/ |
 | Source | https://github.com/Esri/calcite-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 384 | GitHub API (Esri/calcite-design-system) |
+| GitHub forks | 98 | GitHub API |
+| Contributors (incl. anonymous) | 80 | GitHub API |
+| Issues closed / open | 4.9k / 918 (84% closed) | GitHub API |
+| npm weekly downloads | 323.2k | npm (`@esri/calcite-components` 5.2.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -34,6 +43,11 @@
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script src="https://cdn.jsdelivr.net/npm/@esri/calcite-components@5.2.1/dist/index.min.js"></script>
+```
+Check the docs for the recommended files: https://developers.arcgis.com/calcite-design-system/
 ```bash
 npm install @esri/calcite-components
 ```
@@ -62,13 +76,13 @@ Then follow the framework setup in the official getting-started guide: https://d
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/calcite.md_

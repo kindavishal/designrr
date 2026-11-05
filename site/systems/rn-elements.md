@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 68 KB |
 | License | MIT |
-| GitHub stars | 25.9k |
-| npm weekly downloads | 61.6k (`@rneui/themed` 5.0.0) |
 | Last activity | 2026-05-21 |
 | Docs | https://reactnativeelements.com |
 | Source | https://github.com/react-native-elements/react-native-elements |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 25.9k | GitHub API (react-native-elements/react-native-elements) |
+| GitHub forks | 4.7k | GitHub API |
+| Contributors (incl. anonymous) | 420 | GitHub API |
+| Issues closed / open | 2.0k / 133 (94% closed) | GitHub API |
+| npm weekly downloads | 60.0k | npm (`@rneui/themed` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 24.5k KB |
 | License | MIT |
-| GitHub stars | — |
-| npm weekly downloads | 28.1k (`wix-style-react` 10.173.4) |
 | Last activity | 2025-11-12 |
 | Docs | https://www.wix-style-react.com |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 4.6k | npm (`wix-style-react` 10.173.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -68,6 +73,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
+Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wix-style-react.md_

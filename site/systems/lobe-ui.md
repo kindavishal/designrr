@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 12.1k KB |
 | License | MIT |
-| GitHub stars | 2.3k |
-| npm weekly downloads | 661.5k (`@lobehub/ui` 6.15.2) |
 | Last activity | 2026-11-04 |
 | Docs | https://ui.lobehub.com |
 | Source | https://github.com/lobehub/lobe-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.3k | GitHub API (lobehub/lobe-ui) |
+| GitHub forks | 278 | GitHub API |
+| Contributors (incl. anonymous) | 49 | GitHub API |
+| Issues closed / open | 56 / 27 (67% closed) | GitHub API |
+| npm weekly downloads | 651.2k | npm (`@lobehub/ui` 6.15.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ui.lobehub.com/llms.txt

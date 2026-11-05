@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 261 KB |
 | License | MIT |
-| GitHub stars | 274 |
-| npm weekly downloads | 32 (`@moondesignsystem/react` 2.5.21) |
 | Last activity | 2026-03-28 |
 | Docs | https://moon.io |
 | Source | https://github.com/coingaming/moon-design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 274 | GitHub API (coingaming/moon-design) |
+| GitHub forks | 26 | GitHub API |
+| Contributors (incl. anonymous) | 67 | GitHub API |
+| Issues closed / open | 49 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 20 | npm (`@moondesignsystem/react` 2.5.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published

@@ -16,10 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.0k KB |
 | License | SEE LICENSE IN LICENSE.md |
-| GitHub stars | — |
-| npm weekly downloads | 0 (`@nordhealth/components` 5.5.1) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://nordhealth.design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| npm weekly downloads | 12.6k | npm (`@nordhealth/components` 5.5.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://nordhealth.design/llms.txt
@@ -29,7 +34,7 @@
 ## Consider an alternative if
 - you are not that brand. Nordhealth brand identity.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- Published on npm with a commercial-friendly license; source not public.
+- Source not public; licence terms are in the npm package (LICENSE.md).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -69,6 +74,6 @@ Then follow the framework setup in the official getting-started guide: https://n
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nordhealth.md_

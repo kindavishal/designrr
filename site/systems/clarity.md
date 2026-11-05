@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 7.5k KB |
 | License | NOASSERTION |
-| GitHub stars | 433 |
-| npm weekly downloads | 0 (`@clr/angular` 18.5.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://clarity.design |
 | Source | https://github.com/vmware-clarity/ng-clarity |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 433 | GitHub API (vmware-clarity/ng-clarity) |
+| GitHub forks | 106 | GitHub API |
+| Contributors (incl. anonymous) | 140 | GitHub API |
+| Issues closed / open | 259 / 46 (85% closed) | GitHub API |
+| npm weekly downloads | 28.4k | npm (`@clr/angular` 18.5.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://clarity.design/llms.txt
@@ -71,6 +80,6 @@ Then follow the framework setup in the official getting-started guide: https://c
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/clarity.md_

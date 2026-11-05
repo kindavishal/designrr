@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.1k KB |
 | License | MIT |
-| GitHub stars | 8.6k |
-| npm weekly downloads | 1.9M (`@ariakit/react` 0.4.42) |
 | Last activity | 2026-11-05 |
 | Docs | https://ariakit.org |
 | Source | https://github.com/ariakit/ariakit |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.6k | GitHub API (ariakit/ariakit) |
+| GitHub forks | 424 | GitHub API |
+| Contributors (incl. anonymous) | 126 | GitHub API |
+| Issues closed / open | 1.1k / 46 (96% closed) | GitHub API |
+| npm weekly downloads | 2.0M | npm (`@ariakit/react` 0.4.42) |
 
 ## AI resources (use these first)
 - llms.txt: not published

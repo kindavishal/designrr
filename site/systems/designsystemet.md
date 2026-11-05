@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 793 KB |
 | License | MIT |
-| GitHub stars | 216 |
-| npm weekly downloads | 19.9k (`@digdir/designsystemet-react` 1.23.0) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://designsystemet.no |
 | Source | https://github.com/digdir/designsystemet |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 216 | GitHub API (digdir/designsystemet) |
+| GitHub forks | 62 | GitHub API |
+| Contributors (incl. anonymous) | 51 | GitHub API |
+| Issues closed / open | 2.2k / 94 (96% closed) | GitHub API |
+| npm weekly downloads | 19.1k | npm (`@digdir/designsystemet-react` 1.23.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

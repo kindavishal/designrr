@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 37.5k KB |
 | License | MIT |
-| GitHub stars | 4.7k |
-| npm weekly downloads | 24.3k (`@alifd/next` 1.27.34) |
 | Last activity | 2026-03-31 |
 | Docs | https://fusion.design |
 | Source | https://github.com/alibaba-fusion/next |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 4.7k | GitHub API (alibaba-fusion/next) |
+| GitHub forks | 597 | GitHub API |
+| Contributors (incl. anonymous) | 186 | GitHub API |
+| Issues closed / open | 2.6k / 260 (91% closed) | GitHub API |
+| npm weekly downloads | 25.6k | npm (`@alifd/next` 1.27.34) |
 
 ## AI resources (use these first)
 - llms.txt: not published

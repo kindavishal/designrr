@@ -7,7 +7,7 @@
 | Tier | **solid** |
 | AI-readiness | **35/100** |
 | Maintainer | SEEK (org-backed) |
-| Brand-locked | **yes**: SEEK brand identity (themeable to SEEK sub-brands only). |
+| Brand-locked | **yes**: Themeable design system for the SEEK Group (README). |
 | Platforms | web |
 | Frameworks | react |
 | Styling | css-in-js |
@@ -16,11 +16,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 1.6k |
-| npm weekly downloads | 0 (`braid-design-system` 34.10.0) |
 | Last activity | 2026-11-04 |
 | Docs | https://seek-oss.github.io/braid-design-system/ |
 | Source | https://github.com/seek-oss/braid-design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.6k | GitHub API (seek-oss/braid-design-system) |
+| GitHub forks | 98 | GitHub API |
+| Contributors (incl. anonymous) | 41 | GitHub API |
+| Issues closed / open | 27 / 1 (96% closed) | GitHub API |
+| npm weekly downloads | 9.0k | npm (`braid-design-system` 34.10.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -28,7 +37,7 @@
 - **Design tokens:** https://github.com/seek-oss/braid-design-system/blob/HEAD/packages/braid-design-system/src/lib/themes/docs/tokens.ts
 
 ## Consider an alternative if
-- you are not that brand. SEEK brand identity (themeable to SEEK sub-brands only).
+- you are not that brand. Themeable design system for the SEEK Group (README).
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://s
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/braid.md_

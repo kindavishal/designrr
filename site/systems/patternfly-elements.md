@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| GitHub stars | 396 |
-| npm weekly downloads | 0 (`@patternfly/elements` 5.0.0) |
 | Last activity | 2026-05-05 |
 | Docs | https://patternflyelements.org |
 | Source | https://github.com/patternfly/patternfly-elements |
 | Same family | [PatternFly](patternfly.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 396 | GitHub API (patternfly/patternfly-elements) |
+| GitHub forks | 109 | GitHub API |
+| Contributors (incl. anonymous) | 61 | GitHub API |
+| Issues closed / open | 921 / 156 (86% closed) | GitHub API |
+| npm weekly downloads | 10.1k | npm (`@patternfly/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://p
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly-elements.md_

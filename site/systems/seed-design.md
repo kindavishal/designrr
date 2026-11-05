@@ -5,22 +5,31 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **90/100** |
+| AI-readiness | **80/100** |
 | Maintainer | Daangn / Karrot (org-backed) |
 | Brand-locked | **yes**: Karrot (Daangn) brand identity. |
 | Platforms | web |
 | Frameworks | react |
 | Styling | css |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | consumer, marketplace, mobile |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 2.2k KB |
+| Package size (unpacked) | 2.3k KB |
 | License | Apache-2.0 |
-| GitHub stars | 1.2k |
-| npm weekly downloads | 0 (`@seed-design/react` 3.1.1) |
 | Last activity | 2026-11-05 |
 | Docs | https://seed-design.io |
 | Source | https://github.com/daangn/seed-design |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.2k | GitHub API (daangn/seed-design) |
+| GitHub forks | 99 | GitHub API |
+| Contributors (incl. anonymous) | 36 | GitHub API |
+| Issues closed / open | 21 / 4 (84% closed) | GitHub API |
+| npm weekly downloads | 51.0k | npm (`@seed-design/react` 3.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://seed-design.io/llms.txt
@@ -65,13 +74,13 @@ Then follow the framework setup in the official getting-started guide: https://s
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/seed-design.md_

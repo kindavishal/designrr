@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 10.7k KB |
 | License | Apache-2.0 |
-| GitHub stars | 8.4k |
-| npm weekly downloads | 50.0k (`grommet` 2.58.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://v2.grommet.io |
 | Source | https://github.com/grommet/grommet |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 8.4k | GitHub API (grommet/grommet) |
+| GitHub forks | 1.0k | GitHub API |
+| Contributors (incl. anonymous) | 415 | GitHub API |
+| Issues closed / open | 3.4k / 382 (90% closed) | GitHub API |
+| npm weekly downloads | 51.1k | npm (`grommet` 2.58.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

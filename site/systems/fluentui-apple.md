@@ -14,11 +14,20 @@
 | Good for | productivity, enterprise, microsoft-ecosystem |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| GitHub stars | 979 |
 | Last activity | 2026-11-02 |
 | Docs | https://github.com/microsoft/fluentui-apple |
 | Source | https://github.com/microsoft/fluentui-apple |
 | Same family | [Fluent UI](fluent-ui.md), [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Android](fluentui-android.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 979 | GitHub API (microsoft/fluentui-apple) |
+| GitHub forks | 181 | GitHub API |
+| Contributors (incl. anonymous) | 106 | GitHub API |
+| Issues closed / open | 86 / 25 (77% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://github.com/llms.txt

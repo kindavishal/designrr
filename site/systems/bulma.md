@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.8k KB |
 | License | MIT |
-| GitHub stars | 50.0k |
-| npm weekly downloads | 479.8k (`bulma` 1.0.4) |
 | Last activity | 2026-09-21 |
 | Docs | https://bulma.io |
 | Source | https://github.com/jgthms/bulma |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 50.0k | GitHub API (jgthms/bulma) |
+| GitHub forks | 3.9k | GitHub API |
+| Contributors (incl. anonymous) | 430 | GitHub API |
+| Issues closed / open | 2.4k / 349 (87% closed) | GitHub API |
+| npm weekly downloads | 471.3k | npm (`bulma` 1.0.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published

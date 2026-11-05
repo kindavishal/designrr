@@ -1,6 +1,6 @@
 # Yamada UI
 
-> Feature-rich, themeable React apps with style props (Chakra-like).
+> Themeable React apps with style props (Chakra-like).
 
 | | |
 |---|---|
@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 20.8k KB |
 | License | MIT |
-| GitHub stars | 1.0k |
-| npm weekly downloads | 0 (`@yamada-ui/react` 2.3.1) |
 | Last activity | 2026-11-04 |
 | Docs | https://yamada-ui.com |
 | Source | https://github.com/yamada-ui/yamada-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.0k | GitHub API (yamada-ui/yamada-ui) |
+| GitHub forks | 259 | GitHub API |
+| Contributors (incl. anonymous) | 232 | GitHub API |
+| Issues closed / open | 3.3k / 107 (97% closed) | GitHub API |
+| npm weekly downloads | 4.7k | npm (`@yamada-ui/react` 2.3.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://yamada-ui.com/llms.txt

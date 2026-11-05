@@ -14,10 +14,19 @@
 | Good for | saas, accessibility-critical |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| GitHub stars | 2.0k |
 | Last activity | 2026-11-03 |
 | Docs | https://intentui.com |
 | Source | https://github.com/irsyadadl/intentui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.0k | GitHub API (irsyadadl/intentui) |
+| GitHub forks | 91 | GitHub API |
+| Contributors (incl. anonymous) | 37 | GitHub API |
+| Issues closed / open | 145 / 3 (98% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://intentui.com/llms.txt

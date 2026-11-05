@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 352 KB |
 | License | MIT |
-| GitHub stars | 879 |
-| npm weekly downloads | 0 (`@hi-ui/hiui` 5.0.0) |
 | Last activity | 2026-10-30 |
 | Docs | https://www.hiui.design |
 | Source | https://github.com/XiaoMi/hiui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 879 | GitHub API (XiaoMi/hiui) |
+| GitHub forks | 120 | GitHub API |
+| Contributors (incl. anonymous) | 70 | GitHub API |
+| Issues closed / open | 1.5k / 70 (95% closed) | GitHub API |
+| npm weekly downloads | 1.8k | npm (`@hi-ui/hiui` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

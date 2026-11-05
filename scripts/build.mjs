@@ -103,6 +103,24 @@ const BUILD_CHECKLIST = `## Build checklist (any system)
 7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
 8. **Verify:** run the app, click through every screen, fix console errors and type errors.`;
 
+// Public usage and community feedback, with sources. Only numbers the APIs returned are shown.
+function usageSection(s) {
+  const u = s.usage || {};
+  const repo = s.signals.repo;
+  const rows = [
+    u.githubStars != null ? `| GitHub stars | ${fmt(u.githubStars)} | GitHub API (${repo}) |` : null,
+    u.githubForks != null ? `| GitHub forks | ${fmt(u.githubForks)} | GitHub API |` : null,
+    u.contributors != null ? `| Contributors (incl. anonymous) | ${fmt(u.contributors)} | GitHub API |` : null,
+    u.closedIssues != null ? `| Issues closed / open | ${fmt(u.closedIssues)} / ${fmt(u.openIssues)}${u.issuesClosedPct != null ? ` (${u.issuesClosedPct}% closed)` : ''} | GitHub API |` : null,
+    u.npmWeeklyDownloads != null ? `| npm weekly downloads | ${fmt(u.npmWeeklyDownloads)} | npm (\`${s.npm}\`${s.signals.npmLatest ? ` ${s.signals.npmLatest}` : ''}) |` : null,
+    u.pubLikes != null ? `| pub.dev likes | ${fmt(u.pubLikes)} | pub.dev (\`${s.pub}\`) |` : null,
+    u.pubDownloads30d != null ? `| pub.dev downloads (30 days) | ${fmt(u.pubDownloads30d)} | pub.dev |` : null,
+    u.nugetTotalDownloads != null ? `| NuGet downloads (all time) | ${fmt(u.nugetTotalDownloads)} | NuGet (\`${s.nuget}\`) |` : null,
+  ].filter(Boolean);
+  if (!rows.length) return ['## Public usage & feedback', `No public usage numbers available (no public repo or package). Collected ${scoredAt}.`];
+  return ['## Public usage & feedback', `Numbers as reported by each source on ${scoredAt}; nothing is estimated.`, '', '| Signal | Value | Source |', '|---|---|---|', ...rows];
+}
+
 function pageMarkdown(s) {
   const guide = loadGuide(s);
   const mcp = mcpConfig(s);
@@ -126,20 +144,20 @@ function pageMarkdown(s) {
     `| Dark mode / RTL | ${s.attributes.darkMode ? 'yes' : 'not detected'} / ${s.attributes.rtl ? 'yes' : 'not detected'} |`,
     s.attributes.packageSizeKB != null ? `| Package size (unpacked) | ${fmt(s.attributes.packageSizeKB)} KB |` : null,
     `| License | ${s.signals.license || '—'} |`,
-    `| GitHub stars | ${fmt(s.signals.stars)} |`,
-    s.signals.npmWeeklyDownloads != null ? `| npm weekly downloads | ${fmt(s.signals.npmWeeklyDownloads)} (\`${s.npm}\`${s.signals.npmLatest ? ` ${s.signals.npmLatest}` : ''}) |` : null,
-    s.signals.pubLikes != null ? `| pub.dev likes | ${fmt(s.signals.pubLikes)} (\`${s.pub}\`) |` : null,
-    s.signals.nugetTotalDownloads != null ? `| NuGet downloads | ${fmt(s.signals.nugetTotalDownloads)} (\`${s.nuget}\`) |` : null,
     `| Last activity | ${s.quality.lastActivity ? s.quality.lastActivity.slice(0, 10) : '—'} |`,
     `| Docs | ${s.docs || '—'} |`,
     repo ? `| Source | ${repo} |` : null,
     familyPeers.length ? `| Same family | ${familyPeers.map((x) => `[${x.name}](${x.slug}.md)`).join(', ')} |` : null,
+    '',
+    ...usageSection(s),
     '',
     '## AI resources (use these first)',
     s.ai.llmsTxt ? `- **llms.txt:** ${s.ai.llmsTxt}` : '- llms.txt: not published',
     s.ai.llmsFull ? `- **llms-full.txt:** ${s.ai.llmsFull}` : null,
     mcp.length ? '- **MCP server:**' : '- MCP server: none found',
     ...mcp.map((m) => (m.json ? `  - ${m.label}\n    \`\`\`json\n    ${JSON.stringify(m.json)}\n    \`\`\`` : `  - ${m.label}`)),
+    s.mcpNote ? `  - **Access:** ${s.mcpNote}` : null,
+    s.cliCopySource ? `- **Copy-the-source CLI:** documented at ${s.cliCopySource}` : null,
     s.install.shippedSkills.length ? `- **Agent skills shipped in the npm package:** ${s.install.shippedSkills.map((x) => `\`${x}\``).join(', ')}` : null,
     s.ai.tokensPath && repo ? `- **Design tokens:** ${repo}/blob/HEAD/${s.ai.tokensPath}` : null,
     s.aiOverrides?.tokens ? `- **Theming tokens:** ${s.aiOverrides.tokens}` : null,
@@ -212,6 +230,7 @@ const catalog = {
   howToUse: url('llms.txt'),
   localUse: 'In a clone of the repository, every URL under the site URL maps to the site/ folder; "path" fields are relative to site/.',
   productShapes: editorial.shapes,
+  usageNote: `"usage" holds public numbers exactly as returned by the GitHub API, npm, pub.dev and NuGet on ${scoredAt}. Nothing is estimated; null means the source has no number (for example no public repo). There are no star ratings or reviews: issue counts and contributors are the community-feedback signals. "bestFor", "brandLocked" and "productShapes" are editorial (curated) fields, not measurements.`,
   systems: usable.map((s) => ({
     slug: s.slug, name: s.name, org: s.org, tier: s.tier, family: s.family, brandLocked: s.brandLocked || null,
     aiReadiness: s.scores.aiReadiness, popularity: s.scores.popularity,
@@ -222,6 +241,9 @@ const catalog = {
     docs: s.docs, repo: s.signals.repo ? `https://github.com/${s.signals.repo}` : null,
     license: s.signals.license, stars: s.signals.stars, npmWeeklyDownloads: s.signals.npmWeeklyDownloads, latestVersion: s.signals.npmLatest || null,
     lastActivity: s.quality.lastActivity?.slice(0, 10) || null,
+    usage: s.usage,
+    bestForIsEditorial: true,
+    mcpNote: s.mcpNote || null,
     llmsTxt: s.ai.llmsTxt, mcp: s.ai.mcp.length > 0, shippedSkills: s.install.shippedSkills.length > 0,
     buildGuide: pages[s.slug].guide ? { handWritten: true, writtenFor: pages[s.slug].guide.meta.writtenFor, outdated: !!pages[s.slug].guide.drift } : { handWritten: false },
     page: url(`systems/${s.slug}.md`), path: `systems/${s.slug}.md`, html: `systems/${s.slug}.html`,
@@ -271,6 +293,7 @@ When a user asks you to find design systems for a product idea:
    - **Install fits the build setup:** no bundler → require \`install.noBuild: true\`; no Tailwind → exclude \`install.requires\` containing \`tailwind\`.
    - **Exclude \`brandLocked\`** systems unless the user works for that brand. Exclude \`government\`-tagged systems unless it is a public-sector service, and \`*-ecosystem\` tags unless building inside that ecosystem.
 3. **Rank** what is left: fit with \`productShapes\` and \`tags\`/\`bestFor\` first, then stack/styling fit, then \`tier\` (recommended > solid > watch), \`aiReadiness\`, \`popularity\`. Use \`attributes\` (darkMode, rtl, packageSizeKB) to break ties when the user cares.
+   - **Usage and feedback filters:** if the user asks for proven or popular options, filter on \`usage\` (\`githubStars\`, \`npmWeeklyDownloads\`, \`pubLikes\`, \`nugetTotalDownloads\`, \`contributors\`, \`issuesClosedPct\`, \`lastRelease\`). Quote these numbers with their date instead of describing popularity in your own words, and never invent ratings or reviews: the catalog has none.
 4. **One per family.** Systems with the same \`family\` are ports or variants of one system (for example Ant Design for React/Vue/Angular). Keep only the variant that matches the stack, so the top 3 are three genuinely different options.
 5. **Read the page** (\`page\` URL) of your top 4–5 to confirm fit and caveats ("Consider an alternative if"). If \`buildGuide.outdated\` is true, plan to confirm setup in the system's own llms.txt or MCP server.
 6. **Answer with the top 3**: for each, why it fits, the main trade-off, AI-readiness, install mode, and the page link. Say which one you recommend and why. Mention combinations where they apply (for example AI Elements or assistant-ui for chat on top of shadcn/ui; Tremor for charts).

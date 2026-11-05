@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 4.1k KB |
 | License | MIT |
-| GitHub stars | 1.5k |
-| npm weekly downloads | 2.8k (`vue-element-plus-x` 2.0.3) |
 | Last activity | 2026-11-03 |
 | Docs | https://element-plus-x.com |
 | Source | https://github.com/element-plus-x/Element-Plus-X |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.5k | GitHub API (element-plus-x/Element-Plus-X) |
+| GitHub forks | 195 | GitHub API |
+| Contributors (incl. anonymous) | 42 | GitHub API |
+| Issues closed / open | 230 / 25 (90% closed) | GitHub API |
+| npm weekly downloads | 2.9k | npm (`vue-element-plus-x` 2.0.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published

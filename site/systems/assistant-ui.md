@@ -15,17 +15,31 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 13.0k |
-| npm weekly downloads | 2.9M (`@assistant-ui/react` 0.15.32) |
 | Last activity | 2026-11-04 |
 | Docs | https://www.assistant-ui.com |
 | Source | https://github.com/assistant-ui/assistant-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 13.0k | GitHub API (assistant-ui/assistant-ui) |
+| GitHub forks | 1.3k | GitHub API |
+| Contributors (incl. anonymous) | 206 | GitHub API |
+| Issues closed / open | 2.1k / 30 (99% closed) | GitHub API |
+| npm weekly downloads | 3.0M | npm (`@assistant-ui/react` 0.15.32) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.assistant-ui.com/llms.txt
 - **llms-full.txt:** https://www.assistant-ui.com/llms-full.txt
 - **MCP server:**
+  - remote server https://www.assistant-ui.com/mcp
+    ```json
+    {"mcpServers":{"assistant-ui":{"type":"http","url":"https://www.assistant-ui.com/mcp"}}}
+    ```
   - in-repo package: https://github.com/assistant-ui/assistant-ui/tree/HEAD/apps/docs (see its README for setup)
+- **Copy-the-source CLI:** documented at https://www.assistant-ui.com/docs/installation.md
 - **Design tokens:** https://github.com/assistant-ui/assistant-ui/blob/HEAD/packages/variants/src/server/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/assistant-ui/assistant-ui/blob/HEAD/AGENTS.md
 
@@ -33,19 +47,22 @@
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v0.11, written 2026-11-05; latest release 0.15.32._
+_Hand-written guide for v0.15, checked against https://www.assistant-ui.com/docs/installation.md on 2026-11-05; latest release 0.15.32._
 
 ## Install
 ```bash
-npx assistant-ui@latest create     # new app
-npx assistant-ui@latest init       # existing shadcn/ui app
+npx assistant-ui@latest create     # new app (templates: see the CLI reference)
+npx assistant-ui@latest init       # add to an existing project
 ```
+Add your model provider's API key to `.env` and run `npm run dev`. Components can also come from the shadcn CLI through the `@assistant-ui` registry in `components.json`.
 
 ## What you get
-Composable primitives (Thread, Composer, Message, ActionBar) with runtimes for the AI SDK, LangGraph, Mastra or a custom backend; streaming, attachments, tool-call UIs.
+Composable primitives (Thread, Composer, Message, ActionBar) with runtimes for the AI SDK, LangGraph and custom backends; streaming, attachments and tool-call UIs.
 
 ## Agent tips
-- Styled defaults follow shadcn/ui theming; use with a shadcn base for the rest of the app.
+- Hosted MCP server (docs and examples, nothing to install): `https://www.assistant-ui.com/mcp` (streamable HTTP).
+- Agent skills: `npx skills add assistant-ui/skills`. LLM docs: `https://www.assistant-ui.com/llms.txt`.
+- Styling follows shadcn/ui, so use it with a shadcn base for the rest of the app.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

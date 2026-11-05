@@ -1,26 +1,35 @@
 # HeroUI (formerly NextUI)
 
-> Good-looking consumer and SaaS React apps on Tailwind with animations built in.
+> Consumer and SaaS React apps on Tailwind, with animations built in.
 
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **95/100** |
+| AI-readiness | **85/100** |
 | Maintainer | HeroUI |
 | Platforms | web |
 | Frameworks | react |
 | Styling | tailwind |
-| Install | CLI copies component source into your repo (requires: tailwind, bundler) |
+| Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | consumer, saas, marketing, startup-mvp; shapes: saas-app, marketing-site |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 936 KB |
 | License | Apache-2.0 |
-| GitHub stars | 31.1k |
-| npm weekly downloads | 1.2M (`@heroui/react` 3.2.7) |
 | Last activity | 2026-10-30 |
 | Docs | https://www.heroui.com |
 | Source | https://github.com/heroui-inc/heroui |
 | Same family | [HeroUI Native](heroui-native.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 31.1k | GitHub API (heroui-inc/heroui) |
+| GitHub forks | 2.2k | GitHub API |
+| Contributors (incl. anonymous) | 248 | GitHub API |
+| Issues closed / open | 2.9k / 6 (100% closed) | GitHub API |
+| npm weekly downloads | 1.2M | npm (`@heroui/react` 3.2.7) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.heroui.com/llms.txt
@@ -85,7 +94,7 @@ Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" da
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |

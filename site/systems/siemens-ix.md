@@ -5,21 +5,30 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **75/100** |
+| AI-readiness | **65/100** |
 | Maintainer | Siemens (org-backed) |
 | Platforms | web |
 | Frameworks | web-components, react, angular, vue |
 | Styling | web-components |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | industrial, iot, dashboard, enterprise; shapes: app-dashboard |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 18.6k KB |
 | License | MIT |
-| GitHub stars | 389 |
-| npm weekly downloads | 36.2k (`@siemens/ix` 5.3.0) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://ix.siemens.io |
 | Source | https://github.com/siemens/ix |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 389 | GitHub API (siemens/ix) |
+| GitHub forks | 152 | GitHub API |
+| Contributors (incl. anonymous) | 74 | GitHub API |
+| Issues closed / open | 1.1k / 47 (96% closed) | GitHub API |
+| npm weekly downloads | 34.3k | npm (`@siemens/ix` 5.3.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ix.siemens.io/llms.txt
@@ -63,7 +72,7 @@ Then follow the framework setup in the official getting-started guide: https://i
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |

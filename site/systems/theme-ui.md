@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 79 KB |
 | License | MIT |
-| GitHub stars | 5.4k |
-| npm weekly downloads | 81.3k (`theme-ui` 0.17.4) |
 | Last activity | 2026-03-05 |
 | Docs | https://theme-ui.com |
 | Source | https://github.com/system-ui/theme-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.4k | GitHub API (system-ui/theme-ui) |
+| GitHub forks | 649 | GitHub API |
+| Contributors (incl. anonymous) | 158 | GitHub API |
+| Issues closed / open | 621 / 45 (93% closed) | GitHub API |
+| npm weekly downloads | 79.8k | npm (`theme-ui` 0.17.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published

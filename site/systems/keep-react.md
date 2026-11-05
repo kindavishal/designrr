@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 401 KB |
 | License | MIT |
-| GitHub stars | 1.4k |
-| npm weekly downloads | 431 (`keep-react` 1.6.1) |
 | Last activity | 2025-01-02 |
 | Docs | https://react.keepdesign.io |
 | Source | https://github.com/StaticMania/keep-react |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.4k | GitHub API (StaticMania/keep-react) |
+| GitHub forks | 114 | GitHub API |
+| Contributors (incl. anonymous) | 15 | GitHub API |
+| Issues closed / open | 84 / 4 (95% closed) | GitHub API |
+| npm weekly downloads | 310 | npm (`keep-react` 1.6.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -28,7 +37,7 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 671 days ago).
+- maintenance has slowed (last activity 672 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -67,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://r
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars. Notes: Last activity 671 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars. Notes: Last activity 672 days ago (12-24 months).
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/keep-react.md_

@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Tier | **recommended** |
-| AI-readiness | **45/100** |
+| Tier | **solid** |
+| AI-readiness | **35/100** |
 | Maintainer | Community |
 | Platforms | ios, android, web, desktop |
 | Frameworks | flutter |
@@ -14,12 +14,22 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| GitHub stars | 2.8k |
-| pub.dev likes | 971 (`shadcn_ui`) |
 | Last activity | 2026-10-30 |
 | Docs | https://flutter-shadcn-ui.mariuti.com |
 | Source | https://github.com/nank1ro/flutter-shadcn-ui |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn-svelte](shadcn-svelte.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.8k | GitHub API (nank1ro/flutter-shadcn-ui) |
+| GitHub forks | 202 | GitHub API |
+| Contributors (incl. anonymous) | 57 | GitHub API |
+| Issues closed / open | 279 / 34 (89% closed) | GitHub API |
+| pub.dev likes | 971 | pub.dev (`shadcn_ui`) |
+| pub.dev downloads (30 days) | 18.0k | pub.dev |
 
 ## AI resources (use these first)
 - **llms.txt:** https://flutter-shadcn-ui.mariuti.com/llms.txt
@@ -56,13 +66,13 @@ flutter pub add shadcn_ui
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, pub.
+Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 35 < 45.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-flutter-ui.md_

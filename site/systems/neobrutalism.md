@@ -14,10 +14,19 @@
 | Good for | marketing, bold-brand, creative |
 | Dark mode / RTL | not detected / yes |
 | License | MIT |
-| GitHub stars | 5.6k |
 | Last activity | 2026-09-14 |
 | Docs | https://www.neobrutalism.dev |
 | Source | https://github.com/ekmas/neobrutalism-components |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5.6k | GitHub API (ekmas/neobrutalism-components) |
+| GitHub forks | 192 | GitHub API |
+| Contributors (incl. anonymous) | 10 | GitHub API |
+| Issues closed / open | 28 / 1 (97% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published

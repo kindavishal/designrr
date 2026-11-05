@@ -1,25 +1,34 @@
 # Reka UI
 
-> Headless, accessible Vue primitives (Radix for Vue) for custom systems; powers shadcn-vue and Nuxt UI.
+> Headless, accessible Vue primitives for custom systems; shadcn-vue and Nuxt UI are built on it.
 
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **55/100** |
+| AI-readiness | **45/100** |
 | Maintainer | unovue |
 | Platforms | web |
 | Frameworks | vue |
 | Styling | headless (headless) |
-| Install | CLI copies component source into your repo (requires: bundler) |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | custom-brand |
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 9.0k KB |
 | License | MIT |
-| GitHub stars | 6.9k |
-| npm weekly downloads | 2.9M (`reka-ui` 2.11.0) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://reka-ui.com |
 | Source | https://github.com/unovue/reka-ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 6.9k | GitHub API (unovue/reka-ui) |
+| GitHub forks | 581 | GitHub API |
+| Contributors (incl. anonymous) | 282 | GitHub API |
+| Issues closed / open | 1.1k / 195 (85% closed) | GitHub API |
+| npm weekly downloads | 3.0M | npm (`reka-ui` 2.11.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://reka-ui.com/llms.txt
@@ -61,7 +70,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |

@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.6k KB |
 | License | MIT |
-| GitHub stars | 178 |
-| npm weekly downloads | 0 (`@sanity/ui` 4.4.10) |
 | Last activity | 2026-10-20 |
 | Docs | https://www.sanity.io/ui |
 | Source | https://github.com/sanity-io/ui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 178 | GitHub API (sanity-io/ui) |
+| GitHub forks | 23 | GitHub API |
+| Contributors (incl. anonymous) | 38 | GitHub API |
+| Issues closed / open | 29 / 15 (66% closed) | GitHub API |
+| npm weekly downloads | 3.5M | npm (`@sanity/ui` 4.4.10) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.sanity.io/llms.txt
@@ -69,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/sanity-ui.md_

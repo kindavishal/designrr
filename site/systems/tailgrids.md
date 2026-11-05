@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 87 KB |
 | License | MIT |
-| GitHub stars | 1.7k |
-| npm weekly downloads | 0 (`@tailgrids/cli` 1.4.3) |
 | Last activity | 2026-08-04 |
 | Docs | https://tailgrids.com |
 | Source | https://github.com/TailGrids/tailgrids |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 1.7k | GitHub API (TailGrids/tailgrids) |
+| GitHub forks | 136 | GitHub API |
+| Contributors (incl. anonymous) | 10 | GitHub API |
+| Issues closed / open | 22 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 65 | npm (`@tailgrids/cli` 1.4.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://tailgrids.com/llms.txt

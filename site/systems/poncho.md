@@ -14,10 +14,19 @@
 | Good for | government, public-service |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| GitHub stars | 175 |
 | Last activity | 2026-10-27 |
 | Docs | https://argob.github.io/poncho/ |
 | Source | https://github.com/argob/poncho |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 175 | GitHub API (argob/poncho) |
+| GitHub forks | 65 | GitHub API |
+| Contributors (incl. anonymous) | 38 | GitHub API |
+| Issues closed / open | 56 / 13 (81% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published

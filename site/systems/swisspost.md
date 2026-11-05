@@ -16,11 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 9.6k KB |
 | License | Apache-2.0 |
-| GitHub stars | 181 |
-| npm weekly downloads | 0 (`@swisspost/design-system-components` 10.8.0) |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://design-system.post.ch |
 | Source | https://github.com/swisspost/design-system |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 181 | GitHub API (swisspost/design-system) |
+| GitHub forks | 30 | GitHub API |
+| Contributors (incl. anonymous) | 44 | GitHub API |
+| Issues closed / open | 3.2k / 408 (89% closed) | GitHub API |
+| npm weekly downloads | 1.4k | npm (`@swisspost/design-system-components` 10.8.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published

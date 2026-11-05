@@ -1,6 +1,6 @@
 # Park UI
 
-> Beautifully styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
+> Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 75 KB |
 | License | MIT |
-| GitHub stars | 2.4k |
-| npm weekly downloads | 6.1k (`@park-ui/cli` 1.0.1) |
 | Last activity | 2026-02-21 |
 | Docs | https://park-ui.com |
 | Source | https://github.com/chakra-ui/park-ui |
 | Same family | [Chakra UI](chakra-ui.md), [Ark UI](ark-ui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.4k | GitHub API (chakra-ui/park-ui) |
+| GitHub forks | 109 | GitHub API |
+| Contributors (incl. anonymous) | 31 | GitHub API |
+| Issues closed / open | 329 / 11 (97% closed) | GitHub API |
+| npm weekly downloads | 6.0k | npm (`@park-ui/cli` 1.0.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published

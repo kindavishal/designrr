@@ -16,11 +16,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 756 KB |
 | License | Apache-2.0 |
-| GitHub stars | 5 |
-| npm weekly downloads | 0 (`@aurodesignsystem/auro-button` 13.0.3) |
 | Last activity | 2026-11-03 |
 | Docs | https://auro.alaskaair.com |
 | Source | https://github.com/AlaskaAirlines/auro-button |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 5 | GitHub API (AlaskaAirlines/auro-button) |
+| GitHub forks | 11 | GitHub API |
+| Contributors (incl. anonymous) | 23 | GitHub API |
+| Issues closed / open | 165 / 10 (94% closed) | GitHub API |
+| npm weekly downloads | 4.9k | npm (`@aurodesignsystem/auro-button` 13.0.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://auro.alaskaair.com/llms.txt

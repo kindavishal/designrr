@@ -1,6 +1,6 @@
 # daisyUI
 
-> Framework-agnostic Tailwind component classes with many themes; great for quick MVPs in any stack.
+> Framework-agnostic Tailwind component classes with many themes; suits quick MVPs in any stack.
 
 | | |
 |---|---|
@@ -15,16 +15,26 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| GitHub stars | 42.7k |
-| npm weekly downloads | 1.4M (`daisyui` 5.7.50) |
 | Last activity | 2026-10-13 |
 | Docs | https://daisyui.com |
 | Source | https://github.com/saadeghi/daisyui |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 42.7k | GitHub API (saadeghi/daisyui) |
+| GitHub forks | 1.7k | GitHub API |
+| Contributors (incl. anonymous) | 317 | GitHub API |
+| Issues closed / open | 2.2k / 23 (99% closed) | GitHub API |
+| npm weekly downloads | 1.3M | npm (`daisyui` 5.7.50) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://daisyui.com/llms.txt
 - **MCP server:**
   - in-repo package: https://github.com/saadeghi/daisyui/tree/HEAD/packages/docs (see its README for setup)
+  - **Access:** The official MCP server (Blueprint) is a paid subscription with a free trial [https://daisyui.com/blueprint/].
 - **Design tokens:** https://github.com/saadeghi/daisyui/blob/HEAD/packages/daisyui/functions/variables.css
 - **Agent/contributor docs in repo:** https://github.com/saadeghi/daisyui/blob/HEAD/packages/AGENTS.md
 
@@ -32,25 +42,41 @@
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v5, written 2026-11-05; latest release 5.7.50._
+_Hand-written guide for v5, checked against https://daisyui.com/llms.txt on 2026-11-05; latest release 5.7.50._
 
-## Install (Tailwind v4)
+## Install
+daisyUI 5 requires Tailwind CSS 4 (no `tailwind.config.js`).
 ```bash
-npm install -D daisyui@latest
+npm i -D daisyui@latest
 ```
 ```css
 @import "tailwindcss";
-@plugin "daisyui" { themes: light --default, dark --prefersdark; }
+@plugin "daisyui";
+```
+No build step (prototypes): the precompiled CSS plus the Tailwind browser build:
+```html
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 ```
 
 ## How it works
-Semantic class names (`btn btn-primary`, `card`, `modal`) on plain HTML — works with any framework or none.
+Semantic class names (`btn btn-primary`, `card`, `modal`) on plain HTML; works with any framework or none.
 
 ## Theme it to a brand
-Define a custom theme with `@plugin "daisyui/theme" { name: "brand"; --color-primary: oklch(...); --radius-box: 1rem; }` or use the theme generator on daisyui.com.
+Pick built-in themes with `@plugin "daisyui" { themes: light --default, dark --prefersdark; }`, or define one:
+```css
+@plugin "daisyui/theme" {
+  name: "brand";
+  default: true;
+  --color-primary: oklch(55% 0.2 260);
+  --radius-box: 0.5rem;
+}
+```
+The theme generator on daisyui.com produces these blocks.
 
 ## Agent tips
-- `https://daisyui.com/llms.txt` is a compact, complete class reference — load it before writing markup.
+- `https://daisyui.com/llms.txt` is a compact, complete class reference; load it before writing markup. A free agent skill is offered on the install page.
+- daisyUI's official MCP server (Blueprint) is a paid subscription with a free trial.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

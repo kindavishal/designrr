@@ -1,20 +1,34 @@
 ---
-writtenFor: "Compose Material 3 (1.x)"
+writtenFor: "Compose Material 3"
 platformSdk: true
 written: 2026-11-05
+verifiedAgainst: https://developer.android.com/develop/ui/compose/designsystems/material3
 ---
 ## Install
 ```kotlin
-// build.gradle.kts
-implementation(platform("androidx.compose:compose-bom:<latest>"))
+// app/build.gradle.kts
+val composeBom = platform("androidx.compose:compose-bom:<latest>")
+implementation(composeBom)
 implementation("androidx.compose.material3:material3")
 ```
+The BOM keeps all Compose library versions aligned; check the Compose BOM page for the latest version.
 
 ## Setup
 ```kotlin
-MaterialTheme(colorScheme = if (isSystemInDarkTheme()) darkScheme else lightScheme, typography = AppTypography) { App() }
+MaterialTheme(
+  colorScheme = when {
+    dynamicColor && darkTheme -> dynamicDarkColorScheme(LocalContext.current)
+    dynamicColor && !darkTheme -> dynamicLightColorScheme(LocalContext.current)
+    darkTheme -> DarkColorScheme
+    else -> LightColorScheme
+  },
+  typography = AppTypography,
+) { App() }
 ```
-Generate `lightScheme`/`darkScheme` and typography from a brand colour with Material Theme Builder (exports Compose code). Support dynamic colour on Android 12+ with `dynamicLightColorScheme(context)`.
+Dynamic colour is available on Android 12+.
+
+## Theme it to a brand
+Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours with Material Theme Builder, which exports Compose theme code (`Color.kt`, `Theme.kt`, `Type.kt`).
 
 ## Agent tips
-- Use `Scaffold`, `TopAppBar`, `NavigationBar`/`NavigationSuiteScaffold` for adaptive layouts.
+- Use `Scaffold`, `TopAppBar` and the navigation components (`NavigationBar`, `NavigationSuiteScaffold`) for adaptive layouts.

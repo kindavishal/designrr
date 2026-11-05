@@ -14,9 +14,11 @@
 | Good for | mobile, consumer, apple-ecosystem; shapes: mobile-app |
 | Dark mode / RTL | yes / not detected |
 | License | — |
-| GitHub stars | — |
 | Last activity | — |
 | Docs | https://developer.apple.com/design/human-interface-guidelines |
+
+## Public usage & feedback
+No public usage numbers available (no public repo or package). Collected 2026-11-05.
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -26,19 +28,19 @@
 - you are not building inside the apple ecosystem.
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide for iOS 26 SDK / SwiftUI, written 2026-11-05._
+_Hand-written guide for SwiftUI (iOS 26 SDK), checked against https://developer.apple.com/documentation/swiftui on 2026-11-05._
 
 ## Install
-Built into Xcode / SwiftUI — no dependency.
+Built into Xcode and SwiftUI; no dependency.
 
 ## Setup
-Use system components and styles so the HIG is followed automatically: `NavigationStack`, `TabView`, `List`, `Form`, `.toolbar`, `.searchable`, `Button(...).buttonStyle(.borderedProminent)`, semantic colours (`Color.primary`, `.secondary`, `Color(.systemBackground)`), Dynamic Type text styles (`.font(.headline)`), SF Symbols.
+Use system components and styles so the Human Interface Guidelines are followed automatically: `NavigationStack` / `NavigationSplitView`, `TabView`, `List`, `Form`, `.toolbar`, `.searchable`, `.buttonStyle(.borderedProminent)`, semantic colours (`Color.primary`, `Color(.systemBackground)`), Dynamic Type text styles (`.font(.headline)`) and SF Symbols.
 
 ## Theme it to a brand
-Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog with light/dark variants. Avoid fixed font sizes and custom navigation chrome.
+Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog with light and dark variants. Avoid fixed font sizes and custom navigation chrome.
 
 ## Agent tips
-- Check Apple's HIG page for the component before inventing a pattern.
+- Check the HIG page for a component before inventing a pattern.
 - Test Dynamic Type, Dark Mode and VoiceOver in previews (`#Preview` with `.environment(\.dynamicTypeSize, .accessibility3)`).
 
 ## Build checklist (any system)

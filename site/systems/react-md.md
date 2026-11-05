@@ -15,11 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 125 KB |
 | License | MIT |
-| GitHub stars | 2.3k |
-| npm weekly downloads | 10.0k (`react-md` 7.0.8) |
 | Last activity | 2026-11-04 |
 | Docs | https://react-md.dev |
 | Source | https://github.com/mlaursen/react-md |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 2.3k | GitHub API (mlaursen/react-md) |
+| GitHub forks | 295 | GitHub API |
+| Contributors (incl. anonymous) | 84 | GitHub API |
+| Issues closed / open | 714 / 18 (98% closed) | GitHub API |
+| npm weekly downloads | 8.5k | npm (`react-md` 7.0.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published

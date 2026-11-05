@@ -1,6 +1,6 @@
 # Material UI (MUI)
 
-> Feature-rich React apps and admin tools that benefit from Material Design and a huge component set (incl. MUI X data grid).
+> React apps and admin tools built on Material Design, with a large component set (including the MUI X data grid).
 
 | | |
 |---|---|
@@ -15,12 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 8.3k KB |
 | License | MIT |
-| GitHub stars | 99.3k |
-| npm weekly downloads | 13.6M (`@mui/material` 9.5.0) |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-05 |
 | Docs | https://mui.com/material-ui/ |
 | Source | https://github.com/mui/material-ui |
 | Same family | [Base UI](base-ui.md) |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 99.3k | GitHub API (mui/material-ui) |
+| GitHub forks | 32.5k | GitHub API |
+| Contributors (incl. anonymous) | 3.5k | GitHub API |
+| Issues closed / open | 19.2k / 1.4k (93% closed) | GitHub API |
+| npm weekly downloads | 13.6M | npm (`@mui/material` 9.5.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://mui.com/material-ui/llms.txt

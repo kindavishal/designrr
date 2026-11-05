@@ -15,11 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.2k KB |
 | License | MIT |
-| GitHub stars | 95 |
-| npm weekly downloads | 3.9k (`@gcds-core/components` 1.7.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://design-system.alpha.canada.ca |
 | Source | https://github.com/cds-snc/gcds-components |
+
+## Public usage & feedback
+Numbers as reported by each source on 2026-11-05; nothing is estimated.
+
+| Signal | Value | Source |
+|---|---|---|
+| GitHub stars | 95 | GitHub API (cds-snc/gcds-components) |
+| GitHub forks | 34 | GitHub API |
+| Contributors (incl. anonymous) | 49 | GitHub API |
+| Issues closed / open | 139 / 97 (59% closed) | GitHub API |
+| npm weekly downloads | 4.0k | npm (`@gcds-core/components` 1.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
