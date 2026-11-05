@@ -1,0 +1,70 @@
+# Angular Material
+
+> Angular Material by Google.
+
+| | |
+|---|---|
+| Tier | **solid** |
+| AI-readiness | **35/100** |
+| Maintainer | Google (org-backed) |
+| Platforms | web |
+| Frameworks | angular |
+| Styling | css |
+| Good for | enterprise, admin |
+| License | MIT |
+| GitHub stars | 25.0k |
+| npm weekly downloads | 3.3M (`@angular/material`) |
+| Last activity | 2026-11-04 |
+| Docs | https://material.angular.dev |
+| Source | https://github.com/angular/components |
+
+## AI resources (use these first)
+- llms.txt: not published
+- MCP server: none found
+- **Design tokens:** https://github.com/angular/components/blob/HEAD/src/aria/listbox/tokens.ts
+
+
+## Install
+```bash
+ng add @angular/material
+```
+
+## Theme it to a brand
+```scss
+@use '@angular/material' as mat;
+html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: light), typography: Inter, density: 0)); }
+```
+Customise further with `mat.<component>-overrides(...)` mixins and the generated `--mat-sys-*` CSS variables.
+
+## Agent tips
+- Use the CDK (`@angular/cdk`) for overlays, drag & drop and virtual scroll before reaching for third-party libraries.
+- Prefer standalone component imports (`MatButtonModule` etc.) per component.
+
+## Build checklist (any system)
+1. **Install & provider** — follow the install section exactly for the detected framework and version.
+2. **Brand → tokens** — set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first** — build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components** — map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States** — loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility** — keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness** — enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify** — run the app, click through every screen, fix console errors and type errors.
+
+## Score breakdown
+| Capability | Points |
+|---|---|
+| Official MCP server (agent can query components/docs live) | 0/20 |
+| llms.txt on the docs site | 0/15 |
+| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| Machine-readable design tokens in the repo | 15/15 |
+| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills) | 0/5 |
+| Storybook / live, inspectable examples | 0/5 |
+| Figma Code Connect (design ↔ code mapping) | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
+| Dedicated documentation site | 5/5 |
+
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
+
+_Data refreshed 2026-11-05. Source: https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md_

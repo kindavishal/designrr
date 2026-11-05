@@ -1,0 +1,5636 @@
+{
+  "harvestedAt": "2026-11-05",
+  "count": 253,
+  "candidates": [
+    {
+      "slug": "shadcn-ui",
+      "name": "shadcn/ui",
+      "org": "shadcn (Vercel)",
+      "repo": "shadcn-ui/ui",
+      "npm": "shadcn",
+      "docs": "https://ui.shadcn.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "dashboard",
+        "marketing",
+        "ai-app",
+        "devtools"
+      ],
+      "orgBacked": true,
+      "mcp": "npx shadcn@latest mcp",
+      "bestFor": "Modern SaaS and AI apps on React/Next.js + Tailwind where you want to own and restyle component source.",
+      "aiOverrides": {
+        "tokens": "Theme is CSS variables (globals.css) generated per registry theme; see ui.shadcn.com/docs/theming"
+      }
+    },
+    {
+      "slug": "mui",
+      "name": "Material UI (MUI)",
+      "org": "MUI",
+      "repo": "mui/material-ui",
+      "npm": "@mui/material",
+      "docs": "https://mui.com/material-ui/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "saas",
+        "dashboard",
+        "admin"
+      ],
+      "orgBacked": true,
+      "mcpPackage": "@mui/mcp",
+      "bestFor": "Feature-rich React apps and admin tools that benefit from Material Design and a huge component set (incl. MUI X data grid)."
+    },
+    {
+      "slug": "ant-design",
+      "name": "Ant Design",
+      "org": "Ant Group",
+      "repo": "ant-design/ant-design",
+      "npm": "antd",
+      "docs": "https://ant.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "dashboard",
+        "data-dense",
+        "b2b"
+      ],
+      "orgBacked": true,
+      "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React."
+    },
+    {
+      "slug": "chakra-ui",
+      "name": "Chakra UI",
+      "org": "Chakra UI",
+      "repo": "chakra-ui/chakra-ui",
+      "npm": "@chakra-ui/react",
+      "docs": "https://chakra-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "consumer",
+        "marketing"
+      ],
+      "orgBacked": false,
+      "mcpPackage": "@chakra-ui/react-mcp",
+      "bestFor": "Accessible, themeable React apps with style props; fast to brand."
+    },
+    {
+      "slug": "mantine",
+      "name": "Mantine",
+      "org": "Mantine",
+      "repo": "mantinedev/mantine",
+      "npm": "@mantine/core",
+      "docs": "https://mantine.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-modules",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "dashboard",
+        "admin",
+        "startup-mvp"
+      ],
+      "orgBacked": false,
+      "bestFor": "Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box."
+    },
+    {
+      "slug": "radix-themes",
+      "name": "Radix Themes",
+      "org": "WorkOS",
+      "repo": "radix-ui/themes",
+      "npm": "@radix-ui/themes",
+      "docs": "https://www.radix-ui.com/themes/docs",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "devtools",
+        "startup-mvp"
+      ],
+      "orgBacked": true,
+      "bestFor": "Polished, accessible React UI with a clean default look and minimal setup."
+    },
+    {
+      "slug": "radix-primitives",
+      "name": "Radix Primitives",
+      "org": "WorkOS",
+      "repo": "radix-ui/primitives",
+      "npm": "radix-ui",
+      "docs": "https://www.radix-ui.com/primitives/docs",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand",
+        "saas"
+      ],
+      "orgBacked": true,
+      "headless": true,
+      "bestFor": "Unstyled accessible primitives when you are building your own branded system."
+    },
+    {
+      "slug": "heroui",
+      "name": "HeroUI (formerly NextUI)",
+      "org": "HeroUI",
+      "repo": "heroui-inc/heroui",
+      "npm": "@heroui/react",
+      "docs": "https://www.heroui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "saas",
+        "marketing",
+        "startup-mvp"
+      ],
+      "orgBacked": false,
+      "mcpPackage": "@heroui/react-mcp",
+      "bestFor": "Good-looking consumer and SaaS React apps on Tailwind with animations built in."
+    },
+    {
+      "slug": "react-spectrum",
+      "name": "React Spectrum / React Aria",
+      "org": "Adobe",
+      "repo": "adobe/react-spectrum",
+      "npm": "react-aria-components",
+      "docs": "https://react-spectrum.adobe.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "accessibility-critical",
+        "creative-tools",
+        "custom-brand"
+      ],
+      "orgBacked": true,
+      "headless": true,
+      "bestFor": "Best-in-class accessibility and internationalisation; React Aria for custom-branded systems, Spectrum for Adobe-style tools."
+    },
+    {
+      "slug": "fluent-ui",
+      "name": "Fluent UI",
+      "org": "Microsoft",
+      "repo": "microsoft/fluentui",
+      "npm": "@fluentui/react-components",
+      "docs": "https://react.fluentui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "productivity",
+        "microsoft-ecosystem",
+        "b2b"
+      ],
+      "orgBacked": true,
+      "bestFor": "Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins."
+    },
+    {
+      "slug": "carbon",
+      "name": "Carbon Design System",
+      "org": "IBM",
+      "repo": "carbon-design-system/carbon",
+      "npm": "@carbon/react",
+      "docs": "https://carbondesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "data-dense",
+        "dashboard",
+        "b2b",
+        "accessibility-critical"
+      ],
+      "orgBacked": true,
+      "bestFor": "Serious enterprise and data products with strict accessibility and a rigorous token system."
+    },
+    {
+      "slug": "primer",
+      "name": "Primer",
+      "org": "GitHub",
+      "repo": "primer/react",
+      "npm": "@primer/react",
+      "docs": "https://primer.style",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-modules",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "saas",
+        "content"
+      ],
+      "orgBacked": true,
+      "bestFor": "Developer tools and GitHub-like interfaces."
+    },
+    {
+      "slug": "primer-primitives",
+      "name": "Primer Primitives (tokens)",
+      "org": "GitHub",
+      "repo": "primer/primitives",
+      "npm": "@primer/primitives",
+      "docs": "https://primer.style/primitives",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "tokens"
+      ],
+      "orgBacked": true,
+      "bestFor": "Design tokens only: Primer colour, size and typography as CSS variables / JSON."
+    },
+    {
+      "slug": "polaris",
+      "name": "Polaris",
+      "org": "Shopify",
+      "repo": "Shopify/polaris",
+      "npm": "@shopify/polaris",
+      "docs": "https://polaris-react.shopify.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "admin",
+        "shopify-ecosystem"
+      ],
+      "orgBacked": true,
+      "bestFor": "Shopify apps and commerce admin tools."
+    },
+    {
+      "slug": "atlassian",
+      "name": "Atlassian Design System",
+      "org": "Atlassian",
+      "repo": null,
+      "npm": "@atlaskit/button",
+      "docs": "https://atlassian.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "productivity",
+        "collaboration",
+        "atlassian-ecosystem"
+      ],
+      "orgBacked": true,
+      "bestFor": "Collaboration and work-management tools; Jira/Confluence apps."
+    },
+    {
+      "slug": "cloudscape",
+      "name": "Cloudscape",
+      "org": "Amazon Web Services",
+      "repo": "cloudscape-design/components",
+      "npm": "@cloudscape-design/components",
+      "docs": "https://cloudscape.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "dashboard",
+        "data-dense",
+        "devtools",
+        "cloud-console"
+      ],
+      "orgBacked": true,
+      "bestFor": "Cloud consoles, ops dashboards and data-heavy B2B tools (AWS console style)."
+    },
+    {
+      "slug": "gravity-ui",
+      "name": "Gravity UI",
+      "org": "Yandex",
+      "repo": "gravity-ui/uikit",
+      "npm": "@gravity-ui/uikit",
+      "docs": "https://gravity-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "dashboard",
+        "devtools",
+        "data-dense"
+      ],
+      "orgBacked": true,
+      "bestFor": "Internal tools, cloud consoles and dashboards; includes charts, navigation and date components."
+    },
+    {
+      "slug": "blueprint",
+      "name": "Blueprint",
+      "org": "Palantir",
+      "repo": "palantir/blueprint",
+      "npm": "@blueprintjs/core",
+      "docs": "https://blueprintjs.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "data-dense",
+        "desktop-like",
+        "analytics",
+        "enterprise"
+      ],
+      "orgBacked": true,
+      "bestFor": "Complex, data-dense desktop-style web apps (analytics, ops tooling)."
+    },
+    {
+      "slug": "eui",
+      "name": "Elastic UI (EUI)",
+      "org": "Elastic",
+      "repo": "elastic/eui",
+      "npm": "@elastic/eui",
+      "docs": "https://eui.elastic.co",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "dashboard",
+        "data-dense",
+        "analytics",
+        "devtools"
+      ],
+      "orgBacked": true,
+      "bestFor": "Search, observability and analytics dashboards."
+    },
+    {
+      "slug": "grommet",
+      "name": "Grommet",
+      "org": "HPE",
+      "repo": "grommet/grommet",
+      "npm": "grommet",
+      "docs": "https://v2.grommet.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "evergreen",
+      "name": "Evergreen",
+      "org": "Segment",
+      "repo": "segmentio/evergreen",
+      "npm": "evergreen-ui",
+      "docs": "https://evergreen.segment.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "b2b"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ark-ui",
+      "name": "Ark UI",
+      "org": "Chakra UI",
+      "repo": "chakra-ui/ark",
+      "npm": "@ark-ui/react",
+      "docs": "https://ark-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "solid",
+        "svelte"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true,
+      "bestFor": "Headless, state-machine-based components across React, Vue, Solid and Svelte."
+    },
+    {
+      "slug": "park-ui",
+      "name": "Park UI",
+      "org": "Chakra UI",
+      "repo": "chakra-ui/park-ui",
+      "npm": "@park-ui/cli",
+      "docs": "https://park-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "solid"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "custom-brand"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "headless-ui",
+      "name": "Headless UI",
+      "org": "Tailwind Labs",
+      "repo": "tailwindlabs/headlessui",
+      "npm": "@headlessui/react",
+      "docs": "https://headlessui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand",
+        "marketing",
+        "saas"
+      ],
+      "orgBacked": true,
+      "headless": true
+    },
+    {
+      "slug": "daisyui",
+      "name": "daisyUI",
+      "org": "daisyUI",
+      "repo": "saadeghi/daisyui",
+      "npm": "daisyui",
+      "docs": "https://daisyui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "startup-mvp",
+        "marketing",
+        "consumer",
+        "framework-agnostic"
+      ],
+      "orgBacked": false,
+      "bestFor": "Framework-agnostic Tailwind component classes with many themes; great for quick MVPs in any stack."
+    },
+    {
+      "slug": "flowbite",
+      "name": "Flowbite",
+      "org": "Themesberg",
+      "repo": "themesberg/flowbite",
+      "npm": "flowbite",
+      "docs": "https://flowbite.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "react",
+        "vue",
+        "svelte",
+        "angular"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "startup-mvp",
+        "admin",
+        "framework-agnostic"
+      ],
+      "orgBacked": false,
+      "mcpPackage": "flowbite-mcp"
+    },
+    {
+      "slug": "flowbite-react",
+      "name": "Flowbite React",
+      "org": "Themesberg",
+      "repo": "themesberg/flowbite-react",
+      "npm": "flowbite-react",
+      "docs": "https://flowbite-react.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "startup-mvp",
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "preline",
+      "name": "Preline UI",
+      "org": "Htmlstream",
+      "repo": "htmlstreamofficial/preline",
+      "npm": "preline",
+      "docs": "https://preline.co",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "startup-mvp",
+        "framework-agnostic"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "primereact",
+      "name": "PrimeReact",
+      "org": "PrimeTek",
+      "repo": "primefaces/primereact",
+      "npm": "primereact",
+      "docs": "https://primereact.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "primevue",
+      "name": "PrimeVue",
+      "org": "PrimeTek",
+      "repo": "primefaces/primevue",
+      "npm": "primevue",
+      "docs": "https://primevue.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "primeng",
+      "name": "PrimeNG",
+      "org": "PrimeTek",
+      "repo": "primefaces/primeng",
+      "npm": "primeng",
+      "docs": "https://primeng.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "semi-design",
+      "name": "Semi Design",
+      "org": "ByteDance (Douyin)",
+      "repo": "DouyinFE/semi-design",
+      "npm": "@douyinfe/semi-ui",
+      "docs": "https://semi.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "arco-design",
+      "name": "Arco Design",
+      "org": "ByteDance",
+      "repo": "arco-design/arco-design",
+      "npm": "@arco-design/web-react",
+      "docs": "https://arco.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "tdesign",
+      "name": "TDesign",
+      "org": "Tencent",
+      "repo": "Tencent/tdesign",
+      "npm": "tdesign-react",
+      "docs": "https://tdesign.tencent.com",
+      "platforms": [
+        "web",
+        "mobile-web",
+        "miniprogram"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "fusion",
+      "name": "Fusion Design (Alibaba)",
+      "org": "Alibaba",
+      "repo": "alibaba-fusion/next",
+      "npm": "@alifd/next",
+      "docs": "https://fusion.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "baseweb",
+      "name": "Base Web",
+      "org": "Uber",
+      "repo": "uber/baseweb",
+      "npm": "baseui",
+      "docs": "https://baseweb.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "base-ui",
+      "name": "Base UI",
+      "org": "MUI",
+      "repo": "mui/base-ui",
+      "npm": "@base-ui/react",
+      "docs": "https://base-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": true,
+      "headless": true
+    },
+    {
+      "slug": "ariakit",
+      "name": "Ariakit",
+      "org": "Ariakit",
+      "repo": "ariakit/ariakit",
+      "npm": "@ariakit/react",
+      "docs": "https://ariakit.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand",
+        "accessibility-critical"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "tremor",
+      "name": "Tremor",
+      "org": "Tremor (Vercel)",
+      "repo": "tremorlabs/tremor",
+      "npm": "@tremor/react",
+      "docs": "https://tremor.so",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "dashboard",
+        "analytics",
+        "saas"
+      ],
+      "orgBacked": true,
+      "bestFor": "Dashboards and analytics UIs (charts, KPI cards) on React + Tailwind."
+    },
+    {
+      "slug": "canvas-kit",
+      "name": "Workday Canvas Kit",
+      "org": "Workday",
+      "repo": "Workday/canvas-kit",
+      "npm": "@workday/canvas-kit-react",
+      "docs": "https://workday.github.io/canvas-kit/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "hr",
+        "b2b"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "slds",
+      "name": "Salesforce Lightning Design System",
+      "org": "Salesforce",
+      "repo": "salesforce-ux/design-system",
+      "npm": "@salesforce-ux/design-system",
+      "docs": "https://www.lightningdesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "lwc"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "crm",
+        "salesforce-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "paste",
+      "name": "Twilio Paste",
+      "org": "Twilio",
+      "repo": "twilio-labs/paste",
+      "npm": "@twilio-paste/core",
+      "docs": "https://paste.twilio.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "b2b",
+        "communications",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "zendesk-garden",
+      "name": "Zendesk Garden",
+      "org": "Zendesk",
+      "repo": "zendeskgarden/react-components",
+      "npm": "@zendeskgarden/react-buttons",
+      "docs": "https://garden.zendesk.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "support",
+        "b2b"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "orbit",
+      "name": "Kiwi.com Orbit",
+      "org": "Kiwi.com",
+      "repo": "kiwicom/orbit",
+      "npm": "@kiwicom/orbit-components",
+      "docs": "https://orbit.kiwi",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "consumer",
+        "booking"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "spectrum-web-components",
+      "name": "Spectrum Web Components",
+      "org": "Adobe",
+      "repo": "adobe/spectrum-web-components",
+      "npm": "@spectrum-web-components/button",
+      "docs": "https://opensource.adobe.com/spectrum-web-components/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "creative-tools",
+        "enterprise",
+        "framework-agnostic"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "shoelace",
+      "name": "Shoelace",
+      "org": "Font Awesome",
+      "repo": "shoelace-style/shoelace",
+      "npm": "@shoelace-style/shoelace",
+      "docs": "https://shoelace.style",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "any"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "framework-agnostic",
+        "content",
+        "marketing"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "web-awesome",
+      "name": "Web Awesome",
+      "org": "Font Awesome",
+      "repo": "shoelace-style/webawesome",
+      "npm": "@awesome.me/webawesome",
+      "docs": "https://webawesome.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "any"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "framework-agnostic",
+        "content",
+        "marketing"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ionic",
+      "name": "Ionic Framework",
+      "org": "Ionic",
+      "repo": "ionic-team/ionic-framework",
+      "npm": "@ionic/core",
+      "docs": "https://ionicframework.com/docs",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "vue",
+        "angular"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "hybrid-app",
+        "consumer"
+      ],
+      "orgBacked": true,
+      "bestFor": "Cross-platform mobile apps from one web codebase with iOS and Material styling."
+    },
+    {
+      "slug": "vaadin",
+      "name": "Vaadin Web Components",
+      "org": "Vaadin",
+      "repo": "vaadin/web-components",
+      "npm": "@vaadin/button",
+      "docs": "https://vaadin.com/docs/latest/components",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "java"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "data-dense",
+        "java-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "fast",
+      "name": "Microsoft FAST",
+      "org": "Microsoft",
+      "repo": "microsoft/fast",
+      "npm": "@microsoft/fast-element",
+      "docs": "https://fast.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "framework-agnostic",
+        "custom-brand"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "material-web",
+      "name": "Material Web",
+      "org": "Google",
+      "repo": "material-components/material-web",
+      "npm": "@material/web",
+      "docs": "https://material-web.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "framework-agnostic"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "lion",
+      "name": "Lion",
+      "org": "ING",
+      "repo": "ing-bank/lion",
+      "npm": "@lion/ui",
+      "docs": "https://lion.js.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand",
+        "fintech",
+        "accessibility-critical"
+      ],
+      "orgBacked": true,
+      "headless": true
+    },
+    {
+      "slug": "porsche",
+      "name": "Porsche Design System",
+      "org": "Porsche",
+      "repo": "porsche-design-system/porsche-design-system",
+      "npm": "@porsche-design-system/components-js",
+      "docs": "https://designsystem.porsche.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "angular",
+        "vue"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "automotive",
+        "premium-brand",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ui5",
+      "name": "SAP UI5 Web Components",
+      "org": "SAP",
+      "repo": "SAP/ui5-webcomponents",
+      "npm": "@ui5/webcomponents",
+      "docs": "https://sap.github.io/ui5-webcomponents/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "erp",
+        "data-dense",
+        "sap-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ui5-react",
+      "name": "UI5 Web Components for React",
+      "org": "SAP",
+      "repo": "SAP/ui5-webcomponents-react",
+      "npm": "@ui5/webcomponents-react",
+      "docs": "https://sap.github.io/ui5-webcomponents-react/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "erp",
+        "data-dense",
+        "sap-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "fundamental-styles",
+      "name": "SAP Fundamental Styles",
+      "org": "SAP",
+      "repo": "SAP/fundamental-styles",
+      "npm": "fundamental-styles",
+      "docs": "https://sap.github.io/fundamental-styles/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "sap-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "siemens-ix",
+      "name": "Siemens iX",
+      "org": "Siemens",
+      "repo": "siemens/ix",
+      "npm": "@siemens/ix",
+      "docs": "https://ix.siemens.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "angular",
+        "vue"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "industrial",
+        "iot",
+        "dashboard",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "telekom-scale",
+      "name": "Telekom Scale",
+      "org": "Deutsche Telekom",
+      "repo": "telekom/scale",
+      "npm": "@telekom/scale-components",
+      "docs": "https://telekom.github.io/scale/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "telecom",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "govuk-frontend",
+      "name": "GOV.UK Design System",
+      "org": "UK Government (GDS)",
+      "repo": "alphagov/govuk-frontend",
+      "npm": "govuk-frontend",
+      "docs": "https://design-system.service.gov.uk",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "nunjucks"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service",
+        "accessibility-critical",
+        "forms"
+      ],
+      "orgBacked": true,
+      "bestFor": "Public services and form-heavy transactional flows where accessibility and plain language matter most."
+    },
+    {
+      "slug": "uswds",
+      "name": "U.S. Web Design System",
+      "org": "U.S. Government (GSA)",
+      "repo": "uswds/uswds",
+      "npm": "@uswds/uswds",
+      "docs": "https://designsystem.digital.gov",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nhsuk-frontend",
+      "name": "NHS.UK Frontend",
+      "org": "NHS England",
+      "repo": "nhsuk/nhsuk-frontend",
+      "npm": "nhsuk-frontend",
+      "docs": "https://service-manual.nhs.uk/design-system",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "nunjucks"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "healthcare",
+        "government",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "agds",
+      "name": "Australian Government Design System",
+      "org": "Australian Government (Steel Thread)",
+      "repo": "steelthreads/agds-next",
+      "npm": "@ag.ds-next/react",
+      "docs": "https://design-system.agriculture.gov.au",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "gcds",
+      "name": "GC Design System (Canada)",
+      "org": "Government of Canada",
+      "repo": "cds-snc/gcds-components",
+      "npm": "@gcds-core/components",
+      "docs": "https://design-system.alpha.canada.ca",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "vue"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service",
+        "bilingual"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "designsystemet",
+      "name": "Designsystemet (Norway)",
+      "org": "Norwegian Digitalisation Agency",
+      "repo": "digdir/designsystemet",
+      "npm": "@digdir/designsystemet-react",
+      "docs": "https://designsystemet.no",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "helsinki-hds",
+      "name": "Helsinki Design System",
+      "org": "City of Helsinki",
+      "repo": "City-of-Helsinki/helsinki-design-system",
+      "npm": "hds-react",
+      "docs": "https://hds.hel.fi",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "dkfds",
+      "name": "Det Fælles Designsystem (Denmark)",
+      "org": "Danish Agency for Digital Government",
+      "repo": "detfaellesdesignsystem/dkfds-components",
+      "npm": "dkfds",
+      "docs": "https://designsystem.dk",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nl-design-system",
+      "name": "NL Design System",
+      "org": "Dutch Government",
+      "repo": "nl-design-system/candidate",
+      "npm": "@nl-design-system-candidate/button-react",
+      "docs": "https://nldesignsystem.nl",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components",
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ecl",
+      "name": "Europa Component Library",
+      "org": "European Commission",
+      "repo": "ec-europa/europa-component-library",
+      "npm": "@ecl/vanilla-component-button",
+      "docs": "https://ec.europa.eu/component-library/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service",
+        "multilingual"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "cms-design-system",
+      "name": "CMS Design System",
+      "org": "U.S. Centers for Medicare & Medicaid Services",
+      "repo": "CMSgov/design-system",
+      "npm": "@cmsgov/design-system",
+      "docs": "https://design.cms.gov",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "healthcare",
+        "forms"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nsw-design-system",
+      "name": "NSW Design System",
+      "org": "NSW Government",
+      "repo": "digitalnsw/nsw-design-system",
+      "npm": "nsw-design-system",
+      "docs": "https://designsystem.nsw.gov.au",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "sgds",
+      "name": "Singapore Government Design System",
+      "org": "GovTech Singapore",
+      "repo": "GovTechSG/sgds-web-component",
+      "npm": "@govtechsg/sgds-web-component",
+      "docs": "https://www.designsystem.tech.gov.sg",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nysds",
+      "name": "New York State Design System",
+      "org": "New York State ITS",
+      "repo": "ITS-HCD/nysds",
+      "npm": "@nysds/components",
+      "docs": "https://designsystem.ny.gov",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ontario-ds",
+      "name": "Ontario Design System",
+      "org": "Government of Ontario",
+      "repo": "ongov/ontario-design-system",
+      "npm": "@ongov/ontario-design-system-component-library",
+      "docs": "https://designsystem.ontario.ca",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "angular"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "poncho",
+      "name": "Poncho (Argentina)",
+      "org": "Government of Argentina",
+      "repo": "argob/poncho",
+      "npm": null,
+      "docs": "https://argob.github.io/poncho/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "bootstrap",
+      "name": "Bootstrap",
+      "org": "Bootstrap team",
+      "repo": "twbs/bootstrap",
+      "npm": "bootstrap",
+      "docs": "https://getbootstrap.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "css-framework",
+      "tags": [
+        "marketing",
+        "startup-mvp",
+        "framework-agnostic",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "bulma",
+      "name": "Bulma",
+      "org": "Bulma",
+      "repo": "jgthms/bulma",
+      "npm": "bulma",
+      "docs": "https://bulma.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "css-framework",
+      "tags": [
+        "marketing",
+        "framework-agnostic"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "foundation",
+      "name": "Foundation",
+      "org": "Zurb",
+      "repo": "foundation/foundation-sites",
+      "npm": "foundation-sites",
+      "docs": "https://get.foundation",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "css-framework",
+      "tags": [
+        "marketing",
+        "framework-agnostic"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "fomantic-ui",
+      "name": "Fomantic UI (Semantic UI)",
+      "org": "Fomantic",
+      "repo": "fomantic/Fomantic-UI",
+      "npm": "fomantic-ui",
+      "docs": "https://fomantic-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "css-framework",
+      "tags": [
+        "framework-agnostic"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "mozilla-protocol",
+      "name": "Mozilla Protocol",
+      "org": "Mozilla",
+      "repo": "mozilla/protocol",
+      "npm": "@mozilla-protocol/core",
+      "docs": "https://protocol.mozilla.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wix-style-react",
+      "name": "Wix Design System",
+      "org": "Wix",
+      "repo": null,
+      "npm": "wix-style-react",
+      "docs": "https://www.wix-style-react.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "wix-ecosystem"
+      ],
+      "orgBacked": true,
+      "notes": "Source not public on GitHub; signals come from npm."
+    },
+    {
+      "slug": "helios",
+      "name": "HashiCorp Helios",
+      "org": "HashiCorp",
+      "repo": "hashicorp/design-system",
+      "npm": "@hashicorp/design-system-components",
+      "docs": "https://helios.hashicorp.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "ember"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "cloud-console",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "patternfly",
+      "name": "PatternFly",
+      "org": "Red Hat",
+      "repo": "patternfly/patternfly-react",
+      "npm": "@patternfly/react-core",
+      "docs": "https://www.patternfly.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "cloud-console",
+        "devtools",
+        "data-dense"
+      ],
+      "orgBacked": true,
+      "bestFor": "Enterprise and hybrid-cloud management consoles."
+    },
+    {
+      "slug": "clarity",
+      "name": "Clarity",
+      "org": "VMware / Broadcom",
+      "repo": "vmware-clarity/ng-clarity",
+      "npm": "@clr/angular",
+      "docs": "https://clarity.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "cloud-console"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "sanity-ui",
+      "name": "Sanity UI",
+      "org": "Sanity",
+      "repo": "sanity-io/ui",
+      "npm": "@sanity/ui",
+      "docs": "https://www.sanity.io/ui",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "content",
+        "cms",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "forma-36",
+      "name": "Forma 36",
+      "org": "Contentful",
+      "repo": "contentful/forma-36",
+      "npm": "@contentful/f36-components",
+      "docs": "https://f36.contentful.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "content",
+        "cms",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "braid",
+      "name": "Braid",
+      "org": "SEEK",
+      "repo": "seek-oss/braid-design-system",
+      "npm": "braid-design-system",
+      "docs": "https://seek-oss.github.io/braid-design-system/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "marketplace",
+        "jobs"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "gestalt",
+      "name": "Gestalt",
+      "org": "Pinterest",
+      "repo": "pinterest/gestalt",
+      "npm": "gestalt",
+      "docs": "https://gestalt.pinterest.systems",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "content",
+        "social"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "vibe",
+      "name": "monday.com Vibe",
+      "org": "monday.com",
+      "repo": "mondaycom/vibe",
+      "npm": "@vibe/core",
+      "docs": "https://vibe.monday.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "productivity",
+        "saas",
+        "collaboration"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "lens",
+      "name": "Lens",
+      "org": "Loom (Atlassian)",
+      "repo": null,
+      "npm": "@loomhq/lens",
+      "docs": "https://lens.loom.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "video",
+        "consumer"
+      ],
+      "orgBacked": true,
+      "notes": "Source not public on GitHub; signals come from npm."
+    },
+    {
+      "slug": "ring-ui",
+      "name": "Ring UI",
+      "org": "JetBrains",
+      "repo": "JetBrains/ring-ui",
+      "npm": "@jetbrains/ring-ui",
+      "docs": "https://jetbrains.github.io/ring-ui/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "leafygreen",
+      "name": "LeafyGreen",
+      "org": "MongoDB",
+      "repo": "mongodb/leafygreen-ui",
+      "npm": "@leafygreen-ui/button",
+      "docs": "https://www.mongodb.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "cloud-console",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "odyssey",
+      "name": "Okta Odyssey",
+      "org": "Okta",
+      "repo": "okta/odyssey",
+      "npm": "@okta/odyssey-react-mui",
+      "docs": "https://odyssey.okta.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "security",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "instructure-ui",
+      "name": "Instructure UI",
+      "org": "Instructure",
+      "repo": "instructure/instructure-ui",
+      "npm": "@instructure/ui",
+      "docs": "https://instructure.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "education",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wonder-blocks",
+      "name": "Wonder Blocks",
+      "org": "Khan Academy",
+      "repo": "Khan/wonder-blocks",
+      "npm": "@khanacademy/wonder-blocks-core",
+      "docs": "https://khan.github.io/wonder-blocks/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "education",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "salt-ds",
+      "name": "Salt Design System",
+      "org": "J.P. Morgan",
+      "repo": "jpmorganchase/salt-ds",
+      "npm": "@salt-ds/core",
+      "docs": "https://www.saltdesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "fintech",
+        "enterprise",
+        "data-dense",
+        "trading"
+      ],
+      "orgBacked": true,
+      "bestFor": "Financial and trading apps with dense data and strict accessibility."
+    },
+    {
+      "slug": "clay",
+      "name": "Clay (Liferay Lexicon)",
+      "org": "Liferay",
+      "repo": "liferay/clay",
+      "npm": "@clayui/core",
+      "docs": "https://clayui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "portal",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "vitamin",
+      "name": "Decathlon Vitamin",
+      "org": "Decathlon",
+      "repo": "Decathlon/vitamin-web",
+      "npm": "@vtmn/css",
+      "docs": "https://www.decathlon.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "react",
+        "vue",
+        "svelte"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "consumer",
+        "retail"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "cedar",
+      "name": "REI Cedar",
+      "org": "REI",
+      "repo": "rei/rei-cedar",
+      "npm": "@rei/cedar",
+      "docs": "https://cedar.rei.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "retail",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "seeds",
+      "name": "Sprout Social Seeds",
+      "org": "Sprout Social",
+      "repo": null,
+      "npm": "@sproutsocial/racine",
+      "docs": "https://seeds.sproutsocial.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "social",
+        "marketing-tools"
+      ],
+      "orgBacked": true,
+      "notes": "Source not public on GitHub; signals come from npm."
+    },
+    {
+      "slug": "lyne",
+      "name": "SBB Lyne",
+      "org": "Swiss Federal Railways",
+      "repo": "sbb-design-systems/lyne-components",
+      "npm": "@sbb-esta/lyne-elements",
+      "docs": "https://lyne-storybook.app.sbb.ch",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "transport",
+        "consumer",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "db-ux",
+      "name": "DB UX Design System",
+      "org": "Deutsche Bahn",
+      "repo": "db-ux-design-system/core-web",
+      "npm": "@db-ux/core-components",
+      "docs": "https://design-system.deutschebahn.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "angular",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "transport",
+        "consumer",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "mistica",
+      "name": "Telefónica Mística",
+      "org": "Telefónica",
+      "repo": "Telefonica/mistica",
+      "npm": "@telefonica/mistica",
+      "docs": "https://mistica-web.vercel.app",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "telecom",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "spindle",
+      "name": "Spindle (Ameba)",
+      "org": "CyberAgent",
+      "repo": "openameba/spindle",
+      "npm": "@openameba/spindle-ui",
+      "docs": "https://spindle.ameba.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "smarthr-ui",
+      "name": "SmartHR UI",
+      "org": "SmartHR",
+      "repo": "kufu/smarthr-ui",
+      "npm": "smarthr-ui",
+      "docs": "https://smarthr.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "hr",
+        "saas",
+        "b2b"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "shoreline",
+      "name": "VTEX Shoreline",
+      "org": "VTEX",
+      "repo": "vtex/shoreline",
+      "npm": "@vtex/shoreline",
+      "docs": "https://shoreline.vtex.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "momentum",
+      "name": "Cisco Momentum",
+      "org": "Cisco",
+      "repo": "momentum-design/momentum-design",
+      "npm": "@momentum-design/components",
+      "docs": "https://momentum.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "communications",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wordpress-components",
+      "name": "WordPress Components",
+      "org": "WordPress",
+      "repo": "WordPress/gutenberg",
+      "npm": "@wordpress/components",
+      "docs": "https://wordpress.github.io/gutenberg/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "content",
+        "cms",
+        "wordpress-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "calcite",
+      "name": "Esri Calcite",
+      "org": "Esri",
+      "repo": "Esri/calcite-design-system",
+      "npm": "@esri/calcite-components",
+      "docs": "https://developers.arcgis.com/calcite-design-system/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "maps",
+        "gis",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "codex",
+      "name": "Wikimedia Codex",
+      "org": "Wikimedia Foundation",
+      "repo": "wikimedia/design-codex",
+      "npm": "@wikimedia/codex",
+      "docs": "https://doc.wikimedia.org/codex/latest/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "content",
+        "multilingual",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "boosted",
+      "name": "Orange Boosted",
+      "org": "Orange",
+      "repo": "Orange-OpenSource/Orange-Boosted-Bootstrap",
+      "npm": "boosted",
+      "docs": "https://boosted.orange.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "telecom",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "circuit-ui",
+      "name": "SumUp Circuit UI",
+      "org": "SumUp",
+      "repo": "sumup-oss/circuit-ui",
+      "npm": "@sumup-oss/circuit-ui",
+      "docs": "https://circuit.sumup.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-modules",
+      "kind": "library",
+      "tags": [
+        "fintech",
+        "payments",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "blade",
+      "name": "Razorpay Blade",
+      "org": "Razorpay",
+      "repo": "razorpay/blade",
+      "npm": "@razorpay/blade",
+      "docs": "https://blade.razorpay.com",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react",
+        "react-native"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "fintech",
+        "payments",
+        "dashboard"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "thumbprint",
+      "name": "Thumbtack Thumbprint",
+      "org": "Thumbtack",
+      "repo": "thumbtack/thumbprint",
+      "npm": "@thumbtack/thumbprint-react",
+      "docs": "https://thumbprint.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "marketplace",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wedges",
+      "name": "Lemon Squeezy Wedges",
+      "org": "Lemon Squeezy (Stripe)",
+      "repo": "lmsqueezy/wedges",
+      "npm": "@lemonsqueezy/wedges",
+      "docs": "https://www.lemonsqueezy.com/wedges",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "ecommerce",
+        "creator"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "auro",
+      "name": "Alaska Airlines Auro",
+      "org": "Alaska Airlines",
+      "repo": "AlaskaAirlines/auro-button",
+      "npm": "@aurodesignsystem/auro-button",
+      "docs": "https://auro.alaskaair.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "moon",
+      "name": "Moon Design System",
+      "org": "Coingaming",
+      "repo": "coingaming/moon-design",
+      "npm": "@moondesignsystem/react",
+      "docs": "https://moon.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "gaming"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "amplify-ui",
+      "name": "AWS Amplify UI",
+      "org": "Amazon Web Services",
+      "repo": "aws-amplify/amplify-ui",
+      "npm": "@aws-amplify/ui-react",
+      "docs": "https://ui.docs.amplify.aws",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "angular",
+        "react-native",
+        "flutter",
+        "swift"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "startup-mvp",
+        "auth",
+        "aws-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ebay-skin",
+      "name": "eBay Skin",
+      "org": "eBay",
+      "repo": "eBay/skin",
+      "npm": "@ebay/skin",
+      "docs": "https://ebay.github.io/skin/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any",
+        "marko"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "marketplace",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "stacks",
+      "name": "Stack Overflow Stacks",
+      "org": "Stack Overflow",
+      "repo": "StackExchange/Stacks",
+      "npm": "@stackoverflow/stacks",
+      "docs": "https://stackoverflow.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "community",
+        "content",
+        "devtools"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "priceline-one",
+      "name": "Priceline One",
+      "org": "Priceline",
+      "repo": "priceline/design-system",
+      "npm": "pcln-design-system",
+      "docs": "https://priceline.github.io/design-system/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "oracle-jet",
+      "name": "Oracle JET (Redwood)",
+      "org": "Oracle",
+      "repo": "oracle/oraclejet",
+      "npm": "@oracle/oraclejet",
+      "docs": "https://www.oracle.com/webfolder/technetwork/jet/index.html",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "preact",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "erp"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "tailwind-plus",
+      "name": "Tailwind Plus (Tailwind UI / Catalyst)",
+      "org": "Tailwind Labs",
+      "repo": null,
+      "npm": null,
+      "docs": "https://tailwindcss.com/plus",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "html"
+      ],
+      "styling": "tailwind",
+      "kind": "reference",
+      "tags": [
+        "marketing",
+        "saas"
+      ],
+      "orgBacked": true,
+      "notes": "Paid license; agents can only use it if you own a license and provide the source."
+    },
+    {
+      "slug": "vuetify",
+      "name": "Vuetify",
+      "org": "Vuetify",
+      "repo": "vuetifyjs/vuetify",
+      "npm": "vuetify",
+      "docs": "https://vuetifyjs.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "saas",
+        "dashboard"
+      ],
+      "orgBacked": false,
+      "bestFor": "Material-style Vue apps with a very complete component set."
+    },
+    {
+      "slug": "element-plus",
+      "name": "Element Plus",
+      "org": "Element",
+      "repo": "element-plus/element-plus",
+      "npm": "element-plus",
+      "docs": "https://element-plus.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "naive-ui",
+      "name": "Naive UI",
+      "org": "TuSimple",
+      "repo": "tusen-ai/naive-ui",
+      "npm": "naive-ui",
+      "docs": "https://www.naiveui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "quasar",
+      "name": "Quasar",
+      "org": "Quasar",
+      "repo": "quasarframework/quasar",
+      "npm": "quasar",
+      "docs": "https://quasar.dev",
+      "platforms": [
+        "web",
+        "ios",
+        "android",
+        "desktop"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "hybrid-app",
+        "mobile"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "nuxt-ui",
+      "name": "Nuxt UI",
+      "org": "NuxtLabs (Vercel)",
+      "repo": "nuxt/ui",
+      "npm": "@nuxt/ui",
+      "docs": "https://ui.nuxt.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue",
+        "nuxt"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "marketing",
+        "dashboard"
+      ],
+      "orgBacked": true,
+      "mcpUrl": "https://ui.nuxt.com/mcp",
+      "bestFor": "Vue / Nuxt SaaS and marketing sites on Tailwind, with templates and dashboard blocks."
+    },
+    {
+      "slug": "ant-design-vue",
+      "name": "Ant Design Vue",
+      "org": "Community",
+      "repo": "vueComponent/ant-design-vue",
+      "npm": "ant-design-vue",
+      "docs": "https://antdv.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "vant",
+      "name": "Vant",
+      "org": "Youzan",
+      "repo": "youzan/vant",
+      "npm": "vant",
+      "docs": "https://vant-ui.github.io/vant/",
+      "platforms": [
+        "mobile-web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "ecommerce",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "reka-ui",
+      "name": "Reka UI",
+      "org": "unovue",
+      "repo": "unovue/reka-ui",
+      "npm": "reka-ui",
+      "docs": "https://reka-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "shadcn-vue",
+      "name": "shadcn-vue",
+      "org": "unovue",
+      "repo": "unovue/shadcn-vue",
+      "npm": "shadcn-vue",
+      "docs": "https://www.shadcn-vue.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "dashboard"
+      ],
+      "orgBacked": false,
+      "aiOverrides": {
+        "tokens": "CSS variables theming, same model as shadcn/ui"
+      }
+    },
+    {
+      "slug": "angular-material",
+      "name": "Angular Material",
+      "org": "Google",
+      "repo": "angular/components",
+      "npm": "@angular/material",
+      "docs": "https://material.angular.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ng-zorro",
+      "name": "NG-ZORRO",
+      "org": "Community (Ant Design)",
+      "repo": "NG-ZORRO/ng-zorro-antd",
+      "npm": "ng-zorro-antd",
+      "docs": "https://ng.ant.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "spartan",
+      "name": "Spartan (shadcn for Angular)",
+      "org": "Spartan",
+      "repo": "spartan-ng/spartan",
+      "npm": "@spartan-ng/brain",
+      "docs": "https://www.spartan.ng",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "taiga-ui",
+      "name": "Taiga UI",
+      "org": "T-Bank",
+      "repo": "taiga-family/taiga-ui",
+      "npm": "@taiga-ui/core",
+      "docs": "https://taiga-ui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "fintech",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "shadcn-svelte",
+      "name": "shadcn-svelte",
+      "org": "Community",
+      "repo": "huntabyte/shadcn-svelte",
+      "npm": "shadcn-svelte",
+      "docs": "https://www.shadcn-svelte.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "dashboard"
+      ],
+      "orgBacked": false,
+      "aiOverrides": {
+        "tokens": "CSS variables theming, same model as shadcn/ui"
+      }
+    },
+    {
+      "slug": "bits-ui",
+      "name": "Bits UI",
+      "org": "Community",
+      "repo": "huntabyte/bits-ui",
+      "npm": "bits-ui",
+      "docs": "https://bits-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "skeleton",
+      "name": "Skeleton",
+      "org": "Skeleton Labs",
+      "repo": "skeletonlabs/skeleton",
+      "npm": "@skeletonlabs/skeleton",
+      "docs": "https://www.skeleton.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte",
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "flowbite-svelte",
+      "name": "Flowbite Svelte",
+      "org": "Community",
+      "repo": "themesberg/flowbite-svelte",
+      "npm": "flowbite-svelte",
+      "docs": "https://flowbite-svelte.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "kobalte",
+      "name": "Kobalte",
+      "org": "Community",
+      "repo": "kobaltedev/kobalte",
+      "npm": "@kobalte/core",
+      "docs": "https://kobalte.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "solid"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "tamagui",
+      "name": "Tamagui",
+      "org": "Tamagui",
+      "repo": "tamagui/tamagui",
+      "npm": "tamagui",
+      "docs": "https://tamagui.dev",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react",
+        "react-native"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "cross-platform",
+        "consumer",
+        "startup-mvp"
+      ],
+      "orgBacked": false,
+      "bestFor": "One React codebase shipping optimised UI to web, iOS and Android."
+    },
+    {
+      "slug": "react-native-paper",
+      "name": "React Native Paper",
+      "org": "Callstack",
+      "repo": "callstack/react-native-paper",
+      "npm": "react-native-paper",
+      "docs": "https://callstack.github.io/react-native-paper/",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "consumer"
+      ],
+      "orgBacked": true,
+      "bestFor": "Material Design 3 apps in React Native."
+    },
+    {
+      "slug": "gluestack-ui",
+      "name": "gluestack UI",
+      "org": "GeekyAnts",
+      "repo": "gluestack/gluestack-ui",
+      "npm": "@gluestack-ui/core",
+      "docs": "https://gluestack.io",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "frameworks": [
+        "react-native",
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "cross-platform",
+        "startup-mvp"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "rn-elements",
+      "name": "React Native Elements",
+      "org": "Community",
+      "repo": "react-native-elements/react-native-elements",
+      "npm": "@rneui/themed",
+      "docs": "https://reactnativeelements.com",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "mobile"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "rn-reusables",
+      "name": "React Native Reusables",
+      "org": "Community",
+      "repo": "founded-labs/react-native-reusables",
+      "npm": "@react-native-reusables/cli",
+      "docs": "https://reactnativereusables.com",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "startup-mvp",
+        "cross-platform"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "heroui-native",
+      "name": "HeroUI Native",
+      "org": "HeroUI",
+      "repo": "heroui-inc/heroui-native",
+      "npm": "heroui-native",
+      "docs": "https://www.heroui.com/docs/native",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "consumer"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "ui-kitten",
+      "name": "UI Kitten",
+      "org": "Akveo",
+      "repo": "akveo/react-native-ui-kitten",
+      "npm": "@ui-kitten/components",
+      "docs": "https://akveo.github.io/react-native-ui-kitten/",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "mobile"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "flutter-material",
+      "name": "Flutter Material 3",
+      "org": "Google",
+      "repo": "flutter/flutter",
+      "npm": null,
+      "docs": "https://docs.flutter.dev/ui/design/material",
+      "platforms": [
+        "ios",
+        "android",
+        "web",
+        "desktop"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "platform",
+      "tags": [
+        "mobile",
+        "cross-platform",
+        "consumer"
+      ],
+      "orgBacked": true,
+      "bestFor": "Default choice for Flutter apps: Material 3 widgets ship with the SDK."
+    },
+    {
+      "slug": "shadcn-flutter-ui",
+      "name": "shadcn_ui (Flutter)",
+      "org": "Community",
+      "repo": "nank1ro/flutter-shadcn-ui",
+      "pub": "shadcn_ui",
+      "docs": "https://flutter-shadcn-ui.mariuti.com",
+      "platforms": [
+        "ios",
+        "android",
+        "web",
+        "desktop"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "forui",
+      "name": "Forui",
+      "org": "Forus Labs",
+      "repo": "forus-labs/forui",
+      "pub": "forui",
+      "docs": "https://forui.dev",
+      "platforms": [
+        "ios",
+        "android",
+        "web",
+        "desktop"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "fluent-ui-flutter",
+      "name": "Fluent UI for Flutter",
+      "org": "Community",
+      "repo": "bdlukaa/fluent_ui",
+      "pub": "fluent_ui",
+      "docs": "https://bdlukaa.github.io/fluent_ui/",
+      "platforms": [
+        "windows",
+        "desktop"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "desktop",
+        "productivity"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "macos-ui",
+      "name": "macos_ui",
+      "org": "Community",
+      "repo": "macosui/macos_ui",
+      "pub": "macos_ui",
+      "docs": "https://macosui.github.io/macos_ui/",
+      "platforms": [
+        "macos",
+        "desktop"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "desktop"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "getwidget",
+      "name": "GetWidget",
+      "org": "Community",
+      "repo": "ionicfirebaseapp/getwidget",
+      "pub": "getwidget",
+      "docs": "https://docs.getwidget.dev",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "flutter"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "apple-hig",
+      "name": "Apple Human Interface Guidelines + SwiftUI",
+      "org": "Apple",
+      "repo": null,
+      "npm": null,
+      "docs": "https://developer.apple.com/design/human-interface-guidelines",
+      "platforms": [
+        "ios",
+        "ipados",
+        "macos",
+        "watchos",
+        "visionos"
+      ],
+      "frameworks": [
+        "swiftui",
+        "uikit"
+      ],
+      "styling": "native",
+      "kind": "platform",
+      "tags": [
+        "mobile",
+        "consumer",
+        "apple-ecosystem"
+      ],
+      "orgBacked": true,
+      "bestFor": "Native iOS / macOS apps: SwiftUI system components follow the HIG for free."
+    },
+    {
+      "slug": "material-android",
+      "name": "Material Design 3 for Android (Compose)",
+      "org": "Google",
+      "repo": "material-components/material-components-android",
+      "npm": null,
+      "docs": "https://m3.material.io",
+      "platforms": [
+        "android"
+      ],
+      "frameworks": [
+        "jetpack-compose",
+        "android-views"
+      ],
+      "styling": "native",
+      "kind": "platform",
+      "tags": [
+        "mobile",
+        "consumer"
+      ],
+      "orgBacked": true,
+      "bestFor": "Native Android apps: Compose Material 3 is the platform default."
+    },
+    {
+      "slug": "fluentui-apple",
+      "name": "Fluent UI Apple",
+      "org": "Microsoft",
+      "repo": "microsoft/fluentui-apple",
+      "npm": null,
+      "docs": "https://github.com/microsoft/fluentui-apple",
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "frameworks": [
+        "swiftui",
+        "uikit"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "productivity",
+        "enterprise",
+        "microsoft-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "fluentui-android",
+      "name": "Fluent UI Android",
+      "org": "Microsoft",
+      "repo": "microsoft/fluentui-android",
+      "npm": null,
+      "docs": "https://github.com/microsoft/fluentui-android",
+      "platforms": [
+        "android"
+      ],
+      "frameworks": [
+        "jetpack-compose",
+        "android-views"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "productivity",
+        "enterprise",
+        "microsoft-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "backpack",
+      "name": "Skyscanner Backpack",
+      "org": "Skyscanner",
+      "repo": "Skyscanner/backpack",
+      "npm": "@skyscanner/backpack-web",
+      "docs": "https://www.skyscanner.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "backpack-ios",
+      "name": "Skyscanner Backpack iOS",
+      "org": "Skyscanner",
+      "repo": "Skyscanner/backpack-ios",
+      "npm": null,
+      "docs": "https://www.skyscanner.design",
+      "platforms": [
+        "ios"
+      ],
+      "frameworks": [
+        "swiftui",
+        "uikit"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "backpack-android",
+      "name": "Skyscanner Backpack Android",
+      "org": "Skyscanner",
+      "repo": "Skyscanner/backpack-android",
+      "npm": null,
+      "docs": "https://www.skyscanner.design",
+      "platforms": [
+        "android"
+      ],
+      "frameworks": [
+        "jetpack-compose"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "orbit-swiftui",
+      "name": "Kiwi.com Orbit SwiftUI",
+      "org": "Kiwi.com",
+      "repo": "kiwicom/orbit-swiftui",
+      "npm": null,
+      "docs": "https://orbit.kiwi",
+      "platforms": [
+        "ios"
+      ],
+      "frameworks": [
+        "swiftui"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "travel",
+        "booking",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wise-design",
+      "name": "Wise Design",
+      "org": "Wise",
+      "repo": null,
+      "npm": null,
+      "docs": "https://wise.design",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [],
+      "styling": "native",
+      "kind": "reference",
+      "tags": [
+        "fintech",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "airbnb-dls",
+      "name": "Airbnb Design Language",
+      "org": "Airbnb",
+      "repo": null,
+      "docs": "https://airbnb.design",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "consumer",
+        "marketplace",
+        "travel"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe Apps UI Toolkit",
+      "org": "Stripe",
+      "repo": null,
+      "docs": "https://docs.stripe.com/stripe-apps/components",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "kind": "reference",
+      "tags": [
+        "fintech",
+        "payments"
+      ],
+      "orgBacked": true,
+      "notes": "Only usable inside Stripe Apps."
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "org": "Linear",
+      "repo": null,
+      "docs": "https://linear.app",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "productivity",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "vercel-geist",
+      "name": "Vercel Geist",
+      "org": "Vercel",
+      "repo": null,
+      "docs": "https://vercel.com/geist/introduction",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "kind": "reference",
+      "tags": [
+        "devtools",
+        "saas"
+      ],
+      "orgBacked": true,
+      "notes": "Docs and fonts public; component code not published."
+    },
+    {
+      "slug": "gitlab-pajamas",
+      "name": "GitLab Pajamas",
+      "org": "GitLab",
+      "repo": null,
+      "npm": "@gitlab/ui",
+      "docs": "https://design.gitlab.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "enterprise"
+      ],
+      "orgBacked": true,
+      "notes": "Source hosted on GitLab.com (gitlab-org/gitlab-ui)."
+    },
+    {
+      "slug": "mailchimp",
+      "name": "Mailchimp Design System",
+      "org": "Intuit Mailchimp",
+      "repo": null,
+      "docs": "https://ux.mailchimp.com/patterns",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "marketing-tools",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "bbc-gel",
+      "name": "BBC GEL",
+      "org": "BBC",
+      "repo": null,
+      "docs": "https://www.bbc.co.uk/gel",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "content",
+        "media",
+        "accessibility-critical"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "hubspot-canvas",
+      "name": "HubSpot Canvas",
+      "org": "HubSpot",
+      "repo": null,
+      "docs": "https://developers.hubspot.com/docs/platform/ui-extensions",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "kind": "reference",
+      "tags": [
+        "crm",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "servicenow-horizon",
+      "name": "ServiceNow Horizon",
+      "org": "ServiceNow",
+      "repo": null,
+      "docs": "https://horizon.servicenow.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "duolingo",
+      "name": "Duolingo Design",
+      "org": "Duolingo",
+      "repo": null,
+      "docs": "https://design.duolingo.com",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [],
+      "kind": "reference",
+      "tags": [
+        "education",
+        "consumer",
+        "gamified"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ai-elements",
+      "name": "AI Elements",
+      "org": "Vercel",
+      "repo": "vercel/ai-elements",
+      "npm": "ai-elements",
+      "docs": "https://ai-sdk.dev/elements",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "chat",
+        "saas"
+      ],
+      "orgBacked": true,
+      "bestFor": "Chat, agent and AI-assistant interfaces (messages, prompt input, reasoning, tool calls) on shadcn/ui + AI SDK."
+    },
+    {
+      "slug": "assistant-ui",
+      "name": "assistant-ui",
+      "org": "assistant-ui",
+      "repo": "assistant-ui/assistant-ui",
+      "npm": "@assistant-ui/react",
+      "docs": "https://www.assistant-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "chat"
+      ],
+      "orgBacked": false,
+      "bestFor": "Production AI chat UIs in React with streaming, attachments and tool UIs."
+    },
+    {
+      "slug": "lobe-ui",
+      "name": "Lobe UI",
+      "org": "LobeHub",
+      "repo": "lobehub/lobe-ui",
+      "npm": "@lobehub/ui",
+      "docs": "https://ui.lobehub.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "chat",
+        "consumer"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "nvidia-elements",
+      "name": "NVIDIA Elements",
+      "org": "NVIDIA",
+      "repo": "NVIDIA/elements",
+      "npm": "@nvidia-elements/core",
+      "docs": "https://github.com/NVIDIA/elements",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "enterprise",
+        "devtools"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "element-plus-x",
+      "name": "Element Plus X",
+      "org": "Community",
+      "repo": "element-plus-x/Element-Plus-X",
+      "npm": "vue-element-plus-x",
+      "docs": "https://element-plus-x.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "chat"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "ai-elements-vue",
+      "name": "AI Elements Vue",
+      "org": "Community",
+      "repo": "vuepont/ai-elements-vue",
+      "npm": "ai-elements-vue",
+      "docs": "https://www.ai-elements-vue.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "ai-app",
+        "chat"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "react-bootstrap",
+      "name": "React Bootstrap",
+      "org": "Community",
+      "repo": "react-bootstrap/react-bootstrap",
+      "npm": "react-bootstrap",
+      "docs": "https://react-bootstrap.github.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "marketing",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "bootstrap-vue-next",
+      "name": "BootstrapVueNext",
+      "org": "Community",
+      "repo": "bootstrap-vue-next/bootstrap-vue-next",
+      "npm": "bootstrap-vue-next",
+      "docs": "https://bootstrap-vue-next.github.io/bootstrap-vue-next/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "rsuite",
+      "name": "React Suite",
+      "org": "Community",
+      "repo": "rsuite/rsuite",
+      "npm": "rsuite",
+      "docs": "https://rsuitejs.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "semantic-ui-react",
+      "name": "Semantic UI React",
+      "org": "Community",
+      "repo": "Semantic-Org/Semantic-UI-React",
+      "npm": "semantic-ui-react",
+      "docs": "https://react.semantic-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "reshaped",
+      "name": "Reshaped",
+      "org": "Reshaped",
+      "repo": "reshaped-ui/reshaped",
+      "npm": "reshaped",
+      "docs": "https://reshaped.so",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "consumer",
+        "custom-brand"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "untitled-ui",
+      "name": "Untitled UI React",
+      "org": "Untitled UI",
+      "repo": "untitleduico/react",
+      "npm": "untitledui",
+      "docs": "https://www.untitledui.com/react",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "marketing",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "intentui",
+      "name": "Intent UI",
+      "org": "Community",
+      "repo": "irsyadadl/intentui",
+      "npm": null,
+      "docs": "https://intentui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "accessibility-critical"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "diceui",
+      "name": "Dice UI",
+      "org": "Community",
+      "repo": "sadmann7/diceui",
+      "npm": null,
+      "docs": "https://www.diceui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "saas-ui",
+      "name": "Saas UI",
+      "org": "Saas UI",
+      "repo": "saas-js/saas-ui",
+      "npm": "@saas-ui/react",
+      "docs": "https://saas-ui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "tailgrids",
+      "name": "TailGrids",
+      "org": "TailGrids",
+      "repo": "TailGrids/tailgrids",
+      "npm": "@tailgrids/cli",
+      "docs": "https://tailgrids.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "keep-react",
+      "name": "Keep React",
+      "org": "StaticMania",
+      "repo": "StaticMania/keep-react",
+      "npm": "keep-react",
+      "docs": "https://react.keepdesign.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "marketing"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "yamada-ui",
+      "name": "Yamada UI",
+      "org": "Community",
+      "repo": "yamada-ui/yamada-ui",
+      "npm": "@yamada-ui/react",
+      "docs": "https://yamada-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "saas"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "react-md",
+      "name": "react-md",
+      "org": "Community",
+      "repo": "mlaursen/react-md",
+      "npm": "react-md",
+      "docs": "https://react-md.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "pro-components",
+      "name": "Ant Design Pro Components",
+      "org": "Ant Group",
+      "repo": "ant-design/pro-components",
+      "npm": "@ant-design/pro-components",
+      "docs": "https://procomponents.ant.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ant-design-mobile",
+      "name": "Ant Design Mobile",
+      "org": "Ant Group",
+      "repo": "ant-design/ant-design-mobile",
+      "npm": "antd-mobile",
+      "docs": "https://mobile.ant.design",
+      "platforms": [
+        "mobile-web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "consumer",
+        "ecommerce"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "arco-design-vue",
+      "name": "Arco Design Vue",
+      "org": "ByteDance",
+      "repo": "arco-design/arco-design-vue",
+      "npm": "@arco-design/web-vue",
+      "docs": "https://arco.design/vue",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nutui",
+      "name": "NutUI",
+      "org": "JD.com",
+      "repo": "jd-opensource/nutui",
+      "npm": "@nutui/nutui",
+      "docs": "https://nutui.jd.com",
+      "platforms": [
+        "mobile-web",
+        "miniprogram"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "ecommerce"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nutui-react",
+      "name": "NutUI React",
+      "org": "JD.com",
+      "repo": "jdf2e/nutui-react",
+      "npm": "@nutui/nutui-react",
+      "docs": "https://nutui.jd.com/react",
+      "platforms": [
+        "mobile-web",
+        "miniprogram"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "ecommerce"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "tiny-vue",
+      "name": "OpenTiny TinyVue",
+      "org": "Huawei (OpenTiny)",
+      "repo": "opentiny/tiny-vue",
+      "npm": "@opentiny/vue",
+      "docs": "https://opentiny.design/tiny-vue",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "vue-devui",
+      "name": "Vue DevUI",
+      "org": "Huawei (DevCloud)",
+      "repo": "DevCloudFE/vue-devui",
+      "npm": "vue-devui",
+      "docs": "https://vue-devui.github.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "ng-devui",
+      "name": "Angular DevUI",
+      "org": "Huawei (DevCloud)",
+      "repo": "DevCloudFE/ng-devui",
+      "npm": "ng-devui",
+      "docs": "https://devui.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "hiui",
+      "name": "HIUI",
+      "org": "Xiaomi",
+      "repo": "XiaoMi/hiui",
+      "npm": "@hi-ui/hiui",
+      "docs": "https://www.hiui.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "varlet",
+      "name": "Varlet",
+      "org": "Community",
+      "repo": "varletjs/varlet",
+      "npm": "@varlet/ui",
+      "docs": "https://varletjs.org",
+      "platforms": [
+        "web",
+        "mobile-web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "consumer"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "vuestic-ui",
+      "name": "Vuestic UI",
+      "org": "Epicmax",
+      "repo": "epicmaxco/vuestic-ui",
+      "npm": "vuestic-ui",
+      "docs": "https://ui.vuestic.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "dashboard"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "oruga",
+      "name": "Oruga",
+      "org": "Community",
+      "repo": "oruga-ui/oruga",
+      "npm": "@oruga-ui/oruga-next",
+      "docs": "https://oruga-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "vexip-ui",
+      "name": "Vexip UI",
+      "org": "Community",
+      "repo": "vexip-ui/vexip-ui",
+      "npm": "vexip-ui",
+      "docs": "https://www.vexipui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "frappe-ui",
+      "name": "Frappe UI",
+      "org": "Frappe",
+      "repo": "frappe/frappe-ui",
+      "npm": "frappe-ui",
+      "docs": "https://ui.frappe.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "erp",
+        "saas",
+        "admin"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "melt-ui",
+      "name": "Melt UI",
+      "org": "Community",
+      "repo": "melt-ui/melt-ui",
+      "npm": "@melt-ui/svelte",
+      "docs": "https://melt-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "carbon-svelte",
+      "name": "Carbon Components Svelte",
+      "org": "IBM (community)",
+      "repo": "carbon-design-system/carbon-components-svelte",
+      "npm": "carbon-components-svelte",
+      "docs": "https://svelte.carbondesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "svelte"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "data-dense",
+        "dashboard"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "carbon-ibm-products",
+      "name": "Carbon for IBM Products",
+      "org": "IBM",
+      "repo": "carbon-design-system/ibm-products",
+      "npm": "@carbon/ibm-products",
+      "docs": "https://ibm-products.carbondesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react",
+        "web-components"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "zardui",
+      "name": "Zard UI (shadcn for Angular)",
+      "org": "Community",
+      "repo": "zard-ui/zardui",
+      "npm": null,
+      "docs": "https://zardui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "saas",
+        "startup-mvp"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "ng-primitives",
+      "name": "Angular Primitives",
+      "org": "Community",
+      "repo": "ng-primitives/ng-primitives",
+      "npm": "ng-primitives",
+      "docs": "https://angularprimitives.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "fundamental-ngx",
+      "name": "SAP Fundamental NGX",
+      "org": "SAP",
+      "repo": "SAP/fundamental-ngx",
+      "npm": "@fundamental-ngx/core",
+      "docs": "https://sap.github.io/fundamental-ngx/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "sap-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "po-ui",
+      "name": "PO UI",
+      "org": "TOTVS",
+      "repo": "po-ui/po-angular",
+      "npm": "@po-ui/ng-components",
+      "docs": "https://po-ui.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "erp"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "slds-react",
+      "name": "Lightning Design System React",
+      "org": "Salesforce",
+      "repo": "salesforce/design-system-react",
+      "npm": "@salesforce/design-system-react",
+      "docs": "https://react.lightningdesignsystem.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "crm",
+        "salesforce-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "primer-view-components",
+      "name": "Primer ViewComponents",
+      "org": "GitHub",
+      "repo": "primer/view_components",
+      "npm": "@primer/view-components",
+      "docs": "https://primer.style/view-components",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "rails"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "rails-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "patternfly-elements",
+      "name": "PatternFly Elements",
+      "org": "Red Hat",
+      "repo": "patternfly/patternfly-elements",
+      "npm": "@patternfly/elements",
+      "docs": "https://patternflyelements.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "framework-agnostic"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "rhds",
+      "name": "Red Hat Design System",
+      "org": "Red Hat",
+      "repo": "RedHat-UX/red-hat-design-system",
+      "npm": "@rhds/elements",
+      "docs": "https://ux.redhat.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "enterprise",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "igniteui-webcomponents",
+      "name": "Ignite UI for Web Components",
+      "org": "Infragistics",
+      "repo": "IgniteUI/igniteui-webcomponents",
+      "npm": "igniteui-webcomponents",
+      "docs": "https://www.infragistics.com/products/ignite-ui-web-components",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "data-dense"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "beeq",
+      "name": "BEEQ",
+      "org": "Endava",
+      "repo": "Endava/BEEQ",
+      "npm": "@beeq/core",
+      "docs": "https://www.beeq.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "angular",
+        "vue"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "astro-uxds",
+      "name": "Astro UXDS",
+      "org": "Rocket Communications",
+      "repo": "RocketCommunicationsInc/astro",
+      "npm": "@astrouxds/astro-web-components",
+      "docs": "https://www.astrouxds.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react",
+        "angular"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "space",
+        "mission-control",
+        "data-dense",
+        "dashboard"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "baloise",
+      "name": "Baloise Design System",
+      "org": "Baloise",
+      "repo": "baloise/design-system",
+      "npm": "@baloise/ds-core",
+      "docs": "https://design.baloise.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "angular",
+        "react",
+        "vue"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "insurance",
+        "fintech"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "swisspost",
+      "name": "Swiss Post Design System",
+      "org": "Swiss Post",
+      "repo": "swisspost/design-system",
+      "npm": "@swisspost/design-system-components",
+      "docs": "https://design-system.post.ch",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "angular"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "logistics",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "dsfr",
+      "name": "Système de Design de l'État (France)",
+      "org": "French Government (SIG)",
+      "repo": "GouvernementFR/dsfr",
+      "npm": "@gouvfr/dsfr",
+      "docs": "https://www.systeme-de-design.gouv.fr",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "react-dsfr",
+      "name": "react-dsfr",
+      "org": "French Government (Etalab)",
+      "repo": "codegouvfr/react-dsfr",
+      "npm": "@codegouvfr/react-dsfr",
+      "docs": "https://components.react-dsfr.codegouv.studio",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "baklava",
+      "name": "Trendyol Baklava",
+      "org": "Trendyol",
+      "repo": "Trendyol/baklava",
+      "npm": "@trendyol/baklava",
+      "docs": "https://baklava.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components",
+        "react"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "ecommerce",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "seed-design",
+      "name": "SEED Design (Karrot)",
+      "org": "Daangn / Karrot",
+      "repo": "daangn/seed-design",
+      "npm": "@seed-design/react",
+      "docs": "https://seed-design.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "marketplace",
+        "mobile"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "neopop",
+      "name": "CRED NeoPOP",
+      "org": "CRED",
+      "repo": "CRED-CLUB/neopop-web",
+      "npm": "@cred/neopop-web",
+      "docs": "https://playground.cred.club",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "fintech",
+        "consumer",
+        "bold-brand"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "charcoal",
+      "name": "pixiv Charcoal",
+      "org": "pixiv",
+      "repo": "pixiv/charcoal",
+      "npm": "@charcoal-ui/react",
+      "docs": "https://pixiv.github.io/charcoal/",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "consumer",
+        "creative",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "welcome-ui",
+      "name": "Welcome UI",
+      "org": "Welcome to the Jungle",
+      "repo": "WTTJ/welcome-ui",
+      "npm": "welcome-ui",
+      "docs": "https://welcome-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "jobs",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "strapi-ds",
+      "name": "Strapi Design System",
+      "org": "Strapi",
+      "repo": "strapi/design-system",
+      "npm": "@strapi/design-system",
+      "docs": "https://design-system.strapi.io",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "cms",
+        "admin",
+        "content"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "telegram-ui",
+      "name": "Telegram UI",
+      "org": "Community",
+      "repo": "telegram-mini-apps-dev/TelegramUI",
+      "npm": "@telegram-apps/telegram-ui",
+      "docs": "https://tgui.xelene.me",
+      "platforms": [
+        "web",
+        "mobile-web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "mini-app",
+        "consumer",
+        "mobile"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "konsta",
+      "name": "Konsta UI",
+      "org": "nolimits4web",
+      "repo": "konstaui/konsta",
+      "npm": "konsta",
+      "docs": "https://konstaui.com",
+      "platforms": [
+        "mobile-web",
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react",
+        "vue",
+        "svelte"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "mobile",
+        "hybrid-app"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "franken-ui",
+      "name": "Franken UI",
+      "org": "Community",
+      "repo": "franken-ui/ui",
+      "npm": "franken-ui",
+      "docs": "https://franken-ui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "framework-agnostic",
+        "marketing"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "flyonui",
+      "name": "FlyonUI",
+      "org": "ThemeSelection",
+      "repo": "themeselection/flyonui",
+      "npm": "flyonui",
+      "docs": "https://flyonui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "framework-agnostic",
+        "marketing",
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "beercss",
+      "name": "Beer CSS",
+      "org": "Community",
+      "repo": "beercss/beercss",
+      "npm": "beercss",
+      "docs": "https://www.beercss.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "css-framework",
+      "tags": [
+        "framework-agnostic",
+        "material"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "tw-elements",
+      "name": "TW Elements",
+      "org": "MDBootstrap",
+      "repo": "mdbootstrap/TW-Elements",
+      "npm": "tw-elements",
+      "docs": "https://tw-elements.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "framework-agnostic"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "hyperui",
+      "name": "HyperUI",
+      "org": "Community",
+      "repo": "markmead/hyperui",
+      "npm": null,
+      "docs": "https://www.hyperui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "copy-paste"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "react-bits",
+      "name": "React Bits",
+      "org": "Community",
+      "repo": "DavidHDev/react-bits",
+      "npm": null,
+      "docs": "https://reactbits.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "motion",
+        "creative"
+      ],
+      "orgBacked": false,
+      "notes": "Animated / effect components to layer on top of a base system, not a full design system."
+    },
+    {
+      "slug": "neobrutalism",
+      "name": "Neobrutalism Components",
+      "org": "Community",
+      "repo": "ekmas/neobrutalism-components",
+      "npm": null,
+      "docs": "https://www.neobrutalism.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "bold-brand",
+        "creative"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "starwind",
+      "name": "Starwind UI",
+      "org": "Community",
+      "repo": "starwind-ui/starwind-ui",
+      "npm": "starwind",
+      "docs": "https://starwind.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "astro"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "marketing",
+        "content"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "layui",
+      "name": "Layui",
+      "org": "Community",
+      "repo": "layui/layui",
+      "npm": "layui",
+      "docs": "https://layui.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "any"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "mudblazor",
+      "name": "MudBlazor",
+      "org": "Community",
+      "repo": "MudBlazor/MudBlazor",
+      "nuget": "MudBlazor",
+      "docs": "https://mudblazor.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "blazor"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise",
+        "dotnet-ecosystem"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "fluentui-blazor",
+      "name": "Fluent UI Blazor",
+      "org": "Microsoft",
+      "repo": "microsoft/fluentui-blazor",
+      "nuget": "Microsoft.FluentUI.AspNetCore.Components",
+      "docs": "https://www.fluentui-blazor.net",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "blazor"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "productivity",
+        "dotnet-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "radzen-blazor",
+      "name": "Radzen Blazor",
+      "org": "Radzen",
+      "repo": "radzenhq/radzen-blazor",
+      "nuget": "Radzen.Blazor",
+      "docs": "https://blazor.radzen.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "blazor"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "enterprise",
+        "data-dense",
+        "dotnet-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "blazorise",
+      "name": "Blazorise",
+      "org": "Megabit",
+      "repo": "Megabit/Blazorise",
+      "nuget": "Blazorise",
+      "docs": "https://blazorise.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "blazor"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "dotnet-ecosystem"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nativebase",
+      "name": "NativeBase",
+      "org": "GeekyAnts",
+      "repo": "GeekyAnts/NativeBase",
+      "npm": "native-base",
+      "docs": "https://docs.nativebase.io",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "utility-props",
+      "kind": "library",
+      "tags": [
+        "mobile"
+      ],
+      "orgBacked": true,
+      "notes": "Superseded by gluestack UI."
+    },
+    {
+      "slug": "compose-unstyled",
+      "name": "Compose Unstyled",
+      "org": "Composable Horizons",
+      "repo": "composablehorizons/compose-unstyled",
+      "docs": "https://composeunstyled.com",
+      "platforms": [
+        "android",
+        "ios",
+        "desktop",
+        "web"
+      ],
+      "frameworks": [
+        "jetpack-compose",
+        "compose-multiplatform"
+      ],
+      "styling": "headless",
+      "kind": "library",
+      "tags": [
+        "custom-brand",
+        "cross-platform"
+      ],
+      "orgBacked": false,
+      "headless": true
+    },
+    {
+      "slug": "eva-ui-kitten",
+      "name": "Eva Design System",
+      "org": "Akveo",
+      "repo": "eva-design/eva",
+      "npm": "@eva-design/eva",
+      "docs": "https://eva.design",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "frameworks": [
+        "react-native"
+      ],
+      "styling": "native",
+      "kind": "library",
+      "tags": [
+        "mobile"
+      ],
+      "orgBacked": false
+    },
+    {
+      "slug": "cloudflare-kumo",
+      "name": "Cloudflare Kumo",
+      "org": "Cloudflare",
+      "repo": "cloudflare/kumo",
+      "npm": "@cloudflare/kumo",
+      "docs": "https://kumo-ui.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "devtools",
+        "cloud-console",
+        "dashboard"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "splunk-ui",
+      "name": "Splunk UI",
+      "org": "Splunk (Cisco)",
+      "repo": null,
+      "npm": "@splunk/react-ui",
+      "docs": "https://splunkui.splunk.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "dashboard",
+        "data-dense",
+        "security"
+      ],
+      "orgBacked": true,
+      "notes": "Source not public on GitHub; signals come from npm."
+    },
+    {
+      "slug": "brainly-pencil",
+      "name": "Brainly Pencil",
+      "org": "Brainly",
+      "repo": "brainly/style-guide",
+      "npm": "brainly-style-guide",
+      "docs": "https://styleguide.brainly.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "education",
+        "consumer"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "wanda",
+      "name": "Wonderflow Wanda",
+      "org": "Wonderflow",
+      "repo": "wonderflow-bv/wanda",
+      "npm": "@wonderflow/react-components",
+      "docs": "https://design.wonderflow.ai",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "analytics",
+        "saas"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "japan-dads",
+      "name": "Japan Digital Agency Design System",
+      "org": "Digital Agency of Japan",
+      "repo": "digital-go-jp/design-system-example-components-react",
+      "npm": null,
+      "docs": "https://design.digital.go.jp",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "tailwind",
+      "kind": "library",
+      "tags": [
+        "government",
+        "public-service"
+      ],
+      "orgBacked": true
+    },
+    {
+      "slug": "nordhealth",
+      "name": "Nordhealth Nord",
+      "org": "Nordhealth",
+      "repo": null,
+      "npm": "@nordhealth/components",
+      "docs": "https://nordhealth.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "web-components"
+      ],
+      "styling": "web-components",
+      "kind": "library",
+      "tags": [
+        "healthcare",
+        "saas"
+      ],
+      "orgBacked": true,
+      "notes": "Published on npm with a commercial-friendly license; source not public."
+    }
+  ]
+}

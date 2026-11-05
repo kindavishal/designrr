@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-Ready Design Systems</title>
+<meta name="description" content="A curated, scored catalog of production-grade design systems that AI agents can choose from and build with.">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<style>
+  :root {
+    --bg: #fbfaf8; --surface: #ffffff; --text: #1c1b19; --muted: #6b675f; --line: #e7e3dc;
+    --accent: #3a5bd9; --accent-soft: #e9eefc; --good: #1f7a4d; --good-soft: #e3f3ea; --warn: #9a6200; --warn-soft: #fbf0dc;
+    --radius: 12px; --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141413; --surface: #1d1c1a; --text: #edeae4; --muted: #a29d93; --line: #33312d;
+      --accent: #8ea6ff; --accent-soft: #222a45; --good: #6fd3a0; --good-soft: #17301f; --warn: #f0b85a; --warn-soft: #3a2c14;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 var(--font); }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 16px 64px; }
+  header h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); max-width: 70ch; }
+  .agent { margin: 20px 0 24px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+  .agent code { font-family: var(--mono); font-size: 13px; background: var(--accent-soft); padding: 2px 6px; border-radius: 6px; word-break: break-all; }
+  .controls { display: grid; gap: 10px; grid-template-columns: 1fr repeat(3, auto); margin-bottom: 18px; }
+  @media (max-width: 720px) { .controls { grid-template-columns: 1fr 1fr; } .controls input { grid-column: 1 / -1; } }
+  input, select { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; min-width: 0; }
+  .count { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+  .card h3 { margin: 0; font-size: 16px; }
+  .card h3 a { color: inherit; text-decoration: none; } .card h3 a:hover { color: var(--accent); }
+  .org { color: var(--muted); font-size: 13px; }
+  .best { margin: 0; font-size: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  .tier-recommended { background: var(--good-soft); color: var(--good); border-color: transparent; }
+  .tier-solid { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .tier-watch { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+  .meta { display: flex; gap: 14px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: auto; }
+  .meta b { color: var(--text); font-weight: 600; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>AI-Ready Design Systems</h1>
+    <p id="lede">A curated, scored catalog of production-grade design systems for AI agents to choose from and build with.</p>
+  </header>
+  <div class="agent">
+    <strong>Using an agent?</strong> Tell it: <em>“Read <code id="llmsurl">llms.txt</code> and find me the top 3 design systems for my product idea: …”</em>
+    &nbsp;Machine-readable: <a href="catalog.json">catalog.json</a> · <a href="llms-full.txt">llms-full.txt</a> · <a href="METHODOLOGY.md">methodology</a>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search name, tag or use case (e.g. dashboard, fintech, chat)" aria-label="Search">
+    <select id="platform" aria-label="Platform"><option value="">All platforms</option></select>
+    <select id="framework" aria-label="Framework"><option value="">All frameworks</option></select>
+    <select id="tier" aria-label="Tier"><option value="">All tiers</option><option>recommended</option><option>solid</option><option>watch</option></select>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <footer id="foot"></footer>
+</div>
+<script>
+const $ = (id) => document.getElementById(id);
+const fmt = (n) => n == null ? '—' : n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? (n / 1e3).toFixed(1) + 'k' : String(n);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+fetch('catalog.json').then((r) => r.json()).then((cat) => {
+  $('llmsurl').textContent = cat.url + '/llms.txt';
+  $('lede').textContent = `${cat.systems.length} production-grade design systems across web, iOS, Android, Flutter and React Native, scored for AI-readiness. Updated ${cat.updated}.`;
+  $('foot').innerHTML = `Quality gate: active in the last 12 months, plus adoption (≥1k stars, ≥5k weekly npm downloads, or org-backed). AI-readiness: MCP server, llms.txt, tokens, typed API, registry install and more. <a href="METHODOLOGY.md">Methodology</a>.`;
+  const uniq = (k) => [...new Set(cat.systems.flatMap((s) => s[k] || []))].sort();
+  for (const v of uniq('platforms')) $('platform').add(new Option(v, v));
+  for (const v of uniq('frameworks')) $('framework').add(new Option(v, v));
+  try { const saved = JSON.parse(localStorage.getItem('ards-filters') || '{}'); for (const k of ['q', 'platform', 'framework', 'tier']) if (saved[k]) $(k).value = saved[k]; } catch {}
+  function render() {
+    const q = $('q').value.trim().toLowerCase(), pf = $('platform').value, fw = $('framework').value, tr = $('tier').value;
+    try { localStorage.setItem('ards-filters', JSON.stringify({ q, platform: pf, framework: fw, tier: tr })); } catch {}
+    const rows = cat.systems.filter((s) => (!pf || s.platforms.includes(pf)) && (!fw || s.frameworks.includes(fw)) && (!tr || s.tier === tr) &&
+      (!q || [s.name, s.org, s.bestFor, ...(s.tags || []), ...(s.frameworks || [])].join(' ').toLowerCase().includes(q)));
+    $('count').textContent = `${rows.length} of ${cat.systems.length} systems`;
+    $('grid').innerHTML = rows.map((s) => `
+      <article class="card">
+        <div><h3><a href="systems/${esc(s.slug)}.md">${esc(s.name)}</a></h3><div class="org">${esc(s.org || '')}</div></div>
+        <p class="best">${esc(s.bestFor || '')}</p>
+        <div class="chips"><span class="chip tier-${esc(s.tier)}">${esc(s.tier)}</span>${(s.frameworks || []).slice(0, 4).map((f) => `<span class="chip">${esc(f)}</span>`).join('')}${s.mcp ? '<span class="chip">MCP</span>' : ''}${s.llmsTxt ? '<span class="chip">llms.txt</span>' : ''}</div>
+        <div class="meta"><span>AI <b>${s.aiReadiness}</b>/100</span><span>★ <b>${fmt(s.stars)}</b></span>${s.npmWeeklyDownloads != null ? `<span>npm/wk <b>${fmt(s.npmWeeklyDownloads)}</b></span>` : ''}</div>
+      </article>`).join('');
+  }
+  ['q', 'platform', 'framework', 'tier'].forEach((id) => $(id).addEventListener('input', render));
+  render();
+});
+</script>
+</body>
+</html>

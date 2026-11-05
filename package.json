@@ -1,0 +1,16 @@
+{
+  "name": "ai-ready-design-systems",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated, scored catalog of production-grade design systems that AI agents can choose from and build with.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "harvest": "node scripts/harvest.mjs",
+    "enrich": "node scripts/enrich.mjs",
+    "score": "node scripts/score.mjs",
+    "build": "node scripts/build.mjs",
+    "all": "node scripts/harvest.mjs && node scripts/enrich.mjs && node scripts/score.mjs && node scripts/build.mjs"
+  },
+  "license": "MIT"
+}
