@@ -14,7 +14,19 @@
       "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     },
     {
-      "source": "/(llms.txt|llms-full.txt|catalog.json|systems/(.*))",
+      "source": "/llms.txt",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/catalog.json",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/systems/(.*)",
       "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
     }
   ]
