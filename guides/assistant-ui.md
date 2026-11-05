@@ -1,3 +1,7 @@
+---
+writtenFor: "0.11"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npx assistant-ui@latest create     # new app

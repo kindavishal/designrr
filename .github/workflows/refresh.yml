@@ -7,6 +7,8 @@ on:
   push:
     branches: [main]
     paths: ['curation/**', 'guides/**', 'scripts/**', 'METHODOLOGY.md']
+  pull_request:
+    paths: ['curation/**', 'guides/**', 'scripts/**']
 
 permissions:
   contents: write
@@ -18,7 +20,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate curation and guides
+        run: node scripts/validate.mjs
+
   refresh:
+    needs: validate
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

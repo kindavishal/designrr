@@ -1,3 +1,7 @@
+---
+writtenFor: "8"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm install @mantine/core @mantine/hooks

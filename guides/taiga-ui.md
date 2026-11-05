@@ -1,3 +1,7 @@
+---
+writtenFor: "4"
+written: 2026-11-05
+---
 ## Install
 ```bash
 ng add taiga-ui

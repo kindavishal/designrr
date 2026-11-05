@@ -20,7 +20,7 @@ const RUBRIC = [
   ['tokens', 15, 'Machine-readable design tokens in the repo'],
   ['typed', 10, 'Typed component API (TypeScript / Swift / Kotlin / Dart / C#)'],
   ['registry', 10, 'Registry / CLI install of component source (e.g. shadcn registry)'],
-  ['agentDocs', 5, 'Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills)'],
+  ['agentDocs', 5, 'Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo'],
   ['storybook', 5, 'Storybook / live, inspectable examples'],
   ['codeConnect', 5, 'Figma Code Connect (design ↔ code mapping)'],
   ['a11y', 5, 'Accessibility guidance shipped with the source'],
@@ -52,7 +52,7 @@ const scored = candidates.map((c) => {
     tokens: !!t.tokens,
     typed: (t.typed || 0) > 20 || !!s.npm?.types || (c.frameworks || []).some((f) => NATIVE_TYPED.has(f)),
     registry: !!t.registry || /shadcn|registry/i.test(`${c.name} ${c.bestFor || ''}`) || ['shadcn-ui', 'shadcn-vue', 'shadcn-svelte', 'spartan', 'zardui', 'rn-reusables', 'park-ui', 'ai-elements', 'untitled-ui', 'diceui', 'intentui'].includes(c.slug),
-    agentDocs: !!t.agentDocs,
+    agentDocs: !!t.agentDocs || (s.cdn?.shippedSkills?.length > 0),
     storybook: !!t.storybook,
     codeConnect: !!t.codeConnect,
     a11y: !!t.a11y || (c.tags || []).includes('accessibility-critical'),
@@ -86,16 +86,52 @@ const scored = candidates.map((c) => {
   else if (ai >= POLICY.recommendedAi) tier = 'recommended';
   else { tier = 'solid'; reasons.push(`AI-readiness ${ai} < ${POLICY.recommendedAi}.`); }
 
-  // Popularity, normalised 0-100 on a log scale; used only for ranking inside a tier.
-  const pop = Math.min(100, Math.round(
-    Math.max(
-      Math.log10(Math.max(g.stars || 1, 1)) / Math.log10(120000),
-      Math.log10(Math.max(s.npm?.weeklyDownloads || 1, 1)) / Math.log10(8_000_000),
-      Math.log10(Math.max(s.pub?.likes || 1, 1)) / Math.log10(10000),
-    ) * 100));
+  // Popularity 0-100: mean of the available log-scaled signals. A mean (not max) stops packages that are mostly
+  // pulled in transitively (huge npm downloads, modest stars) from outranking systems people choose directly.
+  const parts = [];
+  if (g.stars != null) parts.push(Math.log10(Math.max(g.stars, 1)) / Math.log10(120000));
+  if (s.npm?.exists) parts.push(Math.log10(Math.max(s.npm.weeklyDownloads || 1, 1)) / Math.log10(8_000_000));
+  if (s.pub?.exists) parts.push(Math.log10(Math.max(s.pub.likes || 1, 1)) / Math.log10(10000));
+  if (s.nuget?.exists) parts.push(Math.log10(Math.max(s.nuget.totalDownloads || 1, 1)) / Math.log10(500_000_000));
+  const pop = parts.length ? Math.min(100, Math.round((parts.reduce((a, b) => a + b, 0) / parts.length) * 100)) : 0;
+
+  // ---------- Install profile: how an agent actually gets this into a project ----------
+  const fw = new Set(c.frameworks || []);
+  const agnostic = fw.has('any') || fw.has('web-components') || fw.has('vanilla');
+  const copySource = has.registry || c.family === 'shadcn';
+  const cdnReady = !!(s.cdn?.css || s.cdn?.js || c.installOverrides?.cdn);
+  const noBuild = c.installOverrides?.noBuild ?? (c.styling !== 'tailwind' && agnostic && cdnReady);
+  let mode;
+  if (c.kind === 'platform') mode = 'platform-sdk';
+  else if (c.pub) mode = 'pub';
+  else if (c.nuget) mode = 'nuget';
+  else if (copySource) mode = 'copy-source-cli';
+  else if (c.styling === 'tailwind') mode = 'npm-tailwind';
+  else if (noBuild) mode = 'cdn-or-npm';
+  else if (c.npm) mode = 'npm-bundler';
+  else mode = 'see-docs';
+  const requires = [];
+  if (c.styling === 'tailwind') requires.push('tailwind');
+  if (['npm-bundler', 'npm-tailwind', 'copy-source-cli'].includes(mode) && (c.platforms || []).some((x) => /web/.test(x))) requires.push('bundler');
+  if (mode === 'platform-sdk' || mode === 'pub') requires.push('native-toolchain');
+  const install = {
+    mode, noBuild, requires,
+    npm: c.npm || null, pub: c.pub || null, nuget: c.nuget || null,
+    cdn: noBuild || cdnReady ? { css: c.installOverrides?.cdn?.css ?? s.cdn?.css ?? null, js: c.installOverrides?.cdn?.js ?? s.cdn?.js ?? null } : null,
+    // Same skill often ships twice (dist/ and dist-cdn/); keep unique skill names.
+    shippedSkills: [...new Set((s.cdn?.shippedSkills || []).map((x) => x.split('/').pop()))],
+  };
+  const frameworks = noBuild && !fw.has('vanilla') ? [...(c.frameworks || []), 'vanilla'] : c.frameworks || [];
+
+  const attributes = {
+    darkMode: c.attributes?.darkMode ?? (!!t.darkMode || c.kind === 'platform'),
+    rtl: c.attributes?.rtl ?? !!t.rtl,
+    packageSizeKB: s.npm?.unpackedSize ? Math.round(s.npm.unpackedSize / 1024) : null,
+  };
 
   return {
     ...c,
+    frameworks, install, attributes,
     tier, reasons,
     scores: { aiReadiness: ai, popularity: pop, aiBreakdown: breakdown },
     quality: { activity, lastActivity, daysSinceActivity: age, archived, traction },

@@ -1,3 +1,7 @@
+---
+writtenFor: "5"
+written: 2026-11-05
+---
 ## Install (Tailwind v4)
 ```bash
 npm install -D daisyui@latest

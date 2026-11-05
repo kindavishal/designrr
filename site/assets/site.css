@@ -1,0 +1,24 @@
+/* Project-level styles on top of Web Awesome. Tokens only: no hex, no px. */
+html, body { min-height: 100%; padding: 0; margin: 0; }
+/* Grid tracks only collapse via the width variables, so size the aside only on pages that have one. */
+wa-page { --menu-width: 17rem; --aside-width: auto; }
+wa-page:has(> [slot='aside']) { --aside-width: 15rem; }
+wa-page[view='mobile'] { --menu-width: auto; --aside-width: auto; }
+.brand-link { color: var(--wa-color-text-normal); text-decoration: none; }
+.lede { color: var(--wa-color-text-quiet); max-inline-size: 70ch; margin: 0; }
+.catalog-grid { --min-column-size: 30ch; }
+.card-title { margin: 0; }
+.card-title a { color: var(--wa-color-text-normal); text-decoration: none; }
+.card-title a:hover { color: var(--wa-color-brand-on-quiet); text-decoration: underline; }
+.card-org, .card-stats { color: var(--wa-color-text-quiet); }
+.card-best { margin: 0; }
+.card-stats strong { color: var(--wa-color-text-normal); font-variant-numeric: tabular-nums; }
+.agent-prompt { font-family: var(--wa-font-family-code); font-size: var(--wa-font-size-s); overflow-wrap: anywhere; }
+.code-block { position: relative; }
+.code-copy { position: absolute; inset-block-start: var(--wa-space-xs); inset-inline-end: var(--wa-space-xs); }
+.wa-prose { --wa-prose-line-length: 80ch; }
+.wa-prose table { display: block; overflow-x: auto; }
+.wa-prose pre { overflow-x: auto; }
+.toc a { color: var(--wa-color-text-quiet); text-decoration: none; }
+.toc a:hover { color: var(--wa-color-text-normal); }
+.empty-state { color: var(--wa-color-text-quiet); }

@@ -1,100 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="wa-theme-default wa-palette-default wa-brand-indigo wa-light wa-cloak">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI-Ready Design Systems</title>
-<meta name="description" content="A curated, scored catalog of production-grade design systems that AI agents can choose from and build with.">
+<meta name="description" content="237 production-grade design systems scored for AI-readiness.">
 <link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
-<style>
-  :root {
-    --bg: #fbfaf8; --surface: #ffffff; --text: #1c1b19; --muted: #6b675f; --line: #e7e3dc;
-    --accent: #3a5bd9; --accent-soft: #e9eefc; --good: #1f7a4d; --good-soft: #e3f3ea; --warn: #9a6200; --warn-soft: #fbf0dc;
-    --radius: 12px; --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #141413; --surface: #1d1c1a; --text: #edeae4; --muted: #a29d93; --line: #33312d;
-      --accent: #8ea6ff; --accent-soft: #222a45; --good: #6fd3a0; --good-soft: #17301f; --warn: #f0b85a; --warn-soft: #3a2c14;
-    }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 var(--font); }
-  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 16px 64px; }
-  header h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
-  header p { margin: 0; color: var(--muted); max-width: 70ch; }
-  .agent { margin: 20px 0 24px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
-  .agent code { font-family: var(--mono); font-size: 13px; background: var(--accent-soft); padding: 2px 6px; border-radius: 6px; word-break: break-all; }
-  .controls { display: grid; gap: 10px; grid-template-columns: 1fr repeat(3, auto); margin-bottom: 18px; }
-  @media (max-width: 720px) { .controls { grid-template-columns: 1fr 1fr; } .controls input { grid-column: 1 / -1; } }
-  input, select { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; min-width: 0; }
-  .count { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
-  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
-  .card h3 { margin: 0; font-size: 16px; }
-  .card h3 a { color: inherit; text-decoration: none; } .card h3 a:hover { color: var(--accent); }
-  .org { color: var(--muted); font-size: 13px; }
-  .best { margin: 0; font-size: 14px; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
-  .tier-recommended { background: var(--good-soft); color: var(--good); border-color: transparent; }
-  .tier-solid { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
-  .tier-watch { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
-  .meta { display: flex; gap: 14px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: auto; }
-  .meta b { color: var(--text); font-weight: 600; }
-  footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
-  a { color: var(--accent); }
-</style>
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/themes/default.css">
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/utilities.css">
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/native.css">
+<script type="module" src="https://ka-f.webawesome.com/webawesome@3.14.0/webawesome.loader.js"></script>
+<link rel="stylesheet" href="assets/site.css">
+<script>
+(() => {
+  let mode = null;
+  try { mode = localStorage.getItem('ards-scheme'); } catch {}
+  if (!mode) mode = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const root = document.documentElement;
+  root.classList.toggle('wa-dark', mode === 'dark');
+  root.classList.toggle('wa-light', mode !== 'dark');
+  addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('scheme-toggle');
+    const sync = () => { const dark = root.classList.contains('wa-dark'); btn?.querySelector('wa-icon')?.setAttribute('name', dark ? 'sun' : 'moon'); btn?.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode'); };
+    sync();
+    btn?.addEventListener('click', () => {
+      const dark = !root.classList.contains('wa-dark');
+      root.classList.toggle('wa-dark', dark); root.classList.toggle('wa-light', !dark);
+      try { localStorage.setItem('ards-scheme', dark ? 'dark' : 'light'); } catch {}
+      sync();
+    });
+  });
+})();
+</script>
+
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>AI-Ready Design Systems</h1>
-    <p id="lede">A curated, scored catalog of production-grade design systems for AI agents to choose from and build with.</p>
+<wa-page mobile-breakpoint="920">
+  <header slot="header" class="wa-split site-header">
+    <a href="index.html" class="wa-cluster wa-gap-xs brand-link">
+      <wa-icon name="layer-group"></wa-icon><strong>AI-Ready Design Systems</strong>
+    </a>
+    <div class="wa-cluster wa-gap-m">
+      <nav class="wa-cluster wa-gap-m wa-desktop-only" aria-label="Site">
+        <a href="llms.txt">llms.txt</a>
+        <a href="catalog.json">catalog.json</a>
+        <a href="methodology.html">Methodology</a>
+      </nav>
+      <div class="wa-cluster wa-gap-2xs">
+        <wa-button data-toggle-nav appearance="plain" size="small" class="wa-mobile-only"><wa-icon name="sliders" label="Show filters"></wa-icon></wa-button>
+        <wa-button id="scheme-toggle" appearance="plain" size="small" aria-label="Toggle dark mode"><wa-icon name="moon"></wa-icon></wa-button>
+      </div>
+    </div>
   </header>
-  <div class="agent">
-    <strong>Using an agent?</strong> Tell it: <em>“Read <code id="llmsurl">llms.txt</code> and find me the top 3 design systems for my product idea: …”</em>
-    &nbsp;Machine-readable: <a href="catalog.json">catalog.json</a> · <a href="llms-full.txt">llms-full.txt</a> · <a href="METHODOLOGY.md">methodology</a>
-  </div>
-  <div class="controls">
-    <input id="q" type="search" placeholder="Search name, tag or use case (e.g. dashboard, fintech, chat)" aria-label="Search">
-    <select id="platform" aria-label="Platform"><option value="">All platforms</option></select>
-    <select id="framework" aria-label="Framework"><option value="">All frameworks</option></select>
-    <select id="tier" aria-label="Tier"><option value="">All tiers</option><option>recommended</option><option>solid</option><option>watch</option></select>
-  </div>
-  <div class="count" id="count"></div>
-  <div class="grid" id="grid"></div>
-  <footer id="foot"></footer>
-</div>
-<script>
-const $ = (id) => document.getElementById(id);
-const fmt = (n) => n == null ? '—' : n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? (n / 1e3).toFixed(1) + 'k' : String(n);
-const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-fetch('catalog.json').then((r) => r.json()).then((cat) => {
-  $('llmsurl').textContent = cat.url + '/llms.txt';
-  $('lede').textContent = `${cat.systems.length} production-grade design systems across web, iOS, Android, Flutter and React Native, scored for AI-readiness. Updated ${cat.updated}.`;
-  $('foot').innerHTML = `Quality gate: active in the last 12 months, plus adoption (≥1k stars, ≥5k weekly npm downloads, or org-backed). AI-readiness: MCP server, llms.txt, tokens, typed API, registry install and more. <a href="METHODOLOGY.md">Methodology</a>.`;
-  const uniq = (k) => [...new Set(cat.systems.flatMap((s) => s[k] || []))].sort();
-  for (const v of uniq('platforms')) $('platform').add(new Option(v, v));
-  for (const v of uniq('frameworks')) $('framework').add(new Option(v, v));
-  try { const saved = JSON.parse(localStorage.getItem('ards-filters') || '{}'); for (const k of ['q', 'platform', 'framework', 'tier']) if (saved[k]) $(k).value = saved[k]; } catch {}
-  function render() {
-    const q = $('q').value.trim().toLowerCase(), pf = $('platform').value, fw = $('framework').value, tr = $('tier').value;
-    try { localStorage.setItem('ards-filters', JSON.stringify({ q, platform: pf, framework: fw, tier: tr })); } catch {}
-    const rows = cat.systems.filter((s) => (!pf || s.platforms.includes(pf)) && (!fw || s.frameworks.includes(fw)) && (!tr || s.tier === tr) &&
-      (!q || [s.name, s.org, s.bestFor, ...(s.tags || []), ...(s.frameworks || [])].join(' ').toLowerCase().includes(q)));
-    $('count').textContent = `${rows.length} of ${cat.systems.length} systems`;
-    $('grid').innerHTML = rows.map((s) => `
-      <article class="card">
-        <div><h3><a href="systems/${esc(s.slug)}.md">${esc(s.name)}</a></h3><div class="org">${esc(s.org || '')}</div></div>
-        <p class="best">${esc(s.bestFor || '')}</p>
-        <div class="chips"><span class="chip tier-${esc(s.tier)}">${esc(s.tier)}</span>${(s.frameworks || []).slice(0, 4).map((f) => `<span class="chip">${esc(f)}</span>`).join('')}${s.mcp ? '<span class="chip">MCP</span>' : ''}${s.llmsTxt ? '<span class="chip">llms.txt</span>' : ''}</div>
-        <div class="meta"><span>AI <b>${s.aiReadiness}</b>/100</span><span>★ <b>${fmt(s.stars)}</b></span>${s.npmWeeklyDownloads != null ? `<span>npm/wk <b>${fmt(s.npmWeeklyDownloads)}</b></span>` : ''}</div>
-      </article>`).join('');
-  }
-  ['q', 'platform', 'framework', 'tier'].forEach((id) => $(id).addEventListener('input', render));
-  render();
-});
-</script>
+  <nav slot="navigation" class="wa-stack wa-gap-m" aria-label="Filters">
+    <strong>Filters</strong>
+    <wa-select id="f-platform" label="Platform" placeholder="Any platform" with-clear></wa-select>
+    <wa-select id="f-framework" label="Framework" placeholder="Any framework" with-clear hint="Choose vanilla for plain HTML with no framework."></wa-select>
+    <wa-select id="f-shape" label="Product shape" placeholder="Any shape" with-clear></wa-select>
+    <wa-select id="f-tier" label="Tier" placeholder="Any tier" with-clear>
+      <wa-option value="recommended">Recommended</wa-option>
+      <wa-option value="solid">Solid</wa-option>
+      <wa-option value="watch">Watch</wa-option>
+    </wa-select>
+    <div class="wa-stack wa-gap-s">
+      <wa-switch id="f-nobuild" hint="Works from a CDN in plain HTML.">No build step</wa-switch>
+      <wa-switch id="f-notailwind">Without Tailwind</wa-switch>
+      <wa-switch id="f-mcp">Has an MCP server</wa-switch>
+      <wa-switch id="f-brand" checked hint="Systems that carry another company's identity.">Hide brand-locked</wa-switch>
+      <wa-switch id="f-family" checked hint="Show one variant per system family.">One per family</wa-switch>
+    </div>
+    <wa-button id="f-reset" appearance="outlined" size="small">Reset filters</wa-button>
+  </nav>
+
+  <main class="wa-stack wa-gap-xl">
+    <div class="wa-stack wa-gap-s">
+      <h1>AI-Ready Design Systems</h1>
+      <p class="lede wa-body-l">237 production-grade design systems across web, iOS, Android, Flutter and React Native. Each is checked for maintenance and adoption, scored for how well AI agents can build with it, and has a build guide. Updated 2026-11-05.</p>
+    </div>
+    <wa-callout variant="brand">
+      <wa-icon slot="icon" name="robot"></wa-icon>
+      <div class="wa-stack wa-gap-xs">
+        <strong>Using an AI agent?</strong>
+        <span>Give it this prompt and describe your product. It will pick the top 3 and can then build with your choice.</span>
+        <div class="wa-flank:end wa-gap-xs">
+          <code id="agent-prompt" class="agent-prompt">Read https://kindavishal.github.io/ai-ready-design-systems/llms.txt and find me the top 3 design systems for my product idea: …</code>
+          <wa-copy-button from="agent-prompt" copy-label="Copy prompt"></wa-copy-button>
+        </div>
+      </div>
+    </wa-callout>
+    <div class="wa-stack wa-gap-m">
+      <wa-input id="q" type="search" label="Search" placeholder="Name, use case or tag: dashboard, fintech, chat…" with-clear>
+        <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+      </wa-input>
+      <div class="wa-split wa-align-items-end">
+        <span id="count" class="wa-caption-m" aria-live="polite"></span>
+        <wa-select id="sort" size="small" value="best" label="Sort by">
+          <wa-option value="best">Best overall</wa-option>
+          <wa-option value="ai">AI-readiness</wa-option>
+          <wa-option value="popular">Popularity</wa-option>
+          <wa-option value="name">Name</wa-option>
+        </wa-select>
+      </div>
+      <div id="grid" class="wa-grid wa-gap-m catalog-grid"></div>
+      <p id="empty" class="empty-state" hidden>No systems match these filters. Try turning off a switch or clearing a filter.</p>
+    </div>
+
+  </main>
+  
+  <footer slot="footer" class="wa-stack wa-gap-xs wa-caption-s">
+    <span>Quality gate: active in the last 12 months and real adoption (1k+ stars, 5k+ weekly npm downloads, or a known maintainer). Scores use free, public data and refresh weekly.</span>
+    <span class="wa-cluster wa-gap-s"><a href="methodology.html">How systems are chosen and scored</a><a href="llms.txt">llms.txt</a><a href="catalog.json">catalog.json</a><a href="llms-full.txt">llms-full.txt</a></span>
+  </footer>
+</wa-page>
+<script type="module" src="assets/catalog.js"></script>
 </body>
 </html>

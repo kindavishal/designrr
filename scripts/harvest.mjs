@@ -10,7 +10,20 @@ const seed = [...readJSON(p('curation/seed.json')).systems, ...readJSON(p('curat
 const dupes = seed.map((s) => s.slug).filter((s, i, a) => a.indexOf(s) !== i);
 if (dupes.length) throw new Error(`Duplicate slugs: ${dupes.join(', ')}`);
 const curation = readJSON(p('curation/curation.json'), { exclude: [], directoryAliases: {} });
-const excluded = new Set(curation.exclude.map((s) => s.toLowerCase()));
+const excludeList = Array.isArray(curation.exclude) ? curation.exclude : Object.keys(curation.exclude);
+const excluded = new Set(excludeList.map((s) => s.toLowerCase()));
+
+// Editorial layer: bestFor lines, families, brand locks, product shapes.
+const editorial = readJSON(p('curation/editorial.json'), { bestFor: {}, families: {}, brandLocked: {}, productShapes: {} });
+const familyOf = {};
+for (const [fam, slugs] of Object.entries(editorial.families)) for (const s of slugs) familyOf[s] = fam;
+for (const s of seed) {
+  s.bestFor ??= editorial.bestFor[s.slug] ?? null;
+  s.family = familyOf[s.slug] ?? s.slug;
+  if (editorial.brandLocked[s.slug]) s.brandLocked = editorial.brandLocked[s.slug];
+  s.productShapes = editorial.productShapes[s.slug] ?? [];
+  if (editorial.installOverrides?.[s.slug]) s.installOverrides = editorial.installOverrides[s.slug];
+}
 
 // Topic queries: [query, minStars]
 const TOPIC_QUERIES = [

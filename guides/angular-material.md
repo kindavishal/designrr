@@ -1,3 +1,7 @@
+---
+writtenFor: "20"
+written: 2026-11-05
+---
 ## Install
 ```bash
 ng add @angular/material

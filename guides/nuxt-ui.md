@@ -1,3 +1,7 @@
+---
+writtenFor: "3"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm create nuxt@latest -- -t ui          # new Nuxt project with Nuxt UI

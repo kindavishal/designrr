@@ -1,3 +1,7 @@
+---
+writtenFor: "1"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npx ai-elements@latest            # or: npx shadcn@latest add https://registry.ai-sdk.dev/all.json

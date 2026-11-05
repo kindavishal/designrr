@@ -1,6 +1,6 @@
 # SAP UI5 Web Components
 
-> SAP UI5 Web Components by SAP.
+> SAP Fiori-compliant enterprise apps as framework-agnostic web components.
 
 | | |
 |---|---|
@@ -10,23 +10,30 @@
 | Platforms | web |
 | Frameworks | web-components, react |
 | Styling | web-components |
-| Good for | enterprise, erp, data-dense, sap-ecosystem |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | enterprise, erp, data-dense, sap-ecosystem; shapes: app-dashboard, forms-flows |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 22.8k KB |
 | License | Apache-2.0 |
 | GitHub stars | 1.8k |
-| npm weekly downloads | 0 (`@ui5/webcomponents`) |
+| npm weekly downloads | 0 (`@ui5/webcomponents` 2.28.1) |
 | Last activity | 2026-11-04 |
 | Docs | https://sap.github.io/ui5-webcomponents/ |
 | Source | https://github.com/UI5/webcomponents |
+| Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP Fundamental Styles](fundamental-styles.md), [UI5 Web Components for React](ui5-react.md) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - **MCP server:**
   - in-repo package: https://github.com/UI5/webcomponents/tree/HEAD/docs/05-MCP-Server.md (see its README for setup)
 - **Design tokens:** https://github.com/UI5/webcomponents/blob/HEAD/packages/website/docs/_samples/main/Token/Basic/main.js
-- **Agent/contributor docs in repo:** https://github.com/UI5/webcomponents/blob/HEAD/.claude/skills/visual-test/SKILL.md
+- **Agent/contributor docs in repo:** https://github.com/UI5/webcomponents/blob/HEAD/.github/copilot-instructions.md
 
 ## Consider an alternative if
-- you are not building inside the sap ecosystem — its visual language signals that brand.
+- you are not building inside the sap ecosystem.
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+
+_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
 ```bash
@@ -35,20 +42,20 @@ npm install @ui5/webcomponents
 Then follow the framework setup in the official getting-started guide: https://sap.github.io/ui5-webcomponents/
 
 ## Agent tips
-- Connect the MCP server listed above before writing code; use it to look up components and props.
-- Design tokens live in the repo (e.g. `packages/website/docs/_samples/main/Token/Basic/main.js`); map brand colours/typography onto these rather than hard-coding values.
-- Web components work in any framework; in React 19+ they can be used directly, older React may need wrappers.
+- Connect the MCP server listed above before writing code, and use it to look up components and props.
+- Design tokens live in the repo (e.g. `packages/website/docs/_samples/main/Token/Basic/main.js`). Map brand colours and type onto these rather than hard-coding values.
+- Web components work in any framework; React 19+ supports them directly, older React may need wrappers.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
-1. **Install & provider** — follow the install section exactly for the detected framework and version.
-2. **Brand → tokens** — set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first** — build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components** — map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States** — loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility** — keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness** — enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify** — run the app, click through every screen, fix console errors and type errors.
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
 
 ## Score breakdown
 | Capability | Points |
@@ -59,7 +66,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills) | 5/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
@@ -67,4 +74,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, orgBacked.
 
-_Data refreshed 2026-11-05. Source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md_

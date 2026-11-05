@@ -1,3 +1,7 @@
+---
+writtenFor: "2"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm init quasar

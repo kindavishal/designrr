@@ -1,0 +1,31 @@
+    <div class="wa-stack wa-gap-s">
+      <h1>AI-Ready Design Systems</h1>
+      <p class="lede wa-body-l">{{COUNT}} production-grade design systems across web, iOS, Android, Flutter and React Native. Each is checked for maintenance and adoption, scored for how well AI agents can build with it, and has a build guide. Updated {{UPDATED}}.</p>
+    </div>
+    <wa-callout variant="brand">
+      <wa-icon slot="icon" name="robot"></wa-icon>
+      <div class="wa-stack wa-gap-xs">
+        <strong>Using an AI agent?</strong>
+        <span>Give it this prompt and describe your product. It will pick the top 3 and can then build with your choice.</span>
+        <div class="wa-flank:end wa-gap-xs">
+          <code id="agent-prompt" class="agent-prompt">Read {{LLMS_URL}} and find me the top 3 design systems for my product idea: …</code>
+          <wa-copy-button from="agent-prompt" copy-label="Copy prompt"></wa-copy-button>
+        </div>
+      </div>
+    </wa-callout>
+    <div class="wa-stack wa-gap-m">
+      <wa-input id="q" type="search" label="Search" placeholder="Name, use case or tag: dashboard, fintech, chat…" with-clear>
+        <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+      </wa-input>
+      <div class="wa-split wa-align-items-end">
+        <span id="count" class="wa-caption-m" aria-live="polite"></span>
+        <wa-select id="sort" size="small" value="best" label="Sort by">
+          <wa-option value="best">Best overall</wa-option>
+          <wa-option value="ai">AI-readiness</wa-option>
+          <wa-option value="popular">Popularity</wa-option>
+          <wa-option value="name">Name</wa-option>
+        </wa-select>
+      </div>
+      <div id="grid" class="wa-grid wa-gap-m catalog-grid"></div>
+      <p id="empty" class="empty-state" hidden>No systems match these filters. Try turning off a switch or clearing a filter.</p>
+    </div>

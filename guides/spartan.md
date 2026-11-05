@@ -1,3 +1,7 @@
+---
+writtenFor: "0"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm i -D @spartan-ng/cli

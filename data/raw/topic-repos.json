@@ -6,7 +6,7 @@
       "repo": "donnemartin/system-design-primer",
       "name": "system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "stars": 376842,
+      "stars": 376849,
       "topics": [
         "design",
         "design-patterns",
@@ -28,7 +28,7 @@
       "repo": "VoltAgent/awesome-design-md",
       "name": "awesome-design-md",
       "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "stars": 125664,
+      "stars": 125670,
       "topics": [
         "awesome-list",
         "design-md",
@@ -46,7 +46,7 @@
       "repo": "Leonxlnx/taste-skill",
       "name": "taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "stars": 110177,
+      "stars": 110188,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -66,7 +66,7 @@
       "repo": "mui/material-ui",
       "name": "material-ui",
       "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-      "stars": 99302,
+      "stars": 99303,
       "topics": [
         "design-system",
         "material-design",
@@ -244,7 +244,7 @@
       "repo": "jdan/98.css",
       "name": "98.css",
       "description": "A design system for building faithful recreations of old UIs",
-      "stars": 11596,
+      "stars": 11597,
       "topics": [
         "css",
         "design-system",
@@ -624,7 +624,7 @@
       "repo": "Appllama/appllama-skills",
       "name": "appllama-skills",
       "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-      "stars": 4871,
+      "stars": 4874,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -668,7 +668,7 @@
       "repo": "Manavarya09/design-extract",
       "name": "design-extract",
       "description": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
-      "stars": 4670,
+      "stars": 4677,
       "topics": [
         "accessibility",
         "agent-skill",
@@ -733,7 +733,7 @@
       "repo": "VoltAgent/awesome-claude-design",
       "name": "awesome-claude-design",
       "description": "Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.",
-      "stars": 4330,
+      "stars": 4332,
       "topics": [
         "claude-code",
         "claude-design",
@@ -816,7 +816,7 @@
       "repo": "heroui-inc/heroui-native",
       "name": "heroui-native",
       "description": "📱Beautiful, fast and modern React Native UI library",
-      "stars": 3705,
+      "stars": 3706,
       "topics": [
         "android",
         "design-system",
@@ -921,7 +921,7 @@
       "repo": "Owl-Listener/designer-skills",
       "name": "designer-skills",
       "description": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
-      "stars": 3249,
+      "stars": 3251,
       "topics": [
         "agentic",
         "agentic-ai",
@@ -957,7 +957,7 @@
       "repo": "plugin87/ux-ui-agent-skills",
       "name": "ux-ui-agent-skills",
       "description": "Turn Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective gates that fail the build instead of faking success.",
-      "stars": 3102,
+      "stars": 3103,
       "topics": [
         "accessibility",
         "ai-agents",
@@ -1029,7 +1029,7 @@
       "repo": "dickwu/apple-design-skill",
       "name": "apple-design-skill",
       "description": "Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex.",
-      "stars": 2804,
+      "stars": 2807,
       "topics": [
         "apple-hig",
         "claude-code",
@@ -1165,7 +1165,7 @@
       "repo": "lobehub/lobe-ui",
       "name": "lobe-ui",
       "description": "🍭  Lobe UI - an open-source UI component library for building AIGC web apps",
-      "stars": 2253,
+      "stars": 2254,
       "topics": [
         "aigc",
         "antd",
@@ -1876,7 +1876,7 @@
       "repo": "bitjaru/styleseed",
       "name": "styleseed",
       "description": "Open-source design-method engine for Claude Code, Codex & Cursor. One agent skill with 22 internal workflows for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.",
-      "stars": 1001,
+      "stars": 1002,
       "topics": [
         "agent-skills",
         "ai-coding",
@@ -1905,7 +1905,7 @@
       "repo": "BoardUI/boardui",
       "name": "boardui",
       "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
-      "stars": 983,
+      "stars": 984,
       "topics": [
         "agentic-ai",
         "ai-agent",
@@ -2128,7 +2128,7 @@
       "repo": "once-ui-system/nextjs-starter",
       "name": "nextjs-starter",
       "description": "⚡ A simple Once UI setup for a new project. Just what's necessary, nothing else.",
-      "stars": 831,
+      "stars": 830,
       "topics": [
         "component-library",
         "design-system",
@@ -2544,7 +2544,7 @@
       "repo": "pulkitxm/claude-directory",
       "name": "claude-directory",
       "description": "Open-source AI interfaces built with Claude (Fable 5) including hero sections, GLSL shaders, design systems, animations, 3D components  and and landing pages,  in React, Tailwind, and Three.js. Plug them into your AI agent and ship faster.",
-      "stars": 622,
+      "stars": 623,
       "topics": [
         "ai-generated",
         "anthropic",
@@ -3004,7 +3004,7 @@
       "repo": "op7418/dsh-guizang-design",
       "name": "dsh-guizang-design",
       "description": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
-      "stars": 443,
+      "stars": 444,
       "topics": [
         "deepseek-harness",
         "design-system",
@@ -3585,7 +3585,7 @@
       "repo": "nexu-io/open-design",
       "name": "open-design",
       "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-      "stars": 105989,
+      "stars": 105993,
       "topics": [
         "agent-skills",
         "ai-design",
@@ -3614,7 +3614,7 @@
       "repo": "ant-design/ant-design",
       "name": "ant-design",
       "description": "An enterprise-class UI design language and React UI library",
-      "stars": 100079,
+      "stars": 100081,
       "topics": [
         "ant-design",
         "antd",
@@ -3659,7 +3659,7 @@
       "repo": "goabstract/Awesome-Design-Tools",
       "name": "Awesome-Design-Tools",
       "description": "The best design tools and plugins for everything 👉",
-      "stars": 41753,
+      "stars": 41754,
       "topics": [
         "animations",
         "awesome",
@@ -3676,7 +3676,7 @@
       "repo": "alexpate/awesome-design-systems",
       "name": "awesome-design-systems",
       "description": "💅🏻 ⚒ A collection of awesome design systems",
-      "stars": 26288,
+      "stars": 26289,
       "topics": [
         "awesome",
         "awesome-list",
@@ -4157,7 +4157,7 @@
       "repo": "Inkloom-art/inkloom",
       "name": "inkloom",
       "description": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
-      "stars": 3214,
+      "stars": 3216,
       "topics": [
         "brand-identity",
         "cloudflare-workers",
@@ -4172,7 +4172,7 @@
       "repo": "southleft/figma-console-mcp",
       "name": "figma-console-mcp",
       "description": "Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.",
-      "stars": 3073,
+      "stars": 3079,
       "topics": [
         "ai",
         "design-systems",
@@ -4447,7 +4447,7 @@
       "repo": "feimacode/open-design-agent-kit",
       "name": "open-design-agent-kit",
       "description": "Pro-grade UI design built into the coding agent you already use — GitHub Copilot Chat, Claude Code, Codex, Cursor. 270+ design skills, 150+ brand design systems, 160+ remixable examples. No desktop app, no daemon, no API keys — just files in your repo.",
-      "stars": 998,
+      "stars": 999,
       "topics": [
         "ai-agent",
         "claude-code",
@@ -4729,7 +4729,7 @@
       "repo": "Ebony-Vinyl/EAC-design-world",
       "name": "EAC-design-world",
       "description": "DeepSeek Harness 本地视频制作与设计插件：多轨剪辑、模板与设计体系、原生预览画布和真实文件导出",
-      "stars": 447,
+      "stars": 448,
       "topics": [
         "ai-design",
         "ai-video",
@@ -4909,7 +4909,7 @@
       "repo": "DavidHDev/react-bits",
       "name": "react-bits",
       "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
-      "stars": 51269,
+      "stars": 51270,
       "topics": [
         "3d",
         "animations",
@@ -5133,7 +5133,7 @@
       "repo": "DavidHDev/canvas-ui",
       "name": "canvas-ui",
       "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-      "stars": 5332,
+      "stars": 5333,
       "topics": [
         "animation",
         "canvas",
@@ -5242,7 +5242,7 @@
       "repo": "keenthemes/reui",
       "name": "reui",
       "description": "Design-forward shadcn kit for interfaces that stand out. 1000+ free patterns!",
-      "stars": 3882,
+      "stars": 3883,
       "topics": [
         "base-ui",
         "component-library",
@@ -5939,7 +5939,7 @@
       "repo": "ekmas/neobrutalism-components",
       "name": "neobrutalism-components",
       "description": "A collection of neobrutalism-styled Tailwind components.",
-      "stars": 5636,
+      "stars": 5637,
       "topics": [
         "neobrutalism",
         "neobrutalism-components",
@@ -6108,7 +6108,7 @@
       "repo": "Taiizor/ReaLTaiizor",
       "name": "ReaLTaiizor",
       "description": "ReaLTaiizor is a .NET WinForms control library that offers a wide range of components and is user-friendly and design-focused.",
-      "stars": 2414,
+      "stars": 2415,
       "topics": [
         "component",
         "design",
@@ -6452,7 +6452,7 @@
       "repo": "lucide-icons/lucide",
       "name": "lucide",
       "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
-      "stars": 25578,
+      "stars": 25579,
       "topics": [
         "feather-icons",
         "figma",
@@ -6501,7 +6501,7 @@
       "repo": "marko-js/marko",
       "name": "marko",
       "description": "A declarative, HTML-based language that makes building web apps fun",
-      "stars": 14469,
+      "stars": 14470,
       "topics": [
         "client-side-rendering",
         "dom",
@@ -6540,7 +6540,7 @@
       "repo": "assistant-ui/assistant-ui",
       "name": "assistant-ui",
       "description": "Typescript/React Library for AI Chat 💬🚀",
-      "stars": 12957,
+      "stars": 12959,
       "topics": [
         "ai-chatbot",
         "base-ui",
@@ -6703,7 +6703,7 @@
       "repo": "SwiftKickMobile/SwiftMessages",
       "name": "SwiftMessages",
       "description": "A very flexible message bar for UIKit and SwiftUI.",
-      "stars": 7545,
+      "stars": 7546,
       "topics": [
         "alerts",
         "banner",
@@ -8068,7 +8068,7 @@
       "repo": "brillout/awesome-react-components",
       "name": "awesome-react-components",
       "description": "Curated List of React Components & Libraries.",
-      "stars": 48805,
+      "stars": 48806,
       "topics": [
         "awesome",
         "awesome-list",
@@ -8548,7 +8548,7 @@
       "repo": "ElemeFE/element",
       "name": "element",
       "description": "A Vue.js 2.0 UI Toolkit for Web",
-      "stars": 53983,
+      "stars": 53982,
       "topics": [
         "components",
         "element-ui",
@@ -9547,7 +9547,7 @@
       "repo": "callstack/react-native-paper",
       "name": "react-native-paper",
       "description": "Material Design for React Native (Android & iOS)",
-      "stars": 14499,
+      "stars": 14500,
       "topics": [
         "hacktoberfest",
         "material-design",

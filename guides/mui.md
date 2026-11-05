@@ -1,3 +1,7 @@
+---
+writtenFor: "7"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material

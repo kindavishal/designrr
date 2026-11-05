@@ -1,0 +1,660 @@
+{
+  "$comment": "Editorial layer merged over the seed lists by scripts/harvest.mjs. bestFor: one line on the product it suits. family: groups ports/variants of one system so agents show at most one per family. brandLocked: the visual identity belongs to a specific company or government; reason is shown to agents. productShapes: what kind of product UI it is good at (see shapes vocabulary).",
+  "shapes": {
+    "app-dashboard": "Data-heavy app screens: tables, filters, charts, forms",
+    "saas-app": "General product UI for a web app",
+    "marketing-site": "Landing pages and marketing sections",
+    "content-site": "Docs, blogs, catalogs, directories, long-form reading",
+    "forms-flows": "Transactional, form-heavy step-by-step services",
+    "mobile-app": "Native or mobile-first app screens",
+    "chat-ai": "Chat, assistant and agent interfaces",
+    "ecommerce": "Product listing, cart, checkout"
+  },
+  "families": {
+    "shadcn": [
+      "shadcn-ui",
+      "shadcn-vue",
+      "shadcn-svelte",
+      "spartan",
+      "zardui",
+      "rn-reusables",
+      "shadcn-flutter-ui"
+    ],
+    "radix": [
+      "radix-themes",
+      "radix-primitives"
+    ],
+    "mui": [
+      "mui",
+      "base-ui"
+    ],
+    "ant-design": [
+      "ant-design",
+      "pro-components",
+      "ant-design-mobile",
+      "ant-design-vue",
+      "ng-zorro"
+    ],
+    "chakra": [
+      "chakra-ui",
+      "ark-ui",
+      "park-ui"
+    ],
+    "primer": [
+      "primer",
+      "primer-primitives",
+      "primer-view-components",
+      "primer-css"
+    ],
+    "carbon": [
+      "carbon",
+      "carbon-svelte",
+      "carbon-ibm-products"
+    ],
+    "fluent": [
+      "fluent-ui",
+      "fluentui-apple",
+      "fluentui-android",
+      "fluentui-blazor"
+    ],
+    "sap": [
+      "ui5",
+      "ui5-react",
+      "fundamental-styles",
+      "fundamental-ngx"
+    ],
+    "prime": [
+      "primereact",
+      "primevue",
+      "primeng"
+    ],
+    "arco": [
+      "arco-design",
+      "arco-design-vue"
+    ],
+    "flowbite": [
+      "flowbite",
+      "flowbite-react",
+      "flowbite-svelte"
+    ],
+    "heroui": [
+      "heroui",
+      "heroui-native"
+    ],
+    "patternfly": [
+      "patternfly",
+      "patternfly-elements"
+    ],
+    "devui": [
+      "vue-devui",
+      "ng-devui"
+    ],
+    "nutui": [
+      "nutui",
+      "nutui-react"
+    ],
+    "salesforce": [
+      "slds",
+      "slds-react"
+    ],
+    "backpack": [
+      "backpack",
+      "backpack-ios",
+      "backpack-android"
+    ],
+    "dsfr": [
+      "dsfr",
+      "react-dsfr"
+    ],
+    "material": [
+      "material-web",
+      "angular-material",
+      "material-android",
+      "flutter-material"
+    ],
+    "ai-elements": [
+      "ai-elements",
+      "ai-elements-vue"
+    ],
+    "bootstrap": [
+      "bootstrap",
+      "react-bootstrap",
+      "bootstrap-vue-next"
+    ],
+    "shoelace": [
+      "shoelace",
+      "web-awesome"
+    ],
+    "tremor": [
+      "tremor"
+    ]
+  },
+  "brandLocked": {
+    "porsche": "Porsche brand identity; licence restricts use to Porsche products.",
+    "db-ux": "Deutsche Bahn brand identity.",
+    "swisspost": "Swiss Post brand identity.",
+    "baloise": "Baloise brand identity.",
+    "telekom-scale": "Deutsche Telekom brand identity (magenta).",
+    "boosted": "Orange brand identity; Orange trademarks may not be used by others.",
+    "auro": "Alaska Airlines brand identity.",
+    "lyne": "SBB (Swiss railways) brand identity.",
+    "mistica": "Telefónica / Movistar / O2 / Vivo brand identity.",
+    "backpack": "Skyscanner brand identity.",
+    "backpack-ios": "Skyscanner brand identity.",
+    "backpack-android": "Skyscanner brand identity.",
+    "orbit": "Kiwi.com brand identity.",
+    "orbit-swiftui": "Kiwi.com brand identity.",
+    "vitamin": "Decathlon brand identity.",
+    "cedar": "REI brand identity.",
+    "priceline-one": "Priceline brand identity.",
+    "thumbprint": "Thumbtack brand identity.",
+    "polaris": "Shopify admin identity; meant for Shopify apps.",
+    "atlassian": "Atlassian product identity; intended for Atlassian apps.",
+    "gestalt": "Pinterest brand identity.",
+    "braid": "SEEK brand identity (themeable to SEEK sub-brands only).",
+    "spindle": "Ameba (CyberAgent) brand identity.",
+    "seed-design": "Karrot (Daangn) brand identity.",
+    "neopop": "CRED brand identity.",
+    "charcoal": "pixiv brand identity.",
+    "welcome-ui": "Welcome to the Jungle brand identity.",
+    "brainly-pencil": "Brainly brand identity.",
+    "wonder-blocks": "Khan Academy brand identity.",
+    "baklava": "Trendyol brand identity.",
+    "lens": "Loom brand identity.",
+    "vibe": "monday.com brand identity.",
+    "leafygreen": "MongoDB brand identity.",
+    "odyssey": "Okta brand identity.",
+    "circuit-ui": "SumUp brand identity.",
+    "blade": "Razorpay brand identity.",
+    "momentum": "Cisco / Webex brand identity.",
+    "wix-style-react": "Wix product identity; intended for Wix apps.",
+    "calcite": "Esri / ArcGIS identity; best inside the ArcGIS ecosystem.",
+    "stacks": "Stack Overflow brand identity (themeable, but recognisably Stack Overflow).",
+    "mozilla-protocol": "Mozilla brand identity.",
+    "rhds": "Red Hat brand identity.",
+    "helios": "HashiCorp product identity.",
+    "ring-ui": "JetBrains product identity.",
+    "splunk-ui": "Splunk product identity.",
+    "seeds": "Sprout Social brand identity.",
+    "wanda": "Wonderflow brand identity.",
+    "nordhealth": "Nordhealth brand identity.",
+    "astro-uxds": "Built for US space-industry ground systems; strongly domain-specific look.",
+    "salt-ds": "J.P. Morgan identity by default (themeable)."
+  },
+  "productShapes": {
+    "shadcn-ui": [
+      "saas-app",
+      "app-dashboard",
+      "marketing-site"
+    ],
+    "mui": [
+      "saas-app",
+      "app-dashboard"
+    ],
+    "ant-design": [
+      "app-dashboard",
+      "forms-flows"
+    ],
+    "chakra-ui": [
+      "saas-app",
+      "marketing-site"
+    ],
+    "mantine": [
+      "saas-app",
+      "app-dashboard"
+    ],
+    "heroui": [
+      "saas-app",
+      "marketing-site"
+    ],
+    "radix-themes": [
+      "saas-app",
+      "content-site"
+    ],
+    "carbon": [
+      "app-dashboard",
+      "forms-flows"
+    ],
+    "cloudscape": [
+      "app-dashboard"
+    ],
+    "gravity-ui": [
+      "app-dashboard"
+    ],
+    "nuxt-ui": [
+      "saas-app",
+      "marketing-site",
+      "content-site"
+    ],
+    "vuetify": [
+      "saas-app",
+      "app-dashboard"
+    ],
+    "primevue": [
+      "app-dashboard"
+    ],
+    "angular-material": [
+      "saas-app",
+      "forms-flows"
+    ],
+    "daisyui": [
+      "marketing-site",
+      "saas-app",
+      "content-site"
+    ],
+    "web-awesome": [
+      "content-site",
+      "marketing-site",
+      "saas-app"
+    ],
+    "bootstrap": [
+      "marketing-site",
+      "content-site",
+      "app-dashboard"
+    ],
+    "primer-css": [
+      "content-site",
+      "saas-app"
+    ],
+    "primer": [
+      "saas-app",
+      "content-site"
+    ],
+    "open-props": [
+      "content-site",
+      "marketing-site"
+    ],
+    "govuk-frontend": [
+      "forms-flows",
+      "content-site"
+    ],
+    "uswds": [
+      "forms-flows",
+      "content-site"
+    ],
+    "nhsuk-frontend": [
+      "forms-flows",
+      "content-site"
+    ],
+    "ai-elements": [
+      "chat-ai"
+    ],
+    "assistant-ui": [
+      "chat-ai"
+    ],
+    "lobe-ui": [
+      "chat-ai"
+    ],
+    "element-plus-x": [
+      "chat-ai"
+    ],
+    "ai-elements-vue": [
+      "chat-ai"
+    ],
+    "nvidia-elements": [
+      "chat-ai",
+      "app-dashboard"
+    ],
+    "tremor": [
+      "app-dashboard"
+    ],
+    "flutter-material": [
+      "mobile-app"
+    ],
+    "apple-hig": [
+      "mobile-app"
+    ],
+    "material-android": [
+      "mobile-app"
+    ],
+    "react-native-paper": [
+      "mobile-app"
+    ],
+    "tamagui": [
+      "mobile-app",
+      "saas-app"
+    ],
+    "gluestack-ui": [
+      "mobile-app"
+    ],
+    "ionic": [
+      "mobile-app"
+    ],
+    "konsta": [
+      "mobile-app"
+    ],
+    "vant": [
+      "mobile-app",
+      "ecommerce"
+    ],
+    "ant-design-mobile": [
+      "mobile-app",
+      "ecommerce"
+    ],
+    "starwind": [
+      "marketing-site",
+      "content-site"
+    ],
+    "franken-ui": [
+      "marketing-site",
+      "content-site"
+    ],
+    "beercss": [
+      "content-site",
+      "mobile-app"
+    ],
+    "codex": [
+      "content-site"
+    ],
+    "wordpress-components": [
+      "content-site"
+    ],
+    "sanity-ui": [
+      "saas-app"
+    ],
+    "hyperui": [
+      "marketing-site"
+    ],
+    "preline": [
+      "marketing-site",
+      "app-dashboard"
+    ],
+    "flowbite": [
+      "marketing-site",
+      "app-dashboard"
+    ],
+    "tailgrids": [
+      "marketing-site",
+      "app-dashboard"
+    ],
+    "untitled-ui": [
+      "saas-app",
+      "marketing-site"
+    ],
+    "react-bits": [
+      "marketing-site"
+    ],
+    "pro-components": [
+      "app-dashboard"
+    ],
+    "rsuite": [
+      "app-dashboard"
+    ],
+    "naive-ui": [
+      "app-dashboard"
+    ],
+    "element-plus": [
+      "app-dashboard"
+    ],
+    "blueprint": [
+      "app-dashboard"
+    ],
+    "eui": [
+      "app-dashboard"
+    ],
+    "patternfly": [
+      "app-dashboard"
+    ],
+    "salt-ds": [
+      "app-dashboard"
+    ],
+    "siemens-ix": [
+      "app-dashboard"
+    ],
+    "ui5": [
+      "app-dashboard",
+      "forms-flows"
+    ],
+    "fluent-ui": [
+      "saas-app",
+      "app-dashboard"
+    ],
+    "quasar": [
+      "saas-app",
+      "mobile-app"
+    ],
+    "material-web": [
+      "saas-app",
+      "content-site"
+    ],
+    "fast": [
+      "content-site"
+    ],
+    "shoelace": [
+      "content-site"
+    ]
+  },
+  "bestFor": {
+    "quasar": "One Vue codebase for SPA, SSR, PWA, mobile (Capacitor) and desktop (Electron) apps.",
+    "rsuite": "React admin and enterprise apps with rich pickers, tables and form controls.",
+    "seed-design": "Karrot-style mobile-first consumer and marketplace apps in React.",
+    "react-bits": "Animated text, backgrounds and effects to layer on top of another React system for landing pages.",
+    "taiga-ui": "Angular fintech and enterprise apps that need many form, data and input components.",
+    "bootstrap-vue-next": "Vue 3 apps that want Bootstrap 5 styling and components.",
+    "base-ui": "Unstyled, accessible React primitives from the MUI team for building a custom-branded system.",
+    "bootstrap": "Quick, familiar responsive sites and admin panels in any stack, CDN-ready with no build step.",
+    "vibe": "monday.com marketplace apps and work-management style React UIs.",
+    "wordpress-components": "WordPress block-editor plugins and wp-admin interfaces.",
+    "gluestack-ui": "Copy-paste React Native + web components styled with NativeWind (Tailwind) for Expo apps.",
+    "shadcn-vue": "shadcn/ui's own-the-source model for Vue and Nuxt apps on Tailwind.",
+    "fundamental-ngx": "Angular apps that must look like SAP Fiori.",
+    "shadcn-svelte": "shadcn/ui's own-the-source model for SvelteKit apps on Tailwind.",
+    "uswds": "US government websites and services; themeable, accessible, CDN or npm.",
+    "leafygreen": "MongoDB-style developer consoles in React.",
+    "intentui": "Accessible React Aria components styled with Tailwind, copy-paste into your project.",
+    "lobe-ui": "AI chat and AIGC web apps in React (LobeChat-style).",
+    "ng-zorro": "Ant Design for Angular: enterprise admin and data-entry apps.",
+    "primevue": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
+    "primeng": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
+    "heroui-native": "HeroUI's look for React Native apps on Tailwind (Uniwind/NativeWind).",
+    "zardui": "shadcn/ui-style copy-paste components for Angular on Tailwind.",
+    "naive-ui": "TypeScript-first Vue 3 admin apps and dashboards with a big, themeable component set.",
+    "spectrum-web-components": "Adobe Spectrum look as web components, for creative tools and Adobe add-ons.",
+    "tailgrids": "Tailwind UI blocks and dashboard sections for React or plain HTML.",
+    "ng-primitives": "Headless, accessible Angular primitives for a custom-branded system.",
+    "spindle": "Ameba-style Japanese consumer and content React apps.",
+    "siemens-ix": "Industrial, IoT and operations dashboards (any framework, web components).",
+    "helios": "HashiCorp-style cloud consoles in Ember.js.",
+    "frappe-ui": "Vue + Tailwind business apps on the Frappe framework (ERPNext-style).",
+    "semi-design": "Large React admin and content-platform apps (ByteDance), with theming via the Semi DSM.",
+    "ui5": "SAP Fiori-compliant enterprise apps as framework-agnostic web components.",
+    "po-ui": "Angular enterprise and ERP apps (TOTVS).",
+    "spartan": "shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.",
+    "carbon-svelte": "IBM Carbon look in Svelte for data-dense enterprise apps.",
+    "blade": "Razorpay-style fintech dashboards in React and React Native.",
+    "stacks": "Developer and community content sites with plain CSS classes, light/dark/high-contrast themes.",
+    "reka-ui": "Headless, accessible Vue primitives (Radix for Vue) for custom systems; powers shadcn-vue and Nuxt UI.",
+    "compose-unstyled": "Headless Compose Multiplatform components for custom-branded Android/iOS/desktop apps.",
+    "cloudflare-kumo": "Cloudflare-style developer dashboards in React + Tailwind.",
+    "shadcn-flutter-ui": "shadcn/ui look and component set for Flutter apps.",
+    "untitled-ui": "Polished SaaS and marketing UI in React + Tailwind, built on React Aria.",
+    "db-ux": "Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.",
+    "yamada-ui": "Feature-rich, themeable React apps with style props (Chakra-like).",
+    "igniteui-webcomponents": "Data-heavy enterprise apps needing grids and inputs as web components.",
+    "saas-ui": "SaaS starter UI (auth, forms, data grids, layouts) on top of Chakra UI.",
+    "fluentui-blazor": "Microsoft Fluent look for Blazor / ASP.NET Core apps.",
+    "web-awesome": "Framework-agnostic web components with themes and dark mode; works from a CDN with no build step.",
+    "clarity": "Angular cloud-management consoles (VMware-style).",
+    "flyonui": "Tailwind component classes plus JS plugins for any stack, daisyUI-like.",
+    "park-ui": "Beautifully styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.",
+    "cms-design-system": "US healthcare and government enrolment flows (Medicare/healthcare.gov).",
+    "ring-ui": "JetBrains-style developer tools in React.",
+    "fluentui-apple": "Microsoft Fluent look in native iOS/macOS apps.",
+    "fundamental-styles": "SAP Fiori styling as plain CSS for any framework.",
+    "instructure-ui": "Accessible education apps (Canvas LMS-style) in React.",
+    "nvidia-elements": "AI-factory and developer-tool UIs as web components with agent tooling.",
+    "reshaped": "Professionally designed, themeable React + Figma system for product teams.",
+    "primer-view-components": "GitHub's Primer look in Ruby on Rails apps.",
+    "beeq": "Enterprise apps needing one web-component system across React, Angular and Vue.",
+    "orbit": "Kiwi.com travel booking UIs (brand-locked); strong reference for booking flows.",
+    "calcite": "ArcGIS / mapping and GIS apps.",
+    "welcome-ui": "Welcome to the Jungle job-board style React apps.",
+    "wonder-blocks": "Khan Academy learning experiences in React.",
+    "ui5-react": "SAP Fiori-compliant React apps.",
+    "nysds": "New York State government services.",
+    "circuit-ui": "SumUp payments and merchant apps in React.",
+    "boosted": "Orange-branded sites (Bootstrap-based).",
+    "porsche": "Porsche digital products only.",
+    "canvas-kit": "Workday-style HR and enterprise React apps.",
+    "forma-36": "Contentful apps and CMS extensions.",
+    "sanity-ui": "Sanity Studio plugins and CMS-style React apps.",
+    "shoreline": "VTEX commerce admin apps in React.",
+    "wanda": "Analytics and insights SaaS dashboards in React.",
+    "designsystemet": "Norwegian public-sector services.",
+    "swisspost": "Swiss Post digital products.",
+    "momentum": "Cisco Webex-style collaboration apps as web components.",
+    "angular-material": "Material Design for Angular apps, maintained by the Angular team.",
+    "element-plus": "Vue 3 admin and back-office apps (very widely used in China).",
+    "kobalte": "Headless, accessible SolidJS primitives.",
+    "flowbite": "Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.",
+    "bits-ui": "Headless, accessible Svelte primitives (powers shadcn-svelte).",
+    "foundation": "Responsive marketing and email templates with a mature CSS framework.",
+    "primereact": "React apps needing a very large component set (data tables, charts, editors) with themes.",
+    "headless-ui": "Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).",
+    "skeleton": "Svelte (and React) apps on Tailwind with a themeable design system.",
+    "baseweb": "Uber-style React apps.",
+    "fast": "Building your own web-component design system (Microsoft's foundation for Fluent web components).",
+    "ariakit": "Low-level, accessible React primitives for custom component libraries.",
+    "material-web": "Material 3 as web components (Google; maintenance mode).",
+    "arco-design": "ByteDance-style React enterprise and admin apps.",
+    "ui-kitten": "Eva Design System for React Native.",
+    "beercss": "Material 3 look with plain CSS classes, tiny and CDN-ready.",
+    "rn-reusables": "shadcn/ui-style copy-paste components for React Native with NativeWind.",
+    "fluent-ui-flutter": "Windows 11 Fluent look for Flutter desktop apps.",
+    "gestalt": "Pinterest-style visual, image-heavy consumer UIs in React.",
+    "radzen-blazor": "Free Blazor component suite with data grid and charts for line-of-business apps.",
+    "vant": "Lightweight mobile web and e-commerce UIs in Vue.",
+    "strapi-ds": "Strapi admin plugins and CMS-style React apps.",
+    "react-bootstrap": "Bootstrap 5 components as real React components.",
+    "arco-design-vue": "ByteDance-style Vue enterprise and admin apps.",
+    "mudblazor": "Material-style Blazor apps; the most popular Blazor component library.",
+    "bulma": "Simple CSS-only framework for content and marketing sites.",
+    "grommet": "Accessible, themeable React apps (HPE).",
+    "rn-elements": "Cross-platform React Native UI toolkit with simple theming.",
+    "carbon-ibm-products": "Higher-level Carbon patterns (tearsheets, create flows) for IBM-style products.",
+    "tiny-vue": "Huawei OpenTiny enterprise Vue apps, multi-device.",
+    "preline": "Tailwind components and plugins for marketing sites and dashboards in any stack.",
+    "lion": "White-label, accessible web components to build your own branded system (ING).",
+    "ant-design-vue": "Ant Design for Vue: admin and data-entry apps.",
+    "getwidget": "Ready-made Flutter widgets for quick mobile MVPs.",
+    "ant-design-mobile": "Mobile web apps and H5 commerce pages in React.",
+    "neobrutalism": "Bold neobrutalist look on top of shadcn/ui and Tailwind.",
+    "braid": "SEEK's job-marketplace products (brand-locked).",
+    "hiui": "Xiaomi-style React admin apps.",
+    "layui": "Classic jQuery-style admin panels without a build step.",
+    "flowbite-react": "Flowbite's Tailwind components as React components.",
+    "flowbite-svelte": "Flowbite's Tailwind components for Svelte.",
+    "fluentui-android": "Microsoft Fluent look in native Android apps.",
+    "pro-components": "Ant Design admin screens fast: ProTable, ProForm, ProLayout.",
+    "rhds": "Red Hat marketing and content sites as web components.",
+    "tw-elements": "Bootstrap-like components rebuilt for Tailwind, plain HTML + JS.",
+    "hyperui": "Free copy-paste Tailwind marketing and application sections.",
+    "amplify-ui": "Auth, storage and AI UI connected to AWS Amplify across web and mobile.",
+    "diceui": "Extra accessible components (sortable, combobox, etc.) for shadcn/ui projects.",
+    "vuestic-ui": "Vue 3 admin dashboards with an accessible, themeable component set.",
+    "blazorise": "Blazor apps that want to choose Bootstrap, Bulma, Fluent or Material styling.",
+    "vaadin": "Java (Vaadin Flow) or web-component enterprise apps with heavy data grids.",
+    "paste": "Twilio-style accessible B2B React apps.",
+    "nordhealth": "Healthcare SaaS (veterinary/clinical) as web components.",
+    "fusion": "Alibaba-style React enterprise apps.",
+    "forui": "Minimalistic, shadcn-inspired Flutter widgets for desktop and mobile.",
+    "tdesign": "Tencent enterprise apps across React, Vue, Angular and mini-programs.",
+    "macos-ui": "macOS-native look for Flutter desktop apps.",
+    "ai-elements-vue": "AI chat and agent UI components for Vue (port of Vercel AI Elements).",
+    "nutui": "JD-style mobile commerce in Vue and mini-programs.",
+    "smarthr-ui": "Japanese HR SaaS-style React apps.",
+    "vexip-ui": "Highly customisable Vue 3 admin apps.",
+    "varlet": "Material-style mobile web apps in Vue 3.",
+    "baklava": "Trendyol e-commerce products (brand-locked).",
+    "konsta": "iOS and Material look for mobile web/hybrid apps with Tailwind.",
+    "cedar": "REI retail products (brand-locked).",
+    "react-md": "Accessible Material-style React apps.",
+    "nutui-react": "JD-style mobile commerce in React and mini-programs.",
+    "react-dsfr": "French government services in React (DSFR).",
+    "helsinki-hds": "City of Helsinki services.",
+    "fomantic-ui": "Semantic UI's natural-language CSS classes, community-maintained.",
+    "baloise": "Baloise insurance products (brand-locked).",
+    "slds-react": "Salesforce Lightning look in React apps outside the Salesforce platform.",
+    "wedges": "Lemon Squeezy-style SaaS and checkout UIs on Tailwind + Radix.",
+    "charcoal": "pixiv creative-community products (brand-locked).",
+    "element-plus-x": "AI chat components on Element Plus for Vue.",
+    "franken-ui": "HTML-first, framework-agnostic components with shadcn-like look, Tailwind-based.",
+    "clay": "Liferay portal and DXP apps.",
+    "priceline-one": "Priceline travel booking UIs (brand-locked).",
+    "dsfr": "French government websites and services.",
+    "japan-dads": "Japanese government services (Digital Agency).",
+    "telekom-scale": "Deutsche Telekom products (brand-locked).",
+    "gitlab-pajamas": "GitLab-style developer tools in Vue.",
+    "patternfly-elements": "PatternFly look as framework-agnostic web components.",
+    "nhsuk-frontend": "NHS and UK health services.",
+    "lens": "Loom-style video and SaaS products (brand-locked).",
+    "zendesk-garden": "Zendesk apps and support-desk style React UIs.",
+    "agds": "Australian government services in React.",
+    "odyssey": "Okta-style identity and admin consoles (MUI-based).",
+    "codex": "Wikimedia/Wikipedia interfaces in Vue; strong i18n and RTL.",
+    "vue-devui": "Huawei DevCloud-style developer tools in Vue.",
+    "oruga": "Lightweight, CSS-framework-agnostic Vue components you style yourself.",
+    "gcds": "Government of Canada bilingual services.",
+    "brainly-pencil": "Brainly learning products (brand-locked).",
+    "oracle-jet": "Oracle Redwood-style enterprise apps.",
+    "backpack-android": "Skyscanner Android app (brand-locked).",
+    "astro-uxds": "Space and satellite ground-system operations UIs.",
+    "mistica": "Telefónica brand products (brand-locked).",
+    "backpack-ios": "Skyscanner iOS app (brand-locked).",
+    "ecl": "European Commission and EU institution websites.",
+    "moon": "Coingaming-style consumer and gaming UIs.",
+    "ontario-ds": "Government of Ontario services.",
+    "lyne": "SBB Swiss railways products (brand-locked).",
+    "mozilla-protocol": "Mozilla websites (brand-locked).",
+    "nsw-design-system": "NSW Government services.",
+    "sgds": "Singapore government services.",
+    "seeds": "Sprout Social products (brand-locked).",
+    "poncho": "Argentine government websites.",
+    "auro": "Alaska Airlines products (brand-locked).",
+    "dkfds": "Danish public-sector services.",
+    "nl-design-system": "Dutch government services (multi-organisation themes).",
+    "splunk-ui": "Splunk app and dashboard UIs.",
+    "wix-style-react": "Wix app-market apps.",
+    "evergreen": "Segment-style B2B React apps.",
+    "semantic-ui-react": "Semantic UI look in React (legacy projects).",
+    "ng-devui": "Huawei DevCloud-style developer tools in Angular.",
+    "vitamin": "Decathlon products (brand-locked).",
+    "melt-ui": "Headless Svelte component builders.",
+    "keep-react": "Tailwind-based React components for SaaS and marketing pages.",
+    "starwind": "shadcn-style components for Astro sites, zero JS by default.",
+    "nativebase": "Legacy React Native apps (superseded by gluestack UI).",
+    "telegram-ui": "Telegram Mini Apps that should look native to Telegram.",
+    "primer-css": "GitHub's look as plain CSS classes; developer tools and content sites without a framework.",
+    "open-props": "Framework-agnostic CSS custom-property tokens to build your own look with no build step.",
+    "98-css": "Retro Windows 98 look in plain HTML/CSS for playful sites.",
+    "react95": "Windows 95 look for playful React apps.",
+    "webtui": "Terminal-UI look in plain CSS for developer and hacker-aesthetic sites.",
+    "theme-ui": "Constraint-based, themeable React styling (theme spec) for custom systems.",
+    "backpack": "Skyscanner web products (brand-locked; archived).",
+    "ebay-skin": "eBay-style accessible e-commerce markup (archived).",
+    "eva-ui-kitten": "Eva Design System tokens for React Native (stale).",
+    "neopop": "CRED-style bold fintech UIs (stale).",
+    "orbit-swiftui": "Kiwi.com iOS app (archived).",
+    "shoelace": "Web components for any framework (archived; use Web Awesome).",
+    "slds": "Salesforce Lightning CSS (archived; see Lightning Design System React).",
+    "thumbprint": "Thumbtack marketplace UIs (archived)."
+  },
+  "installOverrides": {
+    "$comment": "Corrections where package metadata gives the wrong CDN answer. Each needs a source.",
+    "web-awesome": {
+      "source": "Web Awesome installation docs (dist/skills/webawesome/references/installation.md, v3.14.0)",
+      "cdn": {
+        "css": "https://ka-f.webawesome.com/webawesome@3.14.0/styles/webawesome.css",
+        "js": "https://ka-f.webawesome.com/webawesome@3.14.0/webawesome.loader.js"
+      }
+    },
+    "material-web": {
+      "source": "Material Web docs: components are ES modules with bare imports and need a bundler or import map",
+      "noBuild": false
+    },
+    "nl-design-system": {
+      "source": "The tracked npm package (@nl-design-system-candidate/button-react) is a React component; CSS packages are per-component",
+      "noBuild": false
+    }
+  }
+}

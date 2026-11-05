@@ -1,3 +1,8 @@
+---
+writtenFor: "iOS 26 SDK / SwiftUI"
+platformSdk: true
+written: 2026-11-05
+---
 ## Install
 Built into Xcode / SwiftUI — no dependency.
 

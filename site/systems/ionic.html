@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="wa-theme-default wa-palette-default wa-brand-indigo wa-light wa-cloak">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ionic Framework · AI-Ready Design Systems</title>
+<meta name="description" content="Cross-platform mobile apps from one web codebase with iOS and Material styling.">
+<link rel="alternate" type="text/plain" href="../llms.txt" title="llms.txt">
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/themes/default.css">
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/utilities.css">
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/native.css">
+<script type="module" src="https://ka-f.webawesome.com/webawesome@3.14.0/webawesome.loader.js"></script>
+<link rel="stylesheet" href="../assets/site.css">
+<script>
+(() => {
+  let mode = null;
+  try { mode = localStorage.getItem('ards-scheme'); } catch {}
+  if (!mode) mode = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  const root = document.documentElement;
+  root.classList.toggle('wa-dark', mode === 'dark');
+  root.classList.toggle('wa-light', mode !== 'dark');
+  addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('scheme-toggle');
+    const sync = () => { const dark = root.classList.contains('wa-dark'); btn?.querySelector('wa-icon')?.setAttribute('name', dark ? 'sun' : 'moon'); btn?.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode'); };
+    sync();
+    btn?.addEventListener('click', () => {
+      const dark = !root.classList.contains('wa-dark');
+      root.classList.toggle('wa-dark', dark); root.classList.toggle('wa-light', !dark);
+      try { localStorage.setItem('ards-scheme', dark ? 'dark' : 'light'); } catch {}
+      sync();
+    });
+  });
+})();
+</script>
+
+</head>
+<body>
+<wa-page mobile-breakpoint="920">
+  <header slot="header" class="wa-split site-header">
+    <a href="../index.html" class="wa-cluster wa-gap-xs brand-link">
+      <wa-icon name="layer-group"></wa-icon><strong>AI-Ready Design Systems</strong>
+    </a>
+    <div class="wa-cluster wa-gap-m">
+      <nav class="wa-cluster wa-gap-m wa-desktop-only" aria-label="Site">
+        <a href="../llms.txt">llms.txt</a>
+        <a href="../catalog.json">catalog.json</a>
+        <a href="../methodology.html">Methodology</a>
+      </nav>
+      <div class="wa-cluster wa-gap-2xs">
+        
+        <wa-button id="scheme-toggle" appearance="plain" size="small" aria-label="Toggle dark mode"><wa-icon name="moon"></wa-icon></wa-button>
+      </div>
+    </div>
+  </header>
+  
+  <main class="wa-stack wa-gap-xl">
+    <wa-breadcrumb>
+      <wa-breadcrumb-item href="../index.html">Catalog</wa-breadcrumb-item>
+      <wa-breadcrumb-item>Ionic Framework</wa-breadcrumb-item>
+    </wa-breadcrumb>
+    <div class="wa-stack wa-gap-s">
+      <h1 class="card-title">Ionic Framework</h1>
+      <p class="lede wa-body-l">Cross-platform mobile apps from one web codebase with iOS and Material styling.</p>
+      <div class="wa-cluster wa-gap-xs">
+        <wa-badge variant="success">recommended</wa-badge>
+        <wa-badge variant="neutral" appearance="outlined">AI-readiness 50/100</wa-badge>
+        
+        
+      </div>
+    </div>
+    
+    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v8; the latest release is 9.0.10. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    <article class="wa-prose">
+<table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>50/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Ionic (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web, ios, android</td></tr><tr><th scope="row">Frameworks</th><td>web-components, react, vue, angular</td></tr><tr><th scope="row">Styling</th><td>web-components</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>mobile, hybrid-app, consumer; shapes: mobile-app</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>20.4k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>52.7k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>@ionic/core</code> 9.0.10)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://ionicframework.com/docs">https://ionicframework.com/docs</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/ionic-team/ionic-framework">https://github.com/ionic-team/ionic-framework</a></td></tr></tbody></table>
+<h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
+<ul><li><strong>llms.txt:</strong> <a href="https://ionicframework.com/docs/llms.txt">https://ionicframework.com/docs/llms.txt</a></li><li>MCP server: none found</li><li><strong>Design tokens:</strong> <a href="https://github.com/ionic-team/ionic-framework/blob/HEAD/packages/angular/schematics/add/files/root/theme/variables.css">https://github.com/ionic-team/ionic-framework/blob/HEAD/packages/angular/schematics/add/files/root/theme/variables.css</a></li></ul>
+<h2 id="consider-an-alternative-if">Consider an alternative if</h2>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v8; the latest release is 9.0.10, so confirm commands in the official llms.txt or MCP server.</li></ul>
+<p><em>Hand-written guide, written 2026-11-05 for v8; latest release 9.0.10.</em></p>
+<h2 id="install">Install</h2>
+<div class="code-block"><pre><code data-lang="bash">npm install -g @ionic/cli
+ionic start myApp tabs --type=react     # or angular / vue
+npx cap add ios &amp;&amp; npx cap add android  # native shells via Capacitor</code></pre><wa-copy-button value="npm install -g @ionic/cli
+ionic start myApp tabs --type=react     # or angular / vue
+npx cap add ios &amp;&amp; npx cap add android  # native shells via Capacitor" class="code-copy"></wa-copy-button></div>
+<h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
+<p>CSS variables in <code>src/theme/variables.css</code> (<code>--ion-color-primary</code>, …). Components adapt to iOS vs Material mode automatically.</p>
+<h2 id="agent-tips">Agent tips</h2>
+<ul><li>Use <code>IonPage</code>, <code>IonHeader</code>, <code>IonContent</code> structure on every page or navigation transitions break.</li></ul>
+<h2 id="build-checklist-any-system">Build checklist (any system)</h2>
+<ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
+<h2 id="score-breakdown">Score breakdown</h2>
+<table><thead><tr><th>Capability</th><th>Points</th></tr></thead><tbody><tr><td>Official MCP server (agent can query components/docs live)</td><td>0/20</td></tr><tr><td>llms.txt on the docs site</td><td>15/15</td></tr><tr><td>llms-full.txt (whole docs as one markdown file)</td><td>0/5</td></tr><tr><td>Machine-readable design tokens in the repo</td><td>15/15</td></tr><tr><td>Typed component API (TypeScript / Swift / Kotlin / Dart / C#)</td><td>10/10</td></tr><tr><td>Registry / CLI install of component source (e.g. shadcn registry)</td><td>0/10</td></tr><tr><td>Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo</td><td>0/5</td></tr><tr><td>Storybook / live, inspectable examples</td><td>0/5</td></tr><tr><td>Figma Code Connect (design ↔ code mapping)</td><td>0/5</td></tr><tr><td>Accessibility guidance shipped with the source</td><td>5/5</td></tr><tr><td>Dedicated documentation site</td><td>5/5</td></tr></tbody></table>
+<p>Quality gate: activity <strong>active</strong>; traction via stars, orgBacked.</p>
+<p>_Data refreshed 2026-11-05. Agent-readable source: <a href="https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md_">https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md_</a></p>
+    </article>
+  </main>
+  <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
+    <strong>On this page</strong>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <wa-divider></wa-divider>
+    <strong>For agents</strong>
+    <a href="ionic.md" class="wa-caption-m">Markdown version</a>
+    <wa-copy-button value="https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md" copy-label="Copy link for an agent"></wa-copy-button>
+  </aside>
+  <footer slot="footer" class="wa-stack wa-gap-xs wa-caption-s">
+    <span>Quality gate: active in the last 12 months and real adoption (1k+ stars, 5k+ weekly npm downloads, or a known maintainer). Scores use free, public data and refresh weekly.</span>
+    <span class="wa-cluster wa-gap-s"><a href="../methodology.html">How systems are chosen and scored</a><a href="../llms.txt">llms.txt</a><a href="../catalog.json">catalog.json</a><a href="../llms-full.txt">llms-full.txt</a></span>
+  </footer>
+</wa-page>
+
+</body>
+</html>

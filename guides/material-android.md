@@ -1,3 +1,8 @@
+---
+writtenFor: "Compose Material 3 (1.x)"
+platformSdk: true
+written: 2026-11-05
+---
 ## Install
 ```kotlin
 // build.gradle.kts

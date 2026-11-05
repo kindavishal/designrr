@@ -10,10 +10,13 @@
 | Platforms | web |
 | Frameworks | react |
 | Styling | css |
-| Good for | enterprise, dashboard, devtools, data-dense |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | enterprise, dashboard, devtools, data-dense; shapes: app-dashboard |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 8.4k KB |
 | License | MIT |
 | GitHub stars | 1.1k |
-| npm weekly downloads | 31.1k (`@gravity-ui/uikit`) |
+| npm weekly downloads | 31.1k (`@gravity-ui/uikit` 8.0.0) |
 | Last activity | 2026-11-03 |
 | Docs | https://gravity-ui.com |
 | Source | https://github.com/gravity-ui/uikit |
@@ -24,6 +27,11 @@
 - MCP server: none found
 - **Agent/contributor docs in repo:** https://github.com/gravity-ui/uikit/blob/HEAD/AGENTS.md
 
+## Consider an alternative if
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+- you copy the build guide verbatim. It was written for v7; the latest release is 8.0.0, so confirm commands in the official llms.txt or MCP server.
+
+_Hand-written guide, written 2026-11-05 for v7; latest release 8.0.0._
 
 ## Install
 ```bash
@@ -46,14 +54,14 @@ Override CSS variables (`--g-color-base-brand`, `--g-color-text-brand`, …) per
 - `@gravity-ui/navigation` gives a ready AsideHeader/app shell for consoles.
 
 ## Build checklist (any system)
-1. **Install & provider** — follow the install section exactly for the detected framework and version.
-2. **Brand → tokens** — set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first** — build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components** — map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States** — loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility** — keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness** — enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify** — run the app, click through every screen, fix console errors and type errors.
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
 
 ## Score breakdown
 | Capability | Points |
@@ -64,7 +72,7 @@ Override CSS variables (`--g-color-base-brand`, `--g-color-text-brand`, …) per
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills) | 5/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
@@ -72,4 +80,4 @@ Override CSS variables (`--g-color-base-brand`, `--g-color-text-brand`, …) per
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Source: https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md_

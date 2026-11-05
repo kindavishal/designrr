@@ -28,6 +28,9 @@ async function repoMeta(repos) {
 }
 
 // ---------- Repo tree features ----------
+// Paths that are never evidence for consumers: legacy/test/example code and contributor-only agent files.
+const NOT_EVIDENCE = /(^|\/)(legacy|deprecated|__tests__|tests?|e2e|examples?|fixtures?|sandbox|playground)(\/|_|\.|-)|_legacy|\.(spec|test|stories)\./i;
+const CONTRIBUTOR_ONLY = /(^|\/)\.(agents|claude|github|cursor|windsurf)\/skills\//i;
 const RX = {
   tokens: /(^|\/)(design-)?tokens?\/.*\.(json|ya?ml|css|scss|js|ts)$|\.tokens(\.json)?$|(^|\/)style-dictionary|(^|\/)tokens\.(json|css|ts|js)$|(^|\/)packages\/[^/]*tokens[^/]*\/|theme\/tokens|(^|\/)variables\.css$/i,
   storybook: /(^|\/)\.storybook\//,
@@ -37,6 +40,8 @@ const RX = {
   // Only top-level workspace packages (not e.g. engine/src/.../tools/mcp), or a docs page about the MCP server.
   mcp: /^(packages|apps|tools|libs)\/(@[^/]+\/)?[^/]*mcp[^/]*\/|^(src\/)?tools\/mcp[^/]*\/|^mcp(-server)?\/|docs?\/.*mcp-server/i,
   a11y: /accessib|a11y/i,
+  darkMode: /(^|[\/_.-])dark([\/_.-]|theme|mode)|theme[-_]?dark|color-?scheme|prefers-color-scheme/i,
+  rtl: /(^|[\/_.-])rtl([\/_.-]|$)|right-to-left|bidi|direction\.(md|mdx|tsx?)$/i,
   typed: /\.(tsx?|d\.ts|swift|kt|dart|cs)$/,
 };
 async function treeFeatures(repo, branch) {
@@ -47,7 +52,9 @@ async function treeFeatures(repo, branch) {
     const paths = tree.map((t) => t.path).filter((x) => !/node_modules|\/fixtures?\/|\/__tests__\//.test(x));
     const f = { files: paths.length, truncated: !!truncated };
     for (const [k, rx] of Object.entries(RX)) {
-      const hits = paths.filter((x) => rx.test(x));
+      let hits = paths.filter((x) => rx.test(x));
+      if (k === 'tokens') hits = hits.filter((x) => !NOT_EVIDENCE.test(x)).sort((a, b) => a.length - b.length);
+      if (k === 'agentDocs') hits = hits.filter((x) => !CONTRIBUTOR_ONLY.test(x));
       f[k] = k === 'typed' ? hits.length : hits.length > 0;
       if (hits.length && k !== 'typed' && k !== 'a11y') f[`${k}Example`] = hits[0];
     }
@@ -71,6 +78,7 @@ async function npmInfo(pkg) {
       exists: true, weeklyDownloads: dl?.downloads ?? 0, latest, lastPublish: meta.time?.[latest] || meta.time?.modified,
       types: !!(v.types || v.typings || v.exports?.['.']?.types || meta.versions?.[latest]?.devDependencies?.typescript),
       deprecated: !!v.deprecated, license: v.license || null, repository: v.repository?.url || null,
+      unpackedSize: v.dist?.unpackedSize ?? null,
     };
   });
 }
@@ -79,6 +87,24 @@ const npmDescribe = (pkg) => cached(`npmd:${pkg}`, async () => {
   return r.ok ? ((await r.json()).description || '') : null;
 });
 const npmExists = (pkg) => cached(`npmx:${pkg}`, async () => (await http(`https://registry.npmjs.org/${pkg.replace('/', '%2F')}`, { method: 'HEAD' })).ok);
+
+// ---------- CDN readiness (jsDelivr) ----------
+// Only entrypoints the package itself declares (jsDelivr "guessed": false, i.e. from package.json
+// style/jsdelivr/unpkg/browser fields) count; guessed files are often a random component file.
+async function cdnInfo(pkg, version) {
+  if (!pkg || !version) return null;
+  return cached(`cdn2:${pkg}@${version}`, async () => {
+    const base = `https://cdn.jsdelivr.net/npm/${pkg}@${version}`;
+    const [ep, flat] = await Promise.all([
+      http(`https://data.jsdelivr.com/v1/packages/npm/${pkg}@${version}/entrypoints`).then((r) => (r.ok ? r.json() : null)),
+      http(`https://data.jsdelivr.com/v1/packages/npm/${pkg}@${version}?structure=flat`).then((r) => (r.ok ? r.json() : null)),
+    ]);
+    // CommonJS builds can't run from a <script> tag, so they don't count.
+    const pick = (k) => { const e = ep?.entrypoints?.[k]; return e && !e.guessed && !/(^|[./])cjs([./]|$)|\/lib\/cjs\//.test(e.file) ? base + e.file : null; };
+    const skills = (flat?.files || []).map((f) => f.name).filter((f) => /skills\/[^/]+\/SKILL\.md$/i.test(f));
+    return { css: pick('css'), js: pick('js'), shippedSkills: skills.map((x) => x.replace(/\/SKILL\.md$/i, '')) };
+  });
+}
 
 async function pubInfo(pkg) {
   if (!pkg) return null;
@@ -155,6 +181,7 @@ const signals = await pool(candidates, 6, async (c) => {
   const tree = m?.defaultBranchRef ? await treeFeatures(m.nameWithOwner, m.defaultBranchRef.name) : null;
   const [npm, pub, nuget, llms] = await Promise.all([npmInfo(c.npm), pubInfo(c.pub), nugetInfo(c.nuget), llmsProbe(c.docs)]);
   const mcp = await mcpProbe(c, tree);
+  const cdn = npm?.exists ? await cdnInfo(c.npm, npm.latest) : null;
   if (++done % 25 === 0) console.log(`  ${done}/${candidates.length}`);
   return {
     slug: c.slug,
@@ -165,7 +192,7 @@ const signals = await pool(candidates, 6, async (c) => {
       lastCommit: m.defaultBranchRef?.target?.committedDate || null, commits: m.defaultBranchRef?.target?.history?.totalCount ?? null,
       latestRelease: m.latestRelease?.publishedAt || null, latestTag: m.latestRelease?.tagName || null, homepage: m.homepageUrl || null, description: m.description,
     },
-    tree, npm, pub, nuget, llms, mcp,
+    tree, npm, pub, nuget, llms, mcp, cdn,
   };
 });
 

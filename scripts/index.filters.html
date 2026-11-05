@@ -1,0 +1,19 @@
+<nav slot="navigation" class="wa-stack wa-gap-m" aria-label="Filters">
+    <strong>Filters</strong>
+    <wa-select id="f-platform" label="Platform" placeholder="Any platform" with-clear></wa-select>
+    <wa-select id="f-framework" label="Framework" placeholder="Any framework" with-clear hint="Choose vanilla for plain HTML with no framework."></wa-select>
+    <wa-select id="f-shape" label="Product shape" placeholder="Any shape" with-clear></wa-select>
+    <wa-select id="f-tier" label="Tier" placeholder="Any tier" with-clear>
+      <wa-option value="recommended">Recommended</wa-option>
+      <wa-option value="solid">Solid</wa-option>
+      <wa-option value="watch">Watch</wa-option>
+    </wa-select>
+    <div class="wa-stack wa-gap-s">
+      <wa-switch id="f-nobuild" hint="Works from a CDN in plain HTML.">No build step</wa-switch>
+      <wa-switch id="f-notailwind">Without Tailwind</wa-switch>
+      <wa-switch id="f-mcp">Has an MCP server</wa-switch>
+      <wa-switch id="f-brand" checked hint="Systems that carry another company's identity.">Hide brand-locked</wa-switch>
+      <wa-switch id="f-family" checked hint="Show one variant per system family.">One per family</wa-switch>
+    </div>
+    <wa-button id="f-reset" appearance="outlined" size="small">Reset filters</wa-button>
+  </nav>

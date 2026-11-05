@@ -1,6 +1,6 @@
 # Zendesk Garden
 
-> Zendesk Garden by Zendesk.
+> Zendesk apps and support-desk style React UIs.
 
 | | |
 |---|---|
@@ -10,10 +10,13 @@
 | Platforms | web |
 | Frameworks | react |
 | Styling | css-in-js |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | saas, support, b2b |
+| Dark mode / RTL | yes / not detected |
+| Package size (unpacked) | 84 KB |
 | License | Apache-2.0 |
 | GitHub stars | 1.1k |
-| npm weekly downloads | 0 (`@zendeskgarden/react-buttons`) |
+| npm weekly downloads | 0 (`@zendeskgarden/react-buttons` 9.16.1) |
 | Last activity | 2026-11-03 |
 | Docs | https://garden.zendesk.com |
 | Source | https://github.com/zendeskgarden/react-components |
@@ -23,8 +26,11 @@
 - MCP server: none found
 
 ## Consider an alternative if
-- you need zero-runtime styling or heavy React Server Components use — check the docs for RSC support.
-- you rely on agent tooling — this system has few machine-readable resources, so agents will rely on general knowledge and the docs site.
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+- you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
+- you rely on agent tooling. This system has few machine-readable resources.
+
+_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
 ```bash
@@ -36,14 +42,14 @@ Then follow the framework setup in the official getting-started guide: https://g
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
-1. **Install & provider** — follow the install section exactly for the detected framework and version.
-2. **Brand → tokens** — set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first** — build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components** — map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States** — loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility** — keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness** — enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify** — run the app, click through every screen, fix console errors and type errors.
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
 
 ## Score breakdown
 | Capability | Points |
@@ -54,7 +60,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills) | 0/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 0/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 0/5 |
@@ -62,4 +68,4 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Source: https://kindavishal.github.io/ai-ready-design-systems/systems/zendesk-garden.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/zendesk-garden.md_

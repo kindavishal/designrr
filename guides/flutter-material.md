@@ -1,3 +1,8 @@
+---
+writtenFor: "Flutter 3 (Material 3)"
+platformSdk: true
+written: 2026-11-05
+---
 ## Install
 Ships with the Flutter SDK — no package needed. `flutter create my_app`.
 

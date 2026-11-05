@@ -1,6 +1,6 @@
 # WordPress Components
 
-> WordPress Components by WordPress.
+> WordPress block-editor plugins and wp-admin interfaces.
 
 | | |
 |---|---|
@@ -10,10 +10,13 @@
 | Platforms | web |
 | Frameworks | react |
 | Styling | css |
-| Good for | content, cms, wordpress-ecosystem |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | content, cms, wordpress-ecosystem; shapes: content-site |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 15.6k KB |
 | License | NOASSERTION |
 | GitHub stars | 11.8k |
-| npm weekly downloads | 0 (`@wordpress/components`) |
+| npm weekly downloads | 0 (`@wordpress/components` 44.0.0) |
 | Last activity | 2026-11-05 |
 | Docs | https://wordpress.github.io/gutenberg/ |
 | Source | https://github.com/WordPress/gutenberg |
@@ -23,10 +26,13 @@
 - **MCP server:**
   - in-repo package: https://github.com/WordPress/gutenberg/tree/HEAD/packages/design-system-mcp (see its README for setup)
 - **Design tokens:** https://github.com/WordPress/gutenberg/blob/HEAD/packages/theme/tokens
-- **Agent/contributor docs in repo:** https://github.com/WordPress/gutenberg/blob/HEAD/.agents/skills/browse/SKILL.md
+- **Agent/contributor docs in repo:** https://github.com/WordPress/gutenberg/blob/HEAD/.github/copilot-instructions.md
 
 ## Consider an alternative if
-- you are not building inside the wordpress ecosystem — its visual language signals that brand.
+- you are not building inside the wordpress ecosystem.
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+
+_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
 ```bash
@@ -35,19 +41,19 @@ npm install @wordpress/components
 Then follow the framework setup in the official getting-started guide: https://wordpress.github.io/gutenberg/
 
 ## Agent tips
-- Connect the MCP server listed above before writing code; use it to look up components and props.
-- Design tokens live in the repo (e.g. `packages/theme/tokens`); map brand colours/typography onto these rather than hard-coding values.
+- Connect the MCP server listed above before writing code, and use it to look up components and props.
+- Design tokens live in the repo (e.g. `packages/theme/tokens`). Map brand colours and type onto these rather than hard-coding values.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
-1. **Install & provider** — follow the install section exactly for the detected framework and version.
-2. **Brand → tokens** — set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first** — build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components** — map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States** — loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility** — keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness** — enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify** — run the app, click through every screen, fix console errors and type errors.
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
 
 ## Score breakdown
 | Capability | Points |
@@ -58,7 +64,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent instructions in the repo (AGENTS.md, CLAUDE.md, cursor rules, skills) | 5/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
@@ -66,4 +72,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, orgBacked.
 
-_Data refreshed 2026-11-05. Source: https://kindavishal.github.io/ai-ready-design-systems/systems/wordpress-components.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wordpress-components.md_

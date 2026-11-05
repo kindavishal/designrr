@@ -1,3 +1,7 @@
+---
+writtenFor: "1"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm install @carbon/react sass

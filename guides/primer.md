@@ -1,3 +1,7 @@
+---
+writtenFor: "37"
+written: 2026-11-05
+---
 ## Install
 ```bash
 npm install @primer/react @primer/primitives styled-components
