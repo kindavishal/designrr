@@ -75,4 +75,4 @@ See https://composeunstyled.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/compose-unstyled.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/compose-unstyled.md_

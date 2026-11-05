@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 512 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/evergreen.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/evergreen.md_

@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nordhealth.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_

@@ -70,4 +70,4 @@ Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog 
 
 Quality gate: activity **active**; traction via orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/apple-hig.md_

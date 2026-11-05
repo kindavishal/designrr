@@ -103,4 +103,4 @@ Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" da
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/heroui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_

@@ -7,7 +7,12 @@ import { p, readJSON, writeJSON, writeText } from './lib.mjs';
 import { renderMarkdown } from './md.mjs';
 import { shell, esc, SITE_CSS } from './templates.mjs';
 
-const SITE_URL = (process.env.SITE_URL || 'https://kindavishal.github.io/ai-ready-design-systems').replace(/\/$/, '');
+// Absolute URLs in llms.txt / catalog.json. Order: explicit SITE_URL, then the production domain Vercel
+// provides at build time, then package.json "homepage" (used for the copy of site/ committed to git).
+const PKG = JSON.parse(readFileSync(p('package.json'), 'utf8'));
+const SITE_URL = (process.env.SITE_URL
+  || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : '')
+  || PKG.homepage).replace(/\/$/, '');
 const { systems, policy, rubric, scoredAt } = readJSON(p('data/scored.json'));
 const editorial = readJSON(p('curation/editorial.json'));
 const USABLE = new Set(['recommended', 'solid', 'watch']);

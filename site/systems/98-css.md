@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://j
 
 Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 423 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/98-css.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/98-css.md_

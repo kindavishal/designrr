@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **watch**; traction via npm. Notes: Last activity 386 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/telegram-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/telegram-ui.md_

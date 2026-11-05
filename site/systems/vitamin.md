@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **watch**; traction via orgBacked. Notes: Last activity 516 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vitamin.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vitamin.md_

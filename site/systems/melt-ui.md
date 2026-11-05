@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 401 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/melt-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/melt-ui.md_

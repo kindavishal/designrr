@@ -1,8 +1,13 @@
 {
-  "name": "ai-ready-design-systems",
+  "name": "designrr",
   "version": "0.1.0",
   "private": true,
   "description": "A curated, scored catalog of production-grade design systems that AI agents can choose from and build with.",
+  "homepage": "https://designrr.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kindavishal/designrr.git"
+  },
   "type": "module",
   "engines": {
     "node": ">=20"

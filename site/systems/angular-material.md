@@ -103,4 +103,4 @@ Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` C
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_

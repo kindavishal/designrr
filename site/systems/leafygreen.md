@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/leafygreen.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/leafygreen.md_

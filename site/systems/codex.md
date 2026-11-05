@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/codex.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/codex.md_

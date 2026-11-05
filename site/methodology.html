@@ -90,7 +90,7 @@
 <h2 id="10-validation-and-refresh">10. Validation and refresh</h2>
 <ul><li><code>npm run validate</code> (<code>scripts/validate.mjs</code>) checks:<ul><li>seed schemas and enums</li><li>editorial references to unknown slugs</li><li>families with overlapping members</li><li>exclude reasons</li><li>guide frontmatter and sections</li><li>that every package named in a guide's install commands exists on npm, plus version drift</li></ul></li></ul>
 <p>CI runs it on every pull request and before each refresh. Errors fail the run; warnings (such as an outdated guide) are reported without failing it.</p>
-<ul><li><code>.github/workflows/refresh.yml</code> re-runs the pipeline weekly and deploys to GitHub Pages. When a system goes stale, its tier drops automatically.</li></ul>
+<ul><li><code>.github/workflows/refresh.yml</code> re-runs the pipeline weekly and pushes the refreshed data to <code>main</code>; Vercel (see <code>vercel.json</code>) rebuilds and deploys the site on every push. When a system goes stale, its tier drops automatically.</li></ul>
 <div class="code-block"><pre><code data-lang="bash">npm run all                        # validate -&gt; harvest -&gt; enrich -&gt; score -&gt; build
 npm run validate                   # includes npm lookups; add --offline to skip them
 node scripts/enrich.mjs --fresh    # ignore the cache

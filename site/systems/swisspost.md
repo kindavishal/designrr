@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/swisspost.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_

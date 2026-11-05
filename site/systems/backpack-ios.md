@@ -74,4 +74,4 @@ See https://www.skyscanner.design for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-ios.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/backpack-ios.md_

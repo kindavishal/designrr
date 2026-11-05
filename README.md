@@ -13,7 +13,7 @@ A curated, scored catalog of **237 production-grade design systems** (web, iOS, 
 
 Once it's published (see below), tell any agent that can browse:
 
-> Read https://kindavishal.github.io/ai-ready-design-systems/llms.txt and find me the top 3 design systems for my product idea: *a B2B invoicing dashboard for small agencies, web, we use Next.js*. Then build the first screens with the one you recommend.
+> Read https://designrr.vercel.app/llms.txt and find me the top 3 design systems for my product idea: *a B2B invoicing dashboard for small agencies, web, we use Next.js*. Then build the first screens with the one you recommend.
 
 The agent follows the selection protocol in `llms.txt`:
 1. Understand the product.
@@ -63,7 +63,7 @@ A GitHub token is read from `GITHUB_TOKEN`, or from `gh auth token`. Details are
 ## Maintaining
 
 - **Add a system:** add an entry to `curation/seed-community.json` and its `bestFor` (and family or brand lock, if any) to `curation/editorial.json`, then run `npm run all`. The entry is verified against GitHub and the package registries, and is listed only if it passes the gate.
-- **Weekly refresh:** `.github/workflows/refresh.yml` re-runs the pipeline every week and deploys to GitHub Pages. New topic repos land in `data/raw/review-queue.json` for review.
+- **Weekly refresh:** `.github/workflows/refresh.yml` re-runs the pipeline every week and pushes the refreshed data; Vercel redeploys on every push to `main`. New topic repos land in `data/raw/review-queue.json` for review.
 - **Write a build guide:** add `guides/<slug>.md` with `writtenFor`/`written` frontmatter and Install / Setup / Theme it to a brand / Agent tips. Pages warn automatically when a guide falls a major version behind.
 
 ## Sources

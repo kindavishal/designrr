@@ -75,4 +75,4 @@ See https://github.com/microsoft/fluentui-apple for installation.
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-apple.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-apple.md_

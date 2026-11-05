@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **watch**; traction via stars, orgBacked. Notes: Last activity 581 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ng-devui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-devui.md_

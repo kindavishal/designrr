@@ -75,4 +75,4 @@ flutter pub add forui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/forui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/forui.md_

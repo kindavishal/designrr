@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design-vue.md_

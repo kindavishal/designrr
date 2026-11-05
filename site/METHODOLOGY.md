@@ -121,7 +121,7 @@ An editorial override (`aiOverrides`) is allowed only with an evidence string, w
   - that every package named in a guide's install commands exists on npm, plus version drift
 
   CI runs it on every pull request and before each refresh. Errors fail the run; warnings (such as an outdated guide) are reported without failing it.
-- `.github/workflows/refresh.yml` re-runs the pipeline weekly and deploys to GitHub Pages. When a system goes stale, its tier drops automatically.
+- `.github/workflows/refresh.yml` re-runs the pipeline weekly and pushes the refreshed data to `main`; Vercel (see `vercel.json`) rebuilds and deploys the site on every push. When a system goes stale, its tier drops automatically.
 
 ```bash
 npm run all                        # validate -> harvest -> enrich -> score -> build

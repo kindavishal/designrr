@@ -101,4 +101,4 @@ Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_

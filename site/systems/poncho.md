@@ -71,4 +71,4 @@ See https://argob.github.io/poncho/ for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/poncho.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/poncho.md_

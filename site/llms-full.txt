@@ -93,7 +93,7 @@ npm install @react-spectrum/s2        # React Spectrum S2: Adobe's styled compon
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-spectrum.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-spectrum.md_
 
 ---
 
@@ -198,7 +198,7 @@ Components are copied into your repo (`components/ui/*`), so you own and edit th
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-ui.md_
 
 ---
 
@@ -304,7 +304,7 @@ Everything goes through `createTheme`: `colors` (10-shade tuples), `primaryColor
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/mantine.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mantine.md_
 
 ---
 
@@ -401,7 +401,7 @@ Composable primitives (Thread, Composer, Message, ActionBar) with runtimes for t
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/assistant-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/assistant-ui.md_
 
 ---
 
@@ -513,7 +513,7 @@ Pass it to `ChakraProvider value={system}` inside the provider, and run `npx @ch
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/chakra-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/chakra-ui.md_
 
 ---
 
@@ -622,7 +622,7 @@ Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" da
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/heroui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_
 
 ---
 
@@ -730,7 +730,7 @@ Global design tokens in `token`, per-component tokens in `components: { Button: 
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design.md_
 
 ---
 
@@ -840,7 +840,7 @@ Carbon is intentionally opinionated: pick one of the four themes and customise t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_
 
 ---
 
@@ -934,7 +934,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ark-ui.md_
 
 ---
 
@@ -1042,7 +1042,7 @@ All brand decisions go in `createTheme` (palette, typography, shape, `components
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/mui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mui.md_
 
 ---
 
@@ -1135,7 +1135,7 @@ Sass variables (`$primary`, `$secondary`, …) in `src/css/quasar.variables.scss
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/quasar.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/quasar.md_
 
 ---
 
@@ -1230,7 +1230,7 @@ One seed colour generates the full Material 3 scheme; customise `textTheme` and 
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/flutter-material.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/flutter-material.md_
 
 ---
 
@@ -1347,7 +1347,7 @@ Custom colour scales go in CSS with Tailwind's `@theme`; per-component `ui` prop
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nuxt-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nuxt-ui.md_
 
 ---
 
@@ -1458,7 +1458,7 @@ The theme generator on daisyui.com produces these blocks.
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/daisyui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/daisyui.md_
 
 ---
 
@@ -1540,7 +1540,7 @@ See https://reactbits.dev for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-bits.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-bits.md_
 
 ---
 
@@ -1648,7 +1648,7 @@ Tokens and themes are typed in the config: use `$tokens` (`bg="$background"`, `p
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tamagui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tamagui.md_
 
 ---
 
@@ -1751,7 +1751,7 @@ Nuxt: use the `@primevue/nuxt-module` module. Components can be auto-imported (s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primevue.md_
 
 ---
 
@@ -1864,7 +1864,7 @@ Vuetify does not bundle the Roboto font; add it yourself (as above).
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_
 
 ---
 
@@ -1971,7 +1971,7 @@ Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_
 
 ---
 
@@ -2062,7 +2062,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primeng.md_
 
 ---
 
@@ -2148,7 +2148,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/rsuite.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rsuite.md_
 
 ---
 
@@ -2245,7 +2245,7 @@ Build a 16-step `BrandVariants` ramp (the Theme Designer in the docs generates o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui.md_
 
 ---
 
@@ -2334,7 +2334,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/bootstrap.md_
 
 ---
 
@@ -2423,7 +2423,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/seed-design.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/seed-design.md_
 
 ---
 
@@ -2510,7 +2510,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wordpress-components.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wordpress-components.md_
 
 ---
 
@@ -2605,7 +2605,7 @@ Generate a full Material 3 colour scheme from one brand colour (the theming guid
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-native-paper.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-native-paper.md_
 
 ---
 
@@ -2710,7 +2710,7 @@ Primer is GitHub's identity; customise through the Primer Primitives CSS variabl
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primer.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer.md_
 
 ---
 
@@ -2796,7 +2796,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/base-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/base-ui.md_
 
 ---
 
@@ -2893,7 +2893,7 @@ v5 has no `tailwind.config.js`: theme tokens are shadcn-style semantic variables
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gluestack-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gluestack-ui.md_
 
 ---
 
@@ -2983,7 +2983,7 @@ Set the colour variables (`--ion-color-primary`, its `-rgb`, `-contrast`, `-shad
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ionic.md_
 
 ---
 
@@ -3077,7 +3077,7 @@ Edit the CSS variables in your global stylesheet (`--primary`, `--background`, `
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-svelte.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-svelte.md_
 
 ---
 
@@ -3163,7 +3163,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-vue.md_
 
 ---
 
@@ -3244,7 +3244,7 @@ See https://intentui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/intentui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/intentui.md_
 
 ---
 
@@ -3333,7 +3333,7 @@ Set theme settings in `_uswds-theme.scss` with `@use "uswds-core" with (…)`, f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/uswds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/uswds.md_
 
 ---
 
@@ -3420,7 +3420,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spectrum-web-components.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spectrum-web-components.md_
 
 ---
 
@@ -3508,7 +3508,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vibe.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vibe.md_
 
 ---
 
@@ -3595,7 +3595,7 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ng-zorro.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-zorro.md_
 
 ---
 
@@ -3682,7 +3682,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap-vue-next.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/bootstrap-vue-next.md_
 
 ---
 
@@ -3764,7 +3764,7 @@ See https://zardui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/zardui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/zardui.md_
 
 ---
 
@@ -3857,7 +3857,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-ngx.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fundamental-ngx.md_
 
 ---
 
@@ -3942,7 +3942,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/reka-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/reka-ui.md_
 
 ---
 
@@ -4032,7 +4032,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primer-primitives.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer-primitives.md_
 
 ---
 
@@ -4116,7 +4116,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/blueprint.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/blueprint.md_
 
 ---
 
@@ -4205,7 +4205,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui5.md_
 
 ---
 
@@ -4304,7 +4304,7 @@ Limited by design: `applyTheme({ theme, selector: 'body' })` from `@cloudscape-d
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/cloudscape.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cloudscape.md_
 
 ---
 
@@ -4404,7 +4404,7 @@ Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primar
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_
 
 ---
 
@@ -4490,7 +4490,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/heroui-native.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/heroui-native.md_
 
 ---
 
@@ -4584,7 +4584,7 @@ One class re-brands everything: `wa-brand-<hue>` on `<html>`. Finer control: ove
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/web-awesome.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/web-awesome.md_
 
 ---
 
@@ -4670,7 +4670,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/sanity-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/sanity-ui.md_
 
 ---
 
@@ -4755,7 +4755,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/naive-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/naive-ui.md_
 
 ---
 
@@ -4841,7 +4841,7 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lobe-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lobe-ui.md_
 
 ---
 
@@ -4930,7 +4930,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/leafygreen.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/leafygreen.md_
 
 ---
 
@@ -5017,7 +5017,7 @@ Then follow the framework setup in the official getting-started guide: https://i
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/siemens-ix.md_
 
 ---
 
@@ -5105,7 +5105,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/clarity.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/clarity.md_
 
 ---
 
@@ -5191,7 +5191,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-svelte.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon-svelte.md_
 
 ---
 
@@ -5276,7 +5276,7 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/eui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/eui.md_
 
 ---
 
@@ -5364,7 +5364,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-styles.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fundamental-styles.md_
 
 ---
 
@@ -5453,7 +5453,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spindle.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spindle.md_
 
 ---
 
@@ -5542,7 +5542,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/po-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/po-ui.md_
 
 ---
 
@@ -5635,7 +5635,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/stacks.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/stacks.md_
 
 ---
 
@@ -5722,7 +5722,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ng-primitives.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-primitives.md_
 
 ---
 
@@ -5803,7 +5803,7 @@ See https://composeunstyled.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/compose-unstyled.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/compose-unstyled.md_
 
 ---
 
@@ -5891,7 +5891,7 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/helios.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/helios.md_
 
 ---
 
@@ -5980,7 +5980,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/blade.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/blade.md_
 
 ---
 
@@ -6063,7 +6063,7 @@ dotnet add package Microsoft.FluentUI.AspNetCore.Components
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-blazor.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-blazor.md_
 
 ---
 
@@ -6151,7 +6151,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/cms-design-system.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cms-design-system.md_
 
 ---
 
@@ -6237,7 +6237,7 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/frappe-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/frappe-ui.md_
 
 ---
 
@@ -6321,7 +6321,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/semi-design.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/semi-design.md_
 
 ---
 
@@ -6415,7 +6415,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/db-ux.md_
 
 ---
 
@@ -6502,7 +6502,7 @@ Then follow the framework setup in the official getting-started guide: https://y
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/yamada-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/yamada-ui.md_
 
 ---
 
@@ -6588,7 +6588,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/forma-36.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/forma-36.md_
 
 ---
 
@@ -6669,7 +6669,7 @@ See https://github.com/microsoft/fluentui-apple for installation.
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-apple.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-apple.md_
 
 ---
 
@@ -6754,7 +6754,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/saas-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/saas-ui.md_
 
 ---
 
@@ -6839,7 +6839,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/flyonui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/flyonui.md_
 
 ---
 
@@ -6925,7 +6925,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui5-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui5-react.md_
 
 ---
 
@@ -7011,7 +7011,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/park-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/park-ui.md_
 
 ---
 
@@ -7097,7 +7097,7 @@ Then follow the framework setup in the official getting-started guide: https://j
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ring-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ring-ui.md_
 
 ---
 
@@ -7181,7 +7181,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/reshaped.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/reshaped.md_
 
 ---
 
@@ -7267,7 +7267,7 @@ Then follow the framework setup in the official getting-started guide: https://i
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/instructure-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/instructure-ui.md_
 
 ---
 
@@ -7358,7 +7358,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/calcite.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/calcite.md_
 
 ---
 
@@ -7447,7 +7447,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tailgrids.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tailgrids.md_
 
 ---
 
@@ -7544,7 +7544,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nysds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_
 
 ---
 
@@ -7631,7 +7631,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/beeq.md_
 
 ---
 
@@ -7730,7 +7730,7 @@ Override the semantic CSS variables (`--g-color-base-brand`, `--g-color-text-bra
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gravity-ui.md_
 
 ---
 
@@ -7824,7 +7824,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/porsche.md_
 
 ---
 
@@ -7911,7 +7911,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nvidia-elements.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nvidia-elements.md_
 
 ---
 
@@ -7995,7 +7995,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/untitled-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/untitled-ui.md_
 
 ---
 
@@ -8084,7 +8084,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primer-view-components.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer-view-components.md_
 
 ---
 
@@ -8171,7 +8171,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/orbit.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/orbit.md_
 
 ---
 
@@ -8271,7 +8271,7 @@ Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/material-android.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_
 
 ---
 
@@ -8357,7 +8357,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/circuit-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/circuit-ui.md_
 
 ---
 
@@ -8444,7 +8444,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/igniteui-webcomponents.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/igniteui-webcomponents.md_
 
 ---
 
@@ -8532,7 +8532,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/welcome-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/welcome-ui.md_
 
 ---
 
@@ -8618,7 +8618,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/designsystemet.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/designsystemet.md_
 
 ---
 
@@ -8703,7 +8703,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/canvas-kit.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/canvas-kit.md_
 
 ---
 
@@ -8794,7 +8794,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/boosted.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/boosted.md_
 
 ---
 
@@ -8881,7 +8881,7 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wonder-blocks.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wonder-blocks.md_
 
 ---
 
@@ -8973,7 +8973,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/momentum.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/momentum.md_
 
 ---
 
@@ -9058,7 +9058,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shoreline.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shoreline.md_
 
 ---
 
@@ -9145,7 +9145,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/swisspost.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_
 
 ---
 
@@ -9231,7 +9231,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wanda.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wanda.md_
 
 ---
 
@@ -9307,7 +9307,7 @@ Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog 
 
 Quality gate: activity **active**; traction via orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/apple-hig.md_
 
 ---
 
@@ -9391,7 +9391,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/radix-primitives.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radix-primitives.md_
 
 ---
 
@@ -9475,7 +9475,7 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/element-plus.md_
 
 ---
 
@@ -9584,7 +9584,7 @@ Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` C
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_
 
 ---
 
@@ -9681,7 +9681,7 @@ Configure the `Theme`: `<Theme accentColor="crimson" grayColor="sand" radius="la
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/radix-themes.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radix-themes.md_
 
 ---
 
@@ -9770,7 +9770,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/flowbite.md_
 
 ---
 
@@ -9854,7 +9854,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primereact.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primereact.md_
 
 ---
 
@@ -9938,7 +9938,7 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/cloudflare-kumo.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cloudflare-kumo.md_
 
 ---
 
@@ -10025,7 +10025,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/foundation.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/foundation.md_
 
 ---
 
@@ -10108,7 +10108,7 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/headless-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/headless-ui.md_
 
 ---
 
@@ -10191,7 +10191,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/bits-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/bits-ui.md_
 
 ---
 
@@ -10276,7 +10276,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fast.md_
 
 ---
 
@@ -10358,7 +10358,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/atlassian.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/atlassian.md_
 
 ---
 
@@ -10443,7 +10443,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/skeleton.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/skeleton.md_
 
 ---
 
@@ -10523,7 +10523,7 @@ dotnet add package Radzen.Blazor
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/radzen-blazor.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radzen-blazor.md_
 
 ---
 
@@ -10606,7 +10606,7 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/kobalte.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/kobalte.md_
 
 ---
 
@@ -10690,7 +10690,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/baseweb.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/baseweb.md_
 
 ---
 
@@ -10780,7 +10780,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primer-css.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer-css.md_
 
 ---
 
@@ -10864,7 +10864,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/arco-design.md_
 
 ---
 
@@ -10949,7 +10949,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/material-web.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/material-web.md_
 
 ---
 
@@ -11033,7 +11033,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/beercss.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/beercss.md_
 
 ---
 
@@ -11114,7 +11114,7 @@ dotnet add package MudBlazor
 
 Quality gate: activity **active**; traction via stars, nuget. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/mudblazor.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mudblazor.md_
 
 ---
 
@@ -11198,7 +11198,7 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/amplify-ui.md_
 
 ---
 
@@ -11279,7 +11279,7 @@ flutter pub add shadcn_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-flutter-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-flutter-ui.md_
 
 ---
 
@@ -11362,7 +11362,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ariakit.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ariakit.md_
 
 ---
 
@@ -11447,7 +11447,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vaadin.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vaadin.md_
 
 ---
 
@@ -11530,7 +11530,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-bootstrap.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-bootstrap.md_
 
 ---
 
@@ -11614,7 +11614,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/patternfly.md_
 
 ---
 
@@ -11706,7 +11706,7 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_
 
 ---
 
@@ -11790,7 +11790,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/arco-design-vue.md_
 
 ---
 
@@ -11875,7 +11875,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gestalt.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gestalt.md_
 
 ---
 
@@ -11955,7 +11955,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ui-kitten.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui-kitten.md_
 
 ---
 
@@ -12036,7 +12036,7 @@ flutter pub add fluent_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui-flutter.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui-flutter.md_
 
 ---
 
@@ -12114,7 +12114,7 @@ See https://www.neobrutalism.dev for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/neobrutalism.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/neobrutalism.md_
 
 ---
 
@@ -12195,7 +12195,7 @@ dotnet add package Blazorise
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/blazorise.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/blazorise.md_
 
 ---
 
@@ -12279,7 +12279,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react95.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react95.md_
 
 ---
 
@@ -12363,7 +12363,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/grommet.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/grommet.md_
 
 ---
 
@@ -12449,7 +12449,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/preline.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/preline.md_
 
 ---
 
@@ -12533,7 +12533,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/paste.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/paste.md_
 
 ---
 
@@ -12619,7 +12619,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/bulma.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/bulma.md_
 
 ---
 
@@ -12703,7 +12703,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design-vue.md_
 
 ---
 
@@ -12788,7 +12788,7 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lion.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lion.md_
 
 ---
 
@@ -12867,7 +12867,7 @@ See https://github.com/microsoft/fluentui-android for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-android.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-android.md_
 
 ---
 
@@ -12946,7 +12946,7 @@ See https://www.hyperui.dev for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/hyperui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/hyperui.md_
 
 ---
 
@@ -13032,7 +13032,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/braid.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/braid.md_
 
 ---
 
@@ -13117,7 +13117,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-svelte.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/flowbite-svelte.md_
 
 ---
 
@@ -13199,7 +13199,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vant.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vant.md_
 
 ---
 
@@ -13279,7 +13279,7 @@ flutter pub add getwidget
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/getwidget.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/getwidget.md_
 
 ---
 
@@ -13364,7 +13364,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/pro-components.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/pro-components.md_
 
 ---
 
@@ -13448,7 +13448,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tiny-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tiny-vue.md_
 
 ---
 
@@ -13530,7 +13530,7 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nordhealth.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_
 
 ---
 
@@ -13611,7 +13611,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/rn-elements.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rn-elements.md_
 
 ---
 
@@ -13695,7 +13695,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/hiui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/hiui.md_
 
 ---
 
@@ -13778,7 +13778,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/strapi-ds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/strapi-ds.md_
 
 ---
 
@@ -13862,7 +13862,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/flowbite-react.md_
 
 ---
 
@@ -13943,7 +13943,7 @@ flutter pub add forui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/forui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/forui.md_
 
 ---
 
@@ -14026,7 +14026,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-mobile.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design-mobile.md_
 
 ---
 
@@ -14111,7 +14111,7 @@ Then follow the framework setup in the official getting-started guide: https://i
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-ibm-products.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon-ibm-products.md_
 
 ---
 
@@ -14195,7 +14195,7 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/helsinki-hds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/helsinki-hds.md_
 
 ---
 
@@ -14280,7 +14280,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/rn-reusables.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rn-reusables.md_
 
 ---
 
@@ -14362,7 +14362,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fusion.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fusion.md_
 
 ---
 
@@ -14444,7 +14444,7 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuestic-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vuestic-ui.md_
 
 ---
 
@@ -14527,7 +14527,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tw-elements.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tw-elements.md_
 
 ---
 
@@ -14611,7 +14611,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/smarthr-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/smarthr-ui.md_
 
 ---
 
@@ -14697,7 +14697,7 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/rhds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rhds.md_
 
 ---
 
@@ -14780,7 +14780,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/theme-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/theme-ui.md_
 
 ---
 
@@ -14863,7 +14863,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tdesign.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tdesign.md_
 
 ---
 
@@ -14943,7 +14943,7 @@ flutter pub add macos_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/macos-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/macos-ui.md_
 
 ---
 
@@ -15029,7 +15029,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/open-props.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/open-props.md_
 
 ---
 
@@ -15108,7 +15108,7 @@ See https://www.diceui.com for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/diceui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/diceui.md_
 
 ---
 
@@ -15193,7 +15193,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/priceline-one.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/priceline-one.md_
 
 ---
 
@@ -15277,7 +15277,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/slds-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/slds-react.md_
 
 ---
 
@@ -15363,7 +15363,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/baloise.md_
 
 ---
 
@@ -15446,7 +15446,7 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/konsta.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/konsta.md_
 
 ---
 
@@ -15529,7 +15529,7 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/zendesk-garden.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/zendesk-garden.md_
 
 ---
 
@@ -15612,7 +15612,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/codex.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/codex.md_
 
 ---
 
@@ -15694,7 +15694,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-md.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-md.md_
 
 ---
 
@@ -15778,7 +15778,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/react-dsfr.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-dsfr.md_
 
 ---
 
@@ -15865,7 +15865,7 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/layui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/layui.md_
 
 ---
 
@@ -15946,7 +15946,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/splunk-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_
 
 ---
 
@@ -16029,7 +16029,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nhsuk-frontend.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nhsuk-frontend.md_
 
 ---
 
@@ -16118,7 +16118,7 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/baklava.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/baklava.md_
 
 ---
 
@@ -16198,7 +16198,7 @@ See https://design.digital.go.jp for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/japan-dads.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/japan-dads.md_
 
 ---
 
@@ -16283,7 +16283,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/telekom-scale.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/telekom-scale.md_
 
 ---
 
@@ -16385,7 +16385,7 @@ Markup: use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or c
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/govuk-frontend.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/govuk-frontend.md_
 
 ---
 
@@ -16472,7 +16472,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fomantic-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fomantic-ui.md_
 
 ---
 
@@ -16557,7 +16557,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/cedar.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cedar.md_
 
 ---
 
@@ -16640,7 +16640,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vexip-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vexip-ui.md_
 
 ---
 
@@ -16725,7 +16725,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/charcoal.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/charcoal.md_
 
 ---
 
@@ -16808,7 +16808,7 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nutui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nutui.md_
 
 ---
 
@@ -16886,7 +16886,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gitlab-pajamas.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gitlab-pajamas.md_
 
 ---
 
@@ -16970,7 +16970,7 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nutui-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nutui-react.md_
 
 ---
 
@@ -17062,7 +17062,7 @@ import { SaltProvider, Button } from '@salt-ds/core';
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/salt-ds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/salt-ds.md_
 
 ---
 
@@ -17147,7 +17147,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/agds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/agds.md_
 
 ---
 
@@ -17229,7 +17229,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/clay.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/clay.md_
 
 ---
 
@@ -17311,7 +17311,7 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus-x.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/element-plus-x.md_
 
 ---
 
@@ -17400,7 +17400,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/astro-uxds.md_
 
 ---
 
@@ -17481,7 +17481,7 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lens.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lens.md_
 
 ---
 
@@ -17563,7 +17563,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/varlet.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/varlet.md_
 
 ---
 
@@ -17647,7 +17647,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly-elements.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/patternfly-elements.md_
 
 ---
 
@@ -17733,7 +17733,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ontario-ds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ontario-ds.md_
 
 ---
 
@@ -17815,7 +17815,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/oruga.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/oruga.md_
 
 ---
 
@@ -17899,7 +17899,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/dsfr.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/dsfr.md_
 
 ---
 
@@ -17983,7 +17983,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/sgds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/sgds.md_
 
 ---
 
@@ -18068,7 +18068,7 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/odyssey.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/odyssey.md_
 
 ---
 
@@ -18151,7 +18151,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wedges.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wedges.md_
 
 ---
 
@@ -18236,7 +18236,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements-vue.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ai-elements-vue.md_
 
 ---
 
@@ -18325,7 +18325,7 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/auro.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/auro.md_
 
 ---
 
@@ -18408,7 +18408,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/oracle-jet.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/oracle-jet.md_
 
 ---
 
@@ -18488,7 +18488,7 @@ See https://www.skyscanner.design for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-android.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/backpack-android.md_
 
 ---
 
@@ -18571,7 +18571,7 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/franken-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/franken-ui.md_
 
 ---
 
@@ -18655,7 +18655,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/brainly-pencil.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/brainly-pencil.md_
 
 ---
 
@@ -18736,7 +18736,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/wix-style-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wix-style-react.md_
 
 ---
 
@@ -18822,7 +18822,7 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lyne.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lyne.md_
 
 ---
 
@@ -18906,7 +18906,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/gcds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gcds.md_
 
 ---
 
@@ -18986,7 +18986,7 @@ See https://www.skyscanner.design for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-ios.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/backpack-ios.md_
 
 ---
 
@@ -19069,7 +19069,7 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vue-devui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vue-devui.md_
 
 ---
 
@@ -19157,7 +19157,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nsw-design-system.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nsw-design-system.md_
 
 ---
 
@@ -19239,7 +19239,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/webtui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/webtui.md_
 
 ---
 
@@ -19324,7 +19324,7 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/nl-design-system.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nl-design-system.md_
 
 ---
 
@@ -19408,7 +19408,7 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ecl.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ecl.md_
 
 ---
 
@@ -19497,7 +19497,7 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/mozilla-protocol.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mozilla-protocol.md_
 
 ---
 
@@ -19582,7 +19582,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/mistica.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mistica.md_
 
 ---
 
@@ -19669,7 +19669,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/dkfds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/dkfds.md_
 
 ---
 
@@ -19750,7 +19750,7 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/seeds.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/seeds.md_
 
 ---
 
@@ -19827,7 +19827,7 @@ See https://argob.github.io/poncho/ for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/poncho.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/poncho.md_
 
 ---
 
@@ -19910,7 +19910,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/moon.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/moon.md_
 
 ---
 
@@ -19995,7 +19995,7 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 512 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/evergreen.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/evergreen.md_
 
 ---
 
@@ -20079,7 +20079,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 390 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tremor.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tremor.md_
 
 ---
 
@@ -20162,7 +20162,7 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 713 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/semantic-ui-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/semantic-ui-react.md_
 
 ---
 
@@ -20246,7 +20246,7 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 401 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/melt-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/melt-ui.md_
 
 ---
 
@@ -20332,7 +20332,7 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **watch**; traction via orgBacked. Notes: Last activity 516 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vitamin.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vitamin.md_
 
 ---
 
@@ -20415,7 +20415,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **watch**; traction via npm. Notes: Last activity 386 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/telegram-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/telegram-ui.md_
 
 ---
 
@@ -20500,7 +20500,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **watch**; traction via stars, orgBacked. Notes: Last activity 581 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ng-devui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-devui.md_
 
 ---
 
@@ -20587,7 +20587,7 @@ Then follow the framework setup in the official getting-started guide: https://j
 
 Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 423 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/98-css.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/98-css.md_
 
 ---
 
@@ -20671,4 +20671,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **watch**; traction via stars. Notes: Last activity 672 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/keep-react.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/keep-react.md_

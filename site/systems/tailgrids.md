@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/tailgrids.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tailgrids.md_

@@ -2,9 +2,9 @@
 
 > A curated, scored catalog of 237 production-grade design systems (web, iOS, Android, Flutter, React Native) for AI agents. Use it to pick the best design systems for a product idea, then build the product with the chosen system. Every entry passed a quality gate (actively maintained, real adoption) and is scored for AI-readiness (MCP server, llms.txt, machine-readable tokens, typed APIs, registry install).
 
-Updated 2026-11-05. Machine-readable catalog: https://kindavishal.github.io/ai-ready-design-systems/catalog.json. Every system has a page at https://kindavishal.github.io/ai-ready-design-systems/systems/<slug>.md (install, theming, AI resources, build guide); people can browse https://kindavishal.github.io/ai-ready-design-systems/index.html.
+Updated 2026-11-05. Machine-readable catalog: https://designrr.vercel.app/catalog.json. Every system has a page at https://designrr.vercel.app/systems/<slug>.md (install, theming, AI resources, build guide); people can browse https://designrr.vercel.app/index.html.
 
-**Working from a clone instead of the web?** Every URL under https://kindavishal.github.io/ai-ready-design-systems/ maps to the `site/` folder of the repository (for example `site/catalog.json`, `site/systems/mui.md`). Each catalog entry also has a relative `path`.
+**Working from a clone instead of the web?** Every URL under https://designrr.vercel.app/ maps to the `site/` folder of the repository (for example `site/catalog.json`, `site/systems/mui.md`). Each catalog entry also has a relative `path`.
 
 ## How to use this (instructions for agents)
 
@@ -16,7 +16,7 @@ When a user asks you to find design systems for a product idea:
    - Product shape (`productShapes`: `app-dashboard`, `saas-app`, `marketing-site`, `content-site`, `forms-flows`, `mobile-app`, `chat-ai`, `ecommerce`) and audience/industry (`tags`).
    - Brand: the system's look as-is, light theming, or a fully custom brand (prefer headless or copy-the-source systems for full custom).
    - Constraints: accessibility level, density, dark mode, RTL, license, page weight.
-2. **Filter** https://kindavishal.github.io/ai-ready-design-systems/catalog.json:
+2. **Filter** https://designrr.vercel.app/catalog.json:
    - platform matches; framework matches (use `vanilla` for no-framework projects).
    - **Install fits the build setup:** no bundler → require `install.noBuild: true`; no Tailwind → exclude `install.requires` containing `tailwind`.
    - **Exclude `brandLocked`** systems unless the user works for that brand. Exclude `government`-tagged systems unless it is a public-sector service, and `*-ecosystem` tags unless building inside that ecosystem.
@@ -42,332 +42,332 @@ When a user asks you to find design systems for a product idea:
 
 ## Web: React
 
-- [React Spectrum / React Aria](https://kindavishal.github.io/ai-ready-design-systems/systems/react-spectrum.md): recommended, AI 90/100, react. Accessibility- and i18n-focused React: React Aria for custom-branded systems, React Spectrum S2 for Adobe-style tools.
-- [shadcn/ui](https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-ui.md): recommended, AI 80/100, react. SaaS and AI apps on React/Next.js + Tailwind where you want to own and restyle the component source.
-- [Mantine](https://kindavishal.github.io/ai-ready-design-systems/systems/mantine.md): recommended, AI 85/100, react. Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box.
-- [assistant-ui](https://kindavishal.github.io/ai-ready-design-systems/systems/assistant-ui.md): recommended, AI 90/100, react. Production AI chat UIs in React with streaming, attachments and tool UIs.
-- [Chakra UI](https://kindavishal.github.io/ai-ready-design-systems/systems/chakra-ui.md): recommended, AI 85/100, react. Accessible, themeable React apps with style props.
-- [HeroUI (formerly NextUI)](https://kindavishal.github.io/ai-ready-design-systems/systems/heroui.md): recommended, AI 85/100, react. Consumer and SaaS React apps on Tailwind, with animations built in.
-- [Ant Design](https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md): recommended, AI 65/100, react. Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
-- [Carbon Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md): recommended, AI 85/100, react, web-components. Serious enterprise and data products with strict accessibility and a rigorous token system.
-- [Ark UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
-- [Material UI (MUI)](https://kindavishal.github.io/ai-ready-design-systems/systems/mui.md): recommended, AI 60/100, react. React apps and admin tools built on Material Design, with a large component set (including the MUI X data grid).
-- [React Bits](https://kindavishal.github.io/ai-ready-design-systems/systems/react-bits.md): recommended, AI 60/100, react. Animated text, backgrounds and effects to layer on top of another React system for landing pages.
-- [React Suite](https://kindavishal.github.io/ai-ready-design-systems/systems/rsuite.md): recommended, AI 70/100, react. React admin and enterprise apps with pickers, tables and form controls.
-- [Fluent UI](https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md): recommended, AI 60/100, react, web-components. Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins.
-- [SEED Design (Karrot)](https://kindavishal.github.io/ai-ready-design-systems/systems/seed-design.md): recommended, AI 80/100, react, BRAND-LOCKED. Karrot-style mobile-first consumer and marketplace apps in React.
-- [WordPress Components](https://kindavishal.github.io/ai-ready-design-systems/systems/wordpress-components.md): recommended, AI 60/100, react. WordPress block-editor plugins and wp-admin interfaces.
-- [Primer](https://kindavishal.github.io/ai-ready-design-systems/systems/primer.md): recommended, AI 70/100, react. Developer tools and GitHub-like interfaces.
-- [Base UI](https://kindavishal.github.io/ai-ready-design-systems/systems/base-ui.md): recommended, AI 45/100, react. Unstyled, accessible React primitives from the MUI team for building a custom-branded system.
-- [Ionic Framework](https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
-- [Intent UI](https://kindavishal.github.io/ai-ready-design-systems/systems/intentui.md): recommended, AI 70/100, react. Accessible React Aria components styled with Tailwind, copy-paste into your project.
-- [monday.com Vibe](https://kindavishal.github.io/ai-ready-design-systems/systems/vibe.md): recommended, AI 65/100, react, BRAND-LOCKED. monday.com marketplace apps and work-management style React UIs.
-- [Blueprint](https://kindavishal.github.io/ai-ready-design-systems/systems/blueprint.md): recommended, AI 45/100, react. Complex, data-dense desktop-style web apps (analytics, ops tooling).
-- [SAP UI5 Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md): recommended, AI 60/100, web-components, react. SAP Fiori-compliant enterprise apps as framework-agnostic web components.
-- [Cloudscape](https://kindavishal.github.io/ai-ready-design-systems/systems/cloudscape.md): recommended, AI 55/100, react. Cloud consoles, ops dashboards and data-heavy B2B tools (AWS console style).
-- [Sanity UI](https://kindavishal.github.io/ai-ready-design-systems/systems/sanity-ui.md): recommended, AI 55/100, react. Sanity Studio plugins and CMS-style React apps.
-- [Lobe UI](https://kindavishal.github.io/ai-ready-design-systems/systems/lobe-ui.md): recommended, AI 50/100, react. AI chat and AIGC web apps in React (LobeChat-style).
-- [LeafyGreen](https://kindavishal.github.io/ai-ready-design-systems/systems/leafygreen.md): recommended, AI 65/100, react, BRAND-LOCKED. MongoDB-style developer consoles in React.
-- [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
-- [Elastic UI (EUI)](https://kindavishal.github.io/ai-ready-design-systems/systems/eui.md): recommended, AI 45/100, react. Search, observability and analytics dashboards.
-- [Spindle (Ameba)](https://kindavishal.github.io/ai-ready-design-systems/systems/spindle.md): recommended, AI 70/100, react, BRAND-LOCKED. Ameba-style Japanese consumer and content React apps.
-- [CMS Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/cms-design-system.md): recommended, AI 65/100, react, web-components. US healthcare and government enrolment flows (Medicare/healthcare.gov).
-- [Semi Design](https://kindavishal.github.io/ai-ready-design-systems/systems/semi-design.md): recommended, AI 45/100, react. Large React admin and content-platform apps (ByteDance), with theming via the Semi DSM.
-- [DB UX Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
-- [Yamada UI](https://kindavishal.github.io/ai-ready-design-systems/systems/yamada-ui.md): recommended, AI 60/100, react. Themeable React apps with style props (Chakra-like).
-- [Forma 36](https://kindavishal.github.io/ai-ready-design-systems/systems/forma-36.md): recommended, AI 50/100, react. Contentful apps and CMS extensions.
-- [Saas UI](https://kindavishal.github.io/ai-ready-design-systems/systems/saas-ui.md): recommended, AI 55/100, react. SaaS starter UI (auth, forms, data grids, layouts) on top of Chakra UI.
-- [UI5 Web Components for React](https://kindavishal.github.io/ai-ready-design-systems/systems/ui5-react.md): recommended, AI 50/100, react. SAP Fiori-compliant React apps.
-- [Park UI](https://kindavishal.github.io/ai-ready-design-systems/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
-- [Ring UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ring-ui.md): recommended, AI 45/100, react, BRAND-LOCKED. JetBrains-style developer tools in React.
-- [Reshaped](https://kindavishal.github.io/ai-ready-design-systems/systems/reshaped.md): recommended, AI 45/100, react. Themeable React components with a matching Figma library, for product teams.
-- [Instructure UI](https://kindavishal.github.io/ai-ready-design-systems/systems/instructure-ui.md): recommended, AI 55/100, react. Accessible education apps (Canvas LMS-style) in React.
-- [Esri Calcite](https://kindavishal.github.io/ai-ready-design-systems/systems/calcite.md): recommended, AI 45/100, web-components, react, vanilla, no build, BRAND-LOCKED. ArcGIS / mapping and GIS apps.
-- [TailGrids](https://kindavishal.github.io/ai-ready-design-systems/systems/tailgrids.md): recommended, AI 65/100, react, any. Tailwind UI blocks and dashboard sections for React or plain HTML.
-- [BEEQ](https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
-- [Gravity UI](https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md): recommended, AI 45/100, react. Internal tools, cloud consoles and dashboards; includes charts, navigation and date components.
-- [Porsche Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
-- [Untitled UI React](https://kindavishal.github.io/ai-ready-design-systems/systems/untitled-ui.md): recommended, AI 45/100, react. SaaS and marketing UI in React + Tailwind, built on React Aria.
-- [Kiwi.com Orbit](https://kindavishal.github.io/ai-ready-design-systems/systems/orbit.md): recommended, AI 45/100, react, BRAND-LOCKED. Kiwi.com travel booking UIs (brand-locked); strong reference for booking flows.
-- [SumUp Circuit UI](https://kindavishal.github.io/ai-ready-design-systems/systems/circuit-ui.md): recommended, AI 45/100, react, BRAND-LOCKED. SumUp payments and merchant apps in React.
-- [Welcome UI](https://kindavishal.github.io/ai-ready-design-systems/systems/welcome-ui.md): recommended, AI 50/100, react, BRAND-LOCKED. Welcome to the Jungle job-board style React apps.
-- [Designsystemet (Norway)](https://kindavishal.github.io/ai-ready-design-systems/systems/designsystemet.md): recommended, AI 45/100, react, web-components. Norwegian public-sector services.
-- [Workday Canvas Kit](https://kindavishal.github.io/ai-ready-design-systems/systems/canvas-kit.md): recommended, AI 45/100, react. Workday-style HR and enterprise React apps.
-- [Wonder Blocks](https://kindavishal.github.io/ai-ready-design-systems/systems/wonder-blocks.md): recommended, AI 45/100, react, BRAND-LOCKED. Khan Academy learning experiences in React.
-- [VTEX Shoreline](https://kindavishal.github.io/ai-ready-design-systems/systems/shoreline.md): recommended, AI 50/100, react. VTEX commerce admin apps in React.
-- [Wonderflow Wanda](https://kindavishal.github.io/ai-ready-design-systems/systems/wanda.md): recommended, AI 45/100, react, BRAND-LOCKED. Analytics and insights SaaS dashboards in React.
-- [Radix Primitives](https://kindavishal.github.io/ai-ready-design-systems/systems/radix-primitives.md): solid, AI 30/100, react. Unstyled accessible primitives when you are building your own branded system.
-- [Radix Themes](https://kindavishal.github.io/ai-ready-design-systems/systems/radix-themes.md): solid, AI 40/100, react. Accessible React UI with a ready-made default look and minimal setup.
-- [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
-- [PrimeReact](https://kindavishal.github.io/ai-ready-design-systems/systems/primereact.md): solid, AI 40/100, react. React apps that need a large component set (data tables, charts, editors) with themes.
-- [Cloudflare Kumo](https://kindavishal.github.io/ai-ready-design-systems/systems/cloudflare-kumo.md): solid, AI 40/100, react. Cloudflare-style developer dashboards in React + Tailwind.
-- [Headless UI](https://kindavishal.github.io/ai-ready-design-systems/systems/headless-ui.md): solid, AI 20/100, react, vue. Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).
-- [Atlassian Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/atlassian.md): solid, AI 35/100, react, BRAND-LOCKED. Collaboration and work-management tools; Jira/Confluence apps.
-- [Skeleton](https://kindavishal.github.io/ai-ready-design-systems/systems/skeleton.md): solid, AI 40/100, svelte, react. Svelte (and React) apps on Tailwind with a themeable design system.
-- [Base Web](https://kindavishal.github.io/ai-ready-design-systems/systems/baseweb.md): solid, AI 35/100, react. Uber-style React apps.
-- [Arco Design](https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design.md): solid, AI 35/100, react, vue. ByteDance-style React enterprise and admin apps.
-- [Ariakit](https://kindavishal.github.io/ai-ready-design-systems/systems/ariakit.md): solid, AI 20/100, react. Low-level, accessible React primitives for custom component libraries.
-- [React Bootstrap](https://kindavishal.github.io/ai-ready-design-systems/systems/react-bootstrap.md): solid, AI 15/100, react. Bootstrap 5 components as real React components.
-- [PatternFly](https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly.md): solid, AI 35/100, react. Enterprise and hybrid-cloud management consoles.
-- [AI Elements](https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements.md): solid, AI 30/100, react. Chat, agent and AI-assistant interfaces (messages, prompt input, reasoning, tool calls) on shadcn/ui + AI SDK.
-- [Gestalt](https://kindavishal.github.io/ai-ready-design-systems/systems/gestalt.md): solid, AI 35/100, react, BRAND-LOCKED. Pinterest-style visual, image-heavy consumer UIs in React.
-- [Neobrutalism Components](https://kindavishal.github.io/ai-ready-design-systems/systems/neobrutalism.md): solid, AI 25/100, react. Bold neobrutalist look on top of shadcn/ui and Tailwind.
-- [React95](https://kindavishal.github.io/ai-ready-design-systems/systems/react95.md): solid, AI 40/100, react. Windows 95 look for playful React apps.
-- [Grommet](https://kindavishal.github.io/ai-ready-design-systems/systems/grommet.md): solid, AI 25/100, react. Accessible, themeable React apps (HPE).
-- [Twilio Paste](https://kindavishal.github.io/ai-ready-design-systems/systems/paste.md): solid, AI 40/100, react. Twilio-style accessible B2B React apps.
-- [Braid](https://kindavishal.github.io/ai-ready-design-systems/systems/braid.md): solid, AI 35/100, react, BRAND-LOCKED. SEEK's job-marketplace products (brand-locked).
-- [Ant Design Pro Components](https://kindavishal.github.io/ai-ready-design-systems/systems/pro-components.md): solid, AI 20/100, react. Ant Design admin screens fast: ProTable, ProForm, ProLayout.
-- [HIUI](https://kindavishal.github.io/ai-ready-design-systems/systems/hiui.md): solid, AI 40/100, react. Xiaomi-style React admin apps.
-- [Strapi Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/strapi-ds.md): solid, AI 25/100, react. Strapi admin plugins and CMS-style React apps.
-- [Flowbite React](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-react.md): solid, AI 20/100, react. Flowbite's Tailwind components as React components.
-- [Ant Design Mobile](https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-mobile.md): solid, AI 15/100, react. Mobile web apps and H5 commerce pages in React.
-- [Carbon for IBM Products](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-ibm-products.md): solid, AI 35/100, react, web-components. Higher-level Carbon patterns (tearsheets, create flows) for IBM-style products.
-- [Helsinki Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/helsinki-hds.md): solid, AI 40/100, react, any. City of Helsinki services.
-- [Fusion Design (Alibaba)](https://kindavishal.github.io/ai-ready-design-systems/systems/fusion.md): solid, AI 20/100, react. Alibaba-style React enterprise apps.
-- [SmartHR UI](https://kindavishal.github.io/ai-ready-design-systems/systems/smarthr-ui.md): solid, AI 25/100, react. Japanese HR SaaS-style React apps.
-- [Theme UI](https://kindavishal.github.io/ai-ready-design-systems/systems/theme-ui.md): solid, AI 15/100, react. Constraint-based, themeable React styling (theme spec) for custom systems.
-- [TDesign](https://kindavishal.github.io/ai-ready-design-systems/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
-- [Dice UI](https://kindavishal.github.io/ai-ready-design-systems/systems/diceui.md): solid, AI 20/100, react. Extra accessible components (sortable, combobox, etc.) for shadcn/ui projects.
-- [Priceline One](https://kindavishal.github.io/ai-ready-design-systems/systems/priceline-one.md): solid, AI 25/100, react, BRAND-LOCKED. Priceline travel booking UIs (brand-locked).
-- [Lightning Design System React](https://kindavishal.github.io/ai-ready-design-systems/systems/slds-react.md): solid, AI 25/100, react. Salesforce Lightning look in React apps outside the Salesforce platform.
-- [Baloise Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
-- [Konsta UI](https://kindavishal.github.io/ai-ready-design-systems/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
-- [Zendesk Garden](https://kindavishal.github.io/ai-ready-design-systems/systems/zendesk-garden.md): solid, AI 15/100, react. Zendesk apps and support-desk style React UIs.
-- [react-md](https://kindavishal.github.io/ai-ready-design-systems/systems/react-md.md): solid, AI 20/100, react. Accessible Material-style React apps.
-- [react-dsfr](https://kindavishal.github.io/ai-ready-design-systems/systems/react-dsfr.md): solid, AI 25/100, react. French government services in React (DSFR).
-- [Splunk UI](https://kindavishal.github.io/ai-ready-design-systems/systems/splunk-ui.md): solid, AI 30/100, react, BRAND-LOCKED. Splunk app and dashboard UIs.
-- [Trendyol Baklava](https://kindavishal.github.io/ai-ready-design-systems/systems/baklava.md): solid, AI 25/100, web-components, react, vanilla, no build, BRAND-LOCKED. Trendyol e-commerce products (brand-locked).
-- [Japan Digital Agency Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/japan-dads.md): solid, AI 25/100, react. Japanese government services (Digital Agency).
-- [pixiv Charcoal](https://kindavishal.github.io/ai-ready-design-systems/systems/charcoal.md): solid, AI 25/100, react, BRAND-LOCKED. pixiv creative-community products (brand-locked).
-- [NutUI React](https://kindavishal.github.io/ai-ready-design-systems/systems/nutui-react.md): solid, AI 25/100, react. JD-style mobile commerce in React and mini-programs.
-- [Salt Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/salt-ds.md): solid, AI 25/100, react, BRAND-LOCKED. Financial and trading apps with dense data and strict accessibility.
-- [Australian Government Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/agds.md): solid, AI 40/100, react. Australian government services in React.
-- [Clay (Liferay Lexicon)](https://kindavishal.github.io/ai-ready-design-systems/systems/clay.md): solid, AI 25/100, react. Liferay portal and DXP apps.
-- [Astro UXDS](https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
-- [Lens](https://kindavishal.github.io/ai-ready-design-systems/systems/lens.md): solid, AI 15/100, react, BRAND-LOCKED. Loom-style video and SaaS products (brand-locked).
-- [Ontario Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
-- [Okta Odyssey](https://kindavishal.github.io/ai-ready-design-systems/systems/odyssey.md): solid, AI 30/100, react, BRAND-LOCKED. Okta-style identity and admin consoles (MUI-based).
-- [Lemon Squeezy Wedges](https://kindavishal.github.io/ai-ready-design-systems/systems/wedges.md): solid, AI 20/100, react. Lemon Squeezy-style SaaS and checkout UIs on Tailwind + Radix.
-- [Brainly Pencil](https://kindavishal.github.io/ai-ready-design-systems/systems/brainly-pencil.md): solid, AI 25/100, react, BRAND-LOCKED. Brainly learning products (brand-locked).
-- [Wix Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/wix-style-react.md): solid, AI 15/100, react, BRAND-LOCKED. Wix app-market apps.
-- [GC Design System (Canada)](https://kindavishal.github.io/ai-ready-design-systems/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
-- [NL Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/nl-design-system.md): solid, AI 35/100, react, web-components, any. Dutch government services (multi-organisation themes).
-- [Telefónica Mística](https://kindavishal.github.io/ai-ready-design-systems/systems/mistica.md): solid, AI 15/100, react, BRAND-LOCKED. Telefónica brand products (brand-locked).
-- [Sprout Social Seeds](https://kindavishal.github.io/ai-ready-design-systems/systems/seeds.md): solid, AI 15/100, react, BRAND-LOCKED. Sprout Social products (brand-locked).
-- [Moon Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/moon.md): solid, AI 15/100, react. Coingaming-style consumer and gaming UIs.
+- [React Spectrum / React Aria](https://designrr.vercel.app/systems/react-spectrum.md): recommended, AI 90/100, react. Accessibility- and i18n-focused React: React Aria for custom-branded systems, React Spectrum S2 for Adobe-style tools.
+- [shadcn/ui](https://designrr.vercel.app/systems/shadcn-ui.md): recommended, AI 80/100, react. SaaS and AI apps on React/Next.js + Tailwind where you want to own and restyle the component source.
+- [Mantine](https://designrr.vercel.app/systems/mantine.md): recommended, AI 85/100, react. Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box.
+- [assistant-ui](https://designrr.vercel.app/systems/assistant-ui.md): recommended, AI 90/100, react. Production AI chat UIs in React with streaming, attachments and tool UIs.
+- [Chakra UI](https://designrr.vercel.app/systems/chakra-ui.md): recommended, AI 85/100, react. Accessible, themeable React apps with style props.
+- [HeroUI (formerly NextUI)](https://designrr.vercel.app/systems/heroui.md): recommended, AI 85/100, react. Consumer and SaaS React apps on Tailwind, with animations built in.
+- [Ant Design](https://designrr.vercel.app/systems/ant-design.md): recommended, AI 65/100, react. Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
+- [Carbon Design System](https://designrr.vercel.app/systems/carbon.md): recommended, AI 85/100, react, web-components. Serious enterprise and data products with strict accessibility and a rigorous token system.
+- [Ark UI](https://designrr.vercel.app/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
+- [Material UI (MUI)](https://designrr.vercel.app/systems/mui.md): recommended, AI 60/100, react. React apps and admin tools built on Material Design, with a large component set (including the MUI X data grid).
+- [React Bits](https://designrr.vercel.app/systems/react-bits.md): recommended, AI 60/100, react. Animated text, backgrounds and effects to layer on top of another React system for landing pages.
+- [React Suite](https://designrr.vercel.app/systems/rsuite.md): recommended, AI 70/100, react. React admin and enterprise apps with pickers, tables and form controls.
+- [Fluent UI](https://designrr.vercel.app/systems/fluent-ui.md): recommended, AI 60/100, react, web-components. Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins.
+- [SEED Design (Karrot)](https://designrr.vercel.app/systems/seed-design.md): recommended, AI 80/100, react, BRAND-LOCKED. Karrot-style mobile-first consumer and marketplace apps in React.
+- [WordPress Components](https://designrr.vercel.app/systems/wordpress-components.md): recommended, AI 60/100, react. WordPress block-editor plugins and wp-admin interfaces.
+- [Primer](https://designrr.vercel.app/systems/primer.md): recommended, AI 70/100, react. Developer tools and GitHub-like interfaces.
+- [Base UI](https://designrr.vercel.app/systems/base-ui.md): recommended, AI 45/100, react. Unstyled, accessible React primitives from the MUI team for building a custom-branded system.
+- [Ionic Framework](https://designrr.vercel.app/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
+- [Intent UI](https://designrr.vercel.app/systems/intentui.md): recommended, AI 70/100, react. Accessible React Aria components styled with Tailwind, copy-paste into your project.
+- [monday.com Vibe](https://designrr.vercel.app/systems/vibe.md): recommended, AI 65/100, react, BRAND-LOCKED. monday.com marketplace apps and work-management style React UIs.
+- [Blueprint](https://designrr.vercel.app/systems/blueprint.md): recommended, AI 45/100, react. Complex, data-dense desktop-style web apps (analytics, ops tooling).
+- [SAP UI5 Web Components](https://designrr.vercel.app/systems/ui5.md): recommended, AI 60/100, web-components, react. SAP Fiori-compliant enterprise apps as framework-agnostic web components.
+- [Cloudscape](https://designrr.vercel.app/systems/cloudscape.md): recommended, AI 55/100, react. Cloud consoles, ops dashboards and data-heavy B2B tools (AWS console style).
+- [Sanity UI](https://designrr.vercel.app/systems/sanity-ui.md): recommended, AI 55/100, react. Sanity Studio plugins and CMS-style React apps.
+- [Lobe UI](https://designrr.vercel.app/systems/lobe-ui.md): recommended, AI 50/100, react. AI chat and AIGC web apps in React (LobeChat-style).
+- [LeafyGreen](https://designrr.vercel.app/systems/leafygreen.md): recommended, AI 65/100, react, BRAND-LOCKED. MongoDB-style developer consoles in React.
+- [Siemens iX](https://designrr.vercel.app/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
+- [Elastic UI (EUI)](https://designrr.vercel.app/systems/eui.md): recommended, AI 45/100, react. Search, observability and analytics dashboards.
+- [Spindle (Ameba)](https://designrr.vercel.app/systems/spindle.md): recommended, AI 70/100, react, BRAND-LOCKED. Ameba-style Japanese consumer and content React apps.
+- [CMS Design System](https://designrr.vercel.app/systems/cms-design-system.md): recommended, AI 65/100, react, web-components. US healthcare and government enrolment flows (Medicare/healthcare.gov).
+- [Semi Design](https://designrr.vercel.app/systems/semi-design.md): recommended, AI 45/100, react. Large React admin and content-platform apps (ByteDance), with theming via the Semi DSM.
+- [DB UX Design System](https://designrr.vercel.app/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
+- [Yamada UI](https://designrr.vercel.app/systems/yamada-ui.md): recommended, AI 60/100, react. Themeable React apps with style props (Chakra-like).
+- [Forma 36](https://designrr.vercel.app/systems/forma-36.md): recommended, AI 50/100, react. Contentful apps and CMS extensions.
+- [Saas UI](https://designrr.vercel.app/systems/saas-ui.md): recommended, AI 55/100, react. SaaS starter UI (auth, forms, data grids, layouts) on top of Chakra UI.
+- [UI5 Web Components for React](https://designrr.vercel.app/systems/ui5-react.md): recommended, AI 50/100, react. SAP Fiori-compliant React apps.
+- [Park UI](https://designrr.vercel.app/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
+- [Ring UI](https://designrr.vercel.app/systems/ring-ui.md): recommended, AI 45/100, react, BRAND-LOCKED. JetBrains-style developer tools in React.
+- [Reshaped](https://designrr.vercel.app/systems/reshaped.md): recommended, AI 45/100, react. Themeable React components with a matching Figma library, for product teams.
+- [Instructure UI](https://designrr.vercel.app/systems/instructure-ui.md): recommended, AI 55/100, react. Accessible education apps (Canvas LMS-style) in React.
+- [Esri Calcite](https://designrr.vercel.app/systems/calcite.md): recommended, AI 45/100, web-components, react, vanilla, no build, BRAND-LOCKED. ArcGIS / mapping and GIS apps.
+- [TailGrids](https://designrr.vercel.app/systems/tailgrids.md): recommended, AI 65/100, react, any. Tailwind UI blocks and dashboard sections for React or plain HTML.
+- [BEEQ](https://designrr.vercel.app/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
+- [Gravity UI](https://designrr.vercel.app/systems/gravity-ui.md): recommended, AI 45/100, react. Internal tools, cloud consoles and dashboards; includes charts, navigation and date components.
+- [Porsche Design System](https://designrr.vercel.app/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
+- [Untitled UI React](https://designrr.vercel.app/systems/untitled-ui.md): recommended, AI 45/100, react. SaaS and marketing UI in React + Tailwind, built on React Aria.
+- [Kiwi.com Orbit](https://designrr.vercel.app/systems/orbit.md): recommended, AI 45/100, react, BRAND-LOCKED. Kiwi.com travel booking UIs (brand-locked); strong reference for booking flows.
+- [SumUp Circuit UI](https://designrr.vercel.app/systems/circuit-ui.md): recommended, AI 45/100, react, BRAND-LOCKED. SumUp payments and merchant apps in React.
+- [Welcome UI](https://designrr.vercel.app/systems/welcome-ui.md): recommended, AI 50/100, react, BRAND-LOCKED. Welcome to the Jungle job-board style React apps.
+- [Designsystemet (Norway)](https://designrr.vercel.app/systems/designsystemet.md): recommended, AI 45/100, react, web-components. Norwegian public-sector services.
+- [Workday Canvas Kit](https://designrr.vercel.app/systems/canvas-kit.md): recommended, AI 45/100, react. Workday-style HR and enterprise React apps.
+- [Wonder Blocks](https://designrr.vercel.app/systems/wonder-blocks.md): recommended, AI 45/100, react, BRAND-LOCKED. Khan Academy learning experiences in React.
+- [VTEX Shoreline](https://designrr.vercel.app/systems/shoreline.md): recommended, AI 50/100, react. VTEX commerce admin apps in React.
+- [Wonderflow Wanda](https://designrr.vercel.app/systems/wanda.md): recommended, AI 45/100, react, BRAND-LOCKED. Analytics and insights SaaS dashboards in React.
+- [Radix Primitives](https://designrr.vercel.app/systems/radix-primitives.md): solid, AI 30/100, react. Unstyled accessible primitives when you are building your own branded system.
+- [Radix Themes](https://designrr.vercel.app/systems/radix-themes.md): solid, AI 40/100, react. Accessible React UI with a ready-made default look and minimal setup.
+- [Flowbite](https://designrr.vercel.app/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
+- [PrimeReact](https://designrr.vercel.app/systems/primereact.md): solid, AI 40/100, react. React apps that need a large component set (data tables, charts, editors) with themes.
+- [Cloudflare Kumo](https://designrr.vercel.app/systems/cloudflare-kumo.md): solid, AI 40/100, react. Cloudflare-style developer dashboards in React + Tailwind.
+- [Headless UI](https://designrr.vercel.app/systems/headless-ui.md): solid, AI 20/100, react, vue. Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).
+- [Atlassian Design System](https://designrr.vercel.app/systems/atlassian.md): solid, AI 35/100, react, BRAND-LOCKED. Collaboration and work-management tools; Jira/Confluence apps.
+- [Skeleton](https://designrr.vercel.app/systems/skeleton.md): solid, AI 40/100, svelte, react. Svelte (and React) apps on Tailwind with a themeable design system.
+- [Base Web](https://designrr.vercel.app/systems/baseweb.md): solid, AI 35/100, react. Uber-style React apps.
+- [Arco Design](https://designrr.vercel.app/systems/arco-design.md): solid, AI 35/100, react, vue. ByteDance-style React enterprise and admin apps.
+- [Ariakit](https://designrr.vercel.app/systems/ariakit.md): solid, AI 20/100, react. Low-level, accessible React primitives for custom component libraries.
+- [React Bootstrap](https://designrr.vercel.app/systems/react-bootstrap.md): solid, AI 15/100, react. Bootstrap 5 components as real React components.
+- [PatternFly](https://designrr.vercel.app/systems/patternfly.md): solid, AI 35/100, react. Enterprise and hybrid-cloud management consoles.
+- [AI Elements](https://designrr.vercel.app/systems/ai-elements.md): solid, AI 30/100, react. Chat, agent and AI-assistant interfaces (messages, prompt input, reasoning, tool calls) on shadcn/ui + AI SDK.
+- [Gestalt](https://designrr.vercel.app/systems/gestalt.md): solid, AI 35/100, react, BRAND-LOCKED. Pinterest-style visual, image-heavy consumer UIs in React.
+- [Neobrutalism Components](https://designrr.vercel.app/systems/neobrutalism.md): solid, AI 25/100, react. Bold neobrutalist look on top of shadcn/ui and Tailwind.
+- [React95](https://designrr.vercel.app/systems/react95.md): solid, AI 40/100, react. Windows 95 look for playful React apps.
+- [Grommet](https://designrr.vercel.app/systems/grommet.md): solid, AI 25/100, react. Accessible, themeable React apps (HPE).
+- [Twilio Paste](https://designrr.vercel.app/systems/paste.md): solid, AI 40/100, react. Twilio-style accessible B2B React apps.
+- [Braid](https://designrr.vercel.app/systems/braid.md): solid, AI 35/100, react, BRAND-LOCKED. SEEK's job-marketplace products (brand-locked).
+- [Ant Design Pro Components](https://designrr.vercel.app/systems/pro-components.md): solid, AI 20/100, react. Ant Design admin screens fast: ProTable, ProForm, ProLayout.
+- [HIUI](https://designrr.vercel.app/systems/hiui.md): solid, AI 40/100, react. Xiaomi-style React admin apps.
+- [Strapi Design System](https://designrr.vercel.app/systems/strapi-ds.md): solid, AI 25/100, react. Strapi admin plugins and CMS-style React apps.
+- [Flowbite React](https://designrr.vercel.app/systems/flowbite-react.md): solid, AI 20/100, react. Flowbite's Tailwind components as React components.
+- [Ant Design Mobile](https://designrr.vercel.app/systems/ant-design-mobile.md): solid, AI 15/100, react. Mobile web apps and H5 commerce pages in React.
+- [Carbon for IBM Products](https://designrr.vercel.app/systems/carbon-ibm-products.md): solid, AI 35/100, react, web-components. Higher-level Carbon patterns (tearsheets, create flows) for IBM-style products.
+- [Helsinki Design System](https://designrr.vercel.app/systems/helsinki-hds.md): solid, AI 40/100, react, any. City of Helsinki services.
+- [Fusion Design (Alibaba)](https://designrr.vercel.app/systems/fusion.md): solid, AI 20/100, react. Alibaba-style React enterprise apps.
+- [SmartHR UI](https://designrr.vercel.app/systems/smarthr-ui.md): solid, AI 25/100, react. Japanese HR SaaS-style React apps.
+- [Theme UI](https://designrr.vercel.app/systems/theme-ui.md): solid, AI 15/100, react. Constraint-based, themeable React styling (theme spec) for custom systems.
+- [TDesign](https://designrr.vercel.app/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
+- [Dice UI](https://designrr.vercel.app/systems/diceui.md): solid, AI 20/100, react. Extra accessible components (sortable, combobox, etc.) for shadcn/ui projects.
+- [Priceline One](https://designrr.vercel.app/systems/priceline-one.md): solid, AI 25/100, react, BRAND-LOCKED. Priceline travel booking UIs (brand-locked).
+- [Lightning Design System React](https://designrr.vercel.app/systems/slds-react.md): solid, AI 25/100, react. Salesforce Lightning look in React apps outside the Salesforce platform.
+- [Baloise Design System](https://designrr.vercel.app/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
+- [Konsta UI](https://designrr.vercel.app/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
+- [Zendesk Garden](https://designrr.vercel.app/systems/zendesk-garden.md): solid, AI 15/100, react. Zendesk apps and support-desk style React UIs.
+- [react-md](https://designrr.vercel.app/systems/react-md.md): solid, AI 20/100, react. Accessible Material-style React apps.
+- [react-dsfr](https://designrr.vercel.app/systems/react-dsfr.md): solid, AI 25/100, react. French government services in React (DSFR).
+- [Splunk UI](https://designrr.vercel.app/systems/splunk-ui.md): solid, AI 30/100, react, BRAND-LOCKED. Splunk app and dashboard UIs.
+- [Trendyol Baklava](https://designrr.vercel.app/systems/baklava.md): solid, AI 25/100, web-components, react, vanilla, no build, BRAND-LOCKED. Trendyol e-commerce products (brand-locked).
+- [Japan Digital Agency Design System](https://designrr.vercel.app/systems/japan-dads.md): solid, AI 25/100, react. Japanese government services (Digital Agency).
+- [pixiv Charcoal](https://designrr.vercel.app/systems/charcoal.md): solid, AI 25/100, react, BRAND-LOCKED. pixiv creative-community products (brand-locked).
+- [NutUI React](https://designrr.vercel.app/systems/nutui-react.md): solid, AI 25/100, react. JD-style mobile commerce in React and mini-programs.
+- [Salt Design System](https://designrr.vercel.app/systems/salt-ds.md): solid, AI 25/100, react, BRAND-LOCKED. Financial and trading apps with dense data and strict accessibility.
+- [Australian Government Design System](https://designrr.vercel.app/systems/agds.md): solid, AI 40/100, react. Australian government services in React.
+- [Clay (Liferay Lexicon)](https://designrr.vercel.app/systems/clay.md): solid, AI 25/100, react. Liferay portal and DXP apps.
+- [Astro UXDS](https://designrr.vercel.app/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
+- [Lens](https://designrr.vercel.app/systems/lens.md): solid, AI 15/100, react, BRAND-LOCKED. Loom-style video and SaaS products (brand-locked).
+- [Ontario Design System](https://designrr.vercel.app/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
+- [Okta Odyssey](https://designrr.vercel.app/systems/odyssey.md): solid, AI 30/100, react, BRAND-LOCKED. Okta-style identity and admin consoles (MUI-based).
+- [Lemon Squeezy Wedges](https://designrr.vercel.app/systems/wedges.md): solid, AI 20/100, react. Lemon Squeezy-style SaaS and checkout UIs on Tailwind + Radix.
+- [Brainly Pencil](https://designrr.vercel.app/systems/brainly-pencil.md): solid, AI 25/100, react, BRAND-LOCKED. Brainly learning products (brand-locked).
+- [Wix Design System](https://designrr.vercel.app/systems/wix-style-react.md): solid, AI 15/100, react, BRAND-LOCKED. Wix app-market apps.
+- [GC Design System (Canada)](https://designrr.vercel.app/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
+- [NL Design System](https://designrr.vercel.app/systems/nl-design-system.md): solid, AI 35/100, react, web-components, any. Dutch government services (multi-organisation themes).
+- [Telefónica Mística](https://designrr.vercel.app/systems/mistica.md): solid, AI 15/100, react, BRAND-LOCKED. Telefónica brand products (brand-locked).
+- [Sprout Social Seeds](https://designrr.vercel.app/systems/seeds.md): solid, AI 15/100, react, BRAND-LOCKED. Sprout Social products (brand-locked).
+- [Moon Design System](https://designrr.vercel.app/systems/moon.md): solid, AI 15/100, react. Coingaming-style consumer and gaming UIs.
 
 ## Web: Vue / Nuxt
 
-- [Ark UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
-- [Quasar](https://kindavishal.github.io/ai-ready-design-systems/systems/quasar.md): recommended, AI 75/100, vue. One Vue codebase for SPA, SSR, PWA, mobile (Capacitor) and desktop (Electron) apps.
-- [Nuxt UI](https://kindavishal.github.io/ai-ready-design-systems/systems/nuxt-ui.md): recommended, AI 75/100, vue, nuxt. Vue / Nuxt SaaS and marketing sites on Tailwind, with templates and dashboard blocks.
-- [PrimeVue](https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md): recommended, AI 65/100, vue. Vue apps that need a large component set (data tables, charts, editors) with themes.
-- [Vuetify](https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md): recommended, AI 60/100, vue. Material-style Vue apps with a large component set.
-- [Ionic Framework](https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
-- [shadcn-vue](https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-vue.md): recommended, AI 60/100, vue. shadcn/ui's own-the-source model for Vue and Nuxt apps on Tailwind.
-- [BootstrapVueNext](https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap-vue-next.md): recommended, AI 65/100, vue. Vue 3 apps that want Bootstrap 5 styling and components.
-- [Reka UI](https://kindavishal.github.io/ai-ready-design-systems/systems/reka-ui.md): recommended, AI 45/100, vue. Headless, accessible Vue primitives for custom systems; shadcn-vue and Nuxt UI are built on it.
-- [Naive UI](https://kindavishal.github.io/ai-ready-design-systems/systems/naive-ui.md): recommended, AI 45/100, vue. TypeScript-first Vue 3 admin apps and dashboards with a themeable component set.
-- [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
-- [Frappe UI](https://kindavishal.github.io/ai-ready-design-systems/systems/frappe-ui.md): recommended, AI 50/100, vue. Vue + Tailwind business apps on the Frappe framework (ERPNext-style).
-- [DB UX Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
-- [Park UI](https://kindavishal.github.io/ai-ready-design-systems/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
-- [BEEQ](https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
-- [Porsche Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
-- [Element Plus](https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus.md): solid, AI 40/100, vue. Vue 3 admin and back-office apps.
-- [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
-- [Headless UI](https://kindavishal.github.io/ai-ready-design-systems/systems/headless-ui.md): solid, AI 20/100, react, vue. Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).
-- [Arco Design](https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design.md): solid, AI 35/100, react, vue. ByteDance-style React enterprise and admin apps.
-- [AWS Amplify UI](https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
-- [Arco Design Vue](https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design-vue.md): solid, AI 35/100, vue. ByteDance-style Vue enterprise and admin apps.
-- [Ant Design Vue](https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-vue.md): solid, AI 15/100, vue. Ant Design for Vue: admin and data-entry apps.
-- [Vant](https://kindavishal.github.io/ai-ready-design-systems/systems/vant.md): solid, AI 15/100, vue. Lightweight mobile web and e-commerce UIs in Vue.
-- [OpenTiny TinyVue](https://kindavishal.github.io/ai-ready-design-systems/systems/tiny-vue.md): solid, AI 35/100, vue. Huawei OpenTiny enterprise Vue apps, multi-device.
-- [Vuestic UI](https://kindavishal.github.io/ai-ready-design-systems/systems/vuestic-ui.md): solid, AI 25/100, vue. Vue 3 admin dashboards with an accessible, themeable component set.
-- [TDesign](https://kindavishal.github.io/ai-ready-design-systems/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
-- [Baloise Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
-- [Konsta UI](https://kindavishal.github.io/ai-ready-design-systems/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
-- [Wikimedia Codex](https://kindavishal.github.io/ai-ready-design-systems/systems/codex.md): solid, AI 35/100, vue. Wikimedia/Wikipedia interfaces in Vue; strong i18n and RTL.
-- [REI Cedar](https://kindavishal.github.io/ai-ready-design-systems/systems/cedar.md): solid, AI 40/100, vue, BRAND-LOCKED. REI retail products (brand-locked).
-- [Vexip UI](https://kindavishal.github.io/ai-ready-design-systems/systems/vexip-ui.md): solid, AI 25/100, vue. Highly customisable Vue 3 admin apps.
-- [NutUI](https://kindavishal.github.io/ai-ready-design-systems/systems/nutui.md): solid, AI 15/100, vue. JD-style mobile commerce in Vue and mini-programs.
-- [GitLab Pajamas](https://kindavishal.github.io/ai-ready-design-systems/systems/gitlab-pajamas.md): solid, AI 5/100, vue. GitLab-style developer tools in Vue.
-- [Element Plus X](https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus-x.md): solid, AI 20/100, vue. AI chat components on Element Plus for Vue.
-- [Varlet](https://kindavishal.github.io/ai-ready-design-systems/systems/varlet.md): solid, AI 15/100, vue. Material-style mobile web apps in Vue 3.
-- [Oruga](https://kindavishal.github.io/ai-ready-design-systems/systems/oruga.md): solid, AI 15/100, vue. Lightweight, CSS-framework-agnostic Vue components you style yourself.
-- [AI Elements Vue](https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements-vue.md): solid, AI 20/100, vue. AI chat and agent UI components for Vue (port of Vercel AI Elements).
-- [GC Design System (Canada)](https://kindavishal.github.io/ai-ready-design-systems/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
-- [Vue DevUI](https://kindavishal.github.io/ai-ready-design-systems/systems/vue-devui.md): solid, AI 15/100, vue. Huawei DevCloud-style developer tools in Vue.
+- [Ark UI](https://designrr.vercel.app/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
+- [Quasar](https://designrr.vercel.app/systems/quasar.md): recommended, AI 75/100, vue. One Vue codebase for SPA, SSR, PWA, mobile (Capacitor) and desktop (Electron) apps.
+- [Nuxt UI](https://designrr.vercel.app/systems/nuxt-ui.md): recommended, AI 75/100, vue, nuxt. Vue / Nuxt SaaS and marketing sites on Tailwind, with templates and dashboard blocks.
+- [PrimeVue](https://designrr.vercel.app/systems/primevue.md): recommended, AI 65/100, vue. Vue apps that need a large component set (data tables, charts, editors) with themes.
+- [Vuetify](https://designrr.vercel.app/systems/vuetify.md): recommended, AI 60/100, vue. Material-style Vue apps with a large component set.
+- [Ionic Framework](https://designrr.vercel.app/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
+- [shadcn-vue](https://designrr.vercel.app/systems/shadcn-vue.md): recommended, AI 60/100, vue. shadcn/ui's own-the-source model for Vue and Nuxt apps on Tailwind.
+- [BootstrapVueNext](https://designrr.vercel.app/systems/bootstrap-vue-next.md): recommended, AI 65/100, vue. Vue 3 apps that want Bootstrap 5 styling and components.
+- [Reka UI](https://designrr.vercel.app/systems/reka-ui.md): recommended, AI 45/100, vue. Headless, accessible Vue primitives for custom systems; shadcn-vue and Nuxt UI are built on it.
+- [Naive UI](https://designrr.vercel.app/systems/naive-ui.md): recommended, AI 45/100, vue. TypeScript-first Vue 3 admin apps and dashboards with a themeable component set.
+- [Siemens iX](https://designrr.vercel.app/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
+- [Frappe UI](https://designrr.vercel.app/systems/frappe-ui.md): recommended, AI 50/100, vue. Vue + Tailwind business apps on the Frappe framework (ERPNext-style).
+- [DB UX Design System](https://designrr.vercel.app/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
+- [Park UI](https://designrr.vercel.app/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
+- [BEEQ](https://designrr.vercel.app/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
+- [Porsche Design System](https://designrr.vercel.app/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
+- [Element Plus](https://designrr.vercel.app/systems/element-plus.md): solid, AI 40/100, vue. Vue 3 admin and back-office apps.
+- [Flowbite](https://designrr.vercel.app/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
+- [Headless UI](https://designrr.vercel.app/systems/headless-ui.md): solid, AI 20/100, react, vue. Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).
+- [Arco Design](https://designrr.vercel.app/systems/arco-design.md): solid, AI 35/100, react, vue. ByteDance-style React enterprise and admin apps.
+- [AWS Amplify UI](https://designrr.vercel.app/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
+- [Arco Design Vue](https://designrr.vercel.app/systems/arco-design-vue.md): solid, AI 35/100, vue. ByteDance-style Vue enterprise and admin apps.
+- [Ant Design Vue](https://designrr.vercel.app/systems/ant-design-vue.md): solid, AI 15/100, vue. Ant Design for Vue: admin and data-entry apps.
+- [Vant](https://designrr.vercel.app/systems/vant.md): solid, AI 15/100, vue. Lightweight mobile web and e-commerce UIs in Vue.
+- [OpenTiny TinyVue](https://designrr.vercel.app/systems/tiny-vue.md): solid, AI 35/100, vue. Huawei OpenTiny enterprise Vue apps, multi-device.
+- [Vuestic UI](https://designrr.vercel.app/systems/vuestic-ui.md): solid, AI 25/100, vue. Vue 3 admin dashboards with an accessible, themeable component set.
+- [TDesign](https://designrr.vercel.app/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
+- [Baloise Design System](https://designrr.vercel.app/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
+- [Konsta UI](https://designrr.vercel.app/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
+- [Wikimedia Codex](https://designrr.vercel.app/systems/codex.md): solid, AI 35/100, vue. Wikimedia/Wikipedia interfaces in Vue; strong i18n and RTL.
+- [REI Cedar](https://designrr.vercel.app/systems/cedar.md): solid, AI 40/100, vue, BRAND-LOCKED. REI retail products (brand-locked).
+- [Vexip UI](https://designrr.vercel.app/systems/vexip-ui.md): solid, AI 25/100, vue. Highly customisable Vue 3 admin apps.
+- [NutUI](https://designrr.vercel.app/systems/nutui.md): solid, AI 15/100, vue. JD-style mobile commerce in Vue and mini-programs.
+- [GitLab Pajamas](https://designrr.vercel.app/systems/gitlab-pajamas.md): solid, AI 5/100, vue. GitLab-style developer tools in Vue.
+- [Element Plus X](https://designrr.vercel.app/systems/element-plus-x.md): solid, AI 20/100, vue. AI chat components on Element Plus for Vue.
+- [Varlet](https://designrr.vercel.app/systems/varlet.md): solid, AI 15/100, vue. Material-style mobile web apps in Vue 3.
+- [Oruga](https://designrr.vercel.app/systems/oruga.md): solid, AI 15/100, vue. Lightweight, CSS-framework-agnostic Vue components you style yourself.
+- [AI Elements Vue](https://designrr.vercel.app/systems/ai-elements-vue.md): solid, AI 20/100, vue. AI chat and agent UI components for Vue (port of Vercel AI Elements).
+- [GC Design System (Canada)](https://designrr.vercel.app/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
+- [Vue DevUI](https://designrr.vercel.app/systems/vue-devui.md): solid, AI 15/100, vue. Huawei DevCloud-style developer tools in Vue.
 
 ## Web: Angular
 
-- [Taiga UI](https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md): recommended, AI 80/100, angular. Angular fintech and enterprise apps that need many form, data and input components.
-- [PrimeNG](https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md): recommended, AI 65/100, angular. Angular apps that need a large component set (data tables, charts, editors) with themes.
-- [Ionic Framework](https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
-- [NG-ZORRO](https://kindavishal.github.io/ai-ready-design-systems/systems/ng-zorro.md): recommended, AI 55/100, angular. Ant Design for Angular: enterprise admin and data-entry apps.
-- [Zard UI (shadcn for Angular)](https://kindavishal.github.io/ai-ready-design-systems/systems/zardui.md): recommended, AI 70/100, angular. shadcn/ui-style copy-paste components for Angular on Tailwind.
-- [SAP Fundamental NGX](https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-ngx.md): recommended, AI 75/100, angular. Angular apps that must look like SAP Fiori.
-- [Spartan (shadcn for Angular)](https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md): recommended, AI 55/100, angular. shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.
-- [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
-- [Clarity](https://kindavishal.github.io/ai-ready-design-systems/systems/clarity.md): recommended, AI 65/100, angular. Angular cloud-management consoles (VMware-style).
-- [PO UI](https://kindavishal.github.io/ai-ready-design-systems/systems/po-ui.md): recommended, AI 65/100, angular. Angular enterprise and ERP apps (TOTVS).
-- [Angular Primitives](https://kindavishal.github.io/ai-ready-design-systems/systems/ng-primitives.md): recommended, AI 60/100, angular. Headless, accessible Angular primitives for a custom-branded system.
-- [DB UX Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
-- [BEEQ](https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
-- [Porsche Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
-- [Swiss Post Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/swisspost.md): recommended, AI 45/100, web-components, angular, BRAND-LOCKED. Swiss Post digital products.
-- [Angular Material](https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md): solid, AI 35/100, angular. Material Design for Angular apps, maintained by the Angular team.
-- [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
-- [AWS Amplify UI](https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
-- [TDesign](https://kindavishal.github.io/ai-ready-design-systems/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
-- [Baloise Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
-- [Astro UXDS](https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
-- [Ontario Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
+- [Taiga UI](https://designrr.vercel.app/systems/taiga-ui.md): recommended, AI 80/100, angular. Angular fintech and enterprise apps that need many form, data and input components.
+- [PrimeNG](https://designrr.vercel.app/systems/primeng.md): recommended, AI 65/100, angular. Angular apps that need a large component set (data tables, charts, editors) with themes.
+- [Ionic Framework](https://designrr.vercel.app/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
+- [NG-ZORRO](https://designrr.vercel.app/systems/ng-zorro.md): recommended, AI 55/100, angular. Ant Design for Angular: enterprise admin and data-entry apps.
+- [Zard UI (shadcn for Angular)](https://designrr.vercel.app/systems/zardui.md): recommended, AI 70/100, angular. shadcn/ui-style copy-paste components for Angular on Tailwind.
+- [SAP Fundamental NGX](https://designrr.vercel.app/systems/fundamental-ngx.md): recommended, AI 75/100, angular. Angular apps that must look like SAP Fiori.
+- [Spartan (shadcn for Angular)](https://designrr.vercel.app/systems/spartan.md): recommended, AI 55/100, angular. shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.
+- [Siemens iX](https://designrr.vercel.app/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
+- [Clarity](https://designrr.vercel.app/systems/clarity.md): recommended, AI 65/100, angular. Angular cloud-management consoles (VMware-style).
+- [PO UI](https://designrr.vercel.app/systems/po-ui.md): recommended, AI 65/100, angular. Angular enterprise and ERP apps (TOTVS).
+- [Angular Primitives](https://designrr.vercel.app/systems/ng-primitives.md): recommended, AI 60/100, angular. Headless, accessible Angular primitives for a custom-branded system.
+- [DB UX Design System](https://designrr.vercel.app/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
+- [BEEQ](https://designrr.vercel.app/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
+- [Porsche Design System](https://designrr.vercel.app/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
+- [Swiss Post Design System](https://designrr.vercel.app/systems/swisspost.md): recommended, AI 45/100, web-components, angular, BRAND-LOCKED. Swiss Post digital products.
+- [Angular Material](https://designrr.vercel.app/systems/angular-material.md): solid, AI 35/100, angular. Material Design for Angular apps, maintained by the Angular team.
+- [Flowbite](https://designrr.vercel.app/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
+- [AWS Amplify UI](https://designrr.vercel.app/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
+- [TDesign](https://designrr.vercel.app/systems/tdesign.md): solid, AI 20/100, react, vue, angular. Tencent enterprise apps across React, Vue, Angular and mini-programs.
+- [Baloise Design System](https://designrr.vercel.app/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
+- [Astro UXDS](https://designrr.vercel.app/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
+- [Ontario Design System](https://designrr.vercel.app/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
 
 ## Web: Svelte / Solid / Astro
 
-- [Ark UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
-- [shadcn-svelte](https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-svelte.md): recommended, AI 60/100, svelte. shadcn/ui's own-the-source model for SvelteKit apps on Tailwind.
-- [Carbon Components Svelte](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-svelte.md): recommended, AI 55/100, svelte. IBM Carbon look in Svelte for data-dense enterprise apps.
-- [Park UI](https://kindavishal.github.io/ai-ready-design-systems/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
-- [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
-- [Bits UI](https://kindavishal.github.io/ai-ready-design-systems/systems/bits-ui.md): solid, AI 35/100, svelte. Headless, accessible Svelte primitives; shadcn-svelte is built on it.
-- [Skeleton](https://kindavishal.github.io/ai-ready-design-systems/systems/skeleton.md): solid, AI 40/100, svelte, react. Svelte (and React) apps on Tailwind with a themeable design system.
-- [Kobalte](https://kindavishal.github.io/ai-ready-design-systems/systems/kobalte.md): solid, AI 30/100, solid. Headless, accessible SolidJS primitives.
-- [Flowbite Svelte](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-svelte.md): solid, AI 25/100, svelte. Flowbite's Tailwind components for Svelte.
-- [Konsta UI](https://kindavishal.github.io/ai-ready-design-systems/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
+- [Ark UI](https://designrr.vercel.app/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
+- [shadcn-svelte](https://designrr.vercel.app/systems/shadcn-svelte.md): recommended, AI 60/100, svelte. shadcn/ui's own-the-source model for SvelteKit apps on Tailwind.
+- [Carbon Components Svelte](https://designrr.vercel.app/systems/carbon-svelte.md): recommended, AI 55/100, svelte. IBM Carbon look in Svelte for data-dense enterprise apps.
+- [Park UI](https://designrr.vercel.app/systems/park-ui.md): recommended, AI 50/100, react, vue, solid. Styled Ark UI components for React, Vue or Solid with Panda CSS or Tailwind.
+- [Flowbite](https://designrr.vercel.app/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
+- [Bits UI](https://designrr.vercel.app/systems/bits-ui.md): solid, AI 35/100, svelte. Headless, accessible Svelte primitives; shadcn-svelte is built on it.
+- [Skeleton](https://designrr.vercel.app/systems/skeleton.md): solid, AI 40/100, svelte, react. Svelte (and React) apps on Tailwind with a themeable design system.
+- [Kobalte](https://designrr.vercel.app/systems/kobalte.md): solid, AI 30/100, solid. Headless, accessible SolidJS primitives.
+- [Flowbite Svelte](https://designrr.vercel.app/systems/flowbite-svelte.md): solid, AI 25/100, svelte. Flowbite's Tailwind components for Svelte.
+- [Konsta UI](https://designrr.vercel.app/systems/konsta.md): solid, AI 15/100, react, vue, svelte. iOS and Material look for mobile web/hybrid apps with Tailwind.
 
 ## Web: no build step (plain HTML + CDN)
 
-- [Bootstrap](https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap.md): recommended, AI 45/100, any, vanilla, no build. Quick, familiar responsive sites and admin panels in any stack, CDN-ready with no build step.
-- [U.S. Web Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/uswds.md): recommended, AI 60/100, any, vanilla, no build. US government websites and services; themeable, accessible, CDN or npm.
-- [Web Awesome](https://kindavishal.github.io/ai-ready-design-systems/systems/web-awesome.md): recommended, AI 55/100, web-components, any, vanilla, no build. Framework-agnostic web components with themes and dark mode; works from a CDN with no build step.
-- [Stack Overflow Stacks](https://kindavishal.github.io/ai-ready-design-systems/systems/stacks.md): recommended, AI 65/100, any, vanilla, no build, BRAND-LOCKED. Developer and community content sites with plain CSS classes, light/dark/high-contrast themes.
-- [Esri Calcite](https://kindavishal.github.io/ai-ready-design-systems/systems/calcite.md): recommended, AI 45/100, web-components, react, vanilla, no build, BRAND-LOCKED. ArcGIS / mapping and GIS apps.
-- [New York State Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/nysds.md): recommended, AI 70/100, web-components, vanilla, no build. New York State government services.
-- [Porsche Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
-- [Orange Boosted](https://kindavishal.github.io/ai-ready-design-systems/systems/boosted.md): recommended, AI 45/100, any, vanilla, no build, BRAND-LOCKED. Orange-branded sites (Bootstrap-based).
-- [Cisco Momentum](https://kindavishal.github.io/ai-ready-design-systems/systems/momentum.md): recommended, AI 50/100, web-components, vanilla, no build, BRAND-LOCKED. Cisco Webex-style collaboration apps as web components.
-- [Foundation](https://kindavishal.github.io/ai-ready-design-systems/systems/foundation.md): solid, AI 35/100, any, vanilla, no build. Responsive marketing and email templates with a mature CSS framework.
-- [Primer CSS](https://kindavishal.github.io/ai-ready-design-systems/systems/primer-css.md): solid, AI 35/100, any, vanilla, no build. GitHub's look as plain CSS classes; developer tools and content sites without a framework.
-- [Bulma](https://kindavishal.github.io/ai-ready-design-systems/systems/bulma.md): solid, AI 10/100, any, vanilla, no build. Simple CSS-only framework for content and marketing sites.
-- [Open Props](https://kindavishal.github.io/ai-ready-design-systems/systems/open-props.md): solid, AI 15/100, any, vanilla, no build. Framework-agnostic CSS custom-property tokens to build your own look with no build step.
-- [Layui](https://kindavishal.github.io/ai-ready-design-systems/systems/layui.md): solid, AI 10/100, any, vanilla, no build. Classic jQuery-style admin panels without a build step.
-- [Trendyol Baklava](https://kindavishal.github.io/ai-ready-design-systems/systems/baklava.md): solid, AI 25/100, web-components, react, vanilla, no build, BRAND-LOCKED. Trendyol e-commerce products (brand-locked).
-- [Fomantic UI (Semantic UI)](https://kindavishal.github.io/ai-ready-design-systems/systems/fomantic-ui.md): solid, AI 15/100, any, vanilla, no build. Semantic UI's natural-language CSS classes, community-maintained.
-- [Astro UXDS](https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
-- [Alaska Airlines Auro](https://kindavishal.github.io/ai-ready-design-systems/systems/auro.md): solid, AI 35/100, web-components, vanilla, no build, BRAND-LOCKED. Alaska Airlines products (brand-locked).
-- [NSW Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/nsw-design-system.md): solid, AI 20/100, any, vanilla, no build. NSW Government services.
-- [Mozilla Protocol](https://kindavishal.github.io/ai-ready-design-systems/systems/mozilla-protocol.md): solid, AI 10/100, any, vanilla, no build, BRAND-LOCKED. Mozilla websites (brand-locked).
-- [Det Fælles Designsystem (Denmark)](https://kindavishal.github.io/ai-ready-design-systems/systems/dkfds.md): solid, AI 10/100, any, vanilla, no build. Danish public-sector services.
+- [Bootstrap](https://designrr.vercel.app/systems/bootstrap.md): recommended, AI 45/100, any, vanilla, no build. Quick, familiar responsive sites and admin panels in any stack, CDN-ready with no build step.
+- [U.S. Web Design System](https://designrr.vercel.app/systems/uswds.md): recommended, AI 60/100, any, vanilla, no build. US government websites and services; themeable, accessible, CDN or npm.
+- [Web Awesome](https://designrr.vercel.app/systems/web-awesome.md): recommended, AI 55/100, web-components, any, vanilla, no build. Framework-agnostic web components with themes and dark mode; works from a CDN with no build step.
+- [Stack Overflow Stacks](https://designrr.vercel.app/systems/stacks.md): recommended, AI 65/100, any, vanilla, no build, BRAND-LOCKED. Developer and community content sites with plain CSS classes, light/dark/high-contrast themes.
+- [Esri Calcite](https://designrr.vercel.app/systems/calcite.md): recommended, AI 45/100, web-components, react, vanilla, no build, BRAND-LOCKED. ArcGIS / mapping and GIS apps.
+- [New York State Design System](https://designrr.vercel.app/systems/nysds.md): recommended, AI 70/100, web-components, vanilla, no build. New York State government services.
+- [Porsche Design System](https://designrr.vercel.app/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products.
+- [Orange Boosted](https://designrr.vercel.app/systems/boosted.md): recommended, AI 45/100, any, vanilla, no build, BRAND-LOCKED. Orange-branded sites (Bootstrap-based).
+- [Cisco Momentum](https://designrr.vercel.app/systems/momentum.md): recommended, AI 50/100, web-components, vanilla, no build, BRAND-LOCKED. Cisco Webex-style collaboration apps as web components.
+- [Foundation](https://designrr.vercel.app/systems/foundation.md): solid, AI 35/100, any, vanilla, no build. Responsive marketing and email templates with a mature CSS framework.
+- [Primer CSS](https://designrr.vercel.app/systems/primer-css.md): solid, AI 35/100, any, vanilla, no build. GitHub's look as plain CSS classes; developer tools and content sites without a framework.
+- [Bulma](https://designrr.vercel.app/systems/bulma.md): solid, AI 10/100, any, vanilla, no build. Simple CSS-only framework for content and marketing sites.
+- [Open Props](https://designrr.vercel.app/systems/open-props.md): solid, AI 15/100, any, vanilla, no build. Framework-agnostic CSS custom-property tokens to build your own look with no build step.
+- [Layui](https://designrr.vercel.app/systems/layui.md): solid, AI 10/100, any, vanilla, no build. Classic jQuery-style admin panels without a build step.
+- [Trendyol Baklava](https://designrr.vercel.app/systems/baklava.md): solid, AI 25/100, web-components, react, vanilla, no build, BRAND-LOCKED. Trendyol e-commerce products (brand-locked).
+- [Fomantic UI (Semantic UI)](https://designrr.vercel.app/systems/fomantic-ui.md): solid, AI 15/100, any, vanilla, no build. Semantic UI's natural-language CSS classes, community-maintained.
+- [Astro UXDS](https://designrr.vercel.app/systems/astro-uxds.md): solid, AI 25/100, web-components, react, angular, vanilla, no build, BRAND-LOCKED. Space and satellite ground-system operations UIs.
+- [Alaska Airlines Auro](https://designrr.vercel.app/systems/auro.md): solid, AI 35/100, web-components, vanilla, no build, BRAND-LOCKED. Alaska Airlines products (brand-locked).
+- [NSW Design System](https://designrr.vercel.app/systems/nsw-design-system.md): solid, AI 20/100, any, vanilla, no build. NSW Government services.
+- [Mozilla Protocol](https://designrr.vercel.app/systems/mozilla-protocol.md): solid, AI 10/100, any, vanilla, no build, BRAND-LOCKED. Mozilla websites (brand-locked).
+- [Det Fælles Designsystem (Denmark)](https://designrr.vercel.app/systems/dkfds.md): solid, AI 10/100, any, vanilla, no build. Danish public-sector services.
 
 ## Web: framework-agnostic but needs a build (web components, Tailwind plugins)
 
-- [Carbon Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md): recommended, AI 85/100, react, web-components. Serious enterprise and data products with strict accessibility and a rigorous token system.
-- [daisyUI](https://kindavishal.github.io/ai-ready-design-systems/systems/daisyui.md): recommended, AI 65/100, any. Framework-agnostic Tailwind component classes with many themes; suits quick MVPs in any stack.
-- [Fluent UI](https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md): recommended, AI 60/100, react, web-components. Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins.
-- [Ionic Framework](https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
-- [Spectrum Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/spectrum-web-components.md): recommended, AI 65/100, web-components. Adobe Spectrum look as web components, for creative tools and Adobe add-ons.
-- [Primer Primitives (tokens)](https://kindavishal.github.io/ai-ready-design-systems/systems/primer-primitives.md): recommended, AI 65/100, any. Design tokens only: Primer colour, size and typography as CSS variables / JSON.
-- [SAP UI5 Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md): recommended, AI 60/100, web-components, react. SAP Fiori-compliant enterprise apps as framework-agnostic web components.
-- [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
-- [SAP Fundamental Styles](https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-styles.md): recommended, AI 65/100, any. SAP Fiori styling as plain CSS for any framework.
-- [CMS Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/cms-design-system.md): recommended, AI 65/100, react, web-components. US healthcare and government enrolment flows (Medicare/healthcare.gov).
-- [DB UX Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
-- [FlyonUI](https://kindavishal.github.io/ai-ready-design-systems/systems/flyonui.md): recommended, AI 50/100, any. Tailwind component classes plus JS plugins for any stack, daisyUI-like.
-- [TailGrids](https://kindavishal.github.io/ai-ready-design-systems/systems/tailgrids.md): recommended, AI 65/100, react, any. Tailwind UI blocks and dashboard sections for React or plain HTML.
-- [BEEQ](https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
-- [NVIDIA Elements](https://kindavishal.github.io/ai-ready-design-systems/systems/nvidia-elements.md): recommended, AI 60/100, web-components. AI-factory and developer-tool UIs as web components with agent tooling.
-- [Ignite UI for Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/igniteui-webcomponents.md): recommended, AI 50/100, web-components. Data-heavy enterprise apps needing grids and inputs as web components.
-- [Designsystemet (Norway)](https://kindavishal.github.io/ai-ready-design-systems/systems/designsystemet.md): recommended, AI 45/100, react, web-components. Norwegian public-sector services.
-- [Swiss Post Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/swisspost.md): recommended, AI 45/100, web-components, angular, BRAND-LOCKED. Swiss Post digital products.
-- [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
-- [Microsoft FAST](https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md): solid, AI 35/100, web-components. Building your own web-component design system; Fluent UI's web components are built on it.
-- [Material Web](https://kindavishal.github.io/ai-ready-design-systems/systems/material-web.md): solid, AI 30/100, web-components. Material 3 as web components (README: in maintenance mode pending new maintainers).
-- [Beer CSS](https://kindavishal.github.io/ai-ready-design-systems/systems/beercss.md): solid, AI 40/100, any. Material 3 look with plain CSS classes, tiny and CDN-ready.
-- [Vaadin Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/vaadin.md): solid, AI 40/100, web-components, java. Java (Vaadin Flow) or web-component enterprise apps with heavy data grids.
-- [Preline UI](https://kindavishal.github.io/ai-ready-design-systems/systems/preline.md): solid, AI 25/100, any. Tailwind components and plugins for marketing sites and dashboards in any stack.
-- [Lion](https://kindavishal.github.io/ai-ready-design-systems/systems/lion.md): solid, AI 35/100, web-components. White-label, accessible web components to build your own branded system (ING).
-- [HyperUI](https://kindavishal.github.io/ai-ready-design-systems/systems/hyperui.md): solid, AI 15/100, any. Free copy-paste Tailwind marketing and application sections.
-- [Nordhealth Nord](https://kindavishal.github.io/ai-ready-design-systems/systems/nordhealth.md): solid, AI 35/100, web-components, BRAND-LOCKED. Healthcare SaaS (veterinary/clinical) as web components.
-- [Carbon for IBM Products](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-ibm-products.md): solid, AI 35/100, react, web-components. Higher-level Carbon patterns (tearsheets, create flows) for IBM-style products.
-- [Helsinki Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/helsinki-hds.md): solid, AI 40/100, react, any. City of Helsinki services.
-- [TW Elements](https://kindavishal.github.io/ai-ready-design-systems/systems/tw-elements.md): solid, AI 15/100, any. Bootstrap-like components rebuilt for Tailwind, plain HTML + JS.
-- [Red Hat Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/rhds.md): solid, AI 35/100, web-components, BRAND-LOCKED. Red Hat marketing and content sites as web components.
-- [Baloise Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
-- [NHS.UK Frontend](https://kindavishal.github.io/ai-ready-design-systems/systems/nhsuk-frontend.md): solid, AI 20/100, any, nunjucks. NHS and UK health services.
-- [Telekom Scale](https://kindavishal.github.io/ai-ready-design-systems/systems/telekom-scale.md): solid, AI 25/100, web-components, BRAND-LOCKED. Deutsche Telekom products (brand-locked).
-- [GOV.UK Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/govuk-frontend.md): solid, AI 10/100, any, nunjucks. Public services and form-heavy transactional flows where accessibility and plain language matter most.
-- [PatternFly Elements](https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly-elements.md): solid, AI 20/100, web-components. PatternFly look as framework-agnostic web components.
-- [Ontario Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
-- [Système de Design de l'État (France)](https://kindavishal.github.io/ai-ready-design-systems/systems/dsfr.md): solid, AI 15/100, any. French government websites and services.
-- [Singapore Government Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/sgds.md): solid, AI 30/100, web-components. Singapore government services.
-- [Oracle JET (Redwood)](https://kindavishal.github.io/ai-ready-design-systems/systems/oracle-jet.md): solid, AI 15/100, preact, web-components. Oracle Redwood-style enterprise apps.
-- [Franken UI](https://kindavishal.github.io/ai-ready-design-systems/systems/franken-ui.md): solid, AI 15/100, any. HTML-first, framework-agnostic components with shadcn-like look, Tailwind-based.
-- [SBB Lyne](https://kindavishal.github.io/ai-ready-design-systems/systems/lyne.md): solid, AI 25/100, web-components, BRAND-LOCKED. SBB Swiss railways products (brand-locked).
-- [GC Design System (Canada)](https://kindavishal.github.io/ai-ready-design-systems/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
-- [WebTUI](https://kindavishal.github.io/ai-ready-design-systems/systems/webtui.md): solid, AI 5/100, any, vanilla. Terminal-UI look in plain CSS for developer and hacker-aesthetic sites.
-- [NL Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/nl-design-system.md): solid, AI 35/100, react, web-components, any. Dutch government services (multi-organisation themes).
-- [Europa Component Library](https://kindavishal.github.io/ai-ready-design-systems/systems/ecl.md): solid, AI 20/100, any. European Commission and EU institution websites.
-- [Poncho (Argentina)](https://kindavishal.github.io/ai-ready-design-systems/systems/poncho.md): solid, AI 5/100, any. Argentine government websites.
+- [Carbon Design System](https://designrr.vercel.app/systems/carbon.md): recommended, AI 85/100, react, web-components. Serious enterprise and data products with strict accessibility and a rigorous token system.
+- [daisyUI](https://designrr.vercel.app/systems/daisyui.md): recommended, AI 65/100, any. Framework-agnostic Tailwind component classes with many themes; suits quick MVPs in any stack.
+- [Fluent UI](https://designrr.vercel.app/systems/fluent-ui.md): recommended, AI 60/100, react, web-components. Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins.
+- [Ionic Framework](https://designrr.vercel.app/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.
+- [Spectrum Web Components](https://designrr.vercel.app/systems/spectrum-web-components.md): recommended, AI 65/100, web-components. Adobe Spectrum look as web components, for creative tools and Adobe add-ons.
+- [Primer Primitives (tokens)](https://designrr.vercel.app/systems/primer-primitives.md): recommended, AI 65/100, any. Design tokens only: Primer colour, size and typography as CSS variables / JSON.
+- [SAP UI5 Web Components](https://designrr.vercel.app/systems/ui5.md): recommended, AI 60/100, web-components, react. SAP Fiori-compliant enterprise apps as framework-agnostic web components.
+- [Siemens iX](https://designrr.vercel.app/systems/siemens-ix.md): recommended, AI 65/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
+- [SAP Fundamental Styles](https://designrr.vercel.app/systems/fundamental-styles.md): recommended, AI 65/100, any. SAP Fiori styling as plain CSS for any framework.
+- [CMS Design System](https://designrr.vercel.app/systems/cms-design-system.md): recommended, AI 65/100, react, web-components. US healthcare and government enrolment flows (Medicare/healthcare.gov).
+- [DB UX Design System](https://designrr.vercel.app/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
+- [FlyonUI](https://designrr.vercel.app/systems/flyonui.md): recommended, AI 50/100, any. Tailwind component classes plus JS plugins for any stack, daisyUI-like.
+- [TailGrids](https://designrr.vercel.app/systems/tailgrids.md): recommended, AI 65/100, react, any. Tailwind UI blocks and dashboard sections for React or plain HTML.
+- [BEEQ](https://designrr.vercel.app/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
+- [NVIDIA Elements](https://designrr.vercel.app/systems/nvidia-elements.md): recommended, AI 60/100, web-components. AI-factory and developer-tool UIs as web components with agent tooling.
+- [Ignite UI for Web Components](https://designrr.vercel.app/systems/igniteui-webcomponents.md): recommended, AI 50/100, web-components. Data-heavy enterprise apps needing grids and inputs as web components.
+- [Designsystemet (Norway)](https://designrr.vercel.app/systems/designsystemet.md): recommended, AI 45/100, react, web-components. Norwegian public-sector services.
+- [Swiss Post Design System](https://designrr.vercel.app/systems/swisspost.md): recommended, AI 45/100, web-components, angular, BRAND-LOCKED. Swiss Post digital products.
+- [Flowbite](https://designrr.vercel.app/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
+- [Microsoft FAST](https://designrr.vercel.app/systems/fast.md): solid, AI 35/100, web-components. Building your own web-component design system; Fluent UI's web components are built on it.
+- [Material Web](https://designrr.vercel.app/systems/material-web.md): solid, AI 30/100, web-components. Material 3 as web components (README: in maintenance mode pending new maintainers).
+- [Beer CSS](https://designrr.vercel.app/systems/beercss.md): solid, AI 40/100, any. Material 3 look with plain CSS classes, tiny and CDN-ready.
+- [Vaadin Web Components](https://designrr.vercel.app/systems/vaadin.md): solid, AI 40/100, web-components, java. Java (Vaadin Flow) or web-component enterprise apps with heavy data grids.
+- [Preline UI](https://designrr.vercel.app/systems/preline.md): solid, AI 25/100, any. Tailwind components and plugins for marketing sites and dashboards in any stack.
+- [Lion](https://designrr.vercel.app/systems/lion.md): solid, AI 35/100, web-components. White-label, accessible web components to build your own branded system (ING).
+- [HyperUI](https://designrr.vercel.app/systems/hyperui.md): solid, AI 15/100, any. Free copy-paste Tailwind marketing and application sections.
+- [Nordhealth Nord](https://designrr.vercel.app/systems/nordhealth.md): solid, AI 35/100, web-components, BRAND-LOCKED. Healthcare SaaS (veterinary/clinical) as web components.
+- [Carbon for IBM Products](https://designrr.vercel.app/systems/carbon-ibm-products.md): solid, AI 35/100, react, web-components. Higher-level Carbon patterns (tearsheets, create flows) for IBM-style products.
+- [Helsinki Design System](https://designrr.vercel.app/systems/helsinki-hds.md): solid, AI 40/100, react, any. City of Helsinki services.
+- [TW Elements](https://designrr.vercel.app/systems/tw-elements.md): solid, AI 15/100, any. Bootstrap-like components rebuilt for Tailwind, plain HTML + JS.
+- [Red Hat Design System](https://designrr.vercel.app/systems/rhds.md): solid, AI 35/100, web-components, BRAND-LOCKED. Red Hat marketing and content sites as web components.
+- [Baloise Design System](https://designrr.vercel.app/systems/baloise.md): solid, AI 40/100, web-components, angular, react, vue, BRAND-LOCKED. Baloise insurance products (brand-locked).
+- [NHS.UK Frontend](https://designrr.vercel.app/systems/nhsuk-frontend.md): solid, AI 20/100, any, nunjucks. NHS and UK health services.
+- [Telekom Scale](https://designrr.vercel.app/systems/telekom-scale.md): solid, AI 25/100, web-components, BRAND-LOCKED. Deutsche Telekom products (brand-locked).
+- [GOV.UK Design System](https://designrr.vercel.app/systems/govuk-frontend.md): solid, AI 10/100, any, nunjucks. Public services and form-heavy transactional flows where accessibility and plain language matter most.
+- [PatternFly Elements](https://designrr.vercel.app/systems/patternfly-elements.md): solid, AI 20/100, web-components. PatternFly look as framework-agnostic web components.
+- [Ontario Design System](https://designrr.vercel.app/systems/ontario-ds.md): solid, AI 40/100, web-components, react, angular. Government of Ontario services.
+- [Système de Design de l'État (France)](https://designrr.vercel.app/systems/dsfr.md): solid, AI 15/100, any. French government websites and services.
+- [Singapore Government Design System](https://designrr.vercel.app/systems/sgds.md): solid, AI 30/100, web-components. Singapore government services.
+- [Oracle JET (Redwood)](https://designrr.vercel.app/systems/oracle-jet.md): solid, AI 15/100, preact, web-components. Oracle Redwood-style enterprise apps.
+- [Franken UI](https://designrr.vercel.app/systems/franken-ui.md): solid, AI 15/100, any. HTML-first, framework-agnostic components with shadcn-like look, Tailwind-based.
+- [SBB Lyne](https://designrr.vercel.app/systems/lyne.md): solid, AI 25/100, web-components, BRAND-LOCKED. SBB Swiss railways products (brand-locked).
+- [GC Design System (Canada)](https://designrr.vercel.app/systems/gcds.md): solid, AI 20/100, web-components, react, vue. Government of Canada bilingual services.
+- [WebTUI](https://designrr.vercel.app/systems/webtui.md): solid, AI 5/100, any, vanilla. Terminal-UI look in plain CSS for developer and hacker-aesthetic sites.
+- [NL Design System](https://designrr.vercel.app/systems/nl-design-system.md): solid, AI 35/100, react, web-components, any. Dutch government services (multi-organisation themes).
+- [Europa Component Library](https://designrr.vercel.app/systems/ecl.md): solid, AI 20/100, any. European Commission and EU institution websites.
+- [Poncho (Argentina)](https://designrr.vercel.app/systems/poncho.md): solid, AI 5/100, any. Argentine government websites.
 
 ## Web: other stacks (Blazor, Rails, Ember, Java, LWC)
 
-- [HashiCorp Helios](https://kindavishal.github.io/ai-ready-design-systems/systems/helios.md): recommended, AI 60/100, ember, BRAND-LOCKED. HashiCorp-style cloud consoles in Ember.js.
-- [Fluent UI Blazor](https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-blazor.md): recommended, AI 45/100, blazor. Microsoft Fluent look for Blazor / ASP.NET Core apps.
-- [Primer ViewComponents](https://kindavishal.github.io/ai-ready-design-systems/systems/primer-view-components.md): recommended, AI 45/100, rails. GitHub's Primer look in Ruby on Rails apps.
-- [Radzen Blazor](https://kindavishal.github.io/ai-ready-design-systems/systems/radzen-blazor.md): solid, AI 35/100, blazor. Free Blazor component suite with data grid and charts for line-of-business apps.
-- [MudBlazor](https://kindavishal.github.io/ai-ready-design-systems/systems/mudblazor.md): solid, AI 25/100, blazor. Material-style Blazor apps.
-- [Vaadin Web Components](https://kindavishal.github.io/ai-ready-design-systems/systems/vaadin.md): solid, AI 40/100, web-components, java. Java (Vaadin Flow) or web-component enterprise apps with heavy data grids.
-- [Blazorise](https://kindavishal.github.io/ai-ready-design-systems/systems/blazorise.md): solid, AI 25/100, blazor. Blazor apps that want to choose Bootstrap, Bulma, Fluent or Material styling.
-- [Oracle JET (Redwood)](https://kindavishal.github.io/ai-ready-design-systems/systems/oracle-jet.md): solid, AI 15/100, preact, web-components. Oracle Redwood-style enterprise apps.
+- [HashiCorp Helios](https://designrr.vercel.app/systems/helios.md): recommended, AI 60/100, ember, BRAND-LOCKED. HashiCorp-style cloud consoles in Ember.js.
+- [Fluent UI Blazor](https://designrr.vercel.app/systems/fluentui-blazor.md): recommended, AI 45/100, blazor. Microsoft Fluent look for Blazor / ASP.NET Core apps.
+- [Primer ViewComponents](https://designrr.vercel.app/systems/primer-view-components.md): recommended, AI 45/100, rails. GitHub's Primer look in Ruby on Rails apps.
+- [Radzen Blazor](https://designrr.vercel.app/systems/radzen-blazor.md): solid, AI 35/100, blazor. Free Blazor component suite with data grid and charts for line-of-business apps.
+- [MudBlazor](https://designrr.vercel.app/systems/mudblazor.md): solid, AI 25/100, blazor. Material-style Blazor apps.
+- [Vaadin Web Components](https://designrr.vercel.app/systems/vaadin.md): solid, AI 40/100, web-components, java. Java (Vaadin Flow) or web-component enterprise apps with heavy data grids.
+- [Blazorise](https://designrr.vercel.app/systems/blazorise.md): solid, AI 25/100, blazor. Blazor apps that want to choose Bootstrap, Bulma, Fluent or Material styling.
+- [Oracle JET (Redwood)](https://designrr.vercel.app/systems/oracle-jet.md): solid, AI 15/100, preact, web-components. Oracle Redwood-style enterprise apps.
 
 ## Cross-platform & React Native
 
-- [Tamagui](https://kindavishal.github.io/ai-ready-design-systems/systems/tamagui.md): recommended, AI 70/100, react, react-native. One React codebase shipping optimised UI to web, iOS and Android.
-- [React Native Paper](https://kindavishal.github.io/ai-ready-design-systems/systems/react-native-paper.md): recommended, AI 60/100, react-native. Material Design 3 apps in React Native.
-- [gluestack UI](https://kindavishal.github.io/ai-ready-design-systems/systems/gluestack-ui.md): recommended, AI 65/100, react-native, react. Copy-paste React Native + web components styled with NativeWind (Tailwind) for Expo apps.
-- [HeroUI Native](https://kindavishal.github.io/ai-ready-design-systems/systems/heroui-native.md): recommended, AI 50/100, react-native. HeroUI's look for React Native apps on Tailwind (Uniwind/NativeWind).
-- [Razorpay Blade](https://kindavishal.github.io/ai-ready-design-systems/systems/blade.md): recommended, AI 65/100, react, react-native, BRAND-LOCKED. Razorpay-style fintech dashboards in React and React Native.
-- [AWS Amplify UI](https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
-- [UI Kitten](https://kindavishal.github.io/ai-ready-design-systems/systems/ui-kitten.md): solid, AI 30/100, react-native. Eva Design System for React Native.
-- [React Native Elements](https://kindavishal.github.io/ai-ready-design-systems/systems/rn-elements.md): solid, AI 15/100, react-native. Cross-platform React Native UI toolkit with simple theming.
-- [React Native Reusables](https://kindavishal.github.io/ai-ready-design-systems/systems/rn-reusables.md): solid, AI 20/100, react-native. shadcn/ui-style copy-paste components for React Native with NativeWind.
+- [Tamagui](https://designrr.vercel.app/systems/tamagui.md): recommended, AI 70/100, react, react-native. One React codebase shipping optimised UI to web, iOS and Android.
+- [React Native Paper](https://designrr.vercel.app/systems/react-native-paper.md): recommended, AI 60/100, react-native. Material Design 3 apps in React Native.
+- [gluestack UI](https://designrr.vercel.app/systems/gluestack-ui.md): recommended, AI 65/100, react-native, react. Copy-paste React Native + web components styled with NativeWind (Tailwind) for Expo apps.
+- [HeroUI Native](https://designrr.vercel.app/systems/heroui-native.md): recommended, AI 50/100, react-native. HeroUI's look for React Native apps on Tailwind (Uniwind/NativeWind).
+- [Razorpay Blade](https://designrr.vercel.app/systems/blade.md): recommended, AI 65/100, react, react-native, BRAND-LOCKED. Razorpay-style fintech dashboards in React and React Native.
+- [AWS Amplify UI](https://designrr.vercel.app/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
+- [UI Kitten](https://designrr.vercel.app/systems/ui-kitten.md): solid, AI 30/100, react-native. Eva Design System for React Native.
+- [React Native Elements](https://designrr.vercel.app/systems/rn-elements.md): solid, AI 15/100, react-native. Cross-platform React Native UI toolkit with simple theming.
+- [React Native Reusables](https://designrr.vercel.app/systems/rn-reusables.md): solid, AI 20/100, react-native. shadcn/ui-style copy-paste components for React Native with NativeWind.
 
 ## Flutter
 
-- [Flutter Material 3](https://kindavishal.github.io/ai-ready-design-systems/systems/flutter-material.md): recommended, AI 60/100, flutter. Default choice for Flutter apps: Material 3 widgets ship with the SDK.
-- [AWS Amplify UI](https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
-- [shadcn_ui (Flutter)](https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-flutter-ui.md): solid, AI 35/100, flutter. shadcn/ui look and component set for Flutter apps.
-- [Fluent UI for Flutter](https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui-flutter.md): solid, AI 20/100, flutter. Windows 11 Fluent look for Flutter desktop apps.
-- [GetWidget](https://kindavishal.github.io/ai-ready-design-systems/systems/getwidget.md): solid, AI 15/100, flutter. Ready-made Flutter widgets for quick mobile MVPs.
-- [Forui](https://kindavishal.github.io/ai-ready-design-systems/systems/forui.md): solid, AI 25/100, flutter. Minimalistic, shadcn-inspired Flutter widgets for desktop and mobile.
-- [macos_ui](https://kindavishal.github.io/ai-ready-design-systems/systems/macos-ui.md): solid, AI 15/100, flutter. macOS-native look for Flutter desktop apps.
+- [Flutter Material 3](https://designrr.vercel.app/systems/flutter-material.md): recommended, AI 60/100, flutter. Default choice for Flutter apps: Material 3 widgets ship with the SDK.
+- [AWS Amplify UI](https://designrr.vercel.app/systems/amplify-ui.md): solid, AI 35/100, react, vue, angular, react-native, flutter, swift. Auth, storage and AI UI connected to AWS Amplify across web and mobile.
+- [shadcn_ui (Flutter)](https://designrr.vercel.app/systems/shadcn-flutter-ui.md): solid, AI 35/100, flutter. shadcn/ui look and component set for Flutter apps.
+- [Fluent UI for Flutter](https://designrr.vercel.app/systems/fluent-ui-flutter.md): solid, AI 20/100, flutter. Windows 11 Fluent look for Flutter desktop apps.
+- [GetWidget](https://designrr.vercel.app/systems/getwidget.md): solid, AI 15/100, flutter. Ready-made Flutter widgets for quick mobile MVPs.
+- [Forui](https://designrr.vercel.app/systems/forui.md): solid, AI 25/100, flutter. Minimalistic, shadcn-inspired Flutter widgets for desktop and mobile.
+- [macos_ui](https://designrr.vercel.app/systems/macos-ui.md): solid, AI 15/100, flutter. macOS-native look for Flutter desktop apps.
 
 ## iOS / Apple platforms (native)
 
-- [Fluent UI Apple](https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-apple.md): recommended, AI 55/100, swiftui, uikit. Microsoft Fluent look in native iOS/macOS apps.
-- [Apple Human Interface Guidelines + SwiftUI](https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md): recommended, AI 15/100, swiftui, uikit. Native iOS / macOS apps: SwiftUI system components follow the HIG for free.
-- [Skyscanner Backpack iOS](https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-ios.md): solid, AI 25/100, swiftui, uikit, BRAND-LOCKED. Skyscanner iOS app (brand-locked).
+- [Fluent UI Apple](https://designrr.vercel.app/systems/fluentui-apple.md): recommended, AI 55/100, swiftui, uikit. Microsoft Fluent look in native iOS/macOS apps.
+- [Apple Human Interface Guidelines + SwiftUI](https://designrr.vercel.app/systems/apple-hig.md): recommended, AI 15/100, swiftui, uikit. Native iOS / macOS apps: SwiftUI system components follow the HIG for free.
+- [Skyscanner Backpack iOS](https://designrr.vercel.app/systems/backpack-ios.md): solid, AI 25/100, swiftui, uikit, BRAND-LOCKED. Skyscanner iOS app (brand-locked).
 
 ## Android (native)
 
-- [Compose Unstyled](https://kindavishal.github.io/ai-ready-design-systems/systems/compose-unstyled.md): recommended, AI 60/100, jetpack-compose, compose-multiplatform. Headless Compose Multiplatform components for custom-branded Android/iOS/desktop apps.
-- [Material Design 3 for Android (Compose)](https://kindavishal.github.io/ai-ready-design-systems/systems/material-android.md): recommended, AI 20/100, jetpack-compose, android-views. Native Android apps: Compose Material 3 is the platform default.
-- [Fluent UI Android](https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-android.md): solid, AI 40/100, jetpack-compose, android-views. Microsoft Fluent look in native Android apps.
-- [Skyscanner Backpack Android](https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-android.md): solid, AI 25/100, jetpack-compose, BRAND-LOCKED. Skyscanner Android app (brand-locked).
+- [Compose Unstyled](https://designrr.vercel.app/systems/compose-unstyled.md): recommended, AI 60/100, jetpack-compose, compose-multiplatform. Headless Compose Multiplatform components for custom-branded Android/iOS/desktop apps.
+- [Material Design 3 for Android (Compose)](https://designrr.vercel.app/systems/material-android.md): recommended, AI 20/100, jetpack-compose, android-views. Native Android apps: Compose Material 3 is the platform default.
+- [Fluent UI Android](https://designrr.vercel.app/systems/fluentui-android.md): solid, AI 40/100, jetpack-compose, android-views. Microsoft Fluent look in native Android apps.
+- [Skyscanner Backpack Android](https://designrr.vercel.app/systems/backpack-android.md): solid, AI 25/100, jetpack-compose, BRAND-LOCKED. Skyscanner Android app (brand-locked).
 
 ## Watch list (maintenance slowing)
 
-- [Evergreen](https://kindavishal.github.io/ai-ready-design-systems/systems/evergreen.md): watch, AI 35/100, react. Segment-style B2B React apps.
-- [Tremor](https://kindavishal.github.io/ai-ready-design-systems/systems/tremor.md): watch, AI 20/100, react. Dashboards and analytics UIs (charts, KPI cards) on React + Tailwind.
-- [Semantic UI React](https://kindavishal.github.io/ai-ready-design-systems/systems/semantic-ui-react.md): watch, AI 15/100, react. Semantic UI look in React.
-- [Melt UI](https://kindavishal.github.io/ai-ready-design-systems/systems/melt-ui.md): watch, AI 20/100, svelte. Headless Svelte component builders.
-- [Decathlon Vitamin](https://kindavishal.github.io/ai-ready-design-systems/systems/vitamin.md): watch, AI 40/100, any, react, vue, svelte, BRAND-LOCKED. Decathlon products (brand-locked).
-- [Telegram UI](https://kindavishal.github.io/ai-ready-design-systems/systems/telegram-ui.md): watch, AI 25/100, react. Telegram Mini Apps that should look native to Telegram.
-- [Angular DevUI](https://kindavishal.github.io/ai-ready-design-systems/systems/ng-devui.md): watch, AI 30/100, angular. Huawei DevCloud-style developer tools in Angular.
-- [98.css](https://kindavishal.github.io/ai-ready-design-systems/systems/98-css.md): watch, AI 5/100, any, vanilla, no build. Retro Windows 98 look in plain HTML/CSS for playful sites.
-- [Keep React](https://kindavishal.github.io/ai-ready-design-systems/systems/keep-react.md): watch, AI 15/100, react. Tailwind-based React components for SaaS and marketing pages.
+- [Evergreen](https://designrr.vercel.app/systems/evergreen.md): watch, AI 35/100, react. Segment-style B2B React apps.
+- [Tremor](https://designrr.vercel.app/systems/tremor.md): watch, AI 20/100, react. Dashboards and analytics UIs (charts, KPI cards) on React + Tailwind.
+- [Semantic UI React](https://designrr.vercel.app/systems/semantic-ui-react.md): watch, AI 15/100, react. Semantic UI look in React.
+- [Melt UI](https://designrr.vercel.app/systems/melt-ui.md): watch, AI 20/100, svelte. Headless Svelte component builders.
+- [Decathlon Vitamin](https://designrr.vercel.app/systems/vitamin.md): watch, AI 40/100, any, react, vue, svelte, BRAND-LOCKED. Decathlon products (brand-locked).
+- [Telegram UI](https://designrr.vercel.app/systems/telegram-ui.md): watch, AI 25/100, react. Telegram Mini Apps that should look native to Telegram.
+- [Angular DevUI](https://designrr.vercel.app/systems/ng-devui.md): watch, AI 30/100, angular. Huawei DevCloud-style developer tools in Angular.
+- [98.css](https://designrr.vercel.app/systems/98-css.md): watch, AI 5/100, any, vanilla, no build. Retro Windows 98 look in plain HTML/CSS for playful sites.
+- [Keep React](https://designrr.vercel.app/systems/keep-react.md): watch, AI 15/100, react. Tailwind-based React components for SaaS and marketing pages.
 
 ## Reference only (closed source: inspiration, not installable)
 
@@ -385,5 +385,5 @@ When a user asks you to find design systems for a product idea:
 
 ## Optional
 
-- [Full text of every system page](https://kindavishal.github.io/ai-ready-design-systems/llms-full.txt)
-- [Methodology](https://kindavishal.github.io/ai-ready-design-systems/METHODOLOGY.md)
+- [Full text of every system page](https://designrr.vercel.app/llms-full.txt)
+- [Methodology](https://designrr.vercel.app/METHODOLOGY.md)

@@ -104,4 +104,4 @@ Carbon is intentionally opinionated: pick one of the four themes and customise t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_

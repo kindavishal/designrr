@@ -94,4 +94,4 @@ Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primar
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_

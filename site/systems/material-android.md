@@ -94,4 +94,4 @@ Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/material-android.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_

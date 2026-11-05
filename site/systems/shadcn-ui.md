@@ -99,4 +99,4 @@ Components are copied into your repo (`components/ui/*`), so you own and edit th
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-ui.md_

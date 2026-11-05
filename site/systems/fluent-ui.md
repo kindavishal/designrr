@@ -91,4 +91,4 @@ Build a 16-step `BrandVariants` ramp (the Theme Designer in the docs generates o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui.md_

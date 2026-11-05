@@ -5,7 +5,7 @@ description: Choose the best design systems for a product idea from the AI-Ready
 
 # Pick a design system, then build with it
 
-The catalog is published at **https://kindavishal.github.io/ai-ready-design-systems/** (entry point `llms.txt`, data `catalog.json`). If you are inside the catalog repository, read `site/llms.txt` and `site/catalog.json` locally instead.
+The catalog is published at **https://designrr.vercel.app/** (entry point `llms.txt`, data `catalog.json`). If you are inside the catalog repository, read `site/llms.txt` and `site/catalog.json` locally instead.
 
 ## 1. Understand the product
 From the user's idea (and the current codebase, if there is one) work out:

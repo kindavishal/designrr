@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/lens.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lens.md_

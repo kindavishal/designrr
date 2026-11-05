@@ -75,4 +75,4 @@ See https://intentui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/intentui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/intentui.md_

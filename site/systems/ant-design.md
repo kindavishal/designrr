@@ -102,4 +102,4 @@ Global design tokens in `token`, per-component tokens in `components: { Button: 
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design.md_

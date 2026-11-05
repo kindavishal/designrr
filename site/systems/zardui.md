@@ -76,4 +76,4 @@ See https://zardui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/zardui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/zardui.md_

@@ -75,4 +75,4 @@ flutter pub add shadcn_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-flutter-ui.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-flutter-ui.md_

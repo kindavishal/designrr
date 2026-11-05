@@ -107,4 +107,4 @@ Vuetify does not bundle the Roboto font; add it yourself (as above).
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_

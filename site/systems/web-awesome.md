@@ -88,4 +88,4 @@ One class re-brands everything: `wa-brand-<hue>` on `<html>`. Finer control: ove
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/web-awesome.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/web-awesome.md_

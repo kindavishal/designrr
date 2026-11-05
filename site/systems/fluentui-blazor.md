@@ -77,4 +77,4 @@ dotnet add package Microsoft.FluentUI.AspNetCore.Components
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-blazor.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-blazor.md_

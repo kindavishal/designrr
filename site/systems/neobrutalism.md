@@ -72,4 +72,4 @@ See https://www.neobrutalism.dev for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/neobrutalism.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/neobrutalism.md_

@@ -91,4 +91,4 @@ Configure the `Theme`: `<Theme accentColor="crimson" grayColor="sand" radius="la
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/radix-themes.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radix-themes.md_

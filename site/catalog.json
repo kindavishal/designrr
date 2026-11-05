@@ -1,7 +1,7 @@
 {
   "name": "AI-Ready Design Systems",
   "description": "Curated, scored catalog of production-grade design systems for AI agents to choose from and build with.",
-  "url": "https://kindavishal.github.io/ai-ready-design-systems",
+  "url": "https://designrr.vercel.app",
   "updated": "2026-11-05",
   "policy": {
     "activeDays": 365,
@@ -69,7 +69,7 @@
       "label": "Dedicated documentation site"
     }
   ],
-  "howToUse": "https://kindavishal.github.io/ai-ready-design-systems/llms.txt",
+  "howToUse": "https://designrr.vercel.app/llms.txt",
   "localUse": "In a clone of the repository, every URL under the site URL maps to the site/ folder; \"path\" fields are relative to site/.",
   "productShapes": {
     "app-dashboard": "Data-heavy app screens: tables, filters, charts, forms",
@@ -157,7 +157,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-spectrum.md",
+      "page": "https://designrr.vercel.app/systems/react-spectrum.md",
       "path": "systems/react-spectrum.md",
       "html": "systems/react-spectrum.html"
     },
@@ -242,7 +242,7 @@
         "writtenFor": "4",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-ui.md",
+      "page": "https://designrr.vercel.app/systems/shadcn-ui.md",
       "path": "systems/shadcn-ui.md",
       "html": "systems/shadcn-ui.html"
     },
@@ -323,7 +323,7 @@
         "writtenFor": "9",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mantine.md",
+      "page": "https://designrr.vercel.app/systems/mantine.md",
       "path": "systems/mantine.md",
       "html": "systems/mantine.html"
     },
@@ -405,7 +405,7 @@
         "writtenFor": "0.15",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/assistant-ui.md",
+      "page": "https://designrr.vercel.app/systems/assistant-ui.md",
       "path": "systems/assistant-ui.md",
       "html": "systems/assistant-ui.html"
     },
@@ -486,7 +486,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/chakra-ui.md",
+      "page": "https://designrr.vercel.app/systems/chakra-ui.md",
       "path": "systems/chakra-ui.md",
       "html": "systems/chakra-ui.html"
     },
@@ -568,7 +568,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/heroui.md",
+      "page": "https://designrr.vercel.app/systems/heroui.md",
       "path": "systems/heroui.md",
       "html": "systems/heroui.html"
     },
@@ -650,7 +650,7 @@
         "writtenFor": "6",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md",
+      "page": "https://designrr.vercel.app/systems/ant-design.md",
       "path": "systems/ant-design.md",
       "html": "systems/ant-design.html"
     },
@@ -733,7 +733,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md",
+      "page": "https://designrr.vercel.app/systems/carbon.md",
       "path": "systems/carbon.md",
       "html": "systems/carbon.html"
     },
@@ -809,7 +809,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md",
+      "page": "https://designrr.vercel.app/systems/ark-ui.md",
       "path": "systems/ark-ui.md",
       "html": "systems/ark-ui.html"
     },
@@ -893,7 +893,7 @@
         "writtenFor": "9",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mui.md",
+      "page": "https://designrr.vercel.app/systems/mui.md",
       "path": "systems/mui.md",
       "html": "systems/mui.html"
     },
@@ -979,7 +979,7 @@
         "writtenFor": "2",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/quasar.md",
+      "page": "https://designrr.vercel.app/systems/quasar.md",
       "path": "systems/quasar.md",
       "html": "systems/quasar.html"
     },
@@ -1061,7 +1061,7 @@
         "writtenFor": "Flutter 3 (Material 3)",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/flutter-material.md",
+      "page": "https://designrr.vercel.app/systems/flutter-material.md",
       "path": "systems/flutter-material.md",
       "html": "systems/flutter-material.html"
     },
@@ -1148,7 +1148,7 @@
         "writtenFor": "4",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nuxt-ui.md",
+      "page": "https://designrr.vercel.app/systems/nuxt-ui.md",
       "path": "systems/nuxt-ui.md",
       "html": "systems/nuxt-ui.html"
     },
@@ -1234,7 +1234,7 @@
         "writtenFor": "5",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/daisyui.md",
+      "page": "https://designrr.vercel.app/systems/daisyui.md",
       "path": "systems/daisyui.md",
       "html": "systems/daisyui.html"
     },
@@ -1312,7 +1312,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-bits.md",
+      "page": "https://designrr.vercel.app/systems/react-bits.md",
       "path": "systems/react-bits.md",
       "html": "systems/react-bits.html"
     },
@@ -1395,7 +1395,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tamagui.md",
+      "page": "https://designrr.vercel.app/systems/tamagui.md",
       "path": "systems/tamagui.md",
       "html": "systems/tamagui.html"
     },
@@ -1477,7 +1477,7 @@
         "writtenFor": "5",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md",
+      "page": "https://designrr.vercel.app/systems/primevue.md",
       "path": "systems/primevue.md",
       "html": "systems/primevue.html"
     },
@@ -1560,7 +1560,7 @@
         "writtenFor": "4",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md",
+      "page": "https://designrr.vercel.app/systems/vuetify.md",
       "path": "systems/vuetify.md",
       "html": "systems/vuetify.html"
     },
@@ -1636,7 +1636,7 @@
         "writtenFor": "5",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md",
+      "page": "https://designrr.vercel.app/systems/taiga-ui.md",
       "path": "systems/taiga-ui.md",
       "html": "systems/taiga-ui.html"
     },
@@ -1711,7 +1711,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md",
+      "page": "https://designrr.vercel.app/systems/primeng.md",
       "path": "systems/primeng.md",
       "html": "systems/primeng.html"
     },
@@ -1791,7 +1791,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/rsuite.md",
+      "page": "https://designrr.vercel.app/systems/rsuite.md",
       "path": "systems/rsuite.md",
       "html": "systems/rsuite.html"
     },
@@ -1873,7 +1873,7 @@
         "writtenFor": "9",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md",
+      "page": "https://designrr.vercel.app/systems/fluent-ui.md",
       "path": "systems/fluent-ui.md",
       "html": "systems/fluent-ui.html"
     },
@@ -1955,7 +1955,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap.md",
+      "page": "https://designrr.vercel.app/systems/bootstrap.md",
       "path": "systems/bootstrap.md",
       "html": "systems/bootstrap.html"
     },
@@ -2030,7 +2030,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/seed-design.md",
+      "page": "https://designrr.vercel.app/systems/seed-design.md",
       "path": "systems/seed-design.md",
       "html": "systems/seed-design.html"
     },
@@ -2107,7 +2107,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/wordpress-components.md",
+      "page": "https://designrr.vercel.app/systems/wordpress-components.md",
       "path": "systems/wordpress-components.md",
       "html": "systems/wordpress-components.html"
     },
@@ -2184,7 +2184,7 @@
         "writtenFor": "5",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-native-paper.md",
+      "page": "https://designrr.vercel.app/systems/react-native-paper.md",
       "path": "systems/react-native-paper.md",
       "html": "systems/react-native-paper.html"
     },
@@ -2264,7 +2264,7 @@
         "writtenFor": "38",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primer.md",
+      "page": "https://designrr.vercel.app/systems/primer.md",
       "path": "systems/primer.md",
       "html": "systems/primer.html"
     },
@@ -2337,7 +2337,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/base-ui.md",
+      "page": "https://designrr.vercel.app/systems/base-ui.md",
       "path": "systems/base-ui.md",
       "html": "systems/base-ui.html"
     },
@@ -2420,7 +2420,7 @@
         "writtenFor": "5",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gluestack-ui.md",
+      "page": "https://designrr.vercel.app/systems/gluestack-ui.md",
       "path": "systems/gluestack-ui.md",
       "html": "systems/gluestack-ui.html"
     },
@@ -2504,7 +2504,7 @@
         "writtenFor": "9",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md",
+      "page": "https://designrr.vercel.app/systems/ionic.md",
       "path": "systems/ionic.md",
       "html": "systems/ionic.html"
     },
@@ -2582,7 +2582,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-svelte.md",
+      "page": "https://designrr.vercel.app/systems/shadcn-svelte.md",
       "path": "systems/shadcn-svelte.md",
       "html": "systems/shadcn-svelte.html"
     },
@@ -2658,7 +2658,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-vue.md",
+      "page": "https://designrr.vercel.app/systems/shadcn-vue.md",
       "path": "systems/shadcn-vue.md",
       "html": "systems/shadcn-vue.html"
     },
@@ -2733,7 +2733,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/intentui.md",
+      "page": "https://designrr.vercel.app/systems/intentui.md",
       "path": "systems/intentui.md",
       "html": "systems/intentui.html"
     },
@@ -2815,7 +2815,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/uswds.md",
+      "page": "https://designrr.vercel.app/systems/uswds.md",
       "path": "systems/uswds.md",
       "html": "systems/uswds.html"
     },
@@ -2890,7 +2890,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/spectrum-web-components.md",
+      "page": "https://designrr.vercel.app/systems/spectrum-web-components.md",
       "path": "systems/spectrum-web-components.md",
       "html": "systems/spectrum-web-components.html"
     },
@@ -2968,7 +2968,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vibe.md",
+      "page": "https://designrr.vercel.app/systems/vibe.md",
       "path": "systems/vibe.md",
       "html": "systems/vibe.html"
     },
@@ -3042,7 +3042,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ng-zorro.md",
+      "page": "https://designrr.vercel.app/systems/ng-zorro.md",
       "path": "systems/ng-zorro.md",
       "html": "systems/ng-zorro.html"
     },
@@ -3118,7 +3118,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/bootstrap-vue-next.md",
+      "page": "https://designrr.vercel.app/systems/bootstrap-vue-next.md",
       "path": "systems/bootstrap-vue-next.md",
       "html": "systems/bootstrap-vue-next.html"
     },
@@ -3193,7 +3193,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/zardui.md",
+      "page": "https://designrr.vercel.app/systems/zardui.md",
       "path": "systems/zardui.md",
       "html": "systems/zardui.html"
     },
@@ -3267,7 +3267,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-ngx.md",
+      "page": "https://designrr.vercel.app/systems/fundamental-ngx.md",
       "path": "systems/fundamental-ngx.md",
       "html": "systems/fundamental-ngx.html"
     },
@@ -3340,7 +3340,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/reka-ui.md",
+      "page": "https://designrr.vercel.app/systems/reka-ui.md",
       "path": "systems/reka-ui.md",
       "html": "systems/reka-ui.html"
     },
@@ -3413,7 +3413,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primer-primitives.md",
+      "page": "https://designrr.vercel.app/systems/primer-primitives.md",
       "path": "systems/primer-primitives.md",
       "html": "systems/primer-primitives.html"
     },
@@ -3494,7 +3494,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/blueprint.md",
+      "page": "https://designrr.vercel.app/systems/blueprint.md",
       "path": "systems/blueprint.md",
       "html": "systems/blueprint.html"
     },
@@ -3574,7 +3574,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ui5.md",
+      "page": "https://designrr.vercel.app/systems/ui5.md",
       "path": "systems/ui5.md",
       "html": "systems/ui5.html"
     },
@@ -3655,7 +3655,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/cloudscape.md",
+      "page": "https://designrr.vercel.app/systems/cloudscape.md",
       "path": "systems/cloudscape.md",
       "html": "systems/cloudscape.html"
     },
@@ -3732,7 +3732,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md",
+      "page": "https://designrr.vercel.app/systems/spartan.md",
       "path": "systems/spartan.md",
       "html": "systems/spartan.html"
     },
@@ -3807,7 +3807,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/heroui-native.md",
+      "page": "https://designrr.vercel.app/systems/heroui-native.md",
       "path": "systems/heroui-native.md",
       "html": "systems/heroui-native.html"
     },
@@ -3891,7 +3891,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/web-awesome.md",
+      "page": "https://designrr.vercel.app/systems/web-awesome.md",
       "path": "systems/web-awesome.md",
       "html": "systems/web-awesome.html"
     },
@@ -3968,7 +3968,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/sanity-ui.md",
+      "page": "https://designrr.vercel.app/systems/sanity-ui.md",
       "path": "systems/sanity-ui.md",
       "html": "systems/sanity-ui.html"
     },
@@ -4047,7 +4047,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/naive-ui.md",
+      "page": "https://designrr.vercel.app/systems/naive-ui.md",
       "path": "systems/naive-ui.md",
       "html": "systems/naive-ui.html"
     },
@@ -4124,7 +4124,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/lobe-ui.md",
+      "page": "https://designrr.vercel.app/systems/lobe-ui.md",
       "path": "systems/lobe-ui.md",
       "html": "systems/lobe-ui.html"
     },
@@ -4199,7 +4199,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/leafygreen.md",
+      "page": "https://designrr.vercel.app/systems/leafygreen.md",
       "path": "systems/leafygreen.md",
       "html": "systems/leafygreen.html"
     },
@@ -4280,7 +4280,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md",
+      "page": "https://designrr.vercel.app/systems/siemens-ix.md",
       "path": "systems/siemens-ix.md",
       "html": "systems/siemens-ix.html"
     },
@@ -4354,7 +4354,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/clarity.md",
+      "page": "https://designrr.vercel.app/systems/clarity.md",
       "path": "systems/clarity.md",
       "html": "systems/clarity.html"
     },
@@ -4432,7 +4432,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-svelte.md",
+      "page": "https://designrr.vercel.app/systems/carbon-svelte.md",
       "path": "systems/carbon-svelte.md",
       "html": "systems/carbon-svelte.html"
     },
@@ -4510,7 +4510,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/eui.md",
+      "page": "https://designrr.vercel.app/systems/eui.md",
       "path": "systems/eui.md",
       "html": "systems/eui.html"
     },
@@ -4584,7 +4584,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-styles.md",
+      "page": "https://designrr.vercel.app/systems/fundamental-styles.md",
       "path": "systems/fundamental-styles.md",
       "html": "systems/fundamental-styles.html"
     },
@@ -4661,7 +4661,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/spindle.md",
+      "page": "https://designrr.vercel.app/systems/spindle.md",
       "path": "systems/spindle.md",
       "html": "systems/spindle.html"
     },
@@ -4735,7 +4735,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/po-ui.md",
+      "page": "https://designrr.vercel.app/systems/po-ui.md",
       "path": "systems/po-ui.md",
       "html": "systems/po-ui.html"
     },
@@ -4812,7 +4812,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/stacks.md",
+      "page": "https://designrr.vercel.app/systems/stacks.md",
       "path": "systems/stacks.md",
       "html": "systems/stacks.html"
     },
@@ -4885,7 +4885,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ng-primitives.md",
+      "page": "https://designrr.vercel.app/systems/ng-primitives.md",
       "path": "systems/ng-primitives.md",
       "html": "systems/ng-primitives.html"
     },
@@ -4961,7 +4961,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/compose-unstyled.md",
+      "page": "https://designrr.vercel.app/systems/compose-unstyled.md",
       "path": "systems/compose-unstyled.md",
       "html": "systems/compose-unstyled.html"
     },
@@ -5036,7 +5036,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/helios.md",
+      "page": "https://designrr.vercel.app/systems/helios.md",
       "path": "systems/helios.md",
       "html": "systems/helios.html"
     },
@@ -5114,7 +5114,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/blade.md",
+      "page": "https://designrr.vercel.app/systems/blade.md",
       "path": "systems/blade.md",
       "html": "systems/blade.html"
     },
@@ -5187,7 +5187,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-blazor.md",
+      "page": "https://designrr.vercel.app/systems/fluentui-blazor.md",
       "path": "systems/fluentui-blazor.md",
       "html": "systems/fluentui-blazor.html"
     },
@@ -5263,7 +5263,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/cms-design-system.md",
+      "page": "https://designrr.vercel.app/systems/cms-design-system.md",
       "path": "systems/cms-design-system.md",
       "html": "systems/cms-design-system.html"
     },
@@ -5339,7 +5339,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/frappe-ui.md",
+      "page": "https://designrr.vercel.app/systems/frappe-ui.md",
       "path": "systems/frappe-ui.md",
       "html": "systems/frappe-ui.html"
     },
@@ -5414,7 +5414,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/semi-design.md",
+      "page": "https://designrr.vercel.app/systems/semi-design.md",
       "path": "systems/semi-design.md",
       "html": "systems/semi-design.html"
     },
@@ -5492,7 +5492,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md",
+      "page": "https://designrr.vercel.app/systems/db-ux.md",
       "path": "systems/db-ux.md",
       "html": "systems/db-ux.html"
     },
@@ -5568,7 +5568,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/yamada-ui.md",
+      "page": "https://designrr.vercel.app/systems/yamada-ui.md",
       "path": "systems/yamada-ui.md",
       "html": "systems/yamada-ui.html"
     },
@@ -5646,7 +5646,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/forma-36.md",
+      "page": "https://designrr.vercel.app/systems/forma-36.md",
       "path": "systems/forma-36.md",
       "html": "systems/forma-36.html"
     },
@@ -5721,7 +5721,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-apple.md",
+      "page": "https://designrr.vercel.app/systems/fluentui-apple.md",
       "path": "systems/fluentui-apple.md",
       "html": "systems/fluentui-apple.html"
     },
@@ -5799,7 +5799,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/saas-ui.md",
+      "page": "https://designrr.vercel.app/systems/saas-ui.md",
       "path": "systems/saas-ui.md",
       "html": "systems/saas-ui.html"
     },
@@ -5878,7 +5878,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/flyonui.md",
+      "page": "https://designrr.vercel.app/systems/flyonui.md",
       "path": "systems/flyonui.md",
       "html": "systems/flyonui.html"
     },
@@ -5954,7 +5954,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ui5-react.md",
+      "page": "https://designrr.vercel.app/systems/ui5-react.md",
       "path": "systems/ui5-react.md",
       "html": "systems/ui5-react.html"
     },
@@ -6030,7 +6030,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/park-ui.md",
+      "page": "https://designrr.vercel.app/systems/park-ui.md",
       "path": "systems/park-ui.md",
       "html": "systems/park-ui.html"
     },
@@ -6104,7 +6104,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ring-ui.md",
+      "page": "https://designrr.vercel.app/systems/ring-ui.md",
       "path": "systems/ring-ui.md",
       "html": "systems/ring-ui.html"
     },
@@ -6179,7 +6179,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/reshaped.md",
+      "page": "https://designrr.vercel.app/systems/reshaped.md",
       "path": "systems/reshaped.md",
       "html": "systems/reshaped.html"
     },
@@ -6253,7 +6253,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/instructure-ui.md",
+      "page": "https://designrr.vercel.app/systems/instructure-ui.md",
       "path": "systems/instructure-ui.md",
       "html": "systems/instructure-ui.html"
     },
@@ -6331,7 +6331,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/calcite.md",
+      "page": "https://designrr.vercel.app/systems/calcite.md",
       "path": "systems/calcite.md",
       "html": "systems/calcite.html"
     },
@@ -6410,7 +6410,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tailgrids.md",
+      "page": "https://designrr.vercel.app/systems/tailgrids.md",
       "path": "systems/tailgrids.md",
       "html": "systems/tailgrids.html"
     },
@@ -6486,7 +6486,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nysds.md",
+      "page": "https://designrr.vercel.app/systems/nysds.md",
       "path": "systems/nysds.md",
       "html": "systems/nysds.html"
     },
@@ -6562,7 +6562,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md",
+      "page": "https://designrr.vercel.app/systems/beeq.md",
       "path": "systems/beeq.md",
       "html": "systems/beeq.html"
     },
@@ -6642,7 +6642,7 @@
         "writtenFor": "8",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md",
+      "page": "https://designrr.vercel.app/systems/gravity-ui.md",
       "path": "systems/gravity-ui.md",
       "html": "systems/gravity-ui.html"
     },
@@ -6722,7 +6722,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md",
+      "page": "https://designrr.vercel.app/systems/porsche.md",
       "path": "systems/porsche.md",
       "html": "systems/porsche.html"
     },
@@ -6800,7 +6800,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nvidia-elements.md",
+      "page": "https://designrr.vercel.app/systems/nvidia-elements.md",
       "path": "systems/nvidia-elements.md",
       "html": "systems/nvidia-elements.html"
     },
@@ -6879,7 +6879,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/untitled-ui.md",
+      "page": "https://designrr.vercel.app/systems/untitled-ui.md",
       "path": "systems/untitled-ui.md",
       "html": "systems/untitled-ui.html"
     },
@@ -6956,7 +6956,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primer-view-components.md",
+      "page": "https://designrr.vercel.app/systems/primer-view-components.md",
       "path": "systems/primer-view-components.md",
       "html": "systems/primer-view-components.html"
     },
@@ -7035,7 +7035,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/orbit.md",
+      "page": "https://designrr.vercel.app/systems/orbit.md",
       "path": "systems/orbit.md",
       "html": "systems/orbit.html"
     },
@@ -7114,7 +7114,7 @@
         "writtenFor": "Compose Material 3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/material-android.md",
+      "page": "https://designrr.vercel.app/systems/material-android.md",
       "path": "systems/material-android.md",
       "html": "systems/material-android.html"
     },
@@ -7192,7 +7192,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/circuit-ui.md",
+      "page": "https://designrr.vercel.app/systems/circuit-ui.md",
       "path": "systems/circuit-ui.md",
       "html": "systems/circuit-ui.html"
     },
@@ -7266,7 +7266,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/igniteui-webcomponents.md",
+      "page": "https://designrr.vercel.app/systems/igniteui-webcomponents.md",
       "path": "systems/igniteui-webcomponents.md",
       "html": "systems/igniteui-webcomponents.html"
     },
@@ -7340,7 +7340,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/welcome-ui.md",
+      "page": "https://designrr.vercel.app/systems/welcome-ui.md",
       "path": "systems/welcome-ui.md",
       "html": "systems/welcome-ui.html"
     },
@@ -7415,7 +7415,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/designsystemet.md",
+      "page": "https://designrr.vercel.app/systems/designsystemet.md",
       "path": "systems/designsystemet.md",
       "html": "systems/designsystemet.html"
     },
@@ -7493,7 +7493,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/canvas-kit.md",
+      "page": "https://designrr.vercel.app/systems/canvas-kit.md",
       "path": "systems/canvas-kit.md",
       "html": "systems/canvas-kit.html"
     },
@@ -7569,7 +7569,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/boosted.md",
+      "page": "https://designrr.vercel.app/systems/boosted.md",
       "path": "systems/boosted.md",
       "html": "systems/boosted.html"
     },
@@ -7646,7 +7646,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/wonder-blocks.md",
+      "page": "https://designrr.vercel.app/systems/wonder-blocks.md",
       "path": "systems/wonder-blocks.md",
       "html": "systems/wonder-blocks.html"
     },
@@ -7722,7 +7722,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/momentum.md",
+      "page": "https://designrr.vercel.app/systems/momentum.md",
       "path": "systems/momentum.md",
       "html": "systems/momentum.html"
     },
@@ -7799,7 +7799,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shoreline.md",
+      "page": "https://designrr.vercel.app/systems/shoreline.md",
       "path": "systems/shoreline.md",
       "html": "systems/shoreline.html"
     },
@@ -7874,7 +7874,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/swisspost.md",
+      "page": "https://designrr.vercel.app/systems/swisspost.md",
       "path": "systems/swisspost.md",
       "html": "systems/swisspost.html"
     },
@@ -7951,7 +7951,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/wanda.md",
+      "page": "https://designrr.vercel.app/systems/wanda.md",
       "path": "systems/wanda.md",
       "html": "systems/wanda.html"
     },
@@ -8035,7 +8035,7 @@
         "writtenFor": "SwiftUI (iOS 26 SDK)",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md",
+      "page": "https://designrr.vercel.app/systems/apple-hig.md",
       "path": "systems/apple-hig.md",
       "html": "systems/apple-hig.html"
     },
@@ -8112,7 +8112,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/radix-primitives.md",
+      "page": "https://designrr.vercel.app/systems/radix-primitives.md",
       "path": "systems/radix-primitives.md",
       "html": "systems/radix-primitives.html"
     },
@@ -8192,7 +8192,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus.md",
+      "page": "https://designrr.vercel.app/systems/element-plus.md",
       "path": "systems/element-plus.md",
       "html": "systems/element-plus.html"
     },
@@ -8271,7 +8271,7 @@
         "writtenFor": "22",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md",
+      "page": "https://designrr.vercel.app/systems/angular-material.md",
       "path": "systems/angular-material.md",
       "html": "systems/angular-material.html"
     },
@@ -8354,7 +8354,7 @@
         "writtenFor": "3",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/radix-themes.md",
+      "page": "https://designrr.vercel.app/systems/radix-themes.md",
       "path": "systems/radix-themes.md",
       "html": "systems/radix-themes.html"
     },
@@ -8441,7 +8441,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md",
+      "page": "https://designrr.vercel.app/systems/flowbite.md",
       "path": "systems/flowbite.md",
       "html": "systems/flowbite.html"
     },
@@ -8516,7 +8516,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primereact.md",
+      "page": "https://designrr.vercel.app/systems/primereact.md",
       "path": "systems/primereact.md",
       "html": "systems/primereact.html"
     },
@@ -8592,7 +8592,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/cloudflare-kumo.md",
+      "page": "https://designrr.vercel.app/systems/cloudflare-kumo.md",
       "path": "systems/cloudflare-kumo.md",
       "html": "systems/cloudflare-kumo.html"
     },
@@ -8668,7 +8668,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/foundation.md",
+      "page": "https://designrr.vercel.app/systems/foundation.md",
       "path": "systems/foundation.md",
       "html": "systems/foundation.html"
     },
@@ -8744,7 +8744,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/headless-ui.md",
+      "page": "https://designrr.vercel.app/systems/headless-ui.md",
       "path": "systems/headless-ui.md",
       "html": "systems/headless-ui.html"
     },
@@ -8817,7 +8817,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/bits-ui.md",
+      "page": "https://designrr.vercel.app/systems/bits-ui.md",
       "path": "systems/bits-ui.md",
       "html": "systems/bits-ui.html"
     },
@@ -8893,7 +8893,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fast.md",
+      "page": "https://designrr.vercel.app/systems/fast.md",
       "path": "systems/fast.md",
       "html": "systems/fast.html"
     },
@@ -8969,7 +8969,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/atlassian.md",
+      "page": "https://designrr.vercel.app/systems/atlassian.md",
       "path": "systems/atlassian.md",
       "html": "systems/atlassian.html"
     },
@@ -9045,7 +9045,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/skeleton.md",
+      "page": "https://designrr.vercel.app/systems/skeleton.md",
       "path": "systems/skeleton.md",
       "html": "systems/skeleton.html"
     },
@@ -9119,7 +9119,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/radzen-blazor.md",
+      "page": "https://designrr.vercel.app/systems/radzen-blazor.md",
       "path": "systems/radzen-blazor.md",
       "html": "systems/radzen-blazor.html"
     },
@@ -9192,7 +9192,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/kobalte.md",
+      "page": "https://designrr.vercel.app/systems/kobalte.md",
       "path": "systems/kobalte.md",
       "html": "systems/kobalte.html"
     },
@@ -9266,7 +9266,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/baseweb.md",
+      "page": "https://designrr.vercel.app/systems/baseweb.md",
       "path": "systems/baseweb.md",
       "html": "systems/baseweb.html"
     },
@@ -9346,7 +9346,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primer-css.md",
+      "page": "https://designrr.vercel.app/systems/primer-css.md",
       "path": "systems/primer-css.md",
       "html": "systems/primer-css.html"
     },
@@ -9421,7 +9421,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design.md",
+      "page": "https://designrr.vercel.app/systems/arco-design.md",
       "path": "systems/arco-design.md",
       "html": "systems/arco-design.html"
     },
@@ -9498,7 +9498,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/material-web.md",
+      "page": "https://designrr.vercel.app/systems/material-web.md",
       "path": "systems/material-web.md",
       "html": "systems/material-web.html"
     },
@@ -9575,7 +9575,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/beercss.md",
+      "page": "https://designrr.vercel.app/systems/beercss.md",
       "path": "systems/beercss.md",
       "html": "systems/beercss.html"
     },
@@ -9648,7 +9648,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mudblazor.md",
+      "page": "https://designrr.vercel.app/systems/mudblazor.md",
       "path": "systems/mudblazor.md",
       "html": "systems/mudblazor.html"
     },
@@ -9733,7 +9733,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/amplify-ui.md",
+      "page": "https://designrr.vercel.app/systems/amplify-ui.md",
       "path": "systems/amplify-ui.md",
       "html": "systems/amplify-ui.html"
     },
@@ -9810,7 +9810,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-flutter-ui.md",
+      "page": "https://designrr.vercel.app/systems/shadcn-flutter-ui.md",
       "path": "systems/shadcn-flutter-ui.md",
       "html": "systems/shadcn-flutter-ui.html"
     },
@@ -9884,7 +9884,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ariakit.md",
+      "page": "https://designrr.vercel.app/systems/ariakit.md",
       "path": "systems/ariakit.md",
       "html": "systems/ariakit.html"
     },
@@ -9960,7 +9960,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vaadin.md",
+      "page": "https://designrr.vercel.app/systems/vaadin.md",
       "path": "systems/vaadin.md",
       "html": "systems/vaadin.html"
     },
@@ -10038,7 +10038,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-bootstrap.md",
+      "page": "https://designrr.vercel.app/systems/react-bootstrap.md",
       "path": "systems/react-bootstrap.md",
       "html": "systems/react-bootstrap.html"
     },
@@ -10116,7 +10116,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly.md",
+      "page": "https://designrr.vercel.app/systems/patternfly.md",
       "path": "systems/patternfly.md",
       "html": "systems/patternfly.html"
     },
@@ -10196,7 +10196,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements.md",
+      "page": "https://designrr.vercel.app/systems/ai-elements.md",
       "path": "systems/ai-elements.md",
       "html": "systems/ai-elements.html"
     },
@@ -10270,7 +10270,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design-vue.md",
+      "page": "https://designrr.vercel.app/systems/arco-design-vue.md",
       "path": "systems/arco-design-vue.md",
       "html": "systems/arco-design-vue.html"
     },
@@ -10348,7 +10348,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gestalt.md",
+      "page": "https://designrr.vercel.app/systems/gestalt.md",
       "path": "systems/gestalt.md",
       "html": "systems/gestalt.html"
     },
@@ -10423,7 +10423,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ui-kitten.md",
+      "page": "https://designrr.vercel.app/systems/ui-kitten.md",
       "path": "systems/ui-kitten.md",
       "html": "systems/ui-kitten.html"
     },
@@ -10498,7 +10498,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui-flutter.md",
+      "page": "https://designrr.vercel.app/systems/fluent-ui-flutter.md",
       "path": "systems/fluent-ui-flutter.md",
       "html": "systems/fluent-ui-flutter.html"
     },
@@ -10574,7 +10574,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/neobrutalism.md",
+      "page": "https://designrr.vercel.app/systems/neobrutalism.md",
       "path": "systems/neobrutalism.md",
       "html": "systems/neobrutalism.html"
     },
@@ -10646,7 +10646,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/blazorise.md",
+      "page": "https://designrr.vercel.app/systems/blazorise.md",
       "path": "systems/blazorise.md",
       "html": "systems/blazorise.html"
     },
@@ -10720,7 +10720,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react95.md",
+      "page": "https://designrr.vercel.app/systems/react95.md",
       "path": "systems/react95.md",
       "html": "systems/react95.html"
     },
@@ -10797,7 +10797,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/grommet.md",
+      "page": "https://designrr.vercel.app/systems/grommet.md",
       "path": "systems/grommet.md",
       "html": "systems/grommet.html"
     },
@@ -10879,7 +10879,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/preline.md",
+      "page": "https://designrr.vercel.app/systems/preline.md",
       "path": "systems/preline.md",
       "html": "systems/preline.html"
     },
@@ -10955,7 +10955,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/paste.md",
+      "page": "https://designrr.vercel.app/systems/paste.md",
       "path": "systems/paste.md",
       "html": "systems/paste.html"
     },
@@ -11031,7 +11031,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/bulma.md",
+      "page": "https://designrr.vercel.app/systems/bulma.md",
       "path": "systems/bulma.md",
       "html": "systems/bulma.html"
     },
@@ -11108,7 +11108,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-vue.md",
+      "page": "https://designrr.vercel.app/systems/ant-design-vue.md",
       "path": "systems/ant-design-vue.md",
       "html": "systems/ant-design-vue.html"
     },
@@ -11183,7 +11183,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/lion.md",
+      "page": "https://designrr.vercel.app/systems/lion.md",
       "path": "systems/lion.md",
       "html": "systems/lion.html"
     },
@@ -11257,7 +11257,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-android.md",
+      "page": "https://designrr.vercel.app/systems/fluentui-android.md",
       "path": "systems/fluentui-android.md",
       "html": "systems/fluentui-android.html"
     },
@@ -11334,7 +11334,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/hyperui.md",
+      "page": "https://designrr.vercel.app/systems/hyperui.md",
       "path": "systems/hyperui.md",
       "html": "systems/hyperui.html"
     },
@@ -11409,7 +11409,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/braid.md",
+      "page": "https://designrr.vercel.app/systems/braid.md",
       "path": "systems/braid.md",
       "html": "systems/braid.html"
     },
@@ -11484,7 +11484,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-svelte.md",
+      "page": "https://designrr.vercel.app/systems/flowbite-svelte.md",
       "path": "systems/flowbite-svelte.md",
       "html": "systems/flowbite-svelte.html"
     },
@@ -11565,7 +11565,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vant.md",
+      "page": "https://designrr.vercel.app/systems/vant.md",
       "path": "systems/vant.md",
       "html": "systems/vant.html"
     },
@@ -11640,7 +11640,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/getwidget.md",
+      "page": "https://designrr.vercel.app/systems/getwidget.md",
       "path": "systems/getwidget.md",
       "html": "systems/getwidget.html"
     },
@@ -11717,7 +11717,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/pro-components.md",
+      "page": "https://designrr.vercel.app/systems/pro-components.md",
       "path": "systems/pro-components.md",
       "html": "systems/pro-components.html"
     },
@@ -11794,7 +11794,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tiny-vue.md",
+      "page": "https://designrr.vercel.app/systems/tiny-vue.md",
       "path": "systems/tiny-vue.md",
       "html": "systems/tiny-vue.html"
     },
@@ -11868,7 +11868,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nordhealth.md",
+      "page": "https://designrr.vercel.app/systems/nordhealth.md",
       "path": "systems/nordhealth.md",
       "html": "systems/nordhealth.html"
     },
@@ -11943,7 +11943,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/rn-elements.md",
+      "page": "https://designrr.vercel.app/systems/rn-elements.md",
       "path": "systems/rn-elements.md",
       "html": "systems/rn-elements.html"
     },
@@ -12017,7 +12017,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/hiui.md",
+      "page": "https://designrr.vercel.app/systems/hiui.md",
       "path": "systems/hiui.md",
       "html": "systems/hiui.html"
     },
@@ -12095,7 +12095,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/strapi-ds.md",
+      "page": "https://designrr.vercel.app/systems/strapi-ds.md",
       "path": "systems/strapi-ds.md",
       "html": "systems/strapi-ds.html"
     },
@@ -12171,7 +12171,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite-react.md",
+      "page": "https://designrr.vercel.app/systems/flowbite-react.md",
       "path": "systems/flowbite-react.md",
       "html": "systems/flowbite-react.html"
     },
@@ -12248,7 +12248,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/forui.md",
+      "page": "https://designrr.vercel.app/systems/forui.md",
       "path": "systems/forui.md",
       "html": "systems/forui.html"
     },
@@ -12329,7 +12329,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design-mobile.md",
+      "page": "https://designrr.vercel.app/systems/ant-design-mobile.md",
       "path": "systems/ant-design-mobile.md",
       "html": "systems/ant-design-mobile.html"
     },
@@ -12404,7 +12404,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/carbon-ibm-products.md",
+      "page": "https://designrr.vercel.app/systems/carbon-ibm-products.md",
       "path": "systems/carbon-ibm-products.md",
       "html": "systems/carbon-ibm-products.html"
     },
@@ -12479,7 +12479,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/helsinki-hds.md",
+      "page": "https://designrr.vercel.app/systems/helsinki-hds.md",
       "path": "systems/helsinki-hds.md",
       "html": "systems/helsinki-hds.html"
     },
@@ -12557,7 +12557,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/rn-reusables.md",
+      "page": "https://designrr.vercel.app/systems/rn-reusables.md",
       "path": "systems/rn-reusables.md",
       "html": "systems/rn-reusables.html"
     },
@@ -12634,7 +12634,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fusion.md",
+      "page": "https://designrr.vercel.app/systems/fusion.md",
       "path": "systems/fusion.md",
       "html": "systems/fusion.html"
     },
@@ -12711,7 +12711,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vuestic-ui.md",
+      "page": "https://designrr.vercel.app/systems/vuestic-ui.md",
       "path": "systems/vuestic-ui.md",
       "html": "systems/vuestic-ui.html"
     },
@@ -12789,7 +12789,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tw-elements.md",
+      "page": "https://designrr.vercel.app/systems/tw-elements.md",
       "path": "systems/tw-elements.md",
       "html": "systems/tw-elements.html"
     },
@@ -12865,7 +12865,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/smarthr-ui.md",
+      "page": "https://designrr.vercel.app/systems/smarthr-ui.md",
       "path": "systems/smarthr-ui.md",
       "html": "systems/smarthr-ui.html"
     },
@@ -12940,7 +12940,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/rhds.md",
+      "page": "https://designrr.vercel.app/systems/rhds.md",
       "path": "systems/rhds.md",
       "html": "systems/rhds.html"
     },
@@ -13014,7 +13014,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/theme-ui.md",
+      "page": "https://designrr.vercel.app/systems/theme-ui.md",
       "path": "systems/theme-ui.md",
       "html": "systems/theme-ui.html"
     },
@@ -13095,7 +13095,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tdesign.md",
+      "page": "https://designrr.vercel.app/systems/tdesign.md",
       "path": "systems/tdesign.md",
       "html": "systems/tdesign.html"
     },
@@ -13169,7 +13169,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/macos-ui.md",
+      "page": "https://designrr.vercel.app/systems/macos-ui.md",
       "path": "systems/macos-ui.md",
       "html": "systems/macos-ui.html"
     },
@@ -13249,7 +13249,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/open-props.md",
+      "page": "https://designrr.vercel.app/systems/open-props.md",
       "path": "systems/open-props.md",
       "html": "systems/open-props.html"
     },
@@ -13323,7 +13323,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/diceui.md",
+      "page": "https://designrr.vercel.app/systems/diceui.md",
       "path": "systems/diceui.md",
       "html": "systems/diceui.html"
     },
@@ -13398,7 +13398,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/priceline-one.md",
+      "page": "https://designrr.vercel.app/systems/priceline-one.md",
       "path": "systems/priceline-one.md",
       "html": "systems/priceline-one.html"
     },
@@ -13473,7 +13473,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/slds-react.md",
+      "page": "https://designrr.vercel.app/systems/slds-react.md",
       "path": "systems/slds-react.md",
       "html": "systems/slds-react.html"
     },
@@ -13550,7 +13550,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/baloise.md",
+      "page": "https://designrr.vercel.app/systems/baloise.md",
       "path": "systems/baloise.md",
       "html": "systems/baloise.html"
     },
@@ -13631,7 +13631,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/konsta.md",
+      "page": "https://designrr.vercel.app/systems/konsta.md",
       "path": "systems/konsta.md",
       "html": "systems/konsta.html"
     },
@@ -13706,7 +13706,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/zendesk-garden.md",
+      "page": "https://designrr.vercel.app/systems/zendesk-garden.md",
       "path": "systems/zendesk-garden.md",
       "html": "systems/zendesk-garden.html"
     },
@@ -13786,7 +13786,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/codex.md",
+      "page": "https://designrr.vercel.app/systems/codex.md",
       "path": "systems/codex.md",
       "html": "systems/codex.html"
     },
@@ -13859,7 +13859,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-md.md",
+      "page": "https://designrr.vercel.app/systems/react-md.md",
       "path": "systems/react-md.md",
       "html": "systems/react-md.html"
     },
@@ -13933,7 +13933,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/react-dsfr.md",
+      "page": "https://designrr.vercel.app/systems/react-dsfr.md",
       "path": "systems/react-dsfr.md",
       "html": "systems/react-dsfr.html"
     },
@@ -14008,7 +14008,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/layui.md",
+      "page": "https://designrr.vercel.app/systems/layui.md",
       "path": "systems/layui.md",
       "html": "systems/layui.html"
     },
@@ -14083,7 +14083,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/splunk-ui.md",
+      "page": "https://designrr.vercel.app/systems/splunk-ui.md",
       "path": "systems/splunk-ui.md",
       "html": "systems/splunk-ui.html"
     },
@@ -14162,7 +14162,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nhsuk-frontend.md",
+      "page": "https://designrr.vercel.app/systems/nhsuk-frontend.md",
       "path": "systems/nhsuk-frontend.md",
       "html": "systems/nhsuk-frontend.html"
     },
@@ -14239,7 +14239,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/baklava.md",
+      "page": "https://designrr.vercel.app/systems/baklava.md",
       "path": "systems/baklava.md",
       "html": "systems/baklava.html"
     },
@@ -14314,7 +14314,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/japan-dads.md",
+      "page": "https://designrr.vercel.app/systems/japan-dads.md",
       "path": "systems/japan-dads.md",
       "html": "systems/japan-dads.html"
     },
@@ -14388,7 +14388,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/telekom-scale.md",
+      "page": "https://designrr.vercel.app/systems/telekom-scale.md",
       "path": "systems/telekom-scale.md",
       "html": "systems/telekom-scale.html"
     },
@@ -14470,7 +14470,7 @@
         "writtenFor": "6",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/govuk-frontend.md",
+      "page": "https://designrr.vercel.app/systems/govuk-frontend.md",
       "path": "systems/govuk-frontend.md",
       "html": "systems/govuk-frontend.html"
     },
@@ -14545,7 +14545,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/fomantic-ui.md",
+      "page": "https://designrr.vercel.app/systems/fomantic-ui.md",
       "path": "systems/fomantic-ui.md",
       "html": "systems/fomantic-ui.html"
     },
@@ -14623,7 +14623,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/cedar.md",
+      "page": "https://designrr.vercel.app/systems/cedar.md",
       "path": "systems/cedar.md",
       "html": "systems/cedar.html"
     },
@@ -14696,7 +14696,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vexip-ui.md",
+      "page": "https://designrr.vercel.app/systems/vexip-ui.md",
       "path": "systems/vexip-ui.md",
       "html": "systems/vexip-ui.html"
     },
@@ -14771,7 +14771,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/charcoal.md",
+      "page": "https://designrr.vercel.app/systems/charcoal.md",
       "path": "systems/charcoal.md",
       "html": "systems/charcoal.html"
     },
@@ -14849,7 +14849,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nutui.md",
+      "page": "https://designrr.vercel.app/systems/nutui.md",
       "path": "systems/nutui.md",
       "html": "systems/nutui.html"
     },
@@ -14926,7 +14926,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gitlab-pajamas.md",
+      "page": "https://designrr.vercel.app/systems/gitlab-pajamas.md",
       "path": "systems/gitlab-pajamas.md",
       "html": "systems/gitlab-pajamas.html"
     },
@@ -15004,7 +15004,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nutui-react.md",
+      "page": "https://designrr.vercel.app/systems/nutui-react.md",
       "path": "systems/nutui-react.md",
       "html": "systems/nutui-react.html"
     },
@@ -15084,7 +15084,7 @@
         "writtenFor": "1",
         "outdated": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/salt-ds.md",
+      "page": "https://designrr.vercel.app/systems/salt-ds.md",
       "path": "systems/salt-ds.md",
       "html": "systems/salt-ds.html"
     },
@@ -15159,7 +15159,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/agds.md",
+      "page": "https://designrr.vercel.app/systems/agds.md",
       "path": "systems/agds.md",
       "html": "systems/agds.html"
     },
@@ -15234,7 +15234,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/clay.md",
+      "page": "https://designrr.vercel.app/systems/clay.md",
       "path": "systems/clay.md",
       "html": "systems/clay.html"
     },
@@ -15313,7 +15313,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/element-plus-x.md",
+      "page": "https://designrr.vercel.app/systems/element-plus-x.md",
       "path": "systems/element-plus-x.md",
       "html": "systems/element-plus-x.html"
     },
@@ -15393,7 +15393,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/astro-uxds.md",
+      "page": "https://designrr.vercel.app/systems/astro-uxds.md",
       "path": "systems/astro-uxds.md",
       "html": "systems/astro-uxds.html"
     },
@@ -15468,7 +15468,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/lens.md",
+      "page": "https://designrr.vercel.app/systems/lens.md",
       "path": "systems/lens.md",
       "html": "systems/lens.html"
     },
@@ -15546,7 +15546,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/varlet.md",
+      "page": "https://designrr.vercel.app/systems/varlet.md",
       "path": "systems/varlet.md",
       "html": "systems/varlet.html"
     },
@@ -15620,7 +15620,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/patternfly-elements.md",
+      "page": "https://designrr.vercel.app/systems/patternfly-elements.md",
       "path": "systems/patternfly-elements.md",
       "html": "systems/patternfly-elements.html"
     },
@@ -15696,7 +15696,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ontario-ds.md",
+      "page": "https://designrr.vercel.app/systems/ontario-ds.md",
       "path": "systems/ontario-ds.md",
       "html": "systems/ontario-ds.html"
     },
@@ -15769,7 +15769,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/oruga.md",
+      "page": "https://designrr.vercel.app/systems/oruga.md",
       "path": "systems/oruga.md",
       "html": "systems/oruga.html"
     },
@@ -15843,7 +15843,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/dsfr.md",
+      "page": "https://designrr.vercel.app/systems/dsfr.md",
       "path": "systems/dsfr.md",
       "html": "systems/dsfr.html"
     },
@@ -15917,7 +15917,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/sgds.md",
+      "page": "https://designrr.vercel.app/systems/sgds.md",
       "path": "systems/sgds.md",
       "html": "systems/sgds.html"
     },
@@ -15992,7 +15992,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/odyssey.md",
+      "page": "https://designrr.vercel.app/systems/odyssey.md",
       "path": "systems/odyssey.md",
       "html": "systems/odyssey.html"
     },
@@ -16068,7 +16068,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/wedges.md",
+      "page": "https://designrr.vercel.app/systems/wedges.md",
       "path": "systems/wedges.md",
       "html": "systems/wedges.html"
     },
@@ -16145,7 +16145,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ai-elements-vue.md",
+      "page": "https://designrr.vercel.app/systems/ai-elements-vue.md",
       "path": "systems/ai-elements-vue.md",
       "html": "systems/ai-elements-vue.html"
     },
@@ -16222,7 +16222,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/auro.md",
+      "page": "https://designrr.vercel.app/systems/auro.md",
       "path": "systems/auro.md",
       "html": "systems/auro.html"
     },
@@ -16297,7 +16297,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/oracle-jet.md",
+      "page": "https://designrr.vercel.app/systems/oracle-jet.md",
       "path": "systems/oracle-jet.md",
       "html": "systems/oracle-jet.html"
     },
@@ -16370,7 +16370,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-android.md",
+      "page": "https://designrr.vercel.app/systems/backpack-android.md",
       "path": "systems/backpack-android.md",
       "html": "systems/backpack-android.html"
     },
@@ -16448,7 +16448,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/franken-ui.md",
+      "page": "https://designrr.vercel.app/systems/franken-ui.md",
       "path": "systems/franken-ui.md",
       "html": "systems/franken-ui.html"
     },
@@ -16525,7 +16525,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/brainly-pencil.md",
+      "page": "https://designrr.vercel.app/systems/brainly-pencil.md",
       "path": "systems/brainly-pencil.md",
       "html": "systems/brainly-pencil.html"
     },
@@ -16602,7 +16602,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/wix-style-react.md",
+      "page": "https://designrr.vercel.app/systems/wix-style-react.md",
       "path": "systems/wix-style-react.md",
       "html": "systems/wix-style-react.html"
     },
@@ -16677,7 +16677,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/lyne.md",
+      "page": "https://designrr.vercel.app/systems/lyne.md",
       "path": "systems/lyne.md",
       "html": "systems/lyne.html"
     },
@@ -16754,7 +16754,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gcds.md",
+      "page": "https://designrr.vercel.app/systems/gcds.md",
       "path": "systems/gcds.md",
       "html": "systems/gcds.html"
     },
@@ -16828,7 +16828,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/backpack-ios.md",
+      "page": "https://designrr.vercel.app/systems/backpack-ios.md",
       "path": "systems/backpack-ios.md",
       "html": "systems/backpack-ios.html"
     },
@@ -16905,7 +16905,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vue-devui.md",
+      "page": "https://designrr.vercel.app/systems/vue-devui.md",
       "path": "systems/vue-devui.md",
       "html": "systems/vue-devui.html"
     },
@@ -16981,7 +16981,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nsw-design-system.md",
+      "page": "https://designrr.vercel.app/systems/nsw-design-system.md",
       "path": "systems/nsw-design-system.md",
       "html": "systems/nsw-design-system.html"
     },
@@ -17057,7 +17057,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/webtui.md",
+      "page": "https://designrr.vercel.app/systems/webtui.md",
       "path": "systems/webtui.md",
       "html": "systems/webtui.html"
     },
@@ -17136,7 +17136,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nl-design-system.md",
+      "page": "https://designrr.vercel.app/systems/nl-design-system.md",
       "path": "systems/nl-design-system.md",
       "html": "systems/nl-design-system.html"
     },
@@ -17211,7 +17211,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ecl.md",
+      "page": "https://designrr.vercel.app/systems/ecl.md",
       "path": "systems/ecl.md",
       "html": "systems/ecl.html"
     },
@@ -17287,7 +17287,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mozilla-protocol.md",
+      "page": "https://designrr.vercel.app/systems/mozilla-protocol.md",
       "path": "systems/mozilla-protocol.md",
       "html": "systems/mozilla-protocol.html"
     },
@@ -17364,7 +17364,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mistica.md",
+      "page": "https://designrr.vercel.app/systems/mistica.md",
       "path": "systems/mistica.md",
       "html": "systems/mistica.html"
     },
@@ -17440,7 +17440,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/dkfds.md",
+      "page": "https://designrr.vercel.app/systems/dkfds.md",
       "path": "systems/dkfds.md",
       "html": "systems/dkfds.html"
     },
@@ -17515,7 +17515,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/seeds.md",
+      "page": "https://designrr.vercel.app/systems/seeds.md",
       "path": "systems/seeds.md",
       "html": "systems/seeds.html"
     },
@@ -17587,7 +17587,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/poncho.md",
+      "page": "https://designrr.vercel.app/systems/poncho.md",
       "path": "systems/poncho.md",
       "html": "systems/poncho.html"
     },
@@ -17665,7 +17665,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/moon.md",
+      "page": "https://designrr.vercel.app/systems/moon.md",
       "path": "systems/moon.md",
       "html": "systems/moon.html"
     },
@@ -17742,7 +17742,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/evergreen.md",
+      "page": "https://designrr.vercel.app/systems/evergreen.md",
       "path": "systems/evergreen.md",
       "html": "systems/evergreen.html"
     },
@@ -17820,7 +17820,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tremor.md",
+      "page": "https://designrr.vercel.app/systems/tremor.md",
       "path": "systems/tremor.md",
       "html": "systems/tremor.html"
     },
@@ -17896,7 +17896,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/semantic-ui-react.md",
+      "page": "https://designrr.vercel.app/systems/semantic-ui-react.md",
       "path": "systems/semantic-ui-react.md",
       "html": "systems/semantic-ui-react.html"
     },
@@ -17969,7 +17969,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/melt-ui.md",
+      "page": "https://designrr.vercel.app/systems/melt-ui.md",
       "path": "systems/melt-ui.md",
       "html": "systems/melt-ui.html"
     },
@@ -18047,7 +18047,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vitamin.md",
+      "page": "https://designrr.vercel.app/systems/vitamin.md",
       "path": "systems/vitamin.md",
       "html": "systems/vitamin.html"
     },
@@ -18123,7 +18123,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/telegram-ui.md",
+      "page": "https://designrr.vercel.app/systems/telegram-ui.md",
       "path": "systems/telegram-ui.md",
       "html": "systems/telegram-ui.html"
     },
@@ -18197,7 +18197,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ng-devui.md",
+      "page": "https://designrr.vercel.app/systems/ng-devui.md",
       "path": "systems/ng-devui.md",
       "html": "systems/ng-devui.html"
     },
@@ -18274,7 +18274,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/98-css.md",
+      "page": "https://designrr.vercel.app/systems/98-css.md",
       "path": "systems/98-css.md",
       "html": "systems/98-css.html"
     },
@@ -18349,7 +18349,7 @@
       "buildGuide": {
         "handWritten": false
       },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/keep-react.md",
+      "page": "https://designrr.vercel.app/systems/keep-react.md",
       "path": "systems/keep-react.md",
       "html": "systems/keep-react.html"
     }

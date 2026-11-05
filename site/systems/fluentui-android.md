@@ -73,4 +73,4 @@ See https://github.com/microsoft/fluentui-android for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/fluentui-android.md_
+_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-android.md_
