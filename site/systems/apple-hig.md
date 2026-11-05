@@ -26,7 +26,7 @@
 - you are not building inside the apple ecosystem.
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide, written 2026-11-05 for iOS 26 SDK / SwiftUI._
+_Hand-written guide for iOS 26 SDK / SwiftUI, written 2026-11-05._
 
 ## Install
 Built into Xcode / SwiftUI — no dependency.

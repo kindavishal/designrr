@@ -69,30 +69,34 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v7; the latest release is 8.0.0. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>45/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Yandex (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>react</td></tr><tr><th scope="row">Styling</th><td>css</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>enterprise, dashboard, devtools, data-dense; shapes: app-dashboard</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>8.4k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>1.1k</td></tr><tr><th scope="row">npm weekly downloads</th><td>31.1k (<code>@gravity-ui/uikit</code> 8.0.0)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-03</td></tr><tr><th scope="row">Docs</th><td><a href="https://gravity-ui.com">https://gravity-ui.com</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/gravity-ui/uikit">https://github.com/gravity-ui/uikit</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://gravity-ui.com/llms.txt">https://gravity-ui.com/llms.txt</a></li><li><strong>llms-full.txt:</strong> <a href="https://gravity-ui.com/llms-full.txt">https://gravity-ui.com/llms-full.txt</a></li><li>MCP server: none found</li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/gravity-ui/uikit/blob/HEAD/AGENTS.md">https://github.com/gravity-ui/uikit/blob/HEAD/AGENTS.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v7; the latest release is 8.0.0, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v7; latest release 8.0.0.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v8, checked against <a href="https://github.com/gravity-ui/uikit/blob/main/docs/migration-to-v8.md">https://github.com/gravity-ui/uikit/blob/main/docs/migration-to-v8.md</a> on 2026-11-05; latest release 8.0.0.</em></p>
 <h2 id="install">Install</h2>
 <div class="code-block"><pre><code data-lang="bash">npm install @gravity-ui/uikit
-# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/charts @gravity-ui/icons</code></pre><wa-copy-button value="npm install @gravity-ui/uikit
-# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/charts @gravity-ui/icons" class="code-copy"></wa-copy-button></div>
+# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/icons</code></pre><wa-copy-button value="npm install @gravity-ui/uikit
+# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/icons" class="code-copy"></wa-copy-button></div>
+<p>Requires React 18 or 19. Virtualised and drag-and-drop entry points need extra peers (<code>@tanstack/react-virtual</code>, <code>@hello-pangea/dnd</code>).</p>
 <h2 id="setup">Setup</h2>
 <div class="code-block"><pre><code data-lang="tsx">import '@gravity-ui/uikit/styles/fonts.css';
 import '@gravity-ui/uikit/styles/styles.css';
-import { ThemeProvider } from '@gravity-ui/uikit';
-&lt;ThemeProvider theme=&quot;light&quot;&gt;{/* light | dark | light-hc | dark-hc */}&lt;/ThemeProvider&gt;</code></pre><wa-copy-button value="import '@gravity-ui/uikit/styles/fonts.css';
+import { Provider } from '@gravity-ui/uikit';
+
+&lt;Provider theme=&quot;light&quot; lang=&quot;en&quot;&gt;{/* app */}&lt;/Provider&gt;   // themes: light, dark, light-hc, dark-hc</code></pre><wa-copy-button value="import '@gravity-ui/uikit/styles/fonts.css';
 import '@gravity-ui/uikit/styles/styles.css';
-import { ThemeProvider } from '@gravity-ui/uikit';
-&lt;ThemeProvider theme=&quot;light&quot;&gt;{/* light | dark | light-hc | dark-hc */}&lt;/ThemeProvider&gt;" class="code-copy"></wa-copy-button></div>
+import { Provider } from '@gravity-ui/uikit';
+
+&lt;Provider theme=&quot;light&quot; lang=&quot;en&quot;&gt;{/* app */}&lt;/Provider&gt;   // themes: light, dark, light-hc, dark-hc" class="code-copy"></wa-copy-button></div>
+<p>v8 replaced the app-level <code>ThemeProvider</code> with <code>Provider</code> (theme, language, layout, component defaults and mobile settings in one).</p>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
-<p>Override CSS variables (<code>--g-color-base-brand</code>, <code>--g-color-text-brand</code>, …) per theme class (<code>.g-root_theme_light</code>). The online Themer at gravity-ui.com generates them.</p>
+<p>Override the semantic CSS variables (<code>--g-color-base-brand</code>, <code>--g-color-text-brand</code>, …) per theme; the Themer on gravity-ui.com generates them.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li><code>@gravity-ui/navigation</code> gives a ready AsideHeader/app shell for consoles.</li></ul>
+<ul><li>v8 moved the old <code>List</code>, <code>Menu</code>, <code>DropdownMenu</code> and <code>Table</code> to <code>@gravity-ui/uikit/legacy</code>; the root <code>List</code> and <code>Menu</code> have new APIs. Don't copy v7 examples.</li><li>Layout: the new <code>Grid</code> plus responsive props on <code>Box</code>, <code>Flex</code>, <code>Container</code>, <code>Row</code> and <code>Col</code>.</li><li><code>@gravity-ui/navigation</code> gives a ready app shell (AsideHeader) for consoles.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>

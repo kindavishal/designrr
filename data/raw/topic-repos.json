@@ -6,7 +6,7 @@
       "repo": "donnemartin/system-design-primer",
       "name": "system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "stars": 376849,
+      "stars": 376853,
       "topics": [
         "design",
         "design-patterns",
@@ -28,7 +28,7 @@
       "repo": "VoltAgent/awesome-design-md",
       "name": "awesome-design-md",
       "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "stars": 125670,
+      "stars": 125672,
       "topics": [
         "awesome-list",
         "design-md",
@@ -46,7 +46,7 @@
       "repo": "Leonxlnx/taste-skill",
       "name": "taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "stars": 110188,
+      "stars": 110196,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -446,7 +446,7 @@
       "repo": "unovue/reka-ui",
       "name": "reka-ui",
       "description": "An open-source UI component library for building high-quality, accessible design systems and web apps for Vue. Previously Radix Vue",
-      "stars": 6926,
+      "stars": 6927,
       "topics": [
         "accessibility",
         "accessible",
@@ -624,7 +624,7 @@
       "repo": "Appllama/appllama-skills",
       "name": "appllama-skills",
       "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-      "stars": 4874,
+      "stars": 4875,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -668,7 +668,7 @@
       "repo": "Manavarya09/design-extract",
       "name": "design-extract",
       "description": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
-      "stars": 4677,
+      "stars": 4680,
       "topics": [
         "accessibility",
         "agent-skill",
@@ -1029,7 +1029,7 @@
       "repo": "dickwu/apple-design-skill",
       "name": "apple-design-skill",
       "description": "Cross-platform UI/UX design reviewer based on Apple HIG. Works with Flutter, Tauri, Electron, React Native. Compatible with Claude Code, Cursor, Codex.",
-      "stars": 2807,
+      "stars": 2809,
       "topics": [
         "apple-hig",
         "claude-code",
@@ -1905,7 +1905,7 @@
       "repo": "BoardUI/boardui",
       "name": "boardui",
       "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
-      "stars": 984,
+      "stars": 985,
       "topics": [
         "agentic-ai",
         "ai-agent",
@@ -3004,7 +3004,7 @@
       "repo": "op7418/dsh-guizang-design",
       "name": "dsh-guizang-design",
       "description": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
-      "stars": 444,
+      "stars": 445,
       "topics": [
         "deepseek-harness",
         "design-system",
@@ -3027,6 +3027,26 @@
       "query": "topic:design-system"
     },
     {
+      "repo": "educlopez/ui-craft",
+      "name": "ui-craft",
+      "description": "Design engineering system for AI coding agents — ship UI with craft-level quality. Install as an agent skill.",
+      "stars": 432,
+      "topics": [
+        "agent-skills",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "css",
+        "cursor",
+        "design",
+        "design-system",
+        "frontend",
+        "skills",
+        "ui"
+      ],
+      "query": "topic:design-system"
+    },
+    {
       "repo": "telekom/scale",
       "name": "scale",
       "description": "Scale is the digital design system for Telekom products and experiences.",
@@ -3040,26 +3060,6 @@
         "typescript",
         "ui-toolkit",
         "web-components"
-      ],
-      "query": "topic:design-system"
-    },
-    {
-      "repo": "educlopez/ui-craft",
-      "name": "ui-craft",
-      "description": "Design engineering system for AI coding agents — ship UI with craft-level quality. Install as an agent skill.",
-      "stars": 431,
-      "topics": [
-        "agent-skills",
-        "anti-slop",
-        "claude-code",
-        "codex",
-        "css",
-        "cursor",
-        "design",
-        "design-system",
-        "frontend",
-        "skills",
-        "ui"
       ],
       "query": "topic:design-system"
     },
@@ -3243,7 +3243,7 @@
       "repo": "Esri/calcite-design-system",
       "name": "calcite-design-system",
       "description": "A monorepo containing the packages for Esri's Calcite Design System",
-      "stars": 380,
+      "stars": 381,
       "topics": [
         "accessibility",
         "arcgis-online",
@@ -3585,7 +3585,7 @@
       "repo": "nexu-io/open-design",
       "name": "open-design",
       "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-      "stars": 105993,
+      "stars": 105996,
       "topics": [
         "agent-skills",
         "ai-design",
@@ -3614,7 +3614,7 @@
       "repo": "ant-design/ant-design",
       "name": "ant-design",
       "description": "An enterprise-class UI design language and React UI library",
-      "stars": 100081,
+      "stars": 100082,
       "topics": [
         "ant-design",
         "antd",
@@ -3743,7 +3743,7 @@
       "repo": "adobe/react-spectrum",
       "name": "react-spectrum",
       "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
-      "stars": 16012,
+      "stars": 16011,
       "topics": [
         "accessibility",
         "design-systems",
@@ -4084,7 +4084,7 @@
       "repo": "dembrandt/dembrandt",
       "name": "dembrandt",
       "description": "Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.",
-      "stars": 3944,
+      "stars": 3945,
       "topics": [
         "brand-audits",
         "claude-code",
@@ -4909,7 +4909,7 @@
       "repo": "DavidHDev/react-bits",
       "name": "react-bits",
       "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents.",
-      "stars": 51270,
+      "stars": 51271,
       "topics": [
         "3d",
         "animations",
@@ -4978,7 +4978,7 @@
       "repo": "tusen-ai/naive-ui",
       "name": "naive-ui",
       "description": "A Vue 3 Component Library. Fairly Complete. Theme Customizable. Uses TypeScript. Fast.",
-      "stars": 18602,
+      "stars": 18603,
       "topics": [
         "component-library",
         "ui-components",
@@ -5113,7 +5113,7 @@
       "repo": "knadh/oat",
       "name": "oat",
       "description": "Ultra-lightweight, zero dependency, semantic HTML, CSS, JS UI library. ~10KB min+gz.",
-      "stars": 5589,
+      "stars": 5590,
       "topics": [
         "component-library",
         "css",
@@ -5133,7 +5133,7 @@
       "repo": "DavidHDev/canvas-ui",
       "name": "canvas-ui",
       "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-      "stars": 5333,
+      "stars": 5334,
       "topics": [
         "animation",
         "canvas",
@@ -8068,7 +8068,7 @@
       "repo": "brillout/awesome-react-components",
       "name": "awesome-react-components",
       "description": "Curated List of React Components & Libraries.",
-      "stars": 48806,
+      "stars": 48807,
       "topics": [
         "awesome",
         "awesome-list",

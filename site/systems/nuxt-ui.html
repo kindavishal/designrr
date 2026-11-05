@@ -69,26 +69,42 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v3; the latest release is 4.12.0. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>75/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>NuxtLabs (Vercel) (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>vue, nuxt</td></tr><tr><th scope="row">Styling</th><td>tailwind</td></tr><tr><th scope="row">Install</th><td>npm package, needs Tailwind CSS (requires: tailwind, bundler)</td></tr><tr><th scope="row">Good for</th><td>saas, startup-mvp, marketing, dashboard; shapes: saas-app, marketing-site, content-site</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / not detected</td></tr><tr><th scope="row">Package size (unpacked)</th><td>2.8k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>7.1k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>@nuxt/ui</code> 4.12.0)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://ui.nuxt.com">https://ui.nuxt.com</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/nuxt/ui">https://github.com/nuxt/ui</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://ui.nuxt.com/llms.txt">https://ui.nuxt.com/llms.txt</a></li><li><strong>llms-full.txt:</strong> <a href="https://ui.nuxt.com/llms-full.txt">https://ui.nuxt.com/llms-full.txt</a></li><li><strong>MCP server:</strong><ul><li>remote server <a href="https://ui.nuxt.com/mcp">https://ui.nuxt.com/mcp</a></li></ul>
 <div class="code-block"><pre><code data-lang="json">{&quot;mcpServers&quot;:{&quot;nuxt-ui&quot;:{&quot;type&quot;:&quot;http&quot;,&quot;url&quot;:&quot;https://ui.nuxt.com/mcp&quot;}}}</code></pre><wa-copy-button value="{&quot;mcpServers&quot;:{&quot;nuxt-ui&quot;:{&quot;type&quot;:&quot;http&quot;,&quot;url&quot;:&quot;https://ui.nuxt.com/mcp&quot;}}}" class="code-copy"></wa-copy-button></div></li><li><strong>Design tokens:</strong> <a href="https://github.com/nuxt/ui/blob/HEAD/docs/app/utils/theme/tokens.ts">https://github.com/nuxt/ui/blob/HEAD/docs/app/utils/theme/tokens.ts</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/nuxt/ui/blob/HEAD/AGENTS.md">https://github.com/nuxt/ui/blob/HEAD/AGENTS.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>the project does not use (or cannot add) Tailwind CSS.</li><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v3; the latest release is 4.12.0, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v3; latest release 4.12.0.</em></p>
+<ul><li>the project does not use (or cannot add) Tailwind CSS.</li><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v4, checked against <a href="https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md">https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md</a> on 2026-11-05; latest release 4.12.0.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">npm create nuxt@latest -- -t ui          # new Nuxt project with Nuxt UI
-# existing: npx nuxt module add ui   then  @import &quot;tailwindcss&quot;; @import &quot;@nuxt/ui&quot;;  in main.css</code></pre><wa-copy-button value="npm create nuxt@latest -- -t ui          # new Nuxt project with Nuxt UI
-# existing: npx nuxt module add ui   then  @import &quot;tailwindcss&quot;; @import &quot;@nuxt/ui&quot;;  in main.css" class="code-copy"></wa-copy-button></div>
-<p>Plain Vue (Vite) is supported too via the <code>@nuxt/ui/vite</code> plugin.</p>
+<p>New project from a template:</p>
+<div class="code-block"><pre><code data-lang="bash">npm create nuxt@latest -- -t ui          # also: ui/landing, ui/docs, ui/saas, ui/dashboard, ui/chat</code></pre><wa-copy-button value="npm create nuxt@latest -- -t ui          # also: ui/landing, ui/docs, ui/saas, ui/dashboard, ui/chat" class="code-copy"></wa-copy-button></div>
+<p>Existing Nuxt app:</p>
+<div class="code-block"><pre><code data-lang="bash">npm install @nuxt/ui tailwindcss</code></pre><wa-copy-button value="npm install @nuxt/ui tailwindcss" class="code-copy"></wa-copy-button></div>
+<p>Add <code>modules: ['@nuxt/ui']</code> and <code>css: ['~/assets/css/main.css']</code> to <code>nuxt.config.ts</code>, and in <code>app/assets/css/main.css</code>:</p>
+<div class="code-block"><pre><code data-lang="css">@import &quot;tailwindcss&quot;;
+@import &quot;@nuxt/ui&quot;;</code></pre><wa-copy-button value="@import &quot;tailwindcss&quot;;
+@import &quot;@nuxt/ui&quot;;" class="code-copy"></wa-copy-button></div>
+<p>Plain Vue (Vite): same packages, then add the <code>ui()</code> plugin from <code>@nuxt/ui/vite</code> to <code>vite.config.ts</code>.</p>
 <h2 id="setup">Setup</h2>
-<p>Wrap the app in <code>&lt;UApp&gt;</code> (provides toasts, tooltips, overlays).</p>
+<p>Wrap the app in <code>&lt;UApp&gt;</code> (provides toasts, tooltips and overlays):</p>
+<div class="code-block"><pre><code data-lang="vue">&lt;template&gt;
+  &lt;UApp&gt;
+    &lt;NuxtPage /&gt;
+  &lt;/UApp&gt;
+&lt;/template&gt;</code></pre><wa-copy-button value="&lt;template&gt;
+  &lt;UApp&gt;
+    &lt;NuxtPage /&gt;
+  &lt;/UApp&gt;
+&lt;/template&gt;" class="code-copy"></wa-copy-button></div>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
-<p><code>app.config.ts</code>: <code>ui: { colors: { primary: 'indigo', neutral: 'zinc' } }</code>; per-component <code>ui</code> slots override classes. Tailwind <code>@theme</code> for custom colour scales.</p>
+<p><code>app/app.config.ts</code>:</p>
+<div class="code-block"><pre><code data-lang="ts">export default defineAppConfig({ ui: { colors: { primary: 'indigo', secondary: 'purple', neutral: 'zinc' } } })</code></pre><wa-copy-button value="export default defineAppConfig({ ui: { colors: { primary: 'indigo', secondary: 'purple', neutral: 'zinc' } } })" class="code-copy"></wa-copy-button></div>
+<p>Custom colour scales go in CSS with Tailwind's <code>@theme</code>; per-component <code>ui</code> props override slot classes.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Remote MCP server: <code>https://ui.nuxt.com/mcp</code>; docs at <code>https://ui.nuxt.com/llms.txt</code>.</li><li>Starter templates (dashboard, SaaS, landing, docs, chat) exist — start from one.</li></ul>
+<ul><li>Remote MCP server: <code>https://ui.nuxt.com/mcp</code> (HTTP transport). Docs index: <code>https://ui.nuxt.com/llms.txt</code>; every page has a raw Markdown version under <code>/raw/docs/…</code>.</li><li>Start from the template closest to the product (dashboard, SaaS, chat, docs) rather than from scratch.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>

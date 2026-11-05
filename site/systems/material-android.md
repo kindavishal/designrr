@@ -27,7 +27,7 @@
 ## Consider an alternative if
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide, written 2026-11-05 for Compose Material 3 (1.x)._
+_Hand-written guide for Compose Material 3 (1.x), written 2026-11-05._
 
 ## Install
 ```kotlin

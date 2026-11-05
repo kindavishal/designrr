@@ -26,7 +26,7 @@
 - **Agent/contributor docs in repo:** https://github.com/flutter/flutter/blob/HEAD/.agents/agents/reidbaker-agent/skills/code-review/SKILL.md
 
 
-_Hand-written guide, written 2026-11-05 for Flutter 3 (Material 3)._
+_Hand-written guide for Flutter 3 (Material 3), written 2026-11-05._
 
 ## Install
 Ships with the Flutter SDK — no package needed. `flutter create my_app`.

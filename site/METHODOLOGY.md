@@ -86,7 +86,7 @@ An editorial override (`aiOverrides`) is allowed only with an evidence string, w
 
 ## 8. Build guides
 
-- **Hand-written guides** (`guides/<slug>.md`) carry frontmatter with `writtenFor` (the major version) and `written` (date). `{{version}}` in a guide is replaced with the latest npm version at build time.
+- **Hand-written guides** (`guides/<slug>.md`) carry frontmatter with `writtenFor` (the major version), `written` (date) and, when the commands were checked against the system's own current docs, `verifiedAgainst` (the URL of the page or llms.txt they were checked against). Pages show which applies. `{{version}}` in a guide is replaced with the latest npm version at build time.
 - When the latest major differs from `writtenFor`, the page shows a warning and `catalog.json` sets `buildGuide.outdated: true`. Agents are told to confirm setup in the system's own `llms.txt` or MCP server.
 - **Other systems** get a generated guide: pinned CDN links when the system works without a build step, the package install command, and the system's AI resources.
 

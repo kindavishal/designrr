@@ -28,22 +28,25 @@
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v8; the latest release is 9.0.10, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v8; latest release 9.0.10._
+_Hand-written guide for v9, checked against https://ionicframework.com/docs/react/quickstart.md on 2026-11-05; latest release 9.0.10._
 
 ## Install
 ```bash
 npm install -g @ionic/cli
-ionic start myApp tabs --type=react     # or angular / vue
-npx cap add ios && npx cap add android  # native shells via Capacitor
+ionic start myApp tabs --type=react     # or --type=angular / --type=vue
+cd myApp && ionic serve
 ```
+Native shells via Capacitor (Ionic 9 supports Capacitor 7+): `npx cap add ios` and `npx cap add android`.
 
 ## Theme it to a brand
-CSS variables in `src/theme/variables.css` (`--ion-color-primary`, …). Components adapt to iOS vs Material mode automatically.
+Set the colour variables (`--ion-color-primary`, its `-rgb`, `-contrast`, `-shade` and `-tint` variants) in your theme CSS file; the colour generator in the docs produces the full set from one hex. Dark mode: import one of `@ionic/<framework>/css/palettes/dark.system.css` (follows the OS), `dark.class.css` (toggle with a class) or `dark.always.css`.
 
 ## Agent tips
-- Use `IonPage`, `IonHeader`, `IonContent` structure on every page or navigation transitions break.
+- Components adapt to iOS and Material styling automatically per platform.
+- Keep the `IonPage` / `IonHeader` / `IonContent` structure on every page, or navigation transitions break.
+- Upgrading an older app: `npx @ionic/migrate` applies Ionic 9's breaking changes and lists what is left. Angular 18–22 are supported.
+- Docs index for LLMs: `https://ionicframework.com/docs/llms.txt`; pages have `.md` versions.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

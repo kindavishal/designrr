@@ -69,24 +69,25 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v8; the latest release is 9.0.10. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>50/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Ionic (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web, ios, android</td></tr><tr><th scope="row">Frameworks</th><td>web-components, react, vue, angular</td></tr><tr><th scope="row">Styling</th><td>web-components</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>mobile, hybrid-app, consumer; shapes: mobile-app</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>20.4k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>52.7k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>@ionic/core</code> 9.0.10)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://ionicframework.com/docs">https://ionicframework.com/docs</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/ionic-team/ionic-framework">https://github.com/ionic-team/ionic-framework</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://ionicframework.com/docs/llms.txt">https://ionicframework.com/docs/llms.txt</a></li><li>MCP server: none found</li><li><strong>Design tokens:</strong> <a href="https://github.com/ionic-team/ionic-framework/blob/HEAD/packages/angular/schematics/add/files/root/theme/variables.css">https://github.com/ionic-team/ionic-framework/blob/HEAD/packages/angular/schematics/add/files/root/theme/variables.css</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v8; the latest release is 9.0.10, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v8; latest release 9.0.10.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v9, checked against <a href="https://ionicframework.com/docs/react/quickstart.md">https://ionicframework.com/docs/react/quickstart.md</a> on 2026-11-05; latest release 9.0.10.</em></p>
 <h2 id="install">Install</h2>
 <div class="code-block"><pre><code data-lang="bash">npm install -g @ionic/cli
-ionic start myApp tabs --type=react     # or angular / vue
-npx cap add ios &amp;&amp; npx cap add android  # native shells via Capacitor</code></pre><wa-copy-button value="npm install -g @ionic/cli
-ionic start myApp tabs --type=react     # or angular / vue
-npx cap add ios &amp;&amp; npx cap add android  # native shells via Capacitor" class="code-copy"></wa-copy-button></div>
+ionic start myApp tabs --type=react     # or --type=angular / --type=vue
+cd myApp &amp;&amp; ionic serve</code></pre><wa-copy-button value="npm install -g @ionic/cli
+ionic start myApp tabs --type=react     # or --type=angular / --type=vue
+cd myApp &amp;&amp; ionic serve" class="code-copy"></wa-copy-button></div>
+<p>Native shells via Capacitor (Ionic 9 supports Capacitor 7+): <code>npx cap add ios</code> and <code>npx cap add android</code>.</p>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
-<p>CSS variables in <code>src/theme/variables.css</code> (<code>--ion-color-primary</code>, …). Components adapt to iOS vs Material mode automatically.</p>
+<p>Set the colour variables (<code>--ion-color-primary</code>, its <code>-rgb</code>, <code>-contrast</code>, <code>-shade</code> and <code>-tint</code> variants) in your theme CSS file; the colour generator in the docs produces the full set from one hex. Dark mode: import one of <code>@ionic/&lt;framework&gt;/css/palettes/dark.system.css</code> (follows the OS), <code>dark.class.css</code> (toggle with a class) or <code>dark.always.css</code>.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Use <code>IonPage</code>, <code>IonHeader</code>, <code>IonContent</code> structure on every page or navigation transitions break.</li></ul>
+<ul><li>Components adapt to iOS and Material styling automatically per platform.</li><li>Keep the <code>IonPage</code> / <code>IonHeader</code> / <code>IonContent</code> structure on every page, or navigation transitions break.</li><li>Upgrading an older app: <code>npx @ionic/migrate</code> applies Ionic 9's breaking changes and lists what is left. Angular 18–22 are supported.</li><li>Docs index for LLMs: <code>https://ionicframework.com/docs/llms.txt</code>; pages have <code>.md</code> versions.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>

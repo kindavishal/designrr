@@ -28,7 +28,7 @@ function loadGuide(s) {
   if (!existsSync(file)) return null;
   const raw = readFileSync(file, 'utf8');
   const fm = raw.match(/^---\n([\s\S]*?)\n---\n/);
-  const meta = fm ? Object.fromEntries(fm[1].split('\n').map((l) => l.split(/:\s*/, 2)).map(([k, v]) => [k.trim(), (v || '').replace(/^"|"$/g, '').trim()])) : {};
+  const meta = fm ? Object.fromEntries(fm[1].split('\n').filter((l) => l.includes(':')).map((l) => [l.slice(0, l.indexOf(':')).trim(), l.slice(l.indexOf(':') + 1).trim().replace(/^"|"$/g, '')])) : {};
   let body = fm ? raw.slice(fm[0].length) : raw;
   const latest = s.signals.npmLatest;
   if (latest) body = body.replaceAll('{{version}}', latest);
@@ -149,7 +149,7 @@ function pageMarkdown(s) {
     caveats(s, guide).length ? '## Consider an alternative if' : null,
     ...caveats(s, guide).map((c) => `- ${c}`),
     '',
-    guide ? `_Hand-written guide, written ${guide.meta.written} for ${guide.meta.platformSdk ? guide.meta.writtenFor : `v${guide.meta.writtenFor}`}${s.signals.npmLatest ? `; latest release ${s.signals.npmLatest}` : ''}._` : '_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._',
+    guide ? `_Hand-written guide for ${guide.meta.platformSdk ? guide.meta.writtenFor : `v${guide.meta.writtenFor}`}, ${guide.meta.verifiedAgainst ? `checked against ${guide.meta.verifiedAgainst} on ${guide.meta.written}` : `written ${guide.meta.written}`}${s.signals.npmLatest ? `; latest release ${s.signals.npmLatest}` : ''}._` : '_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._',
     '',
     guide ? guide.body : genericGuide(s),
     '',

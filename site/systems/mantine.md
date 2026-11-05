@@ -25,34 +25,44 @@
 - **llms.txt:** https://mantine.dev/llms.txt
 - **llms-full.txt:** https://mantine.dev/llms-full.txt
 - **MCP server:**
+  - npm package `@mantine/mcp-server`
+    ```json
+    {"mcpServers":{"mantine":{"command":"npx","args":["-y","@mantine/mcp-server"]}}}
+    ```
   - in-repo package: https://github.com/mantinedev/mantine/tree/HEAD/packages/@mantine/mcp-server (see its README for setup)
 - **Design tokens:** https://github.com/mantinedev/mantine/blob/HEAD/apps/mantine.dev/src/styles/variables.css
 - **Agent/contributor docs in repo:** https://github.com/mantinedev/mantine/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v8; the latest release is 9.7.5, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v8; latest release 9.7.5._
+_Hand-written guide for v9, checked against https://mantine.dev/llms/getting-started.md on 2026-11-05; latest release 9.7.5._
 
 ## Install
+Quickest: start from an official template (Next.js or Vite) on mantine.dev. Existing app:
 ```bash
 npm install @mantine/core @mantine/hooks
-# extras as needed: @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/charts recharts @mantine/modals
+npm install --save-dev postcss postcss-preset-mantine postcss-simple-vars
+# extras as needed: @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/charts recharts
 ```
-Requires `postcss-preset-mantine` + `postcss-simple-vars` (see Getting started) and `import '@mantine/core/styles.css'`.
+Create `postcss.config.cjs` with the `postcss-preset-mantine` and `postcss-simple-vars` plugins (breakpoint variables are listed in the getting-started guide).
 
 ## Setup
 ```tsx
+import '@mantine/core/styles.css';   // once, at the root; other packages have their own styles.css
 import { MantineProvider, createTheme } from '@mantine/core';
 const theme = createTheme({ primaryColor: 'indigo', fontFamily: 'Inter, sans-serif', defaultRadius: 'md' });
-<MantineProvider theme={theme} defaultColorScheme="auto">{/* app */}</MantineProvider>
+export function App() { return <MantineProvider theme={theme} defaultColorScheme="auto">{/* app */}</MantineProvider>; }
 ```
-Next.js: add `ColorSchemeScript` in `<head>`.
+With SSR (Next.js etc.): put `<ColorSchemeScript />` in `<head>` and spread `mantineHtmlProps` on `<html>` to avoid hydration warnings.
+
+## Theme it to a brand
+Everything goes through `createTheme`: `colors` (10-shade tuples), `primaryColor`, `fontFamily`, `headings`, `radius`, `spacing`, and per-component `components` defaults. Style custom parts with CSS modules and Mantine's CSS variables.
 
 ## Agent tips
-- Read `https://mantine.dev/llms.txt`; Mantine also publishes an MCP server (`@mantine/mcp-server`).
-- Prefer Mantine's own `AppShell`, `useForm`, `notifications` over third-party libs — it keeps one visual language.
+- MCP server: `npx -y @mantine/mcp-server`. Docs index for LLMs: `https://mantine.dev/llms.txt` (every page has a Markdown twin under `/llms/`).
+- Prefer Mantine's own `AppShell`, `useForm`, `notifications` and `@mantine/dates` over third-party libraries to keep one visual language.
+- Create React App is not supported for new projects; use Vite or Next.js.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

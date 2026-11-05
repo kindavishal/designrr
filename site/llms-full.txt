@@ -37,29 +37,35 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v2; the latest release is 3.2.7, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v2; latest release 3.2.7._
+_Hand-written guide for v3, checked against https://heroui.com/docs/react/getting-started/quick-start.mdx on 2026-11-05; latest release 3.2.7._
 
 ## Install
+Requires React 19+ and Tailwind CSS v4 (set Tailwind up first with its framework guide).
 ```bash
-npx heroui-cli@latest init        # new project
-# existing app: npm install @heroui/react framer-motion   (Tailwind required)
+npm i @heroui/styles @heroui/react
 ```
-Follow the Tailwind plugin step in the docs (v4: `@plugin './hero.ts'` in your CSS).
+In your main Tailwind CSS file, import HeroUI right after Tailwind (order matters):
+```css
+@import "tailwindcss";
+@import "@heroui/styles";
+```
 
 ## Setup
+No provider is needed in v3. Import components and use them:
 ```tsx
-import { HeroUIProvider } from '@heroui/react';
-<HeroUIProvider>{/* app */}</HeroUIProvider>
+import { Button } from '@heroui/react';
+export function App() { return <Button>My Button</Button>; }
 ```
+Built on React Aria Components; components are composed from parts (for example `Card.Header`).
 
 ## Theme it to a brand
-Themes are defined in the `heroui()` Tailwind plugin (`themes: { light: { colors: { primary: { DEFAULT: '#…' } } } }`).
+Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" data-theme="light"` (or `dark`) on `<html>`, and override semantic variables such as `--accent` and `--success` in `:root`, or under your own `[data-theme="brand"]` selector.
 
 ## Agent tips
-- MCP server: `npx -y @heroui/react-mcp` ; docs index at `https://www.heroui.com/llms.txt`.
-- Check whether the project is on HeroUI v2 or v3 before copying examples — the APIs differ.
+- MCP server: `npx -y @heroui/react-mcp@latest`. HeroUI's own docs tell agents to treat the MCP as the source of truth for install steps and versions.
+- v3 is a rewrite: v2 APIs (`HeroUIProvider`, the `heroui()` Tailwind plugin) no longer apply. The migration guide for agents is `https://heroui.com/en/docs/react/migration/agent-index`.
+- Docs index: `https://www.heroui.com/llms.txt`; pages have `.mdx` source versions.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -129,30 +135,32 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.23.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.23.0._
+_Hand-written guide for v4, checked against https://ui.shadcn.com/docs/cli.md on 2026-11-05; latest release 4.23.0._
 
 ## Install
+New project (scaffolds the app and shadcn/ui together):
 ```bash
-npx shadcn@latest init          # in an existing Next.js / Vite / React Router / Astro app with Tailwind
-npx shadcn@latest add button card dialog form input table sidebar
+npx shadcn@latest init --template next     # templates: next, vite, start, react-router, laravel, astro
 ```
-New project: `npx shadcn@latest init` offers templates; or start from `npx create-next-app@latest` first.
+Existing project: run `npx shadcn@latest init` in the app root. Choose the primitive base with `--base radix|base|aria`, or a saved design with `--preset <code>` (build one at ui.shadcn.com/create). Then add components:
+```bash
+npx shadcn@latest add button card dialog field input table sidebar
+```
 
 ## How it works
-Components are copied into your repo (`components/ui/*`) — you own and edit the source. Config lives in `components.json`. Built on Radix (or Base UI) primitives + Tailwind.
+Components are copied into your repo (`components/ui/*`), so you own and edit the source. Config lives in `components.json`. Built on Radix, Base UI or React Aria primitives with Tailwind CSS.
 
 ## Theme it to a brand
-- Edit the CSS variables in `app/globals.css` (`--background`, `--foreground`, `--primary`, `--radius`, …) for `:root` and `.dark`.
-- Pick a base theme at init, or generate one at ui.shadcn.com/themes and paste the variables.
-- Fonts: set in your layout and map to `--font-sans`.
+- Edit the CSS variables in your global CSS (`--background`, `--foreground`, `--primary`, `--radius`, …) for `:root` and `.dark`, or start from a preset.
+- `npx shadcn@latest preset decode <code>` shows what a preset sets; `shadcn apply` re-applies one to an existing project.
+- Fonts: set them in your layout and map them to `--font-sans`.
 
 ## Agent tips
-- Run `npx shadcn@latest mcp init` (or add `npx shadcn@latest mcp` to your MCP client) so you can search and install registry items directly.
-- Use **blocks** (`npx shadcn@latest add dashboard-01 sidebar-07 login-03`) to scaffold whole screens, then edit.
-- Never hand-write a component that exists in the registry; `add` it.
-- Charts: `add chart` (Recharts). Forms: `add form` (react-hook-form + zod).
+- MCP server: `npx shadcn@latest mcp init --client <claude|cursor|vscode|codex|opencode>`. It lets the agent search and install registry items.
+- Agent skill: `npx skills add shadcn/ui`.
+- `npx shadcn@latest docs <component>` and `view` print docs and source; `search` queries registries.
+- Never hand-write a component that exists in the registry; `add` it. Use blocks (for example `npx shadcn@latest add dashboard-01`) to scaffold whole screens.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -212,34 +220,44 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - **llms.txt:** https://mantine.dev/llms.txt
 - **llms-full.txt:** https://mantine.dev/llms-full.txt
 - **MCP server:**
+  - npm package `@mantine/mcp-server`
+    ```json
+    {"mcpServers":{"mantine":{"command":"npx","args":["-y","@mantine/mcp-server"]}}}
+    ```
   - in-repo package: https://github.com/mantinedev/mantine/tree/HEAD/packages/@mantine/mcp-server (see its README for setup)
 - **Design tokens:** https://github.com/mantinedev/mantine/blob/HEAD/apps/mantine.dev/src/styles/variables.css
 - **Agent/contributor docs in repo:** https://github.com/mantinedev/mantine/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v8; the latest release is 9.7.5, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v8; latest release 9.7.5._
+_Hand-written guide for v9, checked against https://mantine.dev/llms/getting-started.md on 2026-11-05; latest release 9.7.5._
 
 ## Install
+Quickest: start from an official template (Next.js or Vite) on mantine.dev. Existing app:
 ```bash
 npm install @mantine/core @mantine/hooks
-# extras as needed: @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/charts recharts @mantine/modals
+npm install --save-dev postcss postcss-preset-mantine postcss-simple-vars
+# extras as needed: @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/charts recharts
 ```
-Requires `postcss-preset-mantine` + `postcss-simple-vars` (see Getting started) and `import '@mantine/core/styles.css'`.
+Create `postcss.config.cjs` with the `postcss-preset-mantine` and `postcss-simple-vars` plugins (breakpoint variables are listed in the getting-started guide).
 
 ## Setup
 ```tsx
+import '@mantine/core/styles.css';   // once, at the root; other packages have their own styles.css
 import { MantineProvider, createTheme } from '@mantine/core';
 const theme = createTheme({ primaryColor: 'indigo', fontFamily: 'Inter, sans-serif', defaultRadius: 'md' });
-<MantineProvider theme={theme} defaultColorScheme="auto">{/* app */}</MantineProvider>
+export function App() { return <MantineProvider theme={theme} defaultColorScheme="auto">{/* app */}</MantineProvider>; }
 ```
-Next.js: add `ColorSchemeScript` in `<head>`.
+With SSR (Next.js etc.): put `<ColorSchemeScript />` in `<head>` and spread `mantineHtmlProps` on `<html>` to avoid hydration warnings.
+
+## Theme it to a brand
+Everything goes through `createTheme`: `colors` (10-shade tuples), `primaryColor`, `fontFamily`, `headings`, `radius`, `spacing`, and per-component `components` defaults. Style custom parts with CSS modules and Mantine's CSS variables.
 
 ## Agent tips
-- Read `https://mantine.dev/llms.txt`; Mantine also publishes an MCP server (`@mantine/mcp-server`).
-- Prefer Mantine's own `AppShell`, `useForm`, `notifications` over third-party libs — it keeps one visual language.
+- MCP server: `npx -y @mantine/mcp-server`. Docs index for LLMs: `https://mantine.dev/llms.txt` (every page has a Markdown twin under `/llms/`).
+- Prefer Mantine's own `AppShell`, `useForm`, `notifications` and `@mantine/dates` over third-party libraries to keep one visual language.
+- Create React App is not supported for new projects; use Vite or Next.js.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -307,7 +325,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v0.11; latest release 0.15.32._
+_Hand-written guide for v0.11, written 2026-11-05; latest release 0.15.32._
 
 ## Install
 ```bash
@@ -392,7 +410,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.38.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.38.0._
 
 ## Install
 ```bash
@@ -441,6 +459,105 @@ v3 uses `createSystem(defaultConfig, { theme: { tokens: { colors: { brand: { 500
 Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/chakra-ui.md_
+
+---
+
+# Ant Design
+
+> Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
+
+| | |
+|---|---|
+| Tier | **recommended** |
+| AI-readiness | **65/100** |
+| Maintainer | Ant Group (org-backed) |
+| Platforms | web |
+| Frameworks | react |
+| Styling | css-in-js |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | enterprise, admin, dashboard, data-dense, b2b; shapes: app-dashboard, forms-flows |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 48.3k KB |
+| License | MIT |
+| GitHub stars | 100.1k |
+| npm weekly downloads | 5.0M (`antd` 6.7.0) |
+| Last activity | 2026-11-05 |
+| Docs | https://ant.design |
+| Source | https://github.com/ant-design/ant-design |
+| Same family | [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Mobile](ant-design-mobile.md), [Ant Design Pro Components](pro-components.md) |
+
+## AI resources (use these first)
+- **llms.txt:** https://ant.design/llms.txt
+- **llms-full.txt:** https://ant.design/llms-full.txt
+- **MCP server:**
+  - `npx -y @ant-design/cli mcp`
+    ```json
+    {"mcpServers":{"ant-design":{"command":"npx","args":["-y","@ant-design/cli","mcp"]}}}
+    ```
+- **Agent/contributor docs in repo:** https://github.com/ant-design/ant-design/blob/HEAD/.github/copilot-instructions.md
+
+## Consider an alternative if
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+- you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
+
+_Hand-written guide for v6, checked against https://ant.design/docs/react/getting-started.md on 2026-11-05; latest release 6.7.0._
+
+## Install
+```bash
+npm install antd @ant-design/icons
+# Next.js App Router: npm install @ant-design/nextjs-registry
+```
+antd 6 needs React 18 or newer and `@ant-design/icons` 6 (icons 6 does not work with antd 5).
+
+## Setup
+```tsx
+import { ConfigProvider, App as AntApp, theme } from 'antd';
+<ConfigProvider theme={{
+  token: { colorPrimary: '#1677ff', borderRadius: 8, fontFamily: 'Inter' },
+  algorithm: theme.defaultAlgorithm, // or theme.darkAlgorithm, theme.compactAlgorithm, or an array of them
+}}>
+  <AntApp>{/* app */}</AntApp>
+</ConfigProvider>
+```
+Next.js App Router: wrap `{children}` in `app/layout.tsx` with `<AntdRegistry>` from `@ant-design/nextjs-registry`.
+
+## Theme it to a brand
+Global design tokens in `token`, per-component tokens in `components: { Button: { … } }`. Use `compactAlgorithm` for dense back-office screens.
+
+## Agent tips
+- antd 6 changed and deprecated many props (for example `Alert` `message` → `title`, `closeText` → `closable`). Don't trust v5 examples from memory.
+- MCP server via the official CLI: `npx -y @ant-design/cli mcp`. The CLI also works offline: `antd info Button`, `antd doc Button`, `antd token DatePicker`.
+- Agent skill: `npx skills add ant-design/ant-design-cli`. Docs for agents: `https://ant.design/docs/react/for-agents.md` and `https://ant.design/llms.txt`.
+- For admin apps use ProComponents (`@ant-design/pro-components`): ProTable, ProForm and ProLayout save a lot of code.
+
+## Build checklist (any system)
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
+
+## Score breakdown
+| Capability | Points |
+|---|---|
+| Official MCP server (agent can query components/docs live) | 20/20 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
+| Machine-readable design tokens in the repo | 0/15 |
+| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
+| Storybook / live, inspectable examples | 0/5 |
+| Figma Code Connect (design ↔ code mapping) | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
+| Dedicated documentation site | 5/5 |
+
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
+
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md_
 
 ---
 
@@ -565,33 +682,37 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you copy the build guide verbatim. It was written for v7; the latest release is 9.5.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v7; latest release 9.5.0._
+_Hand-written guide for v9, checked against https://mui.com/material-ui/getting-started/installation.md on 2026-11-05; latest release 9.5.0._
 
 ## Install
 ```bash
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
-# optional: npm install @mui/x-data-grid @mui/x-date-pickers @mui/x-charts
+npm install @mui/material @emotion/react @emotion/styled
+# optional: npm install @mui/icons-material @mui/x-data-grid @mui/x-date-pickers @mui/x-charts
 ```
+React 18 or older: also pin `react-is` to your React version (for example `npm install react-is@18.3.1` plus an `overrides` entry in package.json), because Material UI uses `react-is@19`.
 
 ## Setup
 ```tsx
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
-const theme = createTheme({ cssVariables: true, colorSchemes: { light: true, dark: true },
-  palette: { primary: { main: '#4F46E5' } }, shape: { borderRadius: 10 },
-  typography: { fontFamily: 'Inter, sans-serif' } });
+const theme = createTheme({
+  cssVariables: { colorSchemeSelector: 'class' },
+  colorSchemes: { light: true, dark: true },
+  palette: { primary: { main: '#4F46E5' } },
+  shape: { borderRadius: 10 },
+  typography: { fontFamily: 'Inter, sans-serif' },
+});
 export default function App() { return <ThemeProvider theme={theme}><CssBaseline />{/* app */}</ThemeProvider>; }
 ```
-Next.js App Router: also install `@mui/material-nextjs` and wrap in `AppRouterCacheProvider`.
+Next.js App Router: `npm install @mui/material-nextjs @emotion/cache`, then wrap `{children}` in `app/layout.tsx` with `AppRouterCacheProvider` from `@mui/material-nextjs/v15-appRouter` (use the `v1X-appRouter` path that matches your Next.js major).
 
 ## Theme it to a brand
-All brand decisions go in `createTheme` (palette, typography, shape, `components` overrides). Avoid per-component `sx` colour literals — use `theme.palette.*`.
+All brand decisions go in `createTheme` (palette, typography, shape, `components` overrides). Avoid colour literals in `sx`; use `theme.palette.*` or the generated CSS variables (`var(--mui-palette-primary-main)`).
 
 ## Agent tips
-- Add the MCP server: `npx -y @mui/mcp@latest` — gives exact, versioned docs and code samples.
-- Read `https://mui.com/material-ui/llms.txt` for the component index.
-- Data-heavy UI: MUI X Data Grid (MIT tier) instead of building tables by hand.
+- MCP server: `npx -y @mui/mcp@latest`. It gives exact, versioned docs and code samples; prefer it over memory.
+- Every docs page has a Markdown twin (append `.md`); the index is `https://mui.com/material-ui/llms.txt`.
+- For data-heavy UI use MUI X (Data Grid, Date Pickers, Charts) instead of building tables and pickers by hand.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -735,7 +856,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 5.7.50._
+_Hand-written guide for v5, written 2026-11-05; latest release 5.7.50._
 
 ## Install (Tailwind v4)
 ```bash
@@ -892,7 +1013,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you want a finished visual style out of the box. This is headless; you supply all styling.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.22.1._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.22.1._
 
 ## Install
 ```bash
@@ -941,6 +1062,204 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ---
 
+# PrimeVue
+
+> Vue apps needing a very large component set (data tables, charts, editors) with themes.
+
+| | |
+|---|---|
+| Tier | **recommended** |
+| AI-readiness | **65/100** |
+| Maintainer | PrimeTek (org-backed) |
+| Platforms | web |
+| Frameworks | vue |
+| Styling | css |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | enterprise, admin, data-dense; shapes: app-dashboard |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 9.2k KB |
+| License | MIT |
+| GitHub stars | 14.4k |
+| npm weekly downloads | 1.0M (`primevue` 5.0.4) |
+| Last activity | 2026-10-22 |
+| Docs | https://primevue.dev |
+| Source | https://github.com/primefaces/primevue |
+| Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
+
+## AI resources (use these first)
+- **llms.txt:** https://primevue.dev/llms/llms.txt
+- **llms-full.txt:** https://primevue.dev/llms/llms-full.txt
+- **MCP server:**
+  - npm package `@primevue/mcp`
+    ```json
+    {"mcpServers":{"primevue":{"command":"npx","args":["-y","@primevue/mcp"]}}}
+    ```
+  - in-repo package: https://github.com/primefaces/primevue/tree/HEAD/packages/mcp (see its README for setup)
+- **Agent/contributor docs in repo:** https://github.com/primefaces/primevue/blob/HEAD/apps/showcase/server/assets/llms/llms-full.txt
+
+## Consider an alternative if
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+
+_Hand-written guide for v5, checked against https://github.com/primefaces/primevue/tree/master/apps/showcase/doc/vite on 2026-11-05; latest release 5.0.4._
+
+## Install
+```bash
+npm install primevue @primeuix/themes
+```
+
+## Setup
+```ts
+import { createApp } from 'vue';
+import PrimeVue from 'primevue/config';
+import Aura from '@primeuix/themes/aura';
+
+const app = createApp(App);
+app.use(PrimeVue, { theme: { preset: Aura, options: { darkModeSelector: '.dark' } } });
+```
+Nuxt: use the `@primevue/nuxt-module` module. Components can be auto-imported (see "Auto Import" in the docs).
+
+## Theme it to a brand
+`definePreset(Aura, { semantic: { primary: { 50: '{indigo.50}', …, 950: '{indigo.950}' } } })` from `@primeuix/themes`. Tailwind users can run PrimeVue in unstyled mode with pass-through classes.
+
+## Agent tips
+- MCP server: `npx -y @primevue/mcp`. Docs moved to primevue.dev; the LLM index is `https://primevue.dev/llms/llms.txt` (plus `llms-full.txt`).
+- PrimeNG (Angular) and PrimeReact share the same theming model; PrimeNG's MCP is `@primeng/mcp`.
+
+## Build checklist (any system)
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
+
+## Score breakdown
+| Capability | Points |
+|---|---|
+| Official MCP server (agent can query components/docs live) | 20/20 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
+| Machine-readable design tokens in the repo | 0/15 |
+| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
+| Storybook / live, inspectable examples | 0/5 |
+| Figma Code Connect (design ↔ code mapping) | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
+| Dedicated documentation site | 5/5 |
+
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
+
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md_
+
+---
+
+# Vuetify
+
+> Material-style Vue apps with a very complete component set.
+
+| | |
+|---|---|
+| Tier | **recommended** |
+| AI-readiness | **60/100** |
+| Maintainer | Vuetify |
+| Platforms | web |
+| Frameworks | vue |
+| Styling | css |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | admin, saas, dashboard; shapes: saas-app, app-dashboard |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 76.4k KB |
+| License | NOASSERTION |
+| GitHub stars | 41.0k |
+| npm weekly downloads | 1.3M (`vuetify` 4.3.2) |
+| Last activity | 2026-11-03 |
+| Docs | https://vuetifyjs.com |
+| Source | https://github.com/vuetifyjs/vuetify |
+
+## AI resources (use these first)
+- **llms.txt:** https://vuetifyjs.com/llms.txt
+- **MCP server:**
+  - remote server https://mcp.vuetifyjs.com/mcp
+    ```json
+    {"mcpServers":{"vuetify":{"type":"http","url":"https://mcp.vuetifyjs.com/mcp"}}}
+    ```
+- **Agent/contributor docs in repo:** https://github.com/vuetifyjs/vuetify/blob/HEAD/AGENTS.md
+
+## Consider an alternative if
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+
+_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.2._
+
+## Install
+New project:
+```bash
+npm create vuetify@latest
+```
+Existing Vite app:
+```bash
+npm i vuetify
+npm i -D vite-plugin-vuetify      # optional: tree-shaking and SASS variable support
+npm i @mdi/font @fontsource/roboto
+```
+Nuxt: `npm i -D vuetify vite-plugin-vuetify` and register the plugin in `nuxt.config.ts` (see the installation guide).
+
+## Setup
+```ts
+import { createApp } from 'vue';
+import 'vuetify/styles';
+import { createVuetify } from 'vuetify';
+import * as components from 'vuetify/components';
+import * as directives from 'vuetify/directives';
+import '@mdi/font/css/materialdesignicons.css';
+import '@fontsource/roboto';
+
+const vuetify = createVuetify({ components, directives, theme: { defaultTheme: 'system' } });
+createApp(App).use(vuetify).mount('#app');
+```
+Vuetify does not bundle the Roboto font; add it yourself (as above).
+
+## Theme it to a brand
+`createVuetify({ theme: { defaultTheme: 'light', themes: { light: { colors: { primary: '#4F46E5' } } } } })`. `defaultTheme` accepts `'system'` to follow the OS; switch at runtime with the theme instance's `change`, `toggle` or `cycle`.
+
+## Agent tips
+- Vuetify MCP (remote): `https://mcp.vuetifyjs.com/mcp`. It includes upgrade tools for moving from Vuetify 3 to 4.
+- Vuetify 4 changed style entry points (`vuetify/styles/core`), typography, elevation and several component defaults; don't copy v3 examples blindly.
+- Use `v-data-table` (or `v-data-table-server` for large data) instead of hand-built tables.
+
+## Build checklist (any system)
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
+
+## Score breakdown
+| Capability | Points |
+|---|---|
+| Official MCP server (agent can query components/docs live) | 20/20 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| Machine-readable design tokens in the repo | 0/15 |
+| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
+| Storybook / live, inspectable examples | 0/5 |
+| Figma Code Connect (design ↔ code mapping) | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
+| Dedicated documentation site | 5/5 |
+
+Quality gate: activity **active**; traction via stars, npm.
+
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md_
+
+---
+
 # Taiga UI
 
 > Angular fintech and enterprise apps that need many form, data and input components.
@@ -977,18 +1296,36 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v4; the latest release is 5.31.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v4; latest release 5.31.0._
+_Hand-written guide for v5, checked against https://taiga-ui.dev/getting-started.md on 2026-11-05; latest release 5.31.0._
 
 ## Install
+The schematic installs packages and configures styles, assets and providers:
 ```bash
-ng add taiga-ui
+ng add taiga-ui            # Angular CLI
+# Nx: npm i taiga-ui && nx g taiga-ui:ng-add
 ```
+Manual: `npm i @taiga-ui/{cdk,core,kit,icons}` plus add-ons as needed (`@taiga-ui/addon-charts`, `addon-table`, `addon-commerce`, `addon-mobile`, `layout`).
+
+## Setup
+```ts
+// main.ts
+import { provideTaiga } from '@taiga-ui/core';
+bootstrapApplication(App, { providers: [provideTaiga()] });
+```
+```ts
+// app component
+import { TuiRoot } from '@taiga-ui/core';
+@Component({ selector: 'app-root', imports: [TuiRoot], template: `<tui-root><!-- app --></tui-root>` })
+export class App {}
+```
+Manual installs also add `@taiga-ui/styles/taiga-ui-theme.less` and `taiga-ui-fonts.less` to the build `styles`, and copy `@taiga-ui/icons/src` to `assets/taiga-ui/icons`.
+
+## Theme it to a brand
+Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary`, …) in a global stylesheet.
 
 ## Agent tips
-- MCP server: `@taiga-ui/mcp` for component docs and examples.
-- Theme through CSS variables (`--tui-background-accent-1`, …).
+- MCP server: `npx @taiga-ui/mcp init` scaffolds the config for your agent (`--client <client>` to choose one). Docs index: `https://taiga-ui.dev/llms.txt`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -1018,6 +1355,88 @@ ng add taiga-ui
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md_
+
+---
+
+# PrimeNG
+
+> Angular apps needing a very large component set (data tables, charts, editors) with themes.
+
+| | |
+|---|---|
+| Tier | **recommended** |
+| AI-readiness | **65/100** |
+| Maintainer | PrimeTek (org-backed) |
+| Platforms | web |
+| Frameworks | angular |
+| Styling | css |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Good for | enterprise, admin, data-dense |
+| Dark mode / RTL | yes / yes |
+| Package size (unpacked) | 6.6k KB |
+| License | NOASSERTION |
+| GitHub stars | 12.5k |
+| npm weekly downloads | 911.9k (`primeng` 22.1.4) |
+| Last activity | 2026-10-22 |
+| Docs | https://primeng.org |
+| Source | https://github.com/primefaces/primeng |
+| Same family | [PrimeVue](primevue.md), [PrimeReact](primereact.md) |
+
+## AI resources (use these first)
+- **llms.txt:** https://primeng.org/llms/llms.txt
+- **llms-full.txt:** https://primeng.org/llms/llms-full.txt
+- **MCP server:**
+  - npm package `@primeng/mcp`
+    ```json
+    {"mcpServers":{"primeng":{"command":"npx","args":["-y","@primeng/mcp"]}}}
+    ```
+  - in-repo package: https://github.com/primefaces/primeng/tree/HEAD/packages/mcp (see its README for setup)
+- **Agent/contributor docs in repo:** https://github.com/primefaces/primeng/blob/HEAD/apps/showcase/public/llms/llms-full.txt
+
+## Consider an alternative if
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
+
+_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
+
+## Install
+```bash
+npm install primeng
+```
+Then follow the framework setup in the official getting-started guide: https://primeng.org
+
+## Agent tips
+- Read https://primeng.org/llms/llms.txt first. It indexes the official docs in markdown.
+- Connect the MCP server listed above before writing code, and use it to look up components and props.
+- Use the system's own layout, form and feedback components before adding third-party UI libraries.
+
+## Build checklist (any system)
+1. **Install & provider:** follow the install section exactly for the detected framework and version.
+2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
+3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
+4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
+5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
+6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
+7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
+8. **Verify:** run the app, click through every screen, fix console errors and type errors.
+
+## Score breakdown
+| Capability | Points |
+|---|---|
+| Official MCP server (agent can query components/docs live) | 20/20 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
+| Machine-readable design tokens in the repo | 0/15 |
+| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
+| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
+| Storybook / live, inspectable examples | 0/5 |
+| Figma Code Connect (design ↔ code mapping) | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
+| Dedicated documentation site | 5/5 |
+
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
+
+_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md_
 
 ---
 
@@ -1056,7 +1475,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide, written 2026-11-05 for v9; latest release 9.75.1._
+_Hand-written guide for v9, written 2026-11-05; latest release 9.75.1._
 
 ## Install
 ```bash
@@ -1185,97 +1604,6 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ---
 
-# Ant Design
-
-> Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
-
-| | |
-|---|---|
-| Tier | **recommended** |
-| AI-readiness | **45/100** |
-| Maintainer | Ant Group (org-backed) |
-| Platforms | web |
-| Frameworks | react |
-| Styling | css-in-js |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
-| Good for | enterprise, admin, dashboard, data-dense, b2b; shapes: app-dashboard, forms-flows |
-| Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 48.3k KB |
-| License | MIT |
-| GitHub stars | 100.1k |
-| npm weekly downloads | 5.0M (`antd` 6.7.0) |
-| Last activity | 2026-11-05 |
-| Docs | https://ant.design |
-| Source | https://github.com/ant-design/ant-design |
-| Same family | [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Mobile](ant-design-mobile.md), [Ant Design Pro Components](pro-components.md) |
-
-## AI resources (use these first)
-- **llms.txt:** https://ant.design/llms.txt
-- **llms-full.txt:** https://ant.design/llms-full.txt
-- MCP server: none found
-- **Agent/contributor docs in repo:** https://github.com/ant-design/ant-design/blob/HEAD/.github/copilot-instructions.md
-
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you copy the build guide verbatim. It was written for v5; the latest release is 6.7.0, so confirm commands in the official llms.txt or MCP server.
-
-_Hand-written guide, written 2026-11-05 for v5; latest release 6.7.0._
-
-## Install
-```bash
-npm install antd @ant-design/icons
-# Next.js App Router: npm install @ant-design/nextjs-registry
-```
-
-## Setup
-```tsx
-import { ConfigProvider, App as AntApp, theme } from 'antd';
-<ConfigProvider theme={{ token: { colorPrimary: '#1677ff', borderRadius: 8, fontFamily: 'Inter' },
-  algorithm: theme.defaultAlgorithm /* or theme.darkAlgorithm / compactAlgorithm */ }}>
-  <AntApp>{/* app */}</AntApp>
-</ConfigProvider>
-```
-
-## Theme it to a brand
-Design tokens (`token`) for globals, `components: { Button: { … } }` for per-component tokens. `compactAlgorithm` for dense back-office screens.
-
-## Agent tips
-- Read `https://ant.design/llms.txt` (and `llms-full.txt`) — official, per-component markdown docs.
-- For admin apps use ProComponents (`@ant-design/pro-components`): ProTable, ProForm, ProLayout save a lot of code.
-- Use `Form` with `rules` for validation rather than custom state.
-
-## Build checklist (any system)
-1. **Install & provider:** follow the install section exactly for the detected framework and version.
-2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify:** run the app, click through every screen, fix console errors and type errors.
-
-## Score breakdown
-| Capability | Points |
-|---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 15/15 |
-| llms-full.txt (whole docs as one markdown file) | 5/5 |
-| Machine-readable design tokens in the repo | 0/15 |
-| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
-| Storybook / live, inspectable examples | 0/5 |
-| Figma Code Connect (design ↔ code mapping) | 0/5 |
-| Accessibility guidance shipped with the source | 5/5 |
-| Dedicated documentation site | 5/5 |
-
-Quality gate: activity **active**; traction via stars, npm, orgBacked.
-
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md_
-
----
-
 # Carbon Design System
 
 > Serious enterprise and data products with strict accessibility and a rigorous token system.
@@ -1310,7 +1638,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.120.0._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.120.0._
 
 ## Install
 ```bash
@@ -1404,26 +1732,32 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v37; the latest release is 38.44.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v37; latest release 38.44.0._
+_Hand-written guide for v38, checked against https://primer.style/product/getting-started/react on 2026-11-05; latest release 38.44.0._
 
 ## Install
 ```bash
-npm install @primer/react @primer/primitives styled-components
+npm install @primer/react @primer/primitives react react-dom
 ```
+Primer React no longer needs styled-components.
 
 ## Setup
 ```tsx
-import { ThemeProvider, BaseStyles } from '@primer/react';
-import '@primer/primitives/dist/css/functional/themes/light.css';
-<ThemeProvider colorMode="auto"><BaseStyles>{/* app */}</BaseStyles></ThemeProvider>
+import '@primer/primitives/dist/css/functional/themes/light.css';   // import each theme you use
+import { BaseStyles, ThemeProvider } from '@primer/react';
+
+export function RootLayout() {
+  return <ThemeProvider><BaseStyles><App /></BaseStyles></ThemeProvider>;
+}
 ```
+For GitHub.com-style base element styling, also import `@primer/css/dist/primer.css`. Wrap rendered Markdown in `className="markdown-body"`.
+
+## Theme it to a brand
+Primer is GitHub's identity; customise through the Primer Primitives CSS variables (`var(--fgColor-default)`, `var(--bgColor-default)`, …) rather than hard-coded colours.
 
 ## Agent tips
-- MCP server: `npx -y @primer/mcp` — component and token lookup for agents.
-- Use `@primer/primitives` CSS variables (`var(--fgColor-default)`) for any custom styling.
-- Rails apps: Primer ViewComponents (`primer_view_components` gem).
+- MCP server: `npx -y @primer/mcp` for component and token lookup.
+- Rails apps: Primer ViewComponents (`primer_view_components` gem). Plain HTML: Primer CSS.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -1560,7 +1894,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - **Agent/contributor docs in repo:** https://github.com/flutter/flutter/blob/HEAD/.agents/agents/reidbaker-agent/skills/code-review/SKILL.md
 
 
-_Hand-written guide, written 2026-11-05 for Flutter 3 (Material 3)._
+_Hand-written guide for Flutter 3 (Material 3), written 2026-11-05._
 
 ## Install
 Ships with the Flutter SDK — no package needed. `flutter create my_app`.
@@ -1946,7 +2280,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you are building a commercial or non-government product. Government systems are designed (and sometimes licensed) for public services.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.14.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.14.0._
 
 ## Install
 ```bash
@@ -2305,91 +2639,6 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ---
 
-# PrimeVue
-
-> Vue apps needing a very large component set (data tables, charts, editors) with themes.
-
-| | |
-|---|---|
-| Tier | **recommended** |
-| AI-readiness | **45/100** |
-| Maintainer | PrimeTek (org-backed) |
-| Platforms | web |
-| Frameworks | vue |
-| Styling | css |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
-| Good for | enterprise, admin, data-dense; shapes: app-dashboard |
-| Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 9.2k KB |
-| License | MIT |
-| GitHub stars | 14.4k |
-| npm weekly downloads | 1.0M (`primevue` 5.0.4) |
-| Last activity | 2026-10-22 |
-| Docs | https://primevue.org |
-| Source | https://github.com/primefaces/primevue |
-| Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
-
-## AI resources (use these first)
-- llms.txt: not published
-- **MCP server:**
-  - in-repo package: https://github.com/primefaces/primevue/tree/HEAD/packages/mcp (see its README for setup)
-- **Agent/contributor docs in repo:** https://github.com/primefaces/primevue/blob/HEAD/apps/showcase/server/assets/llms/llms-full.txt
-
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v4; the latest release is 5.0.4, so confirm commands in the official llms.txt or MCP server.
-
-_Hand-written guide, written 2026-11-05 for v4; latest release 5.0.4._
-
-## Install
-```bash
-npm install primevue @primeuix/themes primeicons
-```
-
-## Setup
-```ts
-import PrimeVue from 'primevue/config';
-import Aura from '@primeuix/themes/aura';
-app.use(PrimeVue, { theme: { preset: Aura, options: { darkModeSelector: '.dark' } } });
-```
-
-## Theme it to a brand
-`definePreset(Aura, { semantic: { primary: { 50: '{indigo.50}', …, 950: '{indigo.950}' } } })`. Tailwind users can use unstyled mode + the Tailwind preset.
-
-## Agent tips
-- The PrimeVue repo ships an MCP package (`packages/mcp`); see docs for setup. Same model for PrimeNG and PrimeReact.
-
-## Build checklist (any system)
-1. **Install & provider:** follow the install section exactly for the detected framework and version.
-2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify:** run the app, click through every screen, fix console errors and type errors.
-
-## Score breakdown
-| Capability | Points |
-|---|---|
-| Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
-| Machine-readable design tokens in the repo | 0/15 |
-| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
-| Storybook / live, inspectable examples | 0/5 |
-| Figma Code Connect (design ↔ code mapping) | 0/5 |
-| Accessibility guidance shipped with the source | 5/5 |
-| Dedicated documentation site | 5/5 |
-
-Quality gate: activity **active**; traction via stars, npm, orgBacked.
-
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md_
-
----
-
 # Blueprint
 
 > Complex, data-dense desktop-style web apps (analytics, ops tooling).
@@ -2462,82 +2711,6 @@ Then follow the framework setup in the official getting-started guide: https://b
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/blueprint.md_
-
----
-
-# PrimeNG
-
-> Angular apps needing a very large component set (data tables, charts, editors) with themes.
-
-| | |
-|---|---|
-| Tier | **recommended** |
-| AI-readiness | **45/100** |
-| Maintainer | PrimeTek (org-backed) |
-| Platforms | web |
-| Frameworks | angular |
-| Styling | css |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
-| Good for | enterprise, admin, data-dense |
-| Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 6.6k KB |
-| License | NOASSERTION |
-| GitHub stars | 12.5k |
-| npm weekly downloads | 911.9k (`primeng` 22.1.4) |
-| Last activity | 2026-10-22 |
-| Docs | https://primeng.org |
-| Source | https://github.com/primefaces/primeng |
-| Same family | [PrimeVue](primevue.md), [PrimeReact](primereact.md) |
-
-## AI resources (use these first)
-- llms.txt: not published
-- **MCP server:**
-  - in-repo package: https://github.com/primefaces/primeng/tree/HEAD/packages/mcp (see its README for setup)
-- **Agent/contributor docs in repo:** https://github.com/primefaces/primeng/blob/HEAD/apps/showcase/public/llms/llms-full.txt
-
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
-
-_Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
-
-## Install
-```bash
-npm install primeng
-```
-Then follow the framework setup in the official getting-started guide: https://primeng.org
-
-## Agent tips
-- Connect the MCP server listed above before writing code, and use it to look up components and props.
-- Use the system's own layout, form and feedback components before adding third-party UI libraries.
-
-## Build checklist (any system)
-1. **Install & provider:** follow the install section exactly for the detected framework and version.
-2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify:** run the app, click through every screen, fix console errors and type errors.
-
-## Score breakdown
-| Capability | Points |
-|---|---|
-| Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
-| Machine-readable design tokens in the repo | 0/15 |
-| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
-| Storybook / live, inspectable examples | 0/5 |
-| Figma Code Connect (design ↔ code mapping) | 0/5 |
-| Accessibility guidance shipped with the source | 5/5 |
-| Dedicated documentation site | 5/5 |
-
-Quality gate: activity **active**; traction via stars, npm, orgBacked.
-
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md_
 
 ---
 
@@ -2654,7 +2827,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.0.1409._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.0.1409._
 
 ## Install
 ```bash
@@ -3674,7 +3847,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v2; latest release 2.35.2._
+_Hand-written guide for v2, written 2026-11-05; latest release 2.35.2._
 
 ## Install
 ```bash
@@ -3974,26 +4147,45 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.12.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.12.0._
+_Hand-written guide for v4, checked against https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md on 2026-11-05; latest release 4.12.0._
 
 ## Install
+New project from a template:
 ```bash
-npm create nuxt@latest -- -t ui          # new Nuxt project with Nuxt UI
-# existing: npx nuxt module add ui   then  @import "tailwindcss"; @import "@nuxt/ui";  in main.css
+npm create nuxt@latest -- -t ui          # also: ui/landing, ui/docs, ui/saas, ui/dashboard, ui/chat
 ```
-Plain Vue (Vite) is supported too via the `@nuxt/ui/vite` plugin.
+Existing Nuxt app:
+```bash
+npm install @nuxt/ui tailwindcss
+```
+Add `modules: ['@nuxt/ui']` and `css: ['~/assets/css/main.css']` to `nuxt.config.ts`, and in `app/assets/css/main.css`:
+```css
+@import "tailwindcss";
+@import "@nuxt/ui";
+```
+Plain Vue (Vite): same packages, then add the `ui()` plugin from `@nuxt/ui/vite` to `vite.config.ts`.
 
 ## Setup
-Wrap the app in `<UApp>` (provides toasts, tooltips, overlays).
+Wrap the app in `<UApp>` (provides toasts, tooltips and overlays):
+```vue
+<template>
+  <UApp>
+    <NuxtPage />
+  </UApp>
+</template>
+```
 
 ## Theme it to a brand
-`app.config.ts`: `ui: { colors: { primary: 'indigo', neutral: 'zinc' } }`; per-component `ui` slots override classes. Tailwind `@theme` for custom colour scales.
+`app/app.config.ts`:
+```ts
+export default defineAppConfig({ ui: { colors: { primary: 'indigo', secondary: 'purple', neutral: 'zinc' } } })
+```
+Custom colour scales go in CSS with Tailwind's `@theme`; per-component `ui` props override slot classes.
 
 ## Agent tips
-- Remote MCP server: `https://ui.nuxt.com/mcp`; docs at `https://ui.nuxt.com/llms.txt`.
-- Starter templates (dashboard, SaaS, landing, docs, chat) exist — start from one.
+- Remote MCP server: `https://ui.nuxt.com/mcp` (HTTP transport). Docs index: `https://ui.nuxt.com/llms.txt`; every page has a raw Markdown version under `/raw/docs/…`.
+- Start from the template closest to the product (dashboard, SaaS, chat, docs) rather than from scratch.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -4289,27 +4481,40 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you copy the build guide verbatim. It was written for v1; the latest release is 3.2.2, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 3.2.2._
+_Hand-written guide for v3, checked against https://tamagui.dev/llms.txt on 2026-11-05; latest release 3.2.2._
 
 ## Install
+New cross-platform app (Expo + Next.js starter):
 ```bash
-npm create tamagui@latest          # starter monorepo: Expo + Next.js sharing UI
-# existing: npm install tamagui @tamagui/config
+npm create tamagui@latest
+```
+Existing app:
+```bash
+npm install tamagui @tamagui/config
 ```
 
 ## Setup
 ```tsx
-import { TamaguiProvider, createTamagui } from 'tamagui';
-import { defaultConfig } from '@tamagui/config/v4';
-const config = createTamagui(defaultConfig);
+// tamagui.config.ts
+import { defaultConfig } from '@tamagui/config/v6';
+import { createTamagui } from 'tamagui';
+export const config = createTamagui(defaultConfig);
+```
+```tsx
+import { TamaguiProvider } from 'tamagui';
+import { config } from './tamagui.config';
 <TamaguiProvider config={config} defaultTheme="light">{/* app */}</TamaguiProvider>
 ```
+Import `tamagui.config.ts` in one place near the root.
+
+## Theme it to a brand
+Tokens and themes are typed in the config: use `$tokens` (`bg="$background"`, `p="$4"`), never raw values. `@tamagui/config/v6` provides sensible settings, themes and fonts; override parts of it rather than starting from zero.
 
 ## Agent tips
-- Tokens and themes are typed in the config — use `$tokens` (`bg="$background"`, `p="$4"`) not raw values.
-- Add the compiler plugin (Next/Vite/Metro) for production performance.
+- Add the optimising compiler for production web builds: `npm i -D @tamagui/cli` and `tamaguiPlugin()` from `@tamagui/cli/vite` (equivalents exist for Next.js and Metro).
+- Animations are pluggable drivers (CSS, Reanimated, Motion) configured in `createTamagui`.
+- The full docs are a single LLM file at `https://tamagui.dev/llms.txt` (very large; search it rather than reading it whole).
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -4526,29 +4731,33 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v7; the latest release is 8.0.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v7; latest release 8.0.0._
+_Hand-written guide for v8, checked against https://github.com/gravity-ui/uikit/blob/main/docs/migration-to-v8.md on 2026-11-05; latest release 8.0.0._
 
 ## Install
 ```bash
 npm install @gravity-ui/uikit
-# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/charts @gravity-ui/icons
+# optional: @gravity-ui/navigation @gravity-ui/date-components @gravity-ui/icons
 ```
+Requires React 18 or 19. Virtualised and drag-and-drop entry points need extra peers (`@tanstack/react-virtual`, `@hello-pangea/dnd`).
 
 ## Setup
 ```tsx
 import '@gravity-ui/uikit/styles/fonts.css';
 import '@gravity-ui/uikit/styles/styles.css';
-import { ThemeProvider } from '@gravity-ui/uikit';
-<ThemeProvider theme="light">{/* light | dark | light-hc | dark-hc */}</ThemeProvider>
+import { Provider } from '@gravity-ui/uikit';
+
+<Provider theme="light" lang="en">{/* app */}</Provider>   // themes: light, dark, light-hc, dark-hc
 ```
+v8 replaced the app-level `ThemeProvider` with `Provider` (theme, language, layout, component defaults and mobile settings in one).
 
 ## Theme it to a brand
-Override CSS variables (`--g-color-base-brand`, `--g-color-text-brand`, …) per theme class (`.g-root_theme_light`). The online Themer at gravity-ui.com generates them.
+Override the semantic CSS variables (`--g-color-base-brand`, `--g-color-text-brand`, …) per theme; the Themer on gravity-ui.com generates them.
 
 ## Agent tips
-- `@gravity-ui/navigation` gives a ready AsideHeader/app shell for consoles.
+- v8 moved the old `List`, `Menu`, `DropdownMenu` and `Table` to `@gravity-ui/uikit/legacy`; the root `List` and `Menu` have new APIs. Don't copy v7 examples.
+- Layout: the new `Grid` plus responsive props on `Box`, `Flex`, `Container`, `Row` and `Col`.
+- `@gravity-ui/navigation` gives a ready app shell (AsideHeader) for consoles.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -4768,7 +4977,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide, written 2026-11-05 for Compose Material 3 (1.x)._
+_Hand-written guide for Compose Material 3 (1.x), written 2026-11-05._
 
 ## Install
 ```kotlin
@@ -4850,22 +5059,29 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 5.0.15, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 5.0.15._
+_Hand-written guide for v5, checked against https://gluestack.io/llms-full.txt on 2026-11-05; latest release 5.0.15._
 
 ## Install
 ```bash
-npx gluestack-ui init
+npx gluestack-ui init                  # prompts for a styling engine: NativeWind v5 or UniWind (Expo only)
 npx gluestack-ui add button input modal
+# or every component: npx gluestack-ui add --all
 ```
+`init` writes `gluestack-ui.config.json`, adds `GluestackUIProvider` and the core components (icon, overlay, toast), installs dependencies and updates `metro.config.js`, `babel.config.js`, `global.css` and your entry file. Monorepos: `npx gluestack-ui init --monorepo --path packages/ui`.
 
 ## How it works
-Copy-paste components (shadcn-style) for React Native + web, styled with NativeWind (Tailwind). Works with Expo and Next.js.
+Copy-paste components (shadcn-style) for React Native and web, styled with Tailwind CSS v4 classes. Works with Expo, React Native CLI and Next.js.
+
+## Setup
+Wrap the app in the generated provider: `<GluestackUIProvider mode="light">{children}</GluestackUIProvider>` (`mode` can follow your colour-mode state).
+
+## Theme it to a brand
+v5 has no `tailwind.config.js`: theme tokens are shadcn-style semantic variables defined in `global.css`. Edit those for light and dark.
 
 ## Agent tips
-- gluestack documents an MCP server for agents (see docs → MCP server).
-- Theme via the CSS variables in `components/ui/gluestack-ui-provider/config.ts`.
+- Upgrading from v4 or earlier: `npx gluestack-ui@latest upgrade` detects the version and migrates to your chosen engine.
+- Full docs for LLMs: `https://gluestack.io/llms-full.txt` (index at `https://gluestack.io/llms.txt`).
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -4929,7 +5145,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - **Agent/contributor docs in repo:** https://github.com/callstack/react-native-paper/blob/HEAD/.github/copilot-instructions.md
 
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 5.15.4._
+_Hand-written guide for v5, written 2026-11-05; latest release 5.15.4._
 
 ## Install
 ```bash
@@ -5245,7 +5461,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.8.0._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.8.0._
 
 ## Install
 ```bash
@@ -5638,22 +5854,25 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v8; the latest release is 9.0.10, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v8; latest release 9.0.10._
+_Hand-written guide for v9, checked against https://ionicframework.com/docs/react/quickstart.md on 2026-11-05; latest release 9.0.10._
 
 ## Install
 ```bash
 npm install -g @ionic/cli
-ionic start myApp tabs --type=react     # or angular / vue
-npx cap add ios && npx cap add android  # native shells via Capacitor
+ionic start myApp tabs --type=react     # or --type=angular / --type=vue
+cd myApp && ionic serve
 ```
+Native shells via Capacitor (Ionic 9 supports Capacitor 7+): `npx cap add ios` and `npx cap add android`.
 
 ## Theme it to a brand
-CSS variables in `src/theme/variables.css` (`--ion-color-primary`, …). Components adapt to iOS vs Material mode automatically.
+Set the colour variables (`--ion-color-primary`, its `-rgb`, `-contrast`, `-shade` and `-tint` variants) in your theme CSS file; the colour generator in the docs produces the full set from one hex. Dark mode: import one of `@ionic/<framework>/css/palettes/dark.system.css` (follows the OS), `dark.class.css` (toggle with a class) or `dark.always.css`.
 
 ## Agent tips
-- Use `IonPage`, `IonHeader`, `IonContent` structure on every page or navigation transitions break.
+- Components adapt to iOS and Material styling automatically per platform.
+- Keep the `IonPage` / `IonHeader` / `IonContent` structure on every page, or navigation transitions break.
+- Upgrading an older app: `npx @ionic/migrate` applies Ionic 9's breaking changes and lists what is left. Angular 18–22 are supported.
+- Docs index for LLMs: `https://ionicframework.com/docs/llms.txt`; pages have `.md` versions.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -6441,22 +6660,27 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v0; the latest release is 1.9.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v0; latest release 1.9.0._
+_Hand-written guide for v1, checked against https://github.com/spartan-ng/spartan/blob/main/skills/spartan/cli.md on 2026-11-05; latest release 1.9.0._
 
 ## Install
 ```bash
 npm i -D @spartan-ng/cli
 ng g @spartan-ng/cli:init
-ng g @spartan-ng/cli:ui button       # adds helm (styled) + brain (headless) parts
+ng g @spartan-ng/cli:ui-theme          # pick a theme (CSS variables)
+ng g @spartan-ng/cli:ui --name=button  # or: ng g @spartan-ng/cli:ui all
 ```
+Nx: use `npx nx g @spartan-ng/cli:…` with the same generators.
 
 ## How it works
-shadcn model for Angular: `brain` = accessible headless primitives (npm), `helm` = Tailwind-styled source copied into your repo.
+shadcn/ui's model for Angular: `@spartan-ng/brain` provides accessible headless primitives (installed from npm); `helm` provides Tailwind-styled source copied into your repo, which you own and edit.
+
+## Theme it to a brand
+Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primary`, `--background`, `--radius`, …).
 
 ## Agent tips
-- MCP server: `@spartan-ng/mcp`. Theme with the same CSS variables model as shadcn/ui.
+- MCP server: `npx -y @spartan-ng/mcp`. Agent skill: `npx skills add spartan-ng/spartan`.
+- `ng g @spartan-ng/cli:healthcheck --autoFix` checks and repairs the setup.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -6915,7 +7139,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - **Agent/contributor docs in repo:** https://github.com/shoelace-style/webawesome/blob/HEAD/packages/webawesome/CLAUDE.md
 
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.14.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.14.0._
 
 ## Install
 No build step needed. In `<head>` (pinned to v3.14.0, the latest release when this page was built):
@@ -7618,7 +7842,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you are not that brand. J.P. Morgan identity by default (themeable).
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.74.0._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.74.0._
 
 ## Install
 ```bash
@@ -8322,7 +8546,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you are not building inside the apple ecosystem.
 - you rely on agent tooling. This system has few machine-readable resources.
 
-_Hand-written guide, written 2026-11-05 for iOS 26 SDK / SwiftUI._
+_Hand-written guide for iOS 26 SDK / SwiftUI, written 2026-11-05._
 
 ## Install
 Built into Xcode / SwiftUI — no dependency.
@@ -8365,88 +8589,6 @@ Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog 
 Quality gate: activity **active**; traction via orgBacked. Notes: Platform-native system (ships with the SDK).
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md_
-
----
-
-# Vuetify
-
-> Material-style Vue apps with a very complete component set.
-
-| | |
-|---|---|
-| Tier | **solid** |
-| AI-readiness | **40/100** |
-| Maintainer | Vuetify |
-| Platforms | web |
-| Frameworks | vue |
-| Styling | css |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
-| Good for | admin, saas, dashboard; shapes: saas-app, app-dashboard |
-| Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 76.4k KB |
-| License | NOASSERTION |
-| GitHub stars | 41.0k |
-| npm weekly downloads | 1.3M (`vuetify` 4.3.2) |
-| Last activity | 2026-11-03 |
-| Docs | https://vuetifyjs.com |
-| Source | https://github.com/vuetifyjs/vuetify |
-
-## AI resources (use these first)
-- **llms.txt:** https://vuetifyjs.com/llms.txt
-- MCP server: none found
-- **Agent/contributor docs in repo:** https://github.com/vuetifyjs/vuetify/blob/HEAD/AGENTS.md
-
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.3.2, so confirm commands in the official llms.txt or MCP server.
-
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.3.2._
-
-## Install
-```bash
-npm create vuetify@latest        # scaffold
-# existing: npm install vuetify @mdi/font  (+ vite-plugin-vuetify)
-```
-
-## Setup
-```ts
-import { createVuetify } from 'vuetify';
-import 'vuetify/styles';
-export default createVuetify({ theme: { defaultTheme: 'light', themes: { light: { colors: { primary: '#4F46E5' } } } } });
-```
-
-## Agent tips
-- `https://vuetifyjs.com/llms.txt` lists every component page.
-- Use `v-data-table` (server variant for large data) instead of custom tables.
-
-## Build checklist (any system)
-1. **Install & provider:** follow the install section exactly for the detected framework and version.
-2. **Brand → tokens:** set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.
-3. **App shell first:** build navigation, header and page layout from the system's shell/layout components.
-4. **Screens from components:** map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.
-5. **States:** loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.
-6. **Accessibility:** keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.
-7. **Dark mode & responsiveness:** enable the system's colour-scheme support; check at phone and desktop widths.
-8. **Verify:** run the app, click through every screen, fix console errors and type errors.
-
-## Score breakdown
-| Capability | Points |
-|---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 15/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
-| Machine-readable design tokens in the repo | 0/15 |
-| Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
-| Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
-| Storybook / live, inspectable examples | 0/5 |
-| Figma Code Connect (design ↔ code mapping) | 0/5 |
-| Accessibility guidance shipped with the source | 5/5 |
-| Dedicated documentation site | 5/5 |
-
-Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
-
-_Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md_
 
 ---
 
@@ -8558,7 +8700,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.3.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.3.0._
 
 ## Install
 ```bash
@@ -9617,7 +9759,7 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.9.1._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.9.1._
 
 ## Install
 ```bash
@@ -12202,19 +12344,36 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 - you are building a commercial or non-government product. Government systems are designed (and sometimes licensed) for public services.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you rely on agent tooling. This system has few machine-readable resources.
-- you copy the build guide verbatim. It was written for v5; the latest release is 6.6.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 6.6.0._
+_Hand-written guide for v6, checked against https://frontend.design-system.service.gov.uk/import-css/ on 2026-11-05; latest release 6.6.0._
 
 ## Install
 ```bash
 npm install govuk-frontend
 ```
-Use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or copy the HTML from each component page. Prototype Kit for rapid prototyping: `npx govuk-prototype-kit create`.
+For quick prototypes, the GOV.UK Prototype Kit is the supported route: `npx govuk-prototype-kit create my-prototype`.
+
+## Setup
+CSS, either precompiled or from Sass (needs Dart Sass 1.79+):
+```scss
+@use "node_modules/govuk-frontend/dist/govuk" as *;
+```
+or `<link rel="stylesheet" href="/assets/govuk-frontend.min.css">` after copying it from `node_modules/govuk-frontend/dist/govuk/`.
+
+JavaScript, before `</body>`:
+```html
+<script type="module" src="/assets/govuk-frontend.min.js"></script>
+<script type="module">
+  import { initAll } from '/assets/govuk-frontend.min.js'
+  initAll()
+</script>
+```
+Markup: use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or copy the HTML from each component page.
 
 ## Agent tips
-- Follow the **patterns** (question pages, check answers, confirmation) — they encode tested UX for transactional services.
-- Brand customisation is intentionally not supported for GOV.UK services; for non-GOV.UK products use the government system of your own country, or USWDS (more themeable).
+- v6 uses the GOV.UK brand colours and the new type scale; `govuk-body-xs` and `govuk-!-font-size-14` are gone.
+- Follow the **patterns** (question pages, check answers, confirmation): they encode tested UX for transactional services.
+- GOV.UK services can't change the brand. For a non-GOV.UK product use your own country's government system, or USWDS, which is more themeable.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -12877,25 +13036,43 @@ _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v20; the latest release is 22.2.6, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v20; latest release 22.2.6._
+_Hand-written guide for v22, checked against https://github.com/angular/components/blob/main/guides/getting-started.md on 2026-11-05; latest release 22.2.6._
 
 ## Install
 ```bash
 ng add @angular/material
 ```
 
+## Setup
+Import components directly into standalone components:
+```ts
+import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggle } from '@angular/material/slide-toggle';
+
+@Component({ imports: [MatButtonModule, MatSlideToggle], template: `<mat-slide-toggle>Toggle me</mat-slide-toggle>` })
+export class App {}
+```
+
 ## Theme it to a brand
 ```scss
 @use '@angular/material' as mat;
-html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: light), typography: Inter, density: 0)); }
+
+html {
+  color-scheme: light dark;   // follows the OS; use `light` or `dark` to force one
+  @include mat.theme((
+    color: (primary: mat.$violet-palette, tertiary: mat.$orange-palette),
+    typography: Inter,
+    density: 0,
+  ));
+}
+body { background: var(--mat-sys-surface); color: var(--mat-sys-on-surface); }
 ```
-Customise further with `mat.<component>-overrides(...)` mixins and the generated `--mat-sys-*` CSS variables.
+Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` CSS variables.
 
 ## Agent tips
-- Use the CDK (`@angular/cdk`) for overlays, drag & drop and virtual scroll before reaching for third-party libraries.
-- Prefer standalone component imports (`MatButtonModule` etc.) per component.
+- Angular's own LLM docs: `https://angular.dev/llms.txt`. The Angular Material site does not publish an llms.txt.
+- Use the CDK (`@angular/cdk`) for overlays, drag and drop and virtual scrolling before reaching for third-party libraries.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

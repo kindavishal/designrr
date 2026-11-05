@@ -140,8 +140,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "2",
-        "outdated": true
+        "writtenFor": "3",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/heroui.md",
       "path": "systems/heroui.md",
@@ -208,8 +208,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "3",
-        "outdated": true
+        "writtenFor": "4",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-ui.md",
       "path": "systems/shadcn-ui.md",
@@ -272,8 +272,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "8",
-        "outdated": true
+        "writtenFor": "9",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mantine.md",
       "path": "systems/mantine.md",
@@ -409,6 +409,71 @@
       "html": "systems/chakra-ui.html"
     },
     {
+      "slug": "ant-design",
+      "name": "Ant Design",
+      "org": "Ant Group",
+      "tier": "recommended",
+      "family": "ant-design",
+      "brandLocked": null,
+      "aiReadiness": 65,
+      "popularity": 98,
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "headless": false,
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "dashboard",
+        "data-dense",
+        "b2b"
+      ],
+      "productShapes": [
+        "app-dashboard",
+        "forms-flows"
+      ],
+      "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React.",
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "antd",
+        "pub": null,
+        "nuget": null,
+        "cdn": null
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 48295
+      },
+      "docs": "https://ant.design",
+      "repo": "https://github.com/ant-design/ant-design",
+      "license": "MIT",
+      "stars": 100079,
+      "npmWeeklyDownloads": 4977078,
+      "latestVersion": "6.7.0",
+      "lastActivity": "2026-11-05",
+      "llmsTxt": "https://ant.design/llms.txt",
+      "mcp": true,
+      "shippedSkills": false,
+      "buildGuide": {
+        "handWritten": true,
+        "writtenFor": "6",
+        "outdated": false
+      },
+      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md",
+      "path": "systems/ant-design.md",
+      "html": "systems/ant-design.html"
+    },
+    {
       "slug": "ark-ui",
       "name": "Ark UI",
       "org": "Chakra UI",
@@ -527,8 +592,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "7",
-        "outdated": true
+        "writtenFor": "9",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/mui.md",
       "path": "systems/mui.md",
@@ -789,6 +854,137 @@
       "html": "systems/react-spectrum.html"
     },
     {
+      "slug": "primevue",
+      "name": "PrimeVue",
+      "org": "PrimeTek",
+      "tier": "recommended",
+      "family": "prime",
+      "brandLocked": null,
+      "aiReadiness": 65,
+      "popularity": 85,
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "headless": false,
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "productShapes": [
+        "app-dashboard"
+      ],
+      "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "primevue",
+        "pub": null,
+        "nuget": null,
+        "cdn": {
+          "css": null,
+          "js": "https://cdn.jsdelivr.net/npm/primevue@5.0.4/umd/primevue.min.js"
+        }
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 9216
+      },
+      "docs": "https://primevue.dev",
+      "repo": "https://github.com/primefaces/primevue",
+      "license": "MIT",
+      "stars": 14449,
+      "npmWeeklyDownloads": 1037329,
+      "latestVersion": "5.0.4",
+      "lastActivity": "2026-10-22",
+      "llmsTxt": "https://primevue.dev/llms/llms.txt",
+      "mcp": true,
+      "shippedSkills": false,
+      "buildGuide": {
+        "handWritten": true,
+        "writtenFor": "5",
+        "outdated": false
+      },
+      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md",
+      "path": "systems/primevue.md",
+      "html": "systems/primevue.html"
+    },
+    {
+      "slug": "vuetify",
+      "name": "Vuetify",
+      "org": "Vuetify",
+      "tier": "recommended",
+      "family": "vuetify",
+      "brandLocked": null,
+      "aiReadiness": 60,
+      "popularity": 90,
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "headless": false,
+      "kind": "library",
+      "tags": [
+        "admin",
+        "saas",
+        "dashboard"
+      ],
+      "productShapes": [
+        "saas-app",
+        "app-dashboard"
+      ],
+      "bestFor": "Material-style Vue apps with a very complete component set.",
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "vuetify",
+        "pub": null,
+        "nuget": null,
+        "cdn": {
+          "css": null,
+          "js": "https://cdn.jsdelivr.net/npm/vuetify@4.3.2/dist/vuetify.min.js"
+        }
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 76353
+      },
+      "docs": "https://vuetifyjs.com",
+      "repo": "https://github.com/vuetifyjs/vuetify",
+      "license": "NOASSERTION",
+      "stars": 41033,
+      "npmWeeklyDownloads": 1342000,
+      "latestVersion": "4.3.2",
+      "lastActivity": "2026-11-03",
+      "llmsTxt": "https://vuetifyjs.com/llms.txt",
+      "mcp": true,
+      "shippedSkills": false,
+      "buildGuide": {
+        "handWritten": true,
+        "writtenFor": "4",
+        "outdated": false
+      },
+      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md",
+      "path": "systems/vuetify.md",
+      "html": "systems/vuetify.html"
+    },
+    {
       "slug": "taiga-ui",
       "name": "Taiga UI",
       "org": "T-Bank",
@@ -840,12 +1036,70 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "4",
-        "outdated": true
+        "writtenFor": "5",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md",
       "path": "systems/taiga-ui.md",
       "html": "systems/taiga-ui.html"
+    },
+    {
+      "slug": "primeng",
+      "name": "PrimeNG",
+      "org": "PrimeTek",
+      "tier": "recommended",
+      "family": "prime",
+      "brandLocked": null,
+      "aiReadiness": 65,
+      "popularity": 83,
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "headless": false,
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "productShapes": [],
+      "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "primeng",
+        "pub": null,
+        "nuget": null,
+        "cdn": null
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 6596
+      },
+      "docs": "https://primeng.org",
+      "repo": "https://github.com/primefaces/primeng",
+      "license": "NOASSERTION",
+      "stars": 12481,
+      "npmWeeklyDownloads": 911860,
+      "latestVersion": "22.1.4",
+      "lastActivity": "2026-10-22",
+      "llmsTxt": "https://primeng.org/llms/llms.txt",
+      "mcp": true,
+      "shippedSkills": false,
+      "buildGuide": {
+        "handWritten": false
+      },
+      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md",
+      "path": "systems/primeng.md",
+      "html": "systems/primeng.html"
     },
     {
       "slug": "fluent-ui",
@@ -978,71 +1232,6 @@
       "html": "systems/bootstrap.html"
     },
     {
-      "slug": "ant-design",
-      "name": "Ant Design",
-      "org": "Ant Group",
-      "tier": "recommended",
-      "family": "ant-design",
-      "brandLocked": null,
-      "aiReadiness": 45,
-      "popularity": 98,
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "react"
-      ],
-      "styling": "css-in-js",
-      "headless": false,
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "dashboard",
-        "data-dense",
-        "b2b"
-      ],
-      "productShapes": [
-        "app-dashboard",
-        "forms-flows"
-      ],
-      "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React.",
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "antd",
-        "pub": null,
-        "nuget": null,
-        "cdn": null
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 48295
-      },
-      "docs": "https://ant.design",
-      "repo": "https://github.com/ant-design/ant-design",
-      "license": "MIT",
-      "stars": 100079,
-      "npmWeeklyDownloads": 4977078,
-      "latestVersion": "6.7.0",
-      "lastActivity": "2026-11-05",
-      "llmsTxt": "https://ant.design/llms.txt",
-      "mcp": false,
-      "shippedSkills": false,
-      "buildGuide": {
-        "handWritten": true,
-        "writtenFor": "5",
-        "outdated": true
-      },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md",
-      "path": "systems/ant-design.md",
-      "html": "systems/ant-design.html"
-    },
-    {
       "slug": "carbon",
       "name": "Carbon Design System",
       "org": "IBM",
@@ -1164,8 +1353,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "37",
-        "outdated": true
+        "writtenFor": "38",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primer.md",
       "path": "systems/primer.md",
@@ -1828,71 +2017,6 @@
       "html": "systems/fundamental-ngx.html"
     },
     {
-      "slug": "primevue",
-      "name": "PrimeVue",
-      "org": "PrimeTek",
-      "tier": "recommended",
-      "family": "prime",
-      "brandLocked": null,
-      "aiReadiness": 45,
-      "popularity": 85,
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "vue"
-      ],
-      "styling": "css",
-      "headless": false,
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "data-dense"
-      ],
-      "productShapes": [
-        "app-dashboard"
-      ],
-      "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "primevue",
-        "pub": null,
-        "nuget": null,
-        "cdn": {
-          "css": null,
-          "js": "https://cdn.jsdelivr.net/npm/primevue@5.0.4/umd/primevue.min.js"
-        }
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 9216
-      },
-      "docs": "https://primevue.org",
-      "repo": "https://github.com/primefaces/primevue",
-      "license": "MIT",
-      "stars": 14449,
-      "npmWeeklyDownloads": 1037329,
-      "latestVersion": "5.0.4",
-      "lastActivity": "2026-10-22",
-      "llmsTxt": null,
-      "mcp": true,
-      "shippedSkills": false,
-      "buildGuide": {
-        "handWritten": true,
-        "writtenFor": "4",
-        "outdated": true
-      },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md",
-      "path": "systems/primevue.md",
-      "html": "systems/primevue.html"
-    },
-    {
       "slug": "blueprint",
       "name": "Blueprint",
       "org": "Palantir",
@@ -1955,64 +2079,6 @@
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/blueprint.md",
       "path": "systems/blueprint.md",
       "html": "systems/blueprint.html"
-    },
-    {
-      "slug": "primeng",
-      "name": "PrimeNG",
-      "org": "PrimeTek",
-      "tier": "recommended",
-      "family": "prime",
-      "brandLocked": null,
-      "aiReadiness": 45,
-      "popularity": 83,
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "angular"
-      ],
-      "styling": "css",
-      "headless": false,
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "data-dense"
-      ],
-      "productShapes": [],
-      "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "primeng",
-        "pub": null,
-        "nuget": null,
-        "cdn": null
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 6596
-      },
-      "docs": "https://primeng.org",
-      "repo": "https://github.com/primefaces/primeng",
-      "license": "NOASSERTION",
-      "stars": 12481,
-      "npmWeeklyDownloads": 911860,
-      "latestVersion": "22.1.4",
-      "lastActivity": "2026-10-22",
-      "llmsTxt": null,
-      "mcp": true,
-      "shippedSkills": false,
-      "buildGuide": {
-        "handWritten": false
-      },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md",
-      "path": "systems/primeng.md",
-      "html": "systems/primeng.html"
     },
     {
       "slug": "primer-primitives",
@@ -3148,8 +3214,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "3",
-        "outdated": true
+        "writtenFor": "4",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/nuxt-ui.md",
       "path": "systems/nuxt-ui.md",
@@ -3392,8 +3458,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "1",
-        "outdated": true
+        "writtenFor": "3",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/tamagui.md",
       "path": "systems/tamagui.md",
@@ -3572,8 +3638,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "7",
-        "outdated": true
+        "writtenFor": "8",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gravity-ui.md",
       "path": "systems/gravity-ui.md",
@@ -3819,8 +3885,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "3",
-        "outdated": true
+        "writtenFor": "5",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/gluestack-ui.md",
       "path": "systems/gluestack-ui.md",
@@ -4425,8 +4491,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "8",
-        "outdated": true
+        "writtenFor": "9",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md",
       "path": "systems/ionic.md",
@@ -5022,8 +5088,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "0",
-        "outdated": true
+        "writtenFor": "1",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/spartan.md",
       "path": "systems/spartan.md",
@@ -6477,72 +6543,6 @@
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/apple-hig.md",
       "path": "systems/apple-hig.md",
       "html": "systems/apple-hig.html"
-    },
-    {
-      "slug": "vuetify",
-      "name": "Vuetify",
-      "org": "Vuetify",
-      "tier": "solid",
-      "family": "vuetify",
-      "brandLocked": null,
-      "aiReadiness": 40,
-      "popularity": 90,
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "vue"
-      ],
-      "styling": "css",
-      "headless": false,
-      "kind": "library",
-      "tags": [
-        "admin",
-        "saas",
-        "dashboard"
-      ],
-      "productShapes": [
-        "saas-app",
-        "app-dashboard"
-      ],
-      "bestFor": "Material-style Vue apps with a very complete component set.",
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "vuetify",
-        "pub": null,
-        "nuget": null,
-        "cdn": {
-          "css": null,
-          "js": "https://cdn.jsdelivr.net/npm/vuetify@4.3.2/dist/vuetify.min.js"
-        }
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 76353
-      },
-      "docs": "https://vuetifyjs.com",
-      "repo": "https://github.com/vuetifyjs/vuetify",
-      "license": "NOASSERTION",
-      "stars": 41033,
-      "npmWeeklyDownloads": 1342000,
-      "latestVersion": "4.3.2",
-      "lastActivity": "2026-11-03",
-      "llmsTxt": "https://vuetifyjs.com/llms.txt",
-      "mcp": false,
-      "shippedSkills": false,
-      "buildGuide": {
-        "handWritten": true,
-        "writtenFor": "3",
-        "outdated": true
-      },
-      "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md",
-      "path": "systems/vuetify.md",
-      "html": "systems/vuetify.html"
     },
     {
       "slug": "radix-primitives",
@@ -9580,8 +9580,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "5",
-        "outdated": true
+        "writtenFor": "6",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/govuk-frontend.md",
       "path": "systems/govuk-frontend.md",
@@ -10118,8 +10118,8 @@
       "shippedSkills": false,
       "buildGuide": {
         "handWritten": true,
-        "writtenFor": "20",
-        "outdated": true
+        "writtenFor": "22",
+        "outdated": false
       },
       "page": "https://kindavishal.github.io/ai-ready-design-systems/systems/angular-material.md",
       "path": "systems/angular-material.md",

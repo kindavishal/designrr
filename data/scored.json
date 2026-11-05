@@ -420,6 +420,7 @@
       ],
       "orgBacked": false,
       "bestFor": "Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box.",
+      "mcpPackage": "@mantine/mcp-server",
       "family": "mantine",
       "productShapes": [
         "saas-app",
@@ -545,6 +546,10 @@
         "llmsTxt": "https://mantine.dev/llms.txt",
         "llmsFull": "https://mantine.dev/llms-full.txt",
         "mcp": [
+          {
+            "kind": "npm",
+            "value": "@mantine/mcp-server"
+          },
           {
             "kind": "repo",
             "value": "packages/@mantine/mcp-server/.npmignore"
@@ -875,6 +880,166 @@
         "tokensPath": "apps/www/public/r/theme/tokens",
         "codeConnect": false,
         "agentDocsPath": "CLAUDE.md"
+      }
+    },
+    {
+      "slug": "ant-design",
+      "name": "Ant Design",
+      "org": "Ant Group",
+      "repo": "ant-design/ant-design",
+      "npm": "antd",
+      "docs": "https://ant.design",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "react"
+      ],
+      "styling": "css-in-js",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "dashboard",
+        "data-dense",
+        "b2b"
+      ],
+      "orgBacked": true,
+      "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React.",
+      "mcp": "npx -y @ant-design/cli mcp",
+      "family": "ant-design",
+      "productShapes": [
+        "app-dashboard",
+        "forms-flows"
+      ],
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "antd",
+        "pub": null,
+        "nuget": null,
+        "cdn": null,
+        "shippedSkills": []
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 48295
+      },
+      "tier": "recommended",
+      "reasons": [],
+      "scores": {
+        "aiReadiness": 65,
+        "popularity": 98,
+        "aiBreakdown": [
+          {
+            "key": "mcp",
+            "label": "Official MCP server (agent can query components/docs live)",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "key": "llmsTxt",
+            "label": "llms.txt on the docs site",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "key": "llmsFull",
+            "label": "llms-full.txt (whole docs as one markdown file)",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "tokens",
+            "label": "Machine-readable design tokens in the repo",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "key": "typed",
+            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "key": "registry",
+            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "key": "agentDocs",
+            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "storybook",
+            "label": "Storybook / live, inspectable examples",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "codeConnect",
+            "label": "Figma Code Connect (design ↔ code mapping)",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "a11y",
+            "label": "Accessibility guidance shipped with the source",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "docs",
+            "label": "Dedicated documentation site",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      },
+      "quality": {
+        "activity": "active",
+        "lastActivity": "2026-11-05T03:28:12.000Z",
+        "daysSinceActivity": 0,
+        "archived": false,
+        "traction": {
+          "stars": true,
+          "npm": true,
+          "pub": false,
+          "nuget": false,
+          "orgBacked": true
+        }
+      },
+      "signals": {
+        "stars": 100079,
+        "license": "MIT",
+        "language": "TypeScript",
+        "openIssues": 971,
+        "npmWeeklyDownloads": 4977078,
+        "npmLatest": "6.7.0",
+        "pubLikes": null,
+        "nugetTotalDownloads": null,
+        "repo": "ant-design/ant-design",
+        "homepage": "https://ant.design"
+      },
+      "ai": {
+        "llmsTxt": "https://ant.design/llms.txt",
+        "llmsFull": "https://ant.design/llms-full.txt",
+        "mcp": [
+          {
+            "kind": "cli",
+            "value": "npx -y @ant-design/cli mcp"
+          }
+        ],
+        "tokensPath": null,
+        "codeConnect": false,
+        "agentDocsPath": ".github/copilot-instructions.md"
       }
     },
     {
@@ -1826,6 +1991,331 @@
       }
     },
     {
+      "slug": "primevue",
+      "name": "PrimeVue",
+      "org": "PrimeTek",
+      "repo": "primefaces/primevue",
+      "npm": "primevue",
+      "docs": "https://primevue.dev",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "orgBacked": true,
+      "mcpPackage": "@primevue/mcp",
+      "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
+      "family": "prime",
+      "productShapes": [
+        "app-dashboard"
+      ],
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "primevue",
+        "pub": null,
+        "nuget": null,
+        "cdn": {
+          "css": null,
+          "js": "https://cdn.jsdelivr.net/npm/primevue@5.0.4/umd/primevue.min.js"
+        },
+        "shippedSkills": []
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 9216
+      },
+      "tier": "recommended",
+      "reasons": [],
+      "scores": {
+        "aiReadiness": 65,
+        "popularity": 85,
+        "aiBreakdown": [
+          {
+            "key": "mcp",
+            "label": "Official MCP server (agent can query components/docs live)",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "key": "llmsTxt",
+            "label": "llms.txt on the docs site",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "key": "llmsFull",
+            "label": "llms-full.txt (whole docs as one markdown file)",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "tokens",
+            "label": "Machine-readable design tokens in the repo",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "key": "typed",
+            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "key": "registry",
+            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "key": "agentDocs",
+            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "storybook",
+            "label": "Storybook / live, inspectable examples",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "codeConnect",
+            "label": "Figma Code Connect (design ↔ code mapping)",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "a11y",
+            "label": "Accessibility guidance shipped with the source",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "docs",
+            "label": "Dedicated documentation site",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      },
+      "quality": {
+        "activity": "active",
+        "lastActivity": "2026-10-22T15:36:19.213Z",
+        "daysSinceActivity": 13,
+        "archived": false,
+        "traction": {
+          "stars": true,
+          "npm": true,
+          "pub": false,
+          "nuget": false,
+          "orgBacked": true
+        }
+      },
+      "signals": {
+        "stars": 14449,
+        "license": "MIT",
+        "language": "Vue",
+        "openIssues": 688,
+        "npmWeeklyDownloads": 1037329,
+        "npmLatest": "5.0.4",
+        "pubLikes": null,
+        "nugetTotalDownloads": null,
+        "repo": "primefaces/primevue",
+        "homepage": "https://primevue.org"
+      },
+      "ai": {
+        "llmsTxt": "https://primevue.dev/llms/llms.txt",
+        "llmsFull": "https://primevue.dev/llms/llms-full.txt",
+        "mcp": [
+          {
+            "kind": "npm",
+            "value": "@primevue/mcp"
+          },
+          {
+            "kind": "repo",
+            "value": "packages/mcp/README.md"
+          }
+        ],
+        "tokensPath": null,
+        "codeConnect": false,
+        "agentDocsPath": "apps/showcase/server/assets/llms/llms-full.txt"
+      }
+    },
+    {
+      "slug": "vuetify",
+      "name": "Vuetify",
+      "org": "Vuetify",
+      "repo": "vuetifyjs/vuetify",
+      "npm": "vuetify",
+      "docs": "https://vuetifyjs.com",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "vue"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "admin",
+        "saas",
+        "dashboard"
+      ],
+      "orgBacked": false,
+      "bestFor": "Material-style Vue apps with a very complete component set.",
+      "mcpUrl": "https://mcp.vuetifyjs.com/mcp",
+      "family": "vuetify",
+      "productShapes": [
+        "saas-app",
+        "app-dashboard"
+      ],
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "vuetify",
+        "pub": null,
+        "nuget": null,
+        "cdn": {
+          "css": null,
+          "js": "https://cdn.jsdelivr.net/npm/vuetify@4.3.2/dist/vuetify.min.js"
+        },
+        "shippedSkills": []
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 76353
+      },
+      "tier": "recommended",
+      "reasons": [],
+      "scores": {
+        "aiReadiness": 60,
+        "popularity": 90,
+        "aiBreakdown": [
+          {
+            "key": "mcp",
+            "label": "Official MCP server (agent can query components/docs live)",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "key": "llmsTxt",
+            "label": "llms.txt on the docs site",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "key": "llmsFull",
+            "label": "llms-full.txt (whole docs as one markdown file)",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "tokens",
+            "label": "Machine-readable design tokens in the repo",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "key": "typed",
+            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "key": "registry",
+            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "key": "agentDocs",
+            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "storybook",
+            "label": "Storybook / live, inspectable examples",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "codeConnect",
+            "label": "Figma Code Connect (design ↔ code mapping)",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "a11y",
+            "label": "Accessibility guidance shipped with the source",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "docs",
+            "label": "Dedicated documentation site",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      },
+      "quality": {
+        "activity": "active",
+        "lastActivity": "2026-11-03T23:20:50.361Z",
+        "daysSinceActivity": 1,
+        "archived": false,
+        "traction": {
+          "stars": true,
+          "npm": true,
+          "pub": false,
+          "nuget": false,
+          "orgBacked": false
+        }
+      },
+      "signals": {
+        "stars": 41033,
+        "license": "NOASSERTION",
+        "language": "TypeScript",
+        "openIssues": 229,
+        "npmWeeklyDownloads": 1342000,
+        "npmLatest": "4.3.2",
+        "pubLikes": null,
+        "nugetTotalDownloads": null,
+        "repo": "vuetifyjs/vuetify",
+        "homepage": "https://vuetifyjs.com"
+      },
+      "ai": {
+        "llmsTxt": "https://vuetifyjs.com/llms.txt",
+        "llmsFull": null,
+        "mcp": [
+          {
+            "kind": "remote",
+            "value": "https://mcp.vuetifyjs.com/mcp"
+          }
+        ],
+        "tokensPath": null,
+        "codeConnect": false,
+        "agentDocsPath": "AGENTS.md"
+      }
+    },
+    {
       "slug": "taiga-ui",
       "name": "Taiga UI",
       "org": "T-Bank",
@@ -1845,6 +2335,7 @@
         "enterprise"
       ],
       "orgBacked": true,
+      "mcpPackage": "@taiga-ui/mcp",
       "bestFor": "Angular fintech and enterprise apps that need many form, data and input components.",
       "family": "taiga-ui",
       "productShapes": [],
@@ -1976,6 +2467,165 @@
         "tokensPath": "projects/kit/tokens/i18n.ts",
         "codeConnect": false,
         "agentDocsPath": ".github/copilot-instructions.md"
+      }
+    },
+    {
+      "slug": "primeng",
+      "name": "PrimeNG",
+      "org": "PrimeTek",
+      "repo": "primefaces/primeng",
+      "npm": "primeng",
+      "docs": "https://primeng.org",
+      "platforms": [
+        "web"
+      ],
+      "frameworks": [
+        "angular"
+      ],
+      "styling": "css",
+      "kind": "library",
+      "tags": [
+        "enterprise",
+        "admin",
+        "data-dense"
+      ],
+      "orgBacked": true,
+      "mcpPackage": "@primeng/mcp",
+      "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
+      "family": "prime",
+      "productShapes": [],
+      "install": {
+        "mode": "npm-bundler",
+        "noBuild": false,
+        "requires": [
+          "bundler"
+        ],
+        "npm": "primeng",
+        "pub": null,
+        "nuget": null,
+        "cdn": null,
+        "shippedSkills": []
+      },
+      "attributes": {
+        "darkMode": true,
+        "rtl": true,
+        "packageSizeKB": 6596
+      },
+      "tier": "recommended",
+      "reasons": [],
+      "scores": {
+        "aiReadiness": 65,
+        "popularity": 83,
+        "aiBreakdown": [
+          {
+            "key": "mcp",
+            "label": "Official MCP server (agent can query components/docs live)",
+            "points": 20,
+            "max": 20
+          },
+          {
+            "key": "llmsTxt",
+            "label": "llms.txt on the docs site",
+            "points": 15,
+            "max": 15
+          },
+          {
+            "key": "llmsFull",
+            "label": "llms-full.txt (whole docs as one markdown file)",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "tokens",
+            "label": "Machine-readable design tokens in the repo",
+            "points": 0,
+            "max": 15
+          },
+          {
+            "key": "typed",
+            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
+            "points": 10,
+            "max": 10
+          },
+          {
+            "key": "registry",
+            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
+            "points": 0,
+            "max": 10
+          },
+          {
+            "key": "agentDocs",
+            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "storybook",
+            "label": "Storybook / live, inspectable examples",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "codeConnect",
+            "label": "Figma Code Connect (design ↔ code mapping)",
+            "points": 0,
+            "max": 5
+          },
+          {
+            "key": "a11y",
+            "label": "Accessibility guidance shipped with the source",
+            "points": 5,
+            "max": 5
+          },
+          {
+            "key": "docs",
+            "label": "Dedicated documentation site",
+            "points": 5,
+            "max": 5
+          }
+        ]
+      },
+      "quality": {
+        "activity": "active",
+        "lastActivity": "2026-10-22T15:37:44.970Z",
+        "daysSinceActivity": 13,
+        "archived": false,
+        "traction": {
+          "stars": true,
+          "npm": true,
+          "pub": false,
+          "nuget": false,
+          "orgBacked": true
+        }
+      },
+      "signals": {
+        "stars": 12481,
+        "license": "NOASSERTION",
+        "language": "TypeScript",
+        "openIssues": 993,
+        "npmWeeklyDownloads": 911860,
+        "npmLatest": "22.1.4",
+        "pubLikes": null,
+        "nugetTotalDownloads": null,
+        "repo": "primefaces/primeng",
+        "homepage": "https://primeng.org"
+      },
+      "ai": {
+        "llmsTxt": "https://primeng.org/llms/llms.txt",
+        "llmsFull": "https://primeng.org/llms/llms-full.txt",
+        "mcp": [
+          {
+            "kind": "npm",
+            "value": "@primeng/mcp"
+          },
+          {
+            "kind": "repo",
+            "value": "packages/mcp/README.md"
+          }
+        ],
+        "tokensPath": null,
+        "codeConnect": false,
+        "agentDocsPath": "apps/showcase/public/llms/llms-full.txt"
       }
     },
     {
@@ -2289,160 +2939,6 @@
       }
     },
     {
-      "slug": "ant-design",
-      "name": "Ant Design",
-      "org": "Ant Group",
-      "repo": "ant-design/ant-design",
-      "npm": "antd",
-      "docs": "https://ant.design",
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "react"
-      ],
-      "styling": "css-in-js",
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "dashboard",
-        "data-dense",
-        "b2b"
-      ],
-      "orgBacked": true,
-      "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React.",
-      "family": "ant-design",
-      "productShapes": [
-        "app-dashboard",
-        "forms-flows"
-      ],
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "antd",
-        "pub": null,
-        "nuget": null,
-        "cdn": null,
-        "shippedSkills": []
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 48295
-      },
-      "tier": "recommended",
-      "reasons": [],
-      "scores": {
-        "aiReadiness": 45,
-        "popularity": 98,
-        "aiBreakdown": [
-          {
-            "key": "mcp",
-            "label": "Official MCP server (agent can query components/docs live)",
-            "points": 0,
-            "max": 20
-          },
-          {
-            "key": "llmsTxt",
-            "label": "llms.txt on the docs site",
-            "points": 15,
-            "max": 15
-          },
-          {
-            "key": "llmsFull",
-            "label": "llms-full.txt (whole docs as one markdown file)",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "tokens",
-            "label": "Machine-readable design tokens in the repo",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "typed",
-            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
-            "points": 10,
-            "max": 10
-          },
-          {
-            "key": "registry",
-            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
-            "points": 0,
-            "max": 10
-          },
-          {
-            "key": "agentDocs",
-            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "storybook",
-            "label": "Storybook / live, inspectable examples",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "codeConnect",
-            "label": "Figma Code Connect (design ↔ code mapping)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "a11y",
-            "label": "Accessibility guidance shipped with the source",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "docs",
-            "label": "Dedicated documentation site",
-            "points": 5,
-            "max": 5
-          }
-        ]
-      },
-      "quality": {
-        "activity": "active",
-        "lastActivity": "2026-11-05T03:28:12.000Z",
-        "daysSinceActivity": 0,
-        "archived": false,
-        "traction": {
-          "stars": true,
-          "npm": true,
-          "pub": false,
-          "nuget": false,
-          "orgBacked": true
-        }
-      },
-      "signals": {
-        "stars": 100079,
-        "license": "MIT",
-        "language": "TypeScript",
-        "openIssues": 971,
-        "npmWeeklyDownloads": 4977078,
-        "npmLatest": "6.7.0",
-        "pubLikes": null,
-        "nugetTotalDownloads": null,
-        "repo": "ant-design/ant-design",
-        "homepage": "https://ant.design"
-      },
-      "ai": {
-        "llmsTxt": "https://ant.design/llms.txt",
-        "llmsFull": "https://ant.design/llms-full.txt",
-        "mcp": [],
-        "tokensPath": null,
-        "codeConnect": false,
-        "agentDocsPath": ".github/copilot-instructions.md"
-      }
-    },
-    {
       "slug": "carbon",
       "name": "Carbon Design System",
       "org": "IBM",
@@ -2619,6 +3115,7 @@
       ],
       "orgBacked": true,
       "bestFor": "Developer tools and GitHub-like interfaces.",
+      "mcpPackage": "@primer/mcp",
       "family": "primer",
       "productShapes": [
         "saas-app",
@@ -2875,7 +3372,7 @@
       "quality": {
         "activity": "active",
         "lastActivity": "2026-11-04T06:47:28.000Z",
-        "daysSinceActivity": 0,
+        "daysSinceActivity": 1,
         "archived": false,
         "traction": {
           "stars": true,
@@ -4444,165 +4941,6 @@
       }
     },
     {
-      "slug": "primevue",
-      "name": "PrimeVue",
-      "org": "PrimeTek",
-      "repo": "primefaces/primevue",
-      "npm": "primevue",
-      "docs": "https://primevue.org",
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "vue"
-      ],
-      "styling": "css",
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "data-dense"
-      ],
-      "orgBacked": true,
-      "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
-      "family": "prime",
-      "productShapes": [
-        "app-dashboard"
-      ],
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "primevue",
-        "pub": null,
-        "nuget": null,
-        "cdn": {
-          "css": null,
-          "js": "https://cdn.jsdelivr.net/npm/primevue@5.0.4/umd/primevue.min.js"
-        },
-        "shippedSkills": []
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 9216
-      },
-      "tier": "recommended",
-      "reasons": [],
-      "scores": {
-        "aiReadiness": 45,
-        "popularity": 85,
-        "aiBreakdown": [
-          {
-            "key": "mcp",
-            "label": "Official MCP server (agent can query components/docs live)",
-            "points": 20,
-            "max": 20
-          },
-          {
-            "key": "llmsTxt",
-            "label": "llms.txt on the docs site",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "llmsFull",
-            "label": "llms-full.txt (whole docs as one markdown file)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "tokens",
-            "label": "Machine-readable design tokens in the repo",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "typed",
-            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
-            "points": 10,
-            "max": 10
-          },
-          {
-            "key": "registry",
-            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
-            "points": 0,
-            "max": 10
-          },
-          {
-            "key": "agentDocs",
-            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "storybook",
-            "label": "Storybook / live, inspectable examples",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "codeConnect",
-            "label": "Figma Code Connect (design ↔ code mapping)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "a11y",
-            "label": "Accessibility guidance shipped with the source",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "docs",
-            "label": "Dedicated documentation site",
-            "points": 5,
-            "max": 5
-          }
-        ]
-      },
-      "quality": {
-        "activity": "active",
-        "lastActivity": "2026-10-22T15:36:19.213Z",
-        "daysSinceActivity": 13,
-        "archived": false,
-        "traction": {
-          "stars": true,
-          "npm": true,
-          "pub": false,
-          "nuget": false,
-          "orgBacked": true
-        }
-      },
-      "signals": {
-        "stars": 14449,
-        "license": "MIT",
-        "language": "Vue",
-        "openIssues": 688,
-        "npmWeeklyDownloads": 1037329,
-        "npmLatest": "5.0.4",
-        "pubLikes": null,
-        "nugetTotalDownloads": null,
-        "repo": "primefaces/primevue",
-        "homepage": "https://primevue.org"
-      },
-      "ai": {
-        "llmsTxt": null,
-        "llmsFull": null,
-        "mcp": [
-          {
-            "kind": "repo",
-            "value": "packages/mcp/README.md"
-          }
-        ],
-        "tokensPath": null,
-        "codeConnect": false,
-        "agentDocsPath": "apps/showcase/server/assets/llms/llms-full.txt"
-      }
-    },
-    {
       "slug": "blueprint",
       "name": "Blueprint",
       "org": "Palantir",
@@ -4755,160 +5093,6 @@
         "tokensPath": ".storybook/tokens/tokens.ts",
         "codeConnect": false,
         "agentDocsPath": "AGENTS.md"
-      }
-    },
-    {
-      "slug": "primeng",
-      "name": "PrimeNG",
-      "org": "PrimeTek",
-      "repo": "primefaces/primeng",
-      "npm": "primeng",
-      "docs": "https://primeng.org",
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "angular"
-      ],
-      "styling": "css",
-      "kind": "library",
-      "tags": [
-        "enterprise",
-        "admin",
-        "data-dense"
-      ],
-      "orgBacked": true,
-      "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
-      "family": "prime",
-      "productShapes": [],
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "primeng",
-        "pub": null,
-        "nuget": null,
-        "cdn": null,
-        "shippedSkills": []
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 6596
-      },
-      "tier": "recommended",
-      "reasons": [],
-      "scores": {
-        "aiReadiness": 45,
-        "popularity": 83,
-        "aiBreakdown": [
-          {
-            "key": "mcp",
-            "label": "Official MCP server (agent can query components/docs live)",
-            "points": 20,
-            "max": 20
-          },
-          {
-            "key": "llmsTxt",
-            "label": "llms.txt on the docs site",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "llmsFull",
-            "label": "llms-full.txt (whole docs as one markdown file)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "tokens",
-            "label": "Machine-readable design tokens in the repo",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "typed",
-            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
-            "points": 10,
-            "max": 10
-          },
-          {
-            "key": "registry",
-            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
-            "points": 0,
-            "max": 10
-          },
-          {
-            "key": "agentDocs",
-            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "storybook",
-            "label": "Storybook / live, inspectable examples",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "codeConnect",
-            "label": "Figma Code Connect (design ↔ code mapping)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "a11y",
-            "label": "Accessibility guidance shipped with the source",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "docs",
-            "label": "Dedicated documentation site",
-            "points": 5,
-            "max": 5
-          }
-        ]
-      },
-      "quality": {
-        "activity": "active",
-        "lastActivity": "2026-10-22T15:37:44.970Z",
-        "daysSinceActivity": 13,
-        "archived": false,
-        "traction": {
-          "stars": true,
-          "npm": true,
-          "pub": false,
-          "nuget": false,
-          "orgBacked": true
-        }
-      },
-      "signals": {
-        "stars": 12481,
-        "license": "NOASSERTION",
-        "language": "TypeScript",
-        "openIssues": 993,
-        "npmWeeklyDownloads": 911860,
-        "npmLatest": "22.1.4",
-        "pubLikes": null,
-        "nugetTotalDownloads": null,
-        "repo": "primefaces/primeng",
-        "homepage": "https://primeng.org"
-      },
-      "ai": {
-        "llmsTxt": null,
-        "llmsFull": null,
-        "mcp": [
-          {
-            "kind": "repo",
-            "value": "packages/mcp/README.md"
-          }
-        ],
-        "tokensPath": null,
-        "codeConnect": false,
-        "agentDocsPath": "apps/showcase/public/llms/llms-full.txt"
       }
     },
     {
@@ -12475,6 +12659,7 @@
         "startup-mvp"
       ],
       "orgBacked": false,
+      "mcpPackage": "@spartan-ng/mcp",
       "bestFor": "shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.",
       "family": "shadcn",
       "productShapes": [],
@@ -16294,163 +16479,6 @@
         "tokensPath": null,
         "codeConnect": false,
         "agentDocsPath": null
-      }
-    },
-    {
-      "slug": "vuetify",
-      "name": "Vuetify",
-      "org": "Vuetify",
-      "repo": "vuetifyjs/vuetify",
-      "npm": "vuetify",
-      "docs": "https://vuetifyjs.com",
-      "platforms": [
-        "web"
-      ],
-      "frameworks": [
-        "vue"
-      ],
-      "styling": "css",
-      "kind": "library",
-      "tags": [
-        "admin",
-        "saas",
-        "dashboard"
-      ],
-      "orgBacked": false,
-      "bestFor": "Material-style Vue apps with a very complete component set.",
-      "family": "vuetify",
-      "productShapes": [
-        "saas-app",
-        "app-dashboard"
-      ],
-      "install": {
-        "mode": "npm-bundler",
-        "noBuild": false,
-        "requires": [
-          "bundler"
-        ],
-        "npm": "vuetify",
-        "pub": null,
-        "nuget": null,
-        "cdn": {
-          "css": null,
-          "js": "https://cdn.jsdelivr.net/npm/vuetify@4.3.2/dist/vuetify.min.js"
-        },
-        "shippedSkills": []
-      },
-      "attributes": {
-        "darkMode": true,
-        "rtl": true,
-        "packageSizeKB": 76353
-      },
-      "tier": "solid",
-      "reasons": [
-        "AI-readiness 40 < 45."
-      ],
-      "scores": {
-        "aiReadiness": 40,
-        "popularity": 90,
-        "aiBreakdown": [
-          {
-            "key": "mcp",
-            "label": "Official MCP server (agent can query components/docs live)",
-            "points": 0,
-            "max": 20
-          },
-          {
-            "key": "llmsTxt",
-            "label": "llms.txt on the docs site",
-            "points": 15,
-            "max": 15
-          },
-          {
-            "key": "llmsFull",
-            "label": "llms-full.txt (whole docs as one markdown file)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "tokens",
-            "label": "Machine-readable design tokens in the repo",
-            "points": 0,
-            "max": 15
-          },
-          {
-            "key": "typed",
-            "label": "Typed component API (TypeScript / Swift / Kotlin / Dart / C#)",
-            "points": 10,
-            "max": 10
-          },
-          {
-            "key": "registry",
-            "label": "Registry / CLI install of component source (e.g. shadcn registry)",
-            "points": 0,
-            "max": 10
-          },
-          {
-            "key": "agentDocs",
-            "label": "Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "storybook",
-            "label": "Storybook / live, inspectable examples",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "codeConnect",
-            "label": "Figma Code Connect (design ↔ code mapping)",
-            "points": 0,
-            "max": 5
-          },
-          {
-            "key": "a11y",
-            "label": "Accessibility guidance shipped with the source",
-            "points": 5,
-            "max": 5
-          },
-          {
-            "key": "docs",
-            "label": "Dedicated documentation site",
-            "points": 5,
-            "max": 5
-          }
-        ]
-      },
-      "quality": {
-        "activity": "active",
-        "lastActivity": "2026-11-03T23:20:50.361Z",
-        "daysSinceActivity": 1,
-        "archived": false,
-        "traction": {
-          "stars": true,
-          "npm": true,
-          "pub": false,
-          "nuget": false,
-          "orgBacked": false
-        }
-      },
-      "signals": {
-        "stars": 41033,
-        "license": "NOASSERTION",
-        "language": "TypeScript",
-        "openIssues": 229,
-        "npmWeeklyDownloads": 1342000,
-        "npmLatest": "4.3.2",
-        "pubLikes": null,
-        "nugetTotalDownloads": null,
-        "repo": "vuetifyjs/vuetify",
-        "homepage": "https://vuetifyjs.com"
-      },
-      "ai": {
-        "llmsTxt": "https://vuetifyjs.com/llms.txt",
-        "llmsFull": null,
-        "mcp": [],
-        "tokensPath": null,
-        "codeConnect": false,
-        "agentDocsPath": "AGENTS.md"
       }
     },
     {

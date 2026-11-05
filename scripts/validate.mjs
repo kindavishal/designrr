@@ -63,7 +63,7 @@ for (const f of readdirSync(p('guides')).filter((x) => x.endsWith('.md'))) {
   if (!slugs.has(slug)) err(`guide ${f}: no system with slug "${slug}"`);
   const fm = text.match(/^---\n([\s\S]*?)\n---\n/);
   if (!fm) { err(`guide ${f}: missing frontmatter (writtenFor, written)`); continue; }
-  const meta = Object.fromEntries(fm[1].split('\n').map((l) => l.split(/:\s*/, 2)).map(([k, v]) => [k.trim(), (v || '').replace(/^"|"$/g, '').trim()]));
+  const meta = Object.fromEntries(fm[1].split('\n').filter((l) => l.includes(':')).map((l) => [l.slice(0, l.indexOf(':')).trim(), l.slice(l.indexOf(':') + 1).trim().replace(/^"|"$/g, '')]));
   if (!meta.writtenFor) err(`guide ${f}: frontmatter needs writtenFor`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(meta.written || '')) err(`guide ${f}: frontmatter needs written: YYYY-MM-DD`);
   if (!/^## (Install|Setup)/m.test(text)) err(`guide ${f}: needs an "## Install" or "## Setup" section`);

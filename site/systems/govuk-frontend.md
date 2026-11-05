@@ -29,19 +29,36 @@
 - you are building a commercial or non-government product. Government systems are designed (and sometimes licensed) for public services.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you rely on agent tooling. This system has few machine-readable resources.
-- you copy the build guide verbatim. It was written for v5; the latest release is 6.6.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 6.6.0._
+_Hand-written guide for v6, checked against https://frontend.design-system.service.gov.uk/import-css/ on 2026-11-05; latest release 6.6.0._
 
 ## Install
 ```bash
 npm install govuk-frontend
 ```
-Use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or copy the HTML from each component page. Prototype Kit for rapid prototyping: `npx govuk-prototype-kit create`.
+For quick prototypes, the GOV.UK Prototype Kit is the supported route: `npx govuk-prototype-kit create my-prototype`.
+
+## Setup
+CSS, either precompiled or from Sass (needs Dart Sass 1.79+):
+```scss
+@use "node_modules/govuk-frontend/dist/govuk" as *;
+```
+or `<link rel="stylesheet" href="/assets/govuk-frontend.min.css">` after copying it from `node_modules/govuk-frontend/dist/govuk/`.
+
+JavaScript, before `</body>`:
+```html
+<script type="module" src="/assets/govuk-frontend.min.js"></script>
+<script type="module">
+  import { initAll } from '/assets/govuk-frontend.min.js'
+  initAll()
+</script>
+```
+Markup: use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or copy the HTML from each component page.
 
 ## Agent tips
-- Follow the **patterns** (question pages, check answers, confirmation) — they encode tested UX for transactional services.
-- Brand customisation is intentionally not supported for GOV.UK services; for non-GOV.UK products use the government system of your own country, or USWDS (more themeable).
+- v6 uses the GOV.UK brand colours and the new type scale; `govuk-body-xs` and `govuk-!-font-size-14` are gone.
+- Follow the **patterns** (question pages, check answers, confirmation): they encode tested UX for transactional services.
+- GOV.UK services can't change the brand. For a non-GOV.UK product use your own country's government system, or USWDS, which is more themeable.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

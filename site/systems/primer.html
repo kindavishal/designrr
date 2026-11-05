@@ -69,7 +69,7 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v37; the latest release is 38.44.0. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>70/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>GitHub (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>react</td></tr><tr><th scope="row">Styling</th><td>css-modules</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>devtools, saas, content; shapes: saas-app, content-site</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / not detected</td></tr><tr><th scope="row">Package size (unpacked)</th><td>3.9k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>3.9k</td></tr><tr><th scope="row">npm weekly downloads</th><td>61.1k (<code>@primer/react</code> 38.44.0)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://primer.style">https://primer.style</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/primer/react">https://github.com/primer/react</a></td></tr><tr><th scope="row">Same family</th><td><a href="primer-primitives.md">Primer Primitives (tokens)</a>, <a href="primer-view-components.md">Primer ViewComponents</a>, <a href="primer-css.md">Primer CSS</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
@@ -77,18 +77,28 @@
 <div class="code-block"><pre><code data-lang="json">{&quot;mcpServers&quot;:{&quot;primer&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@primer/mcp&quot;]}}}</code></pre><wa-copy-button value="{&quot;mcpServers&quot;:{&quot;primer&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@primer/mcp&quot;]}}}" class="code-copy"></wa-copy-button></div>
 <ul><li>in-repo package: <a href="https://github.com/primer/react/tree/HEAD/packages/mcp">https://github.com/primer/react/tree/HEAD/packages/mcp</a> (see its README for setup)</li></ul></li><li><strong>Design tokens:</strong> <a href="https://github.com/primer/react/blob/HEAD/packages/react/src/Token/index.ts">https://github.com/primer/react/blob/HEAD/packages/react/src/Token/index.ts</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/primer/react/blob/HEAD/.github/copilot-instructions.md">https://github.com/primer/react/blob/HEAD/.github/copilot-instructions.md</a></li><li><strong>Figma Code Connect:</strong> yes, so Figma components map to code.</li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v37; the latest release is 38.44.0, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v37; latest release 38.44.0.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v38, checked against <a href="https://primer.style/product/getting-started/react">https://primer.style/product/getting-started/react</a> on 2026-11-05; latest release 38.44.0.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">npm install @primer/react @primer/primitives styled-components</code></pre><wa-copy-button value="npm install @primer/react @primer/primitives styled-components" class="code-copy"></wa-copy-button></div>
+<div class="code-block"><pre><code data-lang="bash">npm install @primer/react @primer/primitives react react-dom</code></pre><wa-copy-button value="npm install @primer/react @primer/primitives react react-dom" class="code-copy"></wa-copy-button></div>
+<p>Primer React no longer needs styled-components.</p>
 <h2 id="setup">Setup</h2>
-<div class="code-block"><pre><code data-lang="tsx">import { ThemeProvider, BaseStyles } from '@primer/react';
-import '@primer/primitives/dist/css/functional/themes/light.css';
-&lt;ThemeProvider colorMode=&quot;auto&quot;&gt;&lt;BaseStyles&gt;{/* app */}&lt;/BaseStyles&gt;&lt;/ThemeProvider&gt;</code></pre><wa-copy-button value="import { ThemeProvider, BaseStyles } from '@primer/react';
-import '@primer/primitives/dist/css/functional/themes/light.css';
-&lt;ThemeProvider colorMode=&quot;auto&quot;&gt;&lt;BaseStyles&gt;{/* app */}&lt;/BaseStyles&gt;&lt;/ThemeProvider&gt;" class="code-copy"></wa-copy-button></div>
+<div class="code-block"><pre><code data-lang="tsx">import '@primer/primitives/dist/css/functional/themes/light.css';   // import each theme you use
+import { BaseStyles, ThemeProvider } from '@primer/react';
+
+export function RootLayout() {
+  return &lt;ThemeProvider&gt;&lt;BaseStyles&gt;&lt;App /&gt;&lt;/BaseStyles&gt;&lt;/ThemeProvider&gt;;
+}</code></pre><wa-copy-button value="import '@primer/primitives/dist/css/functional/themes/light.css';   // import each theme you use
+import { BaseStyles, ThemeProvider } from '@primer/react';
+
+export function RootLayout() {
+  return &lt;ThemeProvider&gt;&lt;BaseStyles&gt;&lt;App /&gt;&lt;/BaseStyles&gt;&lt;/ThemeProvider&gt;;
+}" class="code-copy"></wa-copy-button></div>
+<p>For GitHub.com-style base element styling, also import <code>@primer/css/dist/primer.css</code>. Wrap rendered Markdown in <code>className=&quot;markdown-body&quot;</code>.</p>
+<h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
+<p>Primer is GitHub's identity; customise through the Primer Primitives CSS variables (<code>var(--fgColor-default)</code>, <code>var(--bgColor-default)</code>, …) rather than hard-coded colours.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>MCP server: <code>npx -y @primer/mcp</code> — component and token lookup for agents.</li><li>Use <code>@primer/primitives</code> CSS variables (<code>var(--fgColor-default)</code>) for any custom styling.</li><li>Rails apps: Primer ViewComponents (<code>primer_view_components</code> gem).</li></ul>
+<ul><li>MCP server: <code>npx -y @primer/mcp</code> for component and token lookup.</li><li>Rails apps: Primer ViewComponents (<code>primer_view_components</code> gem). Plain HTML: Primer CSS.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
@@ -99,7 +109,7 @@ import '@primer/primitives/dist/css/functional/themes/light.css';
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="primer.md" class="wa-caption-m">Markdown version</a>

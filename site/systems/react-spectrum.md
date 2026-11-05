@@ -31,7 +31,7 @@
 - you want a finished visual style out of the box. This is headless; you supply all styling.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.22.1._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.22.1._
 
 ## Install
 ```bash

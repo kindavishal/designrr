@@ -31,22 +31,29 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 5.0.15, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 5.0.15._
+_Hand-written guide for v5, checked against https://gluestack.io/llms-full.txt on 2026-11-05; latest release 5.0.15._
 
 ## Install
 ```bash
-npx gluestack-ui init
+npx gluestack-ui init                  # prompts for a styling engine: NativeWind v5 or UniWind (Expo only)
 npx gluestack-ui add button input modal
+# or every component: npx gluestack-ui add --all
 ```
+`init` writes `gluestack-ui.config.json`, adds `GluestackUIProvider` and the core components (icon, overlay, toast), installs dependencies and updates `metro.config.js`, `babel.config.js`, `global.css` and your entry file. Monorepos: `npx gluestack-ui init --monorepo --path packages/ui`.
 
 ## How it works
-Copy-paste components (shadcn-style) for React Native + web, styled with NativeWind (Tailwind). Works with Expo and Next.js.
+Copy-paste components (shadcn-style) for React Native and web, styled with Tailwind CSS v4 classes. Works with Expo, React Native CLI and Next.js.
+
+## Setup
+Wrap the app in the generated provider: `<GluestackUIProvider mode="light">{children}</GluestackUIProvider>` (`mode` can follow your colour-mode state).
+
+## Theme it to a brand
+v5 has no `tailwind.config.js`: theme tokens are shadcn-style semantic variables defined in `global.css`. Edit those for light and dark.
 
 ## Agent tips
-- gluestack documents an MCP server for agents (see docs → MCP server).
-- Theme via the CSS variables in `components/ui/gluestack-ui-provider/config.ts`.
+- Upgrading from v4 or earlier: `npx gluestack-ui@latest upgrade` detects the version and migrates to your chosen engine.
+- Full docs for LLMs: `https://gluestack.io/llms-full.txt` (index at `https://gluestack.io/llms.txt`).
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

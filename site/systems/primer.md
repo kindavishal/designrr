@@ -36,26 +36,32 @@
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v37; the latest release is 38.44.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v37; latest release 38.44.0._
+_Hand-written guide for v38, checked against https://primer.style/product/getting-started/react on 2026-11-05; latest release 38.44.0._
 
 ## Install
 ```bash
-npm install @primer/react @primer/primitives styled-components
+npm install @primer/react @primer/primitives react react-dom
 ```
+Primer React no longer needs styled-components.
 
 ## Setup
 ```tsx
-import { ThemeProvider, BaseStyles } from '@primer/react';
-import '@primer/primitives/dist/css/functional/themes/light.css';
-<ThemeProvider colorMode="auto"><BaseStyles>{/* app */}</BaseStyles></ThemeProvider>
+import '@primer/primitives/dist/css/functional/themes/light.css';   // import each theme you use
+import { BaseStyles, ThemeProvider } from '@primer/react';
+
+export function RootLayout() {
+  return <ThemeProvider><BaseStyles><App /></BaseStyles></ThemeProvider>;
+}
 ```
+For GitHub.com-style base element styling, also import `@primer/css/dist/primer.css`. Wrap rendered Markdown in `className="markdown-body"`.
+
+## Theme it to a brand
+Primer is GitHub's identity; customise through the Primer Primitives CSS variables (`var(--fgColor-default)`, `var(--bgColor-default)`, …) rather than hard-coded colours.
 
 ## Agent tips
-- MCP server: `npx -y @primer/mcp` — component and token lookup for agents.
-- Use `@primer/primitives` CSS variables (`var(--fgColor-default)`) for any custom styling.
-- Rails apps: Primer ViewComponents (`primer_view_components` gem).
+- MCP server: `npx -y @primer/mcp` for component and token lookup.
+- Rails apps: Primer ViewComponents (`primer_view_components` gem). Plain HTML: Primer CSS.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

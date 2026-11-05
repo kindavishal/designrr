@@ -32,7 +32,7 @@
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 1.8.0._
+_Hand-written guide for v1, written 2026-11-05; latest release 1.8.0._
 
 ## Install
 ```bash

@@ -69,28 +69,37 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v1; the latest release is 3.2.2. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>70/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Tamagui</td></tr><tr><th scope="row">Platforms</th><td>web, ios, android</td></tr><tr><th scope="row">Frameworks</th><td>react, react-native</td></tr><tr><th scope="row">Styling</th><td>css-in-js</td></tr><tr><th scope="row">Install</th><td>CLI copies component source into your repo (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>cross-platform, consumer, startup-mvp; shapes: mobile-app, saas-app</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>5.2k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>14.3k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>tamagui</code> 3.2.2)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://tamagui.dev">https://tamagui.dev</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/tamagui/tamagui">https://github.com/tamagui/tamagui</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://tamagui.dev/llms.txt">https://tamagui.dev/llms.txt</a></li><li><strong>llms-full.txt:</strong> <a href="https://tamagui.dev/llms-full.txt">https://tamagui.dev/llms-full.txt</a></li><li>MCP server: none found</li><li><strong>Design tokens:</strong> <a href="https://github.com/tamagui/tamagui/blob/HEAD/code/core/themes/src/tokens.ts">https://github.com/tamagui/tamagui/blob/HEAD/code/core/themes/src/tokens.ts</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/tamagui/tamagui/blob/HEAD/AGENTS.md">https://github.com/tamagui/tamagui/blob/HEAD/AGENTS.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.</li><li>you copy the build guide verbatim. It was written for v1; the latest release is 3.2.2, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v1; latest release 3.2.2.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.</li></ul>
+<p><em>Hand-written guide for v3, checked against <a href="https://tamagui.dev/llms.txt">https://tamagui.dev/llms.txt</a> on 2026-11-05; latest release 3.2.2.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">npm create tamagui@latest          # starter monorepo: Expo + Next.js sharing UI
-# existing: npm install tamagui @tamagui/config</code></pre><wa-copy-button value="npm create tamagui@latest          # starter monorepo: Expo + Next.js sharing UI
-# existing: npm install tamagui @tamagui/config" class="code-copy"></wa-copy-button></div>
+<p>New cross-platform app (Expo + Next.js starter):</p>
+<div class="code-block"><pre><code data-lang="bash">npm create tamagui@latest</code></pre><wa-copy-button value="npm create tamagui@latest" class="code-copy"></wa-copy-button></div>
+<p>Existing app:</p>
+<div class="code-block"><pre><code data-lang="bash">npm install tamagui @tamagui/config</code></pre><wa-copy-button value="npm install tamagui @tamagui/config" class="code-copy"></wa-copy-button></div>
 <h2 id="setup">Setup</h2>
-<div class="code-block"><pre><code data-lang="tsx">import { TamaguiProvider, createTamagui } from 'tamagui';
-import { defaultConfig } from '@tamagui/config/v4';
-const config = createTamagui(defaultConfig);
-&lt;TamaguiProvider config={config} defaultTheme=&quot;light&quot;&gt;{/* app */}&lt;/TamaguiProvider&gt;</code></pre><wa-copy-button value="import { TamaguiProvider, createTamagui } from 'tamagui';
-import { defaultConfig } from '@tamagui/config/v4';
-const config = createTamagui(defaultConfig);
+<div class="code-block"><pre><code data-lang="tsx">// tamagui.config.ts
+import { defaultConfig } from '@tamagui/config/v6';
+import { createTamagui } from 'tamagui';
+export const config = createTamagui(defaultConfig);</code></pre><wa-copy-button value="// tamagui.config.ts
+import { defaultConfig } from '@tamagui/config/v6';
+import { createTamagui } from 'tamagui';
+export const config = createTamagui(defaultConfig);" class="code-copy"></wa-copy-button></div>
+<div class="code-block"><pre><code data-lang="tsx">import { TamaguiProvider } from 'tamagui';
+import { config } from './tamagui.config';
+&lt;TamaguiProvider config={config} defaultTheme=&quot;light&quot;&gt;{/* app */}&lt;/TamaguiProvider&gt;</code></pre><wa-copy-button value="import { TamaguiProvider } from 'tamagui';
+import { config } from './tamagui.config';
 &lt;TamaguiProvider config={config} defaultTheme=&quot;light&quot;&gt;{/* app */}&lt;/TamaguiProvider&gt;" class="code-copy"></wa-copy-button></div>
+<p>Import <code>tamagui.config.ts</code> in one place near the root.</p>
+<h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
+<p>Tokens and themes are typed in the config: use <code>$tokens</code> (<code>bg=&quot;$background&quot;</code>, <code>p=&quot;$4&quot;</code>), never raw values. <code>@tamagui/config/v6</code> provides sensible settings, themes and fonts; override parts of it rather than starting from zero.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Tokens and themes are typed in the config — use <code>$tokens</code> (<code>bg=&quot;$background&quot;</code>, <code>p=&quot;$4&quot;</code>) not raw values.</li><li>Add the compiler plugin (Next/Vite/Metro) for production performance.</li></ul>
+<ul><li>Add the optimising compiler for production web builds: <code>npm i -D @tamagui/cli</code> and <code>tamaguiPlugin()</code> from <code>@tamagui/cli/vite</code> (equivalents exist for Next.js and Metro).</li><li>Animations are pluggable drivers (CSS, Reanimated, Motion) configured in <code>createTamagui</code>.</li><li>The full docs are a single LLM file at <code>https://tamagui.dev/llms.txt</code> (very large; search it rather than reading it whole).</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
@@ -101,7 +110,7 @@ const config = createTamagui(defaultConfig);
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="tamagui.md" class="wa-caption-m">Markdown version</a>

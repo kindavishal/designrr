@@ -33,7 +33,7 @@
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide, written 2026-11-05 for v9; latest release 9.75.1._
+_Hand-written guide for v9, written 2026-11-05; latest release 9.75.1._
 
 ## Install
 ```bash

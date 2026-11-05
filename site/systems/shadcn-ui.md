@@ -35,30 +35,32 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.23.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.23.0._
+_Hand-written guide for v4, checked against https://ui.shadcn.com/docs/cli.md on 2026-11-05; latest release 4.23.0._
 
 ## Install
+New project (scaffolds the app and shadcn/ui together):
 ```bash
-npx shadcn@latest init          # in an existing Next.js / Vite / React Router / Astro app with Tailwind
-npx shadcn@latest add button card dialog form input table sidebar
+npx shadcn@latest init --template next     # templates: next, vite, start, react-router, laravel, astro
 ```
-New project: `npx shadcn@latest init` offers templates; or start from `npx create-next-app@latest` first.
+Existing project: run `npx shadcn@latest init` in the app root. Choose the primitive base with `--base radix|base|aria`, or a saved design with `--preset <code>` (build one at ui.shadcn.com/create). Then add components:
+```bash
+npx shadcn@latest add button card dialog field input table sidebar
+```
 
 ## How it works
-Components are copied into your repo (`components/ui/*`) — you own and edit the source. Config lives in `components.json`. Built on Radix (or Base UI) primitives + Tailwind.
+Components are copied into your repo (`components/ui/*`), so you own and edit the source. Config lives in `components.json`. Built on Radix, Base UI or React Aria primitives with Tailwind CSS.
 
 ## Theme it to a brand
-- Edit the CSS variables in `app/globals.css` (`--background`, `--foreground`, `--primary`, `--radius`, …) for `:root` and `.dark`.
-- Pick a base theme at init, or generate one at ui.shadcn.com/themes and paste the variables.
-- Fonts: set in your layout and map to `--font-sans`.
+- Edit the CSS variables in your global CSS (`--background`, `--foreground`, `--primary`, `--radius`, …) for `:root` and `.dark`, or start from a preset.
+- `npx shadcn@latest preset decode <code>` shows what a preset sets; `shadcn apply` re-applies one to an existing project.
+- Fonts: set them in your layout and map them to `--font-sans`.
 
 ## Agent tips
-- Run `npx shadcn@latest mcp init` (or add `npx shadcn@latest mcp` to your MCP client) so you can search and install registry items directly.
-- Use **blocks** (`npx shadcn@latest add dashboard-01 sidebar-07 login-03`) to scaffold whole screens, then edit.
-- Never hand-write a component that exists in the registry; `add` it.
-- Charts: `add chart` (Recharts). Forms: `add form` (react-hook-form + zod).
+- MCP server: `npx shadcn@latest mcp init --client <claude|cursor|vscode|codex|opencode>`. It lets the agent search and install registry items.
+- Agent skill: `npx skills add shadcn/ui`.
+- `npx shadcn@latest docs <component>` and `view` print docs and source; `search` queries registries.
+- Never hand-write a component that exists in the registry; `add` it. Use blocks (for example `npx shadcn@latest add dashboard-01`) to scaffold whole screens.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

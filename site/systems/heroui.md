@@ -37,29 +37,35 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v2; the latest release is 3.2.7, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v2; latest release 3.2.7._
+_Hand-written guide for v3, checked against https://heroui.com/docs/react/getting-started/quick-start.mdx on 2026-11-05; latest release 3.2.7._
 
 ## Install
+Requires React 19+ and Tailwind CSS v4 (set Tailwind up first with its framework guide).
 ```bash
-npx heroui-cli@latest init        # new project
-# existing app: npm install @heroui/react framer-motion   (Tailwind required)
+npm i @heroui/styles @heroui/react
 ```
-Follow the Tailwind plugin step in the docs (v4: `@plugin './hero.ts'` in your CSS).
+In your main Tailwind CSS file, import HeroUI right after Tailwind (order matters):
+```css
+@import "tailwindcss";
+@import "@heroui/styles";
+```
 
 ## Setup
+No provider is needed in v3. Import components and use them:
 ```tsx
-import { HeroUIProvider } from '@heroui/react';
-<HeroUIProvider>{/* app */}</HeroUIProvider>
+import { Button } from '@heroui/react';
+export function App() { return <Button>My Button</Button>; }
 ```
+Built on React Aria Components; components are composed from parts (for example `Card.Header`).
 
 ## Theme it to a brand
-Themes are defined in the `heroui()` Tailwind plugin (`themes: { light: { colors: { primary: { DEFAULT: '#…' } } } }`).
+Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" data-theme="light"` (or `dark`) on `<html>`, and override semantic variables such as `--accent` and `--success` in `:root`, or under your own `[data-theme="brand"]` selector.
 
 ## Agent tips
-- MCP server: `npx -y @heroui/react-mcp` ; docs index at `https://www.heroui.com/llms.txt`.
-- Check whether the project is on HeroUI v2 or v3 before copying examples — the APIs differ.
+- MCP server: `npx -y @heroui/react-mcp@latest`. HeroUI's own docs tell agents to treat the MCP as the source of truth for install steps and versions.
+- v3 is a rewrite: v2 APIs (`HeroUIProvider`, the `heroui()` Tailwind plugin) no longer apply. The migration guide for agents is `https://heroui.com/en/docs/react/migration/agent-index`.
+- Docs index: `https://www.heroui.com/llms.txt`; pages have `.mdx` source versions.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

@@ -142,8 +142,8 @@ async function llmsProbe(docs) {
   const bases = [...new Set([`${u.origin}`, `${u.origin}${u.pathname.replace(/\/$/, '')}`])];
   const out = {};
   for (const b of bases) {
-    if (!out.llmsTxt && (await probeText(`${b}/llms.txt`))) out.llmsTxt = `${b}/llms.txt`;
-    if (!out.llmsFull && (await probeText(`${b}/llms-full.txt`))) out.llmsFull = `${b}/llms-full.txt`;
+    for (const path of ['/llms.txt', '/llms/llms.txt']) if (!out.llmsTxt && (await probeText(`${b}${path}`))) out.llmsTxt = `${b}${path}`;
+    for (const path of ['/llms-full.txt', '/llms/llms-full.txt']) if (!out.llmsFull && (await probeText(`${b}${path}`))) out.llmsFull = `${b}${path}`;
   }
   return out;
 }

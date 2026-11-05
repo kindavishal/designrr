@@ -30,7 +30,7 @@
 ## Consider an alternative if
 - you are building a commercial or non-government product. Government systems are designed (and sometimes licensed) for public services.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.14.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.14.0._
 
 ## Install
 ```bash

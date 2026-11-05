@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Tier | **solid** |
-| AI-readiness | **40/100** |
+| Tier | **recommended** |
+| AI-readiness | **60/100** |
 | Maintainer | Vuetify |
 | Platforms | web |
 | Frameworks | vue |
@@ -23,31 +23,53 @@
 
 ## AI resources (use these first)
 - **llms.txt:** https://vuetifyjs.com/llms.txt
-- MCP server: none found
+- **MCP server:**
+  - remote server https://mcp.vuetifyjs.com/mcp
+    ```json
+    {"mcpServers":{"vuetify":{"type":"http","url":"https://mcp.vuetifyjs.com/mcp"}}}
+    ```
 - **Agent/contributor docs in repo:** https://github.com/vuetifyjs/vuetify/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.3.2, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.3.2._
+_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.2._
 
 ## Install
+New project:
 ```bash
-npm create vuetify@latest        # scaffold
-# existing: npm install vuetify @mdi/font  (+ vite-plugin-vuetify)
+npm create vuetify@latest
 ```
+Existing Vite app:
+```bash
+npm i vuetify
+npm i -D vite-plugin-vuetify      # optional: tree-shaking and SASS variable support
+npm i @mdi/font @fontsource/roboto
+```
+Nuxt: `npm i -D vuetify vite-plugin-vuetify` and register the plugin in `nuxt.config.ts` (see the installation guide).
 
 ## Setup
 ```ts
-import { createVuetify } from 'vuetify';
+import { createApp } from 'vue';
 import 'vuetify/styles';
-export default createVuetify({ theme: { defaultTheme: 'light', themes: { light: { colors: { primary: '#4F46E5' } } } } });
+import { createVuetify } from 'vuetify';
+import * as components from 'vuetify/components';
+import * as directives from 'vuetify/directives';
+import '@mdi/font/css/materialdesignicons.css';
+import '@fontsource/roboto';
+
+const vuetify = createVuetify({ components, directives, theme: { defaultTheme: 'system' } });
+createApp(App).use(vuetify).mount('#app');
 ```
+Vuetify does not bundle the Roboto font; add it yourself (as above).
+
+## Theme it to a brand
+`createVuetify({ theme: { defaultTheme: 'light', themes: { light: { colors: { primary: '#4F46E5' } } } } })`. `defaultTheme` accepts `'system'` to follow the OS; switch at runtime with the theme instance's `change`, `toggle` or `cycle`.
 
 ## Agent tips
-- `https://vuetifyjs.com/llms.txt` lists every component page.
-- Use `v-data-table` (server variant for large data) instead of custom tables.
+- Vuetify MCP (remote): `https://mcp.vuetifyjs.com/mcp`. It includes upgrade tools for moving from Vuetify 3 to 4.
+- Vuetify 4 changed style entry points (`vuetify/styles/core`), typography, elevation and several component defaults; don't copy v3 examples blindly.
+- Use `v-data-table` (or `v-data-table-server` for large data) instead of hand-built tables.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -62,7 +84,7 @@ export default createVuetify({ theme: { defaultTheme: 'light', themes: { light: 
 ## Score breakdown
 | Capability | Points |
 |---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
+| Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
@@ -74,6 +96,6 @@ export default createVuetify({ theme: { defaultTheme: 'light', themes: { light: 
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
+Quality gate: activity **active**; traction via stars, npm.
 
 _Data refreshed 2026-11-05. Agent-readable source: https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md_

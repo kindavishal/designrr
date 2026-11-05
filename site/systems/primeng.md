@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **45/100** |
+| AI-readiness | **65/100** |
 | Maintainer | PrimeTek (org-backed) |
 | Platforms | web |
 | Frameworks | angular |
@@ -23,8 +23,13 @@
 | Same family | [PrimeVue](primevue.md), [PrimeReact](primereact.md) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://primeng.org/llms/llms.txt
+- **llms-full.txt:** https://primeng.org/llms/llms-full.txt
 - **MCP server:**
+  - npm package `@primeng/mcp`
+    ```json
+    {"mcpServers":{"primeng":{"command":"npx","args":["-y","@primeng/mcp"]}}}
+    ```
   - in-repo package: https://github.com/primefaces/primeng/tree/HEAD/packages/mcp (see its README for setup)
 - **Agent/contributor docs in repo:** https://github.com/primefaces/primeng/blob/HEAD/apps/showcase/public/llms/llms-full.txt
 
@@ -40,6 +45,7 @@ npm install primeng
 Then follow the framework setup in the official getting-started guide: https://primeng.org
 
 ## Agent tips
+- Read https://primeng.org/llms/llms.txt first. It indexes the official docs in markdown.
 - Connect the MCP server listed above before writing code, and use it to look up components and props.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
@@ -57,8 +63,8 @@ Then follow the framework setup in the official getting-started guide: https://p
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |

@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **45/100** |
+| AI-readiness | **65/100** |
 | Maintainer | PrimeTek (org-backed) |
 | Platforms | web |
 | Frameworks | vue |
@@ -18,39 +18,48 @@
 | GitHub stars | 14.4k |
 | npm weekly downloads | 1.0M (`primevue` 5.0.4) |
 | Last activity | 2026-10-22 |
-| Docs | https://primevue.org |
+| Docs | https://primevue.dev |
 | Source | https://github.com/primefaces/primevue |
 | Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://primevue.dev/llms/llms.txt
+- **llms-full.txt:** https://primevue.dev/llms/llms-full.txt
 - **MCP server:**
+  - npm package `@primevue/mcp`
+    ```json
+    {"mcpServers":{"primevue":{"command":"npx","args":["-y","@primevue/mcp"]}}}
+    ```
   - in-repo package: https://github.com/primefaces/primevue/tree/HEAD/packages/mcp (see its README for setup)
 - **Agent/contributor docs in repo:** https://github.com/primefaces/primevue/blob/HEAD/apps/showcase/server/assets/llms/llms-full.txt
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v4; the latest release is 5.0.4, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v4; latest release 5.0.4._
+_Hand-written guide for v5, checked against https://github.com/primefaces/primevue/tree/master/apps/showcase/doc/vite on 2026-11-05; latest release 5.0.4._
 
 ## Install
 ```bash
-npm install primevue @primeuix/themes primeicons
+npm install primevue @primeuix/themes
 ```
 
 ## Setup
 ```ts
+import { createApp } from 'vue';
 import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
+
+const app = createApp(App);
 app.use(PrimeVue, { theme: { preset: Aura, options: { darkModeSelector: '.dark' } } });
 ```
+Nuxt: use the `@primevue/nuxt-module` module. Components can be auto-imported (see "Auto Import" in the docs).
 
 ## Theme it to a brand
-`definePreset(Aura, { semantic: { primary: { 50: '{indigo.50}', …, 950: '{indigo.950}' } } })`. Tailwind users can use unstyled mode + the Tailwind preset.
+`definePreset(Aura, { semantic: { primary: { 50: '{indigo.50}', …, 950: '{indigo.950}' } } })` from `@primeuix/themes`. Tailwind users can run PrimeVue in unstyled mode with pass-through classes.
 
 ## Agent tips
-- The PrimeVue repo ships an MCP package (`packages/mcp`); see docs for setup. Same model for PrimeNG and PrimeReact.
+- MCP server: `npx -y @primevue/mcp`. Docs moved to primevue.dev; the LLM index is `https://primevue.dev/llms/llms.txt` (plus `llms-full.txt`).
+- PrimeNG (Angular) and PrimeReact share the same theming model; PrimeNG's MCP is `@primeng/mcp`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -66,8 +75,8 @@ app.use(PrimeVue, { theme: { preset: Aura, options: { darkModeSelector: '.dark' 
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |

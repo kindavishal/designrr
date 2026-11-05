@@ -31,7 +31,7 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide, written 2026-11-05 for v2; latest release 2.35.2._
+_Hand-written guide for v2, written 2026-11-05; latest release 2.35.2._
 
 ## Install
 ```bash

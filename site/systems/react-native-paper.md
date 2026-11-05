@@ -29,7 +29,7 @@
 - **Agent/contributor docs in repo:** https://github.com/callstack/react-native-paper/blob/HEAD/.github/copilot-instructions.md
 
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 5.15.4._
+_Hand-written guide for v5, written 2026-11-05; latest release 5.15.4._
 
 ## Install
 ```bash

@@ -34,18 +34,36 @@
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v4; the latest release is 5.31.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v4; latest release 5.31.0._
+_Hand-written guide for v5, checked against https://taiga-ui.dev/getting-started.md on 2026-11-05; latest release 5.31.0._
 
 ## Install
+The schematic installs packages and configures styles, assets and providers:
 ```bash
-ng add taiga-ui
+ng add taiga-ui            # Angular CLI
+# Nx: npm i taiga-ui && nx g taiga-ui:ng-add
 ```
+Manual: `npm i @taiga-ui/{cdk,core,kit,icons}` plus add-ons as needed (`@taiga-ui/addon-charts`, `addon-table`, `addon-commerce`, `addon-mobile`, `layout`).
+
+## Setup
+```ts
+// main.ts
+import { provideTaiga } from '@taiga-ui/core';
+bootstrapApplication(App, { providers: [provideTaiga()] });
+```
+```ts
+// app component
+import { TuiRoot } from '@taiga-ui/core';
+@Component({ selector: 'app-root', imports: [TuiRoot], template: `<tui-root><!-- app --></tui-root>` })
+export class App {}
+```
+Manual installs also add `@taiga-ui/styles/taiga-ui-theme.less` and `taiga-ui-fonts.less` to the build `styles`, and copy `@taiga-ui/icons/src` to `assets/taiga-ui/icons`.
+
+## Theme it to a brand
+Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary`, …) in a global stylesheet.
 
 ## Agent tips
-- MCP server: `@taiga-ui/mcp` for component docs and examples.
-- Theme through CSS variables (`--tui-background-accent-1`, …).
+- MCP server: `npx @taiga-ui/mcp init` scaffolds the config for your agent (`--client <client>` to choose one). Docs index: `https://taiga-ui.dev/llms.txt`.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

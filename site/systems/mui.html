@@ -69,34 +69,43 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v7; the latest release is 9.5.0. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>60/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>MUI (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>react</td></tr><tr><th scope="row">Styling</th><td>css-in-js</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>enterprise, saas, dashboard, admin; shapes: saas-app, app-dashboard</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>8.3k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>99.3k</td></tr><tr><th scope="row">npm weekly downloads</th><td>13.6M (<code>@mui/material</code> 9.5.0)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-03</td></tr><tr><th scope="row">Docs</th><td><a href="https://mui.com/material-ui/">https://mui.com/material-ui/</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/mui/material-ui">https://github.com/mui/material-ui</a></td></tr><tr><th scope="row">Same family</th><td><a href="base-ui.md">Base UI</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://mui.com/material-ui/llms.txt">https://mui.com/material-ui/llms.txt</a></li><li><strong>MCP server:</strong><ul><li>npm package <code>@mui/mcp</code></li></ul>
 <div class="code-block"><pre><code data-lang="json">{&quot;mcpServers&quot;:{&quot;mui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@mui/mcp&quot;]}}}</code></pre><wa-copy-button value="{&quot;mcpServers&quot;:{&quot;mui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@mui/mcp&quot;]}}}" class="code-copy"></wa-copy-button></div></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/mui/material-ui/blob/HEAD/AGENTS.md">https://github.com/mui/material-ui/blob/HEAD/AGENTS.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.</li><li>you copy the build guide verbatim. It was written for v7; the latest release is 9.5.0, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v7; latest release 9.5.0.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.</li></ul>
+<p><em>Hand-written guide for v9, checked against <a href="https://mui.com/material-ui/getting-started/installation.md">https://mui.com/material-ui/getting-started/installation.md</a> on 2026-11-05; latest release 9.5.0.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
-# optional: npm install @mui/x-data-grid @mui/x-date-pickers @mui/x-charts</code></pre><wa-copy-button value="npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
-# optional: npm install @mui/x-data-grid @mui/x-date-pickers @mui/x-charts" class="code-copy"></wa-copy-button></div>
+<div class="code-block"><pre><code data-lang="bash">npm install @mui/material @emotion/react @emotion/styled
+# optional: npm install @mui/icons-material @mui/x-data-grid @mui/x-date-pickers @mui/x-charts</code></pre><wa-copy-button value="npm install @mui/material @emotion/react @emotion/styled
+# optional: npm install @mui/icons-material @mui/x-data-grid @mui/x-date-pickers @mui/x-charts" class="code-copy"></wa-copy-button></div>
+<p>React 18 or older: also pin <code>react-is</code> to your React version (for example <code>npm install react-is@18.3.1</code> plus an <code>overrides</code> entry in package.json), because Material UI uses <code>react-is@19</code>.</p>
 <h2 id="setup">Setup</h2>
 <div class="code-block"><pre><code data-lang="tsx">import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
-const theme = createTheme({ cssVariables: true, colorSchemes: { light: true, dark: true },
-  palette: { primary: { main: '#4F46E5' } }, shape: { borderRadius: 10 },
-  typography: { fontFamily: 'Inter, sans-serif' } });
+const theme = createTheme({
+  cssVariables: { colorSchemeSelector: 'class' },
+  colorSchemes: { light: true, dark: true },
+  palette: { primary: { main: '#4F46E5' } },
+  shape: { borderRadius: 10 },
+  typography: { fontFamily: 'Inter, sans-serif' },
+});
 export default function App() { return &lt;ThemeProvider theme={theme}&gt;&lt;CssBaseline /&gt;{/* app */}&lt;/ThemeProvider&gt;; }</code></pre><wa-copy-button value="import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
-const theme = createTheme({ cssVariables: true, colorSchemes: { light: true, dark: true },
-  palette: { primary: { main: '#4F46E5' } }, shape: { borderRadius: 10 },
-  typography: { fontFamily: 'Inter, sans-serif' } });
+const theme = createTheme({
+  cssVariables: { colorSchemeSelector: 'class' },
+  colorSchemes: { light: true, dark: true },
+  palette: { primary: { main: '#4F46E5' } },
+  shape: { borderRadius: 10 },
+  typography: { fontFamily: 'Inter, sans-serif' },
+});
 export default function App() { return &lt;ThemeProvider theme={theme}&gt;&lt;CssBaseline /&gt;{/* app */}&lt;/ThemeProvider&gt;; }" class="code-copy"></wa-copy-button></div>
-<p>Next.js App Router: also install <code>@mui/material-nextjs</code> and wrap in <code>AppRouterCacheProvider</code>.</p>
+<p>Next.js App Router: <code>npm install @mui/material-nextjs @emotion/cache</code>, then wrap <code>{children}</code> in <code>app/layout.tsx</code> with <code>AppRouterCacheProvider</code> from <code>@mui/material-nextjs/v15-appRouter</code> (use the <code>v1X-appRouter</code> path that matches your Next.js major).</p>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
-<p>All brand decisions go in <code>createTheme</code> (palette, typography, shape, <code>components</code> overrides). Avoid per-component <code>sx</code> colour literals — use <code>theme.palette.*</code>.</p>
+<p>All brand decisions go in <code>createTheme</code> (palette, typography, shape, <code>components</code> overrides). Avoid colour literals in <code>sx</code>; use <code>theme.palette.*</code> or the generated CSS variables (<code>var(--mui-palette-primary-main)</code>).</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Add the MCP server: <code>npx -y @mui/mcp@latest</code> — gives exact, versioned docs and code samples.</li><li>Read <code>https://mui.com/material-ui/llms.txt</code> for the component index.</li><li>Data-heavy UI: MUI X Data Grid (MIT tier) instead of building tables by hand.</li></ul>
+<ul><li>MCP server: <code>npx -y @mui/mcp@latest</code>. It gives exact, versioned docs and code samples; prefer it over memory.</li><li>Every docs page has a Markdown twin (append <code>.md</code>); the index is <code>https://mui.com/material-ui/llms.txt</code>.</li><li>For data-heavy UI use MUI X (Data Grid, Date Pickers, Charts) instead of building tables and pickers by hand.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>

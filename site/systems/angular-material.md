@@ -29,25 +29,43 @@
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v20; the latest release is 22.2.6, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v20; latest release 22.2.6._
+_Hand-written guide for v22, checked against https://github.com/angular/components/blob/main/guides/getting-started.md on 2026-11-05; latest release 22.2.6._
 
 ## Install
 ```bash
 ng add @angular/material
 ```
 
+## Setup
+Import components directly into standalone components:
+```ts
+import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggle } from '@angular/material/slide-toggle';
+
+@Component({ imports: [MatButtonModule, MatSlideToggle], template: `<mat-slide-toggle>Toggle me</mat-slide-toggle>` })
+export class App {}
+```
+
 ## Theme it to a brand
 ```scss
 @use '@angular/material' as mat;
-html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: light), typography: Inter, density: 0)); }
+
+html {
+  color-scheme: light dark;   // follows the OS; use `light` or `dark` to force one
+  @include mat.theme((
+    color: (primary: mat.$violet-palette, tertiary: mat.$orange-palette),
+    typography: Inter,
+    density: 0,
+  ));
+}
+body { background: var(--mat-sys-surface); color: var(--mat-sys-on-surface); }
 ```
-Customise further with `mat.<component>-overrides(...)` mixins and the generated `--mat-sys-*` CSS variables.
+Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` CSS variables.
 
 ## Agent tips
-- Use the CDK (`@angular/cdk`) for overlays, drag & drop and virtual scroll before reaching for third-party libraries.
-- Prefer standalone component imports (`MatButtonModule` etc.) per component.
+- Angular's own LLM docs: `https://angular.dev/llms.txt`. The Angular Material site does not publish an llms.txt.
+- Use the CDK (`@angular/cdk`) for overlays, drag and drop and virtual scrolling before reaching for third-party libraries.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

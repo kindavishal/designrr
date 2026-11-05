@@ -185,7 +185,13 @@
         "llmsTxt": "https://ant.design/llms.txt",
         "llmsFull": "https://ant.design/llms-full.txt"
       },
-      "mcp": [],
+      "mcp": [
+        {
+          "kind": "cli",
+          "value": "npx -y @ant-design/cli mcp",
+          "verified": true
+        }
+      ],
       "cdn": {
         "css": null,
         "js": null,
@@ -323,6 +329,11 @@
         "llmsFull": "https://mantine.dev/llms-full.txt"
       },
       "mcp": [
+        {
+          "kind": "npm",
+          "value": "@mantine/mcp-server",
+          "verified": true
+        },
         {
           "kind": "repo",
           "value": "packages/@mantine/mcp-server/.npmignore",
@@ -763,9 +774,7 @@
         {
           "kind": "npm",
           "value": "@primer/mcp",
-          "verified": true,
-          "guessed": true,
-          "description": "An MCP server that connects AI tools to the Primer Design System"
+          "verified": true
         },
         {
           "kind": "repo",
@@ -1827,8 +1836,16 @@
       },
       "pub": null,
       "nuget": null,
-      "llms": {},
+      "llms": {
+        "llmsTxt": "https://primevue.dev/llms/llms.txt",
+        "llmsFull": "https://primevue.dev/llms/llms-full.txt"
+      },
       "mcp": [
+        {
+          "kind": "npm",
+          "value": "@primevue/mcp",
+          "verified": true
+        },
         {
           "kind": "repo",
           "value": "packages/mcp/README.md",
@@ -1891,8 +1908,16 @@
       },
       "pub": null,
       "nuget": null,
-      "llms": {},
+      "llms": {
+        "llmsTxt": "https://primeng.org/llms/llms.txt",
+        "llmsFull": "https://primeng.org/llms/llms-full.txt"
+      },
       "mcp": [
+        {
+          "kind": "npm",
+          "value": "@primeng/mcp",
+          "verified": true
+        },
         {
           "kind": "repo",
           "value": "packages/mcp/README.md",
@@ -7165,7 +7190,13 @@
       "llms": {
         "llmsTxt": "https://vuetifyjs.com/llms.txt"
       },
-      "mcp": [],
+      "mcp": [
+        {
+          "kind": "remote",
+          "value": "https://mcp.vuetifyjs.com/mcp",
+          "verified": true
+        }
+      ],
       "cdn": {
         "css": null,
         "js": "https://cdn.jsdelivr.net/npm/vuetify@4.3.2/dist/vuetify.min.js",
@@ -7826,9 +7857,7 @@
         {
           "kind": "npm",
           "value": "@spartan-ng/mcp",
-          "verified": true,
-          "guessed": true,
-          "description": "Model Context Protocol server exposing Spartan Angular UI documentation, components, and blocks as AI-consumable tools."
+          "verified": true
         },
         {
           "kind": "repo",
@@ -7900,9 +7929,7 @@
         {
           "kind": "npm",
           "value": "@taiga-ui/mcp",
-          "verified": true,
-          "guessed": true,
-          "description": "Model Context Protocol server providing Taiga UI documentation search and scaffolding tools."
+          "verified": true
         }
       ],
       "cdn": {

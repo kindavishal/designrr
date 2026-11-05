@@ -92,6 +92,7 @@
       ],
       "orgBacked": true,
       "bestFor": "Data-dense enterprise and back-office apps (tables, forms, workflows) in React.",
+      "mcp": "npx -y @ant-design/cli mcp",
       "family": "ant-design",
       "productShapes": [
         "app-dashboard",
@@ -151,6 +152,7 @@
       ],
       "orgBacked": false,
       "bestFor": "Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box.",
+      "mcpPackage": "@mantine/mcp-server",
       "family": "mantine",
       "productShapes": [
         "saas-app",
@@ -350,6 +352,7 @@
       ],
       "orgBacked": true,
       "bestFor": "Developer tools and GitHub-like interfaces.",
+      "mcpPackage": "@primer/mcp",
       "family": "primer",
       "productShapes": [
         "saas-app",
@@ -822,7 +825,7 @@
       "org": "PrimeTek",
       "repo": "primefaces/primevue",
       "npm": "primevue",
-      "docs": "https://primevue.org",
+      "docs": "https://primevue.dev",
       "platforms": [
         "web"
       ],
@@ -837,6 +840,7 @@
         "data-dense"
       ],
       "orgBacked": true,
+      "mcpPackage": "@primevue/mcp",
       "bestFor": "Vue apps needing a very large component set (data tables, charts, editors) with themes.",
       "family": "prime",
       "productShapes": [
@@ -864,6 +868,7 @@
         "data-dense"
       ],
       "orgBacked": true,
+      "mcpPackage": "@primeng/mcp",
       "bestFor": "Angular apps needing a very large component set (data tables, charts, editors) with themes.",
       "family": "prime",
       "productShapes": []
@@ -3283,6 +3288,7 @@
       ],
       "orgBacked": false,
       "bestFor": "Material-style Vue apps with a very complete component set.",
+      "mcpUrl": "https://mcp.vuetifyjs.com/mcp",
       "family": "vuetify",
       "productShapes": [
         "saas-app",
@@ -3580,6 +3586,7 @@
         "startup-mvp"
       ],
       "orgBacked": false,
+      "mcpPackage": "@spartan-ng/mcp",
       "bestFor": "shadcn/ui-style accessible components for Angular (brain + helm) on Tailwind.",
       "family": "shadcn",
       "productShapes": []
@@ -3604,6 +3611,7 @@
         "enterprise"
       ],
       "orgBacked": true,
+      "mcpPackage": "@taiga-ui/mcp",
       "bestFor": "Angular fintech and enterprise apps that need many form, data and input components.",
       "family": "taiga-ui",
       "productShapes": []

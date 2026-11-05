@@ -35,26 +35,45 @@
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you copy the build guide verbatim. It was written for v3; the latest release is 4.12.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 4.12.0._
+_Hand-written guide for v4, checked against https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md on 2026-11-05; latest release 4.12.0._
 
 ## Install
+New project from a template:
 ```bash
-npm create nuxt@latest -- -t ui          # new Nuxt project with Nuxt UI
-# existing: npx nuxt module add ui   then  @import "tailwindcss"; @import "@nuxt/ui";  in main.css
+npm create nuxt@latest -- -t ui          # also: ui/landing, ui/docs, ui/saas, ui/dashboard, ui/chat
 ```
-Plain Vue (Vite) is supported too via the `@nuxt/ui/vite` plugin.
+Existing Nuxt app:
+```bash
+npm install @nuxt/ui tailwindcss
+```
+Add `modules: ['@nuxt/ui']` and `css: ['~/assets/css/main.css']` to `nuxt.config.ts`, and in `app/assets/css/main.css`:
+```css
+@import "tailwindcss";
+@import "@nuxt/ui";
+```
+Plain Vue (Vite): same packages, then add the `ui()` plugin from `@nuxt/ui/vite` to `vite.config.ts`.
 
 ## Setup
-Wrap the app in `<UApp>` (provides toasts, tooltips, overlays).
+Wrap the app in `<UApp>` (provides toasts, tooltips and overlays):
+```vue
+<template>
+  <UApp>
+    <NuxtPage />
+  </UApp>
+</template>
+```
 
 ## Theme it to a brand
-`app.config.ts`: `ui: { colors: { primary: 'indigo', neutral: 'zinc' } }`; per-component `ui` slots override classes. Tailwind `@theme` for custom colour scales.
+`app/app.config.ts`:
+```ts
+export default defineAppConfig({ ui: { colors: { primary: 'indigo', secondary: 'purple', neutral: 'zinc' } } })
+```
+Custom colour scales go in CSS with Tailwind's `@theme`; per-component `ui` props override slot classes.
 
 ## Agent tips
-- Remote MCP server: `https://ui.nuxt.com/mcp`; docs at `https://ui.nuxt.com/llms.txt`.
-- Starter templates (dashboard, SaaS, landing, docs, chat) exist — start from one.
+- Remote MCP server: `https://ui.nuxt.com/mcp` (HTTP transport). Docs index: `https://ui.nuxt.com/llms.txt`; every page has a raw Markdown version under `/raw/docs/…`.
+- Start from the template closest to the product (dashboard, SaaS, chat, docs) rather than from scratch.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

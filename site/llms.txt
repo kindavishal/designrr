@@ -46,13 +46,13 @@ When a user asks you to find design systems for a product idea:
 - [Mantine](https://kindavishal.github.io/ai-ready-design-systems/systems/mantine.md): recommended, AI 85/100, react. Full-featured React apps needing 100+ components plus hooks, forms, dates, charts and notifications out of the box.
 - [assistant-ui](https://kindavishal.github.io/ai-ready-design-systems/systems/assistant-ui.md): recommended, AI 90/100, react. Production AI chat UIs in React with streaming, attachments and tool UIs.
 - [Chakra UI](https://kindavishal.github.io/ai-ready-design-systems/systems/chakra-ui.md): recommended, AI 85/100, react. Accessible, themeable React apps with style props; fast to brand.
+- [Ant Design](https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md): recommended, AI 65/100, react. Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
 - [Ark UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
 - [Material UI (MUI)](https://kindavishal.github.io/ai-ready-design-systems/systems/mui.md): recommended, AI 60/100, react. Feature-rich React apps and admin tools that benefit from Material Design and a huge component set (incl. MUI X data grid).
 - [React Suite](https://kindavishal.github.io/ai-ready-design-systems/systems/rsuite.md): recommended, AI 80/100, react. React admin and enterprise apps with rich pickers, tables and form controls.
 - [React Bits](https://kindavishal.github.io/ai-ready-design-systems/systems/react-bits.md): recommended, AI 60/100, react. Animated text, backgrounds and effects to layer on top of another React system for landing pages.
 - [React Spectrum / React Aria](https://kindavishal.github.io/ai-ready-design-systems/systems/react-spectrum.md): recommended, AI 60/100, react. Best-in-class accessibility and internationalisation; React Aria for custom-branded systems, Spectrum for Adobe-style tools.
 - [Fluent UI](https://kindavishal.github.io/ai-ready-design-systems/systems/fluent-ui.md): recommended, AI 60/100, react, web-components. Productivity and enterprise apps, especially Microsoft 365 / Teams add-ins.
-- [Ant Design](https://kindavishal.github.io/ai-ready-design-systems/systems/ant-design.md): recommended, AI 45/100, react. Data-dense enterprise and back-office apps (tables, forms, workflows) in React.
 - [Carbon Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/carbon.md): recommended, AI 65/100, react, web-components. Serious enterprise and data products with strict accessibility and a rigorous token system.
 - [Primer](https://kindavishal.github.io/ai-ready-design-systems/systems/primer.md): recommended, AI 70/100, react. Developer tools and GitHub-like interfaces.
 - [Base UI](https://kindavishal.github.io/ai-ready-design-systems/systems/base-ui.md): recommended, AI 45/100, react. Unstyled, accessible React primitives from the MUI team for building a custom-branded system.
@@ -158,10 +158,11 @@ When a user asks you to find design systems for a product idea:
 ## Web: Vue / Nuxt
 
 - [Ark UI](https://kindavishal.github.io/ai-ready-design-systems/systems/ark-ui.md): recommended, AI 80/100, react, vue, solid, svelte. Headless, state-machine-based components across React, Vue, Solid and Svelte.
+- [PrimeVue](https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md): recommended, AI 65/100, vue. Vue apps needing a very large component set (data tables, charts, editors) with themes.
+- [Vuetify](https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md): recommended, AI 60/100, vue. Material-style Vue apps with a very complete component set.
 - [Reka UI](https://kindavishal.github.io/ai-ready-design-systems/systems/reka-ui.md): recommended, AI 55/100, vue. Headless, accessible Vue primitives (Radix for Vue) for custom systems; powers shadcn-vue and Nuxt UI.
 - [shadcn-vue](https://kindavishal.github.io/ai-ready-design-systems/systems/shadcn-vue.md): recommended, AI 60/100, vue. shadcn/ui's own-the-source model for Vue and Nuxt apps on Tailwind.
 - [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 75/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
-- [PrimeVue](https://kindavishal.github.io/ai-ready-design-systems/systems/primevue.md): recommended, AI 45/100, vue. Vue apps needing a very large component set (data tables, charts, editors) with themes.
 - [Naive UI](https://kindavishal.github.io/ai-ready-design-systems/systems/naive-ui.md): recommended, AI 45/100, vue. TypeScript-first Vue 3 admin apps and dashboards with a big, themeable component set.
 - [Quasar](https://kindavishal.github.io/ai-ready-design-systems/systems/quasar.md): recommended, AI 75/100, vue. One Vue codebase for SPA, SSR, PWA, mobile (Capacitor) and desktop (Electron) apps.
 - [Nuxt UI](https://kindavishal.github.io/ai-ready-design-systems/systems/nuxt-ui.md): recommended, AI 75/100, vue, nuxt. Vue / Nuxt SaaS and marketing sites on Tailwind, with templates and dashboard blocks.
@@ -172,7 +173,6 @@ When a user asks you to find design systems for a product idea:
 - [DB UX Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/db-ux.md): recommended, AI 70/100, react, vue, angular, web-components, BRAND-LOCKED. Deutsche Bahn products (brand-locked); also a reference for multi-framework token architecture.
 - [Frappe UI](https://kindavishal.github.io/ai-ready-design-systems/systems/frappe-ui.md): recommended, AI 50/100, vue. Vue + Tailwind business apps on the Frappe framework (ERPNext-style).
 - [Porsche Design System](https://kindavishal.github.io/ai-ready-design-systems/systems/porsche.md): recommended, AI 45/100, web-components, react, angular, vue, vanilla, no build, BRAND-LOCKED. Porsche digital products only.
-- [Vuetify](https://kindavishal.github.io/ai-ready-design-systems/systems/vuetify.md): solid, AI 40/100, vue. Material-style Vue apps with a very complete component set.
 - [Flowbite](https://kindavishal.github.io/ai-ready-design-systems/systems/flowbite.md): solid, AI 40/100, any, react, vue, svelte, angular. Tailwind components with vanilla JS for any stack; good for marketing pages and admin templates.
 - [Headless UI](https://kindavishal.github.io/ai-ready-design-systems/systems/headless-ui.md): solid, AI 20/100, react, vue. Unstyled accessible React/Vue components designed for Tailwind (Tailwind Labs).
 - [Arco Design](https://kindavishal.github.io/ai-ready-design-systems/systems/arco-design.md): solid, AI 35/100, react, vue. ByteDance-style React enterprise and admin apps.
@@ -201,11 +201,11 @@ When a user asks you to find design systems for a product idea:
 ## Web: Angular
 
 - [Taiga UI](https://kindavishal.github.io/ai-ready-design-systems/systems/taiga-ui.md): recommended, AI 80/100, angular. Angular fintech and enterprise apps that need many form, data and input components.
+- [PrimeNG](https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md): recommended, AI 65/100, angular. Angular apps needing a very large component set (data tables, charts, editors) with themes.
 - [Siemens iX](https://kindavishal.github.io/ai-ready-design-systems/systems/siemens-ix.md): recommended, AI 75/100, web-components, react, angular, vue. Industrial, IoT and operations dashboards (any framework, web components).
 - [NG-ZORRO](https://kindavishal.github.io/ai-ready-design-systems/systems/ng-zorro.md): recommended, AI 55/100, angular. Ant Design for Angular: enterprise admin and data-entry apps.
 - [Zard UI (shadcn for Angular)](https://kindavishal.github.io/ai-ready-design-systems/systems/zardui.md): recommended, AI 70/100, angular. shadcn/ui-style copy-paste components for Angular on Tailwind.
 - [SAP Fundamental NGX](https://kindavishal.github.io/ai-ready-design-systems/systems/fundamental-ngx.md): recommended, AI 75/100, angular. Angular apps that must look like SAP Fiori.
-- [PrimeNG](https://kindavishal.github.io/ai-ready-design-systems/systems/primeng.md): recommended, AI 45/100, angular. Angular apps needing a very large component set (data tables, charts, editors) with themes.
 - [Angular Primitives](https://kindavishal.github.io/ai-ready-design-systems/systems/ng-primitives.md): recommended, AI 60/100, angular. Headless, accessible Angular primitives for a custom-branded system.
 - [BEEQ](https://kindavishal.github.io/ai-ready-design-systems/systems/beeq.md): recommended, AI 65/100, web-components, react, angular, vue. Enterprise apps needing one web-component system across React, Angular and Vue.
 - [Ionic Framework](https://kindavishal.github.io/ai-ready-design-systems/systems/ionic.md): recommended, AI 50/100, web-components, react, vue, angular. Cross-platform mobile apps from one web codebase with iOS and Material styling.

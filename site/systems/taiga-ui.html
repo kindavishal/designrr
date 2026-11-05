@@ -69,19 +69,39 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v4; the latest release is 5.31.0. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>80/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>T-Bank (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>angular</td></tr><tr><th scope="row">Styling</th><td>css</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>fintech, enterprise</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>1.4k KB</td></tr><tr><th scope="row">License</th><td>Apache-2.0</td></tr><tr><th scope="row">GitHub stars</th><td>4.1k</td></tr><tr><th scope="row">npm weekly downloads</th><td>35.6k (<code>@taiga-ui/core</code> 5.31.0)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-03</td></tr><tr><th scope="row">Docs</th><td><a href="https://taiga-ui.dev">https://taiga-ui.dev</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/taiga-family/taiga-ui">https://github.com/taiga-family/taiga-ui</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li><strong>llms.txt:</strong> <a href="https://taiga-ui.dev/llms.txt">https://taiga-ui.dev/llms.txt</a></li><li><strong>llms-full.txt:</strong> <a href="https://taiga-ui.dev/llms-full.txt">https://taiga-ui.dev/llms-full.txt</a></li><li><strong>MCP server:</strong><ul><li>npm package <code>@taiga-ui/mcp</code></li></ul>
 <div class="code-block"><pre><code data-lang="json">{&quot;mcpServers&quot;:{&quot;taiga-ui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@taiga-ui/mcp&quot;]}}}</code></pre><wa-copy-button value="{&quot;mcpServers&quot;:{&quot;taiga-ui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@taiga-ui/mcp&quot;]}}}" class="code-copy"></wa-copy-button></div></li><li><strong>Design tokens:</strong> <a href="https://github.com/taiga-family/taiga-ui/blob/HEAD/projects/kit/tokens/i18n.ts">https://github.com/taiga-family/taiga-ui/blob/HEAD/projects/kit/tokens/i18n.ts</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/taiga-family/taiga-ui/blob/HEAD/.github/copilot-instructions.md">https://github.com/taiga-family/taiga-ui/blob/HEAD/.github/copilot-instructions.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v4; the latest release is 5.31.0, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v4; latest release 5.31.0.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v5, checked against <a href="https://taiga-ui.dev/getting-started.md">https://taiga-ui.dev/getting-started.md</a> on 2026-11-05; latest release 5.31.0.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">ng add taiga-ui</code></pre><wa-copy-button value="ng add taiga-ui" class="code-copy"></wa-copy-button></div>
+<p>The schematic installs packages and configures styles, assets and providers:</p>
+<div class="code-block"><pre><code data-lang="bash">ng add taiga-ui            # Angular CLI
+# Nx: npm i taiga-ui &amp;&amp; nx g taiga-ui:ng-add</code></pre><wa-copy-button value="ng add taiga-ui            # Angular CLI
+# Nx: npm i taiga-ui &amp;&amp; nx g taiga-ui:ng-add" class="code-copy"></wa-copy-button></div>
+<p>Manual: <code>npm i @taiga-ui/{cdk,core,kit,icons}</code> plus add-ons as needed (<code>@taiga-ui/addon-charts</code>, <code>addon-table</code>, <code>addon-commerce</code>, <code>addon-mobile</code>, <code>layout</code>).</p>
+<h2 id="setup">Setup</h2>
+<div class="code-block"><pre><code data-lang="ts">// main.ts
+import { provideTaiga } from '@taiga-ui/core';
+bootstrapApplication(App, { providers: [provideTaiga()] });</code></pre><wa-copy-button value="// main.ts
+import { provideTaiga } from '@taiga-ui/core';
+bootstrapApplication(App, { providers: [provideTaiga()] });" class="code-copy"></wa-copy-button></div>
+<div class="code-block"><pre><code data-lang="ts">// app component
+import { TuiRoot } from '@taiga-ui/core';
+@Component({ selector: 'app-root', imports: [TuiRoot], template: `&lt;tui-root&gt;&lt;!-- app --&gt;&lt;/tui-root&gt;` })
+export class App {}</code></pre><wa-copy-button value="// app component
+import { TuiRoot } from '@taiga-ui/core';
+@Component({ selector: 'app-root', imports: [TuiRoot], template: `&lt;tui-root&gt;&lt;!-- app --&gt;&lt;/tui-root&gt;` })
+export class App {}" class="code-copy"></wa-copy-button></div>
+<p>Manual installs also add <code>@taiga-ui/styles/taiga-ui-theme.less</code> and <code>taiga-ui-fonts.less</code> to the build <code>styles</code>, and copy <code>@taiga-ui/icons/src</code> to <code>assets/taiga-ui/icons</code>.</p>
+<h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
+<p>Override Taiga's CSS variables (<code>--tui-background-accent-1</code>, <code>--tui-text-primary</code>, …) in a global stylesheet.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>MCP server: <code>@taiga-ui/mcp</code> for component docs and examples.</li><li>Theme through CSS variables (<code>--tui-background-accent-1</code>, …).</li></ul>
+<ul><li>MCP server: <code>npx @taiga-ui/mcp init</code> scaffolds the config for your agent (<code>--client &lt;client&gt;</code> to choose one). Docs index: <code>https://taiga-ui.dev/llms.txt</code>.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
@@ -92,7 +112,7 @@
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="taiga-ui.md" class="wa-caption-m">Markdown version</a>

@@ -69,7 +69,7 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v2; the latest release is 3.2.7. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>recommended</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>95/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>HeroUI</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>react</td></tr><tr><th scope="row">Styling</th><td>tailwind</td></tr><tr><th scope="row">Install</th><td>CLI copies component source into your repo (requires: tailwind, bundler)</td></tr><tr><th scope="row">Good for</th><td>consumer, saas, marketing, startup-mvp; shapes: saas-app, marketing-site</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / not detected</td></tr><tr><th scope="row">Package size (unpacked)</th><td>936 KB</td></tr><tr><th scope="row">License</th><td>Apache-2.0</td></tr><tr><th scope="row">GitHub stars</th><td>31.1k</td></tr><tr><th scope="row">npm weekly downloads</th><td>1.2M (<code>@heroui/react</code> 3.2.7)</td></tr><tr><th scope="row">Last activity</th><td>2026-10-30</td></tr><tr><th scope="row">Docs</th><td><a href="https://www.heroui.com">https://www.heroui.com</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/heroui-inc/heroui">https://github.com/heroui-inc/heroui</a></td></tr><tr><th scope="row">Same family</th><td><a href="heroui-native.md">HeroUI Native</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
@@ -77,21 +77,25 @@
 <div class="code-block"><pre><code data-lang="json">{&quot;mcpServers&quot;:{&quot;heroui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@heroui/react-mcp&quot;]}}}</code></pre><wa-copy-button value="{&quot;mcpServers&quot;:{&quot;heroui&quot;:{&quot;command&quot;:&quot;npx&quot;,&quot;args&quot;:[&quot;-y&quot;,&quot;@heroui/react-mcp&quot;]}}}" class="code-copy"></wa-copy-button></div>
 <ul><li>in-repo package: <a href="https://github.com/heroui-inc/heroui/tree/HEAD/apps/docs">https://github.com/heroui-inc/heroui/tree/HEAD/apps/docs</a> (see its README for setup)</li></ul></li><li><strong>Design tokens:</strong> <a href="https://github.com/heroui-inc/heroui/blob/HEAD/packages/styles/themes/default/variables.css">https://github.com/heroui-inc/heroui/blob/HEAD/packages/styles/themes/default/variables.css</a></li><li><strong>Agent/contributor docs in repo:</strong> <a href="https://github.com/heroui-inc/heroui/blob/HEAD/AGENTS.md">https://github.com/heroui-inc/heroui/blob/HEAD/AGENTS.md</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>the project does not use (or cannot add) Tailwind CSS.</li><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v2; the latest release is 3.2.7, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v2; latest release 3.2.7.</em></p>
+<ul><li>the project does not use (or cannot add) Tailwind CSS.</li><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v3, checked against <a href="https://heroui.com/docs/react/getting-started/quick-start.mdx">https://heroui.com/docs/react/getting-started/quick-start.mdx</a> on 2026-11-05; latest release 3.2.7.</em></p>
 <h2 id="install">Install</h2>
-<div class="code-block"><pre><code data-lang="bash">npx heroui-cli@latest init        # new project
-# existing app: npm install @heroui/react framer-motion   (Tailwind required)</code></pre><wa-copy-button value="npx heroui-cli@latest init        # new project
-# existing app: npm install @heroui/react framer-motion   (Tailwind required)" class="code-copy"></wa-copy-button></div>
-<p>Follow the Tailwind plugin step in the docs (v4: <code>@plugin './hero.ts'</code> in your CSS).</p>
+<p>Requires React 19+ and Tailwind CSS v4 (set Tailwind up first with its framework guide).</p>
+<div class="code-block"><pre><code data-lang="bash">npm i @heroui/styles @heroui/react</code></pre><wa-copy-button value="npm i @heroui/styles @heroui/react" class="code-copy"></wa-copy-button></div>
+<p>In your main Tailwind CSS file, import HeroUI right after Tailwind (order matters):</p>
+<div class="code-block"><pre><code data-lang="css">@import &quot;tailwindcss&quot;;
+@import &quot;@heroui/styles&quot;;</code></pre><wa-copy-button value="@import &quot;tailwindcss&quot;;
+@import &quot;@heroui/styles&quot;;" class="code-copy"></wa-copy-button></div>
 <h2 id="setup">Setup</h2>
-<div class="code-block"><pre><code data-lang="tsx">import { HeroUIProvider } from '@heroui/react';
-&lt;HeroUIProvider&gt;{/* app */}&lt;/HeroUIProvider&gt;</code></pre><wa-copy-button value="import { HeroUIProvider } from '@heroui/react';
-&lt;HeroUIProvider&gt;{/* app */}&lt;/HeroUIProvider&gt;" class="code-copy"></wa-copy-button></div>
+<p>No provider is needed in v3. Import components and use them:</p>
+<div class="code-block"><pre><code data-lang="tsx">import { Button } from '@heroui/react';
+export function App() { return &lt;Button&gt;My Button&lt;/Button&gt;; }</code></pre><wa-copy-button value="import { Button } from '@heroui/react';
+export function App() { return &lt;Button&gt;My Button&lt;/Button&gt;; }" class="code-copy"></wa-copy-button></div>
+<p>Built on React Aria Components; components are composed from parts (for example <code>Card.Header</code>).</p>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
-<p>Themes are defined in the <code>heroui()</code> Tailwind plugin (<code>themes: { light: { colors: { primary: { DEFAULT: '#…' } } } }</code>).</p>
+<p>Themes are CSS variables on top of Tailwind v4's <code>@theme</code>. Set <code>class=&quot;light&quot; data-theme=&quot;light&quot;</code> (or <code>dark</code>) on <code>&lt;html&gt;</code>, and override semantic variables such as <code>--accent</code> and <code>--success</code> in <code>:root</code>, or under your own <code>[data-theme=&quot;brand&quot;]</code> selector.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>MCP server: <code>npx -y @heroui/react-mcp</code> ; docs index at <code>https://www.heroui.com/llms.txt</code>.</li><li>Check whether the project is on HeroUI v2 or v3 before copying examples — the APIs differ.</li></ul>
+<ul><li>MCP server: <code>npx -y @heroui/react-mcp@latest</code>. HeroUI's own docs tell agents to treat the MCP as the source of truth for install steps and versions.</li><li>v3 is a rewrite: v2 APIs (<code>HeroUIProvider</code>, the <code>heroui()</code> Tailwind plugin) no longer apply. The migration guide for agents is <code>https://heroui.com/en/docs/react/migration/agent-index</code>.</li><li>Docs index: <code>https://www.heroui.com/llms.txt</code>; pages have <code>.mdx</code> source versions.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>

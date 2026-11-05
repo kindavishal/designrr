@@ -31,27 +31,40 @@
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you copy the build guide verbatim. It was written for v1; the latest release is 3.2.2, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v1; latest release 3.2.2._
+_Hand-written guide for v3, checked against https://tamagui.dev/llms.txt on 2026-11-05; latest release 3.2.2._
 
 ## Install
+New cross-platform app (Expo + Next.js starter):
 ```bash
-npm create tamagui@latest          # starter monorepo: Expo + Next.js sharing UI
-# existing: npm install tamagui @tamagui/config
+npm create tamagui@latest
+```
+Existing app:
+```bash
+npm install tamagui @tamagui/config
 ```
 
 ## Setup
 ```tsx
-import { TamaguiProvider, createTamagui } from 'tamagui';
-import { defaultConfig } from '@tamagui/config/v4';
-const config = createTamagui(defaultConfig);
+// tamagui.config.ts
+import { defaultConfig } from '@tamagui/config/v6';
+import { createTamagui } from 'tamagui';
+export const config = createTamagui(defaultConfig);
+```
+```tsx
+import { TamaguiProvider } from 'tamagui';
+import { config } from './tamagui.config';
 <TamaguiProvider config={config} defaultTheme="light">{/* app */}</TamaguiProvider>
 ```
+Import `tamagui.config.ts` in one place near the root.
+
+## Theme it to a brand
+Tokens and themes are typed in the config: use `$tokens` (`bg="$background"`, `p="$4"`), never raw values. `@tamagui/config/v6` provides sensible settings, themes and fonts; override parts of it rather than starting from zero.
 
 ## Agent tips
-- Tokens and themes are typed in the config — use `$tokens` (`bg="$background"`, `p="$4"`) not raw values.
-- Add the compiler plugin (Next/Vite/Metro) for production performance.
+- Add the optimising compiler for production web builds: `npm i -D @tamagui/cli` and `tamaguiPlugin()` from `@tamagui/cli/vite` (equivalents exist for Next.js and Metro).
+- Animations are pluggable drivers (CSS, Reanimated, Motion) configured in `createTamagui`.
+- The full docs are a single LLM file at `https://tamagui.dev/llms.txt` (very large; search it rather than reading it whole).
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.

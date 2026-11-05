@@ -69,23 +69,52 @@
       </div>
     </div>
     
-    <wa-callout variant="warning"><wa-icon slot="icon" name="clock-rotate-left"></wa-icon><strong>Guide may be out of date.</strong> Written for v20; the latest release is 22.2.6. Confirm commands with the official llms.txt or MCP server.</wa-callout>
+    
     <article class="wa-prose">
 <table><tbody><tr><th scope="row">Tier</th><td><strong>solid</strong></td></tr><tr><th scope="row">AI-readiness</th><td><strong>35/100</strong></td></tr><tr><th scope="row">Maintainer</th><td>Google (org-backed)</td></tr><tr><th scope="row">Platforms</th><td>web</td></tr><tr><th scope="row">Frameworks</th><td>angular</td></tr><tr><th scope="row">Styling</th><td>css</td></tr><tr><th scope="row">Install</th><td>npm package with a bundler (Vite, Next.js, …) (requires: bundler)</td></tr><tr><th scope="row">Good for</th><td>enterprise, admin; shapes: saas-app, forms-flows</td></tr><tr><th scope="row">Dark mode / RTL</th><td>yes / yes</td></tr><tr><th scope="row">Package size (unpacked)</th><td>7.5k KB</td></tr><tr><th scope="row">License</th><td>MIT</td></tr><tr><th scope="row">GitHub stars</th><td>25.0k</td></tr><tr><th scope="row">npm weekly downloads</th><td>0 (<code>@angular/material</code> 22.2.6)</td></tr><tr><th scope="row">Last activity</th><td>2026-11-04</td></tr><tr><th scope="row">Docs</th><td><a href="https://material.angular.dev">https://material.angular.dev</a></td></tr><tr><th scope="row">Source</th><td><a href="https://github.com/angular/components">https://github.com/angular/components</a></td></tr><tr><th scope="row">Same family</th><td><a href="flutter-material.md">Flutter Material 3</a>, <a href="material-android.md">Material Design 3 for Android (Compose)</a>, <a href="material-web.md">Material Web</a></td></tr></tbody></table>
 <h2 id="ai-resources-use-these-first">AI resources (use these first)</h2>
 <ul><li>llms.txt: not published</li><li>MCP server: none found</li><li><strong>Design tokens:</strong> <a href="https://github.com/angular/components/blob/HEAD/src/cdk/table/tokens.ts">https://github.com/angular/components/blob/HEAD/src/cdk/table/tokens.ts</a></li></ul>
 <h2 id="consider-an-alternative-if">Consider an alternative if</h2>
-<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li><li>you copy the build guide verbatim. It was written for v20; the latest release is 22.2.6, so confirm commands in the official llms.txt or MCP server.</li></ul>
-<p><em>Hand-written guide, written 2026-11-05 for v20; latest release 22.2.6.</em></p>
+<ul><li>you need a no-build page (plain HTML from a CDN). This needs a bundler.</li></ul>
+<p><em>Hand-written guide for v22, checked against <a href="https://github.com/angular/components/blob/main/guides/getting-started.md">https://github.com/angular/components/blob/main/guides/getting-started.md</a> on 2026-11-05; latest release 22.2.6.</em></p>
 <h2 id="install">Install</h2>
 <div class="code-block"><pre><code data-lang="bash">ng add @angular/material</code></pre><wa-copy-button value="ng add @angular/material" class="code-copy"></wa-copy-button></div>
+<h2 id="setup">Setup</h2>
+<p>Import components directly into standalone components:</p>
+<div class="code-block"><pre><code data-lang="ts">import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggle } from '@angular/material/slide-toggle';
+
+@Component({ imports: [MatButtonModule, MatSlideToggle], template: `&lt;mat-slide-toggle&gt;Toggle me&lt;/mat-slide-toggle&gt;` })
+export class App {}</code></pre><wa-copy-button value="import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggle } from '@angular/material/slide-toggle';
+
+@Component({ imports: [MatButtonModule, MatSlideToggle], template: `&lt;mat-slide-toggle&gt;Toggle me&lt;/mat-slide-toggle&gt;` })
+export class App {}" class="code-copy"></wa-copy-button></div>
 <h2 id="theme-it-to-a-brand">Theme it to a brand</h2>
 <div class="code-block"><pre><code data-lang="scss">@use '@angular/material' as mat;
-html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: light), typography: Inter, density: 0)); }</code></pre><wa-copy-button value="@use '@angular/material' as mat;
-html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: light), typography: Inter, density: 0)); }" class="code-copy"></wa-copy-button></div>
-<p>Customise further with <code>mat.&lt;component&gt;-overrides(...)</code> mixins and the generated <code>--mat-sys-*</code> CSS variables.</p>
+
+html {
+  color-scheme: light dark;   // follows the OS; use `light` or `dark` to force one
+  @include mat.theme((
+    color: (primary: mat.$violet-palette, tertiary: mat.$orange-palette),
+    typography: Inter,
+    density: 0,
+  ));
+}
+body { background: var(--mat-sys-surface); color: var(--mat-sys-on-surface); }</code></pre><wa-copy-button value="@use '@angular/material' as mat;
+
+html {
+  color-scheme: light dark;   // follows the OS; use `light` or `dark` to force one
+  @include mat.theme((
+    color: (primary: mat.$violet-palette, tertiary: mat.$orange-palette),
+    typography: Inter,
+    density: 0,
+  ));
+}
+body { background: var(--mat-sys-surface); color: var(--mat-sys-on-surface); }" class="code-copy"></wa-copy-button></div>
+<p>Fine-tune with <code>mat.&lt;component&gt;-overrides((...))</code> mixins and the <code>--mat-sys-*</code> CSS variables.</p>
 <h2 id="agent-tips">Agent tips</h2>
-<ul><li>Use the CDK (<code>@angular/cdk</code>) for overlays, drag &amp; drop and virtual scroll before reaching for third-party libraries.</li><li>Prefer standalone component imports (<code>MatButtonModule</code> etc.) per component.</li></ul>
+<ul><li>Angular's own LLM docs: <code>https://angular.dev/llms.txt</code>. The Angular Material site does not publish an llms.txt.</li><li>Use the CDK (<code>@angular/cdk</code>) for overlays, drag and drop and virtual scrolling before reaching for third-party libraries.</li></ul>
 <h2 id="build-checklist-any-system">Build checklist (any system)</h2>
 <ol><li><strong>Install &amp; provider:</strong> follow the install section exactly for the detected framework and version.</li><li><strong>Brand → tokens:</strong> set primary/neutral colours, radius, font family and density through the system's theme/tokens API, once, at the root. No hard-coded hex values in components.</li><li><strong>App shell first:</strong> build navigation, header and page layout from the system's shell/layout components.</li><li><strong>Screens from components:</strong> map each screen of the product idea to existing components and patterns (tables, forms, dialogs, empty states). Only write a custom component when nothing fits, and build it from the system's primitives and tokens.</li><li><strong>States:</strong> loading, empty, error and success states for every data view, using the system's skeleton/alert/toast components.</li><li><strong>Accessibility:</strong> keep the system's semantics (labels, roles, focus management); check keyboard navigation and colour contrast after theming.</li><li><strong>Dark mode &amp; responsiveness:</strong> enable the system's colour-scheme support; check at phone and desktop widths.</li><li><strong>Verify:</strong> run the app, click through every screen, fix console errors and type errors.</li></ol>
 <h2 id="score-breakdown">Score breakdown</h2>
@@ -96,7 +125,7 @@ html { @include mat.theme((color: (primary: mat.$violet-palette, theme-type: lig
   </main>
   <aside slot="aside" class="wa-desktop-only wa-stack wa-gap-m toc">
     <strong>On this page</strong>
-    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
+    <ul class="wa-stack wa-gap-2xs wa-caption-m"><li><a href="#ai-resources-use-these-first">AI resources (use these first)</a></li><li><a href="#consider-an-alternative-if">Consider an alternative if</a></li><li><a href="#install">Install</a></li><li><a href="#setup">Setup</a></li><li><a href="#theme-it-to-a-brand">Theme it to a brand</a></li><li><a href="#agent-tips">Agent tips</a></li><li><a href="#build-checklist-any-system">Build checklist (any system)</a></li><li><a href="#score-breakdown">Score breakdown</a></li></ul>
     <wa-divider></wa-divider>
     <strong>For agents</strong>
     <a href="angular-material.md" class="wa-caption-m">Markdown version</a>

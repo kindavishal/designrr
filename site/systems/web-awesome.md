@@ -29,7 +29,7 @@
 - **Agent/contributor docs in repo:** https://github.com/shoelace-style/webawesome/blob/HEAD/packages/webawesome/CLAUDE.md
 
 
-_Hand-written guide, written 2026-11-05 for v3; latest release 3.14.0._
+_Hand-written guide for v3, written 2026-11-05; latest release 3.14.0._
 
 ## Install
 No build step needed. In `<head>` (pinned to v3.14.0, the latest release when this page was built):

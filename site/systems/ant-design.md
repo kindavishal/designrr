@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **45/100** |
+| AI-readiness | **65/100** |
 | Maintainer | Ant Group (org-backed) |
 | Platforms | web |
 | Frameworks | react |
@@ -25,38 +25,46 @@
 ## AI resources (use these first)
 - **llms.txt:** https://ant.design/llms.txt
 - **llms-full.txt:** https://ant.design/llms-full.txt
-- MCP server: none found
+- **MCP server:**
+  - `npx -y @ant-design/cli mcp`
+    ```json
+    {"mcpServers":{"ant-design":{"command":"npx","args":["-y","@ant-design/cli","mcp"]}}}
+    ```
 - **Agent/contributor docs in repo:** https://github.com/ant-design/ant-design/blob/HEAD/.github/copilot-instructions.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you copy the build guide verbatim. It was written for v5; the latest release is 6.7.0, so confirm commands in the official llms.txt or MCP server.
 
-_Hand-written guide, written 2026-11-05 for v5; latest release 6.7.0._
+_Hand-written guide for v6, checked against https://ant.design/docs/react/getting-started.md on 2026-11-05; latest release 6.7.0._
 
 ## Install
 ```bash
 npm install antd @ant-design/icons
 # Next.js App Router: npm install @ant-design/nextjs-registry
 ```
+antd 6 needs React 18 or newer and `@ant-design/icons` 6 (icons 6 does not work with antd 5).
 
 ## Setup
 ```tsx
 import { ConfigProvider, App as AntApp, theme } from 'antd';
-<ConfigProvider theme={{ token: { colorPrimary: '#1677ff', borderRadius: 8, fontFamily: 'Inter' },
-  algorithm: theme.defaultAlgorithm /* or theme.darkAlgorithm / compactAlgorithm */ }}>
+<ConfigProvider theme={{
+  token: { colorPrimary: '#1677ff', borderRadius: 8, fontFamily: 'Inter' },
+  algorithm: theme.defaultAlgorithm, // or theme.darkAlgorithm, theme.compactAlgorithm, or an array of them
+}}>
   <AntApp>{/* app */}</AntApp>
 </ConfigProvider>
 ```
+Next.js App Router: wrap `{children}` in `app/layout.tsx` with `<AntdRegistry>` from `@ant-design/nextjs-registry`.
 
 ## Theme it to a brand
-Design tokens (`token`) for globals, `components: { Button: { … } }` for per-component tokens. `compactAlgorithm` for dense back-office screens.
+Global design tokens in `token`, per-component tokens in `components: { Button: { … } }`. Use `compactAlgorithm` for dense back-office screens.
 
 ## Agent tips
-- Read `https://ant.design/llms.txt` (and `llms-full.txt`) — official, per-component markdown docs.
-- For admin apps use ProComponents (`@ant-design/pro-components`): ProTable, ProForm, ProLayout save a lot of code.
-- Use `Form` with `rules` for validation rather than custom state.
+- antd 6 changed and deprecated many props (for example `Alert` `message` → `title`, `closeText` → `closable`). Don't trust v5 examples from memory.
+- MCP server via the official CLI: `npx -y @ant-design/cli mcp`. The CLI also works offline: `antd info Button`, `antd doc Button`, `antd token DatePicker`.
+- Agent skill: `npx skills add ant-design/ant-design-cli`. Docs for agents: `https://ant.design/docs/react/for-agents.md` and `https://ant.design/llms.txt`.
+- For admin apps use ProComponents (`@ant-design/pro-components`): ProTable, ProForm and ProLayout save a lot of code.
 
 ## Build checklist (any system)
 1. **Install & provider:** follow the install section exactly for the detected framework and version.
@@ -71,7 +79,7 @@ Design tokens (`token`) for globals, `components: { Button: { … } }` for per-c
 ## Score breakdown
 | Capability | Points |
 |---|---|
-| Official MCP server (agent can query components/docs live) | 0/20 |
+| Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
