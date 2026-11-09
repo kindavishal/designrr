@@ -20,7 +20,7 @@
 | Source | https://github.com/konstaui/konsta |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 159 | GitHub API |
 | Contributors (incl. anonymous) | 26 | GitHub API |
 | Issues closed / open | 148 / 10 (94% closed) | GitHub API |
-| npm weekly downloads | 25.9k | npm (`konsta` 5.5.0) |
+| npm weekly downloads | 23.7k | npm (`konsta` 5.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/konsta.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/konsta.md_

@@ -21,7 +21,7 @@
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP UI5 Web Components](ui5.md), [SAP Fundamental Styles](fundamental-styles.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 114 | GitHub API |
 | Contributors (incl. anonymous) | 53 | GitHub API |
 | Issues closed / open | 1.6k / 10 (99% closed) | GitHub API |
-| npm weekly downloads | 60.7k | npm (`@ui5/webcomponents-react` 2.28.2) |
+| npm weekly downloads | 59.2k | npm (`@ui5/webcomponents-react` 2.28.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui5-react.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ui5-react.md_

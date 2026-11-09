@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 19 KB |
 | License | EUPL-1.1 |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://ec.europa.eu/component-library/ |
 | Source | https://github.com/ec-europa/europa-component-library |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 46 | GitHub API |
 | Contributors (incl. anonymous) | 26 | GitHub API |
 | Issues closed / open | 154 / 24 (87% closed) | GitHub API |
-| npm weekly downloads | 392 | npm (`@ecl/vanilla-component-button` 4.11.2) |
+| npm weekly downloads | 277 | npm (`@ecl/vanilla-component-button` 4.11.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ecl.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ecl.md_

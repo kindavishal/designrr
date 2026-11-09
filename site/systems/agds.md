@@ -20,15 +20,15 @@
 | Source | https://github.com/agriculturegovau/agds-next |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 61 | GitHub API (agriculturegovau/agds-next) |
-| GitHub forks | 33 | GitHub API |
+| GitHub forks | 32 | GitHub API |
 | Contributors (incl. anonymous) | 22 | GitHub API |
 | Issues closed / open | 3 / 5 (38% closed) | GitHub API |
-| npm weekly downloads | 357 | npm (`@ag.ds-next/react` 1.36.0) |
+| npm weekly downloads | 278 | npm (`@ag.ds-next/react` 1.36.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/agds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/agds.md_

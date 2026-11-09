@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 16.0k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://design.cms.gov |
 | Source | https://github.com/CMSgov/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 373 | GitHub API (CMSgov/design-system) |
-| GitHub forks | 110 | GitHub API |
+| GitHub stars | 374 | GitHub API (CMSgov/design-system) |
+| GitHub forks | 109 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
 | Issues closed / open | 272 / 9 (97% closed) | GitHub API |
-| npm weekly downloads | 8.8k | npm (`@cmsgov/design-system` 18.2.0) |
+| npm weekly downloads | 9.7k | npm (`@cmsgov/design-system` 18.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://design.cms.gov/llms.txt
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cms-design-system.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/cms-design-system.md_

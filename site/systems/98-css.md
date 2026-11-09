@@ -20,22 +20,22 @@
 | Source | https://github.com/jdan/98.css |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 11.6k | GitHub API (jdan/98.css) |
-| GitHub forks | 381 | GitHub API |
+| GitHub forks | 383 | GitHub API |
 | Contributors (incl. anonymous) | 38 | GitHub API |
 | Issues closed / open | 81 / 30 (73% closed) | GitHub API |
-| npm weekly downloads | 9.9k | npm (`98.css` 0.1.21) |
+| npm weekly downloads | 6.8k | npm (`98.css` 0.1.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
 
 ## Consider an alternative if
-- maintenance has slowed (last activity 423 days ago).
+- maintenance has slowed (last activity 427 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -79,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://j
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 423 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, npm. Notes: Last activity 427 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/98-css.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/98-css.md_

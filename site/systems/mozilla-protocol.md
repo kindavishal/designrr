@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 4.0k KB |
 | License | MPL-2.0 |
-| Last activity | 2026-10-29 |
+| Last activity | 2026-11-06 |
 | Docs | https://protocol.mozilla.org |
 | Source | https://github.com/mozilla/protocol |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 299 | GitHub API (mozilla/protocol) |
+| GitHub stars | 300 | GitHub API (mozilla/protocol) |
 | GitHub forks | 85 | GitHub API |
-| Contributors (incl. anonymous) | 34 | GitHub API |
-| Issues closed / open | 489 / 64 (88% closed) | GitHub API |
-| npm weekly downloads | 2.2k | npm (`@mozilla-protocol/core` 22.0.0) |
+| Contributors (incl. anonymous) | 35 | GitHub API |
+| Issues closed / open | 490 / 63 (89% closed) | GitHub API |
+| npm weekly downloads | 1.4k | npm (`@mozilla-protocol/core` 22.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mozilla-protocol.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/mozilla-protocol.md_

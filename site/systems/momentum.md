@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.1k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://momentum.design |
 | Source | https://github.com/momentum-design/momentum-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 44 | GitHub API (momentum-design/momentum-design) |
+| GitHub stars | 45 | GitHub API (momentum-design/momentum-design) |
 | GitHub forks | 68 | GitHub API |
 | Contributors (incl. anonymous) | 50 | GitHub API |
 | Issues closed / open | 47 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 7.4k | npm (`@momentum-design/components` 0.142.7) |
+| npm weekly downloads | 10.1k | npm (`@momentum-design/components` 0.143.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -46,7 +46,7 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 ## Install
 No build step needed. From the CDN (pinned to the current release):
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@momentum-design/components@0.142.7/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@momentum-design/components@0.143.2/dist/index.min.js"></script>
 ```
 Check the docs for the recommended files: https://momentum.design
 ```bash
@@ -86,4 +86,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/momentum.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/momentum.md_

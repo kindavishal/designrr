@@ -21,15 +21,15 @@
 | Source | https://github.com/JetBrains/ring-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.8k | GitHub API (JetBrains/ring-ui) |
-| GitHub forks | 207 | GitHub API |
+| GitHub forks | 208 | GitHub API |
 | Contributors (incl. anonymous) | 217 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 15.9k | npm (`@jetbrains/ring-ui` 7.0.133) |
+| npm weekly downloads | 15.4k | npm (`@jetbrains/ring-ui` 7.0.133) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://j
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ring-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ring-ui.md_

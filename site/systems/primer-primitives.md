@@ -21,7 +21,7 @@
 | Same family | [Primer](primer.md), [Primer ViewComponents](primer-view-components.md), [Primer CSS](primer-css.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 67 | GitHub API |
 | Contributors (incl. anonymous) | 41 | GitHub API |
 | Issues closed / open | 44 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 117.6k | npm (`@primer/primitives` 11.10.0) |
+| npm weekly downloads | 126.3k | npm (`@primer/primitives` 11.10.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -84,4 +84,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer-primitives.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primer-primitives.md_

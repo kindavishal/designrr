@@ -20,7 +20,7 @@
 | Source | https://github.com/rsuite/rsuite |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 956 | GitHub API |
 | Contributors (incl. anonymous) | 140 | GitHub API |
 | Issues closed / open | 1.0k / 226 (82% closed) | GitHub API |
-| npm weekly downloads | 222.0k | npm (`rsuite` 6.2.5) |
+| npm weekly downloads | 210.9k | npm (`rsuite` 6.2.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://rsuitejs.com/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rsuite.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/rsuite.md_

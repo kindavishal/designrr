@@ -20,14 +20,14 @@
 | Source | https://github.com/tailwindlabs/headlessui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 28.8k | GitHub API (tailwindlabs/headlessui) |
 | GitHub forks | 1.2k | GitHub API |
 | Contributors (incl. anonymous) | 75 | GitHub API |
-| Issues closed / open | 1.4k / 92 (94% closed) | GitHub API |
+| Issues closed / open | 1.4k / 94 (94% closed) | GitHub API |
 | npm weekly downloads | 9.9M | npm (`@headlessui/react` 2.2.10) |
 
 ## AI resources (use these first)
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/headless-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/headless-ui.md_

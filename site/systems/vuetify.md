@@ -15,19 +15,19 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 76.4k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-09 |
 | Docs | https://vuetifyjs.com |
 | Source | https://github.com/vuetifyjs/vuetify |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 41.0k | GitHub API (vuetifyjs/vuetify) |
 | GitHub forks | 7.1k | GitHub API |
 | Contributors (incl. anonymous) | 1.2k | GitHub API |
-| Issues closed / open | 15.3k / 229 (99% closed) | GitHub API |
+| Issues closed / open | 15.3k / 228 (99% closed) | GitHub API |
 | npm weekly downloads | 1.3M | npm (`vuetify` 4.3.2) |
 
 ## AI resources (use these first)
@@ -107,4 +107,4 @@ Vuetify does not bundle the Roboto font; add it yourself (as above).
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_

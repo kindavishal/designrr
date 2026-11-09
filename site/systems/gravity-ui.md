@@ -20,7 +20,7 @@
 | Source | https://github.com/gravity-ui/uikit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 163 | GitHub API |
 | Contributors (incl. anonymous) | 232 | GitHub API |
 | Issues closed / open | 537 / 53 (91% closed) | GitHub API |
-| npm weekly downloads | 29.6k | npm (`@gravity-ui/uikit` 8.0.0) |
+| npm weekly downloads | 35.5k | npm (`@gravity-ui/uikit` 8.0.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://gravity-ui.com/llms.txt
@@ -93,4 +93,4 @@ Override the semantic CSS variables (`--g-color-base-brand`, `--g-color-text-bra
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gravity-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/gravity-ui.md_

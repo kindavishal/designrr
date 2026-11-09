@@ -19,7 +19,7 @@
 | Source | https://github.com/duobaseio/forui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | Contributors (incl. anonymous) | 31 | GitHub API |
 | Issues closed / open | 368 / 41 (90% closed) | GitHub API |
 | pub.dev likes | 448 | pub.dev (`forui`) |
-| pub.dev downloads (30 days) | 7.2k | pub.dev |
+| pub.dev downloads (30 days) | 36.3k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ flutter pub add forui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/forui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/forui.md_

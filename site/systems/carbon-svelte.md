@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, data-dense, dashboard |
 | Dark mode / RTL | not detected / yes |
-| Package size (unpacked) | 5.4k KB |
+| Package size (unpacked) | 8.2k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-08 |
 | Docs | https://svelte.carbondesignsystem.com |
 | Source | https://github.com/carbon-design-system/carbon-components-svelte |
 | Same family | [Carbon Design System](carbon.md), [Carbon for IBM Products](carbon-ibm-products.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.9k | GitHub API (carbon-design-system/carbon-components-svelte) |
 | GitHub forks | 269 | GitHub API |
 | Contributors (incl. anonymous) | 109 | GitHub API |
-| Issues closed / open | 1.0k / 13 (99% closed) | GitHub API |
-| npm weekly downloads | 47.8k | npm (`carbon-components-svelte` 0.113.1) |
+| Issues closed / open | 1.0k / 11 (99% closed) | GitHub API |
+| npm weekly downloads | 50.2k | npm (`carbon-components-svelte` 0.114.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://svelte.carbondesignsystem.com/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon-svelte.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/carbon-svelte.md_

@@ -20,7 +20,7 @@
 | Source | https://github.com/akveo/react-native-ui-kitten |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 961 | GitHub API |
 | Contributors (incl. anonymous) | 65 | GitHub API |
 | Issues closed / open | 1.2k / 15 (99% closed) | GitHub API |
-| npm weekly downloads | 11.0k | npm (`@ui-kitten/components` 6.2.1) |
+| npm weekly downloads | 11.4k | npm (`@ui-kitten/components` 6.2.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -74,4 +74,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui-kitten.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ui-kitten.md_

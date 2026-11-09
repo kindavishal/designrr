@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 12.5k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://smarthr.design |
 | Source | https://github.com/kufu/smarthr-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 976 | GitHub API (kufu/smarthr-ui) |
+| GitHub stars | 977 | GitHub API (kufu/smarthr-ui) |
 | GitHub forks | 146 | GitHub API |
 | Contributors (incl. anonymous) | 120 | GitHub API |
 | Issues closed / open | 354 / 4 (99% closed) | GitHub API |
-| npm weekly downloads | 29.0k | npm (`smarthr-ui` 102.1.0) |
+| npm weekly downloads | 30.4k | npm (`smarthr-ui` 102.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/smarthr-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/smarthr-ui.md_

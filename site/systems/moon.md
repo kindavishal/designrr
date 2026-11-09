@@ -20,7 +20,7 @@
 | Source | https://github.com/coingaming/moon-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 26 | GitHub API |
 | Contributors (incl. anonymous) | 67 | GitHub API |
 | Issues closed / open | 49 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 20 | npm (`@moondesignsystem/react` 2.5.21) |
+| npm weekly downloads | 26 | npm (`@moondesignsystem/react` 2.5.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/moon.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/moon.md_

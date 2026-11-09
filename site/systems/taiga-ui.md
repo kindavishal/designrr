@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.4k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://taiga-ui.dev |
 | Source | https://github.com/taiga-family/taiga-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.1k | GitHub API (taiga-family/taiga-ui) |
 | GitHub forks | 585 | GitHub API |
 | Contributors (incl. anonymous) | 338 | GitHub API |
-| Issues closed / open | 2.8k / 79 (97% closed) | GitHub API |
-| npm weekly downloads | 35.5k | npm (`@taiga-ui/core` 5.31.0) |
+| Issues closed / open | 2.8k / 77 (97% closed) | GitHub API |
+| npm weekly downloads | 35.3k | npm (`@taiga-ui/core` 5.31.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://taiga-ui.dev/llms.txt
@@ -101,4 +101,4 @@ Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_

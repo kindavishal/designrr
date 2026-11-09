@@ -21,7 +21,7 @@
 | Source | https://github.com/wonderflow-bv/wanda |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 27 | GitHub API |
 | Contributors (incl. anonymous) | 14 | GitHub API |
 | Issues closed / open | 165 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 899 | npm (`@wonderflow/react-components` 16.1.0) |
+| npm weekly downloads | 554 | npm (`@wonderflow/react-components` 16.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wanda.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/wanda.md_

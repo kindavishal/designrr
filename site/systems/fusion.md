@@ -20,7 +20,7 @@
 | Source | https://github.com/alibaba-fusion/next |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 597 | GitHub API |
 | Contributors (incl. anonymous) | 186 | GitHub API |
 | Issues closed / open | 2.6k / 260 (91% closed) | GitHub API |
-| npm weekly downloads | 25.6k | npm (`@alifd/next` 1.27.34) |
+| npm weekly downloads | 24.7k | npm (`@alifd/next` 1.27.34) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fusion.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fusion.md_

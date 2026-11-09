@@ -21,7 +21,7 @@
 | Source | https://github.com/RocketCommunicationsInc/astro |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 35 | GitHub API |
 | Contributors (incl. anonymous) | 34 | GitHub API |
 | Issues closed / open | 133 / 2 (99% closed) | GitHub API |
-| npm weekly downloads | 10.7k | npm (`@astrouxds/astro-web-components` 8.0.1) |
+| npm weekly downloads | 9.3k | npm (`@astrouxds/astro-web-components` 8.0.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/astro-uxds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/astro-uxds.md_

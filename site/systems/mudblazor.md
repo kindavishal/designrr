@@ -14,20 +14,20 @@
 | Good for | admin, enterprise, dotnet-ecosystem |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://mudblazor.com |
 | Source | https://github.com/MudBlazor/MudBlazor |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 10.7k | GitHub API (MudBlazor/MudBlazor) |
 | GitHub forks | 1.7k | GitHub API |
-| Contributors (incl. anonymous) | 573 | GitHub API |
-| Issues closed / open | 5.0k / 608 (89% closed) | GitHub API |
-| NuGet downloads (all time) | 41.4M | NuGet (`MudBlazor`) |
+| Contributors (incl. anonymous) | 575 | GitHub API |
+| Issues closed / open | 5.0k / 598 (89% closed) | GitHub API |
+| NuGet downloads (all time) | 41.8M | NuGet (`MudBlazor`) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ dotnet add package MudBlazor
 
 Quality gate: activity **active**; traction via stars, nuget. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mudblazor.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/mudblazor.md_

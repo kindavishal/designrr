@@ -20,7 +20,7 @@
 | Source | https://github.com/TailGrids/tailgrids |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 136 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
 | Issues closed / open | 22 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 65 | npm (`@tailgrids/cli` 1.4.3) |
+| npm weekly downloads | 71 | npm (`@tailgrids/cli` 1.4.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://tailgrids.com/llms.txt
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tailgrids.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tailgrids.md_

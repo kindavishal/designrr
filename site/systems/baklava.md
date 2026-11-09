@@ -16,12 +16,12 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.3k KB |
 | License | MIT |
-| Last activity | 2026-10-26 |
+| Last activity | 2026-11-09 |
 | Docs | https://baklava.design |
 | Source | https://github.com/Trendyol/baklava |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 136 | GitHub API |
 | Contributors (incl. anonymous) | 89 | GitHub API |
 | Issues closed / open | 340 / 125 (73% closed) | GitHub API |
-| npm weekly downloads | 2.8k | npm (`@trendyol/baklava` 3.5.0) |
+| npm weekly downloads | 3.9k | npm (`@trendyol/baklava` 3.6.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -44,7 +44,7 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 ## Install
 No build step needed. From the CDN (pinned to the current release):
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@trendyol/baklava@3.5.0/dist/baklava.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@trendyol/baklava@3.6.0/dist/baklava.min.js"></script>
 ```
 Check the docs for the recommended files: https://baklava.design
 ```bash
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/baklava.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/baklava.md_

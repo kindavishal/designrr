@@ -19,7 +19,7 @@
 | Source | https://github.com/ionicfirebaseapp/getwidget |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | Contributors (incl. anonymous) | 52 | GitHub API |
 | Issues closed / open | 123 / 20 (86% closed) | GitHub API |
 | pub.dev likes | 2.6k | pub.dev (`getwidget`) |
-| pub.dev downloads (30 days) | 7.0k | pub.dev |
+| pub.dev downloads (30 days) | 44.3k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -74,4 +74,4 @@ flutter pub add getwidget
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/getwidget.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/getwidget.md_

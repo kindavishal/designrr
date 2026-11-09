@@ -21,7 +21,7 @@
 | Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -97,4 +97,4 @@ Nuxt: use the `@primevue/nuxt-module` module. Components can be auto-imported (s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primevue.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primevue.md_

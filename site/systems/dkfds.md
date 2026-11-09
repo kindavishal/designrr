@@ -15,12 +15,12 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 26.7k KB |
 | License | NOASSERTION |
-| Last activity | 2026-08-31 |
+| Last activity | 2026-11-05 |
 | Docs | https://designsystem.dk |
 | Source | https://github.com/detfaellesdesignsystem/dkfds-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 13 | GitHub API |
 | Contributors (incl. anonymous) | 18 | GitHub API |
 | Issues closed / open | 192 / 48 (80% closed) | GitHub API |
-| npm weekly downloads | 6.5k | npm (`dkfds` 11.3.0) |
+| npm weekly downloads | 4.8k | npm (`dkfds` 11.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 10 < 45.
+Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/dkfds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/dkfds.md_

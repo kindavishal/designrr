@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **20/100** |
+| AI-readiness | **40/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | react |
@@ -14,29 +14,29 @@
 | Good for | saas |
 | Dark mode / RTL | not detected / yes |
 | License | MIT |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-08 |
 | Docs | https://www.diceui.com |
 | Source | https://github.com/sadmann7/diceui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.1k | GitHub API (sadmann7/diceui) |
-| GitHub forks | 89 | GitHub API |
+| GitHub forks | 90 | GitHub API |
 | Contributors (incl. anonymous) | 18 | GitHub API |
-| Issues closed / open | 24 / 48 (33% closed) | GitHub API |
+| Issues closed / open | 45 / 25 (64% closed) | GitHub API |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://www.diceui.com/llms.txt
+- **llms-full.txt:** https://www.diceui.com/llms-full.txt
 - MCP server: none found
 - **Agent/contributor docs in repo:** https://github.com/sadmann7/diceui/blob/HEAD/.cursor/rules/component-setup.mdc
 
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -44,6 +44,7 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 See https://www.diceui.com for installation.
 
 ## Agent tips
+- Read https://www.diceui.com/llms.txt first. It indexes the official docs in markdown.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
@@ -60,8 +61,8 @@ See https://www.diceui.com for installation.
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
@@ -71,6 +72,6 @@ See https://www.diceui.com for installation.
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/diceui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/diceui.md_

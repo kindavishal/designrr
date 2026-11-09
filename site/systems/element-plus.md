@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Tier | **solid** |
-| AI-readiness | **40/100** |
+| Tier | **recommended** |
+| AI-readiness | **60/100** |
 | Maintainer | Element |
 | Platforms | web |
 | Frameworks | vue |
@@ -13,25 +13,26 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | admin, enterprise, dashboard; shapes: app-dashboard |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 42.9k KB |
+| Package size (unpacked) | 43.8k KB |
 | License | MIT |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-08 |
 | Docs | https://element-plus.org |
 | Source | https://github.com/element-plus/element-plus |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 27.8k | GitHub API (element-plus/element-plus) |
 | GitHub forks | 19.8k | GitHub API |
-| Contributors (incl. anonymous) | 883 | GitHub API |
-| Issues closed / open | 7.7k / 890 (90% closed) | GitHub API |
-| npm weekly downloads | 765.6k | npm (`element-plus` 2.14.7) |
+| Contributors (incl. anonymous) | 884 | GitHub API |
+| Issues closed / open | 7.7k / 889 (90% closed) | GitHub API |
+| npm weekly downloads | 797.3k | npm (`element-plus` 2.14.8) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://element-plus.org/llms.txt
+- **llms-full.txt:** https://element-plus.org/llms-full.txt
 - MCP server: none found
 - **Design tokens:** https://github.com/element-plus/element-plus/blob/HEAD/packages/components/menu/src/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/element-plus/element-plus/blob/HEAD/AGENTS.md
@@ -48,6 +49,7 @@ npm install element-plus
 Then follow the framework setup in the official getting-started guide: https://element-plus.org
 
 ## Agent tips
+- Read https://element-plus.org/llms.txt first. It indexes the official docs in markdown.
 - Design tokens live in the repo (e.g. `packages/components/menu/src/tokens.ts`). Map brand colours and type onto these rather than hard-coding values.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
@@ -65,8 +67,8 @@ Then follow the framework setup in the official getting-started guide: https://e
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
@@ -76,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://e
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
+Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/element-plus.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/element-plus.md_

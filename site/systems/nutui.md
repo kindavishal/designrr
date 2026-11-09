@@ -21,15 +21,15 @@
 | Same family | [NutUI React](nutui-react.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.5k | GitHub API (jd-opensource/nutui) |
-| GitHub forks | 833 | GitHub API |
+| GitHub forks | 834 | GitHub API |
 | Contributors (incl. anonymous) | 144 | GitHub API |
-| Issues closed / open | 1.7k / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 4.2k | npm (`@nutui/nutui` 4.3.15-beta.1) |
+| Issues closed / open | 1.7k / 1 (100% closed) | GitHub API |
+| npm weekly downloads | 3.2k | npm (`@nutui/nutui` 4.3.15-beta.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nutui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nutui.md_

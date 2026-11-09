@@ -21,15 +21,15 @@
 | Same family | [Radix Themes](radix-themes.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 19.5k | GitHub API (radix-ui/primitives) |
 | GitHub forks | 1.3k | GitHub API |
 | Contributors (incl. anonymous) | 125 | GitHub API |
-| Issues closed / open | 1.7k / 134 (93% closed) | GitHub API |
-| npm weekly downloads | 26.1M | npm (`radix-ui` 1.8.1) |
+| Issues closed / open | 1.7k / 138 (93% closed) | GitHub API |
+| npm weekly downloads | 26.9M | npm (`radix-ui` 1.8.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radix-primitives.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/radix-primitives.md_

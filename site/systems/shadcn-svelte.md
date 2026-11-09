@@ -21,15 +21,15 @@
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.2k | GitHub API (huntabyte/shadcn-svelte) |
-| GitHub forks | 580 | GitHub API |
+| GitHub forks | 578 | GitHub API |
 | Contributors (incl. anonymous) | 201 | GitHub API |
-| Issues closed / open | 1.1k / 51 (95% closed) | GitHub API |
-| npm weekly downloads | 269.1k | npm (`shadcn-svelte` 1.8.0) |
+| Issues closed / open | 1.1k / 50 (96% closed) | GitHub API |
+| npm weekly downloads | 300.5k | npm (`shadcn-svelte` 1.8.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.shadcn-svelte.com/llms.txt
@@ -88,4 +88,4 @@ Edit the CSS variables in your global stylesheet (`--primary`, `--background`, `
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-svelte.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/shadcn-svelte.md_

@@ -21,15 +21,15 @@
 | Source | https://github.com/StackExchange/Stacks |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 682 | GitHub API (StackExchange/Stacks) |
+| GitHub stars | 681 | GitHub API (StackExchange/Stacks) |
 | GitHub forks | 106 | GitHub API |
 | Contributors (incl. anonymous) | 61 | GitHub API |
 | Issues closed / open | 292 / 4 (99% closed) | GitHub API |
-| npm weekly downloads | 8.6k | npm (`@stackoverflow/stacks` 3.0.2) |
+| npm weekly downloads | 9.0k | npm (`@stackoverflow/stacks` 3.0.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://stackoverflow.design/llms.txt
@@ -87,4 +87,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/stacks.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/stacks.md_

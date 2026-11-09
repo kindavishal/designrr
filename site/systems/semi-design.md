@@ -20,7 +20,7 @@
 | Source | https://github.com/DouyinFE/semi-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 853 | GitHub API |
 | Contributors (incl. anonymous) | 170 | GitHub API |
 | Issues closed / open | 1.8k / 62 (97% closed) | GitHub API |
-| npm weekly downloads | 26.7k | npm (`@douyinfe/semi-ui` 2.104.0) |
+| npm weekly downloads | 27.3k | npm (`@douyinfe/semi-ui` 2.104.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/semi-design.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/semi-design.md_

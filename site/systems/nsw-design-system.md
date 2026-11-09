@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.1k KB |
 | License | MIT |
-| Last activity | 2026-10-26 |
+| Last activity | 2026-11-06 |
 | Docs | https://designsystem.nsw.gov.au |
 | Source | https://github.com/NSWGTP/nsw-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 90 | GitHub API (NSWGTP/nsw-design-system) |
 | GitHub forks | 41 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
-| Issues closed / open | 68 / 4 (94% closed) | GitHub API |
-| npm weekly downloads | 2.6k | npm (`nsw-design-system` 3.28.1) |
+| Issues closed / open | 70 / 2 (97% closed) | GitHub API |
+| npm weekly downloads | 3.1k | npm (`nsw-design-system` 3.28.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -43,8 +43,8 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 ## Install
 No build step needed. From the CDN (pinned to the current release):
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3.28.1/dist/css/main.min.css">
-<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3.28.1/dist/js/main.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nsw-design-system@3.28.2/dist/css/main.min.css">
+<script src="https://cdn.jsdelivr.net/npm/nsw-design-system@3.28.2/dist/js/main.min.js"></script>
 ```
 Check the docs for the recommended files: https://designsystem.nsw.gov.au
 ```bash
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nsw-design-system.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nsw-design-system.md_

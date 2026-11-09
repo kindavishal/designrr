@@ -14,20 +14,20 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://zardui.com |
 | Source | https://github.com/zard-ui/zardui |
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.2k | GitHub API (zard-ui/zardui) |
-| GitHub forks | 98 | GitHub API |
-| Contributors (incl. anonymous) | 36 | GitHub API |
-| Issues closed / open | 292 / 9 (97% closed) | GitHub API |
+| GitHub forks | 99 | GitHub API |
+| Contributors (incl. anonymous) | 37 | GitHub API |
+| Issues closed / open | 294 / 9 (97% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://zardui.com/llms.txt
@@ -76,4 +76,4 @@ See https://zardui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/zardui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/zardui.md_

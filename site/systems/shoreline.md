@@ -20,7 +20,7 @@
 | Source | https://github.com/vtex/shoreline |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 9 | GitHub API |
 | Contributors (incl. anonymous) | 68 | GitHub API |
 | Issues closed / open | 599 / 96 (86% closed) | GitHub API |
-| npm weekly downloads | 2.8k | npm (`@vtex/shoreline` 1.12.21) |
+| npm weekly downloads | 2.9k | npm (`@vtex/shoreline` 1.12.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shoreline.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/shoreline.md_

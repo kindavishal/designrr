@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **20/100** |
+| AI-readiness | **35/100** |
 | Maintainer | Tencent (org-backed) |
 | Platforms | web, mobile-web, miniprogram |
 | Frameworks | react, vue, angular |
@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 52.8k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-08 |
 | Docs | https://tdesign.tencent.com |
 | Source | https://github.com/Tencent/tdesign |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,16 +28,15 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 351 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
 | Issues closed / open | 265 / 31 (90% closed) | GitHub API |
-| npm weekly downloads | 17.5k | npm (`tdesign-react` 1.18.6) |
+| npm weekly downloads | 19.2k | npm (`tdesign-react` 1.18.6) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://tdesign.tencent.com/llms.txt
 - MCP server: none found
 - **Agent/contributor docs in repo:** https://github.com/Tencent/tdesign/blob/HEAD/site/public/llms.txt
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -48,6 +47,7 @@ npm install tdesign-react
 Then follow the framework setup in the official getting-started guide: https://tdesign.tencent.com
 
 ## Agent tips
+- Read https://tdesign.tencent.com/llms.txt first. It indexes the official docs in markdown.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
@@ -64,7 +64,7 @@ Then follow the framework setup in the official getting-started guide: https://t
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
+| llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
@@ -75,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://t
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tdesign.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tdesign.md_

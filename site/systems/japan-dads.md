@@ -19,11 +19,11 @@
 | Source | https://github.com/digital-go-jp/design-system-example-components-react |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 683 | GitHub API (digital-go-jp/design-system-example-components-react) |
+| GitHub stars | 685 | GitHub API (digital-go-jp/design-system-example-components-react) |
 | GitHub forks | 44 | GitHub API |
 | Contributors (incl. anonymous) | 3 | GitHub API |
 | Issues closed / open | 14 / 0 (100% closed) | GitHub API |
@@ -74,4 +74,4 @@ See https://design.digital.go.jp for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/japan-dads.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/japan-dads.md_

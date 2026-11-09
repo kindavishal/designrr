@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 15.6k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://wordpress.github.io/gutenberg/ |
 | Source | https://github.com/WordPress/gutenberg |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 11.8k | GitHub API (WordPress/gutenberg) |
 | GitHub forks | 5.0k | GitHub API |
 | Contributors (incl. anonymous) | 1.6k | GitHub API |
-| Issues closed / open | 29.9k / 3.4k (90% closed) | GitHub API |
-| npm weekly downloads | 848.6k | npm (`@wordpress/components` 44.0.0) |
+| Issues closed / open | 30.0k / 3.4k (90% closed) | GitHub API |
+| npm weekly downloads | 966.3k | npm (`@wordpress/components` 44.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/wordpress-components.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/wordpress-components.md_

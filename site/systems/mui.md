@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 8.3k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://mui.com/material-ui/ |
 | Source | https://github.com/mui/material-ui |
 | Same family | [Base UI](base-ui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 32.5k | GitHub API |
 | Contributors (incl. anonymous) | 3.5k | GitHub API |
 | Issues closed / open | 19.2k / 1.4k (93% closed) | GitHub API |
-| npm weekly downloads | 13.6M | npm (`@mui/material` 9.5.0) |
+| npm weekly downloads | 13.8M | npm (`@mui/material` 9.5.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://mui.com/material-ui/llms.txt
@@ -102,4 +102,4 @@ All brand decisions go in `createTheme` (palette, typography, shape, `components
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/mui.md_

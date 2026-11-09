@@ -20,15 +20,15 @@
 | Source | https://github.com/nhsuk/nhsuk-frontend |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 689 | GitHub API (nhsuk/nhsuk-frontend) |
 | GitHub forks | 142 | GitHub API |
 | Contributors (incl. anonymous) | 75 | GitHub API |
-| Issues closed / open | 401 / 36 (92% closed) | GitHub API |
-| npm weekly downloads | 40.5k | npm (`nhsuk-frontend` 10.7.1) |
+| Issues closed / open | 402 / 35 (92% closed) | GitHub API |
+| npm weekly downloads | 41.1k | npm (`nhsuk-frontend` 10.7.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nhsuk-frontend.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nhsuk-frontend.md_

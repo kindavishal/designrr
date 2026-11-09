@@ -20,15 +20,15 @@
 | Source | https://github.com/twilio-labs/paste |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 481 | GitHub API (twilio-labs/paste) |
-| GitHub forks | 119 | GitHub API |
+| GitHub forks | 120 | GitHub API |
 | Contributors (incl. anonymous) | 70 | GitHub API |
 | Issues closed / open | 198 / 13 (94% closed) | GitHub API |
-| npm weekly downloads | 17.2k | npm (`@twilio-paste/core` 21.5.0) |
+| npm weekly downloads | 18.1k | npm (`@twilio-paste/core` 21.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/paste.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/paste.md_

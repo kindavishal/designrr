@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 12.3k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://boosted.orange.com |
 | Source | https://github.com/Orange-OpenSource/Orange-Boosted-Bootstrap |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 224 | GitHub API (Orange-OpenSource/Orange-Boosted-Bootstrap) |
 | GitHub forks | 61 | GitHub API |
 | Contributors (incl. anonymous) | 40 | GitHub API |
-| Issues closed / open | 1.1k / 123 (90% closed) | GitHub API |
-| npm weekly downloads | 9.5k | npm (`boosted` 5.3.8) |
+| Issues closed / open | 1.1k / 127 (89% closed) | GitHub API |
+| npm weekly downloads | 9.0k | npm (`boosted` 5.3.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -85,4 +85,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/boosted.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/boosted.md_

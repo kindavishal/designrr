@@ -18,7 +18,7 @@
 | Docs | https://developer.apple.com/design/human-interface-guidelines |
 
 ## Public usage & feedback
-No public usage numbers available (no public repo or package). Collected 2026-11-05.
+No public usage numbers available (no public repo or package). Collected 2026-11-09.
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -70,4 +70,4 @@ Set `.tint(Color("Brand"))` at the root and define colours in the asset catalog 
 
 Quality gate: activity **active**; traction via orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/apple-hig.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/apple-hig.md_

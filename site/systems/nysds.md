@@ -20,15 +20,15 @@
 | Source | https://github.com/ITS-HCD/nysds |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 55 | GitHub API (ITS-HCD/nysds) |
 | GitHub forks | 6 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
-| Issues closed / open | 899 / 110 (89% closed) | GitHub API |
-| npm weekly downloads | 960 | npm (`@nysds/components` 1.23.1) |
+| Issues closed / open | 899 / 111 (89% closed) | GitHub API |
+| npm weekly downloads | 907 | npm (`@nysds/components` 1.23.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -91,4 +91,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_

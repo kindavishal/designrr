@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 21.3k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://cloudscape.design |
 | Source | https://github.com/cloudscape-design/components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.7k | GitHub API (cloudscape-design/components) |
 | GitHub forks | 254 | GitHub API |
 | Contributors (incl. anonymous) | 92 | GitHub API |
-| Issues closed / open | 318 / 51 (86% closed) | GitHub API |
-| npm weekly downloads | 165.6k | npm (`@cloudscape-design/components` 3.0.1410) |
+| Issues closed / open | 318 / 53 (86% closed) | GitHub API |
+| npm weekly downloads | 157.5k | npm (`@cloudscape-design/components` 3.0.1411) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://cloudscape.design/llms.txt
@@ -39,7 +39,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v3, checked against https://cloudscape.design/get-started/for-developers/using-cloudscape-components/index.html.md on 2026-11-05; latest release 3.0.1410._
+_Hand-written guide for v3, checked against https://cloudscape.design/get-started/for-developers/using-cloudscape-components/index.html.md on 2026-11-05; latest release 3.0.1411._
 
 ## Install
 ```bash
@@ -93,4 +93,4 @@ Limited by design: `applyTheme({ theme, selector: 'body' })` from `@cloudscape-d
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cloudscape.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/cloudscape.md_

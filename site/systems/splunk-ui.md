@@ -14,17 +14,17 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | dashboard, data-dense, security |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 4.1k KB |
+| Package size (unpacked) | 4.2k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-10-07 |
+| Last activity | 2026-11-05 |
 | Docs | https://splunkui.splunk.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 4.0k | npm (`@splunk/react-ui` 5.17.0) |
+| npm weekly downloads | 4.3k | npm (`@splunk/react-ui` 5.18.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://splunkui.splunk.com/llms.txt
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_

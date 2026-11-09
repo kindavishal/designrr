@@ -13,22 +13,22 @@
 | Install | CLI copies component source into your repo (requires: tailwind, bundler) |
 | Good for | ai-app, chat; shapes: chat-ai |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 2.8k KB |
+| Package size (unpacked) | 2.9k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://www.assistant-ui.com |
 | Source | https://github.com/assistant-ui/assistant-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 13.0k | GitHub API (assistant-ui/assistant-ui) |
 | GitHub forks | 1.3k | GitHub API |
-| Contributors (incl. anonymous) | 206 | GitHub API |
-| Issues closed / open | 2.1k / 30 (99% closed) | GitHub API |
-| npm weekly downloads | 3.0M | npm (`@assistant-ui/react` 0.15.32) |
+| Contributors (incl. anonymous) | 208 | GitHub API |
+| Issues closed / open | 2.1k / 29 (99% closed) | GitHub API |
+| npm weekly downloads | 3.2M | npm (`@assistant-ui/react` 0.15.33) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.assistant-ui.com/llms.txt
@@ -47,7 +47,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v0.15, checked against https://www.assistant-ui.com/docs/installation.md on 2026-11-05; latest release 0.15.32._
+_Hand-written guide for v0.15, checked against https://www.assistant-ui.com/docs/installation.md on 2026-11-05; latest release 0.15.33._
 
 ## Install
 ```bash
@@ -91,4 +91,4 @@ Composable primitives (Thread, Composer, Message, ActionBar) with runtimes for t
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/assistant-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/assistant-ui.md_

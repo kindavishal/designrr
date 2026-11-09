@@ -21,15 +21,15 @@
 | Source | https://github.com/mongodb/leafygreen-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 274 | GitHub API (mongodb/leafygreen-ui) |
+| GitHub stars | 275 | GitHub API (mongodb/leafygreen-ui) |
 | GitHub forks | 84 | GitHub API |
 | Contributors (incl. anonymous) | 56 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 65.9k | npm (`@leafygreen-ui/button` 25.2.2) |
+| npm weekly downloads | 62.4k | npm (`@leafygreen-ui/button` 25.2.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/leafygreen.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/leafygreen.md_

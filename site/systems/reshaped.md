@@ -12,23 +12,23 @@
 | Styling | css |
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | saas, consumer, custom-brand |
-| Dark mode / RTL | not detected / yes |
+| Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.3k KB |
 | License | MIT |
-| Last activity | 2026-10-30 |
+| Last activity | 2026-11-08 |
 | Docs | https://reshaped.so |
 | Source | https://github.com/reshaped-ui/reshaped |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (reshaped-ui/reshaped) |
 | GitHub forks | 160 | GitHub API |
-| Contributors (incl. anonymous) | 13 | GitHub API |
-| Issues closed / open | 136 / 6 (96% closed) | GitHub API |
-| npm weekly downloads | 40.6k | npm (`reshaped` 4.2.0) |
+| Contributors (incl. anonymous) | 15 | GitHub API |
+| Issues closed / open | 141 / 1 (99% closed) | GitHub API |
+| npm weekly downloads | 35.8k | npm (`reshaped` 4.2.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/reshaped.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/reshaped.md_

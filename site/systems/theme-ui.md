@@ -20,7 +20,7 @@
 | Source | https://github.com/system-ui/theme-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 649 | GitHub API |
 | Contributors (incl. anonymous) | 158 | GitHub API |
 | Issues closed / open | 621 / 45 (93% closed) | GitHub API |
-| npm weekly downloads | 79.8k | npm (`theme-ui` 0.17.4) |
+| npm weekly downloads | 74.1k | npm (`theme-ui` 0.17.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/theme-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/theme-ui.md_

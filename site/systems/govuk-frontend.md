@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.9k KB |
 | License | MIT |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-09 |
 | Docs | https://design-system.service.gov.uk |
 | Source | https://github.com/alphagov/govuk-frontend |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.5k | GitHub API (alphagov/govuk-frontend) |
 | GitHub forks | 380 | GitHub API |
 | Contributors (incl. anonymous) | 109 | GitHub API |
-| Issues closed / open | 1.8k / 434 (80% closed) | GitHub API |
-| npm weekly downloads | 247.9k | npm (`govuk-frontend` 6.6.0) |
+| Issues closed / open | 1.8k / 438 (80% closed) | GitHub API |
+| npm weekly downloads | 202.8k | npm (`govuk-frontend` 6.6.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -96,4 +96,4 @@ Markup: use the Nunjucks macros (`{{ govukButton({ text: "Continue" }) }}`) or c
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/govuk-frontend.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/govuk-frontend.md_

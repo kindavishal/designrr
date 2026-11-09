@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 16.8k KB |
 | License | MIT |
-| Last activity | 2026-10-12 |
+| Last activity | 2026-11-06 |
 | Docs | https://arco.design |
 | Source | https://github.com/arco-design/arco-design |
 | Same family | [Arco Design Vue](arco-design-vue.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 5.8k | GitHub API (arco-design/arco-design) |
-| GitHub forks | 725 | GitHub API |
+| GitHub forks | 724 | GitHub API |
 | Contributors (incl. anonymous) | 146 | GitHub API |
 | Issues closed / open | 1.4k / 291 (82% closed) | GitHub API |
-| npm weekly downloads | 100.2k | npm (`@arco-design/web-react` 2.66.18) |
+| npm weekly downloads | 113.7k | npm (`@arco-design/web-react` 2.66.18) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/arco-design.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/arco-design.md_

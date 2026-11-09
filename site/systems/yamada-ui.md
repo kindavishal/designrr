@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 20.8k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://yamada-ui.com |
 | Source | https://github.com/yamada-ui/yamada-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.0k | GitHub API (yamada-ui/yamada-ui) |
 | GitHub forks | 259 | GitHub API |
-| Contributors (incl. anonymous) | 232 | GitHub API |
-| Issues closed / open | 3.3k / 107 (97% closed) | GitHub API |
-| npm weekly downloads | 4.7k | npm (`@yamada-ui/react` 2.3.1) |
+| Contributors (incl. anonymous) | 233 | GitHub API |
+| Issues closed / open | 3.3k / 102 (97% closed) | GitHub API |
+| npm weekly downloads | 5.6k | npm (`@yamada-ui/react` 2.3.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://yamada-ui.com/llms.txt
@@ -79,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://y
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars.
+Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/yamada-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/yamada-ui.md_

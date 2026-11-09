@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.3k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://seed-design.io |
 | Source | https://github.com/daangn/seed-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.2k | GitHub API (daangn/seed-design) |
 | GitHub forks | 99 | GitHub API |
-| Contributors (incl. anonymous) | 36 | GitHub API |
-| Issues closed / open | 21 / 4 (84% closed) | GitHub API |
-| npm weekly downloads | 51.0k | npm (`@seed-design/react` 3.2.0) |
+| Contributors (incl. anonymous) | 37 | GitHub API |
+| Issues closed / open | 22 / 3 (88% closed) | GitHub API |
+| npm weekly downloads | 45.6k | npm (`@seed-design/react` 3.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://seed-design.io/llms.txt
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/seed-design.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/seed-design.md_

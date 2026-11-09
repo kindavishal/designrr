@@ -21,15 +21,15 @@
 | Source | https://github.com/RedHat-UX/red-hat-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 154 | GitHub API (RedHat-UX/red-hat-design-system) |
 | GitHub forks | 38 | GitHub API |
 | Contributors (incl. anonymous) | 37 | GitHub API |
-| Issues closed / open | 1.2k / 101 (92% closed) | GitHub API |
-| npm weekly downloads | 17.4k | npm (`@rhds/elements` 5.0.0) |
+| Issues closed / open | 1.2k / 102 (92% closed) | GitHub API |
+| npm weekly downloads | 7.3k | npm (`@rhds/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rhds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/rhds.md_

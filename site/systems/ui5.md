@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 22.8k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-06 |
 | Docs | https://sap.github.io/ui5-webcomponents/ |
 | Source | https://github.com/UI5/webcomponents |
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP Fundamental Styles](fundamental-styles.md), [UI5 Web Components for React](ui5-react.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.8k | GitHub API (UI5/webcomponents) |
 | GitHub forks | 290 | GitHub API |
-| Contributors (incl. anonymous) | 131 | GitHub API |
+| Contributors (incl. anonymous) | 132 | GitHub API |
 | Issues closed / open | 5.2k / 181 (97% closed) | GitHub API |
-| npm weekly downloads | 105.3k | npm (`@ui5/webcomponents` 2.28.1) |
+| npm weekly downloads | 106.6k | npm (`@ui5/webcomponents` 2.28.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ui5.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ui5.md_

@@ -20,15 +20,15 @@
 | Source | https://github.com/nl-design-system/candidate |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2 | GitHub API (nl-design-system/candidate) |
 | GitHub forks | 3 | GitHub API |
 | Contributors (incl. anonymous) | 20 | GitHub API |
-| Issues closed / open | 389 / 357 (52% closed) | GitHub API |
-| npm weekly downloads | 1.9k | npm (`@nl-design-system-candidate/button-react` 1.1.0) |
+| Issues closed / open | 390 / 357 (52% closed) | GitHub API |
+| npm weekly downloads | 2.0k | npm (`@nl-design-system-candidate/button-react` 1.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nl-design-system.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nl-design-system.md_

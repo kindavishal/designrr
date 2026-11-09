@@ -21,7 +21,7 @@
 | Same family | [PrimeVue](primevue.md), [PrimeReact](primereact.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 5.1k | GitHub API |
 | Contributors (incl. anonymous) | 979 | GitHub API |
 | Issues closed / open | 14.3k / 993 (93% closed) | GitHub API |
-| npm weekly downloads | 908.6k | npm (`primeng` 22.1.4) |
+| npm weekly downloads | 916.4k | npm (`primeng` 22.1.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primeng.org/llms/llms.txt
@@ -85,4 +85,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primeng.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primeng.md_

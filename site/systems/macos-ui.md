@@ -19,16 +19,16 @@
 | Source | https://github.com/macosui/macos_ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.1k | GitHub API (macosui/macos_ui) |
-| GitHub forks | 204 | GitHub API |
+| GitHub forks | 203 | GitHub API |
 | Contributors (incl. anonymous) | 40 | GitHub API |
-| Issues closed / open | 219 / 69 (76% closed) | GitHub API |
+| Issues closed / open | 219 / 70 (76% closed) | GitHub API |
 | pub.dev likes | 1.1k | pub.dev (`macos_ui`) |
-| pub.dev downloads (30 days) | 6.6k | pub.dev |
+| pub.dev downloads (30 days) | 45.1k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -74,4 +74,4 @@ flutter pub add macos_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/macos-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/macos-ui.md_

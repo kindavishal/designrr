@@ -20,7 +20,7 @@
 | Source | https://github.com/oracle/oraclejet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 114 | GitHub API |
 | Contributors (incl. anonymous) | 9 | GitHub API |
 | Issues closed / open | 40 / 50 (44% closed) | GitHub API |
-| npm weekly downloads | 5.2k | npm (`@oracle/oraclejet` 21.0.3) |
+| npm weekly downloads | 5.9k | npm (`@oracle/oraclejet` 21.0.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/oracle-jet.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/oracle-jet.md_

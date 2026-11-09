@@ -21,15 +21,15 @@
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.0k | GitHub API (spartan-ng/spartan) |
 | GitHub forks | 339 | GitHub API |
 | Contributors (incl. anonymous) | 158 | GitHub API |
-| Issues closed / open | 598 / 70 (90% closed) | GitHub API |
-| npm weekly downloads | 108.8k | npm (`@spartan-ng/brain` 1.9.0) |
+| Issues closed / open | 599 / 72 (89% closed) | GitHub API |
+| npm weekly downloads | 114.0k | npm (`@spartan-ng/brain` 1.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -94,4 +94,4 @@ Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primar
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_

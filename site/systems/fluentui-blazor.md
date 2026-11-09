@@ -14,21 +14,21 @@
 | Good for | enterprise, productivity, dotnet-ecosystem |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://www.fluentui-blazor.net |
 | Source | https://github.com/microsoft/fluentui-blazor |
 | Same family | [Fluent UI](fluent-ui.md), [Fluent UI Apple](fluentui-apple.md), [Fluent UI Android](fluentui-android.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.9k | GitHub API (microsoft/fluentui-blazor) |
 | GitHub forks | 497 | GitHub API |
-| Contributors (incl. anonymous) | 142 | GitHub API |
-| Issues closed / open | 2.5k / 46 (98% closed) | GitHub API |
-| NuGet downloads (all time) | 4.5M | NuGet (`Microsoft.FluentUI.AspNetCore.Components`) |
+| Contributors (incl. anonymous) | 144 | GitHub API |
+| Issues closed / open | 2.5k / 45 (98% closed) | GitHub API |
+| NuGet downloads (all time) | 4.6M | NuGet (`Microsoft.FluentUI.AspNetCore.Components`) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ dotnet add package Microsoft.FluentUI.AspNetCore.Components
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-blazor.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fluentui-blazor.md_

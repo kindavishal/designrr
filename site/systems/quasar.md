@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 13.7k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://quasar.dev |
 | Source | https://github.com/quasarframework/quasar |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 27.2k | GitHub API (quasarframework/quasar) |
 | GitHub forks | 3.7k | GitHub API |
 | Contributors (incl. anonymous) | 809 | GitHub API |
-| Issues closed / open | 8.1k / 54 (99% closed) | GitHub API |
-| npm weekly downloads | 478.3k | npm (`quasar` 2.35.2) |
+| Issues closed / open | 8.1k / 53 (99% closed) | GitHub API |
+| npm weekly downloads | 483.9k | npm (`quasar` 2.35.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://quasar.dev/llms.txt
@@ -87,4 +87,4 @@ Sass variables (`$primary`, `$secondary`, …) in `src/css/quasar.variables.scss
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/quasar.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/quasar.md_

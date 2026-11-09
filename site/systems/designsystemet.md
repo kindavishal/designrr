@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **45/100** |
+| AI-readiness | **60/100** |
 | Maintainer | Norwegian Digitalisation Agency (org-backed) |
 | Platforms | web |
 | Frameworks | react, web-components |
@@ -13,25 +13,25 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | government, public-service |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 793 KB |
+| Package size (unpacked) | 775 KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://designsystemet.no |
 | Source | https://github.com/digdir/designsystemet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 216 | GitHub API (digdir/designsystemet) |
+| GitHub stars | 217 | GitHub API (digdir/designsystemet) |
 | GitHub forks | 62 | GitHub API |
 | Contributors (incl. anonymous) | 51 | GitHub API |
-| Issues closed / open | 2.2k / 94 (96% closed) | GitHub API |
-| npm weekly downloads | 19.1k | npm (`@digdir/designsystemet-react` 1.23.0) |
+| Issues closed / open | 2.2k / 91 (96% closed) | GitHub API |
+| npm weekly downloads | 18.1k | npm (`@digdir/designsystemet-react` 1.24.0) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://designsystemet.no/llms.txt
 - MCP server: none found
 - **Design tokens:** https://github.com/digdir/designsystemet/blob/HEAD/design-tokens/$themes.json
 - **Agent/contributor docs in repo:** https://github.com/digdir/designsystemet/blob/HEAD/apps/www/public/llms.txt
@@ -49,6 +49,7 @@ npm install @digdir/designsystemet-react
 Then follow the framework setup in the official getting-started guide: https://designsystemet.no
 
 ## Agent tips
+- Read https://designsystemet.no/llms.txt first. It indexes the official docs in markdown.
 - Design tokens live in the repo (e.g. `design-tokens/$themes.json`). Map brand colours and type onto these rather than hard-coding values.
 - Web components work in any framework; React 19+ supports them directly, older React may need wrappers.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
@@ -67,7 +68,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
+| llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
@@ -80,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/designsystemet.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/designsystemet.md_

@@ -21,7 +21,7 @@
 | Same family | [Vue DevUI](vue-devui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 212 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
 | Issues closed / open | 130 / 107 (55% closed) | GitHub API |
-| npm weekly downloads | 459 | npm (`ng-devui` 18.0.0) |
+| npm weekly downloads | 423 | npm (`ng-devui` 18.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -38,7 +38,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 581 days ago).
+- maintenance has slowed (last activity 585 days ago).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -77,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars, orgBacked. Notes: Last activity 581 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, orgBacked. Notes: Last activity 585 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-devui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ng-devui.md_

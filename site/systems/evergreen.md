@@ -20,15 +20,15 @@
 | Source | https://github.com/segmentio/evergreen |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 12.4k | GitHub API (segmentio/evergreen) |
-| GitHub forks | 802 | GitHub API |
+| GitHub forks | 801 | GitHub API |
 | Contributors (incl. anonymous) | 163 | GitHub API |
 | Issues closed / open | 458 / 43 (91% closed) | GitHub API |
-| npm weekly downloads | 14.6k | npm (`evergreen-ui` 7.1.9) |
+| npm weekly downloads | 13.6k | npm (`evergreen-ui` 7.1.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -38,7 +38,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- maintenance has slowed (last activity 512 days ago).
+- maintenance has slowed (last activity 516 days ago).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -77,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://e
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 512 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 516 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/evergreen.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/evergreen.md_

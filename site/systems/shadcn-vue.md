@@ -21,15 +21,15 @@
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 10.8k | GitHub API (unovue/shadcn-vue) |
 | GitHub forks | 687 | GitHub API |
-| Contributors (incl. anonymous) | 239 | GitHub API |
-| Issues closed / open | 885 / 122 (88% closed) | GitHub API |
-| npm weekly downloads | 132.0k | npm (`shadcn-vue` 2.9.0) |
+| Contributors (incl. anonymous) | 238 | GitHub API |
+| Issues closed / open | 885 / 123 (88% closed) | GitHub API |
+| npm weekly downloads | 135.3k | npm (`shadcn-vue` 2.9.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.shadcn-vue.com/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-vue.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/shadcn-vue.md_

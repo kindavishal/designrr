@@ -21,7 +21,7 @@
 | Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Pro Components](pro-components.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 2.5k | GitHub API |
 | Contributors (incl. anonymous) | 323 | GitHub API |
 | Issues closed / open | 4.4k / 163 (96% closed) | GitHub API |
-| npm weekly downloads | 74.8k | npm (`antd-mobile` 5.43.0) |
+| npm weekly downloads | 82.6k | npm (`antd-mobile` 5.43.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ant-design-mobile.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ant-design-mobile.md_

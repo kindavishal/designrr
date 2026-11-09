@@ -20,7 +20,7 @@
 | Source | https://github.com/untitleduico/react |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 189 | GitHub API |
 | Contributors (incl. anonymous) | 15 | GitHub API |
 | Issues closed / open | 87 / 9 (91% closed) | GitHub API |
-| npm weekly downloads | 5.7k | npm (`untitledui` 0.1.69) |
+| npm weekly downloads | 7.9k | npm (`untitledui` 0.1.69) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.untitledui.com/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/untitled-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/untitled-ui.md_

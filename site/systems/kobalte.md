@@ -20,14 +20,14 @@
 | Source | https://github.com/kobaltedev/kobalte |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.9k | GitHub API (kobaltedev/kobalte) |
-| GitHub forks | 127 | GitHub API |
+| GitHub forks | 129 | GitHub API |
 | Contributors (incl. anonymous) | 51 | GitHub API |
-| Issues closed / open | 237 / 94 (72% closed) | GitHub API |
+| Issues closed / open | 237 / 95 (71% closed) | GitHub API |
 | npm weekly downloads | 5.5M | npm (`@kobalte/core` 0.13.14) |
 
 ## AI resources (use these first)
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/kobalte.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/kobalte.md_

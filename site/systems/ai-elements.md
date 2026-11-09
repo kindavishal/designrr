@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Tier | **solid** |
-| AI-readiness | **30/100** |
+| Tier | **recommended** |
+| AI-readiness | **45/100** |
 | Maintainer | Vercel (org-backed) |
 | Platforms | web |
 | Frameworks | react |
@@ -21,18 +21,18 @@
 | Same family | [AI Elements Vue](ai-elements-vue.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.5k | GitHub API (vercel/ai-elements) |
-| GitHub forks | 291 | GitHub API |
+| GitHub forks | 293 | GitHub API |
 | Contributors (incl. anonymous) | 62 | GitHub API |
 | Issues closed / open | 164 / 50 (77% closed) | GitHub API |
-| npm weekly downloads | 143.9k | npm (`ai-elements` 1.9.1) |
+| npm weekly downloads | 133.4k | npm (`ai-elements` 1.9.1) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://ai-sdk.dev/llms.txt
 - MCP server: none found
 - **Copy-the-source CLI:** documented at https://ai-sdk.dev/elements/llms.txt
 - **Agent/contributor docs in repo:** https://github.com/vercel/ai-elements/blob/HEAD/.claude/CLAUDE.md
@@ -73,7 +73,7 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
+| llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
@@ -84,6 +84,6 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
+Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_

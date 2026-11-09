@@ -21,15 +21,15 @@
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.7k | GitHub API (founded-labs/react-native-reusables) |
-| GitHub forks | 317 | GitHub API |
+| GitHub forks | 319 | GitHub API |
 | Contributors (incl. anonymous) | 50 | GitHub API |
 | Issues closed / open | 328 / 16 (95% closed) | GitHub API |
-| npm weekly downloads | 14.9k | npm (`@react-native-reusables/cli` 0.7.1) |
+| npm weekly downloads | 18.8k | npm (`@react-native-reusables/cli` 0.7.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/rn-reusables.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/rn-reusables.md_

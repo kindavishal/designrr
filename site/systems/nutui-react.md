@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 12.1k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-06 |
 | Docs | https://nutui.jd.com/react |
 | Source | https://github.com/jdf2e/nutui-react |
 | Same family | [NutUI](nutui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 299 | GitHub API |
 | Contributors (incl. anonymous) | 144 | GitHub API |
 | Issues closed / open | 933 / 1 (100% closed) | GitHub API |
-| npm weekly downloads | 1.5k | npm (`@nutui/nutui-react` 4.0.0-beta.9) |
+| npm weekly downloads | 1.8k | npm (`@nutui/nutui-react` 4.0.0-beta.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nutui-react.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nutui-react.md_

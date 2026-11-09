@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10.3k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://lyne-storybook.app.sbb.ch |
 | Source | https://github.com/sbb-design-systems/lyne-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 69 | GitHub API (sbb-design-systems/lyne-components) |
 | GitHub forks | 20 | GitHub API |
 | Contributors (incl. anonymous) | 50 | GitHub API |
-| Issues closed / open | 839 / 56 (94% closed) | GitHub API |
-| npm weekly downloads | 2.1k | npm (`@sbb-esta/lyne-elements` 5.13.1) |
+| Issues closed / open | 840 / 56 (94% closed) | GitHub API |
+| npm weekly downloads | 2.3k | npm (`@sbb-esta/lyne-elements` 5.13.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lyne.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/lyne.md_

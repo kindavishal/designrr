@@ -20,15 +20,15 @@
 | Source | https://github.com/adobe/spectrum-web-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.6k | GitHub API (adobe/spectrum-web-components) |
-| GitHub forks | 274 | GitHub API |
+| GitHub forks | 275 | GitHub API |
 | Contributors (incl. anonymous) | 145 | GitHub API |
 | Issues closed / open | 1.5k / 175 (90% closed) | GitHub API |
-| npm weekly downloads | 69.5k | npm (`@spectrum-web-components/button` 1.12.5) |
+| npm weekly downloads | 77.0k | npm (`@spectrum-web-components/button` 1.12.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://opensource.adobe.com/spectrum-web-components/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/spectrum-web-components.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/spectrum-web-components.md_

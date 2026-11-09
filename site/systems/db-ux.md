@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10.1k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://design-system.deutschebahn.com |
 | Source | https://github.com/db-ux-design-system/core-web |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 137 | GitHub API (db-ux-design-system/core-web) |
 | GitHub forks | 27 | GitHub API |
 | Contributors (incl. anonymous) | 23 | GitHub API |
-| Issues closed / open | 1.1k / 135 (89% closed) | GitHub API |
-| npm weekly downloads | 2.8k | npm (`@db-ux/core-components` 6.2.1) |
+| Issues closed / open | 1.1k / 132 (89% closed) | GitHub API |
+| npm weekly downloads | 2.9k | npm (`@db-ux/core-components` 6.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -88,4 +88,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/db-ux.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/db-ux.md_

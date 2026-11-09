@@ -20,15 +20,15 @@
 | Source | https://github.com/opentiny/tiny-vue |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (opentiny/tiny-vue) |
-| GitHub forks | 357 | GitHub API |
+| GitHub forks | 358 | GitHub API |
 | Contributors (incl. anonymous) | 105 | GitHub API |
 | Issues closed / open | 569 / 242 (70% closed) | GitHub API |
-| npm weekly downloads | 3.3k | npm (`@opentiny/vue` 3.32.0) |
+| npm weekly downloads | 2.8k | npm (`@opentiny/vue` 3.32.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tiny-vue.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tiny-vue.md_

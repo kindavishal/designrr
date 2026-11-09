@@ -20,7 +20,7 @@
 | Source | https://github.com/telegram-mini-apps-dev/TelegramUI |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 92 | GitHub API |
 | Contributors (incl. anonymous) | 18 | GitHub API |
 | Issues closed / open | 35 / 39 (47% closed) | GitHub API |
-| npm weekly downloads | 12.9k | npm (`@telegram-apps/telegram-ui` 2.1.13) |
+| npm weekly downloads | 14.7k | npm (`@telegram-apps/telegram-ui` 2.1.13) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -36,7 +36,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 386 days ago).
+- maintenance has slowed (last activity 390 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -75,6 +75,6 @@ Then follow the framework setup in the official getting-started guide: https://t
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via npm. Notes: Last activity 386 days ago (12-24 months).
+Quality gate: activity **watch**; traction via npm. Notes: Last activity 390 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/telegram-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/telegram-ui.md_

@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 209 KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-08 |
 | Docs | https://ui.shadcn.com |
 | Source | https://github.com/shadcn-ui/ui |
 | Same family | [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 127.4k | GitHub API (shadcn-ui/ui) |
-| GitHub forks | 12.0k | GitHub API |
+| GitHub stars | 127.7k | GitHub API (shadcn-ui/ui) |
+| GitHub forks | 11.8k | GitHub API |
 | Contributors (incl. anonymous) | 650 | GitHub API |
-| Issues closed / open | 3.6k / 781 (82% closed) | GitHub API |
-| npm weekly downloads | 17.4M | npm (`shadcn` 4.23.0) |
+| Issues closed / open | 3.6k / 775 (82% closed) | GitHub API |
+| npm weekly downloads | 17.8M | npm (`shadcn` 4.23.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ui.shadcn.com/llms.txt
@@ -99,4 +99,4 @@ Components are copied into your repo (`components/ui/*`), so you own and edit th
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/shadcn-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/shadcn-ui.md_

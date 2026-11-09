@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 24.4k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://ng.ant.design |
 | Source | https://github.com/NG-ZORRO/ng-zorro-antd |
 | Same family | [Ant Design](ant-design.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Pro Components](pro-components.md), [Ant Design Mobile](ant-design-mobile.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.2k | GitHub API (NG-ZORRO/ng-zorro-antd) |
 | GitHub forks | 4.0k | GitHub API |
-| Contributors (incl. anonymous) | 351 | GitHub API |
+| Contributors (incl. anonymous) | 352 | GitHub API |
 | Issues closed / open | 4.6k / 711 (87% closed) | GitHub API |
-| npm weekly downloads | 184.5k | npm (`ng-zorro-antd` 22.2.0) |
+| npm weekly downloads | 184.9k | npm (`ng-zorro-antd` 22.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ng.ant.design/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ng-zorro.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ng-zorro.md_

@@ -13,22 +13,22 @@
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 429 KB |
+| Package size (unpacked) | 430 KB |
 | License | MIT |
-| Last activity | 2026-08-28 |
+| Last activity | 2026-11-08 |
 | Docs | https://www.skeleton.dev |
 | Source | https://github.com/skeletonlabs/skeleton |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.1k | GitHub API (skeletonlabs/skeleton) |
-| GitHub forks | 393 | GitHub API |
-| Contributors (incl. anonymous) | 168 | GitHub API |
-| Issues closed / open | 1.9k / 33 (98% closed) | GitHub API |
-| npm weekly downloads | 93.7k | npm (`@skeletonlabs/skeleton` 5.0.1) |
+| GitHub forks | 391 | GitHub API |
+| Contributors (incl. anonymous) | 171 | GitHub API |
+| Issues closed / open | 1.9k / 30 (98% closed) | GitHub API |
+| npm weekly downloads | 93.6k | npm (`@skeletonlabs/skeleton` 5.0.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.skeleton.dev/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/skeleton.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/skeleton.md_

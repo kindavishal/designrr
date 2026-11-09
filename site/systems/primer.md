@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | devtools, saas, content; shapes: saas-app, content-site |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 3.9k KB |
+| Package size (unpacked) | 4.0k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-07 |
 | Docs | https://primer.style |
 | Source | https://github.com/primer/react |
 | Same family | [Primer Primitives (tokens)](primer-primitives.md), [Primer ViewComponents](primer-view-components.md), [Primer CSS](primer-css.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.9k | GitHub API (primer/react) |
-| GitHub forks | 723 | GitHub API |
+| GitHub forks | 726 | GitHub API |
 | Contributors (incl. anonymous) | 255 | GitHub API |
 | Issues closed / open | 1.3k / 30 (98% closed) | GitHub API |
-| npm weekly downloads | 64.0k | npm (`@primer/react` 38.44.0) |
+| npm weekly downloads | 73.7k | npm (`@primer/react` 38.45.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -46,7 +46,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v38, checked against https://primer.style/product/getting-started/react on 2026-11-05; latest release 38.44.0._
+_Hand-written guide for v38, checked against https://primer.style/product/getting-started/react on 2026-11-05; latest release 38.45.0._
 
 ## Install
 ```bash
@@ -99,4 +99,4 @@ Primer is GitHub's identity; customise through the Primer Primitives CSS variabl
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/primer.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primer.md_

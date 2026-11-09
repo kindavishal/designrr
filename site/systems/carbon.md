@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-06 |
 | Docs | https://carbondesignsystem.com |
 | Source | https://github.com/carbon-design-system/carbon |
 | Same family | [Carbon Components Svelte](carbon-svelte.md), [Carbon for IBM Products](carbon-ibm-products.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.6k | GitHub API (carbon-design-system/carbon) |
 | GitHub forks | 2.3k | GitHub API |
-| Contributors (incl. anonymous) | 706 | GitHub API |
-| Issues closed / open | 10.4k / 984 (91% closed) | GitHub API |
-| npm weekly downloads | 192.5k | npm (`@carbon/react` 1.120.0) |
+| Contributors (incl. anonymous) | 708 | GitHub API |
+| Issues closed / open | 10.4k / 988 (91% closed) | GitHub API |
+| npm weekly downloads | 202.0k | npm (`@carbon/react` 1.120.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://carbondesignsystem.com/llms.txt
@@ -104,4 +104,4 @@ Carbon is intentionally opinionated: pick one of the four themes and customise t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_

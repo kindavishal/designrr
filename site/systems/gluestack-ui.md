@@ -20,7 +20,7 @@
 | Source | https://github.com/gluestack/gluestack-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 237 | GitHub API |
 | Contributors (incl. anonymous) | 92 | GitHub API |
 | Issues closed / open | 677 / 12 (98% closed) | GitHub API |
-| npm weekly downloads | 141.3k | npm (`@gluestack-ui/core` 5.0.15) |
+| npm weekly downloads | 123.4k | npm (`@gluestack-ui/core` 5.0.15) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://gluestack.io/llms.txt
@@ -91,4 +91,4 @@ v5 has no `tailwind.config.js`: theme tokens are shadcn-style semantic variables
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gluestack-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/gluestack-ui.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 9.0k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://reka-ui.com |
 | Source | https://github.com/unovue/reka-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.9k | GitHub API (unovue/reka-ui) |
-| GitHub forks | 581 | GitHub API |
-| Contributors (incl. anonymous) | 282 | GitHub API |
-| Issues closed / open | 1.1k / 195 (85% closed) | GitHub API |
-| npm weekly downloads | 3.0M | npm (`reka-ui` 2.11.0) |
+| GitHub forks | 583 | GitHub API |
+| Contributors (incl. anonymous) | 285 | GitHub API |
+| Issues closed / open | 1.1k / 192 (85% closed) | GitHub API |
+| npm weekly downloads | 3.1M | npm (`reka-ui` 2.11.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://reka-ui.com/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/reka-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/reka-ui.md_

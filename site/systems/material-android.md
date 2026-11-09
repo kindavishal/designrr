@@ -20,7 +20,7 @@
 | Same family | [Flutter Material 3](flutter-material.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -94,4 +94,4 @@ Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_

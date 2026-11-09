@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 61.9k KB |
 | License | BSD-3-Clause |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-06 |
 | Docs | https://react.lightningdesignsystem.com |
 | Source | https://github.com/salesforce/design-system-react |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 988 | GitHub API (salesforce/design-system-react) |
+| GitHub stars | 989 | GitHub API (salesforce/design-system-react) |
 | GitHub forks | 445 | GitHub API |
 | Contributors (incl. anonymous) | 211 | GitHub API |
 | Issues closed / open | 1.3k / 72 (95% closed) | GitHub API |
-| npm weekly downloads | 12.8k | npm (`@salesforce/design-system-react` 0.10.65) |
+| npm weekly downloads | 27.3k | npm (`@salesforce/design-system-react` 0.10.65) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/slds-react.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/slds-react.md_

@@ -21,15 +21,15 @@
 | Source | https://github.com/pinterest/gestalt |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.4k | GitHub API (pinterest/gestalt) |
-| GitHub forks | 387 | GitHub API |
+| GitHub forks | 388 | GitHub API |
 | Contributors (incl. anonymous) | 152 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 6.9k | npm (`gestalt` 177.0.12) |
+| npm weekly downloads | 5.7k | npm (`gestalt` 177.0.12) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/gestalt.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/gestalt.md_

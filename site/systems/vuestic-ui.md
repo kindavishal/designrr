@@ -20,15 +20,15 @@
 | Source | https://github.com/epicmaxco/vuestic-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 3.8k | GitHub API (epicmaxco/vuestic-ui) |
-| GitHub forks | 353 | GitHub API |
+| GitHub stars | 3.7k | GitHub API (epicmaxco/vuestic-ui) |
+| GitHub forks | 354 | GitHub API |
 | Contributors (incl. anonymous) | 143 | GitHub API |
 | Issues closed / open | 2.1k / 465 (82% closed) | GitHub API |
-| npm weekly downloads | 6.2k | npm (`vuestic-ui` 1.10.3) |
+| npm weekly downloads | 7.7k | npm (`vuestic-ui` 1.10.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vuestic-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vuestic-ui.md_

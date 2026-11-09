@@ -20,7 +20,7 @@
 | Source | https://github.com/tremorlabs/tremor |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 200 | GitHub API |
 | Contributors (incl. anonymous) | 4 | GitHub API |
 | Issues closed / open | 41 / 18 (69% closed) | GitHub API |
-| npm weekly downloads | 530.1k | npm (`@tremor/react` 3.18.7) |
+| npm weekly downloads | 536.4k | npm (`@tremor/react` 3.18.7) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -37,7 +37,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 390 days ago).
+- maintenance has slowed (last activity 394 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
@@ -76,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://t
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 390 days ago (12-24 months).
+Quality gate: activity **watch**; traction via stars, npm, orgBacked. Notes: Last activity 394 days ago (12-24 months).
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tremor.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tremor.md_

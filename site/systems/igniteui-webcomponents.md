@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 12.5k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-06 |
 | Docs | https://www.infragistics.com/products/ignite-ui-web-components |
 | Source | https://github.com/IgniteUI/igniteui-webcomponents |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 170 | GitHub API (IgniteUI/igniteui-webcomponents) |
 | GitHub forks | 12 | GitHub API |
 | Contributors (incl. anonymous) | 52 | GitHub API |
-| Issues closed / open | 767 / 47 (94% closed) | GitHub API |
-| npm weekly downloads | 11.6k | npm (`igniteui-webcomponents` 7.4.1) |
+| Issues closed / open | 769 / 45 (94% closed) | GitHub API |
+| npm weekly downloads | 17.2k | npm (`igniteui-webcomponents` 7.4.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.infragistics.com/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/igniteui-webcomponents.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/igniteui-webcomponents.md_

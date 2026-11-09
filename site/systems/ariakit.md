@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.1k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://ariakit.org |
 | Source | https://github.com/ariakit/ariakit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.6k | GitHub API (ariakit/ariakit) |
-| GitHub forks | 424 | GitHub API |
+| GitHub forks | 423 | GitHub API |
 | Contributors (incl. anonymous) | 126 | GitHub API |
-| Issues closed / open | 1.1k / 46 (96% closed) | GitHub API |
-| npm weekly downloads | 2.0M | npm (`@ariakit/react` 0.4.42) |
+| Issues closed / open | 1.1k / 48 (96% closed) | GitHub API |
+| npm weekly downloads | 2.2M | npm (`@ariakit/react` 0.4.43) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/ariakit.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ariakit.md_

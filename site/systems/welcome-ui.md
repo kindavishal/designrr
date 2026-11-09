@@ -16,12 +16,12 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 1.9k KB |
 | License | MIT |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-05 |
 | Docs | https://welcome-ui.com |
 | Source | https://github.com/WTTJ/welcome-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 54 | GitHub API |
 | Contributors (incl. anonymous) | 49 | GitHub API |
 | Issues closed / open | 339 / 4 (99% closed) | GitHub API |
-| npm weekly downloads | 1.7k | npm (`welcome-ui` 10.7.3) |
+| npm weekly downloads | 1.7k | npm (`welcome-ui` 10.7.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://welcome-ui.com/llms.txt
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/welcome-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/welcome-ui.md_

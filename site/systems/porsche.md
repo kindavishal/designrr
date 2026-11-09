@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-05 |
 | Docs | https://designsystem.porsche.com |
 | Source | https://github.com/porsche-design-system/porsche-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 674 | GitHub API (porsche-design-system/porsche-design-system) |
+| GitHub stars | 677 | GitHub API (porsche-design-system/porsche-design-system) |
 | GitHub forks | 64 | GitHub API |
 | Contributors (incl. anonymous) | 45 | GitHub API |
-| Issues closed / open | 2.0k / 202 (91% closed) | GitHub API |
-| npm weekly downloads | 42.0k | npm (`@porsche-design-system/components-js` 4.10.1) |
+| Issues closed / open | 2.0k / 204 (91% closed) | GitHub API |
+| npm weekly downloads | 48.4k | npm (`@porsche-design-system/components-js` 4.10.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -88,4 +88,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/porsche.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/porsche.md_

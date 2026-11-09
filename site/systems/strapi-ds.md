@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **25/100** |
+| AI-readiness | **30/100** |
 | Maintainer | Strapi (org-backed) |
 | Platforms | web |
 | Frameworks | react |
@@ -13,31 +13,31 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | cms, admin, content |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 587 KB |
+| Package size (unpacked) | 662 KB |
 | License | MIT |
-| Last activity | 2026-10-30 |
+| Last activity | 2026-11-09 |
 | Docs | https://design-system.strapi.io |
 | Source | https://github.com/strapi/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 540 | GitHub API (strapi/design-system) |
-| GitHub forks | 206 | GitHub API |
-| Contributors (incl. anonymous) | 84 | GitHub API |
-| Issues closed / open | 236 / 10 (96% closed) | GitHub API |
-| npm weekly downloads | 385.9k | npm (`@strapi/design-system` 2.2.4) |
+| GitHub forks | 207 | GitHub API |
+| Contributors (incl. anonymous) | 86 | GitHub API |
+| Issues closed / open | 239 / 10 (96% closed) | GitHub API |
+| npm weekly downloads | 367.5k | npm (`@strapi/design-system` 2.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
+- **Agent/contributor docs in repo:** https://github.com/strapi/design-system/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
-- you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -69,12 +69,12 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 0/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/strapi-ds.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/strapi-ds.md_

@@ -21,15 +21,15 @@
 | Same family | [Radix Primitives](radix-primitives.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.8k | GitHub API (radix-ui/themes) |
 | GitHub forks | 345 | GitHub API |
 | Contributors (incl. anonymous) | 28 | GitHub API |
-| Issues closed / open | 282 / 155 (65% closed) | GitHub API |
-| npm weekly downloads | 1.4M | npm (`@radix-ui/themes` 3.3.0) |
+| Issues closed / open | 282 / 156 (64% closed) | GitHub API |
+| npm weekly downloads | 1.5M | npm (`@radix-ui/themes` 3.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -91,4 +91,4 @@ Configure the `Theme`: `<Theme accentColor="crimson" grayColor="sand" radius="la
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/radix-themes.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/radix-themes.md_

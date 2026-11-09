@@ -15,19 +15,19 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://ui.nuxt.com |
 | Source | https://github.com/nuxt/ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 7.1k | GitHub API (nuxt/ui) |
 | GitHub forks | 1.2k | GitHub API |
-| Contributors (incl. anonymous) | 404 | GitHub API |
-| Issues closed / open | 3.7k / 158 (96% closed) | GitHub API |
+| Contributors (incl. anonymous) | 405 | GitHub API |
+| Issues closed / open | 3.7k / 159 (96% closed) | GitHub API |
 | npm weekly downloads | 1.0M | npm (`@nuxt/ui` 4.12.0) |
 
 ## AI resources (use these first)
@@ -111,4 +111,4 @@ Custom colour scales go in CSS with Tailwind's `@theme`; per-component `ui` prop
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nuxt-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nuxt-ui.md_

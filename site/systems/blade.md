@@ -14,22 +14,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | fintech, payments, dashboard |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 50.7k KB |
+| Package size (unpacked) | 50.8k KB |
 | License | MIT |
-| Last activity | 2026-10-29 |
+| Last activity | 2026-11-06 |
 | Docs | https://blade.razorpay.com |
 | Source | https://github.com/razorpay/blade |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 664 | GitHub API (razorpay/blade) |
+| GitHub stars | 665 | GitHub API (razorpay/blade) |
 | GitHub forks | 205 | GitHub API |
 | Contributors (incl. anonymous) | 125 | GitHub API |
-| Issues closed / open | 330 / 102 (76% closed) | GitHub API |
-| npm weekly downloads | 5.3k | npm (`@razorpay/blade` 12.130.2) |
+| Issues closed / open | 330 / 103 (76% closed) | GitHub API |
+| npm weekly downloads | 11.1k | npm (`@razorpay/blade` 12.131.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/blade.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/blade.md_

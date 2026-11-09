@@ -1,6 +1,31 @@
 {
-  "harvestedAt": "2026-11-05",
+  "harvestedAt": "2026-11-09",
   "note": "Repos found by topic search that are not in the seed or exclude list. Triage: promote to curation/seed-community.json or add to curation/curation.json exclude.",
-  "count": 0,
-  "queue": []
+  "count": 4,
+  "queue": [
+    {
+      "repo": "feimacode/open-design-agent-kit",
+      "stars": 1075,
+      "description": "Make posters, social posts, slides and landing pages in the coding agent or chat you already use (Copilot, Claude, Codex, Cursor), with 198 design systems, checks and PDF/PNG/PowerPoint export.",
+      "query": "topic:design-systems"
+    },
+    {
+      "repo": "ShuaiMXu/happyhands",
+      "stars": 313,
+      "description": "Open-source, AI-assisted UI design review for coding agents. Inspect screenshots, scope code changes and compare results in a local workbench. Alpha.",
+      "query": "topic:design-systems"
+    },
+    {
+      "repo": "Seokwoooo/lucian-uxui-prompt",
+      "stars": 307,
+      "description": "400 interactive UI elements you can try live, then copy as an AI prompt or working code: 200 interface parts and 200 website sections and animations. Light/dark, MIT.",
+      "query": "topic:design-system"
+    },
+    {
+      "repo": "NEORUAA/Glasmio",
+      "stars": 110,
+      "description": "A Jetpack Compose UI framework bringing a faithful 1:1 recreation of iOS 27 Liquid Glass, animations, controls, and interactions to Android.",
+      "query": "topic:jetpack-compose topic:design-system"
+    }
+  ]
 }

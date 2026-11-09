@@ -20,15 +20,15 @@
 | Source | https://github.com/lobehub/lobe-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (lobehub/lobe-ui) |
-| GitHub forks | 278 | GitHub API |
+| GitHub forks | 277 | GitHub API |
 | Contributors (incl. anonymous) | 49 | GitHub API |
 | Issues closed / open | 56 / 27 (67% closed) | GitHub API |
-| npm weekly downloads | 651.2k | npm (`@lobehub/ui` 6.15.2) |
+| npm weekly downloads | 605.4k | npm (`@lobehub/ui` 6.15.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ui.lobehub.com/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/lobe-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/lobe-ui.md_

@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 8.3k KB |
 | License | GPL-2.0 |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-05 |
 | Docs | https://doc.wikimedia.org/codex/latest/ |
 | Source | https://github.com/wikimedia/design-codex |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 29 | GitHub API |
 | Contributors (incl. anonymous) | 84 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 5.0k | npm (`@wikimedia/codex` 2.7.0) |
+| npm weekly downloads | 13.4k | npm (`@wikimedia/codex` 2.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/codex.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/codex.md_

@@ -21,7 +21,7 @@
 | Same family | [PatternFly](patternfly.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 109 | GitHub API |
 | Contributors (incl. anonymous) | 61 | GitHub API |
 | Issues closed / open | 921 / 156 (86% closed) | GitHub API |
-| npm weekly downloads | 10.1k | npm (`@patternfly/elements` 5.0.0) |
+| npm weekly downloads | 10.4k | npm (`@patternfly/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/patternfly-elements.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/patternfly-elements.md_

@@ -21,7 +21,7 @@
 | Source | https://github.com/rei/rei-cedar |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 11 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
 | Issues closed / open | 3 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 1.3k | npm (`@rei/cedar` 17.1.0) |
+| npm weekly downloads | 767 | npm (`@rei/cedar` 17.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cedar.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/cedar.md_

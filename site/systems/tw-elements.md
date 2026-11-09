@@ -20,7 +20,7 @@
 | Source | https://github.com/mdbootstrap/TW-Elements |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 1.6k | GitHub API |
 | Contributors (incl. anonymous) | 145 | GitHub API |
 | Issues closed / open | 526 / 105 (83% closed) | GitHub API |
-| npm weekly downloads | 30.6k | npm (`tw-elements` 2.0.0) |
+| npm weekly downloads | 34.2k | npm (`tw-elements` 2.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/tw-elements.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tw-elements.md_

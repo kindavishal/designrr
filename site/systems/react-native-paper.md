@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.7k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-09 |
 | Docs | https://callstack.github.io/react-native-paper/ |
 | Source | https://github.com/callstack/react-native-paper |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 14.5k | GitHub API (callstack/react-native-paper) |
 | GitHub forks | 2.3k | GitHub API |
-| Contributors (incl. anonymous) | 379 | GitHub API |
-| Issues closed / open | 2.4k / 324 (88% closed) | GitHub API |
-| npm weekly downloads | 634.8k | npm (`react-native-paper` 5.15.4) |
+| Contributors (incl. anonymous) | 384 | GitHub API |
+| Issues closed / open | 2.5k / 328 (88% closed) | GitHub API |
+| npm weekly downloads | 638.0k | npm (`react-native-paper` 5.15.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://callstack.github.io/react-native-paper/llms.txt
@@ -89,4 +89,4 @@ Generate a full Material 3 colour scheme from one brand colour (the theming guid
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-native-paper.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/react-native-paper.md_

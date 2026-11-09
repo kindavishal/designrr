@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 7.5k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-06 |
 | Docs | https://kumo-ui.com |
 | Source | https://github.com/cloudflare/kumo |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.2k | GitHub API (cloudflare/kumo) |
-| GitHub forks | 202 | GitHub API |
-| Contributors (incl. anonymous) | 65 | GitHub API |
-| Issues closed / open | 70 / 18 (80% closed) | GitHub API |
-| npm weekly downloads | 731.3k | npm (`@cloudflare/kumo` 2.17.0) |
+| GitHub forks | 206 | GitHub API |
+| Contributors (incl. anonymous) | 66 | GitHub API |
+| Issues closed / open | 71 / 18 (80% closed) | GitHub API |
+| npm weekly downloads | 715.4k | npm (`@cloudflare/kumo` 2.17.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://kumo-ui.com/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/cloudflare-kumo.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/cloudflare-kumo.md_

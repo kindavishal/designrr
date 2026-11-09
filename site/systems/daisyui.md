@@ -15,16 +15,16 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| Last activity | 2026-10-13 |
+| Last activity | 2026-11-08 |
 | Docs | https://daisyui.com |
 | Source | https://github.com/saadeghi/daisyui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 42.7k | GitHub API (saadeghi/daisyui) |
+| GitHub stars | 42.8k | GitHub API (saadeghi/daisyui) |
 | GitHub forks | 1.7k | GitHub API |
 | Contributors (incl. anonymous) | 317 | GitHub API |
 | Issues closed / open | 2.2k / 23 (99% closed) | GitHub API |
@@ -105,4 +105,4 @@ The theme generator on daisyui.com produces these blocks.
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/daisyui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/daisyui.md_

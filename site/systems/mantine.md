@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | saas, dashboard, admin, startup-mvp; shapes: saas-app, app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 9.8k KB |
+| Package size (unpacked) | 10.4k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-09 |
 | Docs | https://mantine.dev |
 | Source | https://github.com/mantinedev/mantine |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 31.9k | GitHub API (mantinedev/mantine) |
 | GitHub forks | 2.4k | GitHub API |
 | Contributors (incl. anonymous) | 840 | GitHub API |
-| Issues closed / open | 3.7k / 11 (100% closed) | GitHub API |
-| npm weekly downloads | 3.6M | npm (`@mantine/core` 9.7.5) |
+| Issues closed / open | 3.7k / 12 (100% closed) | GitHub API |
+| npm weekly downloads | 3.7M | npm (`@mantine/core` 9.8.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://mantine.dev/llms.txt
@@ -45,7 +45,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v9, checked against https://mantine.dev/llms/getting-started.md on 2026-11-05; latest release 9.7.5._
+_Hand-written guide for v9, checked against https://mantine.dev/llms/getting-started.md on 2026-11-05; latest release 9.8.0._
 
 ## Install
 Quickest: start from an official template (Next.js or Vite) on mantine.dev. Existing app:
@@ -100,4 +100,4 @@ Everything goes through `createTheme`: `colors` (10-shade tuples), `primaryColor
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/mantine.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/mantine.md_

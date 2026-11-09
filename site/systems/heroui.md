@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 936 KB |
 | License | Apache-2.0 |
-| Last activity | 2026-10-30 |
+| Last activity | 2026-11-06 |
 | Docs | https://www.heroui.com |
 | Source | https://github.com/heroui-inc/heroui |
 | Same family | [HeroUI Native](heroui-native.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 31.1k | GitHub API (heroui-inc/heroui) |
+| GitHub stars | 31.2k | GitHub API (heroui-inc/heroui) |
 | GitHub forks | 2.2k | GitHub API |
 | Contributors (incl. anonymous) | 248 | GitHub API |
-| Issues closed / open | 2.9k / 6 (100% closed) | GitHub API |
+| Issues closed / open | 2.9k / 7 (100% closed) | GitHub API |
 | npm weekly downloads | 1.2M | npm (`@heroui/react` 3.2.7) |
 
 ## AI resources (use these first)
@@ -103,4 +103,4 @@ Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" da
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_

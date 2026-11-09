@@ -20,14 +20,14 @@
 | Same family | [Fluent UI](fluent-ui.md), [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Apple](fluentui-apple.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 684 | GitHub API (microsoft/fluentui-android) |
+| GitHub stars | 683 | GitHub API (microsoft/fluentui-android) |
 | GitHub forks | 127 | GitHub API |
 | Contributors (incl. anonymous) | 60 | GitHub API |
-| Issues closed / open | 68 / 3 (96% closed) | GitHub API |
+| Issues closed / open | 67 / 3 (96% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://github.com/llms.txt
@@ -73,4 +73,4 @@ See https://github.com/microsoft/fluentui-android for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluentui-android.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fluentui-android.md_

@@ -21,7 +21,7 @@
 | Same family | [Angular DevUI](ng-devui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 283 | GitHub API |
 | Contributors (incl. anonymous) | 150 | GitHub API |
 | Issues closed / open | 249 / 118 (68% closed) | GitHub API |
-| npm weekly downloads | 597 | npm (`vue-devui` 1.6.37) |
+| npm weekly downloads | 831 | npm (`vue-devui` 1.6.37) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vue-devui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vue-devui.md_

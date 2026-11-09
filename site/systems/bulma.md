@@ -20,7 +20,7 @@
 | Source | https://github.com/jgthms/bulma |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 3.9k | GitHub API |
 | Contributors (incl. anonymous) | 430 | GitHub API |
 | Issues closed / open | 2.4k / 349 (87% closed) | GitHub API |
-| npm weekly downloads | 471.3k | npm (`bulma` 1.0.4) |
+| npm weekly downloads | 448.9k | npm (`bulma` 1.0.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/bulma.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/bulma.md_

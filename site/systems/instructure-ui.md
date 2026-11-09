@@ -20,7 +20,7 @@
 | Source | https://github.com/instructure/instructure-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 111 | GitHub API |
 | Contributors (incl. anonymous) | 130 | GitHub API |
 | Issues closed / open | 284 / 7 (98% closed) | GitHub API |
-| npm weekly downloads | 7.7k | npm (`@instructure/ui` 11.7.10) |
+| npm weekly downloads | 6.7k | npm (`@instructure/ui` 11.7.10) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://instructure.design/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://i
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/instructure-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/instructure-ui.md_

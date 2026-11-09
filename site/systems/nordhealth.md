@@ -20,11 +20,11 @@
 | Docs | https://nordhealth.design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 12.6k | npm (`@nordhealth/components` 5.5.2) |
+| npm weekly downloads | 13.9k | npm (`@nordhealth/components` 5.5.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://nordhealth.design/llms.txt
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_

@@ -16,12 +16,12 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.4k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-07 |
 | Docs | https://circuit.sumup.com |
 | Source | https://github.com/sumup-oss/circuit-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 131 | GitHub API |
 | Contributors (incl. anonymous) | 98 | GitHub API |
 | Issues closed / open | 228 / 3 (99% closed) | GitHub API |
-| npm weekly downloads | 4.0k | npm (`@sumup-oss/circuit-ui` 12.6.0) |
+| npm weekly downloads | 4.5k | npm (`@sumup-oss/circuit-ui` 12.6.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/circuit-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/circuit-ui.md_

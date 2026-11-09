@@ -15,19 +15,19 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 7.5k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-06 |
 | Docs | https://material.angular.dev |
 | Source | https://github.com/angular/components |
 | Same family | [Flutter Material 3](flutter-material.md), [Material Design 3 for Android (Compose)](material-android.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 25.0k | GitHub API (angular/components) |
-| GitHub forks | 6.8k | GitHub API |
-| Contributors (incl. anonymous) | 922 | GitHub API |
+| GitHub forks | 6.9k | GitHub API |
+| Contributors (incl. anonymous) | 924 | GitHub API |
 | Issues closed / open | 15.1k / 1.2k (93% closed) | GitHub API |
 | npm weekly downloads | 3.3M | npm (`@angular/material` 22.2.6) |
 
@@ -103,4 +103,4 @@ Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` C
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_

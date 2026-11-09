@@ -20,15 +20,15 @@
 | Source | https://github.com/mlaursen/react-md |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (mlaursen/react-md) |
-| GitHub forks | 295 | GitHub API |
+| GitHub forks | 294 | GitHub API |
 | Contributors (incl. anonymous) | 84 | GitHub API |
-| Issues closed / open | 714 / 18 (98% closed) | GitHub API |
-| npm weekly downloads | 8.5k | npm (`react-md` 7.0.8) |
+| Issues closed / open | 714 / 19 (97% closed) | GitHub API |
+| npm weekly downloads | 7.0k | npm (`react-md` 7.0.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/react-md.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/react-md.md_

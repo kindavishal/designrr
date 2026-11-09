@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.2k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-06 |
 | Docs | https://react.fluentui.dev |
 | Source | https://github.com/microsoft/fluentui |
 | Same family | [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Apple](fluentui-apple.md), [Fluent UI Android](fluentui-android.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 20.4k | GitHub API (microsoft/fluentui) |
 | GitHub forks | 3.0k | GitHub API |
 | Contributors (incl. anonymous) | 975 | GitHub API |
-| Issues closed / open | 13.3k / 467 (97% closed) | GitHub API |
-| npm weekly downloads | 664.3k | npm (`@fluentui/react-components` 9.75.1) |
+| Issues closed / open | 13.3k / 468 (97% closed) | GitHub API |
+| npm weekly downloads | 674.3k | npm (`@fluentui/react-components` 9.75.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://react.fluentui.dev/llms.txt
@@ -91,4 +91,4 @@ Build a 16-step `BrandVariants` ramp (the Theme Designer in the docs generates o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui.md_

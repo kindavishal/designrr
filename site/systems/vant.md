@@ -20,7 +20,7 @@
 | Source | https://github.com/youzan/vant |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-05; nothing is estimated.
+Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-05; nothing is estimated.
 | GitHub forks | 9.4k | GitHub API |
 | Contributors (incl. anonymous) | 393 | GitHub API |
 | Issues closed / open | 7.3k / 180 (98% closed) | GitHub API |
-| npm weekly downloads | 100.5k | npm (`vant` 4.10.2) |
+| npm weekly downloads | 105.4k | npm (`vant` 4.10.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-05. Agent-readable source: https://designrr.vercel.app/systems/vant.md_
+_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vant.md_
