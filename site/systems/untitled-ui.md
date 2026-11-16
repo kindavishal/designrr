@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 272 KB |
 | License | MIT |
-| Last activity | 2026-10-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://www.untitledui.com/react |
 | Source | https://github.com/untitleduico/react |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.0k | GitHub API (untitleduico/react) |
-| GitHub forks | 189 | GitHub API |
-| Contributors (incl. anonymous) | 15 | GitHub API |
-| Issues closed / open | 87 / 9 (91% closed) | GitHub API |
-| npm weekly downloads | 7.9k | npm (`untitledui` 0.1.69) |
+| GitHub forks | 190 | GitHub API |
+| Contributors (incl. anonymous) | 17 | GitHub API |
+| Issues closed / open | 94 / 2 (98% closed) | GitHub API |
+| npm weekly downloads | 9.1k | npm (`untitledui` 0.1.69) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.untitledui.com/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/untitled-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/untitled-ui.md_

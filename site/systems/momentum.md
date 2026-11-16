@@ -21,15 +21,15 @@
 | Source | https://github.com/momentum-design/momentum-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 45 | GitHub API (momentum-design/momentum-design) |
-| GitHub forks | 68 | GitHub API |
+| GitHub forks | 69 | GitHub API |
 | Contributors (incl. anonymous) | 50 | GitHub API |
 | Issues closed / open | 47 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 10.1k | npm (`@momentum-design/components` 0.143.2) |
+| npm weekly downloads | 10.4k | npm (`@momentum-design/components` 0.143.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -86,4 +86,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/momentum.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/momentum.md_

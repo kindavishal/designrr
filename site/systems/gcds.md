@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.2k KB |
 | License | MIT |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-10 |
 | Docs | https://design-system.alpha.canada.ca |
 | Source | https://github.com/cds-snc/gcds-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 95 | GitHub API (cds-snc/gcds-components) |
 | GitHub forks | 34 | GitHub API |
-| Contributors (incl. anonymous) | 49 | GitHub API |
-| Issues closed / open | 139 / 99 (58% closed) | GitHub API |
-| npm weekly downloads | 4.2k | npm (`@gcds-core/components` 1.7.0) |
+| Contributors (incl. anonymous) | 50 | GitHub API |
+| Issues closed / open | 141 / 102 (58% closed) | GitHub API |
+| npm weekly downloads | 3.4k | npm (`@gcds-core/components` 1.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/gcds.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/gcds.md_

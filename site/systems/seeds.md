@@ -20,11 +20,11 @@
 | Docs | https://seeds.sproutsocial.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 1.3k | npm (`@sproutsocial/racine` 33.0.8) |
+| npm weekly downloads | 1.0k | npm (`@sproutsocial/racine` 33.0.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/seeds.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/seeds.md_

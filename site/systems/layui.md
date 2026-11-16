@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 3.1k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-12 |
 | Docs | https://layui.dev |
 | Source | https://github.com/layui/layui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 30.6k | GitHub API (layui/layui) |
 | GitHub forks | 7.3k | GitHub API |
-| Contributors (incl. anonymous) | 76 | GitHub API |
-| Issues closed / open | 1.5k / 38 (97% closed) | GitHub API |
-| npm weekly downloads | 7.7k | npm (`layui` 2.13.9) |
+| Contributors (incl. anonymous) | 77 | GitHub API |
+| Issues closed / open | 1.5k / 40 (97% closed) | GitHub API |
+| npm weekly downloads | 7.4k | npm (`layui` 2.13.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/layui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/layui.md_

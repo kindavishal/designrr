@@ -20,11 +20,11 @@
 | Docs | https://splunkui.splunk.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 4.3k | npm (`@splunk/react-ui` 5.18.0) |
+| npm weekly downloads | 3.7k | npm (`@splunk/react-ui` 5.18.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://splunkui.splunk.com/llms.txt
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_

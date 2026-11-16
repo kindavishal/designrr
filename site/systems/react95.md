@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 711 KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-12 |
 | Docs | https://react95.github.io/React95/ |
 | Source | https://github.com/React95/React95 |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.8k | GitHub API (React95/React95) |
-| GitHub forks | 161 | GitHub API |
-| Contributors (incl. anonymous) | 56 | GitHub API |
-| Issues closed / open | 135 / 9 (94% closed) | GitHub API |
-| npm weekly downloads | 1.8k | npm (`react95` 4.0.0) |
+| GitHub forks | 166 | GitHub API |
+| Contributors (incl. anonymous) | 61 | GitHub API |
+| Issues closed / open | 142 / 5 (97% closed) | GitHub API |
+| npm weekly downloads | 1.3k | npm (`react95` 4.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/react95.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react95.md_

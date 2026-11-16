@@ -21,15 +21,15 @@
 | Same family | [Système de Design de l'État (France)](dsfr.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 497 | GitHub API (codegouvfr/react-dsfr) |
+| GitHub stars | 498 | GitHub API (codegouvfr/react-dsfr) |
 | GitHub forks | 100 | GitHub API |
 | Contributors (incl. anonymous) | 82 | GitHub API |
-| Issues closed / open | 195 / 33 (86% closed) | GitHub API |
-| npm weekly downloads | 17.2k | npm (`@codegouvfr/react-dsfr` 1.36.0) |
+| Issues closed / open | 195 / 35 (85% closed) | GitHub API |
+| npm weekly downloads | 12.2k | npm (`@codegouvfr/react-dsfr` 1.36.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/react-dsfr.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-dsfr.md_

@@ -15,19 +15,19 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 103 KB |
 | License | MIT |
-| Last activity | 2026-11-06 |
+| Last activity | 2026-11-15 |
 | Docs | https://saas-ui.dev |
 | Source | https://github.com/saas-js/saas-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.7k | GitHub API (saas-js/saas-ui) |
 | GitHub forks | 171 | GitHub API |
 | Contributors (incl. anonymous) | 39 | GitHub API |
-| Issues closed / open | 153 / 20 (88% closed) | GitHub API |
+| Issues closed / open | 173 / 0 (100% closed) | GitHub API |
 | npm weekly downloads | 7.2k | npm (`@saas-ui/react` 2.11.4) |
 
 ## AI resources (use these first)
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/saas-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/saas-ui.md_

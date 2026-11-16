@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 5.2k KB |
 | License | MIT |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-15 |
 | Docs | https://tamagui.dev |
 | Source | https://github.com/tamagui/tamagui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 14.3k | GitHub API (tamagui/tamagui) |
-| GitHub forks | 628 | GitHub API |
+| GitHub forks | 629 | GitHub API |
 | Contributors (incl. anonymous) | 256 | GitHub API |
-| Issues closed / open | 1.5k / 64 (96% closed) | GitHub API |
-| npm weekly downloads | 290.7k | npm (`tamagui` 3.3.1) |
+| Issues closed / open | 1.5k / 63 (96% closed) | GitHub API |
+| npm weekly downloads | 292.6k | npm (`tamagui` 3.3.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://tamagui.dev/llms.txt
@@ -41,7 +41,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide for v3, checked against https://tamagui.dev/llms.txt on 2026-11-05; latest release 3.3.1._
+_Hand-written guide for v3, checked against https://tamagui.dev/llms.txt on 2026-11-05; latest release 3.3.3._
 
 ## Install
 New cross-platform app (Expo + Next.js starter):
@@ -102,4 +102,4 @@ Tokens and themes are typed in the config: use `$tokens` (`bg="$background"`, `p
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tamagui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/tamagui.md_

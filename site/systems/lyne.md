@@ -9,27 +9,27 @@
 | Maintainer | Swiss Federal Railways (org-backed) |
 | Brand-locked | **yes**: SBB (Swiss railways) brand identity. |
 | Platforms | web |
-| Frameworks | web-components |
+| Frameworks | web-components, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | transport, consumer, public-service |
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 10.3k KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://lyne-storybook.app.sbb.ch |
 | Source | https://github.com/sbb-design-systems/lyne-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 69 | GitHub API (sbb-design-systems/lyne-components) |
-| GitHub forks | 20 | GitHub API |
-| Contributors (incl. anonymous) | 50 | GitHub API |
-| Issues closed / open | 840 / 56 (94% closed) | GitHub API |
-| npm weekly downloads | 2.3k | npm (`@sbb-esta/lyne-elements` 5.13.1) |
+| GitHub forks | 21 | GitHub API |
+| Contributors (incl. anonymous) | 51 | GitHub API |
+| Issues closed / open | 844 / 57 (94% closed) | GitHub API |
+| npm weekly downloads | 2.3k | npm (`@sbb-esta/lyne-elements` 5.13.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -38,12 +38,16 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 ## Consider an alternative if
 - you are not that brand. SBB (Swiss railways) brand identity.
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script src="https://cdn.jsdelivr.net/npm/@sbb-esta/lyne-elements@5.13.2/index.min.js"></script>
+```
+Check the docs for the recommended files: https://lyne-storybook.app.sbb.ch
 ```bash
 npm install @sbb-esta/lyne-elements
 ```
@@ -80,4 +84,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/lyne.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/lyne.md_

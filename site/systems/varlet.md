@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.1k KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-13 |
 | Docs | https://varletjs.org |
 | Source | https://github.com/varletjs/varlet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 5.3k | GitHub API (varletjs/varlet) |
-| GitHub forks | 617 | GitHub API |
-| Contributors (incl. anonymous) | 127 | GitHub API |
+| GitHub forks | 618 | GitHub API |
+| Contributors (incl. anonymous) | 128 | GitHub API |
 | Issues closed / open | 730 / 10 (99% closed) | GitHub API |
-| npm weekly downloads | 2.2k | npm (`@varlet/ui` 3.20.10) |
+| npm weekly downloads | 2.8k | npm (`@varlet/ui` 3.20.11) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/varlet.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/varlet.md_

@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 16.4k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-06 |
+| Last activity | 2026-11-15 |
 | Docs | https://sap.github.io/fundamental-styles/ |
 | Source | https://github.com/SAP/fundamental-styles |
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP UI5 Web Components](ui5.md), [UI5 Web Components for React](ui5-react.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 75 | GitHub API |
 | Contributors (incl. anonymous) | 95 | GitHub API |
 | Issues closed / open | 1.6k / 17 (99% closed) | GitHub API |
-| npm weekly downloads | 30.0k | npm (`fundamental-styles` 0.42.0) |
+| npm weekly downloads | 27.9k | npm (`fundamental-styles` 0.42.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fundamental-styles.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fundamental-styles.md_

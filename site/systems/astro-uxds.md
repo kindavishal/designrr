@@ -21,7 +21,7 @@
 | Source | https://github.com/RocketCommunicationsInc/astro |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/astro-uxds.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/astro-uxds.md_

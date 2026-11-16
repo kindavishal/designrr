@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 65 KB |
 | License | MIT |
-| Last activity | 2026-11-06 |
+| Last activity | 2026-11-10 |
 | Docs | https://khan.github.io/wonder-blocks/ |
 | Source | https://github.com/Khan/wonder-blocks |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 163 | GitHub API (Khan/wonder-blocks) |
-| GitHub forks | 12 | GitHub API |
+| GitHub forks | 13 | GitHub API |
 | Contributors (incl. anonymous) | 74 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 7.7k | npm (`@khanacademy/wonder-blocks-core` 12.5.0) |
+| npm weekly downloads | 16.1k | npm (`@khanacademy/wonder-blocks-core` 12.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/wonder-blocks.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/wonder-blocks.md_

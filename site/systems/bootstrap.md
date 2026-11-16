@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 9.4k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-14 |
 | Docs | https://getbootstrap.com |
 | Source | https://github.com/twbs/bootstrap |
 | Same family | [BootstrapVueNext](bootstrap-vue-next.md), [React Bootstrap](react-bootstrap.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 175.0k | GitHub API (twbs/bootstrap) |
-| GitHub forks | 78.8k | GitHub API |
+| GitHub stars | 175.1k | GitHub API (twbs/bootstrap) |
+| GitHub forks | 79.4k | GitHub API |
 | Contributors (incl. anonymous) | 1.7k | GitHub API |
-| Issues closed / open | 22.9k / 145 (99% closed) | GitHub API |
-| npm weekly downloads | 7.8M | npm (`bootstrap` 5.3.8) |
+| Issues closed / open | 22.9k / 144 (99% closed) | GitHub API |
+| npm weekly downloads | 7.5M | npm (`bootstrap` 5.3.9) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://getbootstrap.com/llms.txt
@@ -43,8 +43,8 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 ## Install
 No build step needed. From the CDN (pinned to the current release):
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.min.js"></script>
 ```
 Check the docs for the recommended files: https://getbootstrap.com
 ```bash
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/bootstrap.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/bootstrap.md_

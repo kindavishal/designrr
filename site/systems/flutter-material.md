@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **60/100** |
+| AI-readiness | **65/100** |
 | Maintainer | Google (org-backed) |
 | Platforms | ios, android, web, desktop |
 | Frameworks | flutter |
@@ -14,23 +14,24 @@
 | Good for | mobile, cross-platform, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / yes |
 | License | BSD-3-Clause |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-16 |
 | Docs | https://docs.flutter.dev/ui/design/material |
 | Source | https://github.com/flutter/flutter |
 | Same family | [Material Design 3 for Android (Compose)](material-android.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 181.1k | GitHub API (flutter/flutter) |
-| GitHub forks | 32.6k | GitHub API |
+| GitHub stars | 181.3k | GitHub API (flutter/flutter) |
+| GitHub forks | 32.2k | GitHub API |
 | Contributors (incl. anonymous) | 2.5k | GitHub API |
-| Issues closed / open | 104.1k / 12.8k (89% closed) | GitHub API |
+| Issues closed / open | 104.2k / 12.8k (89% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://docs.flutter.dev/llms.txt
+- **llms-full.txt:** https://docs.flutter.dev/llms-full.txt
 - **MCP server:**
   - `dart mcp-server`
     ```json
@@ -77,7 +78,7 @@ One seed colour generates the full Material 3 scheme; customise `textTheme` and 
 |---|---|
 | Official MCP server (agent can query components/docs live) | 20/20 |
 | llms.txt on the docs site | 15/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
@@ -89,4 +90,4 @@ One seed colour generates the full Material 3 scheme; customise `textTheme` and 
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/flutter-material.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/flutter-material.md_

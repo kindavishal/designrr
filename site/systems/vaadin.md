@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 42 KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://vaadin.com/docs/latest/components |
 | Source | https://github.com/vaadin/web-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 585 | GitHub API (vaadin/web-components) |
-| GitHub forks | 106 | GitHub API |
-| Contributors (incl. anonymous) | 163 | GitHub API |
-| Issues closed / open | 2.3k / 903 (72% closed) | GitHub API |
-| npm weekly downloads | 112.1k | npm (`@vaadin/button` 25.3.5) |
+| GitHub forks | 105 | GitHub API |
+| Contributors (incl. anonymous) | 164 | GitHub API |
+| Issues closed / open | 2.3k / 910 (71% closed) | GitHub API |
+| npm weekly downloads | 117.7k | npm (`@vaadin/button` 25.3.6) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://vaadin.com/docs/latest/components/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vaadin.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vaadin.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 14.9k KB |
 | License | MIT |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-12 |
 | Docs | https://po-ui.io |
 | Source | https://github.com/po-ui/po-angular |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.0k | GitHub API (po-ui/po-angular) |
-| GitHub forks | 240 | GitHub API |
+| GitHub forks | 242 | GitHub API |
 | Contributors (incl. anonymous) | 103 | GitHub API |
-| Issues closed / open | 520 / 91 (85% closed) | GitHub API |
-| npm weekly downloads | 6.0k | npm (`@po-ui/ng-components` 21.36.0) |
+| Issues closed / open | 525 / 86 (86% closed) | GitHub API |
+| npm weekly downloads | 5.8k | npm (`@po-ui/ng-components` 21.37.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://po-ui.io/llms.txt
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/po-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/po-ui.md_

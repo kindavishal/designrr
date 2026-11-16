@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **solid** |
-| AI-readiness | **20/100** |
+| AI-readiness | **25/100** |
 | Maintainer | Ariakit |
 | Platforms | web |
 | Frameworks | react |
@@ -15,24 +15,25 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.1k KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://ariakit.org |
 | Source | https://github.com/ariakit/ariakit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.6k | GitHub API (ariakit/ariakit) |
-| GitHub forks | 423 | GitHub API |
+| GitHub forks | 424 | GitHub API |
 | Contributors (incl. anonymous) | 126 | GitHub API |
-| Issues closed / open | 1.1k / 48 (96% closed) | GitHub API |
+| Issues closed / open | 1.1k / 53 (96% closed) | GitHub API |
 | npm weekly downloads | 2.2M | npm (`@ariakit/react` 0.4.43) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
+- **Agent/contributor docs in repo:** https://github.com/ariakit/ariakit/blob/HEAD/nextjs/AGENTS.md
 
 ## Consider an alternative if
 - you want a finished visual style out of the box. This is headless; you supply all styling.
@@ -69,12 +70,12 @@ Then follow the framework setup in the official getting-started guide: https://a
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
-| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 0/5 |
+| Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 0/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ariakit.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ariakit.md_

@@ -21,14 +21,14 @@
 | Source | https://github.com/baloise/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 114 | GitHub API (baloise/design-system) |
 | GitHub forks | 31 | GitHub API |
 | Contributors (incl. anonymous) | 51 | GitHub API |
-| Issues closed / open | 884 / 0 (100% closed) | GitHub API |
+| Issues closed / open | 885 / 0 (100% closed) | GitHub API |
 | npm weekly downloads | 1.1k | npm (`@baloise/ds-core` 19.11.0) |
 
 ## AI resources (use these first)
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/baloise.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/baloise.md_

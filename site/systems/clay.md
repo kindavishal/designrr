@@ -15,12 +15,12 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 690 KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-14 |
 | Docs | https://clayui.com |
 | Source | https://github.com/liferay/clay |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 533 | GitHub API |
 | Contributors (incl. anonymous) | 94 | GitHub API |
 | Issues closed / open | 2.2k / 63 (97% closed) | GitHub API |
-| npm weekly downloads | 7.3k | npm (`@clayui/core` 3.167.0) |
+| npm weekly downloads | 6.2k | npm (`@clayui/core` 3.167.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/clay.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/clay.md_

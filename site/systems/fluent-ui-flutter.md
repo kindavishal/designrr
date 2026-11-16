@@ -14,21 +14,21 @@
 | Good for | desktop, productivity |
 | Dark mode / RTL | yes / not detected |
 | License | BSD-3-Clause |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-12 |
 | Docs | https://bdlukaa.github.io/fluent_ui/ |
 | Source | https://github.com/bdlukaa/fluent_ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.5k | GitHub API (bdlukaa/fluent_ui) |
 | GitHub forks | 512 | GitHub API |
 | Contributors (incl. anonymous) | 124 | GitHub API |
-| Issues closed / open | 815 / 22 (97% closed) | GitHub API |
+| Issues closed / open | 817 / 20 (98% closed) | GitHub API |
 | pub.dev likes | 3.2k | pub.dev (`fluent_ui`) |
-| pub.dev downloads (30 days) | 24.5k | pub.dev |
+| pub.dev downloads (30 days) | 25.8k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ flutter pub add fluent_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui-flutter.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fluent-ui-flutter.md_

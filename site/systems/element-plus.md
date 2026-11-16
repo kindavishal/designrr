@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 43.8k KB |
 | License | MIT |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-15 |
 | Docs | https://element-plus.org |
 | Source | https://github.com/element-plus/element-plus |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 27.8k | GitHub API (element-plus/element-plus) |
+| GitHub stars | 27.9k | GitHub API (element-plus/element-plus) |
 | GitHub forks | 19.8k | GitHub API |
-| Contributors (incl. anonymous) | 884 | GitHub API |
-| Issues closed / open | 7.7k / 889 (90% closed) | GitHub API |
-| npm weekly downloads | 797.3k | npm (`element-plus` 2.14.8) |
+| Contributors (incl. anonymous) | 885 | GitHub API |
+| Issues closed / open | 7.7k / 886 (90% closed) | GitHub API |
+| npm weekly downloads | 796.8k | npm (`element-plus` 2.14.8) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://element-plus.org/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/element-plus.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/element-plus.md_

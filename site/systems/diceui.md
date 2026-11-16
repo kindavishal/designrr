@@ -14,12 +14,12 @@
 | Good for | saas |
 | Dark mode / RTL | not detected / yes |
 | License | MIT |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-13 |
 | Docs | https://www.diceui.com |
 | Source | https://github.com/sadmann7/diceui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -74,4 +74,4 @@ See https://www.diceui.com for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/diceui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/diceui.md_

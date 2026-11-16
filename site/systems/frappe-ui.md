@@ -13,22 +13,22 @@
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | erp, saas, admin |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 5.4k KB |
+| Package size (unpacked) | 5.0k KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-14 |
 | Docs | https://ui.frappe.io |
 | Source | https://github.com/frappe/frappe-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.1k | GitHub API (frappe/frappe-ui) |
-| GitHub forks | 389 | GitHub API |
+| GitHub forks | 391 | GitHub API |
 | Contributors (incl. anonymous) | 67 | GitHub API |
-| Issues closed / open | 283 / 158 (64% closed) | GitHub API |
-| npm weekly downloads | 146.4k | npm (`frappe-ui` 1.1.0) |
+| Issues closed / open | 283 / 161 (64% closed) | GitHub API |
+| npm weekly downloads | 137.9k | npm (`frappe-ui` 1.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ui.frappe.io/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/frappe-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/frappe-ui.md_

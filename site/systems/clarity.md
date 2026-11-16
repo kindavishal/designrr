@@ -15,26 +15,26 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 7.5k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-13 |
 | Docs | https://clarity.design |
 | Source | https://github.com/vmware-clarity/ng-clarity |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 433 | GitHub API (vmware-clarity/ng-clarity) |
+| GitHub stars | 435 | GitHub API (vmware-clarity/ng-clarity) |
 | GitHub forks | 106 | GitHub API |
-| Contributors (incl. anonymous) | 140 | GitHub API |
-| Issues closed / open | 259 / 46 (85% closed) | GitHub API |
-| npm weekly downloads | 29.8k | npm (`@clr/angular` 18.5.0) |
+| Contributors (incl. anonymous) | 139 | GitHub API |
+| Issues closed / open | 260 / 45 (85% closed) | GitHub API |
+| npm weekly downloads | 29.0k | npm (`@clr/angular` 18.5.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://clarity.design/llms.txt
 - **llms-full.txt:** https://clarity.design/llms-full.txt
 - MCP server: none found
-- **Agent skills shipped in the npm package:** `clr-accordion`, `clr-alert`, `clr-app-layout`, `clr-badge`, `clr-breadcrumbs`, `clr-button`, `clr-button-group`, `clr-card`, `clr-collapsible-panel`, `clr-combobox`, `clr-datagrid`, `clr-datepicker`, `clr-dropdown`, `clr-forms`, `clr-header`, `clr-icons`, `clr-label`, `clr-modal`, `clr-navigation`, `clr-popover`, `clr-progress-bar`, `clr-side-panel`, `clr-signpost`, `clr-spinner`, `clr-stack-view`, `clr-stepper`, `clr-tabs`, `clr-timeline`, `clr-tooltip`, `clr-tree-view`, `clr-vertical-nav`, `clr-wizard`
+- **Agent skills shipped in the npm package:** `clarity-angular`
 - **Design tokens:** https://github.com/vmware-clarity/ng-clarity/blob/HEAD/projects/addons/datagrid/interfaces/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/vmware-clarity/ng-clarity/blob/HEAD/projects/addons/ai/AGENTS.md
 
@@ -51,7 +51,7 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 ## Agent tips
 - Read https://clarity.design/llms.txt first. It indexes the official docs in markdown.
-- The npm package ships agent skills (`clr-accordion`, `clr-alert`, `clr-app-layout`, `clr-badge`, `clr-breadcrumbs`, `clr-button`, `clr-button-group`, `clr-card`, `clr-collapsible-panel`, `clr-combobox`, `clr-datagrid`, `clr-datepicker`, `clr-dropdown`, `clr-forms`, `clr-header`, `clr-icons`, `clr-label`, `clr-modal`, `clr-navigation`, `clr-popover`, `clr-progress-bar`, `clr-side-panel`, `clr-signpost`, `clr-spinner`, `clr-stack-view`, `clr-stepper`, `clr-tabs`, `clr-timeline`, `clr-tooltip`, `clr-tree-view`, `clr-vertical-nav`, `clr-wizard`); install them with your agent's skills tooling.
+- The npm package ships agent skills (`clarity-angular`); install them with your agent's skills tooling.
 - Design tokens live in the repo (e.g. `projects/addons/datagrid/interfaces/tokens.ts`). Map brand colours and type onto these rather than hard-coding values.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/clarity.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/clarity.md_

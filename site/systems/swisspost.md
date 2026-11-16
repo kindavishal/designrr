@@ -9,27 +9,27 @@
 | Maintainer | Swiss Post (org-backed) |
 | Brand-locked | **yes**: Swiss Post brand identity. |
 | Platforms | web |
-| Frameworks | web-components, angular |
+| Frameworks | web-components, angular, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | logistics, public-service |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 9.6k KB |
+| Package size (unpacked) | 9.7k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://design-system.post.ch |
 | Source | https://github.com/swisspost/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 181 | GitHub API (swisspost/design-system) |
 | GitHub forks | 30 | GitHub API |
-| Contributors (incl. anonymous) | 44 | GitHub API |
-| Issues closed / open | 3.2k / 416 (88% closed) | GitHub API |
-| npm weekly downloads | 1.3k | npm (`@swisspost/design-system-components` 10.8.0) |
+| Contributors (incl. anonymous) | 45 | GitHub API |
+| Issues closed / open | 3.2k / 408 (89% closed) | GitHub API |
+| npm weekly downloads | 2.1k | npm (`@swisspost/design-system-components` 10.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -39,11 +39,15 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 
 ## Consider an alternative if
 - you are not that brand. Swiss Post brand identity.
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@swisspost/design-system-components@10.9.0/dist/post-components/post-components.esm.min.js"></script>
+```
+Check the docs for the recommended files: https://design-system.post.ch
 ```bash
 npm install @swisspost/design-system-components
 ```
@@ -81,4 +85,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_

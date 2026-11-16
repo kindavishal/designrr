@@ -15,13 +15,13 @@
 | Good for | travel, booking, consumer |
 | Dark mode / RTL | yes / yes |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-13 |
 | Docs | https://www.skyscanner.design |
 | Source | https://github.com/Skyscanner/backpack-android |
 | Same family | [Skyscanner Backpack iOS](backpack-ios.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -74,4 +74,4 @@ See https://www.skyscanner.design for installation.
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/backpack-android.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/backpack-android.md_

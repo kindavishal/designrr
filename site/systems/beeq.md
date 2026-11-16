@@ -8,27 +8,27 @@
 | AI-readiness | **65/100** |
 | Maintainer | Endava (org-backed) |
 | Platforms | web |
-| Frameworks | web-components, react, angular, vue |
+| Frameworks | web-components, react, angular, vue, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | enterprise |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 37.5k KB |
+| Package size (unpacked) | 29.9k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-13 |
 | Docs | https://www.beeq.design |
 | Source | https://github.com/Endava/BEEQ |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 162 | GitHub API (Endava/BEEQ) |
 | GitHub forks | 25 | GitHub API |
 | Contributors (incl. anonymous) | 17 | GitHub API |
-| Issues closed / open | 73 / 7 (91% closed) | GitHub API |
-| npm weekly downloads | 1.4k | npm (`@beeq/core` 1.17.1) |
+| Issues closed / open | 78 / 5 (94% closed) | GitHub API |
+| npm weekly downloads | 1.9k | npm (`@beeq/core` 1.18.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.beeq.design/llms.txt
@@ -37,12 +37,15 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 - **Design tokens:** https://github.com/Endava/BEEQ/blob/HEAD/packages/beeq-tailwindcss/src/generated/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/Endava/BEEQ/blob/HEAD/AGENTS.md
 
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@beeq/core@1.18.0/dist/beeq/beeq.esm.min.js"></script>
+```
+Check the docs for the recommended files: https://www.beeq.design
 ```bash
 npm install @beeq/core
 ```
@@ -81,4 +84,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/beeq.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/beeq.md_

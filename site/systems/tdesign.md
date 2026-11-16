@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 52.8k KB |
 | License | MIT |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-15 |
 | Docs | https://tdesign.tencent.com |
 | Source | https://github.com/Tencent/tdesign |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.1k | GitHub API (Tencent/tdesign) |
 | GitHub forks | 351 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
-| Issues closed / open | 265 / 31 (90% closed) | GitHub API |
-| npm weekly downloads | 19.2k | npm (`tdesign-react` 1.18.6) |
+| Issues closed / open | 266 / 30 (90% closed) | GitHub API |
+| npm weekly downloads | 28.2k | npm (`tdesign-react` 1.18.6) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://tdesign.tencent.com/llms.txt
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/tdesign.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/tdesign.md_

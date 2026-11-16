@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.6k KB |
 | License | MIT |
-| Last activity | 2026-10-20 |
+| Last activity | 2026-11-12 |
 | Docs | https://www.sanity.io/ui |
 | Source | https://github.com/sanity-io/ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 178 | GitHub API (sanity-io/ui) |
-| GitHub forks | 23 | GitHub API |
-| Contributors (incl. anonymous) | 38 | GitHub API |
-| Issues closed / open | 29 / 15 (66% closed) | GitHub API |
-| npm weekly downloads | 3.6M | npm (`@sanity/ui` 4.4.10) |
+| GitHub forks | 24 | GitHub API |
+| Contributors (incl. anonymous) | 39 | GitHub API |
+| Issues closed / open | 30 / 15 (67% closed) | GitHub API |
+| npm weekly downloads | 3.3M | npm (`@sanity/ui` 4.4.12) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.sanity.io/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/sanity-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/sanity-ui.md_

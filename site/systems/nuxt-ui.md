@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://ui.nuxt.com |
 | Source | https://github.com/nuxt/ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 7.1k | GitHub API (nuxt/ui) |
 | GitHub forks | 1.2k | GitHub API |
-| Contributors (incl. anonymous) | 405 | GitHub API |
-| Issues closed / open | 3.7k / 159 (96% closed) | GitHub API |
-| npm weekly downloads | 1.0M | npm (`@nuxt/ui` 4.12.0) |
+| Contributors (incl. anonymous) | 406 | GitHub API |
+| Issues closed / open | 3.7k / 164 (96% closed) | GitHub API |
+| npm weekly downloads | 1.1M | npm (`@nuxt/ui` 4.12.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ui.nuxt.com/llms.txt
@@ -45,7 +45,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v4, checked against https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md on 2026-11-05; latest release 4.12.0._
+_Hand-written guide for v4, checked against https://ui.nuxt.com/raw/docs/getting-started/installation/nuxt.md on 2026-11-05; latest release 4.12.2._
 
 ## Install
 New project from a template:
@@ -111,4 +111,4 @@ Custom colour scales go in CSS with Tailwind's `@theme`; per-component `ui` prop
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nuxt-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nuxt-ui.md_

@@ -20,15 +20,15 @@
 | Source | https://github.com/beercss/beercss |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.6k | GitHub API (beercss/beercss) |
-| GitHub forks | 101 | GitHub API |
+| GitHub forks | 103 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
-| Issues closed / open | 378 / 26 (94% closed) | GitHub API |
-| npm weekly downloads | 48.5k | npm (`beercss` 5.0.3) |
+| Issues closed / open | 378 / 27 (93% closed) | GitHub API |
+| npm weekly downloads | 39.0k | npm (`beercss` 5.0.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.beercss.com/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/beercss.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/beercss.md_

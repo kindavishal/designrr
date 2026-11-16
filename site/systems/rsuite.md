@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **70/100** |
+| AI-readiness | **50/100** |
 | Maintainer | Community |
 | Platforms | web |
 | Frameworks | react |
@@ -20,19 +20,18 @@
 | Source | https://github.com/rsuite/rsuite |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.7k | GitHub API (rsuite/rsuite) |
-| GitHub forks | 956 | GitHub API |
+| GitHub forks | 957 | GitHub API |
 | Contributors (incl. anonymous) | 140 | GitHub API |
 | Issues closed / open | 1.0k / 226 (82% closed) | GitHub API |
-| npm weekly downloads | 210.9k | npm (`rsuite` 6.2.5) |
+| npm weekly downloads | 211.1k | npm (`rsuite` 6.2.5) |
 
 ## AI resources (use these first)
-- **llms.txt:** https://rsuitejs.com/llms.txt
-- **llms-full.txt:** https://rsuitejs.com/llms-full.txt
+- llms.txt: not published
 - **MCP server:**
   - in-repo package: https://github.com/rsuite/rsuite/tree/HEAD/docs/pages (see its README for setup)
 - **Agent/contributor docs in repo:** https://github.com/rsuite/rsuite/blob/HEAD/docs/AGENTS.md
@@ -49,7 +48,6 @@ npm install rsuite
 Then follow the framework setup in the official getting-started guide: https://rsuitejs.com
 
 ## Agent tips
-- Read https://rsuitejs.com/llms.txt first. It indexes the official docs in markdown.
 - Connect the MCP server listed above before writing code, and use it to look up components and props.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
@@ -67,8 +65,8 @@ Then follow the framework setup in the official getting-started guide: https://r
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 15/15 |
-| llms-full.txt (whole docs as one markdown file) | 5/5 |
+| llms.txt on the docs site | 0/15 |
+| llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 0/10 |
@@ -80,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/rsuite.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/rsuite.md_

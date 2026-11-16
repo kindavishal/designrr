@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.4k KB |
 | License | MIT |
-| Last activity | 2026-10-22 |
+| Last activity | 2026-11-11 |
 | Docs | https://primereact.org |
 | Source | https://github.com/primefaces/primereact |
 | Same family | [PrimeVue](primevue.md), [PrimeNG](primeng.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 1.2k | GitHub API |
 | Contributors (incl. anonymous) | 374 | GitHub API |
 | Issues closed / open | 5.4k / 282 (95% closed) | GitHub API |
-| npm weekly downloads | 425.2k | npm (`primereact` 11.2.2) |
+| npm weekly downloads | 400.0k | npm (`primereact` 11.2.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primereact.org/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primereact.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/primereact.md_

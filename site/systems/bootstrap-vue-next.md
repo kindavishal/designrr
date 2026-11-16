@@ -15,21 +15,21 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 5.7k KB |
 | License | MIT |
-| Last activity | 2026-11-06 |
+| Last activity | 2026-11-10 |
 | Docs | https://bootstrap-vue-next.github.io/bootstrap-vue-next/ |
 | Source | https://github.com/bootstrap-vue-next/bootstrap-vue-next |
 | Same family | [Bootstrap](bootstrap.md), [React Bootstrap](react-bootstrap.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.3k | GitHub API (bootstrap-vue-next/bootstrap-vue-next) |
-| GitHub forks | 186 | GitHub API |
+| GitHub forks | 185 | GitHub API |
 | Contributors (incl. anonymous) | 165 | GitHub API |
-| Issues closed / open | 1.2k / 21 (98% closed) | GitHub API |
-| npm weekly downloads | 77.4k | npm (`bootstrap-vue-next` 1.2.3) |
+| Issues closed / open | 1.2k / 22 (98% closed) | GitHub API |
+| npm weekly downloads | 76.3k | npm (`bootstrap-vue-next` 1.2.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://bootstrap-vue-next.github.io/bootstrap-vue-next/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/bootstrap-vue-next.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/bootstrap-vue-next.md_

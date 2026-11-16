@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| Tier | **recommended** |
-| AI-readiness | **45/100** |
+| Tier | **solid** |
+| AI-readiness | **30/100** |
 | Maintainer | Vercel (org-backed) |
 | Platforms | web |
 | Frameworks | react |
@@ -21,18 +21,18 @@
 | Same family | [AI Elements Vue](ai-elements-vue.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.5k | GitHub API (vercel/ai-elements) |
-| GitHub forks | 293 | GitHub API |
+| GitHub forks | 295 | GitHub API |
 | Contributors (incl. anonymous) | 62 | GitHub API |
-| Issues closed / open | 164 / 50 (77% closed) | GitHub API |
-| npm weekly downloads | 133.4k | npm (`ai-elements` 1.9.1) |
+| Issues closed / open | 164 / 51 (76% closed) | GitHub API |
+| npm weekly downloads | 137.1k | npm (`ai-elements` 1.9.1) |
 
 ## AI resources (use these first)
-- **llms.txt:** https://ai-sdk.dev/llms.txt
+- llms.txt: not published
 - MCP server: none found
 - **Copy-the-source CLI:** documented at https://ai-sdk.dev/elements/llms.txt
 - **Agent/contributor docs in repo:** https://github.com/vercel/ai-elements/blob/HEAD/.claude/CLAUDE.md
@@ -73,7 +73,7 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 15/15 |
+| llms.txt on the docs site | 0/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 0/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
@@ -84,6 +84,6 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via stars, npm, orgBacked.
+Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_

@@ -16,12 +16,12 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 1.7k KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-12 |
 | Docs | https://stackoverflow.design |
 | Source | https://github.com/StackExchange/Stacks |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 106 | GitHub API |
 | Contributors (incl. anonymous) | 61 | GitHub API |
 | Issues closed / open | 292 / 4 (99% closed) | GitHub API |
-| npm weekly downloads | 9.0k | npm (`@stackoverflow/stacks` 3.0.2) |
+| npm weekly downloads | 11.4k | npm (`@stackoverflow/stacks` 3.0.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://stackoverflow.design/llms.txt
@@ -87,4 +87,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/stacks.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/stacks.md_

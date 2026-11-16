@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | dashboard, data-dense, analytics, devtools; shapes: app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 45.3k KB |
+| Package size (unpacked) | 44.4k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://eui.elastic.co |
 | Source | https://github.com/elastic/eui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.4k | GitHub API (elastic/eui) |
-| GitHub forks | 926 | GitHub API |
-| Contributors (incl. anonymous) | 327 | GitHub API |
-| Issues closed / open | 3.8k / 224 (94% closed) | GitHub API |
-| npm weekly downloads | 235.7k | npm (`@elastic/eui` 123.3.0) |
+| GitHub forks | 928 | GitHub API |
+| Contributors (incl. anonymous) | 329 | GitHub API |
+| Issues closed / open | 3.8k / 222 (94% closed) | GitHub API |
+| npm weekly downloads | 198.2k | npm (`@elastic/eui` 123.4.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/eui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/eui.md_

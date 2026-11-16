@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | admin, saas, dashboard; shapes: saas-app, app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 76.4k KB |
+| Package size (unpacked) | 76.5k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://vuetifyjs.com |
 | Source | https://github.com/vuetifyjs/vuetify |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 41.0k | GitHub API (vuetifyjs/vuetify) |
 | GitHub forks | 7.1k | GitHub API |
 | Contributors (incl. anonymous) | 1.2k | GitHub API |
-| Issues closed / open | 15.3k / 228 (99% closed) | GitHub API |
-| npm weekly downloads | 1.3M | npm (`vuetify` 4.3.2) |
+| Issues closed / open | 15.3k / 224 (99% closed) | GitHub API |
+| npm weekly downloads | 1.3M | npm (`vuetify` 4.3.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://vuetifyjs.com/llms.txt
@@ -42,7 +42,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.2._
+_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.3._
 
 ## Install
 New project:
@@ -107,4 +107,4 @@ Vuetify does not bundle the Roboto font; add it yourself (as above).
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_

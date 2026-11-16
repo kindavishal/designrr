@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.4k KB |
 | License | MIT |
-| Last activity | 2026-10-31 |
+| Last activity | 2026-11-11 |
 | Docs | https://react-bootstrap.github.io |
 | Source | https://github.com/react-bootstrap/react-bootstrap |
 | Same family | [Bootstrap](bootstrap.md), [BootstrapVueNext](bootstrap-vue-next.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 3.6k | GitHub API |
 | Contributors (incl. anonymous) | 539 | GitHub API |
 | Issues closed / open | 3.4k / 136 (96% closed) | GitHub API |
-| npm weekly downloads | 1.7M | npm (`react-bootstrap` 2.10.10) |
+| npm weekly downloads | 1.6M | npm (`react-bootstrap` 2.10.10) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/react-bootstrap.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-bootstrap.md_

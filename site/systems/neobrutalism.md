@@ -14,16 +14,16 @@
 | Good for | marketing, bold-brand, creative |
 | Dark mode / RTL | not detected / yes |
 | License | MIT |
-| Last activity | 2026-09-14 |
+| Last activity | 2026-11-15 |
 | Docs | https://www.neobrutalism.dev |
 | Source | https://github.com/ekmas/neobrutalism-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 5.6k | GitHub API (ekmas/neobrutalism-components) |
+| GitHub stars | 5.7k | GitHub API (ekmas/neobrutalism-components) |
 | GitHub forks | 192 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
 | Issues closed / open | 28 / 1 (97% closed) | GitHub API |
@@ -72,4 +72,4 @@ See https://www.neobrutalism.dev for installation.
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/neobrutalism.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/neobrutalism.md_

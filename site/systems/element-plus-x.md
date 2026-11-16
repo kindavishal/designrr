@@ -20,15 +20,15 @@
 | Source | https://github.com/element-plus-x/Element-Plus-X |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.5k | GitHub API (element-plus-x/Element-Plus-X) |
 | GitHub forks | 195 | GitHub API |
 | Contributors (incl. anonymous) | 42 | GitHub API |
-| Issues closed / open | 230 / 25 (90% closed) | GitHub API |
-| npm weekly downloads | 3.2k | npm (`vue-element-plus-x` 2.0.3) |
+| Issues closed / open | 231 / 25 (90% closed) | GitHub API |
+| npm weekly downloads | 3.0k | npm (`vue-element-plus-x` 2.0.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://e
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/element-plus-x.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/element-plus-x.md_

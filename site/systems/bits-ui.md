@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 1.9k KB |
 | License | MIT |
-| Last activity | 2026-11-08 |
+| Last activity | 2026-11-15 |
 | Docs | https://bits-ui.com |
 | Source | https://github.com/huntabyte/bits-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.7k | GitHub API (huntabyte/bits-ui) |
-| GitHub forks | 254 | GitHub API |
-| Contributors (incl. anonymous) | 144 | GitHub API |
-| Issues closed / open | 653 / 11 (98% closed) | GitHub API |
-| npm weekly downloads | 1.7M | npm (`bits-ui` 2.20.6) |
+| GitHub forks | 255 | GitHub API |
+| Contributors (incl. anonymous) | 145 | GitHub API |
+| Issues closed / open | 658 / 10 (99% closed) | GitHub API |
+| npm weekly downloads | 1.8M | npm (`bits-ui` 2.21.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://bits-ui.com/llms.txt
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/bits-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/bits-ui.md_

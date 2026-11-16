@@ -20,7 +20,7 @@
 | Source | https://github.com/foundation/yeti |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 5.4k | GitHub API |
 | Contributors (incl. anonymous) | 1.3k | GitHub API |
 | Issues closed / open | 8.2k / 64 (99% closed) | GitHub API |
-| npm weekly downloads | 125.9k | npm (`foundation-sites` 6.9.0) |
+| npm weekly downloads | 108.8k | npm (`foundation-sites` 6.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://g
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/foundation.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/foundation.md_

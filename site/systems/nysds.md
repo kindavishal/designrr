@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.5k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-13 |
 | Docs | https://designsystem.ny.gov |
 | Source | https://github.com/ITS-HCD/nysds |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 55 | GitHub API (ITS-HCD/nysds) |
+| GitHub stars | 56 | GitHub API (ITS-HCD/nysds) |
 | GitHub forks | 6 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
-| Issues closed / open | 899 / 111 (89% closed) | GitHub API |
-| npm weekly downloads | 907 | npm (`@nysds/components` 1.23.1) |
+| Issues closed / open | 935 / 88 (91% closed) | GitHub API |
+| npm weekly downloads | 776 | npm (`@nysds/components` 1.23.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -50,7 +50,7 @@ _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP
 ## Install
 No build step needed. From the CDN (pinned to the current release):
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@nysds/components@1.23.1/dist/nysds.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@nysds/components@1.23.2/dist/nysds.min.js"></script>
 ```
 Check the docs for the recommended files: https://designsystem.ny.gov
 ```bash
@@ -91,4 +91,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_

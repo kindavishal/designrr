@@ -14,21 +14,21 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / yes |
 | License | NOASSERTION |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-15 |
 | Docs | https://forui.dev |
 | Source | https://github.com/duobaseio/forui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.4k | GitHub API (duobaseio/forui) |
-| GitHub forks | 142 | GitHub API |
+| GitHub forks | 143 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
-| Issues closed / open | 368 / 41 (90% closed) | GitHub API |
+| Issues closed / open | 372 / 42 (90% closed) | GitHub API |
 | pub.dev likes | 448 | pub.dev (`forui`) |
-| pub.dev downloads (30 days) | 36.3k | pub.dev |
+| pub.dev downloads (30 days) | 37.2k | pub.dev |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ flutter pub add forui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/forui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/forui.md_

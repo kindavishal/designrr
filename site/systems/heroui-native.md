@@ -21,7 +21,7 @@
 | Same family | [HeroUI (formerly NextUI)](heroui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 | GitHub forks | 154 | GitHub API |
 | Contributors (incl. anonymous) | 34 | GitHub API |
 | Issues closed / open | 135 / 7 (95% closed) | GitHub API |
-| npm weekly downloads | 461.6k | npm (`heroui-native` 1.0.11) |
+| npm weekly downloads | 442.3k | npm (`heroui-native` 1.0.11) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.heroui.com/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/heroui-native.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/heroui-native.md_

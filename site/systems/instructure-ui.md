@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 445 KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-13 |
 | Docs | https://instructure.design |
 | Source | https://github.com/instructure/instructure-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 486 | GitHub API (instructure/instructure-ui) |
-| GitHub forks | 111 | GitHub API |
+| GitHub stars | 487 | GitHub API (instructure/instructure-ui) |
+| GitHub forks | 112 | GitHub API |
 | Contributors (incl. anonymous) | 130 | GitHub API |
 | Issues closed / open | 284 / 7 (98% closed) | GitHub API |
-| npm weekly downloads | 6.7k | npm (`@instructure/ui` 11.7.10) |
+| npm weekly downloads | 4.9k | npm (`@instructure/ui` 11.7.10) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://instructure.design/llms.txt
@@ -78,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://i
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via npm, orgBacked.
+Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/instructure-ui.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/instructure-ui.md_

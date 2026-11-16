@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.6k KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-10 |
 | Docs | https://primer.style/css |
 | Source | https://github.com/primer/css |
 | Same family | [Primer](primer.md), [Primer Primitives (tokens)](primer-primitives.md), [Primer ViewComponents](primer-view-components.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 13.1k | GitHub API (primer/css) |
 | GitHub forks | 1.3k | GitHub API |
-| Contributors (incl. anonymous) | 204 | GitHub API |
-| Issues closed / open | 524 / 2 (100% closed) | GitHub API |
-| npm weekly downloads | 56.9k | npm (`@primer/css` 22.3.3) |
+| Contributors (incl. anonymous) | 205 | GitHub API |
+| Issues closed / open | 525 / 1 (100% closed) | GitHub API |
+| npm weekly downloads | 68.9k | npm (`@primer/css` 22.3.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -84,4 +84,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/primer-css.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/primer-css.md_

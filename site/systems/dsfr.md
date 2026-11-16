@@ -21,15 +21,15 @@
 | Same family | [react-dsfr](react-dsfr.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 399 | GitHub API (GouvernementFR/dsfr) |
-| GitHub forks | 230 | GitHub API |
+| GitHub stars | 400 | GitHub API (GouvernementFR/dsfr) |
+| GitHub forks | 231 | GitHub API |
 | Contributors (incl. anonymous) | 32 | GitHub API |
-| Issues closed / open | 226 / 146 (61% closed) | GitHub API |
-| npm weekly downloads | 40.9k | npm (`@gouvfr/dsfr` 1.15.4) |
+| Issues closed / open | 226 / 148 (60% closed) | GitHub API |
+| npm weekly downloads | 29.2k | npm (`@gouvfr/dsfr` 1.15.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/dsfr.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/dsfr.md_

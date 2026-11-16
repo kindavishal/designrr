@@ -16,15 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.4k KB |
 | License | ISC |
-| Last activity | 2026-10-14 |
+| Last activity | 2026-11-09 |
 | Docs | https://lens.loom.dev |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 12.6k | npm (`@loomhq/lens` 13.0.2) |
+| npm weekly downloads | 14.6k | npm (`@loomhq/lens` 13.0.3) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/lens.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/lens.md_

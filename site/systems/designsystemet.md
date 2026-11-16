@@ -15,25 +15,25 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 775 KB |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-16 |
 | Docs | https://designsystemet.no |
 | Source | https://github.com/digdir/designsystemet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 217 | GitHub API (digdir/designsystemet) |
 | GitHub forks | 62 | GitHub API |
 | Contributors (incl. anonymous) | 51 | GitHub API |
-| Issues closed / open | 2.2k / 91 (96% closed) | GitHub API |
-| npm weekly downloads | 18.1k | npm (`@digdir/designsystemet-react` 1.24.0) |
+| Issues closed / open | 2.2k / 94 (96% closed) | GitHub API |
+| npm weekly downloads | 19.9k | npm (`@digdir/designsystemet-react` 1.24.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://designsystemet.no/llms.txt
 - MCP server: none found
-- **Design tokens:** https://github.com/digdir/designsystemet/blob/HEAD/design-tokens/$themes.json
+- **Design tokens:** https://github.com/digdir/designsystemet/blob/HEAD/packages/cli/src/tokens/build.ts
 - **Agent/contributor docs in repo:** https://github.com/digdir/designsystemet/blob/HEAD/apps/www/public/llms.txt
 
 ## Consider an alternative if
@@ -50,7 +50,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 ## Agent tips
 - Read https://designsystemet.no/llms.txt first. It indexes the official docs in markdown.
-- Design tokens live in the repo (e.g. `design-tokens/$themes.json`). Map brand colours and type onto these rather than hard-coding values.
+- Design tokens live in the repo (e.g. `packages/cli/src/tokens/build.ts`). Map brand colours and type onto these rather than hard-coding values.
 - Web components work in any framework; React 19+ supports them directly, older React may need wrappers.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/designsystemet.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/designsystemet.md_

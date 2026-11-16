@@ -13,28 +13,28 @@
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | marketing, startup-mvp, framework-agnostic; shapes: marketing-site, app-dashboard |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 6.8k KB |
+| Package size (unpacked) | 7.1k KB |
 | License | NOASSERTION |
-| Last activity | 2026-08-31 |
+| Last activity | 2026-11-11 |
 | Docs | https://preline.co |
 | Source | https://github.com/htmlstreamofficial/preline |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.5k | GitHub API (htmlstreamofficial/preline) |
-| GitHub forks | 413 | GitHub API |
+| GitHub forks | 414 | GitHub API |
 | Contributors (incl. anonymous) | 34 | GitHub API |
-| Issues closed / open | 572 / 9 (98% closed) | GitHub API |
-| npm weekly downloads | 75.7k | npm (`preline` 5.0.0) |
+| Issues closed / open | 577 / 6 (99% closed) | GitHub API |
+| npm weekly downloads | 78.2k | npm (`preline` 5.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
 - **Agent skills shipped in the npm package:** `get-documentation`, `theme-generator`
-- **Agent/contributor docs in repo:** https://github.com/htmlstreamofficial/preline/blob/HEAD/skills/preline-mcp/SKILL.md
+- **Agent/contributor docs in repo:** https://github.com/htmlstreamofficial/preline/blob/HEAD/skills/get-documentation/skill.md
 
 ## Consider an alternative if
 - the project does not use (or cannot add) Tailwind CSS.
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/preline.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/preline.md_

@@ -8,27 +8,27 @@
 | AI-readiness | **35/100** |
 | Maintainer | Microsoft (org-backed) |
 | Platforms | web |
-| Frameworks | web-components |
+| Frameworks | web-components, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | framework-agnostic, custom-brand; shapes: content-site |
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.3k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-16 |
 | Docs | https://fast.design |
 | Source | https://github.com/microsoft/fast |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-09; nothing is estimated.
+Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.7k | GitHub API (microsoft/fast) |
-| GitHub forks | 640 | GitHub API |
+| GitHub forks | 643 | GitHub API |
 | Contributors (incl. anonymous) | 160 | GitHub API |
-| Issues closed / open | 2.8k / 78 (97% closed) | GitHub API |
-| npm weekly downloads | 344.4k | npm (`@microsoft/fast-element` 3.1.2) |
+| Issues closed / open | 2.8k / 79 (97% closed) | GitHub API |
+| npm weekly downloads | 255.6k | npm (`@microsoft/fast-element` 3.1.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -36,12 +36,15 @@ Numbers as reported by each source on 2026-11-09; nothing is estimated.
 - **Design tokens:** https://github.com/microsoft/fast/blob/HEAD/sites/website/src/css/variables.css
 - **Agent/contributor docs in repo:** https://github.com/microsoft/fast/blob/HEAD/.github/copilot-instructions.md
 
-## Consider an alternative if
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script src="https://cdn.jsdelivr.net/npm/@microsoft/fast-element@3.1.4/dist/fast-element.min.js"></script>
+```
+Check the docs for the recommended files: https://fast.design
 ```bash
 npm install @microsoft/fast-element
 ```
@@ -79,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-09. Agent-readable source: https://designrr.vercel.app/systems/fast.md_
+_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fast.md_
