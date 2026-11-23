@@ -20,15 +20,15 @@
 | Source | https://github.com/Workday/canvas-kit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 369 | GitHub API (Workday/canvas-kit) |
-| GitHub forks | 274 | GitHub API |
+| GitHub stars | 370 | GitHub API (Workday/canvas-kit) |
+| GitHub forks | 273 | GitHub API |
 | Contributors (incl. anonymous) | 144 | GitHub API |
-| Issues closed / open | 1.4k / 159 (90% closed) | GitHub API |
-| npm weekly downloads | 7.4k | npm (`@workday/canvas-kit-react` 16.2.21) |
+| Issues closed / open | 1.4k / 162 (90% closed) | GitHub API |
+| npm weekly downloads | 2.2k | npm (`@workday/canvas-kit-react` 16.2.21) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,6 +77,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via npm, orgBacked.
+Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/canvas-kit.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/canvas-kit.md_

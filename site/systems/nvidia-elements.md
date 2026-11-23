@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | ai-app, enterprise, devtools; shapes: chat-ai, app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 10.7k KB |
+| Package size (unpacked) | 10.6k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-20 |
 | Docs | https://github.com/NVIDIA/elements |
 | Source | https://github.com/NVIDIA/elements |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 119 | GitHub API (NVIDIA/elements) |
-| GitHub forks | 22 | GitHub API |
+| GitHub stars | 120 | GitHub API (NVIDIA/elements) |
+| GitHub forks | 25 | GitHub API |
 | Contributors (incl. anonymous) | 22 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 4.3k | npm (`@nvidia-elements/core` 2.26.2) |
+| npm weekly downloads | 7.3k | npm (`@nvidia-elements/core` 2.28.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://github.com/llms.txt
@@ -79,6 +79,6 @@ Then follow the framework setup in the official getting-started guide: https://g
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked.
+Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nvidia-elements.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/nvidia-elements.md_

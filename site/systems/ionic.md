@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | mobile, hybrid-app, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 20.4k KB |
+| Package size (unpacked) | 20.5k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://ionicframework.com/docs |
 | Source | https://github.com/ionic-team/ionic-framework |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 52.8k | GitHub API (ionic-team/ionic-framework) |
 | GitHub forks | 13.3k | GitHub API |
-| Contributors (incl. anonymous) | 547 | GitHub API |
-| Issues closed / open | 21.8k / 434 (98% closed) | GitHub API |
-| npm weekly downloads | 571.2k | npm (`@ionic/core` 9.0.11) |
+| Contributors (incl. anonymous) | 550 | GitHub API |
+| Issues closed / open | 21.8k / 420 (98% closed) | GitHub API |
+| npm weekly downloads | 621.6k | npm (`@ionic/core` 9.0.13) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ionicframework.com/docs/llms.txt
@@ -38,7 +38,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v9, checked against https://ionicframework.com/docs/react/quickstart.md on 2026-11-05; latest release 9.0.11._
+_Hand-written guide for v9, checked against https://ionicframework.com/docs/react/quickstart.md on 2026-11-05; latest release 9.0.13._
 
 ## Install
 ```bash
@@ -84,4 +84,4 @@ Set the colour variables (`--ion-color-primary`, its `-rgb`, `-contrast`, `-shad
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ionic.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ionic.md_

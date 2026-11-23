@@ -21,15 +21,15 @@
 | Same family | [PrimeNG](primeng.md), [PrimeReact](primereact.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 14.4k | GitHub API (primefaces/primevue) |
 | GitHub forks | 1.8k | GitHub API |
 | Contributors (incl. anonymous) | 457 | GitHub API |
-| Issues closed / open | 5.9k / 687 (90% closed) | GitHub API |
-| npm weekly downloads | 1.1M | npm (`primevue` 5.0.5) |
+| Issues closed / open | 5.9k / 685 (90% closed) | GitHub API |
+| npm weekly downloads | 1.2M | npm (`primevue` 5.0.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://primevue.dev/llms/llms.txt
@@ -97,4 +97,4 @@ Nuxt: use the `@primevue/nuxt-module` module. Components can be auto-imported (s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/primevue.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/primevue.md_

@@ -21,15 +21,15 @@
 | Source | https://github.com/telekom/scale |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 432 | GitHub API (telekom/scale) |
+| GitHub stars | 431 | GitHub API (telekom/scale) |
 | GitHub forks | 102 | GitHub API |
 | Contributors (incl. anonymous) | 67 | GitHub API |
 | Issues closed / open | 596 / 85 (88% closed) | GitHub API |
-| npm weekly downloads | 9.7k | npm (`@telekom/scale-components` 3.0.0-beta.162) |
+| npm weekly downloads | 11.1k | npm (`@telekom/scale-components` 3.0.0-beta.162) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://t
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/telekom-scale.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/telekom-scale.md_

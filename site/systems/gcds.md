@@ -8,27 +8,27 @@
 | AI-readiness | **20/100** |
 | Maintainer | Government of Canada (org-backed) |
 | Platforms | web |
-| Frameworks | web-components, react, vue |
+| Frameworks | web-components, react, vue, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | government, public-service, bilingual |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 8.2k KB |
+| Package size (unpacked) | 8.7k KB |
 | License | MIT |
-| Last activity | 2026-11-10 |
+| Last activity | 2026-11-18 |
 | Docs | https://design-system.alpha.canada.ca |
 | Source | https://github.com/cds-snc/gcds-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 95 | GitHub API (cds-snc/gcds-components) |
 | GitHub forks | 34 | GitHub API |
 | Contributors (incl. anonymous) | 50 | GitHub API |
-| Issues closed / open | 141 / 102 (58% closed) | GitHub API |
-| npm weekly downloads | 3.4k | npm (`@gcds-core/components` 1.7.0) |
+| Issues closed / open | 142 / 104 (58% closed) | GitHub API |
+| npm weekly downloads | 4.2k | npm (`@gcds-core/components` 1.7.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -36,12 +36,16 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 ## Consider an alternative if
 - you are building a commercial or non-government product. Government systems are designed (and sometimes licensed) for public services.
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you rely on agent tooling. This system has few machine-readable resources.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/@gcds-core/components@1.7.1/dist/gcds/gcds.esm.min.js"></script>
+```
+Check the docs for the recommended files: https://design-system.alpha.canada.ca
 ```bash
 npm install @gcds-core/components
 ```
@@ -78,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/gcds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/gcds.md_

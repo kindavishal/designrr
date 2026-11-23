@@ -15,28 +15,28 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 16.4k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-20 |
 | Docs | https://sap.github.io/fundamental-styles/ |
 | Source | https://github.com/SAP/fundamental-styles |
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP UI5 Web Components](ui5.md), [UI5 Web Components for React](ui5-react.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 282 | GitHub API (SAP/fundamental-styles) |
-| GitHub forks | 75 | GitHub API |
+| GitHub stars | 284 | GitHub API (SAP/fundamental-styles) |
+| GitHub forks | 76 | GitHub API |
 | Contributors (incl. anonymous) | 95 | GitHub API |
-| Issues closed / open | 1.6k / 17 (99% closed) | GitHub API |
-| npm weekly downloads | 27.9k | npm (`fundamental-styles` 0.42.0) |
+| Issues closed / open | 1.6k / 21 (99% closed) | GitHub API |
+| npm weekly downloads | 31.8k | npm (`fundamental-styles` 0.42.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - **MCP server:**
   - in-repo package: https://github.com/SAP/fundamental-styles/tree/HEAD/packages/mcp (see its README for setup)
 - **Design tokens:** https://github.com/SAP/fundamental-styles/blob/HEAD/packages/styles/src/theming/common/token/_sap_fiori.scss
-- **Agent/contributor docs in repo:** https://github.com/SAP/fundamental-styles/blob/HEAD/CLAUDE.md
+- **Agent/contributor docs in repo:** https://github.com/SAP/fundamental-styles/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you are not building inside the sap ecosystem.
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fundamental-styles.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/fundamental-styles.md_

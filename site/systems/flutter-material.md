@@ -14,20 +14,20 @@
 | Good for | mobile, cross-platform, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / yes |
 | License | BSD-3-Clause |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-22 |
 | Docs | https://docs.flutter.dev/ui/design/material |
 | Source | https://github.com/flutter/flutter |
 | Same family | [Material Design 3 for Android (Compose)](material-android.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 181.3k | GitHub API (flutter/flutter) |
-| GitHub forks | 32.2k | GitHub API |
+| GitHub stars | 181.5k | GitHub API (flutter/flutter) |
+| GitHub forks | 32.1k | GitHub API |
 | Contributors (incl. anonymous) | 2.5k | GitHub API |
-| Issues closed / open | 104.2k / 12.8k (89% closed) | GitHub API |
+| Issues closed / open | 104.4k / 12.8k (89% closed) | GitHub API |
 
 ## AI resources (use these first)
 - **llms.txt:** https://docs.flutter.dev/llms.txt
@@ -90,4 +90,4 @@ One seed colour generates the full Material 3 scheme; customise `textTheme` and 
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/flutter-material.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/flutter-material.md_

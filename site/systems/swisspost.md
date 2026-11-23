@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 9.7k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://design-system.post.ch |
 | Source | https://github.com/swisspost/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 181 | GitHub API (swisspost/design-system) |
+| GitHub stars | 182 | GitHub API (swisspost/design-system) |
 | GitHub forks | 30 | GitHub API |
 | Contributors (incl. anonymous) | 45 | GitHub API |
-| Issues closed / open | 3.2k / 408 (89% closed) | GitHub API |
-| npm weekly downloads | 2.1k | npm (`@swisspost/design-system-components` 10.9.0) |
+| Issues closed / open | 3.2k / 404 (89% closed) | GitHub API |
+| npm weekly downloads | 1.4k | npm (`@swisspost/design-system-components` 10.9.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -85,4 +85,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/swisspost.md_

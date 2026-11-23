@@ -20,15 +20,15 @@
 | Source | https://github.com/themeselection/flyonui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.5k | GitHub API (themeselection/flyonui) |
-| GitHub forks | 98 | GitHub API |
+| GitHub forks | 99 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
 | Issues closed / open | 58 / 12 (83% closed) | GitHub API |
-| npm weekly downloads | 11.0k | npm (`flyonui` 2.4.1) |
+| npm weekly downloads | 11.2k | npm (`flyonui` 2.4.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://flyonui.com/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/flyonui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/flyonui.md_

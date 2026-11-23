@@ -14,18 +14,18 @@
 | Good for | marketing, motion, creative; shapes: marketing-site |
 | Dark mode / RTL | yes / not detected |
 | License | NOASSERTION |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://reactbits.dev |
 | Source | https://github.com/DavidHDev/react-bits |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 52.1k | GitHub API (DavidHDev/react-bits) |
-| GitHub forks | 2.6k | GitHub API |
-| Contributors (incl. anonymous) | 146 | GitHub API |
+| GitHub stars | 52.5k | GitHub API (DavidHDev/react-bits) |
+| GitHub forks | 2.7k | GitHub API |
+| Contributors (incl. anonymous) | 147 | GitHub API |
 | Issues closed / open | 552 / 0 (100% closed) | GitHub API |
 
 ## AI resources (use these first)
@@ -76,4 +76,4 @@ See https://reactbits.dev for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-bits.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/react-bits.md_

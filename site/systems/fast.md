@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.3k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-21 |
 | Docs | https://fast.design |
 | Source | https://github.com/microsoft/fast |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.7k | GitHub API (microsoft/fast) |
-| GitHub forks | 643 | GitHub API |
+| GitHub forks | 641 | GitHub API |
 | Contributors (incl. anonymous) | 160 | GitHub API |
 | Issues closed / open | 2.8k / 79 (97% closed) | GitHub API |
-| npm weekly downloads | 255.6k | npm (`@microsoft/fast-element` 3.1.4) |
+| npm weekly downloads | 296.1k | npm (`@microsoft/fast-element` 3.1.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fast.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/fast.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 17.4k KB |
 | License | MIT |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-18 |
 | Docs | https://service-manual.nhs.uk/design-system |
 | Source | https://github.com/nhsuk/nhsuk-frontend |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 690 | GitHub API (nhsuk/nhsuk-frontend) |
+| GitHub stars | 689 | GitHub API (nhsuk/nhsuk-frontend) |
 | GitHub forks | 143 | GitHub API |
 | Contributors (incl. anonymous) | 75 | GitHub API |
-| Issues closed / open | 403 / 34 (92% closed) | GitHub API |
-| npm weekly downloads | 35.6k | npm (`nhsuk-frontend` 10.7.2) |
+| Issues closed / open | 404 / 34 (92% closed) | GitHub API |
+| npm weekly downloads | 32.5k | npm (`nhsuk-frontend` 10.7.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nhsuk-frontend.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/nhsuk-frontend.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.7k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://hds.hel.fi |
 | Source | https://github.com/City-of-Helsinki/helsinki-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 199 | GitHub API (City-of-Helsinki/helsinki-design-system) |
-| GitHub forks | 49 | GitHub API |
-| Contributors (incl. anonymous) | 61 | GitHub API |
-| Issues closed / open | 89 / 7 (93% closed) | GitHub API |
-| npm weekly downloads | 4.1k | npm (`hds-react` 6.0.8) |
+| GitHub forks | 50 | GitHub API |
+| Contributors (incl. anonymous) | 63 | GitHub API |
+| Issues closed / open | 90 / 6 (94% closed) | GitHub API |
+| npm weekly downloads | 4.3k | npm (`hds-react` 6.0.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/helsinki-hds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/helsinki-hds.md_

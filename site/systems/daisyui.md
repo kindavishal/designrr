@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-20 |
 | Docs | https://daisyui.com |
 | Source | https://github.com/saadeghi/daisyui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 42.9k | GitHub API (saadeghi/daisyui) |
 | GitHub forks | 1.7k | GitHub API |
 | Contributors (incl. anonymous) | 317 | GitHub API |
-| Issues closed / open | 2.2k / 16 (99% closed) | GitHub API |
-| npm weekly downloads | 1.4M | npm (`daisyui` 5.8.1) |
+| Issues closed / open | 2.2k / 22 (99% closed) | GitHub API |
+| npm weekly downloads | 1.5M | npm (`daisyui` 5.8.2) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://daisyui.com/llms.txt
@@ -42,7 +42,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v5, checked against https://daisyui.com/llms.txt on 2026-11-05; latest release 5.8.1._
+_Hand-written guide for v5, checked against https://daisyui.com/llms.txt on 2026-11-05; latest release 5.8.2._
 
 ## Install
 daisyUI 5 requires Tailwind CSS 4 (no `tailwind.config.js`).
@@ -105,4 +105,4 @@ The theme generator on daisyui.com produces these blocks.
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/daisyui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/daisyui.md_

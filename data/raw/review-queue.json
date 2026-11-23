@@ -1,67 +1,79 @@
 {
-  "harvestedAt": "2026-11-16",
+  "harvestedAt": "2026-11-23",
   "note": "Repos found by topic search that are not in the seed or exclude list. Triage: promote to curation/seed-community.json or add to curation/curation.json exclude.",
-  "count": 10,
+  "count": 12,
   "queue": [
     {
       "repo": "vercel-labs/ui",
-      "stars": 5143,
+      "stars": 6668,
       "description": "A library of behaviors for agents to build the next generation of user interfaces.",
       "query": "topic:component-library"
     },
     {
       "repo": "oil-oil/oil-ui",
-      "stars": 3441,
+      "stars": 3912,
       "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
       "query": "topic:design-system"
     },
     {
-      "repo": "feimacode/open-design-agent-kit",
-      "stars": 1136,
-      "description": "Make posters, social posts, slides and landing pages in the coding agent or chat you already use (Copilot, Claude, Codex, Cursor), with 198 design systems, checks and PDF/PNG/PowerPoint export.",
-      "query": "topic:design-systems"
-    },
-    {
       "repo": "yappologistic/CUI",
-      "stars": 1104,
+      "stars": 1243,
       "description": "Native UI components for C: about 150 of them, with spring motion and full keyboard support. Windows, macOS and Linux, no dependencies.",
       "query": "topic:ui-components"
     },
     {
-      "repo": "ShuaiMXu/happyhands",
-      "stars": 506,
-      "description": "Open-source, AI-assisted UI design review for coding agents. Inspect screenshots, scope code changes and compare results in a local workbench. Alpha.",
+      "repo": "feimacode/open-design-agent-kit",
+      "stars": 1179,
+      "description": "Make posters, social posts, slides and landing pages in the coding agent or chat you already use (Copilot, Claude, Codex, Cursor), with 198 design systems, checks and PDF/PNG/PowerPoint export.",
       "query": "topic:design-systems"
     },
     {
       "repo": "arla6ka/design.how",
-      "stars": 464,
+      "stars": 628,
       "description": "Design systems, skills and visuals for coding agents",
       "query": "topic:design-system"
     },
     {
-      "repo": "Seokwoooo/lucian-uxui-prompt",
-      "stars": 331,
-      "description": "400 interactive UI elements you can try live, then copy as an AI prompt or working code: 200 interface parts and 200 website sections and animations. Light/dark, MIT.",
+      "repo": "ShuaiMXu/happyhands",
+      "stars": 537,
+      "description": "Open-source, AI-assisted UI design review for coding agents. Inspect screenshots, scope code changes and compare results in a local workbench. Alpha.",
+      "query": "topic:design-systems"
+    },
+    {
+      "repo": "acosta290/fluvy",
+      "stars": 475,
+      "description": "A premium theme and card library for Home Assistant: a card for every part of the house, a light and dark theme in palettes to choose from, automatic dashboards built from your home, a wall panel and kiosk mode for tablets, and a settings panel, one design for all of Home Assistant, installed through HACS",
       "query": "topic:design-system"
     },
     {
-      "repo": "prod-forge/frontend",
-      "stars": 326,
-      "description": "Prod Forge frontend: React web client, Expo mobile client and design system with production-grade quality gates",
+      "repo": "diego3g/craft",
+      "stars": 436,
+      "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
+      "query": "topic:design-system"
+    },
+    {
+      "repo": "Seokwoooo/lucian-uxui-prompt",
+      "stars": 349,
+      "description": "480 interactive UI elements you can try live, then copy as an AI prompt or working code: 80 essentials, 200 website sections and animations, 200 interface parts. Light/dark, MIT.",
       "query": "topic:design-system"
     },
     {
       "repo": "haxtheweb/webcomponents",
-      "stars": 279,
+      "stars": 280,
       "description": "Monorepo of HAX web components built with Lit and the DDD design system, published to npm as @haxtheweb/*",
       "query": "topic:web-components topic:design-system"
     },
     {
       "repo": "NEORUAA/Glasmio",
-      "stars": 135,
+      "stars": 153,
       "description": "A Jetpack Compose UI framework bringing a faithful 1:1 recreation of iOS 27 Liquid Glass, animations, controls, and interactions to Android.",
       "query": "topic:jetpack-compose topic:design-system"
+    },
+    {
+      "repo": "naver/design-to-ui",
+      "stars": 106,
+      "description": "Figma 디자인을 네이티브 UI(Android Compose/XML, iOS SwiftUI/UIKit)로 변환하고, 실기기 캡처를 Figma 원본과 픽셀 대조해 오차를 보정하는 Claude Code 플러그인",
+      "query": "topic:swiftui topic:design-system"
     }
   ]
 }

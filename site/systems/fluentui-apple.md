@@ -14,13 +14,13 @@
 | Good for | productivity, enterprise, microsoft-ecosystem |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-20 |
 | Docs | https://github.com/microsoft/fluentui-apple |
 | Source | https://github.com/microsoft/fluentui-apple |
 | Same family | [Fluent UI](fluent-ui.md), [Fluent UI Blazor](fluentui-blazor.md), [Fluent UI Android](fluentui-android.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -75,4 +75,4 @@ See https://github.com/microsoft/fluentui-apple for installation.
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fluentui-apple.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/fluentui-apple.md_

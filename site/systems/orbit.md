@@ -21,15 +21,15 @@
 | Source | https://github.com/kiwicom/orbit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.4k | GitHub API (kiwicom/orbit) |
-| GitHub forks | 174 | GitHub API |
+| GitHub forks | 173 | GitHub API |
 | Contributors (incl. anonymous) | 96 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 11.1k | npm (`@kiwicom/orbit-components` 27.7.1-alpha.0) |
+| npm weekly downloads | 37.8k | npm (`@kiwicom/orbit-components` 27.7.1-alpha.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/orbit.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/orbit.md_

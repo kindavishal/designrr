@@ -15,13 +15,13 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 7.5k KB |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-23 |
 | Docs | https://material.angular.dev |
 | Source | https://github.com/angular/components |
 | Same family | [Flutter Material 3](flutter-material.md), [Material Design 3 for Android (Compose)](material-android.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 6.8k | GitHub API |
 | Contributors (incl. anonymous) | 925 | GitHub API |
 | Issues closed / open | 15.1k / 1.2k (93% closed) | GitHub API |
-| npm weekly downloads | 3.1M | npm (`@angular/material` 22.2.7) |
+| npm weekly downloads | 3.3M | npm (`@angular/material` 22.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -39,7 +39,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v22, checked against https://github.com/angular/components/blob/main/guides/getting-started.md on 2026-11-05; latest release 22.2.7._
+_Hand-written guide for v22, checked against https://github.com/angular/components/blob/main/guides/getting-started.md on 2026-11-05; latest release 22.3.0._
 
 ## Install
 ```bash
@@ -103,4 +103,4 @@ Fine-tune with `mat.<component>-overrides((...))` mixins and the `--mat-sys-*` C
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/angular-material.md_

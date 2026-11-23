@@ -14,12 +14,12 @@
 | Good for | custom-brand, cross-platform |
 | Dark mode / RTL | yes / yes |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-17 |
 | Docs | https://composeunstyled.com |
 | Source | https://github.com/composablehorizons/compose-unstyled |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -75,4 +75,4 @@ See https://composeunstyled.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/compose-unstyled.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/compose-unstyled.md_

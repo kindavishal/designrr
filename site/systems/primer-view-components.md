@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 2.7k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-19 |
 | Docs | https://primer.style/view-components |
 | Source | https://github.com/primer/view_components |
 | Same family | [Primer](primer.md), [Primer Primitives (tokens)](primer-primitives.md), [Primer CSS](primer-css.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 584 | GitHub API (primer/view_components) |
-| GitHub forks | 145 | GitHub API |
-| Contributors (incl. anonymous) | 129 | GitHub API |
-| Issues closed / open | 339 / 1 (100% closed) | GitHub API |
-| npm weekly downloads | 29.0k | npm (`@primer/view-components` 0.53.5) |
+| GitHub forks | 146 | GitHub API |
+| Contributors (incl. anonymous) | 130 | GitHub API |
+| Issues closed / open | 340 / 3 (99% closed) | GitHub API |
+| npm weekly downloads | 23.4k | npm (`@primer/view-components` 0.53.5) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/primer-view-components.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/primer-view-components.md_

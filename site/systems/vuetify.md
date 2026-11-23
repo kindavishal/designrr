@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 76.5k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://vuetifyjs.com |
 | Source | https://github.com/vuetifyjs/vuetify |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 7.1k | GitHub API |
 | Contributors (incl. anonymous) | 1.2k | GitHub API |
 | Issues closed / open | 15.3k / 224 (99% closed) | GitHub API |
-| npm weekly downloads | 1.3M | npm (`vuetify` 4.3.3) |
+| npm weekly downloads | 1.4M | npm (`vuetify` 4.3.4) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://vuetifyjs.com/llms.txt
@@ -42,7 +42,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.3._
+_Hand-written guide for v4, checked against https://github.com/vuetifyjs/vuetify/blob/master/packages/docs/src/pages/en/getting-started/installation.md on 2026-11-05; latest release 4.3.4._
 
 ## Install
 New project:
@@ -107,4 +107,4 @@ Vuetify does not bundle the Roboto font; add it yourself (as above).
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/vuetify.md_

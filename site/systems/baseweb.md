@@ -20,15 +20,15 @@
 | Source | https://github.com/uber/baseweb |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.0k | GitHub API (uber/baseweb) |
-| GitHub forks | 882 | GitHub API |
+| GitHub forks | 881 | GitHub API |
 | Contributors (incl. anonymous) | 262 | GitHub API |
 | Issues closed / open | 0 / 0 | GitHub API |
-| npm weekly downloads | 117.7k | npm (`baseui` 18.2.0) |
+| npm weekly downloads | 128.9k | npm (`baseui` 18.2.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/baseweb.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/baseweb.md_

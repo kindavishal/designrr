@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.0k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.assistant-ui.com |
 | Source | https://github.com/assistant-ui/assistant-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 13.3k | GitHub API (assistant-ui/assistant-ui) |
-| GitHub forks | 1.3k | GitHub API |
-| Contributors (incl. anonymous) | 217 | GitHub API |
-| Issues closed / open | 2.1k / 33 (98% closed) | GitHub API |
-| npm weekly downloads | 3.2M | npm (`@assistant-ui/react` 0.15.36) |
+| GitHub stars | 13.4k | GitHub API (assistant-ui/assistant-ui) |
+| GitHub forks | 1.4k | GitHub API |
+| Contributors (incl. anonymous) | 224 | GitHub API |
+| Issues closed / open | 2.2k / 14 (99% closed) | GitHub API |
+| npm weekly downloads | 3.6M | npm (`@assistant-ui/react` 0.15.38) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.assistant-ui.com/llms.txt
@@ -47,7 +47,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v0.15, checked against https://www.assistant-ui.com/docs/installation.md on 2026-11-05; latest release 0.15.36._
+_Hand-written guide for v0.15, checked against https://www.assistant-ui.com/docs/installation.md on 2026-11-05; latest release 0.15.38._
 
 ## Install
 ```bash
@@ -91,4 +91,4 @@ Composable primitives (Thread, Composer, Message, ActionBar) with runtimes for t
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/assistant-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/assistant-ui.md_

@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | fintech, enterprise |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 1.4k KB |
+| Package size (unpacked) | 1.5k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://taiga-ui.dev |
 | Source | https://github.com/taiga-family/taiga-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.1k | GitHub API (taiga-family/taiga-ui) |
-| GitHub forks | 584 | GitHub API |
+| GitHub forks | 586 | GitHub API |
 | Contributors (incl. anonymous) | 339 | GitHub API |
-| Issues closed / open | 2.8k / 69 (98% closed) | GitHub API |
-| npm weekly downloads | 41.7k | npm (`@taiga-ui/core` 5.33.0) |
+| Issues closed / open | 2.8k / 70 (98% closed) | GitHub API |
+| npm weekly downloads | 35.9k | npm (`@taiga-ui/core` 5.34.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://taiga-ui.dev/llms.txt
@@ -44,7 +44,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v5, checked against https://taiga-ui.dev/getting-started.md on 2026-11-05; latest release 5.33.0._
+_Hand-written guide for v5, checked against https://taiga-ui.dev/getting-started.md on 2026-11-05; latest release 5.34.0._
 
 ## Install
 The schematic installs packages and configures styles, assets and providers:
@@ -101,4 +101,4 @@ Override Taiga's CSS variables (`--tui-background-accent-1`, `--tui-text-primary
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/taiga-ui.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 5.2k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://oruga-ui.com |
 | Source | https://github.com/oruga-ui/oruga |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.2k | GitHub API (oruga-ui/oruga) |
-| GitHub forks | 168 | GitHub API |
-| Contributors (incl. anonymous) | 91 | GitHub API |
-| Issues closed / open | 490 / 15 (97% closed) | GitHub API |
-| npm weekly downloads | 8.6k | npm (`@oruga-ui/oruga-next` 0.14.6) |
+| GitHub forks | 167 | GitHub API |
+| Contributors (incl. anonymous) | 92 | GitHub API |
+| Issues closed / open | 494 / 14 (97% closed) | GitHub API |
+| npm weekly downloads | 10.3k | npm (`@oruga-ui/oruga-next` 0.14.6) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/oruga.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/oruga.md_

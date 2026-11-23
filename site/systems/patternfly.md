@@ -15,21 +15,21 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 25.1k KB |
 | License | MIT |
-| Last activity | 2026-11-02 |
+| Last activity | 2026-11-19 |
 | Docs | https://www.patternfly.org |
 | Source | https://github.com/patternfly/patternfly-react |
 | Same family | [PatternFly Elements](patternfly-elements.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 859 | GitHub API (patternfly/patternfly-react) |
-| GitHub forks | 394 | GitHub API |
+| GitHub stars | 858 | GitHub API (patternfly/patternfly-react) |
+| GitHub forks | 398 | GitHub API |
 | Contributors (incl. anonymous) | 200 | GitHub API |
-| Issues closed / open | 5.5k / 220 (96% closed) | GitHub API |
-| npm weekly downloads | 166.0k | npm (`@patternfly/react-core` 6.7.0) |
+| Issues closed / open | 5.5k / 223 (96% closed) | GitHub API |
+| npm weekly downloads | 158.9k | npm (`@patternfly/react-core` 6.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/patternfly.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/patternfly.md_

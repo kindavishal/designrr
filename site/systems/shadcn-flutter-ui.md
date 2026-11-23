@@ -14,22 +14,22 @@
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | not detected / not detected |
 | License | MIT |
-| Last activity | 2026-11-09 |
+| Last activity | 2026-11-20 |
 | Docs | https://flutter-shadcn-ui.mariuti.com |
 | Source | https://github.com/nank1ro/flutter-shadcn-ui |
-| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [Spartan (shadcn for Angular)](spartan.md), [React Native Reusables](rn-reusables.md) |
+| Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Spartan (shadcn for Angular)](spartan.md), [Zard UI (shadcn for Angular)](zardui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.9k | GitHub API (nank1ro/flutter-shadcn-ui) |
 | GitHub forks | 201 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
-| Issues closed / open | 281 / 36 (89% closed) | GitHub API |
-| pub.dev likes | 979 | pub.dev (`shadcn_ui`) |
-| pub.dev downloads (30 days) | 106.3k | pub.dev |
+| Issues closed / open | 285 / 37 (89% closed) | GitHub API |
+| pub.dev likes | 980 | pub.dev (`shadcn_ui`) |
+| pub.dev downloads (30 days) | 106.9k | pub.dev |
 
 ## AI resources (use these first)
 - **llms.txt:** https://flutter-shadcn-ui.mariuti.com/llms.txt
@@ -75,4 +75,4 @@ flutter pub add shadcn_ui
 
 Quality gate: activity **active**; traction via stars, pub. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/shadcn-flutter-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/shadcn-flutter-ui.md_

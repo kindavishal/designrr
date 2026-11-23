@@ -14,12 +14,12 @@
 | Good for | admin, dotnet-ecosystem |
 | Dark mode / RTL | yes / not detected |
 | License | NOASSERTION |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-19 |
 | Docs | https://blazorise.com |
 | Source | https://github.com/Megabit/Blazorise |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -27,7 +27,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 533 | GitHub API |
 | Contributors (incl. anonymous) | 135 | GitHub API |
 | Issues closed / open | 3.8k / 18 (100% closed) | GitHub API |
-| NuGet downloads (all time) | 7.4M | NuGet (`Blazorise`) |
+| NuGet downloads (all time) | 7.5M | NuGet (`Blazorise`) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ dotnet add package Blazorise
 
 Quality gate: activity **active**; traction via stars, nuget, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/blazorise.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/blazorise.md_

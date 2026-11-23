@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | custom-brand |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 3.3k KB |
+| Package size (unpacked) | 3.2k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://ark-ui.com |
 | Source | https://github.com/chakra-ui/ark |
 | Same family | [Chakra UI](chakra-ui.md), [Park UI](park-ui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 5.5k | GitHub API (chakra-ui/ark) |
-| GitHub forks | 225 | GitHub API |
+| GitHub forks | 226 | GitHub API |
 | Contributors (incl. anonymous) | 103 | GitHub API |
-| Issues closed / open | 673 / 1 (100% closed) | GitHub API |
-| npm weekly downloads | 1.5M | npm (`@ark-ui/react` 5.40.0) |
+| Issues closed / open | 675 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 1.5M | npm (`@ark-ui/react` 5.40.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ark-ui.com/llms.txt
@@ -88,4 +88,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ark-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ark-ui.md_

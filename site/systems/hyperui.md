@@ -14,12 +14,12 @@
 | Good for | marketing, copy-paste; shapes: marketing-site |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.hyperui.dev |
 | Source | https://github.com/markmead/hyperui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -74,4 +74,4 @@ See https://www.hyperui.dev for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/hyperui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/hyperui.md_

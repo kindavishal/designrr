@@ -13,23 +13,23 @@
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | consumer, saas, marketing, startup-mvp; shapes: saas-app, marketing-site |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 936 KB |
+| Package size (unpacked) | 2.5k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.heroui.com |
 | Source | https://github.com/heroui-inc/heroui |
 | Same family | [HeroUI Native](heroui-native.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 31.2k | GitHub API (heroui-inc/heroui) |
+| GitHub stars | 31.3k | GitHub API (heroui-inc/heroui) |
 | GitHub forks | 2.2k | GitHub API |
-| Contributors (incl. anonymous) | 249 | GitHub API |
-| Issues closed / open | 2.9k / 10 (100% closed) | GitHub API |
-| npm weekly downloads | 1.2M | npm (`@heroui/react` 3.2.7) |
+| Contributors (incl. anonymous) | 250 | GitHub API |
+| Issues closed / open | 2.9k / 5 (100% closed) | GitHub API |
+| npm weekly downloads | 1.1M | npm (`@heroui/react` 3.2.8) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.heroui.com/llms.txt
@@ -47,7 +47,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v3, checked against https://heroui.com/docs/react/getting-started/quick-start.mdx on 2026-11-05; latest release 3.2.7._
+_Hand-written guide for v3, checked against https://heroui.com/docs/react/getting-started/quick-start.mdx on 2026-11-05; latest release 3.2.8._
 
 ## Install
 Requires React 19+ and Tailwind CSS v4 (set Tailwind up first with its framework guide).
@@ -103,4 +103,4 @@ Themes are CSS variables on top of Tailwind v4's `@theme`. Set `class="light" da
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/heroui.md_

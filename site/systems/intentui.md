@@ -14,17 +14,17 @@
 | Good for | saas, accessibility-critical |
 | Dark mode / RTL | yes / not detected |
 | License | MIT |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-22 |
 | Docs | https://intentui.com |
 | Source | https://github.com/irsyadadl/intentui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.0k | GitHub API (irsyadadl/intentui) |
-| GitHub forks | 91 | GitHub API |
+| GitHub forks | 90 | GitHub API |
 | Contributors (incl. anonymous) | 37 | GitHub API |
 | Issues closed / open | 145 / 4 (97% closed) | GitHub API |
 
@@ -75,4 +75,4 @@ See https://intentui.com for installation.
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/intentui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/intentui.md_

@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, erp |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 14.9k KB |
+| Package size (unpacked) | 15.0k KB |
 | License | MIT |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-16 |
 | Docs | https://po-ui.io |
 | Source | https://github.com/po-ui/po-angular |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.0k | GitHub API (po-ui/po-angular) |
-| GitHub forks | 242 | GitHub API |
+| GitHub forks | 243 | GitHub API |
 | Contributors (incl. anonymous) | 103 | GitHub API |
-| Issues closed / open | 525 / 86 (86% closed) | GitHub API |
-| npm weekly downloads | 5.8k | npm (`@po-ui/ng-components` 21.37.0) |
+| Issues closed / open | 525 / 88 (86% closed) | GitHub API |
+| npm weekly downloads | 5.9k | npm (`@po-ui/ng-components` 21.38.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://po-ui.io/llms.txt
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/po-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/po-ui.md_

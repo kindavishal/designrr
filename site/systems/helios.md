@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 6.1k KB |
 | License | MPL-2.0 |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://helios.hashicorp.design |
 | Source | https://github.com/hashicorp/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 519 | GitHub API (hashicorp/design-system) |
+| GitHub stars | 520 | GitHub API (hashicorp/design-system) |
 | GitHub forks | 56 | GitHub API |
 | Contributors (incl. anonymous) | 52 | GitHub API |
 | Issues closed / open | 118 / 2 (98% closed) | GitHub API |
-| npm weekly downloads | 32.3k | npm (`@hashicorp/design-system-components` 7.1.0) |
+| npm weekly downloads | 25.6k | npm (`@hashicorp/design-system-components` 7.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://h
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/helios.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/helios.md_

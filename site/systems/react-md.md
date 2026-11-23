@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 125 KB |
 | License | MIT |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-16 |
 | Docs | https://react-md.dev |
 | Source | https://github.com/mlaursen/react-md |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (mlaursen/react-md) |
 | GitHub forks | 294 | GitHub API |
 | Contributors (incl. anonymous) | 84 | GitHub API |
-| Issues closed / open | 714 / 19 (97% closed) | GitHub API |
-| npm weekly downloads | 11.3k | npm (`react-md` 7.0.8) |
+| Issues closed / open | 730 / 3 (100% closed) | GitHub API |
+| npm weekly downloads | 25.1k | npm (`react-md` 7.0.8) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-md.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/react-md.md_

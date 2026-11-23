@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 11.6k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-23 |
 | Docs | https://developers.arcgis.com/calcite-design-system/ |
 | Source | https://github.com/Esri/calcite-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 389 | GitHub API (Esri/calcite-design-system) |
-| GitHub forks | 99 | GitHub API |
+| GitHub stars | 390 | GitHub API (Esri/calcite-design-system) |
+| GitHub forks | 100 | GitHub API |
 | Contributors (incl. anonymous) | 80 | GitHub API |
-| Issues closed / open | 4.9k / 935 (84% closed) | GitHub API |
-| npm weekly downloads | 305.1k | npm (`@esri/calcite-components` 5.2.1) |
+| Issues closed / open | 4.9k / 929 (84% closed) | GitHub API |
+| npm weekly downloads | 348.9k | npm (`@esri/calcite-components` 5.2.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -85,4 +85,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/calcite.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/calcite.md_

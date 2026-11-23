@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **70/100** |
+| AI-readiness | **85/100** |
 | Maintainer | New York State ITS (org-backed) |
 | Platforms | web |
 | Frameworks | web-components, vanilla |
@@ -20,18 +20,18 @@
 | Source | https://github.com/ITS-HCD/nysds |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 56 | GitHub API (ITS-HCD/nysds) |
-| GitHub forks | 6 | GitHub API |
+| GitHub forks | 7 | GitHub API |
 | Contributors (incl. anonymous) | 10 | GitHub API |
-| Issues closed / open | 935 / 88 (91% closed) | GitHub API |
-| npm weekly downloads | 776 | npm (`@nysds/components` 1.23.2) |
+| Issues closed / open | 940 / 103 (90% closed) | GitHub API |
+| npm weekly downloads | 493 | npm (`@nysds/components` 1.23.2) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://designsystem.ny.gov/llms.txt
 - **MCP server:**
   - npm package `@nysds/mcp-server`
     ```json
@@ -59,6 +59,7 @@ npm install @nysds/components
 Then follow the framework setup in the official getting-started guide: https://designsystem.ny.gov
 
 ## Agent tips
+- Read https://designsystem.ny.gov/llms.txt first. It indexes the official docs in markdown.
 - Connect the MCP server listed above before writing code, and use it to look up components and props.
 - Design tokens live in the repo (e.g. `packages/tokens/src`). Map brand colours and type onto these rather than hard-coding values.
 - Web components work in any framework; React 19+ supports them directly, older React may need wrappers.
@@ -78,7 +79,7 @@ Then follow the framework setup in the official getting-started guide: https://d
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 20/20 |
-| llms.txt on the docs site | 0/15 |
+| llms.txt on the docs site | 15/15 |
 | llms-full.txt (whole docs as one markdown file) | 0/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
@@ -91,4 +92,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/nysds.md_

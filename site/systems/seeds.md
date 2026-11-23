@@ -14,17 +14,17 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | saas, social, marketing-tools |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 917 KB |
+| Package size (unpacked) | 920 KB |
 | License | MIT |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-17 |
 | Docs | https://seeds.sproutsocial.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 1.0k | npm (`@sproutsocial/racine` 33.0.8) |
+| npm weekly downloads | 262 | npm (`@sproutsocial/racine` 33.0.9) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/seeds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/seeds.md_

@@ -16,20 +16,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.7k KB |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-22 |
 | Docs | https://seek-oss.github.io/braid-design-system/ |
 | Source | https://github.com/seek-oss/braid-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.6k | GitHub API (seek-oss/braid-design-system) |
-| GitHub forks | 98 | GitHub API |
+| GitHub forks | 97 | GitHub API |
 | Contributors (incl. anonymous) | 41 | GitHub API |
 | Issues closed / open | 28 / 1 (97% closed) | GitHub API |
-| npm weekly downloads | 14.3k | npm (`braid-design-system` 34.11.1) |
+| npm weekly downloads | 17.9k | npm (`braid-design-system` 34.11.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/braid.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/braid.md_

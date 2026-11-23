@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, data-dense, dashboard, b2b, accessibility-critical; shapes: app-dashboard, forms-flows |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 5.2k KB |
+| Package size (unpacked) | 5.6k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://carbondesignsystem.com |
 | Source | https://github.com/carbon-design-system/carbon |
 | Same family | [Carbon Components Svelte](carbon-svelte.md), [Carbon for IBM Products](carbon-ibm-products.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 9.6k | GitHub API (carbon-design-system/carbon) |
 | GitHub forks | 2.3k | GitHub API |
-| Contributors (incl. anonymous) | 711 | GitHub API |
-| Issues closed / open | 10.5k / 987 (91% closed) | GitHub API |
-| npm weekly downloads | 170.1k | npm (`@carbon/react` 1.120.0) |
+| Contributors (incl. anonymous) | 719 | GitHub API |
+| Issues closed / open | 10.5k / 1.1k (91% closed) | GitHub API |
+| npm weekly downloads | 183.9k | npm (`@carbon/react` 1.121.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://carbondesignsystem.com/llms.txt
@@ -46,7 +46,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, checked against https://github.com/carbon-design-system/carbon/blob/main/packages/react/README.md on 2026-11-05; latest release 1.120.0._
+_Hand-written guide for v1, checked against https://github.com/carbon-design-system/carbon/blob/main/packages/react/README.md on 2026-11-05; latest release 1.121.0._
 
 ## Install
 ```bash
@@ -104,4 +104,4 @@ Carbon is intentionally opinionated: pick one of the four themes and customise t
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/carbon.md_

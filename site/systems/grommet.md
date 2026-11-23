@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 10.7k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://v2.grommet.io |
 | Source | https://github.com/grommet/grommet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 8.4k | GitHub API (grommet/grommet) |
 | GitHub forks | 1.0k | GitHub API |
 | Contributors (incl. anonymous) | 416 | GitHub API |
-| Issues closed / open | 3.4k / 385 (90% closed) | GitHub API |
-| npm weekly downloads | 54.9k | npm (`grommet` 2.58.0) |
+| Issues closed / open | 3.4k / 383 (90% closed) | GitHub API |
+| npm weekly downloads | 51.2k | npm (`grommet` 2.58.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/grommet.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/grommet.md_

@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | government, public-service |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 35.2k KB |
+| Package size (unpacked) | 35.6k KB |
 | License | MIT |
-| Last activity | 2026-11-06 |
+| Last activity | 2026-11-20 |
 | Docs | https://www.designsystem.tech.gov.sg |
 | Source | https://github.com/GovTechSG/sgds-web-component |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 19 | GitHub API (GovTechSG/sgds-web-component) |
 | GitHub forks | 12 | GitHub API |
 | Contributors (incl. anonymous) | 23 | GitHub API |
-| Issues closed / open | 165 / 60 (73% closed) | GitHub API |
-| npm weekly downloads | 15.1k | npm (`@govtechsg/sgds-web-component` 3.31.0) |
+| Issues closed / open | 175 / 62 (74% closed) | GitHub API |
+| npm weekly downloads | 18.3k | npm (`@govtechsg/sgds-web-component` 3.32.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/sgds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/sgds.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.7k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://callstack.github.io/react-native-paper/ |
 | Source | https://github.com/callstack/react-native-paper |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 14.5k | GitHub API (callstack/react-native-paper) |
 | GitHub forks | 2.3k | GitHub API |
-| Contributors (incl. anonymous) | 387 | GitHub API |
-| Issues closed / open | 2.5k / 323 (88% closed) | GitHub API |
-| npm weekly downloads | 612.6k | npm (`react-native-paper` 5.15.4) |
+| Contributors (incl. anonymous) | 391 | GitHub API |
+| Issues closed / open | 2.5k / 332 (88% closed) | GitHub API |
+| npm weekly downloads | 622.1k | npm (`react-native-paper` 5.15.5) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://callstack.github.io/react-native-paper/llms.txt
@@ -38,7 +38,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - **Agent/contributor docs in repo:** https://github.com/callstack/react-native-paper/blob/HEAD/.github/copilot-instructions.md
 
 
-_Hand-written guide for v5, checked against https://callstack.github.io/react-native-paper/docs/guides/getting-started.md on 2026-11-05; latest release 5.15.4._
+_Hand-written guide for v5, checked against https://callstack.github.io/react-native-paper/docs/guides/getting-started.md on 2026-11-05; latest release 5.15.5._
 
 ## Install
 ```bash
@@ -89,4 +89,4 @@ Generate a full Material 3 colour scheme from one brand colour (the theming guid
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-native-paper.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/react-native-paper.md_

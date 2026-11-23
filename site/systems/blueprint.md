@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | data-dense, desktop-like, analytics, enterprise; shapes: app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 9.8k KB |
+| Package size (unpacked) | 9.9k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://blueprintjs.com |
 | Source | https://github.com/palantir/blueprint |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 22.2k | GitHub API (palantir/blueprint) |
 | GitHub forks | 2.4k | GitHub API |
-| Contributors (incl. anonymous) | 471 | GitHub API |
-| Issues closed / open | 2.5k / 773 (77% closed) | GitHub API |
-| npm weekly downloads | 365.4k | npm (`@blueprintjs/core` 6.23.0) |
+| Contributors (incl. anonymous) | 472 | GitHub API |
+| Issues closed / open | 2.5k / 775 (77% closed) | GitHub API |
+| npm weekly downloads | 386.6k | npm (`@blueprintjs/core` 6.23.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/blueprint.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/blueprint.md_

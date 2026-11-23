@@ -21,15 +21,15 @@
 | Same family | [Flowbite](flowbite.md), [Flowbite Svelte](flowbite-svelte.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 2.2k | GitHub API (themesberg/flowbite-react) |
-| GitHub forks | 503 | GitHub API |
-| Contributors (incl. anonymous) | 138 | GitHub API |
+| GitHub stars | 2.1k | GitHub API (themesberg/flowbite-react) |
+| GitHub forks | 504 | GitHub API |
+| Contributors (incl. anonymous) | 136 | GitHub API |
 | Issues closed / open | 679 / 132 (84% closed) | GitHub API |
-| npm weekly downloads | 183.1k | npm (`flowbite-react` 0.12.17) |
+| npm weekly downloads | 203.8k | npm (`flowbite-react` 0.12.17) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/flowbite-react.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/flowbite-react.md_

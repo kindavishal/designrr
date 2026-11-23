@@ -9,22 +9,22 @@
 | Maintainer | Nordhealth (org-backed) |
 | Brand-locked | **yes**: Nordhealth brand identity. |
 | Platforms | web |
-| Frameworks | web-components, vanilla |
+| Frameworks | web-components |
 | Styling | web-components |
-| Install | CDN link or npm; no build step needed |
+| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | healthcare, saas |
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 8.0k KB |
 | License | SEE LICENSE IN LICENSE.md |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-17 |
 | Docs | https://nordhealth.design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 10.1k | npm (`@nordhealth/components` 5.5.2) |
+| npm weekly downloads | 9.5k | npm (`@nordhealth/components` 5.6.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://nordhealth.design/llms.txt
@@ -33,16 +33,12 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 ## Consider an alternative if
 - you are not that brand. Nordhealth brand identity.
+- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - Source not public; licence terms are in the npm package (LICENSE.md).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
-No build step needed. From the CDN (pinned to the current release):
-```html
-<script src="https://cdn.jsdelivr.net/npm/@nordhealth/components@5.5.2/lib/index.min.js"></script>
-```
-Check the docs for the recommended files: https://nordhealth.design
 ```bash
 npm install @nordhealth/components
 ```
@@ -80,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://n
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/nordhealth.md_

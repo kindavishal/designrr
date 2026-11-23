@@ -16,15 +16,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 4.2k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-05 |
+| Last activity | 2026-11-16 |
 | Docs | https://splunkui.splunk.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 3.7k | npm (`@splunk/react-ui` 5.18.0) |
+| npm weekly downloads | 4.8k | npm (`@splunk/react-ui` 5.18.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://splunkui.splunk.com/llms.txt
@@ -75,4 +75,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/splunk-ui.md_

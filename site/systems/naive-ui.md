@@ -20,15 +20,15 @@
 | Source | https://github.com/tusen-ai/naive-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 18.6k | GitHub API (tusen-ai/naive-ui) |
 | GitHub forks | 1.9k | GitHub API |
 | Contributors (incl. anonymous) | 368 | GitHub API |
-| Issues closed / open | 3.3k / 419 (89% closed) | GitHub API |
-| npm weekly downloads | 195.3k | npm (`naive-ui` 2.45.3) |
+| Issues closed / open | 3.3k / 413 (89% closed) | GitHub API |
+| npm weekly downloads | 229.4k | npm (`naive-ui` 2.45.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.naiveui.com/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/naive-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/naive-ui.md_

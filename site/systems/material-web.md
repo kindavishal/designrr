@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 7.7k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-10 |
+| Last activity | 2026-11-20 |
 | Docs | https://material-web.dev |
 | Source | https://github.com/material-components/material-web |
 | Same family | [Flutter Material 3](flutter-material.md), [Material Design 3 for Android (Compose)](material-android.md), [Angular Material](angular-material.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 11.4k | GitHub API (material-components/material-web) |
+| GitHub stars | 11.5k | GitHub API (material-components/material-web) |
 | GitHub forks | 1.2k | GitHub API |
-| Contributors (incl. anonymous) | 148 | GitHub API |
-| Issues closed / open | 1.3k / 124 (91% closed) | GitHub API |
-| npm weekly downloads | 200.2k | npm (`@material/web` 2.5.0) |
+| Contributors (incl. anonymous) | 149 | GitHub API |
+| Issues closed / open | 1.3k / 125 (91% closed) | GitHub API |
+| npm weekly downloads | 178.8k | npm (`@material/web` 2.5.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://m
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/material-web.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/material-web.md_

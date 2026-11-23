@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **55/100** |
+| AI-readiness | **60/100** |
 | Maintainer | Spartan |
 | Platforms | web |
 | Frameworks | angular |
@@ -13,23 +13,23 @@
 | Install | CLI copies component source into your repo (requires: tailwind, bundler) |
 | Good for | saas, startup-mvp |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 3.1k KB |
+| Package size (unpacked) | 3.2k KB |
 | License | MIT |
-| Last activity | 2026-11-03 |
+| Last activity | 2026-11-20 |
 | Docs | https://www.spartan.ng |
 | Source | https://github.com/spartan-ng/spartan |
 | Same family | [shadcn/ui](shadcn-ui.md), [shadcn-svelte](shadcn-svelte.md), [shadcn-vue](shadcn-vue.md), [Zard UI (shadcn for Angular)](zardui.md), [shadcn_ui (Flutter)](shadcn-flutter-ui.md), [React Native Reusables](rn-reusables.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 3.0k | GitHub API (spartan-ng/spartan) |
-| GitHub forks | 340 | GitHub API |
-| Contributors (incl. anonymous) | 158 | GitHub API |
-| Issues closed / open | 599 / 75 (89% closed) | GitHub API |
-| npm weekly downloads | 120.5k | npm (`@spartan-ng/brain` 1.9.0) |
+| GitHub forks | 342 | GitHub API |
+| Contributors (incl. anonymous) | 164 | GitHub API |
+| Issues closed / open | 612 / 72 (89% closed) | GitHub API |
+| npm weekly downloads | 127.3k | npm (`@spartan-ng/brain` 1.10.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -46,7 +46,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - the project does not use (or cannot add) Tailwind CSS.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v1, checked against https://github.com/spartan-ng/spartan/blob/main/skills/spartan/cli.md on 2026-11-05; latest release 1.9.0._
+_Hand-written guide for v1, checked against https://github.com/spartan-ng/spartan/blob/main/skills/spartan/cli.md on 2026-11-05; latest release 1.10.0._
 
 ## Install
 ```bash
@@ -89,9 +89,9 @@ Edit the CSS variables written by `ui-theme` (same model as shadcn/ui: `--primar
 | Agent docs: skills shipped in the package, or AGENTS.md / CLAUDE.md / cursor rules in the repo | 5/5 |
 | Storybook / live, inspectable examples | 5/5 |
 | Figma Code Connect (design ↔ code mapping) | 0/5 |
-| Accessibility guidance shipped with the source | 0/5 |
+| Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/spartan.md_

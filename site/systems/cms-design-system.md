@@ -20,15 +20,15 @@
 | Source | https://github.com/CMSgov/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 375 | GitHub API (CMSgov/design-system) |
 | GitHub forks | 109 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
-| Issues closed / open | 273 / 10 (96% closed) | GitHub API |
-| npm weekly downloads | 6.9k | npm (`@cmsgov/design-system` 18.2.0) |
+| Issues closed / open | 276 / 9 (97% closed) | GitHub API |
+| npm weekly downloads | 9.5k | npm (`@cmsgov/design-system` 18.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://design.cms.gov/llms.txt
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/cms-design-system.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/cms-design-system.md_

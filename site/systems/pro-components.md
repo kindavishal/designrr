@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 2.8k KB |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-20 |
 | Docs | https://procomponents.ant.design |
 | Source | https://github.com/ant-design/pro-components |
 | Same family | [Ant Design](ant-design.md), [NG-ZORRO](ng-zorro.md), [Ant Design Vue](ant-design-vue.md), [Ant Design Mobile](ant-design-mobile.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.9k | GitHub API (ant-design/pro-components) |
 | GitHub forks | 1.4k | GitHub API |
-| Contributors (incl. anonymous) | 755 | GitHub API |
-| Issues closed / open | 6.9k / 4 (100% closed) | GitHub API |
-| npm weekly downloads | 193.3k | npm (`@ant-design/pro-components` 2.8.10) |
+| Contributors (incl. anonymous) | 756 | GitHub API |
+| Issues closed / open | 6.9k / 6 (100% closed) | GitHub API |
+| npm weekly downloads | 191.6k | npm (`@ant-design/pro-components` 2.8.10) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/pro-components.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/pro-components.md_

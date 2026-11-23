@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 73.2k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-19 |
 | Docs | https://designsystem.ontario.ca |
 | Source | https://github.com/ongov/ontario-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 11 | GitHub API (ongov/ontario-design-system) |
 | GitHub forks | 3 | GitHub API |
-| Contributors (incl. anonymous) | 39 | GitHub API |
+| Contributors (incl. anonymous) | 40 | GitHub API |
 | Issues closed / open | 4 / 3 (57% closed) | GitHub API |
-| npm weekly downloads | 1.5k | npm (`@ongov/ontario-design-system-component-library` 9.2.2) |
+| npm weekly downloads | 1.8k | npm (`@ongov/ontario-design-system-component-library` 9.2.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ontario-ds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ontario-ds.md_

@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 514 KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-20 |
 | Docs | https://opensource.adobe.com/spectrum-web-components/ |
 | Source | https://github.com/adobe/spectrum-web-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 276 | GitHub API |
 | Contributors (incl. anonymous) | 145 | GitHub API |
 | Issues closed / open | 1.5k / 174 (90% closed) | GitHub API |
-| npm weekly downloads | 73.9k | npm (`@spectrum-web-components/button` 1.12.6) |
+| npm weekly downloads | 103.9k | npm (`@spectrum-web-components/button` 1.12.6) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://opensource.adobe.com/spectrum-web-components/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://o
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/spectrum-web-components.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/spectrum-web-components.md_

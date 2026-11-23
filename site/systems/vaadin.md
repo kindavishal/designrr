@@ -8,27 +8,27 @@
 | AI-readiness | **40/100** |
 | Maintainer | Vaadin (org-backed) |
 | Platforms | web |
-| Frameworks | web-components, java |
+| Frameworks | web-components, java, vanilla |
 | Styling | web-components |
-| Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
+| Install | CDN link or npm; no build step needed |
 | Good for | enterprise, data-dense, java-ecosystem |
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 42 KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://vaadin.com/docs/latest/components |
 | Source | https://github.com/vaadin/web-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 585 | GitHub API (vaadin/web-components) |
-| GitHub forks | 105 | GitHub API |
+| GitHub forks | 107 | GitHub API |
 | Contributors (incl. anonymous) | 164 | GitHub API |
-| Issues closed / open | 2.3k / 910 (71% closed) | GitHub API |
-| npm weekly downloads | 117.7k | npm (`@vaadin/button` 25.3.6) |
+| Issues closed / open | 2.3k / 911 (71% closed) | GitHub API |
+| npm weekly downloads | 141.4k | npm (`@vaadin/button` 25.3.7) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://vaadin.com/docs/latest/components/llms.txt
@@ -37,11 +37,15 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 
 ## Consider an alternative if
 - you are not building inside the java ecosystem.
-- you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
 ## Install
+No build step needed. From the CDN (pinned to the current release):
+```html
+<script src="https://cdn.jsdelivr.net/npm/@vaadin/button@25.3.7/vaadin-button.min.js"></script>
+```
+Check the docs for the recommended files: https://vaadin.com/docs/latest/components
 ```bash
 npm install @vaadin/button
 ```
@@ -79,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vaadin.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/vaadin.md_

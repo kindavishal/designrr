@@ -20,15 +20,15 @@
 | Source | https://github.com/NSWGTP/nsw-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 90 | GitHub API (NSWGTP/nsw-design-system) |
 | GitHub forks | 41 | GitHub API |
 | Contributors (incl. anonymous) | 57 | GitHub API |
-| Issues closed / open | 70 / 2 (97% closed) | GitHub API |
-| npm weekly downloads | 2.4k | npm (`nsw-design-system` 3.28.2) |
+| Issues closed / open | 70 / 3 (96% closed) | GitHub API |
+| npm weekly downloads | 2.3k | npm (`nsw-design-system` 3.28.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/nsw-design-system.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/nsw-design-system.md_

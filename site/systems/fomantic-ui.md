@@ -15,12 +15,12 @@
 | Dark mode / RTL | not detected / yes |
 | Package size (unpacked) | 21.6k KB |
 | License | MIT |
-| Last activity | 2026-11-11 |
+| Last activity | 2026-11-19 |
 | Docs | https://fomantic-ui.com |
 | Source | https://github.com/fomantic/Fomantic-UI |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 343 | GitHub API |
 | Contributors (incl. anonymous) | 320 | GitHub API |
 | Issues closed / open | 932 / 224 (81% closed) | GitHub API |
-| npm weekly downloads | 11.7k | npm (`fomantic-ui` 2.9.4) |
+| npm weekly downloads | 15.2k | npm (`fomantic-ui` 2.9.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/fomantic-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/fomantic-ui.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 6.8k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-21 |
 | Docs | https://react-spectrum.adobe.com |
 | Source | https://github.com/adobe/react-spectrum |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 16.0k | GitHub API (adobe/react-spectrum) |
-| GitHub forks | 1.6k | GitHub API |
-| Contributors (incl. anonymous) | 556 | GitHub API |
-| Issues closed / open | 3.2k / 547 (85% closed) | GitHub API |
-| npm weekly downloads | 9.3M | npm (`react-aria-components` 1.22.1) |
+| GitHub stars | 16.1k | GitHub API (adobe/react-spectrum) |
+| GitHub forks | 1.7k | GitHub API |
+| Contributors (incl. anonymous) | 559 | GitHub API |
+| Issues closed / open | 3.2k / 552 (85% closed) | GitHub API |
+| npm weekly downloads | 9.7M | npm (`react-aria-components` 1.22.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://react-spectrum.adobe.com/llms.txt
@@ -93,4 +93,4 @@ npm install @react-spectrum/s2        # React Spectrum S2: Adobe's styled compon
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-spectrum.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/react-spectrum.md_

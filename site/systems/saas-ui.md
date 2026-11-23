@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Tier | **recommended** |
-| AI-readiness | **55/100** |
+| AI-readiness | **75/100** |
 | Maintainer | Saas UI |
 | Platforms | web |
 | Frameworks | react |
@@ -15,25 +15,26 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 103 KB |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-21 |
 | Docs | https://saas-ui.dev |
 | Source | https://github.com/saas-js/saas-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.7k | GitHub API (saas-js/saas-ui) |
-| GitHub forks | 171 | GitHub API |
+| GitHub forks | 170 | GitHub API |
 | Contributors (incl. anonymous) | 39 | GitHub API |
-| Issues closed / open | 173 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 7.2k | npm (`@saas-ui/react` 2.11.4) |
+| Issues closed / open | 173 / 1 (99% closed) | GitHub API |
+| npm weekly downloads | 8.6k | npm (`@saas-ui/react` 2.11.4) |
 
 ## AI resources (use these first)
-- llms.txt: not published
+- **llms.txt:** https://saas-ui.dev/llms.txt
+- **llms-full.txt:** https://saas-ui.dev/llms-full.txt
 - MCP server: none found
-- **Design tokens:** https://github.com/saas-js/saas-ui/blob/HEAD/packages/saas-ui-chakra-preset/src/theme/tokens
+- **Design tokens:** https://github.com/saas-js/saas-ui/blob/HEAD/apps/website/lib/llms/tokens.ts
 - **Agent/contributor docs in repo:** https://github.com/saas-js/saas-ui/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
@@ -49,7 +50,8 @@ npm install @saas-ui/react
 Then follow the framework setup in the official getting-started guide: https://saas-ui.dev
 
 ## Agent tips
-- Design tokens live in the repo (e.g. `packages/saas-ui-chakra-preset/src/theme/tokens`). Map brand colours and type onto these rather than hard-coding values.
+- Read https://saas-ui.dev/llms.txt first. It indexes the official docs in markdown.
+- Design tokens live in the repo (e.g. `apps/website/lib/llms/tokens.ts`). Map brand colours and type onto these rather than hard-coding values.
 - Use the system's own layout, form and feedback components before adding third-party UI libraries.
 
 ## Build checklist (any system)
@@ -66,8 +68,8 @@ Then follow the framework setup in the official getting-started guide: https://s
 | Capability | Points |
 |---|---|
 | Official MCP server (agent can query components/docs live) | 0/20 |
-| llms.txt on the docs site | 0/15 |
-| llms-full.txt (whole docs as one markdown file) | 0/5 |
+| llms.txt on the docs site | 15/15 |
+| llms-full.txt (whole docs as one markdown file) | 5/5 |
 | Machine-readable design tokens in the repo | 15/15 |
 | Typed component API (TypeScript / Swift / Kotlin / Dart / C#) | 10/10 |
 | Registry / CLI install of component source (e.g. shadcn registry) | 10/10 |
@@ -79,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/saas-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/saas-ui.md_

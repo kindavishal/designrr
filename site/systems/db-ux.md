@@ -14,22 +14,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | transport, consumer, enterprise |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 10.2k KB |
+| Package size (unpacked) | 10.3k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://design-system.deutschebahn.com |
 | Source | https://github.com/db-ux-design-system/core-web |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 137 | GitHub API (db-ux-design-system/core-web) |
 | GitHub forks | 27 | GitHub API |
 | Contributors (incl. anonymous) | 24 | GitHub API |
-| Issues closed / open | 1.1k / 126 (90% closed) | GitHub API |
-| npm weekly downloads | 2.8k | npm (`@db-ux/core-components` 6.4.0) |
+| Issues closed / open | 1.1k / 129 (89% closed) | GitHub API |
+| npm weekly downloads | 2.7k | npm (`@db-ux/core-components` 6.4.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -88,4 +88,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/db-ux.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/db-ux.md_

@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, erp |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 85.0k KB |
+| Package size (unpacked) | 85.1k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-04 |
+| Last activity | 2026-11-17 |
 | Docs | https://www.oracle.com/webfolder/technetwork/jet/index.html |
 | Source | https://github.com/oracle/oraclejet |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 540 | GitHub API (oracle/oraclejet) |
 | GitHub forks | 114 | GitHub API |
-| Contributors (incl. anonymous) | 9 | GitHub API |
+| Contributors (incl. anonymous) | 11 | GitHub API |
 | Issues closed / open | 40 / 50 (44% closed) | GitHub API |
-| npm weekly downloads | 4.4k | npm (`@oracle/oraclejet` 21.0.3) |
+| npm weekly downloads | 4.3k | npm (`@oracle/oraclejet` 21.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/oracle-jet.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/oracle-jet.md_

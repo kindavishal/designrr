@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, admin, content |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 60.2k KB |
+| Package size (unpacked) | 60.3k KB |
 | License | NOASSERTION |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://semi.design |
 | Source | https://github.com/DouyinFE/semi-design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 10.5k | GitHub API (DouyinFE/semi-design) |
-| GitHub forks | 859 | GitHub API |
-| Contributors (incl. anonymous) | 171 | GitHub API |
-| Issues closed / open | 1.8k / 63 (97% closed) | GitHub API |
-| npm weekly downloads | 29.0k | npm (`@douyinfe/semi-ui` 2.105.0) |
+| GitHub forks | 864 | GitHub API |
+| Contributors (incl. anonymous) | 170 | GitHub API |
+| Issues closed / open | 1.8k / 65 (96% closed) | GitHub API |
+| npm weekly downloads | 30.9k | npm (`@douyinfe/semi-ui` 2.105.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/semi-design.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/semi-design.md_

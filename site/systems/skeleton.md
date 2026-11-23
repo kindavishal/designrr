@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 430 KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.skeleton.dev |
 | Source | https://github.com/skeletonlabs/skeleton |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 6.1k | GitHub API (skeletonlabs/skeleton) |
-| GitHub forks | 391 | GitHub API |
+| GitHub forks | 390 | GitHub API |
 | Contributors (incl. anonymous) | 171 | GitHub API |
 | Issues closed / open | 1.9k / 29 (98% closed) | GitHub API |
-| npm weekly downloads | 109.4k | npm (`@skeletonlabs/skeleton` 5.0.4) |
+| npm weekly downloads | 118.4k | npm (`@skeletonlabs/skeleton` 5.0.6) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.skeleton.dev/llms.txt
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars, npm. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/skeleton.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/skeleton.md_

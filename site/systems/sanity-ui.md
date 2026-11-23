@@ -20,7 +20,7 @@
 | Source | https://github.com/sanity-io/ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 24 | GitHub API |
 | Contributors (incl. anonymous) | 39 | GitHub API |
 | Issues closed / open | 30 / 15 (67% closed) | GitHub API |
-| npm weekly downloads | 3.3M | npm (`@sanity/ui` 4.4.12) |
+| npm weekly downloads | 3.5M | npm (`@sanity/ui` 4.4.12) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.sanity.io/llms.txt
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/sanity-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/sanity-ui.md_

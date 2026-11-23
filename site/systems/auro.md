@@ -21,7 +21,7 @@
 | Source | https://github.com/AlaskaAirlines/auro-button |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 12 | GitHub API |
 | Contributors (incl. anonymous) | 23 | GitHub API |
 | Issues closed / open | 165 / 10 (94% closed) | GitHub API |
-| npm weekly downloads | 4.8k | npm (`@aurodesignsystem/auro-button` 13.0.3) |
+| npm weekly downloads | 5.3k | npm (`@aurodesignsystem/auro-button` 13.0.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://auro.alaskaair.com/llms.txt
@@ -81,6 +81,6 @@ Then follow the framework setup in the official getting-started guide: https://a
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/auro.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/auro.md_

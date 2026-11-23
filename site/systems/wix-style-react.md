@@ -20,11 +20,11 @@
 | Docs | https://www.wix-style-react.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 13.3k | npm (`wix-style-react` 10.173.4) |
+| npm weekly downloads | 74.5k | npm (`wix-style-react` 10.173.4) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -34,7 +34,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - you are not that brand. Wix product identity; intended for Wix apps.
 - you are not building inside the wix ecosystem.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 369 days ago).
+- maintenance has slowed (last activity 376 days ago).
 - you rely on agent tooling. This system has few machine-readable resources.
 - Source not public on GitHub; signals come from npm.
 
@@ -74,6 +74,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 0/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via npm, orgBacked. Notes: Last activity 369 days ago (12-24 months).
+Quality gate: activity **watch**; traction via npm, orgBacked. Notes: Last activity 376 days ago (12-24 months).
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/wix-style-react.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/wix-style-react.md_

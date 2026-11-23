@@ -21,7 +21,7 @@
 | Same family | [Chakra UI](chakra-ui.md), [Ark UI](ark-ui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -29,7 +29,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 109 | GitHub API |
 | Contributors (incl. anonymous) | 31 | GitHub API |
 | Issues closed / open | 329 / 12 (96% closed) | GitHub API |
-| npm weekly downloads | 2.7k | npm (`@park-ui/cli` 1.0.1) |
+| npm weekly downloads | 2.9k | npm (`@park-ui/cli` 1.0.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via stars.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/park-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/park-ui.md_

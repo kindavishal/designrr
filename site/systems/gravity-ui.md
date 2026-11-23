@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, dashboard, devtools, data-dense; shapes: app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 8.4k KB |
+| Package size (unpacked) | 8.5k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-23 |
 | Docs | https://gravity-ui.com |
 | Source | https://github.com/gravity-ui/uikit |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.1k | GitHub API (gravity-ui/uikit) |
-| GitHub forks | 163 | GitHub API |
-| Contributors (incl. anonymous) | 232 | GitHub API |
-| Issues closed / open | 537 / 58 (90% closed) | GitHub API |
-| npm weekly downloads | 32.6k | npm (`@gravity-ui/uikit` 8.0.0) |
+| GitHub forks | 162 | GitHub API |
+| Contributors (incl. anonymous) | 233 | GitHub API |
+| Issues closed / open | 539 / 57 (90% closed) | GitHub API |
+| npm weekly downloads | 40.6k | npm (`@gravity-ui/uikit` 8.2.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://gravity-ui.com/llms.txt
@@ -39,7 +39,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v8, checked against https://github.com/gravity-ui/uikit/blob/main/docs/migration-to-v8.md on 2026-11-05; latest release 8.0.0._
+_Hand-written guide for v8, checked against https://github.com/gravity-ui/uikit/blob/main/docs/migration-to-v8.md on 2026-11-05; latest release 8.2.0._
 
 ## Install
 ```bash
@@ -93,4 +93,4 @@ Override the semantic CSS variables (`--g-color-base-brand`, `--g-color-text-bra
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/gravity-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/gravity-ui.md_

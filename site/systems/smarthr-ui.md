@@ -13,22 +13,22 @@
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | hr, saas, b2b |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 12.2k KB |
+| Package size (unpacked) | 12.3k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://smarthr.design |
 | Source | https://github.com/kufu/smarthr-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 978 | GitHub API (kufu/smarthr-ui) |
-| GitHub forks | 145 | GitHub API |
+| GitHub stars | 980 | GitHub API (kufu/smarthr-ui) |
+| GitHub forks | 146 | GitHub API |
 | Contributors (incl. anonymous) | 120 | GitHub API |
-| Issues closed / open | 354 / 5 (99% closed) | GitHub API |
-| npm weekly downloads | 38.9k | npm (`smarthr-ui` 103.1.1) |
+| Issues closed / open | 354 / 6 (98% closed) | GitHub API |
+| npm weekly downloads | 38.7k | npm (`smarthr-ui` 104.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/smarthr-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/smarthr-ui.md_

@@ -20,12 +20,12 @@
 | Source | https://github.com/webtui/webtui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.5k | GitHub API (webtui/webtui) |
-| GitHub forks | 52 | GitHub API |
+| GitHub forks | 51 | GitHub API |
 | Contributors (incl. anonymous) | 17 | GitHub API |
 | Issues closed / open | 91 / 3 (97% closed) | GitHub API |
 | npm weekly downloads | 3.6k | npm (`@webtui/css` 0.1.10) |
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/webtui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/webtui.md_

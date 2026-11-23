@@ -15,15 +15,15 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 10.7k KB |
 | License | MIT |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-17 |
 | Docs | https://design.gitlab.com |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 130.1k | npm (`@gitlab/ui` 140.1.1) |
+| npm weekly downloads | 137.6k | npm (`@gitlab/ui` 141.1.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -72,4 +72,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 5 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/gitlab-pajamas.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/gitlab-pajamas.md_

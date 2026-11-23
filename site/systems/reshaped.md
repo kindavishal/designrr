@@ -15,26 +15,26 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 2.2k KB |
 | License | MIT |
-| Last activity | 2026-11-15 |
+| Last activity | 2026-11-22 |
 | Docs | https://reshaped.so |
 | Source | https://github.com/reshaped-ui/reshaped |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.3k | GitHub API (reshaped-ui/reshaped) |
 | GitHub forks | 161 | GitHub API |
 | Contributors (incl. anonymous) | 16 | GitHub API |
-| Issues closed / open | 147 / 0 (100% closed) | GitHub API |
-| npm weekly downloads | 42.6k | npm (`reshaped` 4.3.0) |
+| Issues closed / open | 148 / 0 (100% closed) | GitHub API |
+| npm weekly downloads | 54.6k | npm (`reshaped` 4.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
 - MCP server: none found
 - **Design tokens:** https://github.com/reshaped-ui/reshaped/blob/HEAD/packages/theming/src/generation/tokens/css.ts
-- **Agent/contributor docs in repo:** https://github.com/reshaped-ui/reshaped/blob/HEAD/plugins/reshaped/skills/reshaped-v3-v4/SKILL.md
+- **Agent/contributor docs in repo:** https://github.com/reshaped-ui/reshaped/blob/HEAD/AGENTS.md
 
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://r
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/reshaped.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/reshaped.md_

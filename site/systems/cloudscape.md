@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 21.6k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://cloudscape.design |
 | Source | https://github.com/cloudscape-design/components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.7k | GitHub API (cloudscape-design/components) |
-| GitHub forks | 254 | GitHub API |
-| Contributors (incl. anonymous) | 93 | GitHub API |
-| Issues closed / open | 318 / 54 (85% closed) | GitHub API |
-| npm weekly downloads | 177.7k | npm (`@cloudscape-design/components` 3.0.1416) |
+| GitHub forks | 255 | GitHub API |
+| Contributors (incl. anonymous) | 94 | GitHub API |
+| Issues closed / open | 321 / 53 (86% closed) | GitHub API |
+| npm weekly downloads | 200.7k | npm (`@cloudscape-design/components` 3.0.1421) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://cloudscape.design/llms.txt
@@ -39,7 +39,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 
-_Hand-written guide for v3, checked against https://cloudscape.design/get-started/for-developers/using-cloudscape-components/index.html.md on 2026-11-05; latest release 3.0.1416._
+_Hand-written guide for v3, checked against https://cloudscape.design/get-started/for-developers/using-cloudscape-components/index.html.md on 2026-11-05; latest release 3.0.1421._
 
 ## Install
 ```bash
@@ -93,4 +93,4 @@ Limited by design: `applyTheme({ theme, selector: 'body' })` from `@cloudscape-d
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/cloudscape.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/cloudscape.md_

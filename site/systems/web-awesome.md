@@ -13,22 +13,22 @@
 | Install | CDN link or npm; no build step needed |
 | Good for | framework-agnostic, content, marketing; shapes: content-site, marketing-site, saas-app |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 17.1k KB |
+| Package size (unpacked) | 20.5k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-20 |
 | Docs | https://webawesome.com |
 | Source | https://github.com/shoelace-style/webawesome |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.4k | GitHub API (shoelace-style/webawesome) |
-| GitHub forks | 219 | GitHub API |
-| Contributors (incl. anonymous) | 171 | GitHub API |
-| Issues closed / open | 1.0k / 44 (96% closed) | GitHub API |
-| npm weekly downloads | 195.2k | npm (`@awesome.me/webawesome` 3.14.0) |
+| GitHub forks | 222 | GitHub API |
+| Contributors (incl. anonymous) | 173 | GitHub API |
+| Issues closed / open | 1.0k / 39 (96% closed) | GitHub API |
+| npm weekly downloads | 202.0k | npm (`@awesome.me/webawesome` 3.15.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://webawesome.com/llms.txt
@@ -38,15 +38,15 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - **Agent/contributor docs in repo:** https://github.com/shoelace-style/webawesome/blob/HEAD/packages/webawesome/CLAUDE.md
 
 
-_Hand-written guide for v3, checked against https://webawesome.com/llms.txt on 2026-11-05; latest release 3.14.0._
+_Hand-written guide for v3, checked against https://webawesome.com/llms.txt on 2026-11-05; latest release 3.15.0._
 
 ## Install
-No build step needed. In `<head>` (pinned to v3.14.0, the latest release when this page was built):
+No build step needed. In `<head>` (pinned to v3.15.0, the latest release when this page was built):
 ```html
-<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/themes/default.css" />
-<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/utilities.css" />
-<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.14.0/styles/native.css" />
-<script type="module" src="https://ka-f.webawesome.com/webawesome@3.14.0/webawesome.loader.js"></script>
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.15.0/styles/themes/default.css" />
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.15.0/styles/utilities.css" />
+<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.15.0/styles/native.css" />
+<script type="module" src="https://ka-f.webawesome.com/webawesome@3.15.0/webawesome.loader.js"></script>
 ```
 Set the theme on `<html>`: `<html class="wa-theme-default wa-palette-default wa-light">` (swap `wa-light` for `wa-dark`, add `wa-brand-<hue>` to re-brand). With a bundler: `npm install @awesome.me/webawesome` and import components individually.
 
@@ -88,4 +88,4 @@ One class re-brands everything: `wa-brand-<hue>` on `<html>`. Finer control: ove
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/web-awesome.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/web-awesome.md_

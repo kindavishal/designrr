@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, saas, dashboard, admin; shapes: saas-app, app-dashboard |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 8.3k KB |
+| Package size (unpacked) | 8.5k KB |
 | License | MIT |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-23 |
 | Docs | https://mui.com/material-ui/ |
 | Source | https://github.com/mui/material-ui |
 | Same family | [Base UI](base-ui.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 99.3k | GitHub API (mui/material-ui) |
+| GitHub stars | 99.4k | GitHub API (mui/material-ui) |
 | GitHub forks | 32.5k | GitHub API |
 | Contributors (incl. anonymous) | 3.5k | GitHub API |
 | Issues closed / open | 19.2k / 1.4k (93% closed) | GitHub API |
-| npm weekly downloads | 13.9M | npm (`@mui/material` 9.5.0) |
+| npm weekly downloads | 15.0M | npm (`@mui/material` 9.6.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://mui.com/material-ui/llms.txt
@@ -44,7 +44,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
 - you need zero-runtime styling or heavy React Server Components use. Check the docs for RSC support.
 
-_Hand-written guide for v9, checked against https://mui.com/material-ui/getting-started/installation.md on 2026-11-05; latest release 9.5.0._
+_Hand-written guide for v9, checked against https://mui.com/material-ui/getting-started/installation.md on 2026-11-05; latest release 9.6.0._
 
 ## Install
 ```bash
@@ -102,4 +102,4 @@ All brand decisions go in `createTheme` (palette, typography, shape, `components
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/mui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/mui.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 7.2k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-20 |
 | Docs | https://lion.js.org |
 | Source | https://github.com/ing-bank/lion |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.0k | GitHub API (ing-bank/lion) |
-| GitHub forks | 356 | GitHub API |
+| GitHub forks | 355 | GitHub API |
 | Contributors (incl. anonymous) | 196 | GitHub API |
-| Issues closed / open | 537 / 76 (88% closed) | GitHub API |
-| npm weekly downloads | 12.5k | npm (`@lion/ui` 0.27.0) |
+| Issues closed / open | 542 / 71 (88% closed) | GitHub API |
+| npm weekly downloads | 13.3k | npm (`@lion/ui` 0.27.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://l
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/lion.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/lion.md_

@@ -20,15 +20,15 @@
 | Source | https://github.com/tamagui/tamagui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 14.3k | GitHub API (tamagui/tamagui) |
 | GitHub forks | 629 | GitHub API |
 | Contributors (incl. anonymous) | 256 | GitHub API |
-| Issues closed / open | 1.5k / 63 (96% closed) | GitHub API |
-| npm weekly downloads | 292.6k | npm (`tamagui` 3.3.3) |
+| Issues closed / open | 1.5k / 65 (96% closed) | GitHub API |
+| npm weekly downloads | 326.6k | npm (`tamagui` 3.3.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://tamagui.dev/llms.txt
@@ -102,4 +102,4 @@ Tokens and themes are typed in the config: use `$tokens` (`bg="$background"`, `p
 
 Quality gate: activity **active**; traction via stars, npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/tamagui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/tamagui.md_

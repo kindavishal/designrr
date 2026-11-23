@@ -13,23 +13,23 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, erp, data-dense, sap-ecosystem; shapes: app-dashboard, forms-flows |
 | Dark mode / RTL | yes / yes |
-| Package size (unpacked) | 22.8k KB |
+| Package size (unpacked) | 22.9k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-18 |
 | Docs | https://sap.github.io/ui5-webcomponents/ |
 | Source | https://github.com/UI5/webcomponents |
 | Same family | [SAP Fundamental NGX](fundamental-ngx.md), [SAP Fundamental Styles](fundamental-styles.md), [UI5 Web Components for React](ui5-react.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 1.8k | GitHub API (UI5/webcomponents) |
-| GitHub forks | 293 | GitHub API |
-| Contributors (incl. anonymous) | 132 | GitHub API |
+| GitHub forks | 292 | GitHub API |
+| Contributors (incl. anonymous) | 133 | GitHub API |
 | Issues closed / open | 5.2k / 178 (97% closed) | GitHub API |
-| npm weekly downloads | 94.5k | npm (`@ui5/webcomponents` 2.28.1) |
+| npm weekly downloads | 78.9k | npm (`@ui5/webcomponents` 2.29.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://s
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ui5.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ui5.md_

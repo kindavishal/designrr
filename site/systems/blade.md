@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 50.8k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://blade.razorpay.com |
 | Source | https://github.com/razorpay/blade |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 665 | GitHub API (razorpay/blade) |
-| GitHub forks | 205 | GitHub API |
+| GitHub forks | 207 | GitHub API |
 | Contributors (incl. anonymous) | 125 | GitHub API |
 | Issues closed / open | 332 / 103 (76% closed) | GitHub API |
-| npm weekly downloads | 11.8k | npm (`@razorpay/blade` 12.131.0) |
+| npm weekly downloads | 18.4k | npm (`@razorpay/blade` 12.131.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -83,4 +83,4 @@ Then follow the framework setup in the official getting-started guide: https://b
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/blade.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/blade.md_

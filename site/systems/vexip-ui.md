@@ -15,12 +15,12 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 29.8k KB |
 | License | MIT |
-| Last activity | 2026-05-06 |
+| Last activity | 2026-11-19 |
 | Docs | https://www.vexipui.com |
 | Source | https://github.com/vexip-ui/vexip-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
@@ -28,7 +28,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 | GitHub forks | 181 | GitHub API |
 | Contributors (incl. anonymous) | 38 | GitHub API |
 | Issues closed / open | 304 / 32 (90% closed) | GitHub API |
-| npm weekly downloads | 370 | npm (`vexip-ui` 2.3.40) |
+| npm weekly downloads | 693 | npm (`vexip-ui` 2.3.40) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vexip-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/vexip-ui.md_

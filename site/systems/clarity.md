@@ -20,15 +20,15 @@
 | Source | https://github.com/vmware-clarity/ng-clarity |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 435 | GitHub API (vmware-clarity/ng-clarity) |
-| GitHub forks | 106 | GitHub API |
+| GitHub forks | 107 | GitHub API |
 | Contributors (incl. anonymous) | 139 | GitHub API |
 | Issues closed / open | 260 / 45 (85% closed) | GitHub API |
-| npm weekly downloads | 29.0k | npm (`@clr/angular` 18.5.1) |
+| npm weekly downloads | 42.4k | npm (`@clr/angular` 18.5.1) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://clarity.design/llms.txt
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/clarity.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/clarity.md_

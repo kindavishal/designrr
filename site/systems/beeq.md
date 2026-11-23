@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 29.9k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.beeq.design |
 | Source | https://github.com/Endava/BEEQ |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 162 | GitHub API (Endava/BEEQ) |
 | GitHub forks | 25 | GitHub API |
 | Contributors (incl. anonymous) | 17 | GitHub API |
-| Issues closed / open | 78 / 5 (94% closed) | GitHub API |
-| npm weekly downloads | 1.9k | npm (`@beeq/core` 1.18.0) |
+| Issues closed / open | 78 / 8 (91% closed) | GitHub API |
+| npm weekly downloads | 1.0k | npm (`@beeq/core` 1.18.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://www.beeq.design/llms.txt
@@ -84,4 +84,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/beeq.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/beeq.md_

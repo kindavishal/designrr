@@ -15,20 +15,20 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 18.6k KB |
 | License | MIT |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://ix.siemens.io |
 | Source | https://github.com/siemens/ix |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 393 | GitHub API (siemens/ix) |
-| GitHub forks | 153 | GitHub API |
+| GitHub stars | 395 | GitHub API (siemens/ix) |
+| GitHub forks | 154 | GitHub API |
 | Contributors (incl. anonymous) | 76 | GitHub API |
-| Issues closed / open | 1.1k / 48 (96% closed) | GitHub API |
-| npm weekly downloads | 33.8k | npm (`@siemens/ix` 5.3.0) |
+| Issues closed / open | 1.1k / 51 (96% closed) | GitHub API |
+| npm weekly downloads | 38.9k | npm (`@siemens/ix` 5.3.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://ix.siemens.io/llms.txt
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://i
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/siemens-ix.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/siemens-ix.md_

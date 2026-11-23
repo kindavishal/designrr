@@ -20,15 +20,15 @@
 | Source | https://github.com/detfaellesdesignsystem/dkfds-components |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 53 | GitHub API (detfaellesdesignsystem/dkfds-components) |
 | GitHub forks | 13 | GitHub API |
 | Contributors (incl. anonymous) | 18 | GitHub API |
-| Issues closed / open | 203 / 37 (85% closed) | GitHub API |
-| npm weekly downloads | 5.5k | npm (`dkfds` 11.3.0) |
+| Issues closed / open | 210 / 30 (88% closed) | GitHub API |
+| npm weekly downloads | 5.1k | npm (`dkfds` 11.3.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://d
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 10 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/dkfds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/dkfds.md_

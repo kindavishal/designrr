@@ -21,15 +21,15 @@
 | Source | https://github.com/priceline/design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 727 | GitHub API (priceline/design-system) |
+| GitHub stars | 725 | GitHub API (priceline/design-system) |
 | GitHub forks | 121 | GitHub API |
 | Contributors (incl. anonymous) | 139 | GitHub API |
 | Issues closed / open | 335 / 28 (92% closed) | GitHub API |
-| npm weekly downloads | 17.8k | npm (`pcln-design-system` 6.29.0) |
+| npm weekly downloads | 16.4k | npm (`pcln-design-system` 6.29.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -79,4 +79,4 @@ Then follow the framework setup in the official getting-started guide: https://p
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/priceline-one.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/priceline-one.md_

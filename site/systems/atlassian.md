@@ -14,17 +14,17 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | enterprise, productivity, collaboration, atlassian-ecosystem |
 | Dark mode / RTL | not detected / not detected |
-| Package size (unpacked) | 625 KB |
+| Package size (unpacked) | 630 KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-11 |
+| Last activity | 2026-11-20 |
 | Docs | https://atlassian.design |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| npm weekly downloads | 236.6k | npm (`@atlaskit/button` 25.8.1) |
+| npm weekly downloads | 263.2k | npm (`@atlaskit/button` 25.8.3) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://atlassian.design/llms.txt
@@ -76,4 +76,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/atlassian.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/atlassian.md_

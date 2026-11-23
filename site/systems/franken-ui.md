@@ -20,15 +20,15 @@
 | Source | https://github.com/franken-ui/ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.6k | GitHub API (franken-ui/ui) |
-| GitHub forks | 43 | GitHub API |
+| GitHub forks | 42 | GitHub API |
 | Contributors (incl. anonymous) | 4 | GitHub API |
 | Issues closed / open | 73 / 5 (94% closed) | GitHub API |
-| npm weekly downloads | 950 | npm (`franken-ui` 2.1.2) |
+| npm weekly downloads | 1.0k | npm (`franken-ui` 2.1.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -77,4 +77,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via stars. Notes: AI-readiness 15 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/franken-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/franken-ui.md_

@@ -15,20 +15,20 @@
 | Dark mode / RTL | not detected / not detected |
 | Package size (unpacked) | 31 KB |
 | License | MIT |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-23 |
 | Docs | https://f36.contentful.com |
 | Source | https://github.com/contentful/forma-36 |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 361 | GitHub API (contentful/forma-36) |
-| GitHub forks | 81 | GitHub API |
+| GitHub stars | 360 | GitHub API (contentful/forma-36) |
+| GitHub forks | 82 | GitHub API |
 | Contributors (incl. anonymous) | 165 | GitHub API |
 | Issues closed / open | 247 / 12 (95% closed) | GitHub API |
-| npm weekly downloads | 293.5k | npm (`@contentful/f36-components` 6.31.1) |
+| npm weekly downloads | 298.9k | npm (`@contentful/f36-components` 6.32.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://f
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/forma-36.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/forma-36.md_

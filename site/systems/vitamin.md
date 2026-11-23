@@ -21,15 +21,15 @@
 | Source | https://github.com/Decathlon/vitamin-web |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 290 | GitHub API (Decathlon/vitamin-web) |
+| GitHub stars | 289 | GitHub API (Decathlon/vitamin-web) |
 | GitHub forks | 76 | GitHub API |
 | Contributors (incl. anonymous) | 65 | GitHub API |
 | Issues closed / open | 242 / 7 (97% closed) | GitHub API |
-| npm weekly downloads | 2.0k | npm (`@vtmn/css` 3.0.2) |
+| npm weekly downloads | 3.0k | npm (`@vtmn/css` 3.0.2) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -39,7 +39,7 @@ Numbers as reported by each source on 2026-11-16; nothing is estimated.
 ## Consider an alternative if
 - you are not that brand. Decathlon brand identity.
 - you need a no-build page (plain HTML from a CDN). This needs a bundler.
-- maintenance has slowed (last activity 527 days ago).
+- maintenance has slowed (last activity 535 days ago).
 
 _Generated guide (no hand-written guide yet). Prefer the official llms.txt / MCP server for exact setup._
 
@@ -78,6 +78,6 @@ Then follow the framework setup in the official getting-started guide: https://w
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **watch**; traction via orgBacked. Notes: Last activity 527 days ago (12-24 months).
+Quality gate: activity **watch**; traction via orgBacked. Notes: Last activity 535 days ago (12-24 months).
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vitamin.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/vitamin.md_

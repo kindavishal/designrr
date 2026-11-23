@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 6.6k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-23 |
 | Docs | https://www.saltdesignsystem.com |
 | Source | https://github.com/jpmorganchase/salt-ds |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 216 | GitHub API (jpmorganchase/salt-ds) |
+| GitHub stars | 219 | GitHub API (jpmorganchase/salt-ds) |
 | GitHub forks | 146 | GitHub API |
 | Contributors (incl. anonymous) | 68 | GitHub API |
 | Issues closed / open | 2.6k / 157 (94% closed) | GitHub API |
-| npm weekly downloads | 7.7k | npm (`@salt-ds/core` 1.75.0) |
+| npm weekly downloads | 11.3k | npm (`@salt-ds/core` 1.75.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -86,4 +86,4 @@ import { SaltProvider, Button } from '@salt-ds/core';
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/salt-ds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/salt-ds.md_

@@ -21,15 +21,15 @@
 | Same family | [AI Elements Vue](ai-elements-vue.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 2.5k | GitHub API (vercel/ai-elements) |
-| GitHub forks | 295 | GitHub API |
+| GitHub forks | 296 | GitHub API |
 | Contributors (incl. anonymous) | 62 | GitHub API |
-| Issues closed / open | 164 / 51 (76% closed) | GitHub API |
-| npm weekly downloads | 137.1k | npm (`ai-elements` 1.9.1) |
+| Issues closed / open | 166 / 51 (76% closed) | GitHub API |
+| npm weekly downloads | 202.4k | npm (`ai-elements` 1.9.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -86,4 +86,4 @@ Composable chat and agent UI as source in your repo: `Message` / `MessageContent
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 30 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ai-elements.md_

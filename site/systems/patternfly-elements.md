@@ -21,15 +21,15 @@
 | Same family | [PatternFly](patternfly.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 397 | GitHub API (patternfly/patternfly-elements) |
-| GitHub forks | 109 | GitHub API |
+| GitHub stars | 396 | GitHub API (patternfly/patternfly-elements) |
+| GitHub forks | 110 | GitHub API |
 | Contributors (incl. anonymous) | 61 | GitHub API |
 | Issues closed / open | 921 / 156 (86% closed) | GitHub API |
-| npm weekly downloads | 4.0k | npm (`@patternfly/elements` 5.0.0) |
+| npm weekly downloads | 5.7k | npm (`@patternfly/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -76,6 +76,6 @@ Then follow the framework setup in the official getting-started guide: https://p
 | Accessibility guidance shipped with the source | 5/5 |
 | Dedicated documentation site | 5/5 |
 
-Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 20 < 45.
+Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 20 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/patternfly-elements.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/patternfly-elements.md_

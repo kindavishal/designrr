@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| Last activity | 2026-11-13 |
+| Last activity | 2026-11-19 |
 | Docs | https://ux.redhat.com |
 | Source | https://github.com/RedHat-UX/red-hat-design-system |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 155 | GitHub API (RedHat-UX/red-hat-design-system) |
+| GitHub stars | 156 | GitHub API (RedHat-UX/red-hat-design-system) |
 | GitHub forks | 38 | GitHub API |
 | Contributors (incl. anonymous) | 37 | GitHub API |
-| Issues closed / open | 1.2k / 99 (92% closed) | GitHub API |
-| npm weekly downloads | 2.2k | npm (`@rhds/elements` 5.0.0) |
+| Issues closed / open | 1.2k / 101 (92% closed) | GitHub API |
+| npm weekly downloads | 2.4k | npm (`@rhds/elements` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://u
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 35 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/rhds.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/rhds.md_

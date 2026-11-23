@@ -16,20 +16,20 @@
 | Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 3.6k KB |
 | License | MIT |
-| Last activity | 2026-11-10 |
+| Last activity | 2026-11-23 |
 | Docs | https://vibe.monday.com |
 | Source | https://github.com/mondaycom/vibe |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 695 | GitHub API (mondaycom/vibe) |
-| GitHub forks | 365 | GitHub API |
+| GitHub stars | 694 | GitHub API (mondaycom/vibe) |
+| GitHub forks | 368 | GitHub API |
 | Contributors (incl. anonymous) | 201 | GitHub API |
 | Issues closed / open | 231 / 14 (94% closed) | GitHub API |
-| npm weekly downloads | 187.5k | npm (`@vibe/core` 4.5.39) |
+| npm weekly downloads | 238.1k | npm (`@vibe/core` 4.5.39) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -82,4 +82,4 @@ Then follow the framework setup in the official getting-started guide: https://v
 
 Quality gate: activity **active**; traction via npm, orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/vibe.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/vibe.md_

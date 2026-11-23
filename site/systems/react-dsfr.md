@@ -15,21 +15,21 @@
 | Dark mode / RTL | yes / not detected |
 | Package size (unpacked) | 89.0k KB |
 | License | MIT |
-| Last activity | 2026-10-15 |
+| Last activity | 2026-11-20 |
 | Docs | https://components.react-dsfr.codegouv.studio |
 | Source | https://github.com/codegouvfr/react-dsfr |
 | Same family | [Système de Design de l'État (France)](dsfr.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 498 | GitHub API (codegouvfr/react-dsfr) |
-| GitHub forks | 100 | GitHub API |
-| Contributors (incl. anonymous) | 82 | GitHub API |
-| Issues closed / open | 195 / 35 (85% closed) | GitHub API |
-| npm weekly downloads | 12.2k | npm (`@codegouvfr/react-dsfr` 1.36.0) |
+| GitHub stars | 497 | GitHub API (codegouvfr/react-dsfr) |
+| GitHub forks | 99 | GitHub API |
+| Contributors (incl. anonymous) | 84 | GitHub API |
+| Issues closed / open | 196 / 34 (85% closed) | GitHub API |
+| npm weekly downloads | 17.0k | npm (`@codegouvfr/react-dsfr` 1.36.1) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via npm, orgBacked. Notes: AI-readiness 25 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/react-dsfr.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/react-dsfr.md_

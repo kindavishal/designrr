@@ -14,22 +14,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | fintech, payments, consumer |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 1.4k KB |
+| Package size (unpacked) | 1.5k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-14 |
+| Last activity | 2026-11-19 |
 | Docs | https://circuit.sumup.com |
 | Source | https://github.com/sumup-oss/circuit-ui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 984 | GitHub API (sumup-oss/circuit-ui) |
-| GitHub forks | 131 | GitHub API |
+| GitHub stars | 983 | GitHub API (sumup-oss/circuit-ui) |
+| GitHub forks | 130 | GitHub API |
 | Contributors (incl. anonymous) | 98 | GitHub API |
 | Issues closed / open | 228 / 4 (98% closed) | GitHub API |
-| npm weekly downloads | 3.1k | npm (`@sumup-oss/circuit-ui` 12.6.0) |
+| npm weekly downloads | 3.6k | npm (`@sumup-oss/circuit-ui` 12.7.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -80,4 +80,4 @@ Then follow the framework setup in the official getting-started guide: https://c
 
 Quality gate: activity **active**; traction via orgBacked.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/circuit-ui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/circuit-ui.md_

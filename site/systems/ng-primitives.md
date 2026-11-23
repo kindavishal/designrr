@@ -13,22 +13,22 @@
 | Install | npm package with a bundler (Vite, Next.js, …) (requires: bundler) |
 | Good for | custom-brand |
 | Dark mode / RTL | yes / not detected |
-| Package size (unpacked) | 4.5k KB |
+| Package size (unpacked) | 4.8k KB |
 | License | Apache-2.0 |
-| Last activity | 2026-11-16 |
+| Last activity | 2026-11-19 |
 | Docs | https://angularprimitives.com |
 | Source | https://github.com/ng-primitives/ng-primitives |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 615 | GitHub API (ng-primitives/ng-primitives) |
+| GitHub stars | 618 | GitHub API (ng-primitives/ng-primitives) |
 | GitHub forks | 85 | GitHub API |
-| Contributors (incl. anonymous) | 58 | GitHub API |
-| Issues closed / open | 296 / 63 (82% closed) | GitHub API |
-| npm weekly downloads | 33.8k | npm (`ng-primitives` 0.131.4) |
+| Contributors (incl. anonymous) | 59 | GitHub API |
+| Issues closed / open | 319 / 43 (88% closed) | GitHub API |
+| npm weekly downloads | 42.2k | npm (`ng-primitives` 0.132.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -81,4 +81,4 @@ Then follow the framework setup in the official getting-started guide: https://a
 
 Quality gate: activity **active**; traction via npm.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/ng-primitives.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/ng-primitives.md_

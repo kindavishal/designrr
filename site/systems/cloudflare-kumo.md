@@ -12,23 +12,23 @@
 | Styling | tailwind |
 | Install | npm package, needs Tailwind CSS (requires: tailwind, bundler) |
 | Good for | devtools, cloud-console, dashboard |
-| Dark mode / RTL | yes / not detected |
+| Dark mode / RTL | yes / yes |
 | Package size (unpacked) | 7.5k KB |
 | License | MIT |
-| Last activity | 2026-11-12 |
+| Last activity | 2026-11-20 |
 | Docs | https://kumo-ui.com |
 | Source | https://github.com/cloudflare/kumo |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 4.2k | GitHub API (cloudflare/kumo) |
-| GitHub forks | 208 | GitHub API |
-| Contributors (incl. anonymous) | 71 | GitHub API |
-| Issues closed / open | 78 / 15 (84% closed) | GitHub API |
-| npm weekly downloads | 788.6k | npm (`@cloudflare/kumo` 2.18.1) |
+| GitHub forks | 209 | GitHub API |
+| Contributors (incl. anonymous) | 72 | GitHub API |
+| Issues closed / open | 82 / 14 (85% closed) | GitHub API |
+| npm weekly downloads | 790.8k | npm (`@cloudflare/kumo` 2.19.0) |
 
 ## AI resources (use these first)
 - **llms.txt:** https://kumo-ui.com/llms.txt
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://k
 
 Quality gate: activity **active**; traction via stars, npm, orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/cloudflare-kumo.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/cloudflare-kumo.md_

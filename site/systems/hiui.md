@@ -20,15 +20,15 @@
 | Source | https://github.com/XiaoMi/hiui |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
-| GitHub stars | 884 | GitHub API (XiaoMi/hiui) |
-| GitHub forks | 120 | GitHub API |
+| GitHub stars | 882 | GitHub API (XiaoMi/hiui) |
+| GitHub forks | 119 | GitHub API |
 | Contributors (incl. anonymous) | 70 | GitHub API |
 | Issues closed / open | 1.5k / 71 (95% closed) | GitHub API |
-| npm weekly downloads | 1.2k | npm (`@hi-ui/hiui` 5.0.0) |
+| npm weekly downloads | 2.0k | npm (`@hi-ui/hiui` 5.0.0) |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -78,4 +78,4 @@ Then follow the framework setup in the official getting-started guide: https://w
 
 Quality gate: activity **active**; traction via orgBacked. Notes: AI-readiness 40 < 45.
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/hiui.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/hiui.md_

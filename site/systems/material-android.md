@@ -14,20 +14,20 @@
 | Good for | mobile, consumer; shapes: mobile-app |
 | Dark mode / RTL | yes / not detected |
 | License | Apache-2.0 |
-| Last activity | 2026-10-16 |
+| Last activity | 2026-11-18 |
 | Docs | https://m3.material.io |
 | Source | https://github.com/material-components/material-components-android |
 | Same family | [Flutter Material 3](flutter-material.md), [Angular Material](angular-material.md), [Material Web](material-web.md) |
 
 ## Public usage & feedback
-Numbers as reported by each source on 2026-11-16; nothing is estimated.
+Numbers as reported by each source on 2026-11-23; nothing is estimated.
 
 | Signal | Value | Source |
 |---|---|---|
 | GitHub stars | 17.5k | GitHub API (material-components/material-components-android) |
 | GitHub forks | 3.2k | GitHub API |
 | Contributors (incl. anonymous) | 244 | GitHub API |
-| Issues closed / open | 2.9k / 682 (81% closed) | GitHub API |
+| Issues closed / open | 2.9k / 680 (81% closed) | GitHub API |
 
 ## AI resources (use these first)
 - llms.txt: not published
@@ -94,4 +94,4 @@ Generate `LightColorScheme`, `DarkColorScheme` and typography from brand colours
 
 Quality gate: activity **active**; traction via stars, orgBacked. Notes: Platform-native system (ships with the SDK).
 
-_Data refreshed 2026-11-16. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_
+_Data refreshed 2026-11-23. Agent-readable source: https://designrr.vercel.app/systems/material-android.md_
